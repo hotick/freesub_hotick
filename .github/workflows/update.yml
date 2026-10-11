@@ -1,6 +1,8 @@
 name: Update Subscriptions
 
 on:
+  schedule:
+    - cron: '0 */6 * * *'
   workflow_dispatch:  # 仅保留手动触发按钮
 
 jobs:
