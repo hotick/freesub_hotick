@@ -6,51 +6,27 @@
     {
       "type": "vless",
       "tag": "🇦🇺 澳大利亚 (Australia) 01 - hotick",
-      "server": "185.162.229.30",
-      "server_port": 8880,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "vms.lifetime61.workers.dev"
+      "server": "144.172.65.72",
+      "server_port": 8443,
+      "uuid": "8afeb33c-b686-43e9-a629-0d98f991ec28",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.tradingview.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "f25sygANXTpzdc9YPCwkggwSmm3piA3BluSeHdfG-hg",
+          "short_id": ""
         }
       }
     },
     {
       "type": "hysteria2",
       "tag": "🇦🇺 澳大利亚 (Australia) 02 - hotick",
-      "server": "140.238.198.229",
-      "password": "a34f3990b69f44bfa0d32385",
-      "tls": {
-        "enabled": true,
-        "server_name": "rmgyvpn.rest",
-        "insecure": true
-      },
-      "obfs": {
-        "type": "salamander",
-        "password": "a34f3990b69f44bfa0d32385"
-      },
-      "server_ports": [
-        "20000:30000",
-        "20000:20000"
-      ]
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇦🇺 澳大利亚 (Australia) 03 - hotick",
-      "server": "vpn-au-001.fastervpn.world",
-      "server_port": 443,
-      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
-      "tls": {
-        "enabled": true,
-        "server_name": "vpn-au-001.fastervpn.world",
-        "insecure": true
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇦🇺 澳大利亚 (Australia) 04 - hotick",
       "server": "152.67.115.203",
       "server_port": 443,
       "password": "633bc3be486b646190661ac2387c150a",
@@ -65,6 +41,57 @@
       }
     },
     {
+      "type": "hysteria2",
+      "tag": "🇦🇺 澳大利亚 (Australia) 03 - hotick",
+      "server": "vpn-au-001.fastervpn.world",
+      "server_port": 443,
+      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
+      "tls": {
+        "enabled": true,
+        "server_name": "127.0.0.1",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇦🇺 澳大利亚 (Australia) 04 - hotick",
+      "server": "212.135.211.242",
+      "server_port": 443,
+      "uuid": "af4399b8-a152-486b-9cf6-acdd42d6c40c",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "aus.lovehk.xyz",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/Sydney3",
+        "headers": {
+          "Host": "aus.lovehk.xyz"
+        }
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇦🇺 澳大利亚 (Australia) 05 - hotick",
+      "server": "137.23.2.56",
+      "password": "b42d90fa667942aebc734d60",
+      "tls": {
+        "enabled": true,
+        "server_name": "rmgyvpn.rest",
+        "insecure": true
+      },
+      "obfs": {
+        "type": "salamander",
+        "password": "b42d90fa667942aebc734d60"
+      },
+      "server_ports": [
+        "20000:30000",
+        "20000:20000"
+      ]
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
@@ -72,7 +99,8 @@
         "🇦🇺 澳大利亚 (Australia) 01 - hotick",
         "🇦🇺 澳大利亚 (Australia) 02 - hotick",
         "🇦🇺 澳大利亚 (Australia) 03 - hotick",
-        "🇦🇺 澳大利亚 (Australia) 04 - hotick"
+        "🇦🇺 澳大利亚 (Australia) 04 - hotick",
+        "🇦🇺 澳大利亚 (Australia) 05 - hotick"
       ]
     },
     {
@@ -82,7 +110,8 @@
         "🇦🇺 澳大利亚 (Australia) 01 - hotick",
         "🇦🇺 澳大利亚 (Australia) 02 - hotick",
         "🇦🇺 澳大利亚 (Australia) 03 - hotick",
-        "🇦🇺 澳大利亚 (Australia) 04 - hotick"
+        "🇦🇺 澳大利亚 (Australia) 04 - hotick",
+        "🇦🇺 澳大利亚 (Australia) 05 - hotick"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
