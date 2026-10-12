@@ -6,23 +6,38 @@
     {
       "type": "vless",
       "tag": "🇧🇾 白俄罗斯 (Belarus) 01 - hotick",
-      "server": "89.125.96.89",
+      "server": "186.246.9.216",
+      "server_port": 443,
+      "uuid": "c9c219dc-50da-4135-8e5b-67020291f0ec",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "j5ftvd2nz.edgebundle.monster",
+        "utls": {
+          "enabled": true,
+          "fingerprint": ""
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "fJnm6-PhJGSwHaAdJOzXkYOfCPPCWSlaZrtfm1XsqhA",
+          "short_id": ""
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇧🇾 白俄罗斯 (Belarus) 02 - hotick",
+      "server": "89.125.96.92",
       "server_port": 2053,
       "uuid": "6c713691-3ca2-0008-ad25-113d1bed6b03",
       "tls": {
         "enabled": true,
         "server_name": "wss.zazazuza.ru",
-        "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ]
+        "insecure": false
       },
       "transport": {
         "type": "ws",
-        "path": "/vpn-wss/fluxor/59011/",
-        "headers": {
-          "Host": "wss.zazazuza.ru"
-        }
+        "path": "/vpn-wss/fluxor/59011/"
       }
     },
     {
@@ -30,14 +45,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇧🇾 白俄罗斯 (Belarus) 01 - hotick"
+        "🇧🇾 白俄罗斯 (Belarus) 01 - hotick",
+        "🇧🇾 白俄罗斯 (Belarus) 02 - hotick"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇧🇾 白俄罗斯 (Belarus) 01 - hotick"
+        "🇧🇾 白俄罗斯 (Belarus) 01 - hotick",
+        "🇧🇾 白俄罗斯 (Belarus) 02 - hotick"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

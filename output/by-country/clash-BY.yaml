@@ -5,7 +5,19 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇧🇾 白俄罗斯 (Belarus) 01 - hotick
-  server: 89.125.96.89
+  server: 186.246.9.216
+  port: 443
+  udp: true
+  type: vless
+  uuid: c9c219dc-50da-4135-8e5b-67020291f0ec
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: fJnm6-PhJGSwHaAdJOzXkYOfCPPCWSlaZrtfm1XsqhA
+  servername: j5ftvd2nz.edgebundle.monster
+  client-fingerprint: ''
+- name: 🇧🇾 白俄罗斯 (Belarus) 02 - hotick
+  server: 89.125.96.92
   port: 2053
   udp: true
   type: vless
@@ -16,19 +28,19 @@ proxies:
   network: ws
   ws-opts:
     path: /vpn-wss/fluxor/59011/
-    headers:
-      Host: wss.zazazuza.ru
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇧🇾 白俄罗斯 (Belarus) 01 - hotick
+  - 🇧🇾 白俄罗斯 (Belarus) 02 - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇧🇾 白俄罗斯 (Belarus) 01 - hotick
+  - 🇧🇾 白俄罗斯 (Belarus) 02 - hotick
 rules:
 - MATCH,PROXIES

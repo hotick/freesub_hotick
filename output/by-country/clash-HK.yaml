@@ -5,21 +5,19 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇭🇰 中国香港 (Hong Kong) 01 - hotick
-  server: 103.149.182.79
-  port: 8388
+  server: 34.92.19.135
+  port: 443
   udp: true
-  type: ss
-  cipher: chacha20-ietf
-  password: asd123456
+  type: vless
+  uuid: 90153538-ef08-4942-b8e1-41e7c523e659
+  tls: true
+  reality-opts:
+    public-key: tSBJnEt6E1dy6UgX9gX5wUfvZ2KAXjGWVKsEq886OWM
+    short-id: 56d4e7ae4f86fa39
+  servername: www.cloudflare.com
+  client-fingerprint: ios
 - name: 🇭🇰 中国香港 (Hong Kong) 02 - hotick
-  server: 103.136.150.180
-  port: 8388
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: 8YAnFbAotrFKyYsu
-- name: 🇭🇰 中国香港 (Hong Kong) 03 - hotick
-  server: 45.207.157.24
+  server: 156.224.77.171
   port: 9443
   udp: true
   type: vless
@@ -31,50 +29,34 @@ proxies:
     short-id: b390142456517acc
   servername: www.amazon.com
   client-fingerprint: random
-- name: 🇭🇰 中国香港 (Hong Kong) 04 - hotick
-  server: 202.146.222.29
-  port: 443
-  udp: true
-  type: hysteria2
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: 202.146.222.29
-  skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 05 - hotick
-  server: 202.146.222.174
-  port: 443
-  udp: true
-  type: hysteria2
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: https%3a%2f%2ft.me%2fwangcai2%f0%9f%87%a8%f0%9f%87%b3
-  skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 06 - hotick
-  server: 46.29.166.27
-  port: 20221
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: 6b39ae3234dfd68b
-- name: 🇭🇰 中国香港 (Hong Kong) 07 - hotick
-  server: 34.92.19.135
-  port: 443
-  udp: true
-  type: vless
-  uuid: 90153538-ef08-4942-b8e1-41e7c523e659
-  tls: true
-  reality-opts:
-    public-key: tSBJnEt6E1dy6UgX9gX5wUfvZ2KAXjGWVKsEq886OWM
-    short-id: 56d4e7ae4f86fa39
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇭🇰 中国香港 (Hong Kong) 08 - hotick
+- name: 🇭🇰 中国香港 (Hong Kong) 03 - hotick
   server: 202.146.222.89
   port: 443
   udp: true
   type: hysteria2
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: 'off'
+  sni: https://t.me/clashv8
   skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 09 - hotick
+- name: 🇭🇰 中国香港 (Hong Kong) 04 - hotick
+  server: 202.146.222.174
+  port: 443
+  udp: true
+  type: hysteria2
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: https://t.me/wangcai2
+  skip-cert-verify: true
+- name: 🇭🇰 中国香港 (Hong Kong) 05 - hotick
+  server: champion.xn--kivt58h.lol
+  port: 80
+  udp: true
+  type: vless
+  uuid: ed2864f9-37b3-4222-8c54-014aedc400a2
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ak.mcdonaldshamburgergoodgoodgood.xyz
+- name: 🇭🇰 中国香港 (Hong Kong) 06 - hotick
   server: full-ox.rooster465.autos
   port: 443
   udp: true
@@ -82,20 +64,7 @@ proxies:
   password: UX82473651
   sni: full-ox.rooster465.autos
   skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 10 - hotick
-  server: 82.29.36.250
-  port: 443
-  udp: true
-  type: vless
-  uuid: 41a7af38-0bb1-4493-aa8d-634af0c2548b
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: 09XPceP705hC-5sEDXDSLeL2eMOrF-mFISK8JaJ7q2g
-    short-id: 09353d6dc5b789
-  servername: aws.amazon.com
-  client-fingerprint: random
-- name: 🇭🇰 中国香港 (Hong Kong) 11 - hotick
+- name: 🇭🇰 中国香港 (Hong Kong) 07 - hotick
   server: 154.37.216.186
   port: 443
   udp: true
@@ -108,7 +77,22 @@ proxies:
     short-id: f39ad9d9eb26df47
   servername: www.bing.com
   client-fingerprint: chrome
-- name: 🇭🇰 中国香港 (Hong Kong) 12 - hotick
+- name: 🇭🇰 中国香港 (Hong Kong) 08 - hotick
+  server: 130.94.33.80
+  port: 443
+  udp: true
+  type: vless
+  uuid: 365bebc8-894e-424f-95bf-7edbef311b23
+  tls: true
+  servername: hk.sepporated.com
+  skip-cert-verify: false
+  client-fingerprint: firefox
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: hk.sepporated.com
+- name: 🇭🇰 中国香港 (Hong Kong) 09 - hotick
   server: yg1.ygkkk.dpdns.org
   port: 443
   udp: true
@@ -124,7 +108,22 @@ proxies:
     path: /b2ba4a73-3123-479e-aa96-5973a9ecd0c0-vm
     headers:
       Host: jmp1.907737.xyz
-- name: 🇭🇰 中国香港 (Hong Kong) 13 - hotick
+- name: 🇭🇰 中国香港 (Hong Kong) 10 - hotick
+  server: n1.good2026.com
+  port: 11011
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 99234c60-b01a-4d67-889a-cab58ab0061a
+- name: 🇭🇰 中国香港 (Hong Kong) 11 - hotick
+  server: 2.27.109.179
+  port: 45464
+  udp: true
+  type: trojan
+  password: XuMweB2PWs
+  sni: 2.27.109.179.sslip.io
+  skip-cert-verify: false
+- name: 🇭🇰 中国香港 (Hong Kong) 12 - hotick
   server: n2.whuiy.xyz
   port: 443
   udp: true
@@ -133,38 +132,55 @@ proxies:
   tls: true
   servername: n2.whuiy.xyz
   skip-cert-verify: false
-  client-fingerprint: chrome
   network: ws
   ws-opts:
     path: /vless-cdn
-    headers:
-      Host: n2.whuiy.xyz
-- name: 🇭🇰 中国香港 (Hong Kong) 14 - hotick
-  server: hk2.998998.best
-  port: 443
-  udp: true
-  type: vmess
-  uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: server15.9966338.xyz
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /asivewritten
-    headers:
-      Host: server15.9966338.xyz
-- name: 🇭🇰 中国香港 (Hong Kong) 15 - hotick
-  server: 152.32.254.68
-  port: 5010
+- name: 🇭🇰 中国香港 (Hong Kong) 13 - hotick
+  server: mz.hkychina.com
+  port: 8443
   udp: true
   type: hysteria2
-  password: eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ
-  sni: nas.aizhzo.com
-  skip-cert-verify: false
-  obfs: salamander
-  obfs-password: 7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9
+  password: HysTeria2026!Proxy
+  sni: mz.hkychina.com
+  skip-cert-verify: true
+- name: 🇭🇰 中国香港 (Hong Kong) 14 - hotick
+  server: 82.29.36.250
+  port: 443
+  udp: true
+  type: vless
+  uuid: 41a7af38-0bb1-4493-aa8d-634af0c2548b
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: 09XPceP705hC-5sEDXDSLeL2eMOrF-mFISK8JaJ7q2g
+    short-id: ac3342a709db
+  servername: aws.amazon.com
+  client-fingerprint: random
+- name: 🇭🇰 中国香港 (Hong Kong) 15 - hotick
+  server: t4.qifei.app
+  port: 443
+  udp: true
+  type: vless
+  uuid: b98d4c6e-6770-4a31-8256-a4750cdea0e7
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: 0i_xAxYgSNx5NMpK2lOaWGS-CvAiD_LneYPO0MF0owo
+    short-id: 1a
+  servername: s3.ap-east-1.amazonaws.com
+  client-fingerprint: chrome
+- name: 🇭🇰 中国香港 (Hong Kong) 16 - hotick
+  server: t4.qifei.app
+  port: 443
+  udp: true
+  type: vless
+  uuid: b98d4c6e-6770-4a31-8256-a4750cdea0e7
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: 0i_xAxYgSNx5NMpK2lOaWGS-CvAiD_LneYPO0MF0owo
+  servername: s3.ap-east-1.amazonaws.com
+  client-fingerprint: random
 proxy-groups:
 - name: PROXIES
   type: select
@@ -185,6 +201,7 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 13 - hotick
   - 🇭🇰 中国香港 (Hong Kong) 14 - hotick
   - 🇭🇰 中国香港 (Hong Kong) 15 - hotick
+  - 🇭🇰 中国香港 (Hong Kong) 16 - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -205,5 +222,6 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 13 - hotick
   - 🇭🇰 中国香港 (Hong Kong) 14 - hotick
   - 🇭🇰 中国香港 (Hong Kong) 15 - hotick
+  - 🇭🇰 中国香港 (Hong Kong) 16 - hotick
 rules:
 - MATCH,PROXIES

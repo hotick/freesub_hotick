@@ -6,29 +6,29 @@
     {
       "type": "vless",
       "tag": "🇮🇶 IQ 01 - hotick",
-      "server": "104.19.1.115",
+      "server": "www.speedtest.net",
       "server_port": 443,
-      "uuid": "e285fb9b-ce0a-45ea-84da-4ad64cacd216",
+      "uuid": "5d4f5139-6965-42ed-8dba-fe3ef9fed7c1",
       "tls": {
         "enabled": true,
-        "server_name": "app-874a55-219afc.reignssky2.workers.dev",
+        "server_name": "022xw1dmczg0c6165pcla6.tomborn69.workers.dev",
         "insecure": false,
         "alpn": [
-          "http/1.1"
+          "http%2f1.1"
         ]
       },
       "transport": {
         "type": "ws",
-        "path": "/vl/dOH03263y00uTucKhyn?edflow=",
+        "path": "/vl/GXgLIjqfzM8AIh6QJM?ed=2560",
         "headers": {
-          "Host": "app-874a55-219afc.reignssky2.workers.dev"
+          "Host": "022xw1dmczg0c6165pcla6.tomborn69.workers.dev"
         }
       }
     },
     {
       "type": "vless",
       "tag": "🇮🇶 IQ 02 - hotick",
-      "server": "arcturus.yokkastars.com",
+      "server": "178.17.57.120",
       "server_port": 40443,
       "uuid": "bb0f1ed0-0298-40a1-adb1-1f5d6ab33d54",
       "flow": "xtls-rprx-vision",
@@ -37,7 +37,7 @@
         "server_name": "deepl.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "qq"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,

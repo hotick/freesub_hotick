@@ -1,0 +1,32 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: rule
+log-level: info
+proxies:
+- name: 🇹🇯 TJ 01 - hotick
+  server: 72.56.9.8
+  port: 443
+  udp: true
+  type: vless
+  uuid: c9c219dc-50da-4135-8e5b-67020291f0ec
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: fJnm6-PhJGSwHaAdJOzXkYOfCPPCWSlaZrtfm1XsqhA
+  servername: yb9yei7c.cdn-node.space
+  client-fingerprint: ''
+proxy-groups:
+- name: PROXIES
+  type: select
+  proxies:
+  - AUTO
+  - 🇹🇯 TJ 01 - hotick
+- name: AUTO
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  proxies:
+  - 🇹🇯 TJ 01 - hotick
+rules:
+- MATCH,PROXIES
