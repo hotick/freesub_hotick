@@ -5,31 +5,70 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇦🇲 亚美尼亚 (Armenia) 01 - hotick
-  server: 88.218.95.88
-  port: 443
+  server: 77.91.68.70
+  port: 55983
   udp: true
   type: vless
-  uuid: b8df3f50-ffef-4c7e-9ef3-d5b156a47c02
+  uuid: f667a096-5231-4cfb-8759-92bb32473139
   tls: true
   reality-opts:
-    public-key: rRg3JiP2006ldJYh2TDPAn7dtlXLcSHdgHgkGI_HZTE
-    short-id: 43adea0ec9f97a0a
-  servername: www.google.com
+    public-key: nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg
+    short-id: 0e
+  servername: yahoo.com
   client-fingerprint: chrome
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc
+- name: 🇦🇲 亚美尼亚 (Armenia) 02 - hotick
+  server: 77.91.68.70
+  port: 55983
+  udp: true
+  type: vless
+  uuid: f667a096-5231-4cfb-8759-92bb32473139
+  tls: true
+  reality-opts:
+    public-key: nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg
+    short-id: 0e
+  servername: yahoo.com
+  client-fingerprint: qq
+- name: 🇦🇲 亚美尼亚 (Armenia) 03 - hotick
+  server: 77.91.68.70
+  port: 55983
+  udp: true
+  type: vless
+  uuid: f667a096-5231-4cfb-8759-92bb32473139
+  tls: true
+  reality-opts:
+    public-key: nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg
+    short-id: 0e
+  servername: yahoo.com
+  client-fingerprint: chrome
+- name: 🇦🇲 亚美尼亚 (Armenia) 04 - hotick
+  server: 77.91.68.70
+  port: 55983
+  udp: true
+  type: vless
+  uuid: f667a096-5231-4cfb-8759-92bb32473139
+  tls: true
+  reality-opts:
+    public-key: nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg
+    short-id: 0e
+  servername: yahoo.com
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇦🇲 亚美尼亚 (Armenia) 01 - hotick
+  - 🇦🇲 亚美尼亚 (Armenia) 02 - hotick
+  - 🇦🇲 亚美尼亚 (Armenia) 03 - hotick
+  - 🇦🇲 亚美尼亚 (Armenia) 04 - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇦🇲 亚美尼亚 (Armenia) 01 - hotick
+  - 🇦🇲 亚美尼亚 (Armenia) 02 - hotick
+  - 🇦🇲 亚美尼亚 (Armenia) 03 - hotick
+  - 🇦🇲 亚美尼亚 (Armenia) 04 - hotick
 rules:
 - MATCH,PROXIES

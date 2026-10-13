@@ -5,7 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇬🇧 英国 (United Kingdom) 01 - hotick
-  server: 13.40.42.59
+  server: 13.40.25.145
   port: 443
   udp: true
   type: ss
@@ -13,25 +13,25 @@ proxies:
   password: amazonskr05
 - name: 🇬🇧 英国 (United Kingdom) 02 - hotick
   server: 149.102.132.184
-  port: 443
+  port: 80
   udp: true
   type: ss
   cipher: aes-256-gcm
   password: g5h5jleTRSyO3Rk4
 - name: 🇬🇧 英国 (United Kingdom) 03 - hotick
-  server: 146.70.61.37
-  port: 8080
-  udp: true
-  type: ss
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-- name: 🇬🇧 英国 (United Kingdom) 04 - hotick
-  server: 13.40.25.145
+  server: 149.102.132.184
   port: 443
   udp: true
   type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
+  cipher: aes-256-gcm
+  password: g5h5jleTRSyO3Rk4
+- name: 🇬🇧 英国 (United Kingdom) 04 - hotick
+  server: 51.77.225.200
+  port: 8388
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: zRZNBszYyWo5
 - name: 🇬🇧 英国 (United Kingdom) 05 - hotick
   server: 141.98.101.181
   port: 443
@@ -40,34 +40,27 @@ proxies:
   cipher: aes-128-gcm
   password: shadowsocks
 - name: 🇬🇧 英国 (United Kingdom) 06 - hotick
-  server: 149.102.132.184
-  port: 80
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: g5h5jleTRSyO3Rk4
-- name: 🇬🇧 英国 (United Kingdom) 07 - hotick
-  server: 51.77.225.200
-  port: 8388
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: zRZNBszYyWo5
-- name: 🇬🇧 英国 (United Kingdom) 08 - hotick
   server: 13.135.199.253
   port: 443
   udp: true
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 🇬🇧 英国 (United Kingdom) 09 - hotick
-  server: 149.102.149.207
+- name: 🇬🇧 英国 (United Kingdom) 07 - hotick
+  server: 13.40.42.59
   port: 443
   udp: true
   type: ss
-  cipher: aes-256-gcm
-  password: LXchLsIwtCeUAUgu
-- name: 🇬🇧 英国 (United Kingdom) 10 - hotick
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇬🇧 英国 (United Kingdom) 08 - hotick
+  server: 16.60.8.87
+  port: 443
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇬🇧 英国 (United Kingdom) 09 - hotick
   server: 23.81.34.204
   port: 443
   udp: true
@@ -79,21 +72,40 @@ proxies:
     public-key: J_p_dxR8dIKaezk1_Ins5MZ7e4dqgrr2n9690vVuQ2s
     short-id: b19b017d6f453873
   servername: speed.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇬🇧 英国 (United Kingdom) 11 - hotick
+  client-fingerprint: firefox
+- name: 🇬🇧 英国 (United Kingdom) 10 - hotick
   server: 146.70.61.18
   port: 8080
   udp: true
   type: ss
   cipher: rc4-md5
   password: 14fFPrbezE3HDZzsMOr6
-- name: 🇬🇧 英国 (United Kingdom) 12 - hotick
-  server: 149.102.149.207
+- name: 🇬🇧 英国 (United Kingdom) 11 - hotick
+  server: 57.129.132.223
   port: 80
   udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: LXchLsIwtCeUAUgu
+  type: vmess
+  uuid: a25cbf11-2908-4a1b-a3a8-9a571777dca3
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-opts:
+    path: /vmess/
+    headers:
+      Host: viber.com
+- name: 🇬🇧 英国 (United Kingdom) 12 - hotick
+  server: 57.129.132.223
+  port: 80
+  udp: true
+  type: vmess
+  uuid: a25cbf11-2908-4a1b-a3a8-9a571777dca3
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-opts:
+    path: /vmess/
+    headers:
+      Host: google.com
 - name: 🇬🇧 英国 (United Kingdom) 13 - hotick
   server: 57.129.132.223
   port: 80
@@ -108,6 +120,67 @@ proxies:
     headers:
       Host: google.com
 - name: 🇬🇧 英国 (United Kingdom) 14 - hotick
+  server: 57.129.132.223
+  port: 80
+  udp: true
+  type: vmess
+  uuid: a25cbf11-2908-4a1b-a3a8-9a571777dca3
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-opts:
+    path: /vmess/
+- name: 🇬🇧 英国 (United Kingdom) 15 - hotick
+  server: 57.129.132.223
+  port: 80
+  udp: true
+  type: vmess
+  uuid: a25cbf11-2908-4a1b-a3a8-9a571777dca3
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-opts:
+    path: /vmess/
+    headers:
+      Host: viber.com
+- name: 🇬🇧 英国 (United Kingdom) 16 - hotick
+  server: 57.129.132.223
+  port: 80
+  udp: true
+  type: vmess
+  uuid: a25cbf11-2908-4a1b-a3a8-9a571777dca3
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-opts:
+    path: /vmess/
+    headers:
+      Host: viber.com
+- name: 🇬🇧 英国 (United Kingdom) 17 - hotick
+  server: 57.129.132.223
+  port: 80
+  udp: true
+  type: vmess
+  uuid: a25cbf11-2908-4a1b-a3a8-9a571777dca3
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-opts:
+    path: /vmess/
+    headers:
+      Host: 57.129.132.223
+- name: 🇬🇧 英国 (United Kingdom) 18 - hotick
+  server: 57.129.132.223
+  port: 80
+  udp: true
+  type: vless
+  uuid: 9e20b04d-5a81-4e16-b421-01e502f0aac6
+  network: ws
+  ws-opts:
+    path: /vless/
+    headers:
+      Host: google.com
+- name: 🇬🇧 英国 (United Kingdom) 19 - hotick
   server: 164.37.100.195
   port: 443
   udp: true
@@ -120,27 +193,25 @@ proxies:
     short-id: 2e124af254a65e7c
   servername: tomaz1337shellbuy.vvzzkontaktezzvv.garden
   client-fingerprint: firefox
-- name: 🇬🇧 英国 (United Kingdom) 15 - hotick
+- name: 🇬🇧 英国 (United Kingdom) 20 - hotick
   server: 146.70.23.32
   port: 8080
   udp: true
   type: ss
   cipher: rc4-md5
   password: 14fFPrbezE3HDZzsMOr6
-- name: 🇬🇧 英国 (United Kingdom) 16 - hotick
-  server: 23.81.36.65
-  port: 443
+- name: 🇬🇧 英国 (United Kingdom) 21 - hotick
+  server: 178.107.58.80
+  port: 8443
   udp: true
   type: vless
-  uuid: ee18d188-14cc-417e-beb1-70e4add6d023
+  uuid: d0b32482-67aa-426d-8735-ab6c7ceb65bd
   flow: xtls-rprx-vision
   tls: true
-  reality-opts:
-    public-key: UcFVpzbYTy8Iym6ZnCAtLQK-MeRg6wZuyni4xEOKG18
-    short-id: 0da7e14db353e7d0
-  servername: uk.nztvpn.com
-  client-fingerprint: chrome
-- name: 🇬🇧 英国 (United Kingdom) 17 - hotick
+  servername: cdn.intercom-home.online
+  skip-cert-verify: false
+  client-fingerprint: firefox
+- name: 🇬🇧 英国 (United Kingdom) 22 - hotick
   server: 46.250.250.149
   port: 2053
   udp: true
@@ -152,17 +223,84 @@ proxies:
     short-id: 9922313fffed1c63
   servername: www.apple.com
   client-fingerprint: firefox
-- name: 🇬🇧 英国 (United Kingdom) 18 - hotick
-  server: 186.190.211.188
+- name: 🇬🇧 英国 (United Kingdom) 23 - hotick
+  server: 35.177.67.165
+  port: 443
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇬🇧 英国 (United Kingdom) 24 - hotick
+  server: laga16.api3-max.ru
   port: 443
   udp: true
   type: vless
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  uuid: b8254d35-1cb0-4b74-8f7f-d2bc985196a0
+  flow: xtls-rprx-vision
   tls: true
-  servername: 186.190.211.188
-  skip-cert-verify: true
-  client-fingerprint: chrome
-- name: 🇬🇧 英国 (United Kingdom) 19 - hotick
+  servername: laga16.api3-max.ru
+  skip-cert-verify: false
+  client-fingerprint: firefox
+- name: 🇬🇧 英国 (United Kingdom) 25 - hotick
+  server: 217.60.63.5
+  port: 443
+  udp: true
+  type: vless
+  uuid: b0a100ee-c397-43f2-bdae-2adfb7a0d4e5
+  tls: true
+  servername: rnxq-1lpi3m.linmeisoft.com
+  skip-cert-verify: false
+  client-fingerprint: ios
+  network: ws
+  ws-opts:
+    path: /b0a100ee-c397-43f2-bdae-2adfb7a0d4e5
+    headers:
+      Host: rnxq-1lpi3m.linmeisoft.com
+- name: 🇬🇧 英国 (United Kingdom) 26 - hotick
+  server: lagad17.api3-max.ru
+  port: 443
+  udp: true
+  type: vless
+  uuid: b8254d35-1cb0-4b74-8f7f-d2bc985196a0
+  flow: xtls-rprx-vision
+  tls: true
+  servername: lagad17.api3-max.ru
+  skip-cert-verify: false
+  client-fingerprint: firefox
+- name: 🇬🇧 英国 (United Kingdom) 27 - hotick
+  server: laga19.api3-max.ru
+  port: 443
+  udp: true
+  type: vless
+  uuid: b8254d35-1cb0-4b74-8f7f-d2bc985196a0
+  flow: xtls-rprx-vision
+  tls: true
+  servername: laga19.api3-max.ru
+  skip-cert-verify: false
+  client-fingerprint: firefox
+- name: 🇬🇧 英国 (United Kingdom) 28 - hotick
+  server: laga20.api3-max.ru
+  port: 443
+  udp: true
+  type: vless
+  uuid: b8254d35-1cb0-4b74-8f7f-d2bc985196a0
+  flow: xtls-rprx-vision
+  tls: true
+  servername: laga20.api3-max.ru
+  skip-cert-verify: false
+  client-fingerprint: firefox
+- name: 🇬🇧 英国 (United Kingdom) 29 - hotick
+  server: laga18.api3-max.ru
+  port: 443
+  udp: true
+  type: vless
+  uuid: b8254d35-1cb0-4b74-8f7f-d2bc985196a0
+  flow: xtls-rprx-vision
+  tls: true
+  servername: laga18.api3-max.ru
+  skip-cert-verify: false
+  client-fingerprint: firefox
+- name: 🇬🇧 英国 (United Kingdom) 30 - hotick
   server: 95.85.224.51
   port: 443
   udp: true
@@ -175,93 +313,27 @@ proxies:
     short-id: a696de84963656de
   servername: max.ru
   client-fingerprint: chrome
-- name: 🇬🇧 英国 (United Kingdom) 20 - hotick
-  server: 103.169.142.87
-  port: 443
-  udp: true
-  type: vmess
-  uuid: 31c3e8e7-f600-436a-87d4-9716143b0b0c
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: uk.lovehk.xyz
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /London3
-    headers:
-      Host: uk.lovehk.xyz
-- name: 🇬🇧 英国 (United Kingdom) 21 - hotick
-  server: 23.81.36.148
-  port: 1222
-  udp: true
-  type: vless
-  uuid: 36c3dcc2-17b6-4478-b8a7-3978e6d5afe9
-  tls: true
-  reality-opts:
-    public-key: zpLKK8HuwXJDH9D0O3t5Z_tO3ajkj7VRtXdr6UGy1zE
-    short-id: a25d0f
-  servername: www.forvo.com
-  client-fingerprint: chrome
-- name: 🇬🇧 英国 (United Kingdom) 22 - hotick
-  server: 46.250.240.80
-  port: 2053
-  udp: true
-  type: vless
-  uuid: 948df76f-505d-4608-9c76-a933ee3ccc76
-  tls: true
-  reality-opts:
-    public-key: CYFeysLf--_IVhxQOCd3ZxLrAVWFFOkJzvIGHOVXN3E
-    short-id: 4cc9dc65f7770115
-  servername: www.cloudflare.com
-  client-fingerprint: firefox
-- name: 🇬🇧 英国 (United Kingdom) 23 - hotick
-  server: 35.177.67.165
-  port: 443
+- name: 🇬🇧 英国 (United Kingdom) 31 - hotick
+  server: 94.156.250.148
+  port: 7001
   udp: true
   type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇬🇧 英国 (United Kingdom) 24 - hotick
-  server: 107.181.151.241
+  cipher: aes-256-gcm
+  password: RexnBgU7EV5ADxG
+- name: 🇬🇧 英国 (United Kingdom) 32 - hotick
+  server: 107.181.151.39
   port: 443
   udp: true
   type: vless
-  uuid: 106d20f6-d70a-40e2-b69b-8e82baf8d117
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: FjcEZNQ8t5E4R04_11T6ghsOutdqwKKrelkuadakoQg
-    short-id: 60500a63ad12
-  servername: www.microsoft.com
-  client-fingerprint: chrome
-- name: 🇬🇧 英国 (United Kingdom) 25 - hotick
-  server: server.slavkiti.monster
-  port: 443
-  udp: true
-  type: vless
-  uuid: fad0b9a6-187d-4fcc-96fc-498bc5b3135a
+  uuid: 6dfc9149-1ff9-41c3-8563-0ef284381731
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
     public-key: J-dv-HrWfQ_IOoyutv0Kg-rO8QwoRwc02dS1dS_tblk
-    short-id: 8325360e8bd2
-  servername: www.foxsports.com
-  client-fingerprint: random
-- name: 🇬🇧 英国 (United Kingdom) 26 - hotick
-  server: 87.239.249.137
-  port: 443
-  udp: true
-  type: vless
-  uuid: 67eb6b17-7797-4ded-bf52-423c4c5f6cbd
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: G7bpUPFSW28-oE6ff8qZac1_apU6PiJ-GHmi7tAPDSY
-    short-id: 91af08b1ce1f
-  servername: www.foxsports.com
-  client-fingerprint: chrome
-- name: 🇬🇧 英国 (United Kingdom) 27 - hotick
+    short-id: 1374bddeb25d
+  servername: www.tradingview.com
+  client-fingerprint: firefox
+- name: 🇬🇧 英国 (United Kingdom) 33 - hotick
   server: 104.238.2.82
   port: 443
   udp: true
@@ -274,15 +346,58 @@ proxies:
     short-id: b558b9305a0b
   servername: www.microsoft.com
   client-fingerprint: chrome
-- name: 🇬🇧 英国 (United Kingdom) 28 - hotick
-  server: v36.hdacd.com
-  port: 30836
+- name: 🇬🇧 英国 (United Kingdom) 34 - hotick
+  server: 107.181.151.241
+  port: 443
   udp: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-- name: 🇬🇧 英国 (United Kingdom) 29 - hotick
+  type: vless
+  uuid: 317bc783-340f-453c-afb5-b6bf637c0b23
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: FjcEZNQ8t5E4R04_11T6ghsOutdqwKKrelkuadakoQg
+    short-id: fc994ae7eb10
+  servername: www.tradingview.com
+  client-fingerprint: chrome
+- name: 🇬🇧 英国 (United Kingdom) 35 - hotick
+  server: 87.239.249.137
+  port: 443
+  udp: true
+  type: vless
+  uuid: 67eb6b17-7797-4ded-bf52-423c4c5f6cbd
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: G7bpUPFSW28-oE6ff8qZac1_apU6PiJ-GHmi7tAPDSY
+    short-id: 91af08b1ce1f
+  servername: www.foxsports.com
+  client-fingerprint: random
+- name: 🇬🇧 英国 (United Kingdom) 36 - hotick
+  server: 46.250.240.80
+  port: 2053
+  udp: true
+  type: vless
+  uuid: 948df76f-505d-4608-9c76-a933ee3ccc76
+  tls: true
+  reality-opts:
+    public-key: CYFeysLf--_IVhxQOCd3ZxLrAVWFFOkJzvIGHOVXN3E
+    short-id: 4cc9dc65f7770115
+  servername: www.cloudflare.com
+  client-fingerprint: firefox
+- name: 🇬🇧 英国 (United Kingdom) 37 - hotick
+  server: 193.163.203.170
+  port: 443
+  udp: true
+  type: vless
+  uuid: 11aabba0-5fd1-4f15-8068-74c1a466cefc
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: GCCZ1ZZjB_nj7yxqFi22bIIWWr_G6rnWUzDcssN_40o
+    short-id: b28db60d77c50b4f
+  servername: yandex.ru
+  client-fingerprint: firefox
+- name: 🇬🇧 英国 (United Kingdom) 38 - hotick
   server: 51.89.194.151
   port: 2053
   udp: true
@@ -294,6 +409,25 @@ proxies:
     short-id: d051f678212f9d54
   servername: www.apple.com
   client-fingerprint: chrome
+- name: 🇬🇧 英国 (United Kingdom) 39 - hotick
+  server: 146.70.61.37
+  port: 8080
+  udp: true
+  type: ss
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+- name: 🇬🇧 英国 (United Kingdom) 40 - hotick
+  server: 23.81.36.148
+  port: 1222
+  udp: true
+  type: vless
+  uuid: 36c3dcc2-17b6-4478-b8a7-3978e6d5afe9
+  tls: true
+  reality-opts:
+    public-key: zpLKK8HuwXJDH9D0O3t5Z_tO3ajkj7VRtXdr6UGy1zE
+    short-id: a25d0f
+  servername: www.forvo.com
+  client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
   type: select
@@ -328,6 +462,17 @@ proxy-groups:
   - 🇬🇧 英国 (United Kingdom) 27 - hotick
   - 🇬🇧 英国 (United Kingdom) 28 - hotick
   - 🇬🇧 英国 (United Kingdom) 29 - hotick
+  - 🇬🇧 英国 (United Kingdom) 30 - hotick
+  - 🇬🇧 英国 (United Kingdom) 31 - hotick
+  - 🇬🇧 英国 (United Kingdom) 32 - hotick
+  - 🇬🇧 英国 (United Kingdom) 33 - hotick
+  - 🇬🇧 英国 (United Kingdom) 34 - hotick
+  - 🇬🇧 英国 (United Kingdom) 35 - hotick
+  - 🇬🇧 英国 (United Kingdom) 36 - hotick
+  - 🇬🇧 英国 (United Kingdom) 37 - hotick
+  - 🇬🇧 英国 (United Kingdom) 38 - hotick
+  - 🇬🇧 英国 (United Kingdom) 39 - hotick
+  - 🇬🇧 英国 (United Kingdom) 40 - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -362,5 +507,16 @@ proxy-groups:
   - 🇬🇧 英国 (United Kingdom) 27 - hotick
   - 🇬🇧 英国 (United Kingdom) 28 - hotick
   - 🇬🇧 英国 (United Kingdom) 29 - hotick
+  - 🇬🇧 英国 (United Kingdom) 30 - hotick
+  - 🇬🇧 英国 (United Kingdom) 31 - hotick
+  - 🇬🇧 英国 (United Kingdom) 32 - hotick
+  - 🇬🇧 英国 (United Kingdom) 33 - hotick
+  - 🇬🇧 英国 (United Kingdom) 34 - hotick
+  - 🇬🇧 英国 (United Kingdom) 35 - hotick
+  - 🇬🇧 英国 (United Kingdom) 36 - hotick
+  - 🇬🇧 英国 (United Kingdom) 37 - hotick
+  - 🇬🇧 英国 (United Kingdom) 38 - hotick
+  - 🇬🇧 英国 (United Kingdom) 39 - hotick
+  - 🇬🇧 英国 (United Kingdom) 40 - hotick
 rules:
 - MATCH,PROXIES
