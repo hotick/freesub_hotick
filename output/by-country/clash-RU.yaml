@@ -5,7 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 - hotick
-  server: 193.233.74.6
+  server: 147.45.60.160
   port: 8444
   udp: true
   type: vless
@@ -13,20 +13,26 @@ proxies:
   tls: true
   reality-opts:
     public-key: FWitre1jinQR7qz5HQ0q2Q4Gg9xA9B0SyizCziN7Ch0
-    short-id: 457fab2ac885dbe0
   servername: github.com
   client-fingerprint: chrome
   network: grpc
   grpc-opts:
     grpc-service-name: GunService
 - name: 🇷🇺 俄罗斯 (Russia) 02 - hotick
-  server: 185.227.174.29
-  port: 8389
+  server: 194.38.11.86
+  port: 65443
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: 7eadc6dbe2ae
+- name: 🇷🇺 俄罗斯 (Russia) 03 - hotick
+  server: 89.125.103.208
+  port: 20111
   udp: true
   type: ss
   cipher: aes-256-gcm
-  password: EwUhOxemnPqaUvJgq4S8ug
-- name: 🇷🇺 俄罗斯 (Russia) 03 - hotick
+  password: 994ccabf6f0950d6
+- name: 🇷🇺 俄罗斯 (Russia) 04 - hotick
   server: 91.196.32.121
   port: 2443
   udp: true
@@ -41,13 +47,6 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: grpc-tunnel
-- name: 🇷🇺 俄罗斯 (Russia) 04 - hotick
-  server: 130.49.189.158
-  port: 43558
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 52+ggoCvKFVJyT1NDiuWOZw2rHIvAg3tgqgJl8aeCwY=
 - name: 🇷🇺 俄罗斯 (Russia) 05 - hotick
   server: freede.aiage.work
   port: 443
@@ -75,6 +74,52 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: GunService
+- name: 🇷🇺 俄罗斯 (Russia) 07 - hotick
+  server: hy9.shamanfun.ru
+  port: 1443
+  udp: true
+  type: hysteria2
+  password: c635b5f6-b5ea-4e57-927f-75860b0cb984
+  sni: hy9.shamanfun.ru
+  skip-cert-verify: false
+- name: 🇷🇺 俄罗斯 (Russia) 08 - hotick
+  server: 45.12.75.242
+  port: 26424
+  udp: true
+  type: vless
+  uuid: 633f424e-2b11-48da-a6b3-a849dd71456f
+  tls: true
+  reality-opts:
+    public-key: l8AubqcxQO-HRFJy4pZL1vbLOo-eXit69s-XulSELE0
+    short-id: 23103e1e
+  servername: ya.ru
+  client-fingerprint: chrome
+- name: 🇷🇺 俄罗斯 (Russia) 09 - hotick
+  server: 5.42.99.64
+  port: 8443
+  udp: true
+  type: vless
+  uuid: c53ea5e9-ed8b-4990-805d-7f1d6451426c
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: fSVfR9NB-6J6smrZlavi0GWd8JfDh0aXuEkKbtuFzUI
+    short-id: 3cbc3d737fb9c4af
+  servername: du-rov.secureservice.top
+  client-fingerprint: chrome
+- name: 🇷🇺 俄罗斯 (Russia) 10 - hotick
+  server: 5.42.99.64
+  port: 8443
+  udp: true
+  type: vless
+  uuid: c53ea5e9-ed8b-4990-805d-7f1d6451426c
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: fSVfR9NB-6J6smrZlavi0GWd8JfDh0aXuEkKbtuFzUI
+    short-id: 3cbc3d737fb9c4af
+  servername: du-rov.secureservice.top
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
@@ -86,6 +131,10 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 04 - hotick
   - 🇷🇺 俄罗斯 (Russia) 05 - hotick
   - 🇷🇺 俄罗斯 (Russia) 06 - hotick
+  - 🇷🇺 俄罗斯 (Russia) 07 - hotick
+  - 🇷🇺 俄罗斯 (Russia) 08 - hotick
+  - 🇷🇺 俄罗斯 (Russia) 09 - hotick
+  - 🇷🇺 俄罗斯 (Russia) 10 - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -97,5 +146,9 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 04 - hotick
   - 🇷🇺 俄罗斯 (Russia) 05 - hotick
   - 🇷🇺 俄罗斯 (Russia) 06 - hotick
+  - 🇷🇺 俄罗斯 (Russia) 07 - hotick
+  - 🇷🇺 俄罗斯 (Russia) 08 - hotick
+  - 🇷🇺 俄罗斯 (Russia) 09 - hotick
+  - 🇷🇺 俄罗斯 (Russia) 10 - hotick
 rules:
 - MATCH,PROXIES
