@@ -22,29 +22,14 @@
     {
       "type": "vmess",
       "tag": "🇭🇰 中国香港 (Hong Kong) 02 (移动家宽) - hotick",
-      "server": "dog-hk.kunlun01dns.com",
-      "server_port": 21041,
-      "uuid": "9464ca40-dd75-3742-a628-d931a9f413b2",
-      "security": "auto"
-    },
-    {
-      "type": "vless",
-      "tag": "🇹🇷 土耳其 (Turkey) 03 (移动家宽) - hotick",
-      "server": "test.keoplentuio.xyz",
-      "server_port": 2053,
-      "uuid": "9ef61079-6f7d-4911-9608-943da85d8e6f"
-    },
-    {
-      "type": "vmess",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 04 (移动家宽) - hotick",
       "server": "zfd-hkv1.kunlun01dns.com",
-      "server_port": 16115,
+      "server_port": 16114,
       "uuid": "0802ac03-7973-39ef-a019-ba02de6c01e1",
       "security": "auto"
     },
     {
       "type": "vmess",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 05 (家宽) - hotick",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - hotick",
       "server": "fujrdt.d6f54hd1j.cc",
       "server_port": 443,
       "uuid": "d877dc6f-7323-4b47-a7dd-14228cbae854",
@@ -63,24 +48,13 @@
       }
     },
     {
-      "type": "shadowsocks",
-      "tag": "🇰🇷 韩国 (South Korea) 06 (家宽) - hotick",
-      "server": "p141.panda001.net",
-      "server_port": 4652,
-      "method": "aes-256-cfb",
-      "password": "qwerREWQ@@"
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
         "🇺🇸 美国 (United States) 01 (家宽) - hotick",
         "🇭🇰 中国香港 (Hong Kong) 02 (移动家宽) - hotick",
-        "🇹🇷 土耳其 (Turkey) 03 (移动家宽) - hotick",
-        "🇭🇰 中国香港 (Hong Kong) 04 (移动家宽) - hotick",
-        "🇹🇼 中国台湾 (Taiwan) 05 (家宽) - hotick",
-        "🇰🇷 韩国 (South Korea) 06 (家宽) - hotick"
+        "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - hotick"
       ]
     },
     {
@@ -89,10 +63,7 @@
       "outbounds": [
         "🇺🇸 美国 (United States) 01 (家宽) - hotick",
         "🇭🇰 中国香港 (Hong Kong) 02 (移动家宽) - hotick",
-        "🇹🇷 土耳其 (Turkey) 03 (移动家宽) - hotick",
-        "🇭🇰 中国香港 (Hong Kong) 04 (移动家宽) - hotick",
-        "🇹🇼 中国台湾 (Taiwan) 05 (家宽) - hotick",
-        "🇰🇷 韩国 (South Korea) 06 (家宽) - hotick"
+        "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - hotick"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
