@@ -23,7 +23,7 @@
       "type": "vmess",
       "tag": "🇭🇰 中国香港 (Hong Kong) 02 (移动家宽) - hotick",
       "server": "dog-hk.kunlun01dns.com",
-      "server_port": 21019,
+      "server_port": 21021,
       "uuid": "9464ca40-dd75-3742-a628-d931a9f413b2",
       "security": "auto"
     },
@@ -36,11 +36,12 @@
       "password": "qwerREWQ@@"
     },
     {
-      "type": "vless",
-      "tag": "🇹🇷 土耳其 (Turkey) 04 (移动家宽) - hotick",
-      "server": "test.keoplentuio.xyz",
-      "server_port": 2053,
-      "uuid": "9ef61079-6f7d-4911-9608-943da85d8e6f"
+      "type": "vmess",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 04 (移动家宽) - hotick",
+      "server": "dog-hk.kunlun01dns.com",
+      "server_port": 21041,
+      "uuid": "9464ca40-dd75-3742-a628-d931a9f413b2",
+      "security": "auto"
     },
     {
       "type": "vless",
@@ -63,12 +64,11 @@
       }
     },
     {
-      "type": "shadowsocks",
-      "tag": "🇰🇭 柬埔寨 (Cambodia) 06 (移动家宽) - hotick",
-      "server": "ruot.ayucloudservices.nl",
-      "server_port": 35019,
-      "method": "aes-128-gcm",
-      "password": "9c51ca33-a332-4de5-8677-5624e940097c"
+      "type": "vless",
+      "tag": "🇹🇷 土耳其 (Turkey) 06 (移动家宽) - hotick",
+      "server": "test.keoplentuio.xyz",
+      "server_port": 2053,
+      "uuid": "9ef61079-6f7d-4911-9608-943da85d8e6f"
     },
     {
       "type": "selector",
@@ -78,9 +78,9 @@
         "🇺🇸 美国 (United States) 01 (家宽) - hotick",
         "🇭🇰 中国香港 (Hong Kong) 02 (移动家宽) - hotick",
         "🇰🇷 韩国 (South Korea) 03 (家宽) - hotick",
-        "🇹🇷 土耳其 (Turkey) 04 (移动家宽) - hotick",
+        "🇭🇰 中国香港 (Hong Kong) 04 (移动家宽) - hotick",
         "🇹🇷 土耳其 (Turkey) 05 (移动家宽) - hotick",
-        "🇰🇭 柬埔寨 (Cambodia) 06 (移动家宽) - hotick"
+        "🇹🇷 土耳其 (Turkey) 06 (移动家宽) - hotick"
       ]
     },
     {
@@ -90,9 +90,9 @@
         "🇺🇸 美国 (United States) 01 (家宽) - hotick",
         "🇭🇰 中国香港 (Hong Kong) 02 (移动家宽) - hotick",
         "🇰🇷 韩国 (South Korea) 03 (家宽) - hotick",
-        "🇹🇷 土耳其 (Turkey) 04 (移动家宽) - hotick",
+        "🇭🇰 中国香港 (Hong Kong) 04 (移动家宽) - hotick",
         "🇹🇷 土耳其 (Turkey) 05 (移动家宽) - hotick",
-        "🇰🇭 柬埔寨 (Cambodia) 06 (移动家宽) - hotick"
+        "🇹🇷 土耳其 (Turkey) 06 (移动家宽) - hotick"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

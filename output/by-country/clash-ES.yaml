@@ -5,14 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇪🇸 西班牙 (Spain) 01 - hotick
-  server: 185.174.137.172
-  port: 8446
-  udp: true
-  type: hysteria2
-  password: e9dc02d400b67c727aca1620
-  sni: 185.174.137.172
-  skip-cert-verify: true
-- name: 🇪🇸 西班牙 (Spain) 02 - hotick
   server: 212.227.235.66
   port: 2053
   udp: true
@@ -23,8 +15,8 @@ proxies:
     public-key: 7Y6Xb5Ql_03K25x8yKUSOKI2JTOMyv2nyCcFza90uxk
     short-id: 29e8dcd2b37aaa7f
   servername: www.apple.com
-  client-fingerprint: firefox
-- name: 🇪🇸 西班牙 (Spain) 03 - hotick
+  client-fingerprint: chrome
+- name: 🇪🇸 西班牙 (Spain) 02 - hotick
   server: 46.28.71.247
   port: 443
   udp: true
@@ -36,7 +28,19 @@ proxies:
     public-key: v4MuZIvFrTPT5GHMSaPryUAbIZlLstmsUTzmC1E-JTE
     short-id: 0dfc23fe80778c00
   servername: www.cloudflare.com
-  client-fingerprint: firefox
+  client-fingerprint: random
+- name: 🇪🇸 西班牙 (Spain) 03 - hotick
+  server: es3.h1cloud.net
+  port: 25136
+  udp: true
+  type: vless
+  uuid: c1c13ef7-affa-47e1-8967-25cc67679c10
+  tls: true
+  reality-opts:
+    public-key: nkmfL3QCskKAfBUk-OiTgcWyIXGmXrZVtDEoio0Qo1w
+    short-id: f78838fbd85e59ae
+  servername: www.cloudflare.com
+  client-fingerprint: qq
 - name: 🇪🇸 西班牙 (Spain) 04 - hotick
   server: 193.238.154.78
   port: 443
@@ -63,6 +67,56 @@ proxies:
     short-id: fd8cf7e1173f0edb
   servername: www.cloudflare.com
   client-fingerprint: chrome
+- name: 🇪🇸 西班牙 (Spain) 06 - hotick
+  server: 83.147.18.3
+  port: 443
+  udp: true
+  type: vless
+  uuid: 9f61cdf4-810d-4052-bbc7-2da0c8e20104
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: 3iVJAIGPx6JMlhlRmfpGrHkSmLpHJ4CPvBBH7KsFrFA
+    short-id: fd8cf7e1173f0edb
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇪🇸 西班牙 (Spain) 07 - hotick
+  server: 83.147.18.3
+  port: 443
+  udp: true
+  type: vless
+  uuid: 9f61cdf4-810d-4052-bbc7-2da0c8e20104
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: 3iVJAIGPx6JMlhlRmfpGrHkSmLpHJ4CPvBBH7KsFrFA
+    short-id: fd8cf7e1173f0edb
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇪🇸 西班牙 (Spain) 08 - hotick
+  server: 83.147.18.3
+  port: 443
+  udp: true
+  type: vless
+  uuid: 9f61cdf4-810d-4052-bbc7-2da0c8e20104
+  flow: xtls-rprx-vision
+  tls: true
+  servername: www.cloudflare.com
+  skip-cert-verify: false
+  client-fingerprint: chrome
+- name: 🇪🇸 西班牙 (Spain) 09 - hotick
+  server: 83.147.18.3
+  port: 443
+  udp: true
+  type: vless
+  uuid: 9f61cdf4-810d-4052-bbc7-2da0c8e20104
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: 3iVJAIGPx6JMlhlRmfpGrHkSmLpHJ4CPvBBH7KsFrFA
+    short-id: fd8cf7e1173f0edb
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
@@ -73,6 +127,10 @@ proxy-groups:
   - 🇪🇸 西班牙 (Spain) 03 - hotick
   - 🇪🇸 西班牙 (Spain) 04 - hotick
   - 🇪🇸 西班牙 (Spain) 05 - hotick
+  - 🇪🇸 西班牙 (Spain) 06 - hotick
+  - 🇪🇸 西班牙 (Spain) 07 - hotick
+  - 🇪🇸 西班牙 (Spain) 08 - hotick
+  - 🇪🇸 西班牙 (Spain) 09 - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -83,5 +141,9 @@ proxy-groups:
   - 🇪🇸 西班牙 (Spain) 03 - hotick
   - 🇪🇸 西班牙 (Spain) 04 - hotick
   - 🇪🇸 西班牙 (Spain) 05 - hotick
+  - 🇪🇸 西班牙 (Spain) 06 - hotick
+  - 🇪🇸 西班牙 (Spain) 07 - hotick
+  - 🇪🇸 西班牙 (Spain) 08 - hotick
+  - 🇪🇸 西班牙 (Spain) 09 - hotick
 rules:
 - MATCH,PROXIES
