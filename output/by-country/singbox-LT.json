@@ -7,37 +7,29 @@
       "type": "shadowsocks",
       "tag": "🇱🇹 立陶宛 (Lithuania) 01 - hotick",
       "server": "195.238.126.20",
-      "server_port": 9002,
-      "method": "aes-256-cfb",
-      "password": "b8KkNDjEd5QqFyRm"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇱🇹 立陶宛 (Lithuania) 02 - hotick",
-      "server": "195.238.126.20",
       "server_port": 9045,
       "method": "aes-256-cfb",
       "password": "Lp27rqyJq72bZsqX"
     },
     {
       "type": "shadowsocks",
-      "tag": "🇱🇹 立陶宛 (Lithuania) 03 - hotick",
-      "server": "195.238.126.20",
-      "server_port": 9086,
-      "method": "aes-256-cfb",
-      "password": "37Z4TFCYhfxcpc9Q"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇱🇹 立陶宛 (Lithuania) 04 - hotick",
+      "tag": "🇱🇹 立陶宛 (Lithuania) 02 - hotick",
       "server": "195.238.126.20",
       "server_port": 9011,
       "method": "aes-256-cfb",
       "password": "M3t2ZEQcMGRWBjRa"
     },
     {
+      "type": "shadowsocks",
+      "tag": "🇱🇹 立陶宛 (Lithuania) 03 - hotick",
+      "server": "195.238.126.20",
+      "server_port": 9002,
+      "method": "aes-256-cfb",
+      "password": "b8KkNDjEd5QqFyRm"
+    },
+    {
       "type": "vless",
-      "tag": "🇱🇹 立陶宛 (Lithuania) 05 - hotick",
+      "tag": "🇱🇹 立陶宛 (Lithuania) 04 - hotick",
       "server": "84.32.109.20",
       "server_port": 443,
       "uuid": "ee18d188-14cc-417e-beb1-70e4add6d023",
@@ -64,8 +56,7 @@
         "🇱🇹 立陶宛 (Lithuania) 01 - hotick",
         "🇱🇹 立陶宛 (Lithuania) 02 - hotick",
         "🇱🇹 立陶宛 (Lithuania) 03 - hotick",
-        "🇱🇹 立陶宛 (Lithuania) 04 - hotick",
-        "🇱🇹 立陶宛 (Lithuania) 05 - hotick"
+        "🇱🇹 立陶宛 (Lithuania) 04 - hotick"
       ]
     },
     {
@@ -75,8 +66,7 @@
         "🇱🇹 立陶宛 (Lithuania) 01 - hotick",
         "🇱🇹 立陶宛 (Lithuania) 02 - hotick",
         "🇱🇹 立陶宛 (Lithuania) 03 - hotick",
-        "🇱🇹 立陶宛 (Lithuania) 04 - hotick",
-        "🇱🇹 立陶宛 (Lithuania) 05 - hotick"
+        "🇱🇹 立陶宛 (Lithuania) 04 - hotick"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
