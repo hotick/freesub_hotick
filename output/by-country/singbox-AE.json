@@ -15,7 +15,7 @@
         "server_name": "addons.mozilla.org",
         "utls": {
           "enabled": true,
-          "fingerprint": "randomized"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -60,24 +60,8 @@
       }
     },
     {
-      "type": "hysteria2",
-      "tag": "🇦🇪 阿联酋 (UAE) 04 - hotick",
-      "server": "130.49.161.70",
-      "server_port": 443,
-      "password": "p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR",
-      "tls": {
-        "enabled": true,
-        "server_name": "hy2.aspidnet.xyz",
-        "insecure": false
-      },
-      "obfs": {
-        "type": "salamander",
-        "password": "rG07s3COMIEvdnQipRyWzx_H_2xygNC3"
-      }
-    },
-    {
       "type": "vless",
-      "tag": "🇦🇪 阿联酋 (UAE) 05 - hotick",
+      "tag": "🇦🇪 阿联酋 (UAE) 04 - hotick",
       "server": "157.228.128.59",
       "server_port": 443,
       "uuid": "df53b6c2-8005-475c-9eb9-74e1be785dc8",
@@ -98,7 +82,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇦🇪 阿联酋 (UAE) 06 - hotick",
+      "tag": "🇦🇪 阿联酋 (UAE) 05 - hotick",
       "server": "31.59.210.26",
       "server_port": 2088,
       "uuid": "5413edfb-08d6-4fba-b51c-809c04feb127",
@@ -107,7 +91,7 @@
         "server_name": "www.yandex.ru",
         "utls": {
           "enabled": true,
-          "fingerprint": "ios"
+          "fingerprint": "qq"
         },
         "reality": {
           "enabled": true,
@@ -121,6 +105,22 @@
       }
     },
     {
+      "type": "hysteria2",
+      "tag": "🇦🇪 阿联酋 (UAE) 06 - hotick",
+      "server": "hy2.aspidnet.xyz",
+      "server_port": 443,
+      "password": "p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR",
+      "tls": {
+        "enabled": true,
+        "server_name": "hy2.aspidnet.xyz",
+        "insecure": false
+      },
+      "obfs": {
+        "type": "salamander",
+        "password": "rG07s3COMIEvdnQipRyWzx_H_2xygNC3"
+      }
+    },
+    {
       "type": "vless",
       "tag": "🇦🇪 阿联酋 (UAE) 07 - hotick",
       "server": "31.59.210.37",
@@ -131,7 +131,7 @@
         "server_name": "www.yandex.ru",
         "utls": {
           "enabled": true,
-          "fingerprint": "qq"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -171,15 +171,25 @@
     {
       "type": "vless",
       "tag": "🇦🇪 阿联酋 (UAE) 09 - hotick",
-      "server": "84.235.244.108",
-      "server_port": 22573,
-      "uuid": "39947382-3212-41c9-bc3a-589574ac8b23",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "uae.unixzone.us"
+      "server": "31.59.210.32",
+      "server_port": 443,
+      "uuid": "5413edfb-08d6-4fba-b51c-809c04feb127",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.yandex.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "qvVoQPNyuM86jBvBqOL-Z9VO_C9jMi_ZH8bb4fotNWA",
+          "short_id": "7ec4374ffc6308fd"
         }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "astracat"
       }
     },
     {
@@ -199,50 +209,20 @@
     {
       "type": "vless",
       "tag": "🇦🇪 阿联酋 (UAE) 11 - hotick",
-      "server": "zordbx861.233874.xyz",
-      "server_port": 8888,
-      "uuid": "46509b23-fe97-45b3-9c89-bd1b2a93bd4e",
-      "tls": {
-        "enabled": true,
-        "server_name": "addons.mozilla.org",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "vBSBoPYKiB5RZ9_jNPEdLnroJ2M7MKw0c1Rvh6-QmV4",
-          "short_id": ""
+      "server": "84.235.244.108",
+      "server_port": 22573,
+      "uuid": "39947382-3212-41c9-bc3a-589574ac8b23",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "uae.unixzone.us"
         }
       }
     },
     {
       "type": "vless",
       "tag": "🇦🇪 阿联酋 (UAE) 12 - hotick",
-      "server": "31.59.210.32",
-      "server_port": 443,
-      "uuid": "5413edfb-08d6-4fba-b51c-809c04feb127",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.yandex.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "qvVoQPNyuM86jBvBqOL-Z9VO_C9jMi_ZH8bb4fotNWA",
-          "short_id": "7ec4374ffc6308fd"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "astracat"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇦🇪 阿联酋 (UAE) 13 - hotick",
       "server": "146.70.102.82",
       "server_port": 443,
       "uuid": "31fd2fde-ca69-450e-8c03-eaad819b06b9",
@@ -258,6 +238,45 @@
           "enabled": true,
           "public_key": "GDer6NQYXdbccrFI0tLn2671PjCvrcSy0R7TKY8vG1k",
           "short_id": "002fb4ec7b3088cc"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇦🇪 阿联酋 (UAE) 13 - hotick",
+      "server": "45.77.241.190",
+      "server_port": 8441,
+      "uuid": "8a9dff00-0705-4c1b-9126-8c1bdc8b5d0a",
+      "tls": {
+        "enabled": true,
+        "server_name": "sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/@Marisa_kristi",
+        "headers": {
+          "Host": "sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇦🇪 阿联酋 (UAE) 14 - hotick",
+      "server": "zordbx861.233874.xyz",
+      "server_port": 8888,
+      "uuid": "46509b23-fe97-45b3-9c89-bd1b2a93bd4e",
+      "tls": {
+        "enabled": true,
+        "server_name": "addons.mozilla.org",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "vBSBoPYKiB5RZ9_jNPEdLnroJ2M7MKw0c1Rvh6-QmV4",
+          "short_id": ""
         }
       }
     },
@@ -278,7 +297,8 @@
         "🇦🇪 阿联酋 (UAE) 10 - hotick",
         "🇦🇪 阿联酋 (UAE) 11 - hotick",
         "🇦🇪 阿联酋 (UAE) 12 - hotick",
-        "🇦🇪 阿联酋 (UAE) 13 - hotick"
+        "🇦🇪 阿联酋 (UAE) 13 - hotick",
+        "🇦🇪 阿联酋 (UAE) 14 - hotick"
       ]
     },
     {
@@ -297,7 +317,8 @@
         "🇦🇪 阿联酋 (UAE) 10 - hotick",
         "🇦🇪 阿联酋 (UAE) 11 - hotick",
         "🇦🇪 阿联酋 (UAE) 12 - hotick",
-        "🇦🇪 阿联酋 (UAE) 13 - hotick"
+        "🇦🇪 阿联酋 (UAE) 13 - hotick",
+        "🇦🇪 阿联酋 (UAE) 14 - hotick"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
