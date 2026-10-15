@@ -4,31 +4,55 @@
   },
   "outbounds": [
     {
+      "type": "hysteria2",
+      "tag": "🇺🇸 美国 (United States) 01 (家宽) - hotick",
+      "server": "155.117.19.17",
+      "server_port": 443,
+      "password": "5fa748137b6d822308eea4611f474ad5",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.bing.com",
+        "insecure": true
+      },
+      "obfs": {
+        "type": "salamander",
+        "password": "a39ca173b57ac7021b08bf3e3de9f1f6"
+      }
+    },
+    {
       "type": "vmess",
-      "tag": "🇹🇷 土耳其 (Turkey) 01 (移动家宽) - hotick",
-      "server": "206.1.102.64",
-      "server_port": 8080,
-      "uuid": "184a0393-5c9e-403c-9be6-427b066308e1",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - hotick",
+      "server": "dog-tw.kunlun01dns.com",
+      "server_port": 21036,
+      "uuid": "9464ca40-dd75-3742-a628-d931a9f413b2",
+      "security": "auto"
+    },
+    {
+      "type": "vmess",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 03 (移动家宽) - hotick",
+      "server": "dog-hk.kunlun01dns.com",
+      "server_port": 21018,
+      "uuid": "9464ca40-dd75-3742-a628-d931a9f413b2",
       "security": "auto"
     },
     {
       "type": "vless",
-      "tag": "🇹🇷 土耳其 (Turkey) 02 (移动家宽) - hotick",
+      "tag": "🇹🇷 土耳其 (Turkey) 04 (移动家宽) - hotick",
       "server": "test.keoplentuio.xyz",
       "server_port": 2053,
       "uuid": "9ef61079-6f7d-4911-9608-943da85d8e6f"
     },
     {
       "type": "shadowsocks",
-      "tag": "🇰🇷 韩国 (South Korea) 03 (家宽) - hotick",
-      "server": "218.237.185.234",
+      "tag": "🇰🇷 韩国 (South Korea) 05 (家宽) - hotick",
+      "server": "p141.panda001.net",
       "server_port": 4652,
       "method": "aes-256-cfb",
       "password": "qwerREWQ@@"
     },
     {
       "type": "vless",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 04 (家宽) - hotick",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 06 (家宽) - hotick",
       "server": "hinet1.2yly.com",
       "server_port": 24215,
       "uuid": "19d5a678-8396-4e3b-93da-ece618d0e83a",
@@ -47,66 +71,28 @@
       }
     },
     {
-      "type": "vmess",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 05 (移动家宽) - hotick",
-      "server": "dog-hk.kunlun01dns.com",
-      "server_port": 21021,
-      "uuid": "9464ca40-dd75-3742-a628-d931a9f413b2",
-      "security": "auto"
-    },
-    {
-      "type": "vmess",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 06 (移动家宽) - hotick",
-      "server": "zfd-hkv2.kunlun01dns.com",
-      "server_port": 16116,
-      "uuid": "0802ac03-7973-39ef-a019-ba02de6c01e1",
-      "security": "auto"
-    },
-    {
-      "type": "vmess",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 07 (家宽) - hotick",
-      "server": "fujrdt.d6f54hd1j.cc",
-      "server_port": 443,
-      "uuid": "d877dc6f-7323-4b47-a7dd-14228cbae854",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "fujrdt.d6f54hd1j.cc",
-        "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "fujrdt.d6f54hd1j.cc"
-        }
-      }
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇹🇷 土耳其 (Turkey) 01 (移动家宽) - hotick",
-        "🇹🇷 土耳其 (Turkey) 02 (移动家宽) - hotick",
-        "🇰🇷 韩国 (South Korea) 03 (家宽) - hotick",
-        "🇹🇼 中国台湾 (Taiwan) 04 (家宽) - hotick",
-        "🇭🇰 中国香港 (Hong Kong) 05 (移动家宽) - hotick",
-        "🇭🇰 中国香港 (Hong Kong) 06 (移动家宽) - hotick",
-        "🇹🇼 中国台湾 (Taiwan) 07 (家宽) - hotick"
+        "🇺🇸 美国 (United States) 01 (家宽) - hotick",
+        "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - hotick",
+        "🇭🇰 中国香港 (Hong Kong) 03 (移动家宽) - hotick",
+        "🇹🇷 土耳其 (Turkey) 04 (移动家宽) - hotick",
+        "🇰🇷 韩国 (South Korea) 05 (家宽) - hotick",
+        "🇹🇼 中国台湾 (Taiwan) 06 (家宽) - hotick"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇹🇷 土耳其 (Turkey) 01 (移动家宽) - hotick",
-        "🇹🇷 土耳其 (Turkey) 02 (移动家宽) - hotick",
-        "🇰🇷 韩国 (South Korea) 03 (家宽) - hotick",
-        "🇹🇼 中国台湾 (Taiwan) 04 (家宽) - hotick",
-        "🇭🇰 中国香港 (Hong Kong) 05 (移动家宽) - hotick",
-        "🇭🇰 中国香港 (Hong Kong) 06 (移动家宽) - hotick",
-        "🇹🇼 中国台湾 (Taiwan) 07 (家宽) - hotick"
+        "🇺🇸 美国 (United States) 01 (家宽) - hotick",
+        "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - hotick",
+        "🇭🇰 中国香港 (Hong Kong) 03 (移动家宽) - hotick",
+        "🇹🇷 土耳其 (Turkey) 04 (移动家宽) - hotick",
+        "🇰🇷 韩国 (South Korea) 05 (家宽) - hotick",
+        "🇹🇼 中国台湾 (Taiwan) 06 (家宽) - hotick"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

@@ -5,31 +5,37 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇮🇳 印度 (India) 01 - hotick
-  server: 23.227.60.30
-  port: 8880
+  server: 148.113.5.44
+  port: 443
   udp: true
   type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  uuid: 72ea5a91-ffcc-43d2-9297-5993c3abf186
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: QLjTpkXRB453R9fXhJzKkc_q_gSm2MZrIOuxW4uW-mI
+    short-id: 221873918e0bb74d
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇮🇳 印度 (India) 02 - hotick
+  server: 13.140.56.100
+  port: 14430
+  udp: true
+  type: vless
+  uuid: 68512eac-cd53-4de3-8d1e-08f6e04af1a9
   network: ws
   ws-opts:
-    path: /
+    path: /vless
     headers:
-      Host: vms.lifetime18.workers.dev
-- name: 🇮🇳 印度 (India) 02 - hotick
-  server: 139.84.166.47
-  port: 8388
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: GEdoeeqLZtkJRgSa
+      Host: 13.140.56.100
 - name: 🇮🇳 印度 (India) 03 - hotick
-  server: tttyder.wsone.icu
+  server: in.tronsg.com
   port: 443
   udp: true
   type: trojan
-  password: M7v%w11Se*
-  sni: tttyder.wsone.icu
-  skip-cert-verify: false
+  password: Trojan@82164024
+  sni: in.tronsg.com
+  skip-cert-verify: true
 - name: 🇮🇳 印度 (India) 04 - hotick
   server: 152.67.8.205
   port: 80
@@ -42,45 +48,19 @@ proxies:
   ws-opts:
     path: /
 - name: 🇮🇳 印度 (India) 05 - hotick
-  server: in.tronsg.com
-  port: 443
+  server: 172.105.39.124
+  port: 7002
   udp: true
-  type: trojan
-  password: Trojan@82164024
-  sni: in.tronsg.com
-  skip-cert-verify: true
+  type: ss
+  cipher: aes-256-gcm
+  password: RexnBgU7EV5ADxG
 - name: 🇮🇳 印度 (India) 06 - hotick
-  server: 13.140.56.100
-  port: 14430
+  server: 139.84.166.47
+  port: 8388
   udp: true
-  type: vless
-  uuid: 68512eac-cd53-4de3-8d1e-08f6e04af1a9
-  network: ws
-  ws-opts:
-    path: /vless
-    headers:
-      Host: 13.140.56.100
-- name: 🇮🇳 印度 (India) 07 - hotick
-  server: hk03.ccdn3.work
-  port: 753
-  udp: true
-  type: vless
-  uuid: fc12fb20-4380-11ec-8c97-d707e267af0b
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: y3AAdi1d5zRrTb_pm-DJWsoP-srtEzYP2P8XxmvbkhQ
-    short-id: 4b8ad8fe52fca1a0
-  servername: i1.hdslb.com
-  client-fingerprint: chrome
-- name: 🇮🇳 印度 (India) 08 - hotick
-  server: hyfuuf6.wsone.icu
-  port: 443
-  udp: true
-  type: trojan
-  password: M7v%w11Se*
-  sni: hyfuuf6.wsone.icu
-  skip-cert-verify: false
+  type: ss
+  cipher: aes-256-gcm
+  password: GEdoeeqLZtkJRgSa
 proxy-groups:
 - name: PROXIES
   type: select
@@ -92,8 +72,6 @@ proxy-groups:
   - 🇮🇳 印度 (India) 04 - hotick
   - 🇮🇳 印度 (India) 05 - hotick
   - 🇮🇳 印度 (India) 06 - hotick
-  - 🇮🇳 印度 (India) 07 - hotick
-  - 🇮🇳 印度 (India) 08 - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -105,7 +83,5 @@ proxy-groups:
   - 🇮🇳 印度 (India) 04 - hotick
   - 🇮🇳 印度 (India) 05 - hotick
   - 🇮🇳 印度 (India) 06 - hotick
-  - 🇮🇳 印度 (India) 07 - hotick
-  - 🇮🇳 印度 (India) 08 - hotick
 rules:
 - MATCH,PROXIES

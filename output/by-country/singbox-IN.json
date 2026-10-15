@@ -6,39 +6,48 @@
     {
       "type": "vless",
       "tag": "🇮🇳 印度 (India) 01 - hotick",
-      "server": "23.227.60.30",
-      "server_port": 8880,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "vms.lifetime18.workers.dev"
+      "server": "148.113.5.44",
+      "server_port": 443,
+      "uuid": "72ea5a91-ffcc-43d2-9297-5993c3abf186",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "QLjTpkXRB453R9fXhJzKkc_q_gSm2MZrIOuxW4uW-mI",
+          "short_id": "221873918e0bb74d"
         }
       }
     },
     {
-      "type": "shadowsocks",
+      "type": "vless",
       "tag": "🇮🇳 印度 (India) 02 - hotick",
-      "server": "139.84.166.47",
-      "server_port": 8388,
-      "method": "aes-256-gcm",
-      "password": "GEdoeeqLZtkJRgSa"
+      "server": "13.140.56.100",
+      "server_port": 14430,
+      "uuid": "68512eac-cd53-4de3-8d1e-08f6e04af1a9",
+      "transport": {
+        "type": "ws",
+        "path": "/vless",
+        "headers": {
+          "Host": "13.140.56.100"
+        }
+      }
     },
     {
       "type": "trojan",
       "tag": "🇮🇳 印度 (India) 03 - hotick",
-      "server": "tttyder.wsone.icu",
+      "server": "in.tronsg.com",
       "server_port": 443,
-      "password": "M7v%w11Se*",
+      "password": "Trojan@82164024",
       "tls": {
         "enabled": true,
-        "server_name": "tttyder.wsone.icu",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        "server_name": "in.tronsg.com",
+        "insecure": true
       }
     },
     {
@@ -54,67 +63,20 @@
       }
     },
     {
-      "type": "trojan",
+      "type": "shadowsocks",
       "tag": "🇮🇳 印度 (India) 05 - hotick",
-      "server": "in.tronsg.com",
-      "server_port": 443,
-      "password": "Trojan@82164024",
-      "tls": {
-        "enabled": true,
-        "server_name": "in.tronsg.com",
-        "insecure": true
-      }
+      "server": "172.105.39.124",
+      "server_port": 7002,
+      "method": "aes-256-gcm",
+      "password": "RexnBgU7EV5ADxG"
     },
     {
-      "type": "vless",
+      "type": "shadowsocks",
       "tag": "🇮🇳 印度 (India) 06 - hotick",
-      "server": "13.140.56.100",
-      "server_port": 14430,
-      "uuid": "68512eac-cd53-4de3-8d1e-08f6e04af1a9",
-      "transport": {
-        "type": "ws",
-        "path": "/vless",
-        "headers": {
-          "Host": "13.140.56.100"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇮🇳 印度 (India) 07 - hotick",
-      "server": "hk03.ccdn3.work",
-      "server_port": 753,
-      "uuid": "fc12fb20-4380-11ec-8c97-d707e267af0b",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "i1.hdslb.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "y3AAdi1d5zRrTb_pm-DJWsoP-srtEzYP2P8XxmvbkhQ",
-          "short_id": "4b8ad8fe52fca1a0"
-        }
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇮🇳 印度 (India) 08 - hotick",
-      "server": "hyfuuf6.wsone.icu",
-      "server_port": 443,
-      "password": "M7v%w11Se*",
-      "tls": {
-        "enabled": true,
-        "server_name": "hyfuuf6.wsone.icu",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "server": "139.84.166.47",
+      "server_port": 8388,
+      "method": "aes-256-gcm",
+      "password": "GEdoeeqLZtkJRgSa"
     },
     {
       "type": "selector",
@@ -126,9 +88,7 @@
         "🇮🇳 印度 (India) 03 - hotick",
         "🇮🇳 印度 (India) 04 - hotick",
         "🇮🇳 印度 (India) 05 - hotick",
-        "🇮🇳 印度 (India) 06 - hotick",
-        "🇮🇳 印度 (India) 07 - hotick",
-        "🇮🇳 印度 (India) 08 - hotick"
+        "🇮🇳 印度 (India) 06 - hotick"
       ]
     },
     {
@@ -140,9 +100,7 @@
         "🇮🇳 印度 (India) 03 - hotick",
         "🇮🇳 印度 (India) 04 - hotick",
         "🇮🇳 印度 (India) 05 - hotick",
-        "🇮🇳 印度 (India) 06 - hotick",
-        "🇮🇳 印度 (India) 07 - hotick",
-        "🇮🇳 印度 (India) 08 - hotick"
+        "🇮🇳 印度 (India) 06 - hotick"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
