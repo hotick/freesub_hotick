@@ -6,7 +6,7 @@
     {
       "type": "hysteria2",
       "tag": "🇦🇺 澳大利亚 (Australia) 01 - hotick",
-      "server": "vpn-au-001.fastervpn.world",
+      "server": "32.236.157.157",
       "server_port": 443,
       "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
       "tls": {
@@ -34,6 +34,18 @@
     {
       "type": "hysteria2",
       "tag": "🇦🇺 澳大利亚 (Australia) 03 - hotick",
+      "server": "vpn-au-001.fastervpn.world",
+      "server_port": 443,
+      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
+      "tls": {
+        "enabled": true,
+        "server_name": "vpn-au-001.fastervpn.world",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇦🇺 澳大利亚 (Australia) 04 - hotick",
       "server": "192.9.175.191",
       "password": "a34f3990b69f44bfa0d32385",
       "tls": {
@@ -50,44 +62,6 @@
       ]
     },
     {
-      "type": "vmess",
-      "tag": "🇦🇺 澳大利亚 (Australia) 04 - hotick",
-      "server": "172.67.195.146",
-      "server_port": 443,
-      "uuid": "f5f0babe-aea2-4f07-a1fc-3c9820253f49",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "aus.lovehk.xyz",
-        "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/Sydney3",
-        "headers": {
-          "Host": "aus.lovehk.xyz"
-        }
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇦🇺 澳大利亚 (Australia) 05 - hotick",
-      "server": "137.23.2.56",
-      "password": "b42d90fa667942aebc734d60",
-      "tls": {
-        "enabled": true,
-        "server_name": "rmgyvpn.rest",
-        "insecure": false
-      },
-      "obfs": {
-        "type": "salamander",
-        "password": "b42d90fa667942aebc734d60"
-      },
-      "server_ports": [
-        "20000:30000"
-      ]
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
@@ -95,8 +69,7 @@
         "🇦🇺 澳大利亚 (Australia) 01 - hotick",
         "🇦🇺 澳大利亚 (Australia) 02 - hotick",
         "🇦🇺 澳大利亚 (Australia) 03 - hotick",
-        "🇦🇺 澳大利亚 (Australia) 04 - hotick",
-        "🇦🇺 澳大利亚 (Australia) 05 - hotick"
+        "🇦🇺 澳大利亚 (Australia) 04 - hotick"
       ]
     },
     {
@@ -106,8 +79,7 @@
         "🇦🇺 澳大利亚 (Australia) 01 - hotick",
         "🇦🇺 澳大利亚 (Australia) 02 - hotick",
         "🇦🇺 澳大利亚 (Australia) 03 - hotick",
-        "🇦🇺 澳大利亚 (Australia) 04 - hotick",
-        "🇦🇺 澳大利亚 (Australia) 05 - hotick"
+        "🇦🇺 澳大利亚 (Australia) 04 - hotick"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

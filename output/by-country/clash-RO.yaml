@@ -25,41 +25,15 @@ proxies:
   obfs: salamander
   obfs-password: c1b4086fea89914496c7e10967a419216566
 - name: 🇷🇴 罗马尼亚 (Romania) 03 - hotick
-  server: 82.117.255.174
-  port: 443
-  udp: true
-  type: vless
-  uuid: 679439c5-28f2-485e-af5f-60a5fcd9c36c
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: 0QDBHaCRO2dPeeSVy3B3R_U12ZOvbvWl1JTFW_ZcpD0
-    short-id: 31e91d43e553bf32
-  servername: gateway.icloud.com
-  client-fingerprint: chrome
-- name: 🇷🇴 罗马尼亚 (Romania) 04 - hotick
-  server: 78.154.103.45
-  port: 11901
-  udp: true
-  type: vmess
-  uuid: 1e9edd93-f160-4a4a-b369-2e5194b1932a
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-opts:
-    path: /Telegram=@AmyraxVPN
-    headers:
-      Host: 78.154.103.45
-- name: 🇷🇴 罗马尼亚 (Romania) 05 - hotick
   server: 185.156.44.99
   port: 443
   udp: true
   type: hysteria2
   password: gf1:gfhysteria2024
-  sni: css.rbxcdn.com
+  sni: whatsapp.com
   skip-cert-verify: true
-- name: 🇷🇴 罗马尼亚 (Romania) 06 - hotick
-  server: bogging-eyeteeth-fly.freesocks.work
+- name: 🇷🇴 罗马尼亚 (Romania) 04 - hotick
+  server: 154.46.31.106
   port: 443
   udp: true
   type: ss
@@ -74,8 +48,6 @@ proxy-groups:
   - 🇷🇴 罗马尼亚 (Romania) 02 - hotick
   - 🇷🇴 罗马尼亚 (Romania) 03 - hotick
   - 🇷🇴 罗马尼亚 (Romania) 04 - hotick
-  - 🇷🇴 罗马尼亚 (Romania) 05 - hotick
-  - 🇷🇴 罗马尼亚 (Romania) 06 - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -85,7 +57,5 @@ proxy-groups:
   - 🇷🇴 罗马尼亚 (Romania) 02 - hotick
   - 🇷🇴 罗马尼亚 (Romania) 03 - hotick
   - 🇷🇴 罗马尼亚 (Romania) 04 - hotick
-  - 🇷🇴 罗马尼亚 (Romania) 05 - hotick
-  - 🇷🇴 罗马尼亚 (Romania) 06 - hotick
 rules:
 - MATCH,PROXIES
