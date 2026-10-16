@@ -4,26 +4,8 @@
   },
   "outbounds": [
     {
-      "type": "hysteria2",
-      "tag": "🇧🇷 巴西 (Brazil) 01 - hotick",
-      "server": "137.131.171.249",
-      "password": "CyG0RFxMjzs41uQD4OLuHQ==",
-      "tls": {
-        "enabled": true,
-        "server_name": "rmgyvpn.rest",
-        "insecure": true
-      },
-      "obfs": {
-        "type": "salamander",
-        "password": "CyG0RFxMjzs41uQD4OLuHQ=="
-      },
-      "server_ports": [
-        "20000:30000"
-      ]
-    },
-    {
       "type": "vless",
-      "tag": "🇧🇷 巴西 (Brazil) 02 - hotick",
+      "tag": "🇧🇷 巴西 (Brazil) 01 - hotick",
       "server": "35.199.90.53",
       "server_port": 443,
       "uuid": "5e517b94-e207-47ee-be3c-3020a57594e8",
@@ -42,8 +24,96 @@
       }
     },
     {
+      "type": "hysteria2",
+      "tag": "🇧🇷 巴西 (Brazil) 02 - hotick",
+      "server": "137.131.171.249",
+      "password": "CyG0RFxMjzs41uQD4OLuHQ==",
+      "tls": {
+        "enabled": true,
+        "server_name": "rmgyvpn.rest",
+        "insecure": true
+      },
+      "obfs": {
+        "type": "salamander",
+        "password": "CyG0RFxMjzs41uQD4OLuHQ=="
+      },
+      "server_ports": [
+        "20000:30000"
+      ]
+    },
+    {
       "type": "vless",
       "tag": "🇧🇷 巴西 (Brazil) 03 - hotick",
+      "server": "platform102.golnamakcert.top",
+      "server_port": 80,
+      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
+      "transport": {
+        "type": "ws",
+        "path": "/platform102",
+        "headers": {
+          "Host": "platform102.halalkhor.info"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇧🇷 巴西 (Brazil) 04 - hotick",
+      "server": "platform109.golnamakcert.top",
+      "server_port": 80,
+      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
+      "transport": {
+        "type": "ws",
+        "path": "/platform109",
+        "headers": {
+          "Host": "platform109.halalkhor.info"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇧🇷 巴西 (Brazil) 05 - hotick",
+      "server": "platform117.golnamakcert.top",
+      "server_port": 80,
+      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
+      "transport": {
+        "type": "ws",
+        "path": "/platform117",
+        "headers": {
+          "Host": "platform117.halalkhor.info"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇧🇷 巴西 (Brazil) 06 - hotick",
+      "server": "platform107.golnamakcert.top",
+      "server_port": 80,
+      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
+      "transport": {
+        "type": "ws",
+        "path": "/platform107",
+        "headers": {
+          "Host": "platform107.halalkhor.info"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇧🇷 巴西 (Brazil) 07 - hotick",
+      "server": "platform103.golnamakcert.top",
+      "server_port": 80,
+      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
+      "transport": {
+        "type": "ws",
+        "path": "/platform103",
+        "headers": {
+          "Host": "platform103.halalkhor.info"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇧🇷 巴西 (Brazil) 08 - hotick",
       "server": "platform101.golnamakcert.top",
       "server_port": 80,
       "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
@@ -56,13 +126,78 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "🇧🇷 巴西 (Brazil) 09 - hotick",
+      "server": "platform118.golnamakcert.top",
+      "server_port": 80,
+      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
+      "transport": {
+        "type": "ws",
+        "path": "/platform118",
+        "headers": {
+          "Host": "platform118.halalkhor.info"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇧🇷 巴西 (Brazil) 10 - hotick",
+      "server": "platform106.golnamakcert.top",
+      "server_port": 80,
+      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
+      "transport": {
+        "type": "ws",
+        "path": "/platform106",
+        "headers": {
+          "Host": "platform106.halalkhor.info"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇧🇷 巴西 (Brazil) 11 - hotick",
+      "server": "platform113.golnamakcert.top",
+      "server_port": 80,
+      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
+      "transport": {
+        "type": "ws",
+        "path": "/platform113",
+        "headers": {
+          "Host": "platform113.halalkhor.info"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇧🇷 巴西 (Brazil) 12 - hotick",
+      "server": "platform108.golnamakcert.top",
+      "server_port": 80,
+      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
+      "transport": {
+        "type": "ws",
+        "path": "/platform108",
+        "headers": {
+          "Host": "platform108.halalkhor.info"
+        }
+      }
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
         "🇧🇷 巴西 (Brazil) 01 - hotick",
         "🇧🇷 巴西 (Brazil) 02 - hotick",
-        "🇧🇷 巴西 (Brazil) 03 - hotick"
+        "🇧🇷 巴西 (Brazil) 03 - hotick",
+        "🇧🇷 巴西 (Brazil) 04 - hotick",
+        "🇧🇷 巴西 (Brazil) 05 - hotick",
+        "🇧🇷 巴西 (Brazil) 06 - hotick",
+        "🇧🇷 巴西 (Brazil) 07 - hotick",
+        "🇧🇷 巴西 (Brazil) 08 - hotick",
+        "🇧🇷 巴西 (Brazil) 09 - hotick",
+        "🇧🇷 巴西 (Brazil) 10 - hotick",
+        "🇧🇷 巴西 (Brazil) 11 - hotick",
+        "🇧🇷 巴西 (Brazil) 12 - hotick"
       ]
     },
     {
@@ -71,7 +206,16 @@
       "outbounds": [
         "🇧🇷 巴西 (Brazil) 01 - hotick",
         "🇧🇷 巴西 (Brazil) 02 - hotick",
-        "🇧🇷 巴西 (Brazil) 03 - hotick"
+        "🇧🇷 巴西 (Brazil) 03 - hotick",
+        "🇧🇷 巴西 (Brazil) 04 - hotick",
+        "🇧🇷 巴西 (Brazil) 05 - hotick",
+        "🇧🇷 巴西 (Brazil) 06 - hotick",
+        "🇧🇷 巴西 (Brazil) 07 - hotick",
+        "🇧🇷 巴西 (Brazil) 08 - hotick",
+        "🇧🇷 巴西 (Brazil) 09 - hotick",
+        "🇧🇷 巴西 (Brazil) 10 - hotick",
+        "🇧🇷 巴西 (Brazil) 11 - hotick",
+        "🇧🇷 巴西 (Brazil) 12 - hotick"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

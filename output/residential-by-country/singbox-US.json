@@ -20,36 +20,18 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 02 (家宽) - hotick",
-      "server": "xstack.mahanfixe.workers.dev",
-      "server_port": 443,
-      "uuid": "a8b1d666-d3ba-4b17-90c4-ba7514c74f78",
-      "tls": {
-        "enabled": true,
-        "server_name": "xstack.mahanfixe.workers.dev",
-        "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/xiron"
-      }
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇺🇸 美国 (United States) 01 (家宽) - hotick",
-        "🇺🇸 美国 (United States) 02 (家宽) - hotick"
+        "🇺🇸 美国 (United States) 01 (家宽) - hotick"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇺🇸 美国 (United States) 01 (家宽) - hotick",
-        "🇺🇸 美国 (United States) 02 (家宽) - hotick"
+        "🇺🇸 美国 (United States) 01 (家宽) - hotick"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
