@@ -14,46 +14,110 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: a39ca173b57ac7021b08bf3e3de9f1f6
-- name: 🇭🇰 中国香港 (Hong Kong) 02 (移动家宽) - hotick
-  server: dog-hk.kunlun01dns.com
-  port: 21020
+- name: 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - hotick
+  server: dog-tw.kunlun01dns.com
+  port: 21034
   udp: true
   type: vmess
   uuid: 9464ca40-dd75-3742-a628-d931a9f413b2
   alterId: 0
   cipher: auto
-- name: 🇰🇷 韩国 (South Korea) 03 (家宽) - hotick
+- name: 🇭🇰 中国香港 (Hong Kong) 03 (移动家宽) - hotick
+  server: zfd-hkv2.kunlun01dns.com
+  port: 16116
+  udp: true
+  type: vmess
+  uuid: 0802ac03-7973-39ef-a019-ba02de6c01e1
+  alterId: 0
+  cipher: auto
+- name: 🇺🇸 美国 (United States) 04 (家宽) - hotick
+  server: xstack.mahanfixe.workers.dev
+  port: 443
+  udp: true
+  type: vless
+  uuid: a8b1d666-d3ba-4b17-90c4-ba7514c74f78
+  tls: true
+  servername: xstack.mahanfixe.workers.dev
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /xiron
+- name: 🇹🇷 土耳其 (Turkey) 05 (移动家宽) - hotick
+  server: test.keoplentuio.xyz
+  port: 2053
+  udp: true
+  type: vless
+  uuid: 9ef61079-6f7d-4911-9608-943da85d8e6f
+- name: 🇩🇪 德国 (Germany) 06 (家宽) - hotick
+  server: 209.38.238.229
+  port: 20202
+  udp: true
+  type: vless
+  uuid: d18c6897-2849-456a-8c46-d7ecece47c20
+  tls: true
+  servername: wzs.echo.net.eu.org
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /video/HxNMGkZdGw0PRk1GVw8YF14OXkwNVVtIRg1HUlZXSwcZUQABSgMNQRoaSVhfRhoOChkDDUs=
+    headers:
+      Host: wzs.echo.net.eu.org
+- name: 🇹🇼 中国台湾 (Taiwan) 07 (家宽) - hotick
+  server: hinet1.2yly.com
+  port: 24215
+  udp: true
+  type: vless
+  uuid: 19d5a678-8396-4e3b-93da-ece618d0e83a
+  tls: true
+  reality-opts:
+    public-key: mdWKUPMVTtTbDqK10BPb89OcqBC2-Lx-4NOYtqc1GWE
+  servername: addons.mozilla.org
+  client-fingerprint: chrome
+- name: 🇹🇷 土耳其 (Turkey) 08 (移动家宽) - hotick
+  server: me17.msjia8844.site
+  port: 7443
+  udp: true
+  type: hysteria2
+  password: M8LP9DztTr3znqCkmf-r08CQLBLLFK1r
+  sni: me17.msjia8844.site
+  skip-cert-verify: false
+  obfs: salamander
+  obfs-password: u3Soh9_Ui0UmcuY6vk0ug8Lq
+- name: 🇰🇷 韩国 (South Korea) 09 (家宽) - hotick
   server: p141.panda001.net
   port: 4652
   udp: true
   type: ss
   cipher: aes-256-cfb
   password: qwerREWQ@@
-- name: 🇭🇰 中国香港 (Hong Kong) 04 (移动家宽) - hotick
-  server: zfd-hkv2.kunlun01dns.com
-  port: 16113
-  udp: true
-  type: vmess
-  uuid: 0802ac03-7973-39ef-a019-ba02de6c01e1
-  alterId: 0
-  cipher: auto
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇺🇸 美国 (United States) 01 (家宽) - hotick
-  - 🇭🇰 中国香港 (Hong Kong) 02 (移动家宽) - hotick
-  - 🇰🇷 韩国 (South Korea) 03 (家宽) - hotick
-  - 🇭🇰 中国香港 (Hong Kong) 04 (移动家宽) - hotick
+  - 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - hotick
+  - 🇭🇰 中国香港 (Hong Kong) 03 (移动家宽) - hotick
+  - 🇺🇸 美国 (United States) 04 (家宽) - hotick
+  - 🇹🇷 土耳其 (Turkey) 05 (移动家宽) - hotick
+  - 🇩🇪 德国 (Germany) 06 (家宽) - hotick
+  - 🇹🇼 中国台湾 (Taiwan) 07 (家宽) - hotick
+  - 🇹🇷 土耳其 (Turkey) 08 (移动家宽) - hotick
+  - 🇰🇷 韩国 (South Korea) 09 (家宽) - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇺🇸 美国 (United States) 01 (家宽) - hotick
-  - 🇭🇰 中国香港 (Hong Kong) 02 (移动家宽) - hotick
-  - 🇰🇷 韩国 (South Korea) 03 (家宽) - hotick
-  - 🇭🇰 中国香港 (Hong Kong) 04 (移动家宽) - hotick
+  - 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - hotick
+  - 🇭🇰 中国香港 (Hong Kong) 03 (移动家宽) - hotick
+  - 🇺🇸 美国 (United States) 04 (家宽) - hotick
+  - 🇹🇷 土耳其 (Turkey) 05 (移动家宽) - hotick
+  - 🇩🇪 德国 (Germany) 06 (家宽) - hotick
+  - 🇹🇼 中国台湾 (Taiwan) 07 (家宽) - hotick
+  - 🇹🇷 土耳其 (Turkey) 08 (移动家宽) - hotick
+  - 🇰🇷 韩国 (South Korea) 09 (家宽) - hotick
 rules:
 - MATCH,PROXIES
