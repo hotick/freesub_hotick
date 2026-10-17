@@ -13,47 +13,12 @@ proxies:
   password: VcFuyXvND2yQWSFY
 - name: 🇧🇬 保加利亚 (Bulgaria) 02 - hotick
   server: 213.183.63.60
-  port: 9049
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: PRBf4BS2HvJqtWxY
-- name: 🇧🇬 保加利亚 (Bulgaria) 03 - hotick
-  server: 213.183.63.60
-  port: 9098
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: aLpQtfEZe445QyHk
-- name: 🇧🇬 保加利亚 (Bulgaria) 04 - hotick
-  server: 213.183.63.60
-  port: 9030
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: GeregetR8cvQHzYr
-- name: 🇧🇬 保加利亚 (Bulgaria) 05 - hotick
-  server: 213.183.63.60
-  port: 9029
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: dU3DSNS8wYPXzEKw
-- name: 🇧🇬 保加利亚 (Bulgaria) 06 - hotick
-  server: 213.183.63.60
   port: 9085
   udp: true
   type: ss
   cipher: aes-256-cfb
   password: 9ej82EKe2gq7gLAM
-- name: 🇧🇬 保加利亚 (Bulgaria) 07 - hotick
-  server: 213.183.63.60
-  port: 9061
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: 4R3hUfZ2FHhDmNcP
-- name: 🇧🇬 保加利亚 (Bulgaria) 08 - hotick
+- name: 🇧🇬 保加利亚 (Bulgaria) 03 - hotick
   server: 195.123.226.21
   port: 443
   udp: true
@@ -74,11 +39,6 @@ proxy-groups:
   - 🇧🇬 保加利亚 (Bulgaria) 01 - hotick
   - 🇧🇬 保加利亚 (Bulgaria) 02 - hotick
   - 🇧🇬 保加利亚 (Bulgaria) 03 - hotick
-  - 🇧🇬 保加利亚 (Bulgaria) 04 - hotick
-  - 🇧🇬 保加利亚 (Bulgaria) 05 - hotick
-  - 🇧🇬 保加利亚 (Bulgaria) 06 - hotick
-  - 🇧🇬 保加利亚 (Bulgaria) 07 - hotick
-  - 🇧🇬 保加利亚 (Bulgaria) 08 - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -87,10 +47,5 @@ proxy-groups:
   - 🇧🇬 保加利亚 (Bulgaria) 01 - hotick
   - 🇧🇬 保加利亚 (Bulgaria) 02 - hotick
   - 🇧🇬 保加利亚 (Bulgaria) 03 - hotick
-  - 🇧🇬 保加利亚 (Bulgaria) 04 - hotick
-  - 🇧🇬 保加利亚 (Bulgaria) 05 - hotick
-  - 🇧🇬 保加利亚 (Bulgaria) 06 - hotick
-  - 🇧🇬 保加利亚 (Bulgaria) 07 - hotick
-  - 🇧🇬 保加利亚 (Bulgaria) 08 - hotick
 rules:
 - MATCH,PROXIES
