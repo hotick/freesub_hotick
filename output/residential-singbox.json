@@ -27,8 +27,16 @@
       "uuid": "9ef61079-6f7d-4911-9608-943da85d8e6f"
     },
     {
+      "type": "vmess",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 03 (移动家宽) - hotick",
+      "server": "dog-hk.kunlun01dns.com",
+      "server_port": 21021,
+      "uuid": "9464ca40-dd75-3742-a628-d931a9f413b2",
+      "security": "auto"
+    },
+    {
       "type": "vless",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - hotick",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 04 (家宽) - hotick",
       "server": "118.167.219.24",
       "server_port": 24215,
       "uuid": "19d5a678-8396-4e3b-93da-ece618d0e83a",
@@ -47,13 +55,40 @@
       }
     },
     {
+      "type": "vmess",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 05 (移动家宽) - hotick",
+      "server": "dog-hk.kunlun01dns.com",
+      "server_port": 21022,
+      "uuid": "9464ca40-dd75-3742-a628-d931a9f413b2",
+      "security": "auto"
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇹🇷 土耳其 (Turkey) 06 (移动家宽) - hotick",
+      "server": "me17.msjia8844.site",
+      "server_port": 7443,
+      "password": "M8LP9DztTr3znqCkmf-r08CQLBLLFK1r",
+      "tls": {
+        "enabled": true,
+        "server_name": "me17.msjia8844.site",
+        "insecure": false
+      },
+      "obfs": {
+        "type": "salamander",
+        "password": "u3Soh9_Ui0UmcuY6vk0ug8Lq"
+      }
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
         "🇺🇸 美国 (United States) 01 (家宽) - hotick",
         "🇹🇷 土耳其 (Turkey) 02 (移动家宽) - hotick",
-        "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - hotick"
+        "🇭🇰 中国香港 (Hong Kong) 03 (移动家宽) - hotick",
+        "🇹🇼 中国台湾 (Taiwan) 04 (家宽) - hotick",
+        "🇭🇰 中国香港 (Hong Kong) 05 (移动家宽) - hotick",
+        "🇹🇷 土耳其 (Turkey) 06 (移动家宽) - hotick"
       ]
     },
     {
@@ -62,7 +97,10 @@
       "outbounds": [
         "🇺🇸 美国 (United States) 01 (家宽) - hotick",
         "🇹🇷 土耳其 (Turkey) 02 (移动家宽) - hotick",
-        "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - hotick"
+        "🇭🇰 中国香港 (Hong Kong) 03 (移动家宽) - hotick",
+        "🇹🇼 中国台湾 (Taiwan) 04 (家宽) - hotick",
+        "🇭🇰 中国香港 (Hong Kong) 05 (移动家宽) - hotick",
+        "🇹🇷 土耳其 (Turkey) 06 (移动家宽) - hotick"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

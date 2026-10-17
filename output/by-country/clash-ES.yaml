@@ -6,18 +6,18 @@ log-level: info
 proxies:
 - name: 🇪🇸 西班牙 (Spain) 01 - hotick
   server: 5.188.181.201
-  port: 9005
+  port: 9011
   udp: true
   type: ss
   cipher: aes-256-cfb
-  password: ZET59LF6DvCC8KVt
+  password: M3t2ZEQcMGRWBjRa
 - name: 🇪🇸 西班牙 (Spain) 02 - hotick
   server: 5.188.181.201
-  port: 9027
+  port: 9001
   udp: true
   type: ss
   cipher: aes-256-cfb
-  password: EXN3S3eQpjE7EJu8
+  password: UkXRsXvR6buDMG2Y
 - name: 🇪🇸 西班牙 (Spain) 03 - hotick
   server: 18.100.47.39
   port: 443
@@ -29,31 +29,19 @@ proxies:
     host: []
     path: /
 - name: 🇪🇸 西班牙 (Spain) 04 - hotick
-  server: 212.227.235.66
-  port: 2053
-  udp: true
-  type: vless
-  uuid: ead0dd61-d398-40ad-80d6-a0e1e516d7d3
-  tls: true
-  reality-opts:
-    public-key: 7Y6Xb5Ql_03K25x8yKUSOKI2JTOMyv2nyCcFza90uxk
-    short-id: 29e8dcd2b37aaa7f
-  servername: www.apple.com
-  client-fingerprint: chrome
-- name: 🇪🇸 西班牙 (Spain) 05 - hotick
-  server: 77.81.182.126
+  server: 83.147.18.3
   port: 443
   udp: true
   type: vless
-  uuid: cc19cc64-daba-4f2e-94ff-0b49c60067a9
+  uuid: 9f61cdf4-810d-4052-bbc7-2da0c8e20104
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: tYhQNU2gsmb5pC4VfGiAwzZo5maENo20wGRnDKf152o
-    short-id: 5d9d9c1b
-  servername: amp-api-edge.apps.apple.com
+    public-key: 3iVJAIGPx6JMlhlRmfpGrHkSmLpHJ4CPvBBH7KsFrFA
+    short-id: fd8cf7e1173f0edb
+  servername: www.cloudflare.com
   client-fingerprint: chrome
-- name: 🇪🇸 西班牙 (Spain) 06 - hotick
+- name: 🇪🇸 西班牙 (Spain) 05 - hotick
   server: 46.28.71.247
   port: 443
   udp: true
@@ -65,7 +53,7 @@ proxies:
     public-key: v4MuZIvFrTPT5GHMSaPryUAbIZlLstmsUTzmC1E-JTE
     short-id: 0dfc23fe80778c00
   servername: www.cloudflare.com
-  client-fingerprint: chrome
+  client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
   type: select
@@ -76,7 +64,6 @@ proxy-groups:
   - 🇪🇸 西班牙 (Spain) 03 - hotick
   - 🇪🇸 西班牙 (Spain) 04 - hotick
   - 🇪🇸 西班牙 (Spain) 05 - hotick
-  - 🇪🇸 西班牙 (Spain) 06 - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -87,6 +74,5 @@ proxy-groups:
   - 🇪🇸 西班牙 (Spain) 03 - hotick
   - 🇪🇸 西班牙 (Spain) 04 - hotick
   - 🇪🇸 西班牙 (Spain) 05 - hotick
-  - 🇪🇸 西班牙 (Spain) 06 - hotick
 rules:
 - MATCH,PROXIES
