@@ -14,67 +14,38 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: a39ca173b57ac7021b08bf3e3de9f1f6
-- name: 🇭🇰 中国香港 (Hong Kong) 02 (移动家宽) - hotick
-  server: dog-hk.kunlun01dns.com
-  port: 21019
-  udp: true
-  type: vmess
-  uuid: 9464ca40-dd75-3742-a628-d931a9f413b2
-  alterId: 0
-  cipher: auto
-- name: 🇰🇷 韩国 (South Korea) 03 (家宽) - hotick
-  server: 218.237.185.234
-  port: 4652
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: qwerREWQ@@
-- name: 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - hotick
-  server: dog-tw.kunlun01dns.com
-  port: 21035
-  udp: true
-  type: vmess
-  uuid: 9464ca40-dd75-3742-a628-d931a9f413b2
-  alterId: 0
-  cipher: auto
-- name: 🇹🇷 土耳其 (Turkey) 05 (移动家宽) - hotick
+- name: 🇹🇷 土耳其 (Turkey) 02 (移动家宽) - hotick
   server: test.keoplentuio.xyz
   port: 2053
   udp: true
   type: vless
   uuid: 9ef61079-6f7d-4911-9608-943da85d8e6f
-- name: 🇰🇷 韩国 (South Korea) 06 (家宽) - hotick
-  server: 183.109.131.75
-  port: 20086
+- name: 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - hotick
+  server: 118.167.219.24
+  port: 24215
   udp: true
-  type: vmess
-  uuid: b26c4803-0bca-467c-a245-c9a80bdd72ec
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-opts:
-    path: /
+  type: vless
+  uuid: 19d5a678-8396-4e3b-93da-ece618d0e83a
+  tls: true
+  reality-opts:
+    public-key: mdWKUPMVTtTbDqK10BPb89OcqBC2-Lx-4NOYtqc1GWE
+  servername: addons.mozilla.org
+  client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇺🇸 美国 (United States) 01 (家宽) - hotick
-  - 🇭🇰 中国香港 (Hong Kong) 02 (移动家宽) - hotick
-  - 🇰🇷 韩国 (South Korea) 03 (家宽) - hotick
-  - 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - hotick
-  - 🇹🇷 土耳其 (Turkey) 05 (移动家宽) - hotick
-  - 🇰🇷 韩国 (South Korea) 06 (家宽) - hotick
+  - 🇹🇷 土耳其 (Turkey) 02 (移动家宽) - hotick
+  - 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇺🇸 美国 (United States) 01 (家宽) - hotick
-  - 🇭🇰 中国香港 (Hong Kong) 02 (移动家宽) - hotick
-  - 🇰🇷 韩国 (South Korea) 03 (家宽) - hotick
-  - 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - hotick
-  - 🇹🇷 土耳其 (Turkey) 05 (移动家宽) - hotick
-  - 🇰🇷 韩国 (South Korea) 06 (家宽) - hotick
+  - 🇹🇷 土耳其 (Turkey) 02 (移动家宽) - hotick
+  - 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - hotick
 rules:
 - MATCH,PROXIES

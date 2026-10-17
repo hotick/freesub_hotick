@@ -20,46 +20,30 @@
       }
     },
     {
-      "type": "vmess",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 02 (移动家宽) - hotick",
-      "server": "dog-hk.kunlun01dns.com",
-      "server_port": 21019,
-      "uuid": "9464ca40-dd75-3742-a628-d931a9f413b2",
-      "security": "auto"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇰🇷 韩国 (South Korea) 03 (家宽) - hotick",
-      "server": "218.237.185.234",
-      "server_port": 4652,
-      "method": "aes-256-cfb",
-      "password": "qwerREWQ@@"
-    },
-    {
-      "type": "vmess",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 04 (家宽) - hotick",
-      "server": "dog-tw.kunlun01dns.com",
-      "server_port": 21035,
-      "uuid": "9464ca40-dd75-3742-a628-d931a9f413b2",
-      "security": "auto"
-    },
-    {
       "type": "vless",
-      "tag": "🇹🇷 土耳其 (Turkey) 05 (移动家宽) - hotick",
+      "tag": "🇹🇷 土耳其 (Turkey) 02 (移动家宽) - hotick",
       "server": "test.keoplentuio.xyz",
       "server_port": 2053,
       "uuid": "9ef61079-6f7d-4911-9608-943da85d8e6f"
     },
     {
-      "type": "vmess",
-      "tag": "🇰🇷 韩国 (South Korea) 06 (家宽) - hotick",
-      "server": "183.109.131.75",
-      "server_port": 20086,
-      "uuid": "b26c4803-0bca-467c-a245-c9a80bdd72ec",
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/"
+      "type": "vless",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - hotick",
+      "server": "118.167.219.24",
+      "server_port": 24215,
+      "uuid": "19d5a678-8396-4e3b-93da-ece618d0e83a",
+      "tls": {
+        "enabled": true,
+        "server_name": "addons.mozilla.org",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "mdWKUPMVTtTbDqK10BPb89OcqBC2-Lx-4NOYtqc1GWE",
+          "short_id": ""
+        }
       }
     },
     {
@@ -68,11 +52,8 @@
       "outbounds": [
         "auto",
         "🇺🇸 美国 (United States) 01 (家宽) - hotick",
-        "🇭🇰 中国香港 (Hong Kong) 02 (移动家宽) - hotick",
-        "🇰🇷 韩国 (South Korea) 03 (家宽) - hotick",
-        "🇹🇼 中国台湾 (Taiwan) 04 (家宽) - hotick",
-        "🇹🇷 土耳其 (Turkey) 05 (移动家宽) - hotick",
-        "🇰🇷 韩国 (South Korea) 06 (家宽) - hotick"
+        "🇹🇷 土耳其 (Turkey) 02 (移动家宽) - hotick",
+        "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - hotick"
       ]
     },
     {
@@ -80,11 +61,8 @@
       "tag": "auto",
       "outbounds": [
         "🇺🇸 美国 (United States) 01 (家宽) - hotick",
-        "🇭🇰 中国香港 (Hong Kong) 02 (移动家宽) - hotick",
-        "🇰🇷 韩国 (South Korea) 03 (家宽) - hotick",
-        "🇹🇼 中国台湾 (Taiwan) 04 (家宽) - hotick",
-        "🇹🇷 土耳其 (Turkey) 05 (移动家宽) - hotick",
-        "🇰🇷 韩国 (South Korea) 06 (家宽) - hotick"
+        "🇹🇷 土耳其 (Turkey) 02 (移动家宽) - hotick",
+        "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - hotick"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
