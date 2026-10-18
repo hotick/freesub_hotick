@@ -5,6 +5,22 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇹🇷 土耳其 (Turkey) 01 - hotick
+  server: bot.powerpanel.space
+  port: 8080
+  udp: true
+  type: vless
+  uuid: 83e029c0-b4ea-4e91-a945-dfb72c01f24b
+- name: 🇹🇷 土耳其 (Turkey) 02 - hotick
+  server: me17.msjia8844.site
+  port: 7443
+  udp: true
+  type: hysteria2
+  password: M8LP9DztTr3znqCkmf-r08CQLBLLFK1r
+  sni: me17.msjia8844.site
+  skip-cert-verify: false
+  obfs: salamander
+  obfs-password: u3Soh9_Ui0UmcuY6vk0ug8Lq
+- name: 🇹🇷 土耳其 (Turkey) 03 - hotick
   server: 151.241.226.201
   port: 2053
   udp: true
@@ -15,8 +31,8 @@ proxies:
     public-key: bYW_MmB_CUHrsyoCAUKviI2LZdHf63yY2yOPXbih104
     short-id: 9e419c0759b54d6f
   servername: www.apple.com
-  client-fingerprint: firefox
-- name: 🇹🇷 土耳其 (Turkey) 02 - hotick
+  client-fingerprint: chrome
+- name: 🇹🇷 土耳其 (Turkey) 04 - hotick
   server: 78.135.73.47
   port: 443
   udp: true
@@ -29,18 +45,7 @@ proxies:
     short-id: f46cd3ea3d1eb72d
   servername: www.datadoghq.com
   client-fingerprint: chrome
-- name: 🇹🇷 土耳其 (Turkey) 03 - hotick
-  server: 188.114.98.0
-  port: 443
-  udp: true
-  type: trojan
-  password: e309e031-991e-4656-9934-44d10deb8fd8
-  sni: nimm.mpd.cc.cd.
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /0962
-- name: 🇹🇷 土耳其 (Turkey) 04 - hotick
+- name: 🇹🇷 土耳其 (Turkey) 05 - hotick
   server: 104.21.48.18
   port: 2053
   udp: true
@@ -60,6 +65,7 @@ proxy-groups:
   - 🇹🇷 土耳其 (Turkey) 02 - hotick
   - 🇹🇷 土耳其 (Turkey) 03 - hotick
   - 🇹🇷 土耳其 (Turkey) 04 - hotick
+  - 🇹🇷 土耳其 (Turkey) 05 - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -69,5 +75,6 @@ proxy-groups:
   - 🇹🇷 土耳其 (Turkey) 02 - hotick
   - 🇹🇷 土耳其 (Turkey) 03 - hotick
   - 🇹🇷 土耳其 (Turkey) 04 - hotick
+  - 🇹🇷 土耳其 (Turkey) 05 - hotick
 rules:
 - MATCH,PROXIES
