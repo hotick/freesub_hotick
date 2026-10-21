@@ -17,40 +17,6 @@ proxies:
   servername: apple.com
   client-fingerprint: qq
 - name: 🇷🇺 俄罗斯 (Russia) 02 - hotick
-  server: 77.90.61.135
-  port: 443
-  udp: true
-  type: vless
-  uuid: 8815925b-c7b8-4f94-9c24-9dc864f63a29
-  tls: true
-  reality-opts:
-    public-key: XlEzAhUOUC-hZA2Uk2sctG5WR9lPeAUAHGNQVu9oAVg
-    short-id: ce1dc482
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇷🇺 俄罗斯 (Russia) 03 - hotick
-  server: 176.32.33.254
-  port: 18443
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: cCMJgJTA3BA489YUYrFq7XHXSiSpWlLa
-- name: 🇷🇺 俄罗斯 (Russia) 04 - hotick
-  server: 193.233.253.180
-  port: 8444
-  udp: true
-  type: vless
-  uuid: f55e9aba-7b14-4f6f-b59a-d5b3d45c9309
-  tls: true
-  reality-opts:
-    public-key: FWitre1jinQR7qz5HQ0q2Q4Gg9xA9B0SyizCziN7Ch0
-    short-id: 457fab2ac885dbe0
-  servername: github.com
-  client-fingerprint: chrome
-  network: grpc
-  grpc-opts:
-    grpc-service-name: GunService
-- name: 🇷🇺 俄罗斯 (Russia) 05 - hotick
   server: 213.165.56.102
   port: 443
   udp: true
@@ -63,7 +29,109 @@ proxies:
     short-id: c8813f516bbb12c4
   servername: freede.aiage.work
   client-fingerprint: firefox
+- name: 🇷🇺 俄罗斯 (Russia) 03 - hotick
+  server: 77.90.61.135
+  port: 443
+  udp: true
+  type: vless
+  uuid: 8815925b-c7b8-4f94-9c24-9dc864f63a29
+  tls: true
+  reality-opts:
+    public-key: XlEzAhUOUC-hZA2Uk2sctG5WR9lPeAUAHGNQVu9oAVg
+    short-id: ce1dc482
+  servername: www.cloudflare.com
+  client-fingerprint: safari
+- name: 🇷🇺 俄罗斯 (Russia) 04 - hotick
+  server: 130.49.189.158
+  port: 43558
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: nQeEoXC5Yl5PZnPLvKUpFTU9cyQcNG902zpibWkwGbo=
+- name: 🇷🇺 俄罗斯 (Russia) 05 - hotick
+  server: 176.32.33.254
+  port: 18443
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: cCMJgJTA3BA489YUYrFq7XHXSiSpWlLa
 - name: 🇷🇺 俄罗斯 (Russia) 06 - hotick
+  server: 176.32.34.253
+  port: 18443
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: Lpq5UPVHtQYiuB9jEUNc2WkeIYCUH9DE
+- name: 🇷🇺 俄罗斯 (Russia) 07 - hotick
+  server: 193.233.253.180
+  port: 8444
+  udp: true
+  type: vless
+  uuid: f55e9aba-7b14-4f6f-b59a-d5b3d45c9309
+  tls: true
+  reality-opts:
+    public-key: FWitre1jinQR7qz5HQ0q2Q4Gg9xA9B0SyizCziN7Ch0
+    short-id: 457fab2ac885dbe0
+  servername: github.com
+  client-fingerprint: ''
+  network: grpc
+  grpc-opts:
+    grpc-service-name: GunService
+- name: 🇷🇺 俄罗斯 (Russia) 08 - hotick
+  server: 0f5857g.msk1.h1clayd.click
+  port: 443
+  udp: true
+  type: vless
+  uuid: 3acb386b-fdd7-4bc9-911f-159fdcd834ce
+  tls: true
+  reality-opts:
+    public-key: _UKyZZvF2cvo6qev4VY-QoOyzqE8cGT3hciD0g--sD8
+    short-id: 07e197719352d606
+  servername: 0f5857g.msk1.h1clayd.click
+  client-fingerprint: firefox
+  network: grpc
+  grpc-opts:
+    grpc-service-name: fb78f1bc0355
+- name: 🇷🇺 俄罗斯 (Russia) 09 - hotick
+  server: du-rov.secureservice.top
+  port: 8443
+  udp: true
+  type: vless
+  uuid: c53ea5e9-ed8b-4990-805d-7f1d6451426c
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: fSVfR9NB-6J6smrZlavi0GWd8JfDh0aXuEkKbtuFzUI
+    short-id: 3cbc3d737fb9c4af
+  servername: du-rov.secureservice.top
+  client-fingerprint: random
+- name: 🇷🇺 俄罗斯 (Russia) 10 - hotick
+  server: 5.42.99.64
+  port: 8443
+  udp: true
+  type: vless
+  uuid: c53ea5e9-ed8b-4990-805d-7f1d6451426c
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: fSVfR9NB-6J6smrZlavi0GWd8JfDh0aXuEkKbtuFzUI
+    short-id: 3cbc3d737fb9c4af
+  servername: du-rov.secureservice.top
+  client-fingerprint: chrome
+- name: 🇷🇺 俄罗斯 (Russia) 11 - hotick
+  server: 5.42.99.64
+  port: 8443
+  udp: true
+  type: vless
+  uuid: c53ea5e9-ed8b-4990-805d-7f1d6451426c
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: fSVfR9NB-6J6smrZlavi0GWd8JfDh0aXuEkKbtuFzUI
+    short-id: 3cbc3d737fb9c4af
+  servername: du-rov.secureservice.top
+  client-fingerprint: chrome
+- name: 🇷🇺 俄罗斯 (Russia) 12 - hotick
   server: 45.12.75.242
   port: 26424
   udp: true
@@ -75,6 +143,14 @@ proxies:
     short-id: 23103e1e
   servername: ya.ru
   client-fingerprint: chrome
+- name: 🇷🇺 俄罗斯 (Russia) 13 - hotick
+  server: 103.88.243.142
+  port: 11592
+  udp: true
+  type: hysteria2
+  password: 41edb44c8e
+  sni: srv-17e124.21freedom.net
+  skip-cert-verify: false
 proxy-groups:
 - name: PROXIES
   type: select
@@ -86,6 +162,13 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 04 - hotick
   - 🇷🇺 俄罗斯 (Russia) 05 - hotick
   - 🇷🇺 俄罗斯 (Russia) 06 - hotick
+  - 🇷🇺 俄罗斯 (Russia) 07 - hotick
+  - 🇷🇺 俄罗斯 (Russia) 08 - hotick
+  - 🇷🇺 俄罗斯 (Russia) 09 - hotick
+  - 🇷🇺 俄罗斯 (Russia) 10 - hotick
+  - 🇷🇺 俄罗斯 (Russia) 11 - hotick
+  - 🇷🇺 俄罗斯 (Russia) 12 - hotick
+  - 🇷🇺 俄罗斯 (Russia) 13 - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -97,5 +180,12 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 04 - hotick
   - 🇷🇺 俄罗斯 (Russia) 05 - hotick
   - 🇷🇺 俄罗斯 (Russia) 06 - hotick
+  - 🇷🇺 俄罗斯 (Russia) 07 - hotick
+  - 🇷🇺 俄罗斯 (Russia) 08 - hotick
+  - 🇷🇺 俄罗斯 (Russia) 09 - hotick
+  - 🇷🇺 俄罗斯 (Russia) 10 - hotick
+  - 🇷🇺 俄罗斯 (Russia) 11 - hotick
+  - 🇷🇺 俄罗斯 (Russia) 12 - hotick
+  - 🇷🇺 俄罗斯 (Russia) 13 - hotick
 rules:
 - MATCH,PROXIES

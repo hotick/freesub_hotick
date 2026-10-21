@@ -5,6 +5,50 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇫🇮 芬兰 (Finland) 01 - hotick
+  server: 45.144.234.157
+  port: 14430
+  udp: true
+  type: vless
+  uuid: 59b0d30e-9b29-4fda-a35c-b2901ec32db7
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: 45.144.234.157
+- name: 🇫🇮 芬兰 (Finland) 02 - hotick
+  server: 31.77.199.147
+  port: 4443
+  udp: true
+  type: vless
+  uuid: 20dd9433-389e-4573-ba7b-689619cf13da
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: GvkQwcZWiXQBLzEhTVfQkyPpdgo6Opc3RtLsED9sA0A
+    short-id: 7da2eae792187ab9
+  servername: images.unsplash.com
+  client-fingerprint: chrome
+- name: 🇫🇮 芬兰 (Finland) 03 - hotick
+  server: 212.87.222.10
+  port: 8443
+  udp: true
+  type: vless
+  uuid: 8afeb33c-b686-43e9-a629-0d98f991ec28
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: f25sygANXTpzdc9YPCwkggwSmm3piA3BluSeHdfG-hg
+  servername: www.nokia.com
+  client-fingerprint: safari
+- name: 🇫🇮 芬兰 (Finland) 04 - hotick
+  server: 2.26.3.75
+  port: 443
+  udp: true
+  type: hysteria2
+  password: d5530551-5e9a-4ac5-8539-cee87e38d9e2
+  sni: fi.67chat.ru
+  skip-cert-verify: false
+- name: 🇫🇮 芬兰 (Finland) 05 - hotick
   server: 2.29.101.158
   port: 443
   udp: true
@@ -19,38 +63,6 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: 0adb9638509b
-- name: 🇫🇮 芬兰 (Finland) 02 - hotick
-  server: 31.77.199.147
-  port: 4443
-  udp: true
-  type: vless
-  uuid: 20dd9433-389e-4573-ba7b-689619cf13da
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: GvkQwcZWiXQBLzEhTVfQkyPpdgo6Opc3RtLsED9sA0A
-    short-id: 7da2eae792187ab9
-  servername: images.unsplash.com
-  client-fingerprint: firefox
-- name: 🇫🇮 芬兰 (Finland) 03 - hotick
-  server: 45.144.234.157
-  port: 14430
-  udp: true
-  type: vless
-  uuid: 59b0d30e-9b29-4fda-a35c-b2901ec32db7
-  network: ws
-  ws-opts:
-    path: /vless
-    headers:
-      Host: 45.144.234.157
-- name: 🇫🇮 芬兰 (Finland) 04 - hotick
-  server: 2.26.3.75
-  port: 443
-  udp: true
-  type: hysteria2
-  password: d5530551-5e9a-4ac5-8539-cee87e38d9e2
-  sni: fi.67chat.ru
-  skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -60,6 +72,7 @@ proxy-groups:
   - 🇫🇮 芬兰 (Finland) 02 - hotick
   - 🇫🇮 芬兰 (Finland) 03 - hotick
   - 🇫🇮 芬兰 (Finland) 04 - hotick
+  - 🇫🇮 芬兰 (Finland) 05 - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -69,5 +82,6 @@ proxy-groups:
   - 🇫🇮 芬兰 (Finland) 02 - hotick
   - 🇫🇮 芬兰 (Finland) 03 - hotick
   - 🇫🇮 芬兰 (Finland) 04 - hotick
+  - 🇫🇮 芬兰 (Finland) 05 - hotick
 rules:
 - MATCH,PROXIES

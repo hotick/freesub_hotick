@@ -20,6 +20,16 @@ proxies:
   sni: www.bing.com
   skip-cert-verify: true
 - name: 🇨🇭 瑞士 (Switzerland) 03 - hotick
+  server: 152.67.75.161
+  port: 443
+  udp: true
+  type: hysteria2
+  password: 3a702d4d1de4949005d8431220e040fb
+  sni: www.bing.com
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: c13f29db6a638ad2b211b9ce2669ef27
+- name: 🇨🇭 瑞士 (Switzerland) 04 - hotick
   server: 45.90.59.15
   port: 443
   udp: true
@@ -31,20 +41,10 @@ proxies:
     public-key: P7S4UPFlQbmiBr4txyy8NZIMTrmO3UdxyH16WBU-YzY
     short-id: 19253fae84102271
   servername: www.cloudflare.com
-  client-fingerprint: firefox
-- name: 🇨🇭 瑞士 (Switzerland) 04 - hotick
-  server: 152.67.75.161
-  port: 443
-  udp: true
-  type: hysteria2
-  password: 3a702d4d1de4949005d8431220e040fb
-  sni: www.bing.com
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: c13f29db6a638ad2b211b9ce2669ef27
+  client-fingerprint: random
 - name: 🇨🇭 瑞士 (Switzerland) 05 - hotick
   server: 208.69.78.217
-  port: 33117
+  port: 33174
   udp: true
   type: hysteria2
   password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
@@ -54,7 +54,7 @@ proxies:
   obfs-password: mbQXP2ASuHbF6ZPq
 - name: 🇨🇭 瑞士 (Switzerland) 06 - hotick
   server: 208.69.78.217
-  port: 21080
+  port: 21021
   udp: true
   type: hysteria2
   password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
@@ -64,7 +64,7 @@ proxies:
   obfs-password: mbQXP2ASuHbF6ZPq
 - name: 🇨🇭 瑞士 (Switzerland) 07 - hotick
   server: 208.69.78.217
-  port: 21161
+  port: 33042
   udp: true
   type: hysteria2
   password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
@@ -74,7 +74,7 @@ proxies:
   obfs-password: mbQXP2ASuHbF6ZPq
 - name: 🇨🇭 瑞士 (Switzerland) 08 - hotick
   server: 208.69.78.217
-  port: 21154
+  port: 21046
   udp: true
   type: hysteria2
   password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
@@ -84,7 +84,7 @@ proxies:
   obfs-password: mbQXP2ASuHbF6ZPq
 - name: 🇨🇭 瑞士 (Switzerland) 09 - hotick
   server: 208.69.78.217
-  port: 33025
+  port: 21154
   udp: true
   type: hysteria2
   password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
@@ -94,7 +94,7 @@ proxies:
   obfs-password: mbQXP2ASuHbF6ZPq
 - name: 🇨🇭 瑞士 (Switzerland) 10 - hotick
   server: 208.69.78.217
-  port: 33092
+  port: 33187
   udp: true
   type: hysteria2
   password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
@@ -104,7 +104,7 @@ proxies:
   obfs-password: mbQXP2ASuHbF6ZPq
 - name: 🇨🇭 瑞士 (Switzerland) 11 - hotick
   server: 208.69.78.217
-  port: 21086
+  port: 33141
   udp: true
   type: hysteria2
   password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
@@ -114,7 +114,7 @@ proxies:
   obfs-password: mbQXP2ASuHbF6ZPq
 - name: 🇨🇭 瑞士 (Switzerland) 12 - hotick
   server: 208.69.78.217
-  port: 33171
+  port: 21047
   udp: true
   type: hysteria2
   password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
@@ -124,7 +124,7 @@ proxies:
   obfs-password: mbQXP2ASuHbF6ZPq
 - name: 🇨🇭 瑞士 (Switzerland) 13 - hotick
   server: 208.69.78.217
-  port: 21158
+  port: 21161
   udp: true
   type: hysteria2
   password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
@@ -134,7 +134,7 @@ proxies:
   obfs-password: mbQXP2ASuHbF6ZPq
 - name: 🇨🇭 瑞士 (Switzerland) 14 - hotick
   server: 208.69.78.217
-  port: 21000
+  port: 33044
   udp: true
   type: hysteria2
   password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
@@ -142,7 +142,66 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: mbQXP2ASuHbF6ZPq
-  ports: 21000-21199,33000-33199
+- name: 🇨🇭 瑞士 (Switzerland) 15 - hotick
+  server: 208.69.78.217
+  port: 21147
+  udp: true
+  type: hysteria2
+  password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: mbQXP2ASuHbF6ZPq
+- name: 🇨🇭 瑞士 (Switzerland) 16 - hotick
+  server: 208.69.78.217
+  port: 33025
+  udp: true
+  type: hysteria2
+  password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: mbQXP2ASuHbF6ZPq
+- name: 🇨🇭 瑞士 (Switzerland) 17 - hotick
+  server: 208.69.78.217
+  port: 33133
+  udp: true
+  type: hysteria2
+  password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: mbQXP2ASuHbF6ZPq
+- name: 🇨🇭 瑞士 (Switzerland) 18 - hotick
+  server: 208.69.78.217
+  port: 33195
+  udp: true
+  type: hysteria2
+  password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: mbQXP2ASuHbF6ZPq
+- name: 🇨🇭 瑞士 (Switzerland) 19 - hotick
+  server: 208.69.78.217
+  port: 33130
+  udp: true
+  type: hysteria2
+  password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: mbQXP2ASuHbF6ZPq
+- name: 🇨🇭 瑞士 (Switzerland) 20 - hotick
+  server: 208.69.78.217
+  port: 8444
+  udp: true
+  type: hysteria2
+  password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: mbQXP2ASuHbF6ZPq
 proxy-groups:
 - name: PROXIES
   type: select
@@ -162,6 +221,12 @@ proxy-groups:
   - 🇨🇭 瑞士 (Switzerland) 12 - hotick
   - 🇨🇭 瑞士 (Switzerland) 13 - hotick
   - 🇨🇭 瑞士 (Switzerland) 14 - hotick
+  - 🇨🇭 瑞士 (Switzerland) 15 - hotick
+  - 🇨🇭 瑞士 (Switzerland) 16 - hotick
+  - 🇨🇭 瑞士 (Switzerland) 17 - hotick
+  - 🇨🇭 瑞士 (Switzerland) 18 - hotick
+  - 🇨🇭 瑞士 (Switzerland) 19 - hotick
+  - 🇨🇭 瑞士 (Switzerland) 20 - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -181,5 +246,11 @@ proxy-groups:
   - 🇨🇭 瑞士 (Switzerland) 12 - hotick
   - 🇨🇭 瑞士 (Switzerland) 13 - hotick
   - 🇨🇭 瑞士 (Switzerland) 14 - hotick
+  - 🇨🇭 瑞士 (Switzerland) 15 - hotick
+  - 🇨🇭 瑞士 (Switzerland) 16 - hotick
+  - 🇨🇭 瑞士 (Switzerland) 17 - hotick
+  - 🇨🇭 瑞士 (Switzerland) 18 - hotick
+  - 🇨🇭 瑞士 (Switzerland) 19 - hotick
+  - 🇨🇭 瑞士 (Switzerland) 20 - hotick
 rules:
 - MATCH,PROXIES
