@@ -6,12 +6,12 @@
     {
       "type": "vless",
       "tag": "🇸🇪 瑞典 (Sweden) 01 - hotick",
-      "server": "94.143.231.146",
+      "server": "fbi.gov",
       "server_port": 443,
-      "uuid": "6e05822a-e9da-4135-a9db-71aa07a944af",
+      "uuid": "e818a20d-9bcd-4744-9061-ca51b9c8aeea",
       "tls": {
         "enabled": true,
-        "server_name": "sub.merky.top",
+        "server_name": "wallweb-4ez.pages.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -20,50 +20,46 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/merky-connect/de6/",
+        "path": "/",
         "headers": {
-          "Host": "sub.merky.top"
+          "Host": "wallweb-4ez.pages.dev"
         }
       }
     },
     {
       "type": "vless",
       "tag": "🇸🇪 瑞典 (Sweden) 02 - hotick",
-      "server": "62.60.159.81",
-      "server_port": 2053,
-      "uuid": "fc00adfb-232a-46ce-8b93-0c70e516aa8a",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.samsung.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "ygmJxS-Mc7g0buNSUTVGhazT-FoBjyYtLLfUYIQxFTw",
-          "short_id": "d0ea1847066af5a6"
-        }
-      },
+      "server": "51.21.247.148",
+      "server_port": 443,
+      "uuid": "7060231d-b9ba-495f-a218-bf427940cf3e",
       "transport": {
-        "type": "grpc",
-        "service_name": "grpce5bb9e71"
+        "type": "http"
       }
     },
     {
       "type": "vless",
       "tag": "🇸🇪 瑞典 (Sweden) 03 - hotick",
-      "server": "edge-lab-b.10media.top",
+      "server": "13.60.198.133",
       "server_port": 443,
-      "uuid": "9cb8d71c-fe06-4402-a591-eaa1f173b890",
+      "uuid": "7060231d-b9ba-495f-a218-bf427940cf3e",
+      "transport": {
+        "type": "http"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇸🇪 瑞典 (Sweden) 04 - hotick",
+      "server": "77.110.96.201",
+      "server_port": 36264,
+      "password": "Telegram-vpnjey",
       "tls": {
         "enabled": true,
-        "server_name": "edge-lab-b.10media.top",
-        "insecure": false
+        "server_name": "se.vpnjey2.dpdns.org",
+        "insecure": true
       },
-      "transport": {
-        "type": "grpc",
-        "service_name": "swedenfeed"
+      "obfs": {
+        "type": "salamander",
+        "password": "Telegram@vpnjey"
       }
     },
     {
@@ -73,7 +69,8 @@
         "auto",
         "🇸🇪 瑞典 (Sweden) 01 - hotick",
         "🇸🇪 瑞典 (Sweden) 02 - hotick",
-        "🇸🇪 瑞典 (Sweden) 03 - hotick"
+        "🇸🇪 瑞典 (Sweden) 03 - hotick",
+        "🇸🇪 瑞典 (Sweden) 04 - hotick"
       ]
     },
     {
@@ -82,7 +79,8 @@
       "outbounds": [
         "🇸🇪 瑞典 (Sweden) 01 - hotick",
         "🇸🇪 瑞典 (Sweden) 02 - hotick",
-        "🇸🇪 瑞典 (Sweden) 03 - hotick"
+        "🇸🇪 瑞典 (Sweden) 03 - hotick",
+        "🇸🇪 瑞典 (Sweden) 04 - hotick"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

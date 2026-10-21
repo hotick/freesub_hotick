@@ -35,23 +35,21 @@
     {
       "type": "vless",
       "tag": "🇨🇿 捷克 (Czech) 03 - hotick",
-      "server": "81.28.12.12",
+      "server": "193.124.17.190",
       "server_port": 443,
-      "uuid": "6206cb76-491d-4237-baf1-8c29eea4eafb",
+      "uuid": "6dfc9149-1ff9-41c3-8563-0ef284381731",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "node-3.wt419.site",
-        "insecure": false,
+        "server_name": "www.tradingview.com",
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/qVnRkTxmLwBzHjYpFaDgUcSeNrKxMtVbWqZhPcLsJfGy",
-        "headers": {
-          "Host": "node-3.wt419.site"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "J-dv-HrWfQ_IOoyutv0Kg-rO8QwoRwc02dS1dS_tblk",
+          "short_id": "1374bddeb25d"
         }
       }
     },

@@ -5,7 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 01 - hotick
-  server: 3h-kazakhstan1.09vpn.com
+  server: 38.107.234.57
   port: 80
   udp: true
   type: vmess
@@ -16,191 +16,8 @@ proxies:
   ws-opts:
     path: /vmess/
     headers:
-      Host: 3h-kazakhstan1.09vpn.com
+      Host: viber.com
 - name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 02 - hotick
-  server: 3h-kazakhstan1.09vpn.com
-  port: 80
-  udp: true
-  type: vmess
-  uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-opts:
-    path: /vmess/
-- name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 03 - hotick
-  server: 3h-kazakhstan1.09vpn.com
-  port: 80
-  udp: true
-  type: vmess
-  uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-opts:
-    path: /vmess/
-- name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 04 - hotick
-  server: 178.236.16.98
-  port: 35728
-  udp: true
-  type: vless
-  uuid: a00d89f6-ab7e-4e30-a5e5-54c701d62c93
-  tls: true
-  reality-opts:
-    public-key: vhUFNoFcvtZAVMo8y5K5eU2V43m5q6yjmWIhp5RkFng
-    short-id: 69a2
-  servername: yahoo.com
-  client-fingerprint: chrome
-- name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 05 - hotick
-  server: 38.107.234.57
-  port: 80
-  udp: true
-  type: vmess
-  uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-opts:
-    path: /vmess/
-    headers:
-      Host: google.com
-- name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 06 - hotick
-  server: 38.107.234.57
-  port: 80
-  udp: true
-  type: vmess
-  uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-opts:
-    path: /vmess/
-    headers:
-      Host: viber.com
-- name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 07 - hotick
-  server: 38.107.234.57
-  port: 80
-  udp: true
-  type: vmess
-  uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-opts:
-    path: /vmess/
-    headers:
-      Host: viber.com
-- name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 08 - hotick
-  server: 38.107.234.57
-  port: 80
-  udp: true
-  type: vmess
-  uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-opts:
-    path: /vmess/
-- name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 09 - hotick
-  server: 38.107.234.57
-  port: 80
-  udp: true
-  type: vmess
-  uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-opts:
-    path: /vmess/
-    headers:
-      Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
-- name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 10 - hotick
-  server: 38.107.234.57
-  port: 80
-  udp: true
-  type: vmess
-  uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-opts:
-    path: /vmess/
-    headers:
-      Host: google.com
-- name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 11 - hotick
-  server: 38.107.234.57
-  port: 80
-  udp: true
-  type: vmess
-  uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-opts:
-    path: /vmess/
-    headers:
-      Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
-- name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 12 - hotick
-  server: 38.107.234.57
-  port: 80
-  udp: true
-  type: vmess
-  uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-opts:
-    path: /vmess/
-- name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 13 - hotick
-  server: 38.107.234.57
-  port: 80
-  udp: true
-  type: vmess
-  uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-opts:
-    path: /vmess/
-    headers:
-      Host: 3h-kazakhstan1.09vpn.com
-- name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 14 - hotick
-  server: 38.107.234.57
-  port: 80
-  udp: true
-  type: vmess
-  uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-opts:
-    path: /vmess/
-    headers:
-      Host: 38.107.234.57
-- name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 15 - hotick
-  server: 38.107.234.57
-  port: 80
-  udp: true
-  type: vmess
-  uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-opts:
-    path: /vmess/
-- name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 16 - hotick
-  server: 185.91.126.213
-  port: 443
-  udp: true
-  type: vless
-  uuid: ad9f922d-1881-474d-94a8-4b06851f6039
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: qB_eMu3ZO_wGITnyIqJ7Kt39-h9oHFnHlQQEqA-r3VA
-  servername: ads.x5.ru
-  client-fingerprint: random
-- name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 17 - hotick
   server: 109.248.170.119
   port: 13447
   udp: true
@@ -212,6 +29,18 @@ proxies:
     short-id: '83'
   servername: yahoo.com
   client-fingerprint: chrome
+- name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 03 - hotick
+  server: 178.236.16.98
+  port: 35728
+  udp: true
+  type: vless
+  uuid: a00d89f6-ab7e-4e30-a5e5-54c701d62c93
+  tls: true
+  reality-opts:
+    public-key: vhUFNoFcvtZAVMo8y5K5eU2V43m5q6yjmWIhp5RkFng
+    short-id: 69a2
+  servername: yahoo.com
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
@@ -220,20 +49,6 @@ proxy-groups:
   - 🇰🇿 哈萨克斯坦 (Kazakhstan) 01 - hotick
   - 🇰🇿 哈萨克斯坦 (Kazakhstan) 02 - hotick
   - 🇰🇿 哈萨克斯坦 (Kazakhstan) 03 - hotick
-  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 04 - hotick
-  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 05 - hotick
-  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 06 - hotick
-  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 07 - hotick
-  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 08 - hotick
-  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 09 - hotick
-  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 10 - hotick
-  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 11 - hotick
-  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 12 - hotick
-  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 13 - hotick
-  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 14 - hotick
-  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 15 - hotick
-  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 16 - hotick
-  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 17 - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -242,19 +57,5 @@ proxy-groups:
   - 🇰🇿 哈萨克斯坦 (Kazakhstan) 01 - hotick
   - 🇰🇿 哈萨克斯坦 (Kazakhstan) 02 - hotick
   - 🇰🇿 哈萨克斯坦 (Kazakhstan) 03 - hotick
-  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 04 - hotick
-  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 05 - hotick
-  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 06 - hotick
-  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 07 - hotick
-  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 08 - hotick
-  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 09 - hotick
-  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 10 - hotick
-  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 11 - hotick
-  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 12 - hotick
-  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 13 - hotick
-  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 14 - hotick
-  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 15 - hotick
-  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 16 - hotick
-  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 17 - hotick
 rules:
 - MATCH,PROXIES

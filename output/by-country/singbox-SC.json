@@ -5,27 +5,22 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇰🇭 柬埔寨 (Cambodia) 01 - hotick",
-      "server": "93.152.215.176",
-      "server_port": 8443,
-      "uuid": "05d7a479-a099-40cf-aecf-41aa934767b0",
+      "tag": "🇸🇨 塞舌尔 (Seychelles) 01 - hotick",
+      "server": "prep.wwwinternetvideo.click",
+      "server_port": 443,
+      "uuid": "1c332eae-7e02-4acd-996d-4eb3e652401c",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "nl5.hap-plus.ru",
-        "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ],
+        "server_name": "yandex.ru",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/api/v1/events",
-        "headers": {
-          "Host": "nl5.hap-plus.ru"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "uitO4Z8t9TplwwYaqwLqh5rfxDh_X8bOBiNuPbzvaEM",
+          "short_id": "bbe46bd8f6b96839"
         }
       }
     },
@@ -34,14 +29,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇰🇭 柬埔寨 (Cambodia) 01 - hotick"
+        "🇸🇨 塞舌尔 (Seychelles) 01 - hotick"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇰🇭 柬埔寨 (Cambodia) 01 - hotick"
+        "🇸🇨 塞舌尔 (Seychelles) 01 - hotick"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

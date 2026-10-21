@@ -5,47 +5,50 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇸🇪 瑞典 (Sweden) 01 - hotick
-  server: 94.143.231.146
+  server: fbi.gov
   port: 443
   udp: true
   type: vless
-  uuid: 6e05822a-e9da-4135-a9db-71aa07a944af
+  uuid: e818a20d-9bcd-4744-9061-ca51b9c8aeea
   tls: true
-  servername: sub.merky.top
+  servername: wallweb-4ez.pages.dev
   skip-cert-verify: false
   client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /merky-connect/de6/
+    path: /
     headers:
-      Host: sub.merky.top
+      Host: wallweb-4ez.pages.dev
 - name: 🇸🇪 瑞典 (Sweden) 02 - hotick
-  server: 62.60.159.81
-  port: 2053
-  udp: true
-  type: vless
-  uuid: fc00adfb-232a-46ce-8b93-0c70e516aa8a
-  tls: true
-  reality-opts:
-    public-key: ygmJxS-Mc7g0buNSUTVGhazT-FoBjyYtLLfUYIQxFTw
-    short-id: d0ea1847066af5a6
-  servername: www.samsung.com
-  client-fingerprint: chrome
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpce5bb9e71
-- name: 🇸🇪 瑞典 (Sweden) 03 - hotick
-  server: edge-lab-b.10media.top
+  server: 51.21.247.148
   port: 443
   udp: true
   type: vless
-  uuid: 9cb8d71c-fe06-4402-a591-eaa1f173b890
-  tls: true
-  servername: edge-lab-b.10media.top
-  skip-cert-verify: false
-  network: grpc
-  grpc-opts:
-    grpc-service-name: swedenfeed
+  uuid: 7060231d-b9ba-495f-a218-bf427940cf3e
+  network: h2
+  h2-opts:
+    host: []
+    path: /
+- name: 🇸🇪 瑞典 (Sweden) 03 - hotick
+  server: 13.60.198.133
+  port: 443
+  udp: true
+  type: vless
+  uuid: 7060231d-b9ba-495f-a218-bf427940cf3e
+  network: h2
+  h2-opts:
+    host: []
+    path: /
+- name: 🇸🇪 瑞典 (Sweden) 04 - hotick
+  server: 77.110.96.201
+  port: 36264
+  udp: true
+  type: hysteria2
+  password: Telegram-vpnjey
+  sni: se.vpnjey2.dpdns.org
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: Telegram@vpnjey
 proxy-groups:
 - name: PROXIES
   type: select
@@ -54,6 +57,7 @@ proxy-groups:
   - 🇸🇪 瑞典 (Sweden) 01 - hotick
   - 🇸🇪 瑞典 (Sweden) 02 - hotick
   - 🇸🇪 瑞典 (Sweden) 03 - hotick
+  - 🇸🇪 瑞典 (Sweden) 04 - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -62,5 +66,6 @@ proxy-groups:
   - 🇸🇪 瑞典 (Sweden) 01 - hotick
   - 🇸🇪 瑞典 (Sweden) 02 - hotick
   - 🇸🇪 瑞典 (Sweden) 03 - hotick
+  - 🇸🇪 瑞典 (Sweden) 04 - hotick
 rules:
 - MATCH,PROXIES

@@ -25,20 +25,18 @@ proxies:
   servername: gateway.icloud.com
   client-fingerprint: chrome
 - name: 🇨🇿 捷克 (Czech) 03 - hotick
-  server: 81.28.12.12
+  server: 193.124.17.190
   port: 443
   udp: true
   type: vless
-  uuid: 6206cb76-491d-4237-baf1-8c29eea4eafb
+  uuid: 6dfc9149-1ff9-41c3-8563-0ef284381731
+  flow: xtls-rprx-vision
   tls: true
-  servername: node-3.wt419.site
-  skip-cert-verify: false
+  reality-opts:
+    public-key: J-dv-HrWfQ_IOoyutv0Kg-rO8QwoRwc02dS1dS_tblk
+    short-id: 1374bddeb25d
+  servername: www.tradingview.com
   client-fingerprint: firefox
-  network: ws
-  ws-opts:
-    path: /qVnRkTxmLwBzHjYpFaDgUcSeNrKxMtVbWqZhPcLsJfGy
-    headers:
-      Host: node-3.wt419.site
 proxy-groups:
 - name: PROXIES
   type: select

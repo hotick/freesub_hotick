@@ -5,34 +5,69 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇸🇬 新加坡 (Singapore) 01 - hotick
-  server: 68.183.227.4
-  port: 8080
+  server: 128.241.25.215
+  port: 30036
   udp: true
-  type: ss
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
+  type: vless
+  uuid: 196b7228-58df-4bcf-af2a-2e96608d5add
+  tls: true
+  servername: 2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: '/@Marisa_kristi '
+    headers:
+      Host: 2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 02 - hotick
-  server: 68.183.235.122
+  server: 57.129.130.57
+  port: 52014
+  udp: true
+  type: vless
+  uuid: 98286408-b683-4c0f-96c5-7e00da649d90
+  tls: true
+  servername: mw5qisav.wjwqvie0wb1eqhb8e83clqdoq3m5p9a4on.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: mw5qisav.wjwqvie0wb1eqhb8e83clqdoq3m5p9a4on.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 03 - hotick
+  server: 178.94.25.73
+  port: 10443
+  udp: true
+  type: vless
+  uuid: 2dacc738-5720-4824-b8bc-e3db57596ba7
+- name: 🇸🇬 新加坡 (Singapore) 04 - hotick
+  server: 129.150.59.74
+  port: 14384
+  udp: true
+  type: ss
+  cipher: 2022-blake3-aes-256-gcm
+  password: sUR6Ny8Y6PSvHhl/DUxconwxg6VZyFdsdfaVCvEatJo=:7bTEhHgpErKiRjE1ega+H6pcpJsNLFB0CjQseujAHrA=
+- name: 🇸🇬 新加坡 (Singapore) 05 - hotick
+  server: 68.183.235.240
   port: 8080
   udp: true
   type: ss
   cipher: rc4-md5
   password: 14fFPrbezE3HDZzsMOr6
-- name: 🇸🇬 新加坡 (Singapore) 03 - hotick
+- name: 🇸🇬 新加坡 (Singapore) 06 - hotick
+  server: 68.183.227.236
+  port: 8080
+  udp: true
+  type: ss
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+- name: 🇸🇬 新加坡 (Singapore) 07 - hotick
   server: 128.199.172.224
   port: 8080
   udp: true
   type: ss
   cipher: rc4-md5
   password: 14fFPrbezE3HDZzsMOr6
-- name: 🇸🇬 新加坡 (Singapore) 04 - hotick
-  server: 68.183.227.45
-  port: 8080
-  udp: true
-  type: ss
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-- name: 🇸🇬 新加坡 (Singapore) 05 - hotick
+- name: 🇸🇬 新加坡 (Singapore) 08 - hotick
   server: 149.88.23.202
   port: 18000
   udp: true
@@ -40,36 +75,56 @@ proxies:
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
   cipher: auto
-- name: 🇸🇬 新加坡 (Singapore) 06 - hotick
-  server: 139.180.220.175
-  port: 8388
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: qpSevKaUXYQKvSjp
-- name: 🇸🇬 新加坡 (Singapore) 07 - hotick
-  server: 68.183.227.236
+- name: 🇸🇬 新加坡 (Singapore) 09 - hotick
+  server: 68.183.227.45
   port: 8080
   udp: true
   type: ss
   cipher: rc4-md5
   password: 14fFPrbezE3HDZzsMOr6
-- name: 🇸🇬 新加坡 (Singapore) 08 - hotick
-  server: 149.88.23.207
-  port: 18000
-  udp: true
-  type: vmess
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-- name: 🇸🇬 新加坡 (Singapore) 09 - hotick
-  server: 200.181.82.91
-  port: 21309
+- name: 🇸🇬 新加坡 (Singapore) 10 - hotick
+  server: 68.183.235.122
+  port: 8080
   udp: true
   type: ss
-  cipher: aes-256-gcm
-  password: 0dad9116-eb88-47b6-98dd-67c9ed43afa6
-- name: 🇸🇬 新加坡 (Singapore) 10 - hotick
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+- name: 🇸🇬 新加坡 (Singapore) 11 - hotick
+  server: sg2-8sb.6121999.dpdns.org
+  port: 33738
+  udp: true
+  type: tuic
+  uuid: 2d1ad594-80a4-4bfb-87a6-038e39701f51
+  password: 2d1ad594-80a4-4bfb-87a6-038e39701f51
+  sni: sg2-8sb.6121999.dpdns.org
+  skip-cert-verify: false
+  congestion-controller: bbr
+  udp-relay-mode: quic
+  alpn:
+  - h3
+- name: 🇸🇬 新加坡 (Singapore) 12 - hotick
+  server: 139.180.146.200
+  port: 8886
+  udp: true
+  type: trojan
+  password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
+  sni: 139.180.146.200
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 13 - hotick
+  server: 128.1.186.73
+  port: 8080
+  udp: true
+  type: ss
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+- name: 🇸🇬 新加坡 (Singapore) 14 - hotick
+  server: 68.183.227.4
+  port: 8080
+  udp: true
+  type: ss
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+- name: 🇸🇬 新加坡 (Singapore) 15 - hotick
   server: 206.206.78.36
   port: 443
   udp: true
@@ -82,7 +137,39 @@ proxies:
     short-id: 133a3f10a1581047
   servername: www.cloudflare.com
   client-fingerprint: chrome
-- name: 🇸🇬 新加坡 (Singapore) 11 - hotick
+- name: 🇸🇬 新加坡 (Singapore) 16 - hotick
+  server: 178.94.25.73
+  port: 14430
+  udp: true
+  type: vless
+  uuid: 2dacc738-5720-4824-b8bc-e3db57596ba7
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: 178.94.25.73
+- name: 🇸🇬 新加坡 (Singapore) 17 - hotick
+  server: ww11.levikogjgfdd.ir
+  port: 18000
+  udp: true
+  type: vmess
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+- name: 🇸🇬 新加坡 (Singapore) 18 - hotick
+  server: 146.235.16.130
+  port: 19825
+  udp: true
+  type: vless
+  uuid: 2d1ad594-80a4-4bfb-87a6-038e39701f51
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: GvvkY8xYb9QjvwvzYq_uNC4tOGd0DCxRnz6770-xgkI
+    short-id: 6ba85179e30d4fc2
+  servername: sg2-8sb.6121999.dpdns.org
+  client-fingerprint: chrome
+- name: 🇸🇬 新加坡 (Singapore) 19 - hotick
   server: 206.206.76.75
   port: 443
   udp: true
@@ -94,8 +181,8 @@ proxies:
     public-key: TqIFzUEEI1pIOR8BEpkNKEXcJ6cPfE5EzHb5joIivig
     short-id: 9930177816ab09da
   servername: www.cloudflare.com
-  client-fingerprint: random
-- name: 🇸🇬 新加坡 (Singapore) 12 - hotick
+  client-fingerprint: firefox
+- name: 🇸🇬 新加坡 (Singapore) 20 - hotick
   server: 138.2.89.249
   port: 443
   udp: true
@@ -105,41 +192,65 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: 309502c4a8df10b46fb976d4a8c43f42
-- name: 🇸🇬 新加坡 (Singapore) 13 - hotick
-  server: 54.251.9.130
-  port: 24146
+- name: 🇸🇬 新加坡 (Singapore) 21 - hotick
+  server: 128.1.186.132
+  port: 8080
+  udp: true
+  type: ss
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+- name: 🇸🇬 新加坡 (Singapore) 22 - hotick
+  server: 67.159.52.81
+  port: 443
   udp: true
   type: vless
-  uuid: 9d9a048b-3aea-4b3e-b106-1106bf301feb
+  uuid: a16bd0e2-ff2e-4e4c-a955-0c684255a065
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: VeluC9A7XDurAWQNgXKShS2SJSgoK79QHFgiAMYrvGo
-    short-id: 7205d9079521832c
-  servername: www.intel.com
-  client-fingerprint: firefox
-- name: 🇸🇬 新加坡 (Singapore) 14 - hotick
-  server: 138.2.73.238
-  port: 50160
-  udp: true
-  type: hysteria2
-  password: f87376e17da040ed04c9665ce8972930
-  sni: www.bing.com
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 15 - hotick
-  server: funagfrdfs.alixxplay.com
-  port: 46105
-  udp: true
-  type: vless
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: Lk5nwDxC2tr3J7hT8emhUUiMX8cHyKX9TiRj_EnAiik
-    short-id: 28f5c1f8f98a
-  servername: www.lamer.com.sg
+    public-key: -YTGWg5DjsLDyaDfr1D83kiUK22LVcrK3yC53lqqigs
+    short-id: feedbacc
+  servername: sg.fasti.win
   client-fingerprint: chrome
-- name: 🇸🇬 新加坡 (Singapore) 16 - hotick
+- name: 🇸🇬 新加坡 (Singapore) 23 - hotick
+  server: 170.114.46.6
+  port: 80
+  udp: true
+  type: vless
+  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: u.srilankangrill.online
+- name: 🇸🇬 新加坡 (Singapore) 24 - hotick
+  server: 104.21.5.75
+  port: 443
+  udp: true
+  type: vless
+  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
+  tls: true
+  servername: u.srilankangrill.online
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: u.srilankangrill.online
+- name: 🇸🇬 新加坡 (Singapore) 25 - hotick
+  server: 45.132.75.213
+  port: 2053
+  udp: true
+  type: vless
+  uuid: f46182d1-e13b-47d3-97e2-fa5426a93e7c
+  tls: true
+  reality-opts:
+    public-key: TpWeZocgNOygOhMo0l7oJawPu7STkn9D-SOa0UppcyY
+    short-id: cd7e85995ae2afc9
+  servername: www.cloudflare.com
+  client-fingerprint: safari
+- name: 🇸🇬 新加坡 (Singapore) 26 - hotick
   server: 139.162.27.96
   port: 2096
   udp: true
@@ -148,62 +259,12 @@ proxies:
   tls: true
   servername: free-server.techsonic.dev
   skip-cert-verify: false
-  client-fingerprint: chrome
   network: ws
   ws-opts:
     path: /free-server.techsonic.dev
     headers:
       Host: free-server.techsonic.dev
-- name: 🇸🇬 新加坡 (Singapore) 17 - hotick
-  server: vpn-sg-001.fastervpn.world
-  port: 443
-  udp: true
-  type: hysteria2
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: vpn-sg-001.fastervpn.world
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 18 - hotick
-  server: 195.172.139.176
-  port: 21001
-  udp: true
-  type: vless
-  uuid: b17f6233-6726-41ff-9f62-fde7ccdbd282
-  tls: true
-  reality-opts:
-    public-key: 7RyQhh-unO6BjkHRVycWKlFyQgJ3vi5_bAI3Mc8CGCA
-    short-id: c6887d3b76ef73c9
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇸🇬 新加坡 (Singapore) 19 - hotick
-  server: 200.181.82.91
-  port: 28316
-  udp: true
-  type: trojan
-  password: 0dad9116-eb88-47b6-98dd-67c9ed43afa6
-  sni: www.baidu.com
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 20 - hotick
-  server: 200.181.82.92
-  port: 28247
-  udp: true
-  type: trojan
-  password: 0dad9116-eb88-47b6-98dd-67c9ed43afa6
-  sni: www.baidu.com
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 21 - hotick
-  server: 147.93.173.45
-  port: 10444
-  udp: true
-  type: vless
-  uuid: 75c5f51b-d548-4eab-a26e-aa10fc3dbc7b
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: 0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo
-    short-id: 8debcf36f1cc69ff
-  servername: video.yandex.ru
-  client-fingerprint: chrome
-- name: 🇸🇬 新加坡 (Singapore) 22 - hotick
+- name: 🇸🇬 新加坡 (Singapore) 27 - hotick
   server: eu3.998998.best
   port: 443
   udp: true
@@ -219,79 +280,7 @@ proxies:
     path: /aiaiai
     headers:
       Host: server40.9966338.xyz
-- name: 🇸🇬 新加坡 (Singapore) 23 - hotick
-  server: 545.150333.xyz
-  port: 21003
-  udp: true
-  type: vless
-  uuid: b17f6233-6726-41ff-9f62-fde7ccdbd282
-  tls: true
-  reality-opts:
-    public-key: 7RyQhh-unO6BjkHRVycWKlFyQgJ3vi5_bAI3Mc8CGCA
-    short-id: 5a2d904fe6d0a39b
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇸🇬 新加坡 (Singapore) 24 - hotick
-  server: 545.150333.xyz
-  port: 21002
-  udp: true
-  type: vless
-  uuid: b17f6233-6726-41ff-9f62-fde7ccdbd282
-  tls: true
-  reality-opts:
-    public-key: 7RyQhh-unO6BjkHRVycWKlFyQgJ3vi5_bAI3Mc8CGCA
-    short-id: a52a4528cd4d4c52
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇸🇬 新加坡 (Singapore) 25 - hotick
-  server: 545.150333.xyz
-  port: 21004
-  udp: true
-  type: vless
-  uuid: b17f6233-6726-41ff-9f62-fde7ccdbd282
-  tls: true
-  reality-opts:
-    public-key: 7RyQhh-unO6BjkHRVycWKlFyQgJ3vi5_bAI3Mc8CGCA
-    short-id: 4ba266730580fd96
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇸🇬 新加坡 (Singapore) 26 - hotick
-  server: 4c2d5151.266nets.com
-  port: 12013
-  udp: true
-  type: trojan
-  password: bad06c3525a6eaee1757b34776b83892
-  sni: ixigua.com
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 27 - hotick
-  server: sgip.harry.lv
-  port: 443
-  udp: true
-  type: vless
-  uuid: 5d75a660-f04e-4301-a41b-d394bae03970
-  tls: true
-  servername: sgcf.harry.lv
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /sg
-    headers:
-      Host: sgcf.harry.lv
 - name: 🇸🇬 新加坡 (Singapore) 28 - hotick
-  server: 67.159.52.81
-  port: 443
-  udp: true
-  type: vless
-  uuid: a16bd0e2-ff2e-4e4c-a955-0c684255a065
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: -YTGWg5DjsLDyaDfr1D83kiUK22LVcrK3yC53lqqigs
-    short-id: feedbacc
-  servername: sg.fasti.win
-  client-fingerprint: chrome
-- name: 🇸🇬 新加坡 (Singapore) 29 - hotick
   server: 3.0.111.82
   port: 12972
   udp: true
@@ -304,7 +293,50 @@ proxies:
     short-id: 48050fab
   servername: www.apple.com
   client-fingerprint: chrome
+- name: 🇸🇬 新加坡 (Singapore) 29 - hotick
+  server: 147.93.173.45
+  port: 10444
+  udp: true
+  type: vless
+  uuid: 75c5f51b-d548-4eab-a26e-aa10fc3dbc7b
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: 0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo
+    short-id: 8debcf36f1cc69ff
+  servername: video.yandex.ru
+  client-fingerprint: safari
 - name: 🇸🇬 新加坡 (Singapore) 30 - hotick
+  server: 15.235.196.80
+  port: 52014
+  udp: true
+  type: vless
+  uuid: 7ebef7f5-ddd7-491a-b1d5-f550eef32ad4
+  tls: true
+  servername: 5iv93opy8jus9z.bjo5si35c9i9ud4242fado49188obkoiermjuxj7zgxu.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: 5iv93opy8jus9z.bjo5si35c9i9ud4242fado49188obkoiermjuxj7zgxu.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 31 - hotick
+  server: 141.193.213.21
+  port: 8443
+  udp: true
+  type: vless
+  uuid: 29c3dd6b-b164-40ca-a0d5-f06aca52a8b2
+  tls: true
+  servername: u.srilankangrill.online
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: u.srilankangrill.online
+- name: 🇸🇬 新加坡 (Singapore) 32 - hotick
   server: 3.0.111.82
   port: 10574
   udp: true
@@ -316,20 +348,15 @@ proxies:
     public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
     short-id: 48050fab
   servername: www.apple.com
-  client-fingerprint: chrome
-- name: 🇸🇬 新加坡 (Singapore) 31 - hotick
-  server: sg2-8sb.6121999.dpdns.org
-  port: 19825
+  client-fingerprint: ios
+- name: 🇸🇬 新加坡 (Singapore) 33 - hotick
+  server: 138.2.73.238
+  port: 50160
   udp: true
-  type: vless
-  uuid: 2d1ad594-80a4-4bfb-87a6-038e39701f51
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: GvvkY8xYb9QjvwvzYq_uNC4tOGd0DCxRnz6770-xgkI
-    short-id: 6ba85179e30d4fc2
-  servername: sg2-8sb.6121999.dpdns.org
-  client-fingerprint: chrome
+  type: hysteria2
+  password: f87376e17da040ed04c9665ce8972930
+  sni: 'off'
+  skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -366,6 +393,8 @@ proxy-groups:
   - 🇸🇬 新加坡 (Singapore) 29 - hotick
   - 🇸🇬 新加坡 (Singapore) 30 - hotick
   - 🇸🇬 新加坡 (Singapore) 31 - hotick
+  - 🇸🇬 新加坡 (Singapore) 32 - hotick
+  - 🇸🇬 新加坡 (Singapore) 33 - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -402,5 +431,7 @@ proxy-groups:
   - 🇸🇬 新加坡 (Singapore) 29 - hotick
   - 🇸🇬 新加坡 (Singapore) 30 - hotick
   - 🇸🇬 新加坡 (Singapore) 31 - hotick
+  - 🇸🇬 新加坡 (Singapore) 32 - hotick
+  - 🇸🇬 新加坡 (Singapore) 33 - hotick
 rules:
 - MATCH,PROXIES
