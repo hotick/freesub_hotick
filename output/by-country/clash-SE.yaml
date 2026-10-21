@@ -5,21 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇸🇪 瑞典 (Sweden) 01 - hotick
-  server: fbi.gov
-  port: 443
-  udp: true
-  type: vless
-  uuid: e818a20d-9bcd-4744-9061-ca51b9c8aeea
-  tls: true
-  servername: wallweb-4ez.pages.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: wallweb-4ez.pages.dev
-- name: 🇸🇪 瑞典 (Sweden) 02 - hotick
   server: 51.21.247.148
   port: 443
   udp: true
@@ -29,16 +14,23 @@ proxies:
   h2-opts:
     host: []
     path: /
-- name: 🇸🇪 瑞典 (Sweden) 03 - hotick
-  server: 13.60.198.133
-  port: 443
+- name: 🇸🇪 瑞典 (Sweden) 02 - hotick
+  server: 5.178.109.174
+  port: 14430
   udp: true
   type: vless
-  uuid: 7060231d-b9ba-495f-a218-bf427940cf3e
-  network: h2
-  h2-opts:
-    host: []
-    path: /
+  uuid: 80de563a-cac8-40ea-8cb0-4cb082dd92f9
+  network: ws
+  ws-opts:
+    path: /vless
+- name: 🇸🇪 瑞典 (Sweden) 03 - hotick
+  server: svip.skycon808.com
+  port: 60005
+  udp: true
+  type: anytls
+  password: 13f0acfa-38c1-4e82-a758-583aa31740df
+  sni: xjp18.2uuzhe.com
+  skip-cert-verify: true
 - name: 🇸🇪 瑞典 (Sweden) 04 - hotick
   server: 77.110.96.201
   port: 36264
