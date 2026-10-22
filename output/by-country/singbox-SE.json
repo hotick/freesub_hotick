@@ -6,29 +6,6 @@
     {
       "type": "vless",
       "tag": "🇸🇪 瑞典 (Sweden) 01 - hotick",
-      "server": "londonstockexchange.com",
-      "server_port": 443,
-      "uuid": "e818a20d-9bcd-4744-9061-ca51b9c8aeea",
-      "tls": {
-        "enabled": true,
-        "server_name": "wallweb-4ez.pages.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "wallweb-4ez.pages.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇸🇪 瑞典 (Sweden) 02 - hotick",
       "server": "13.60.198.133",
       "server_port": 443,
       "uuid": "7060231d-b9ba-495f-a218-bf427940cf3e",
@@ -38,21 +15,28 @@
     },
     {
       "type": "vless",
-      "tag": "🇸🇪 瑞典 (Sweden) 03 - hotick",
-      "server": "5.178.109.174",
-      "server_port": 14430,
-      "uuid": "80de563a-cac8-40ea-8cb0-4cb082dd92f9",
-      "transport": {
-        "type": "ws",
-        "path": "/vless",
-        "headers": {
-          "Host": "5.178.109.174"
+      "tag": "🇸🇪 瑞典 (Sweden) 02 - hotick",
+      "server": "185.58.115.62",
+      "server_port": 443,
+      "uuid": "9c794bb7-54fe-4acd-844a-a26209af36c3",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "se2.gderevievsvideos.fyi",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "13nLTYkdBEFR-A4CfK2beOx-5LKEsXh1QHPq8Kt52BQ",
+          "short_id": "7271129440ade8fa"
         }
       }
     },
     {
       "type": "hysteria2",
-      "tag": "🇸🇪 瑞典 (Sweden) 04 - hotick",
+      "tag": "🇸🇪 瑞典 (Sweden) 03 - hotick",
       "server": "77.110.96.201",
       "server_port": 36264,
       "password": "Telegram-vpnjey",
@@ -67,20 +51,8 @@
       }
     },
     {
-      "type": "anytls",
-      "tag": "🇸🇪 瑞典 (Sweden) 05 - hotick",
-      "server": "svip.skycon808.com",
-      "server_port": 60005,
-      "password": "13f0acfa-38c1-4e82-a758-583aa31740df",
-      "tls": {
-        "enabled": true,
-        "server_name": "xjp18.2uuzhe.com",
-        "insecure": true
-      }
-    },
-    {
       "type": "shadowsocks",
-      "tag": "🇸🇪 瑞典 (Sweden) 06 - hotick",
+      "tag": "🇸🇪 瑞典 (Sweden) 04 - hotick",
       "server": "70.34.212.124",
       "server_port": 8388,
       "method": "aes-256-gcm",
@@ -94,9 +66,7 @@
         "🇸🇪 瑞典 (Sweden) 01 - hotick",
         "🇸🇪 瑞典 (Sweden) 02 - hotick",
         "🇸🇪 瑞典 (Sweden) 03 - hotick",
-        "🇸🇪 瑞典 (Sweden) 04 - hotick",
-        "🇸🇪 瑞典 (Sweden) 05 - hotick",
-        "🇸🇪 瑞典 (Sweden) 06 - hotick"
+        "🇸🇪 瑞典 (Sweden) 04 - hotick"
       ]
     },
     {
@@ -106,9 +76,7 @@
         "🇸🇪 瑞典 (Sweden) 01 - hotick",
         "🇸🇪 瑞典 (Sweden) 02 - hotick",
         "🇸🇪 瑞典 (Sweden) 03 - hotick",
-        "🇸🇪 瑞典 (Sweden) 04 - hotick",
-        "🇸🇪 瑞典 (Sweden) 05 - hotick",
-        "🇸🇪 瑞典 (Sweden) 06 - hotick"
+        "🇸🇪 瑞典 (Sweden) 04 - hotick"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

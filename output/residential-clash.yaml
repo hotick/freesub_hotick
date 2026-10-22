@@ -5,21 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇺🇸 美国 (United States) 01 (家宽) - hotick
-  server: 188.114.97.3
-  port: 2083
-  udp: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  tls: true
-  servername: newwk1.f1w.de5.net
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: newwk1.f1w.de5.net
-- name: 🇺🇸 美国 (United States) 02 (家宽) - hotick
   server: 155.117.19.17
   port: 443
   udp: true
@@ -29,26 +14,49 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: a39ca173b57ac7021b08bf3e3de9f1f6
-- name: 🇰🇷 韩国 (South Korea) 03 (家宽) - hotick
-  server: 183.109.131.75
-  port: 20086
+- name: 🇭🇰 中国香港 (Hong Kong) 02 (移动家宽) - hotick
+  server: zfd-hkv1.kunlun01dns.com
+  port: 16114
   udp: true
   type: vmess
-  uuid: b26c4803-0bca-467c-a245-c9a80bdd72ec
+  uuid: 0802ac03-7973-39ef-a019-ba02de6c01e1
   alterId: 0
   cipher: auto
-  network: ws
-  ws-opts:
-    path: /
-- name: 🇰🇷 韩国 (South Korea) 04 (家宽) - hotick
+- name: 🇭🇰 中国香港 (Hong Kong) 03 (移动家宽) - hotick
+  server: dog-hk.kunlun01dns.com
+  port: 21020
+  udp: true
+  type: vmess
+  uuid: 9464ca40-dd75-3742-a628-d931a9f413b2
+  alterId: 0
+  cipher: auto
+- name: 🇭🇰 中国香港 (Hong Kong) 04 (移动家宽) - hotick
+  server: dog-hk.kunlun01dns.com
+  port: 21018
+  udp: true
+  type: vmess
+  uuid: 9464ca40-dd75-3742-a628-d931a9f413b2
+  alterId: 0
+  cipher: auto
+- name: 🇰🇷 韩国 (South Korea) 05 (家宽) - hotick
   server: p141.panda001.net
   port: 4652
   udp: true
   type: ss
   cipher: aes-256-cfb
   password: qwerREWQ@@
-- name: 🇹🇼 中国台湾 (Taiwan) 05 (家宽) - hotick
-  server: hinet1.2yly.com
+- name: 🇹🇷 土耳其 (Turkey) 06 (移动家宽) - hotick
+  server: me17.msjia8844.site
+  port: 7443
+  udp: true
+  type: hysteria2
+  password: M8LP9DztTr3znqCkmf-r08CQLBLLFK1r
+  sni: me17.msjia8844.site
+  skip-cert-verify: false
+  obfs: salamander
+  obfs-password: u3Soh9_Ui0UmcuY6vk0ug8Lq
+- name: 🇹🇼 中国台湾 (Taiwan) 07 (家宽) - hotick
+  server: 61.230.160.34
   port: 24215
   udp: true
   type: vless
@@ -57,54 +65,30 @@ proxies:
   reality-opts:
     public-key: mdWKUPMVTtTbDqK10BPb89OcqBC2-Lx-4NOYtqc1GWE
   servername: addons.mozilla.org
-  client-fingerprint: chrome
-- name: 🇹🇼 中国台湾 (Taiwan) 06 (家宽) - hotick
-  server: 9641684.sdf65h4.top
-  port: 443
-  udp: true
-  type: vmess
-  uuid: 250c015d-bab0-4ed3-b638-b4eda48f5840
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: 9641684.sdf65h4.top
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 9641684.sdf65h4.top
-- name: 🇸🇬 新加坡 (Singapore) 07 (家宽) - hotick
-  server: s3.huhiuh.space
-  port: 18642
-  udp: true
-  type: hysteria2
-  password: user317_windows:c70565e9-a99f-40ef-b96c-469a3949eed2
-  sni: s3.huhiuh.space
-  skip-cert-verify: true
+  client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇺🇸 美国 (United States) 01 (家宽) - hotick
-  - 🇺🇸 美国 (United States) 02 (家宽) - hotick
-  - 🇰🇷 韩国 (South Korea) 03 (家宽) - hotick
-  - 🇰🇷 韩国 (South Korea) 04 (家宽) - hotick
-  - 🇹🇼 中国台湾 (Taiwan) 05 (家宽) - hotick
-  - 🇹🇼 中国台湾 (Taiwan) 06 (家宽) - hotick
-  - 🇸🇬 新加坡 (Singapore) 07 (家宽) - hotick
+  - 🇭🇰 中国香港 (Hong Kong) 02 (移动家宽) - hotick
+  - 🇭🇰 中国香港 (Hong Kong) 03 (移动家宽) - hotick
+  - 🇭🇰 中国香港 (Hong Kong) 04 (移动家宽) - hotick
+  - 🇰🇷 韩国 (South Korea) 05 (家宽) - hotick
+  - 🇹🇷 土耳其 (Turkey) 06 (移动家宽) - hotick
+  - 🇹🇼 中国台湾 (Taiwan) 07 (家宽) - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇺🇸 美国 (United States) 01 (家宽) - hotick
-  - 🇺🇸 美国 (United States) 02 (家宽) - hotick
-  - 🇰🇷 韩国 (South Korea) 03 (家宽) - hotick
-  - 🇰🇷 韩国 (South Korea) 04 (家宽) - hotick
-  - 🇹🇼 中国台湾 (Taiwan) 05 (家宽) - hotick
-  - 🇹🇼 中国台湾 (Taiwan) 06 (家宽) - hotick
-  - 🇸🇬 新加坡 (Singapore) 07 (家宽) - hotick
+  - 🇭🇰 中国香港 (Hong Kong) 02 (移动家宽) - hotick
+  - 🇭🇰 中国香港 (Hong Kong) 03 (移动家宽) - hotick
+  - 🇭🇰 中国香港 (Hong Kong) 04 (移动家宽) - hotick
+  - 🇰🇷 韩国 (South Korea) 05 (家宽) - hotick
+  - 🇹🇷 土耳其 (Turkey) 06 (移动家宽) - hotick
+  - 🇹🇼 中国台湾 (Taiwan) 07 (家宽) - hotick
 rules:
 - MATCH,PROXIES

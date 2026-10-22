@@ -17,6 +17,18 @@ proxies:
   servername: www.vk.com
   client-fingerprint: qq
 - name: 🇹🇷 土耳其 (Turkey) 02 - hotick
+  server: 151.241.226.201
+  port: 2053
+  udp: true
+  type: vless
+  uuid: 0eed6293-8cf1-4e77-ac10-9c3d50d0b2f8
+  tls: true
+  reality-opts:
+    public-key: bYW_MmB_CUHrsyoCAUKviI2LZdHf63yY2yOPXbih104
+    short-id: 9e419c0759b54d6f
+  servername: www.apple.com
+  client-fingerprint: firefox
+- name: 🇹🇷 土耳其 (Turkey) 03 - hotick
   server: 62.133.63.45
   port: 8444
   udp: true
@@ -31,16 +43,6 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: GunService
-- name: 🇹🇷 土耳其 (Turkey) 03 - hotick
-  server: 153.56.210.134
-  port: 34121
-  udp: true
-  type: hysteria2
-  password: c8ed6cd1-6566-4f7a-819e-1c55b2b360c9
-  sni: www.bing.com
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: 9a33460c-b037-47aa-a606-d04211f4e0ec
 - name: 🇹🇷 土耳其 (Turkey) 04 - hotick
   server: 78.135.73.47
   port: 443
@@ -55,40 +57,28 @@ proxies:
   servername: www.datadoghq.com
   client-fingerprint: random
 - name: 🇹🇷 土耳其 (Turkey) 05 - hotick
-  server: 151.241.226.201
-  port: 2053
-  udp: true
-  type: vless
-  uuid: 0eed6293-8cf1-4e77-ac10-9c3d50d0b2f8
-  tls: true
-  reality-opts:
-    public-key: bYW_MmB_CUHrsyoCAUKviI2LZdHf63yY2yOPXbih104
-    short-id: 9e419c0759b54d6f
-  servername: www.apple.com
-  client-fingerprint: firefox
-- name: 🇹🇷 土耳其 (Turkey) 06 - hotick
-  server: me17.msjia8844.site
-  port: 7443
+  server: 153.56.210.134
+  port: 34121
   udp: true
   type: hysteria2
-  password: M8LP9DztTr3znqCkmf-r08CQLBLLFK1r
-  sni: me17.msjia8844.site
-  skip-cert-verify: false
+  password: c8ed6cd1-6566-4f7a-819e-1c55b2b360c9
+  sni: www.bing.com
+  skip-cert-verify: true
   obfs: salamander
-  obfs-password: u3Soh9_Ui0UmcuY6vk0ug8Lq
-- name: 🇹🇷 土耳其 (Turkey) 07 - hotick
-  server: 177.3.208.65
+  obfs-password: 9a33460c-b037-47aa-a606-d04211f4e0ec
+- name: 🇹🇷 土耳其 (Turkey) 06 - hotick
+  server: 194.116.236.113
   port: 443
   udp: true
   type: vless
-  uuid: 4f34bc04-479c-49ba-91a8-6bb9ed15031c
+  uuid: 9c794bb7-54fe-4acd-844a-a26209af36c3
+  flow: xtls-rprx-vision
   tls: true
-  servername: tgmansion.site
-  skip-cert-verify: false
+  reality-opts:
+    public-key: 13nLTYkdBEFR-A4CfK2beOx-5LKEsXh1QHPq8Kt52BQ
+    short-id: 7271129440ade8fa
+  servername: api.mskvibe.fyi
   client-fingerprint: firefox
-  network: ws
-  ws-opts:
-    path: /vless-tr
 proxy-groups:
 - name: PROXIES
   type: select
@@ -100,7 +90,6 @@ proxy-groups:
   - 🇹🇷 土耳其 (Turkey) 04 - hotick
   - 🇹🇷 土耳其 (Turkey) 05 - hotick
   - 🇹🇷 土耳其 (Turkey) 06 - hotick
-  - 🇹🇷 土耳其 (Turkey) 07 - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -112,6 +101,5 @@ proxy-groups:
   - 🇹🇷 土耳其 (Turkey) 04 - hotick
   - 🇹🇷 土耳其 (Turkey) 05 - hotick
   - 🇹🇷 土耳其 (Turkey) 06 - hotick
-  - 🇹🇷 土耳其 (Turkey) 07 - hotick
 rules:
 - MATCH,PROXIES
