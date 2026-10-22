@@ -15,25 +15,25 @@
       "type": "shadowsocks",
       "tag": "🇧🇬 保加利亚 (Bulgaria) 02 - hotick",
       "server": "213.183.63.60",
-      "server_port": 9064,
+      "server_port": 9054,
       "method": "aes-256-cfb",
-      "password": "cp8pRSUAyLhTfVWH"
+      "password": "VcFuyXvND2yQWSFY"
     },
     {
       "type": "shadowsocks",
       "tag": "🇧🇬 保加利亚 (Bulgaria) 03 - hotick",
       "server": "213.183.63.60",
-      "server_port": 9049,
+      "server_port": 9028,
       "method": "aes-256-cfb",
-      "password": "PRBf4BS2HvJqtWxY"
+      "password": "9eeJ2fwnZA5Fxgz8"
     },
     {
       "type": "shadowsocks",
       "tag": "🇧🇬 保加利亚 (Bulgaria) 04 - hotick",
       "server": "213.183.63.60",
-      "server_port": 9061,
+      "server_port": 9030,
       "method": "aes-256-cfb",
-      "password": "4R3hUfZ2FHhDmNcP"
+      "password": "GeregetR8cvQHzYr"
     },
     {
       "type": "vless",

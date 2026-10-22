@@ -7,17 +7,17 @@
       "type": "shadowsocks",
       "tag": "🇱🇻 拉脱维亚 (Latvia) 01 - hotick",
       "server": "185.135.86.175",
-      "server_port": 9068,
+      "server_port": 9017,
       "method": "aes-256-cfb",
-      "password": "mwgRg9hRq3b4Qnwb"
+      "password": "HAVAdE3nXhqA5nHp"
     },
     {
       "type": "shadowsocks",
       "tag": "🇱🇻 拉脱维亚 (Latvia) 02 - hotick",
       "server": "185.135.86.175",
-      "server_port": 9033,
+      "server_port": 9036,
       "method": "aes-256-cfb",
-      "password": "UTJA57ypk2XKQpnm"
+      "password": "hbtvgUz5uNYyB3Rf"
     },
     {
       "type": "shadowsocks",
@@ -31,13 +31,29 @@
       "type": "shadowsocks",
       "tag": "🇱🇻 拉脱维亚 (Latvia) 04 - hotick",
       "server": "185.135.86.175",
+      "server_port": 9082,
+      "method": "aes-256-cfb",
+      "password": "45xgMgm386pjWjTx"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇱🇻 拉脱维亚 (Latvia) 05 - hotick",
+      "server": "185.135.86.175",
+      "server_port": 9033,
+      "method": "aes-256-cfb",
+      "password": "UTJA57ypk2XKQpnm"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇱🇻 拉脱维亚 (Latvia) 06 - hotick",
+      "server": "185.135.86.175",
       "server_port": 9007,
       "method": "aes-256-cfb",
       "password": "kSPmvwdFzGMMW5pY"
     },
     {
       "type": "shadowsocks",
-      "tag": "🇱🇻 拉脱维亚 (Latvia) 05 - hotick",
+      "tag": "🇱🇻 拉脱维亚 (Latvia) 07 - hotick",
       "server": "185.135.86.175",
       "server_port": 9094,
       "method": "aes-256-cfb",
@@ -45,35 +61,26 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇱🇻 拉脱维亚 (Latvia) 06 - hotick",
-      "server": "185.135.86.175",
-      "server_port": 9017,
-      "method": "aes-256-cfb",
-      "password": "HAVAdE3nXhqA5nHp"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇱🇻 拉脱维亚 (Latvia) 07 - hotick",
-      "server": "185.135.86.175",
-      "server_port": 9082,
-      "method": "aes-256-cfb",
-      "password": "45xgMgm386pjWjTx"
-    },
-    {
-      "type": "shadowsocks",
       "tag": "🇱🇻 拉脱维亚 (Latvia) 08 - hotick",
       "server": "185.135.86.175",
-      "server_port": 9034,
+      "server_port": 9068,
       "method": "aes-256-cfb",
-      "password": "Yg4MbdXFQ9HFFVY6"
+      "password": "mwgRg9hRq3b4Qnwb"
     },
     {
-      "type": "shadowsocks",
+      "type": "trojan",
       "tag": "🇱🇻 拉脱维亚 (Latvia) 09 - hotick",
-      "server": "185.135.86.175",
-      "server_port": 9036,
-      "method": "aes-256-cfb",
-      "password": "hbtvgUz5uNYyB3Rf"
+      "server": "lv1.dedushka.top",
+      "server_port": 443,
+      "password": "4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA",
+      "tls": {
+        "enabled": true,
+        "server_name": "lv1.dedushka.top",
+        "insecure": true,
+        "alpn": [
+          "http/1.1"
+        ]
+      }
     },
     {
       "type": "vless",
@@ -87,7 +94,7 @@
         "server_name": "www.apple.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
@@ -97,20 +104,8 @@
       }
     },
     {
-      "type": "trojan",
-      "tag": "🇱🇻 拉脱维亚 (Latvia) 11 - hotick",
-      "server": "lv1.dedushka.top",
-      "server_port": 443,
-      "password": "4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA",
-      "tls": {
-        "enabled": true,
-        "server_name": "lv1.dedushka.top",
-        "insecure": false
-      }
-    },
-    {
       "type": "vless",
-      "tag": "🇱🇻 拉脱维亚 (Latvia) 12 - hotick",
+      "tag": "🇱🇻 拉脱维亚 (Latvia) 11 - hotick",
       "server": "195.123.208.32",
       "server_port": 443,
       "uuid": "1ebcb694-875c-4be7-b6a2-d53c8208991b",
@@ -120,12 +115,33 @@
         "server_name": "gateway.icloud.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "qq"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
           "public_key": "ICrsmE5hqN7IsDIyHPG2WkDUUFK_VEj9yobLv8zuDwk",
           "short_id": "757b9e1ef18e60f0"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇱🇻 拉脱维亚 (Latvia) 12 - hotick",
+      "server": "195.123.213.28",
+      "server_port": 443,
+      "uuid": "02fcc1a4-ee90-4970-8bbb-4ffaa8109d24",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "NMgy1XgCSXExOg6Tg8xG9lCWttMF6sjdpB41lZy6FWo",
+          "short_id": "5c256336e3b673fa"
         }
       }
     },
