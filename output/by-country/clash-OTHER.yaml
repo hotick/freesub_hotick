@@ -1,0 +1,1078 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: rule
+log-level: info
+proxies:
+- name: 🌐 其他地区 (Other) 01 - hotick
+  server: 188.114.97.6
+  port: 443
+  udp: true
+  type: vless
+  uuid: 8be461cb-a0df-47cf-bc0d-4d9e6a22fa74
+  tls: true
+  servername: ccs2g.pai50288.uk
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /pai50288
+    headers:
+      Host: ccs2g.pai50288.uk
+- name: 🌐 其他地区 (Other) 02 - hotick
+  server: 188.114.97.6
+  port: 443
+  udp: true
+  type: vless
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  tls: true
+  servername: lucasjow.us.ci
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: lucasjow.us.ci
+- name: 🌐 其他地区 (Other) 03 - hotick
+  server: 188.114.97.6
+  port: 443
+  udp: true
+  type: vless
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  tls: true
+  servername: lucasjow.us.ci
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: '0'
+    headers:
+      Host: lucasjow.us.ci
+- name: 🌐 其他地区 (Other) 04 - hotick
+  server: 188.114.97.6
+  port: 443
+  udp: true
+  type: vless
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  tls: true
+  servername: lucasjow.us.ci
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub?ed=2560
+    headers:
+      Host: lucasjow.us.ci
+- name: 🌐 其他地区 (Other) 05 - hotick
+  server: 188.114.97.6
+  port: 443
+  udp: true
+  type: vless
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  tls: true
+  servername: lucasjow.us.ci
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?Telegram---mehrosaboranfp=chrome
+    headers:
+      Host: lucasjow.us.ci
+- name: 🌐 其他地区 (Other) 06 - hotick
+  server: 188.114.97.6
+  port: 443
+  udp: true
+  type: vless
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  tls: true
+  servername: lucasjow.us.ci
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: lucasjow.us.ci
+- name: 🌐 其他地区 (Other) 07 - hotick
+  server: 188.114.97.6
+  port: 443
+  udp: true
+  type: vless
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  tls: true
+  servername: 188.114.97.6
+  skip-cert-verify: false
+- name: 🌐 其他地区 (Other) 08 - hotick
+  server: 188.114.97.6
+  port: 443
+  udp: true
+  type: vless
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  network: ws
+  ws-opts:
+    path: /cart/docs/www/proxyip=108.160.132.132?ed
+    headers:
+      Host: lucasjow.us.ci
+- name: 🌐 其他地区 (Other) 09 - hotick
+  server: 188.114.97.6
+  port: 443
+  udp: true
+  type: vless
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+- name: 🌐 其他地区 (Other) 10 - hotick
+  server: 188.114.97.6
+  port: 443
+  udp: true
+  type: vless
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+- name: 🌐 其他地区 (Other) 11 - hotick
+  server: 188.114.97.6
+  port: 443
+  udp: true
+  type: vless
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: 🌐 其他地区 (Other) 12 - hotick
+  server: 188.114.97.6
+  port: 443
+  udp: true
+  type: vless
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn748359672.opengw.net:1458?ed=2560#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: 🌐 其他地区 (Other) 13 - hotick
+  server: 188.114.97.6
+  port: 443
+  udp: true
+  type: vless
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  tls: true
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  client-fingerprint: firefox
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🌐 其他地区 (Other) 14 - hotick
+  server: 188.114.97.6
+  port: 443
+  udp: true
+  type: vless
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  tls: true
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🌐 其他地区 (Other) 15 - hotick
+  server: 188.114.97.6
+  port: 443
+  udp: true
+  type: vless
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  tls: true
+  servername: a.cwvps.eu.org
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: a.cwvps.eu.org
+- name: 🌐 其他地区 (Other) 16 - hotick
+  server: 188.114.97.6
+  port: 443
+  udp: true
+  type: vless
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  tls: true
+  servername: a.cwvps.eu.org
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: a.cwvps.eu.org
+- name: 🌐 其他地区 (Other) 17 - hotick
+  server: 188.114.97.6
+  port: 443
+  udp: true
+  type: vless
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  tls: true
+  servername: a.cwvps.eu.org
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: a.cwvps.eu.org
+- name: 🌐 其他地区 (Other) 18 - hotick
+  server: 188.114.97.6
+  port: 443
+  udp: true
+  type: vless
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  tls: true
+  servername: a.cwvps.eu.org
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: a.cwvps.eu.org
+- name: 🌐 其他地区 (Other) 19 - hotick
+  server: 188.114.97.6
+  port: 443
+  udp: true
+  type: vless
+  uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627
+  tls: true
+  servername: server13.9966338.xyz
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /resiouhgggggggggg?ed=2560fp=chrome
+    headers:
+      Host: server13.9966338.xyz
+- name: 🌐 其他地区 (Other) 20 - hotick
+  server: 188.114.97.6
+  port: 443
+  udp: true
+  type: vless
+  uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627
+  tls: true
+  servername: server5.9966338.xyz
+  skip-cert-verify: false
+  client-fingerprint: edge
+  network: ws
+  ws-opts:
+    path: /drsukitgreiusweqa9otrh983
+    headers:
+      Host: server5.9966338.xyz
+- name: 🌐 其他地区 (Other) 21 - hotick
+  server: 188.114.97.6
+  port: 443
+  udp: true
+  type: vless
+  uuid: 41b90a88-64b3-4337-9c60-c901df3e5b44
+  tls: true
+  servername: t03.tzteam.online
+  skip-cert-verify: false
+  client-fingerprint: chrome
+- name: 🌐 其他地区 (Other) 22 - hotick
+  server: 188.114.97.6
+  port: 443
+  udp: true
+  type: vless
+  uuid: 1ce9392f-caf4-48f7-bbb9-475b101fbde0
+  tls: true
+  servername: graph.instagram.com.cyylr.eu.cc
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /id-tksi
+    headers:
+      Host: graph.instagram.com.cyylr.eu.cc
+- name: 🌐 其他地区 (Other) 23 - hotick
+  server: 188.114.97.6
+  port: 443
+  udp: true
+  type: vless
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  tls: true
+  servername: xi.tbv.ccwu.cc
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /proxyip=us.xiabibi.cf
+    headers:
+      Host: xi.tbv.ccwu.cc
+- name: 🌐 其他地区 (Other) 24 - hotick
+  server: 188.114.97.6
+  port: 443
+  udp: true
+  type: vless
+  uuid: 0f0b7f69-78e1-4e9e-8b35-0986444613e4
+  tls: true
+  servername: xwrivr.pages.dev
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: xwrivr.pages.dev
+- name: 🌐 其他地区 (Other) 25 - hotick
+  server: 188.114.97.6
+  port: 443
+  udp: true
+  type: vless
+  uuid: 0f0b7f69-78e1-4e9e-8b35-0986444613e4
+  tls: true
+  servername: xwrivr.pages.dev
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: xwrivr.pages.dev
+- name: 🌐 其他地区 (Other) 26 - hotick
+  server: 188.114.97.6
+  port: 443
+  udp: true
+  type: vless
+  uuid: 0aab6adc-104c-4339-8d25-09755ffe2cbd
+  tls: true
+  servername: liang92.dpdns.org
+  skip-cert-verify: false
+  client-fingerprint: unsafe
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: liang92.dpdns.org
+- name: 🌐 其他地区 (Other) 27 - hotick
+  server: 188.114.97.6
+  port: 443
+  udp: true
+  type: vless
+  uuid: 1c9daf90-3950-44ac-b06f-4cf9aec63170
+  tls: true
+  servername: FrEe.SeRVEr14peekCoNfIG.WoRKErS.dEV
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /eyJqdW5rIjoiQmFCblN3SmhXYTB3RzVoIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMjYwMjpmYzU5OjExOjY0OjpdIiwiWzJhMDI6ODk4OjE0Njo2NDo6XSIsIlsyNjAyOmZjNTk6YjA6NjQ6Ol0iXX0=?ed=2560
+    headers:
+      Host: free.server14peekconfig.workers.dev
+- name: 🌐 其他地区 (Other) 28 - hotick
+  server: 188.114.97.6
+  port: 443
+  udp: true
+  type: vless
+  uuid: 1c9daf90-3950-44ac-b06f-4cf9aec63170
+  tls: true
+  servername: FrEe.SeRVEr14peekCoNfIG.WoRKErS.dEV
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /eyJqdW5rIjoiQmFCblN3SmhXYTB3RzVoIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMjYwMjpmYzU5OjExOjY0OjpdIiwiWzJhMDI6ODk4OjE0Njo2NDo6XSIsIlsyNjAyOmZjNTk6YjA6NjQ6Ol0iXX0=
+    headers:
+      Host: free.server14peekconfig.workers.dev
+- name: 🌐 其他地区 (Other) 29 - hotick
+  server: 188.114.97.6
+  port: 443
+  udp: true
+  type: vless
+  uuid: Telegram-ID-IRAN5090
+  tls: true
+  servername: abol.vpn-abol.us.ci
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: abol.vpn-abol.us.ci
+- name: 🌐 其他地区 (Other) 30 - hotick
+  server: 188.114.97.6
+  port: 443
+  udp: true
+  type: vless
+  uuid: 3c52e091-6714-4915-949f-2149fe69951b
+- name: 🌐 其他地区 (Other) 31 - hotick
+  server: 188.114.97.6
+  port: 443
+  udp: true
+  type: vless
+  uuid: 3c52e091-6714-4915-949f-2149fe69951b
+  tls: true
+  servername: v2ray.simspeedup.com
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: v2ray.simspeedup.com
+- name: 🌐 其他地区 (Other) 32 - hotick
+  server: 188.114.97.6
+  port: 443
+  udp: true
+  type: vless
+  uuid: 3c52e091-6714-4915-949f-2149fe69951b
+- name: 🌐 其他地区 (Other) 33 - hotick
+  server: 188.114.97.6
+  port: 443
+  udp: true
+  type: vless
+  uuid: 3c52e091-6714-4915-949f-2149fe69951b
+  tls: true
+  servername: v2ray.simspeedup.com
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: v2ray.simspeedup.com
+- name: 🌐 其他地区 (Other) 34 - hotick
+  server: 188.114.97.6
+  port: 443
+  udp: true
+  type: vless
+  uuid: 5b9503aa-119b-4288-aa4f-0bbee2b4d5af
+  tls: true
+  servername: t04.tzteam.online
+  skip-cert-verify: false
+  client-fingerprint: chrome
+- name: 🌐 其他地区 (Other) 35 - hotick
+  server: 188.114.97.6
+  port: 443
+  udp: true
+  type: vless
+  uuid: 63ec2a82-e47c-4782-a89e-9aca2baf17ef
+  tls: true
+  servername: quiz.int.vidio.com.ex33r.eu.cc
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /id-pusat
+    headers:
+      Host: quiz.int.vidio.com.ex33r.eu.cc
+- name: 🌐 其他地区 (Other) 36 - hotick
+  server: 188.114.97.6
+  port: 443
+  udp: true
+  type: vless
+  uuid: a8a6aba0-bbe4-4eaa-8bb7-98601ef162bc
+  tls: true
+  servername: omid-3x-ui.abolfzlllll.us.ci
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: omid-3x-ui.abolfzlllll.us.ci
+- name: 🌐 其他地区 (Other) 37 - hotick
+  server: 188.114.97.6
+  port: 443
+  udp: true
+  type: vless
+  uuid: a8a6aba0-bbe4-4eaa-8bb7-98601ef162bc
+  tls: true
+  servername: omid-3x-ui.abolfzlllll.us.ci
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: omid-3x-ui.abolfzlllll.us.ci
+- name: 🌐 其他地区 (Other) 38 - hotick
+  server: 188.114.97.6
+  port: 443
+  udp: true
+  type: vless
+  uuid: 1043634e-8d9d-4736-83fa-f14ddc9d464c
+  tls: true
+  servername: dfsuporte.garena.com.ex33r.eu.cc
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: id-amz
+    headers:
+      Host: dfsuporte.garena.com.ex33r.eu.cc
+- name: 🌐 其他地区 (Other) 39 - hotick
+  server: 188.114.97.6
+  port: 443
+  udp: true
+  type: vless
+  uuid: b2f2f9f2-1864-48ea-839b-22815faff1f1
+  tls: true
+  servername: stf839dvvyog9d2qa4-b8z6ahgn7b7qi.pages.dev
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /9BozNyvQ8VdRvsYX?ed=2560
+    headers:
+      Host: stf839dvvyog9d2qa4-b8z6ahgn7b7qi.pages.dev
+- name: 🌐 其他地区 (Other) 40 - hotick
+  server: 188.114.97.6
+  port: 443
+  udp: true
+  type: vless
+  uuid: b2f2f9f2-1864-48ea-839b-22815faff1f1
+  tls: true
+  servername: stf839dvvyog9d2qa4-b8z6ahgn7b7qi.pages.dev
+  skip-cert-verify: false
+  client-fingerprint: unsafe
+  network: ws
+  ws-opts:
+    path: /9BozNyvQ8VdRvsYX?ed=2560
+    headers:
+      Host: stf839dvvyog9d2qa4-b8z6ahgn7b7qi.pages.dev
+- name: 🌐 其他地区 (Other) 41 - hotick
+  server: 188.114.97.6
+  port: 443
+  udp: true
+  type: vless
+  uuid: b2f6aa3a-2550-4a1c-b2c0-1c94b1207217
+  tls: true
+  servername: terazhediii.info
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /hdgrbws
+    headers:
+      Host: terazhediii.info
+- name: 🌐 其他地区 (Other) 42 - hotick
+  server: 188.114.97.6
+  port: 443
+  udp: true
+  type: vless
+  uuid: 33918b20-9e02-4dc6-8b30-79b2d4b2e0e6
+  tls: true
+  servername: auto-scale-238b2b.infra-core-1630dd.workers.dev
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /eyJqdW5rIjoiUjJBU3JkVlRwSWtnciIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbImJwYi55b3VzZWYuaXNlZ2Fyby5jb20iXX0
+    headers:
+      Host: auto-scale-238b2b.infra-core-1630dd.workers.dev
+- name: 🌐 其他地区 (Other) 43 - hotick
+  server: 188.114.97.6
+  port: 443
+  udp: true
+  type: vless
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  tls: true
+  servername: fx3l5i2wdfxln0.fx6hsv0.ccwu.cc
+  skip-cert-verify: false
+  client-fingerprint: unsafe
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: fx3l5i2wdfxln0.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 44 - hotick
+  server: 188.114.97.6
+  port: 443
+  udp: true
+  type: vless
+  uuid: 44eae030-290b-4083-8102-6f8bab05701b
+  tls: true
+  servername: 188.114.97.6
+  skip-cert-verify: false
+- name: 🌐 其他地区 (Other) 45 - hotick
+  server: 188.114.97.6
+  port: 443
+  udp: true
+  type: vless
+  uuid: 44eae030-290b-4083-8102-6f8bab05701b
+  tls: true
+  servername: cfvvv-ev1.pages.dev
+  skip-cert-verify: false
+  client-fingerprint: unsafe
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cfvvv-ev1.pages.dev
+- name: 🌐 其他地区 (Other) 46 - hotick
+  server: 188.114.97.6
+  port: 443
+  udp: true
+  type: vless
+  uuid: 17540a16-a0dd-5694-7e1e-14e281ccc032
+  tls: true
+  servername: crm.lotussec.com
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /@JavidnamanIran/Javid-SHAH-KingRezaPahlavi/
+    headers:
+      Host: crm.lotussec.com
+- name: 🌐 其他地区 (Other) 47 - hotick
+  server: 188.114.97.6
+  port: 443
+  udp: true
+  type: vless
+  uuid: 4bde8d55-d91c-45e9-9b36-e6448a194527
+  tls: true
+  servername: dfsuporte.garena.com.ex33r.eu.cc
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /sg-amz
+    headers:
+      Host: dfsuporte.garena.com.ex33r.eu.cc
+- name: 🌐 其他地区 (Other) 48 - hotick
+  server: 188.114.97.6
+  port: 443
+  udp: true
+  type: vless
+  uuid: b0a100ee-c397-43f2-bdae-2adfb7a0d4e5
+  tls: true
+  servername: rnxq-1lpi3m.linmeisoft.com
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /b0a100ee-c397-43f2-bdae-2adfb7a0d4e5
+    headers:
+      Host: rnxq-1lpi3m.linmeisoft.com
+- name: 🌐 其他地区 (Other) 49 - hotick
+  server: 188.114.97.6
+  port: 443
+  udp: true
+  type: vless
+  uuid: fc965ad9-bdd7-4815-ad71-b39ec5972dc1
+  tls: true
+  servername: octopusss4.com
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /tsghdws
+    headers:
+      Host: octopusss4.com
+- name: 🌐 其他地区 (Other) 50 - hotick
+  server: 188.114.97.6
+  port: 443
+  udp: true
+  type: vless
+  uuid: 87c467e9-f0af-4b03-8fbd-65fd375d3a26
+  tls: true
+  servername: pmpmppm.pages.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: ?ed=2048
+    headers:
+      Host: pmpmppm.pages.dev
+- name: 🌐 其他地区 (Other) 51 - hotick
+  server: 188.114.97.6
+  port: 443
+  udp: true
+  type: vless
+  uuid: 87c467e9-f0af-4b03-8fbd-65fd375d3a26
+  tls: true
+  servername: pmpmppm.pages.dev
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: pmpmppm.pages.dev
+- name: 🌐 其他地区 (Other) 52 - hotick
+  server: 188.114.97.6
+  port: 443
+  udp: true
+  type: vless
+  uuid: 8be461cb-a0df-47cf-bc0d-4d9e6a22fa74
+  tls: true
+  servername: ccs2g.pai50288.uk
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /pai50288
+    headers:
+      Host: ccs2g.pai50288.uk
+- name: 🌐 其他地区 (Other) 53 - hotick
+  server: 188.114.97.6
+  port: 443
+  udp: true
+  type: vless
+  uuid: 8be461cb-a0df-47cf-bc0d-4d9e6a22fa74
+  tls: true
+  servername: ccs2g.pai50288.uk
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /pai50288
+    headers:
+      Host: ccs2g.pai50288.uk
+- name: 🌐 其他地区 (Other) 54 - hotick
+  server: 188.114.97.6
+  port: 443
+  udp: true
+  type: vless
+  uuid: AlfredConfig
+  tls: true
+  servername: alfi.yas-nowin.ir
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: alfi.yas-nowin.ir
+- name: 🌐 其他地区 (Other) 55 - hotick
+  server: 188.114.97.6
+  port: 443
+  udp: true
+  type: vless
+  uuid: 8525fe74-67e6-4a55-8a26-95f227bd1384
+  tls: true
+  servername: wild-sky-f384.alvlirm3737.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: unsafe
+  network: ws
+  ws-opts:
+    path: /proxyip=172.86.93.55,194.99.20.245,46.101.165.85,46.101.181.132,209.38.201.199,165.22.89.207,207.154.242.240,64.188.83.202
+    headers:
+      Host: wild-sky-f384.alvlirm3737.workers.dev
+- name: 🌐 其他地区 (Other) 56 - hotick
+  server: 188.114.97.6
+  port: 443
+  udp: true
+  type: vless
+  uuid: c64992bd-54aa-4d3d-8527-42da7d7e520a
+  tls: true
+  servername: whuiy.xyz
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /vless-cdn
+    headers:
+      Host: whuiy.xyz
+- name: 🌐 其他地区 (Other) 57 - hotick
+  server: 188.114.97.6
+  port: 443
+  udp: true
+  type: vless
+  uuid: 27302727-9dfa-4975-990e-88c7a63747cd
+  tls: true
+  servername: tc.amoovictor.cc.cd
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tc.amoovictor.cc.cd
+- name: 🌐 其他地区 (Other) 58 - hotick
+  server: 188.114.97.6
+  port: 443
+  udp: true
+  type: vless
+  uuid: b9ede7a5-5b4b-4aee-ac37-2c307e587e47
+  tls: true
+  servername: courses.mftplus.qzz.io
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /eyJqdW5rIjoidVkzQm1ROUg4dyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
+    headers:
+      Host: courses.mftplus.qzz.io
+- name: 🌐 其他地区 (Other) 59 - hotick
+  server: 188.114.97.6
+  port: 443
+  udp: true
+  type: vless
+  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
+- name: 🌐 其他地区 (Other) 60 - hotick
+  server: 188.114.97.6
+  port: 443
+  udp: true
+  type: vless
+  uuid: 30610baf-4645-4c7b-9a22-0d0a0a79eab5
+  tls: true
+  servername: mao.kipfel.kdns.fr
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /glasspanel/guest000_0_5de14443985f/
+    headers:
+      Host: mao.kipfel.kdns.fr
+- name: 🌐 其他地区 (Other) 61 - hotick
+  server: 188.114.97.6
+  port: 443
+  udp: true
+  type: vless
+  uuid: 8102891d-7b37-4dc5-8261-9474b59b5c63
+  tls: true
+  servername: vip.868068.xyz
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /proxyip=us.xiabibi.cf
+    headers:
+      Host: vip.868068.xyz
+- name: 🌐 其他地区 (Other) 62 - hotick
+  server: 188.114.97.6
+  port: 443
+  udp: true
+  type: vless
+  uuid: cf39fab0-bb85-42cb-9945-2ad69d78e575
+- name: 🌐 其他地区 (Other) 63 - hotick
+  server: 188.114.97.6
+  port: 443
+  udp: true
+  type: vless
+  uuid: 86c0996e-817e-409f-a732-ff9ef94917bd
+  tls: true
+  servername: s3.bamans.uk
+  skip-cert-verify: false
+  client-fingerprint: chrome
+- name: 🌐 其他地区 (Other) 64 - hotick
+  server: 188.114.97.6
+  port: 443
+  udp: true
+  type: vless
+  uuid: e56059f1-5a1a-4d0a-a2d0-58ecb4eb2f3f
+  tls: true
+  servername: ezaccess-project-f62c30.pages.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /eyJqdW5rIjoiZWlPODVjTnhnaSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
+    headers:
+      Host: ezaccess-project-f62c30.pages.dev
+- name: 🌐 其他地区 (Other) 65 - hotick
+  server: 188.114.97.6
+  port: 443
+  udp: true
+  type: vless
+  uuid: e56059f1-5a1a-4d0a-a2d0-58ecb4eb2f3f
+  tls: true
+  servername: ezaccess-project-f62c30.pages.dev
+  skip-cert-verify: false
+  client-fingerprint: unsafe
+  network: ws
+  ws-opts:
+    path: /eyJqdW5rIjoiZWlPODVjTnhnaSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
+    headers:
+      Host: ezaccess-project-f62c30.pages.dev
+- name: 🌐 其他地区 (Other) 66 - hotick
+  server: 188.114.97.6
+  port: 443
+  udp: true
+  type: vless
+  uuid: 12d8b109-394d-4d0c-a208-2b9a41f09f36
+  tls: true
+  servername: ads.ruangguru.com.cyylr.eu.cc
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /my-wbv
+    headers:
+      Host: ads.ruangguru.com.cyylr.eu.cc
+- name: 🌐 其他地区 (Other) 67 - hotick
+  server: 188.114.97.6
+  port: 443
+  udp: true
+  type: vless
+  uuid: 893096ae-ed76-4440-bc34-f77c4872540f
+  tls: true
+  servername: masterserver1-vsh.kalleh.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: unsafe
+  network: ws
+  ws-opts:
+    path: /eyJqdW5rIjoieE1zSFhYR2hkcHZGUHI3cSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
+    headers:
+      Host: masterserver1-vsh.kalleh.workers.dev
+- name: 🌐 其他地区 (Other) 68 - hotick
+  server: 104.21.93.52
+  port: 2052
+  udp: true
+  type: vless
+  uuid: e3fb01b6-69b4-41d7-babf-696d992de194
+  network: ws
+  ws-opts:
+    path: /@BlueKnight_net--@BlueKnight_net
+    headers:
+      Host: uwu.blueknightnet.qzz.io
+- name: 🌐 其他地区 (Other) 69 - hotick
+  server: 104.21.93.52
+  port: 2052
+  udp: true
+  type: vless
+  uuid: e3fb01b6-69b4-41d7-babf-696d992de194
+  network: ws
+  ws-opts:
+    path: /@BlueKnight_net--@BlueKnight_net
+    headers:
+      Host: uwu.blueknightnet.qzz.io
+proxy-groups:
+- name: PROXIES
+  type: select
+  proxies:
+  - AUTO
+  - 🌐 其他地区 (Other) 01 - hotick
+  - 🌐 其他地区 (Other) 02 - hotick
+  - 🌐 其他地区 (Other) 03 - hotick
+  - 🌐 其他地区 (Other) 04 - hotick
+  - 🌐 其他地区 (Other) 05 - hotick
+  - 🌐 其他地区 (Other) 06 - hotick
+  - 🌐 其他地区 (Other) 07 - hotick
+  - 🌐 其他地区 (Other) 08 - hotick
+  - 🌐 其他地区 (Other) 09 - hotick
+  - 🌐 其他地区 (Other) 10 - hotick
+  - 🌐 其他地区 (Other) 11 - hotick
+  - 🌐 其他地区 (Other) 12 - hotick
+  - 🌐 其他地区 (Other) 13 - hotick
+  - 🌐 其他地区 (Other) 14 - hotick
+  - 🌐 其他地区 (Other) 15 - hotick
+  - 🌐 其他地区 (Other) 16 - hotick
+  - 🌐 其他地区 (Other) 17 - hotick
+  - 🌐 其他地区 (Other) 18 - hotick
+  - 🌐 其他地区 (Other) 19 - hotick
+  - 🌐 其他地区 (Other) 20 - hotick
+  - 🌐 其他地区 (Other) 21 - hotick
+  - 🌐 其他地区 (Other) 22 - hotick
+  - 🌐 其他地区 (Other) 23 - hotick
+  - 🌐 其他地区 (Other) 24 - hotick
+  - 🌐 其他地区 (Other) 25 - hotick
+  - 🌐 其他地区 (Other) 26 - hotick
+  - 🌐 其他地区 (Other) 27 - hotick
+  - 🌐 其他地区 (Other) 28 - hotick
+  - 🌐 其他地区 (Other) 29 - hotick
+  - 🌐 其他地区 (Other) 30 - hotick
+  - 🌐 其他地区 (Other) 31 - hotick
+  - 🌐 其他地区 (Other) 32 - hotick
+  - 🌐 其他地区 (Other) 33 - hotick
+  - 🌐 其他地区 (Other) 34 - hotick
+  - 🌐 其他地区 (Other) 35 - hotick
+  - 🌐 其他地区 (Other) 36 - hotick
+  - 🌐 其他地区 (Other) 37 - hotick
+  - 🌐 其他地区 (Other) 38 - hotick
+  - 🌐 其他地区 (Other) 39 - hotick
+  - 🌐 其他地区 (Other) 40 - hotick
+  - 🌐 其他地区 (Other) 41 - hotick
+  - 🌐 其他地区 (Other) 42 - hotick
+  - 🌐 其他地区 (Other) 43 - hotick
+  - 🌐 其他地区 (Other) 44 - hotick
+  - 🌐 其他地区 (Other) 45 - hotick
+  - 🌐 其他地区 (Other) 46 - hotick
+  - 🌐 其他地区 (Other) 47 - hotick
+  - 🌐 其他地区 (Other) 48 - hotick
+  - 🌐 其他地区 (Other) 49 - hotick
+  - 🌐 其他地区 (Other) 50 - hotick
+  - 🌐 其他地区 (Other) 51 - hotick
+  - 🌐 其他地区 (Other) 52 - hotick
+  - 🌐 其他地区 (Other) 53 - hotick
+  - 🌐 其他地区 (Other) 54 - hotick
+  - 🌐 其他地区 (Other) 55 - hotick
+  - 🌐 其他地区 (Other) 56 - hotick
+  - 🌐 其他地区 (Other) 57 - hotick
+  - 🌐 其他地区 (Other) 58 - hotick
+  - 🌐 其他地区 (Other) 59 - hotick
+  - 🌐 其他地区 (Other) 60 - hotick
+  - 🌐 其他地区 (Other) 61 - hotick
+  - 🌐 其他地区 (Other) 62 - hotick
+  - 🌐 其他地区 (Other) 63 - hotick
+  - 🌐 其他地区 (Other) 64 - hotick
+  - 🌐 其他地区 (Other) 65 - hotick
+  - 🌐 其他地区 (Other) 66 - hotick
+  - 🌐 其他地区 (Other) 67 - hotick
+  - 🌐 其他地区 (Other) 68 - hotick
+  - 🌐 其他地区 (Other) 69 - hotick
+- name: AUTO
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  proxies:
+  - 🌐 其他地区 (Other) 01 - hotick
+  - 🌐 其他地区 (Other) 02 - hotick
+  - 🌐 其他地区 (Other) 03 - hotick
+  - 🌐 其他地区 (Other) 04 - hotick
+  - 🌐 其他地区 (Other) 05 - hotick
+  - 🌐 其他地区 (Other) 06 - hotick
+  - 🌐 其他地区 (Other) 07 - hotick
+  - 🌐 其他地区 (Other) 08 - hotick
+  - 🌐 其他地区 (Other) 09 - hotick
+  - 🌐 其他地区 (Other) 10 - hotick
+  - 🌐 其他地区 (Other) 11 - hotick
+  - 🌐 其他地区 (Other) 12 - hotick
+  - 🌐 其他地区 (Other) 13 - hotick
+  - 🌐 其他地区 (Other) 14 - hotick
+  - 🌐 其他地区 (Other) 15 - hotick
+  - 🌐 其他地区 (Other) 16 - hotick
+  - 🌐 其他地区 (Other) 17 - hotick
+  - 🌐 其他地区 (Other) 18 - hotick
+  - 🌐 其他地区 (Other) 19 - hotick
+  - 🌐 其他地区 (Other) 20 - hotick
+  - 🌐 其他地区 (Other) 21 - hotick
+  - 🌐 其他地区 (Other) 22 - hotick
+  - 🌐 其他地区 (Other) 23 - hotick
+  - 🌐 其他地区 (Other) 24 - hotick
+  - 🌐 其他地区 (Other) 25 - hotick
+  - 🌐 其他地区 (Other) 26 - hotick
+  - 🌐 其他地区 (Other) 27 - hotick
+  - 🌐 其他地区 (Other) 28 - hotick
+  - 🌐 其他地区 (Other) 29 - hotick
+  - 🌐 其他地区 (Other) 30 - hotick
+  - 🌐 其他地区 (Other) 31 - hotick
+  - 🌐 其他地区 (Other) 32 - hotick
+  - 🌐 其他地区 (Other) 33 - hotick
+  - 🌐 其他地区 (Other) 34 - hotick
+  - 🌐 其他地区 (Other) 35 - hotick
+  - 🌐 其他地区 (Other) 36 - hotick
+  - 🌐 其他地区 (Other) 37 - hotick
+  - 🌐 其他地区 (Other) 38 - hotick
+  - 🌐 其他地区 (Other) 39 - hotick
+  - 🌐 其他地区 (Other) 40 - hotick
+  - 🌐 其他地区 (Other) 41 - hotick
+  - 🌐 其他地区 (Other) 42 - hotick
+  - 🌐 其他地区 (Other) 43 - hotick
+  - 🌐 其他地区 (Other) 44 - hotick
+  - 🌐 其他地区 (Other) 45 - hotick
+  - 🌐 其他地区 (Other) 46 - hotick
+  - 🌐 其他地区 (Other) 47 - hotick
+  - 🌐 其他地区 (Other) 48 - hotick
+  - 🌐 其他地区 (Other) 49 - hotick
+  - 🌐 其他地区 (Other) 50 - hotick
+  - 🌐 其他地区 (Other) 51 - hotick
+  - 🌐 其他地区 (Other) 52 - hotick
+  - 🌐 其他地区 (Other) 53 - hotick
+  - 🌐 其他地区 (Other) 54 - hotick
+  - 🌐 其他地区 (Other) 55 - hotick
+  - 🌐 其他地区 (Other) 56 - hotick
+  - 🌐 其他地区 (Other) 57 - hotick
+  - 🌐 其他地区 (Other) 58 - hotick
+  - 🌐 其他地区 (Other) 59 - hotick
+  - 🌐 其他地区 (Other) 60 - hotick
+  - 🌐 其他地区 (Other) 61 - hotick
+  - 🌐 其他地区 (Other) 62 - hotick
+  - 🌐 其他地区 (Other) 63 - hotick
+  - 🌐 其他地区 (Other) 64 - hotick
+  - 🌐 其他地区 (Other) 65 - hotick
+  - 🌐 其他地区 (Other) 66 - hotick
+  - 🌐 其他地区 (Other) 67 - hotick
+  - 🌐 其他地区 (Other) 68 - hotick
+  - 🌐 其他地区 (Other) 69 - hotick
+rules:
+- MATCH,PROXIES

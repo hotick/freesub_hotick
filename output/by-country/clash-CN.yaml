@@ -5,17 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇳 CN 01 - hotick
-  server: 39.108.113.127
-  port: 10086
-  udp: true
-  type: vmess
-  uuid: 7547daaa-1577-49b0-9519-bd1823add1a7
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-opts:
-    path: /
-- name: 🇨🇳 CN 02 - hotick
   server: 188.114.98.0
   port: 443
   udp: true
@@ -30,7 +19,7 @@ proxies:
     path: /vlessws
     headers:
       Host: vpn.cintaku.qzz.io
-- name: 🇨🇳 CN 03 - hotick
+- name: 🇨🇳 CN 02 - hotick
   server: vpn.cintaku.qzz.io
   port: 443
   udp: true
@@ -42,8 +31,6 @@ proxies:
   network: ws
   ws-opts:
     path: /vlessws
-    headers:
-      Host: vpn.cintaku.qzz.io
 proxy-groups:
 - name: PROXIES
   type: select
@@ -51,7 +38,6 @@ proxy-groups:
   - AUTO
   - 🇨🇳 CN 01 - hotick
   - 🇨🇳 CN 02 - hotick
-  - 🇨🇳 CN 03 - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -59,6 +45,5 @@ proxy-groups:
   proxies:
   - 🇨🇳 CN 01 - hotick
   - 🇨🇳 CN 02 - hotick
-  - 🇨🇳 CN 03 - hotick
 rules:
 - MATCH,PROXIES

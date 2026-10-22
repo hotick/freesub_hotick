@@ -14,48 +14,22 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: a39ca173b57ac7021b08bf3e3de9f1f6
-- name: 🇭🇰 中国香港 (Hong Kong) 02 (移动家宽) - hotick
-  server: zfd-hkv1.kunlun01dns.com
-  port: 16114
-  udp: true
-  type: vmess
-  uuid: 0802ac03-7973-39ef-a019-ba02de6c01e1
-  alterId: 0
-  cipher: auto
-- name: 🇭🇰 中国香港 (Hong Kong) 03 (移动家宽) - hotick
-  server: dog-hk.kunlun01dns.com
-  port: 21020
-  udp: true
-  type: vmess
-  uuid: 9464ca40-dd75-3742-a628-d931a9f413b2
-  alterId: 0
-  cipher: auto
-- name: 🇭🇰 中国香港 (Hong Kong) 04 (移动家宽) - hotick
-  server: dog-hk.kunlun01dns.com
-  port: 21018
-  udp: true
-  type: vmess
-  uuid: 9464ca40-dd75-3742-a628-d931a9f413b2
-  alterId: 0
-  cipher: auto
-- name: 🇰🇷 韩国 (South Korea) 05 (家宽) - hotick
-  server: p141.panda001.net
+- name: 🇰🇷 韩国 (South Korea) 02 (家宽) - hotick
+  server: 218.237.185.234
   port: 4652
   udp: true
   type: ss
   cipher: aes-256-cfb
   password: qwerREWQ@@
-- name: 🇹🇷 土耳其 (Turkey) 06 (移动家宽) - hotick
-  server: me17.msjia8844.site
-  port: 7443
+- name: 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - hotick
+  server: 56481.df6h451rh.xin
+  port: 443
   udp: true
-  type: hysteria2
-  password: M8LP9DztTr3znqCkmf-r08CQLBLLFK1r
-  sni: me17.msjia8844.site
-  skip-cert-verify: false
-  obfs: salamander
-  obfs-password: u3Soh9_Ui0UmcuY6vk0ug8Lq
-- name: 🇹🇼 中国台湾 (Taiwan) 07 (家宽) - hotick
+  type: anytls
+  password: 0324fbc29561
+  sni: images.ctfassets.net
+  skip-cert-verify: true
+- name: 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - hotick
   server: 61.230.160.34
   port: 24215
   udp: true
@@ -65,30 +39,24 @@ proxies:
   reality-opts:
     public-key: mdWKUPMVTtTbDqK10BPb89OcqBC2-Lx-4NOYtqc1GWE
   servername: addons.mozilla.org
-  client-fingerprint: firefox
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇺🇸 美国 (United States) 01 (家宽) - hotick
-  - 🇭🇰 中国香港 (Hong Kong) 02 (移动家宽) - hotick
-  - 🇭🇰 中国香港 (Hong Kong) 03 (移动家宽) - hotick
-  - 🇭🇰 中国香港 (Hong Kong) 04 (移动家宽) - hotick
-  - 🇰🇷 韩国 (South Korea) 05 (家宽) - hotick
-  - 🇹🇷 土耳其 (Turkey) 06 (移动家宽) - hotick
-  - 🇹🇼 中国台湾 (Taiwan) 07 (家宽) - hotick
+  - 🇰🇷 韩国 (South Korea) 02 (家宽) - hotick
+  - 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - hotick
+  - 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇺🇸 美国 (United States) 01 (家宽) - hotick
-  - 🇭🇰 中国香港 (Hong Kong) 02 (移动家宽) - hotick
-  - 🇭🇰 中国香港 (Hong Kong) 03 (移动家宽) - hotick
-  - 🇭🇰 中国香港 (Hong Kong) 04 (移动家宽) - hotick
-  - 🇰🇷 韩国 (South Korea) 05 (家宽) - hotick
-  - 🇹🇷 土耳其 (Turkey) 06 (移动家宽) - hotick
-  - 🇹🇼 中国台湾 (Taiwan) 07 (家宽) - hotick
+  - 🇰🇷 韩国 (South Korea) 02 (家宽) - hotick
+  - 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - hotick
+  - 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - hotick
 rules:
 - MATCH,PROXIES

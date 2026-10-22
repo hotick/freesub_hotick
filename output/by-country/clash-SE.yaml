@@ -5,15 +5,13 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇸🇪 瑞典 (Sweden) 01 - hotick
-  server: 13.60.198.133
-  port: 443
+  server: svip.skycon808.com
+  port: 60005
   udp: true
-  type: vless
-  uuid: 7060231d-b9ba-495f-a218-bf427940cf3e
-  network: h2
-  h2-opts:
-    host: []
-    path: /
+  type: anytls
+  password: 13f0acfa-38c1-4e82-a758-583aa31740df
+  sni: xjp18.2uuzhe.com
+  skip-cert-verify: true
 - name: 🇸🇪 瑞典 (Sweden) 02 - hotick
   server: 185.58.115.62
   port: 443
@@ -38,6 +36,15 @@ proxies:
   obfs: salamander
   obfs-password: Telegram@vpnjey
 - name: 🇸🇪 瑞典 (Sweden) 04 - hotick
+  server: 5.178.109.174
+  port: 14430
+  udp: true
+  type: vless
+  uuid: 80de563a-cac8-40ea-8cb0-4cb082dd92f9
+  network: ws
+  ws-opts:
+    path: /vless
+- name: 🇸🇪 瑞典 (Sweden) 05 - hotick
   server: 70.34.212.124
   port: 8388
   udp: true
@@ -53,6 +60,7 @@ proxy-groups:
   - 🇸🇪 瑞典 (Sweden) 02 - hotick
   - 🇸🇪 瑞典 (Sweden) 03 - hotick
   - 🇸🇪 瑞典 (Sweden) 04 - hotick
+  - 🇸🇪 瑞典 (Sweden) 05 - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -62,5 +70,6 @@ proxy-groups:
   - 🇸🇪 瑞典 (Sweden) 02 - hotick
   - 🇸🇪 瑞典 (Sweden) 03 - hotick
   - 🇸🇪 瑞典 (Sweden) 04 - hotick
+  - 🇸🇪 瑞典 (Sweden) 05 - hotick
 rules:
 - MATCH,PROXIES
