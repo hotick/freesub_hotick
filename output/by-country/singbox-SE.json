@@ -4,20 +4,8 @@
   },
   "outbounds": [
     {
-      "type": "anytls",
-      "tag": "🇸🇪 瑞典 (Sweden) 01 - hotick",
-      "server": "svip.skycon808.com",
-      "server_port": 60005,
-      "password": "13f0acfa-38c1-4e82-a758-583aa31740df",
-      "tls": {
-        "enabled": true,
-        "server_name": "xjp18.2uuzhe.com",
-        "insecure": true
-      }
-    },
-    {
       "type": "vless",
-      "tag": "🇸🇪 瑞典 (Sweden) 02 - hotick",
+      "tag": "🇸🇪 瑞典 (Sweden) 01 - hotick",
       "server": "185.58.115.62",
       "server_port": 443,
       "uuid": "9c794bb7-54fe-4acd-844a-a26209af36c3",
@@ -37,6 +25,18 @@
       }
     },
     {
+      "type": "anytls",
+      "tag": "🇸🇪 瑞典 (Sweden) 02 - hotick",
+      "server": "svip.skycon808.com",
+      "server_port": 60005,
+      "password": "13f0acfa-38c1-4e82-a758-583aa31740df",
+      "tls": {
+        "enabled": true,
+        "server_name": "xjp18.2uuzhe.com",
+        "insecure": true
+      }
+    },
+    {
       "type": "hysteria2",
       "tag": "🇸🇪 瑞典 (Sweden) 03 - hotick",
       "server": "77.110.96.201",
@@ -53,34 +53,13 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇸🇪 瑞典 (Sweden) 04 - hotick",
-      "server": "5.178.109.174",
-      "server_port": 14430,
-      "uuid": "80de563a-cac8-40ea-8cb0-4cb082dd92f9",
-      "transport": {
-        "type": "ws",
-        "path": "/vless"
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇸🇪 瑞典 (Sweden) 05 - hotick",
-      "server": "70.34.212.124",
-      "server_port": 8388,
-      "method": "aes-256-gcm",
-      "password": "AxIYWtskJWIIaefW"
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
         "🇸🇪 瑞典 (Sweden) 01 - hotick",
         "🇸🇪 瑞典 (Sweden) 02 - hotick",
-        "🇸🇪 瑞典 (Sweden) 03 - hotick",
-        "🇸🇪 瑞典 (Sweden) 04 - hotick",
-        "🇸🇪 瑞典 (Sweden) 05 - hotick"
+        "🇸🇪 瑞典 (Sweden) 03 - hotick"
       ]
     },
     {
@@ -89,9 +68,7 @@
       "outbounds": [
         "🇸🇪 瑞典 (Sweden) 01 - hotick",
         "🇸🇪 瑞典 (Sweden) 02 - hotick",
-        "🇸🇪 瑞典 (Sweden) 03 - hotick",
-        "🇸🇪 瑞典 (Sweden) 04 - hotick",
-        "🇸🇪 瑞典 (Sweden) 05 - hotick"
+        "🇸🇪 瑞典 (Sweden) 03 - hotick"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
