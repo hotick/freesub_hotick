@@ -6,10 +6,10 @@
     {
       "type": "shadowsocks",
       "tag": "🇪🇸 西班牙 (Spain) 01 - hotick",
-      "server": "108.181.71.5",
-      "server_port": 15995,
+      "server": "193.148.19.212",
+      "server_port": 12796,
       "method": "aes-128-gcm",
-      "password": "882dd5b0e0f2cf05bb5de75f59bbe953"
+      "password": "905470106f6c49d68e90a5c55c020190"
     },
     {
       "type": "vless",
@@ -22,7 +22,7 @@
         "server_name": "www.apple.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
@@ -32,8 +32,16 @@
       }
     },
     {
-      "type": "vless",
+      "type": "shadowsocks",
       "tag": "🇪🇸 西班牙 (Spain) 03 - hotick",
+      "server": "108.181.71.5",
+      "server_port": 15995,
+      "method": "aes-128-gcm",
+      "password": "882dd5b0e0f2cf05bb5de75f59bbe953"
+    },
+    {
+      "type": "vless",
+      "tag": "🇪🇸 西班牙 (Spain) 04 - hotick",
       "server": "46.28.71.247",
       "server_port": 443,
       "uuid": "12c53e32-e589-47d6-b857-e4132294f767",
@@ -43,7 +51,7 @@
         "server_name": "www.cloudflare.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
@@ -54,7 +62,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇪🇸 西班牙 (Spain) 04 - hotick",
+      "tag": "🇪🇸 西班牙 (Spain) 05 - hotick",
       "server": "193.238.154.78",
       "server_port": 443,
       "uuid": "897d47f8-4dd5-42a1-bcd0-bef19caff55a",
@@ -64,7 +72,7 @@
         "server_name": "gateway.icloud.com",
         "utls": {
           "enabled": true,
-          "fingerprint": ""
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -81,7 +89,8 @@
         "🇪🇸 西班牙 (Spain) 01 - hotick",
         "🇪🇸 西班牙 (Spain) 02 - hotick",
         "🇪🇸 西班牙 (Spain) 03 - hotick",
-        "🇪🇸 西班牙 (Spain) 04 - hotick"
+        "🇪🇸 西班牙 (Spain) 04 - hotick",
+        "🇪🇸 西班牙 (Spain) 05 - hotick"
       ]
     },
     {
@@ -91,7 +100,8 @@
         "🇪🇸 西班牙 (Spain) 01 - hotick",
         "🇪🇸 西班牙 (Spain) 02 - hotick",
         "🇪🇸 西班牙 (Spain) 03 - hotick",
-        "🇪🇸 西班牙 (Spain) 04 - hotick"
+        "🇪🇸 西班牙 (Spain) 04 - hotick",
+        "🇪🇸 西班牙 (Spain) 05 - hotick"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

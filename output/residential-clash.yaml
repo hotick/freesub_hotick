@@ -14,50 +14,85 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: a39ca173b57ac7021b08bf3e3de9f1f6
-- name: 🇰🇷 韩国 (South Korea) 02 (家宽) - hotick
+- name: 🇭🇰 中国香港 (Hong Kong) 02 (移动家宽) - hotick
+  server: zfd-hkv2.kunlun01dns.com
+  port: 16112
+  udp: true
+  type: vmess
+  uuid: 0802ac03-7973-39ef-a019-ba02de6c01e1
+  alterId: 0
+  cipher: auto
+- name: 🇰🇷 韩国 (South Korea) 03 (家宽) - hotick
   server: 49.254.204.133
   port: 1774
   udp: true
   type: ss
   cipher: aes-256-cfb
   password: 1234!@#$
-- name: 🇹🇷 土耳其 (Turkey) 03 (移动家宽) - hotick
-  server: 206.1.99.36
-  port: 58202
+- name: 🇭🇰 中国香港 (Hong Kong) 04 (移动家宽) - hotick
+  server: dog-hk.kunlun01dns.com
+  port: 21019
   udp: true
   type: vmess
-  uuid: e2adaa66-0a40-4e48-a53d-e349e7ac3b80
+  uuid: 9464ca40-dd75-3742-a628-d931a9f413b2
   alterId: 0
   cipher: auto
-- name: 🇰🇷 韩国 (South Korea) 04 (家宽) - hotick
+- name: 🇩🇪 德国 (Germany) 05 (家宽) - hotick
+  server: 209.38.238.229
+  port: 20202
+  udp: true
+  type: vless
+  uuid: d18c6897-2849-456a-8c46-d7ecece47c20
+  tls: true
+  servername: wzs.echo.net.eu.org
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /video/HxNMGkZdGw0PRk1GVw8YF14OXkwNVVtIRg1HUlZXSwcZUQABSgMNQRoaSVhfRhoOChkDDUs=
+    headers:
+      Host: wzs.echo.net.eu.org
+- name: 🇭🇰 中国香港 (Hong Kong) 06 (移动家宽) - hotick
+  server: dog-hk.kunlun01dns.com
+  port: 21041
+  udp: true
+  type: vmess
+  uuid: 9464ca40-dd75-3742-a628-d931a9f413b2
+  alterId: 0
+  cipher: auto
+- name: 🇰🇷 韩国 (South Korea) 07 (家宽) - hotick
   server: p141.panda001.net
   port: 4652
   udp: true
   type: ss
   cipher: aes-256-cfb
   password: qwerREWQ@@
-- name: 🇭🇰 中国香港 (Hong Kong) 05 (移动家宽) - hotick
-  server: zfd-hkv1.kunlun01dns.com
-  port: 16114
+- name: 🇹🇼 中国台湾 (Taiwan) 08 (家宽) - hotick
+  server: 61.230.160.34
+  port: 24215
   udp: true
-  type: vmess
-  uuid: 0802ac03-7973-39ef-a019-ba02de6c01e1
-  alterId: 0
-  cipher: auto
-- name: 🇹🇼 中国台湾 (Taiwan) 06 (家宽) - hotick
-  server: 6aa21c4d-11d4-45bf-ba55-59512593692c.7b63595a-1119-4080-80e1-3f638120be58.smartprivatelink.com
+  type: vless
+  uuid: 19d5a678-8396-4e3b-93da-ece618d0e83a
+  tls: true
+  reality-opts:
+    public-key: mdWKUPMVTtTbDqK10BPb89OcqBC2-Lx-4NOYtqc1GWE
+  servername: addons.mozilla.org
+  client-fingerprint: ios
+- name: 🇮🇳 印度 (India) 09 (家宽) - hotick
+  server: 122.176.216.52
   port: 443
   udp: true
   type: vless
-  uuid: 2a778078-9f4f-4203-a204-6fb94547b707
-  flow: xtls-rprx-vision
+  uuid: 16ae3ea5-cf3e-6973-7bf3-2b4b28d0ea88
   tls: true
-  reality-opts:
-    public-key: 3nFa_3MSnFQDm9XfVfFHOnMb3FOptREpe1ehXjAbk1c
-    short-id: d369dbc2
-  servername: www.douyin.com
-  client-fingerprint: ios
-- name: 🇭🇰 中国香港 (Hong Kong) 07 (家宽) - hotick
+  servername: app-6ada5023.deploy.meerasolution.com
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /ws/16ae3ea5-cf3e-6973-7bf3-2b4b28d0ea88
+    headers:
+      Host: app-6ada5023.deploy.meerasolution.com
+- name: 🇭🇰 中国香港 (Hong Kong) 10 (家宽) - hotick
   server: 56481.df6h451rh.xin
   port: 443
   udp: true
@@ -71,23 +106,29 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇺🇸 美国 (United States) 01 (家宽) - hotick
-  - 🇰🇷 韩国 (South Korea) 02 (家宽) - hotick
-  - 🇹🇷 土耳其 (Turkey) 03 (移动家宽) - hotick
-  - 🇰🇷 韩国 (South Korea) 04 (家宽) - hotick
-  - 🇭🇰 中国香港 (Hong Kong) 05 (移动家宽) - hotick
-  - 🇹🇼 中国台湾 (Taiwan) 06 (家宽) - hotick
-  - 🇭🇰 中国香港 (Hong Kong) 07 (家宽) - hotick
+  - 🇭🇰 中国香港 (Hong Kong) 02 (移动家宽) - hotick
+  - 🇰🇷 韩国 (South Korea) 03 (家宽) - hotick
+  - 🇭🇰 中国香港 (Hong Kong) 04 (移动家宽) - hotick
+  - 🇩🇪 德国 (Germany) 05 (家宽) - hotick
+  - 🇭🇰 中国香港 (Hong Kong) 06 (移动家宽) - hotick
+  - 🇰🇷 韩国 (South Korea) 07 (家宽) - hotick
+  - 🇹🇼 中国台湾 (Taiwan) 08 (家宽) - hotick
+  - 🇮🇳 印度 (India) 09 (家宽) - hotick
+  - 🇭🇰 中国香港 (Hong Kong) 10 (家宽) - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇺🇸 美国 (United States) 01 (家宽) - hotick
-  - 🇰🇷 韩国 (South Korea) 02 (家宽) - hotick
-  - 🇹🇷 土耳其 (Turkey) 03 (移动家宽) - hotick
-  - 🇰🇷 韩国 (South Korea) 04 (家宽) - hotick
-  - 🇭🇰 中国香港 (Hong Kong) 05 (移动家宽) - hotick
-  - 🇹🇼 中国台湾 (Taiwan) 06 (家宽) - hotick
-  - 🇭🇰 中国香港 (Hong Kong) 07 (家宽) - hotick
+  - 🇭🇰 中国香港 (Hong Kong) 02 (移动家宽) - hotick
+  - 🇰🇷 韩国 (South Korea) 03 (家宽) - hotick
+  - 🇭🇰 中国香港 (Hong Kong) 04 (移动家宽) - hotick
+  - 🇩🇪 德国 (Germany) 05 (家宽) - hotick
+  - 🇭🇰 中国香港 (Hong Kong) 06 (移动家宽) - hotick
+  - 🇰🇷 韩国 (South Korea) 07 (家宽) - hotick
+  - 🇹🇼 中国台湾 (Taiwan) 08 (家宽) - hotick
+  - 🇮🇳 印度 (India) 09 (家宽) - hotick
+  - 🇭🇰 中国香港 (Hong Kong) 10 (家宽) - hotick
 rules:
 - MATCH,PROXIES
