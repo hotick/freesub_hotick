@@ -6,40 +6,17 @@
     {
       "type": "vless",
       "tag": "🇮🇳 印度 (India) 01 - hotick",
-      "server": "194.61.31.126",
-      "server_port": 2053,
-      "uuid": "1d4e18bd-1f26-4915-b35a-7ace4826e76a",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.apple.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU",
-          "short_id": "9980e0609b0d3891"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇮🇳 印度 (India) 02 - hotick",
       "server": "13.140.56.100",
       "server_port": 14430,
       "uuid": "68512eac-cd53-4de3-8d1e-08f6e04af1a9",
       "transport": {
         "type": "ws",
-        "path": "/vless",
-        "headers": {
-          "Host": "13.140.56.100"
-        }
+        "path": "/vless"
       }
     },
     {
       "type": "vless",
-      "tag": "🇮🇳 印度 (India) 03 - hotick",
+      "tag": "🇮🇳 印度 (India) 02 - hotick",
       "server": "in.smrtai.top",
       "server_port": 443,
       "uuid": "6bdc8320-7eae-46fc-be08-f5f54e65dfc8",
@@ -59,39 +36,19 @@
     },
     {
       "type": "trojan",
-      "tag": "🇮🇳 印度 (India) 04 - hotick",
-      "server": "hyfuuf6.wsone.icu",
+      "tag": "🇮🇳 印度 (India) 03 - hotick",
+      "server": "in.tronsg.com",
       "server_port": 443,
-      "password": "M7v%w11Se*",
+      "password": "Trojan@82164024",
       "tls": {
         "enabled": true,
-        "server_name": "hyfuuf6.wsone.icu",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇮🇳 印度 (India) 05 - hotick",
-      "server": "tttyder.wsone.icu",
-      "server_port": 443,
-      "password": "M7v%w11Se*",
-      "tls": {
-        "enabled": true,
-        "server_name": "tttyder.wsone.icu",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        "server_name": "127.0.0.1",
+        "insecure": true
       }
     },
     {
       "type": "vless",
-      "tag": "🇮🇳 印度 (India) 06 - hotick",
+      "tag": "🇮🇳 印度 (India) 04 - hotick",
       "server": "165.99.222.161",
       "server_port": 443,
       "uuid": "30572b57-f5ab-4eb8-82d4-a24d399b99f6",
@@ -101,7 +58,7 @@
         "server_name": "in1.vkusnews.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "ios"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
@@ -111,23 +68,32 @@
       }
     },
     {
-      "type": "shadowsocks",
-      "tag": "🇮🇳 印度 (India) 07 - hotick",
-      "server": "172.105.39.124",
-      "server_port": 7002,
-      "method": "aes-256-gcm",
-      "password": "RexnBgU7EV5ADxG"
+      "type": "vless",
+      "tag": "🇮🇳 印度 (India) 05 - hotick",
+      "server": "194.61.31.126",
+      "server_port": 2053,
+      "uuid": "1d4e18bd-1f26-4915-b35a-7ace4826e76a",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU",
+          "short_id": "9980e0609b0d3891"
+        }
+      }
     },
     {
-      "type": "vmess",
-      "tag": "🇮🇳 印度 (India) 08 - hotick",
-      "server": "152.67.8.205",
-      "server_port": 80,
-      "uuid": "9db4c708-aef8-4359-821b-38e47990be0d",
-      "security": "auto",
-      "transport": {
-        "type": "ws"
-      }
+      "type": "shadowsocks",
+      "tag": "🇮🇳 印度 (India) 06 - hotick",
+      "server": "139.84.166.47",
+      "server_port": 8388,
+      "method": "aes-256-gcm",
+      "password": "GEdoeeqLZtkJRgSa"
     },
     {
       "type": "selector",
@@ -139,9 +105,7 @@
         "🇮🇳 印度 (India) 03 - hotick",
         "🇮🇳 印度 (India) 04 - hotick",
         "🇮🇳 印度 (India) 05 - hotick",
-        "🇮🇳 印度 (India) 06 - hotick",
-        "🇮🇳 印度 (India) 07 - hotick",
-        "🇮🇳 印度 (India) 08 - hotick"
+        "🇮🇳 印度 (India) 06 - hotick"
       ]
     },
     {
@@ -153,9 +117,7 @@
         "🇮🇳 印度 (India) 03 - hotick",
         "🇮🇳 印度 (India) 04 - hotick",
         "🇮🇳 印度 (India) 05 - hotick",
-        "🇮🇳 印度 (India) 06 - hotick",
-        "🇮🇳 印度 (India) 07 - hotick",
-        "🇮🇳 印度 (India) 08 - hotick"
+        "🇮🇳 印度 (India) 06 - hotick"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

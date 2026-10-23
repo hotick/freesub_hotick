@@ -5,1401 +5,58 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇯🇵 日本 (Japan) 01 - hotick
-  server: 162.159.228.255
-  port: 443
-  udp: true
-  type: vless
-  uuid: b135a1e0-ebdb-4d46-b3fa-bd1e78580244
-  tls: true
-  servername: wjwkhoaftdgrt8qus.mp8pmwdgwf3sdapasouszjobjr57nrxxgtx9n.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: wjwkhoaftdgrt8qus.mp8pmwdgwf3sdapasouszjobjr57nrxxgtx9n.workers.dev
-- name: 🇯🇵 日本 (Japan) 02 - hotick
-  server: 128.241.25.127
-  port: 30036
-  udp: true
-  type: vless
-  uuid: fb3f742b-7810-471e-a837-a669bead8707
-  tls: true
-  servername: d-l28t5-65-b.pbe40wmcujaw726h7cpqernzmawz4stwtrnqve0n1s5reht.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: d-l28t5-65-b.pbe40wmcujaw726h7cpqernzmawz4stwtrnqve0n1s5reht.workers.dev
-- name: 🇯🇵 日本 (Japan) 03 - hotick
-  server: 128.241.25.215
-  port: 30036
-  udp: true
-  type: vless
-  uuid: 87e7d0b2-faf6-4644-97ae-ad9bffca2c97
-  tls: true
-  servername: 8n9qi6t-owl.gevc9s4n60cc3wzcmwhjyezydpmbchocxp.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: 8n9qi6t-owl.gevc9s4n60cc3wzcmwhjyezydpmbchocxp.workers.dev
-- name: 🇯🇵 日本 (Japan) 04 - hotick
-  server: 128.241.25.11
-  port: 30021
-  udp: true
-  type: vless
-  uuid: 339cda3d-79a5-4d37-8ad8-eddc130c992a
-  tls: true
-  servername: kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev
-- name: 🇯🇵 日本 (Japan) 05 - hotick
-  server: 128.241.25.11
-  port: 30021
-  udp: true
-  type: vless
-  uuid: 445202ec-f4dc-40cf-acf3-025f881360c4
-  tls: true
-  servername: kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev
-- name: 🇯🇵 日本 (Japan) 06 - hotick
-  server: 128.241.25.3
-  port: 30021
-  udp: true
-  type: vless
-  uuid: afec813e-a5c7-432d-be48-2803c30eea4e
-  tls: true
-  servername: wkytah9k8oggj60.qzfi0skkopy875xhtc0l9pwds.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: wkytah9k8oggj60.qzfi0skkopy875xhtc0l9pwds.workers.dev
-- name: 🇯🇵 日本 (Japan) 07 - hotick
-  server: 128.241.25.72
-  port: 30021
-  udp: true
-  type: vless
-  uuid: e3e629b2-ab6f-4c05-ba9a-0b3f736ef851
-  tls: true
-  servername: d-l28t5-65-b.pbe40wmcujaw726h7cpqernzmawz4stwtrnqve0n1s5reht.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: d-l28t5-65-b.pbe40wmcujaw726h7cpqernzmawz4stwtrnqve0n1s5reht.workers.dev
-- name: 🇯🇵 日本 (Japan) 08 - hotick
-  server: 128.241.25.11
-  port: 30021
-  udp: true
-  type: vless
-  uuid: 40ca0d8c-0641-4e2d-a701-9fd8330daf6d
-  tls: true
-  servername: wkytah9k8oggj60.qzfi0skkopy875xhtc0l9pwds.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: wkytah9k8oggj60.qzfi0skkopy875xhtc0l9pwds.workers.dev
-- name: 🇯🇵 日本 (Japan) 09 - hotick
-  server: 57.129.130.34
-  port: 52014
-  udp: true
-  type: vless
-  uuid: ed41b50f-9269-433b-821f-8c76b73602d7
-  tls: true
-  servername: ruu2rx-oycdrnsrzc.9uokolpk04vmg2ecqb8oys7.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: ruu2rx-oycdrnsrzc.9uokolpk04vmg2ecqb8oys7.workers.dev
-- name: 🇯🇵 日本 (Japan) 10 - hotick
-  server: 128.241.25.11
-  port: 30021
-  udp: true
-  type: vless
-  uuid: 72fbb611-628d-4afa-8198-bda3e38021f9
-  tls: true
-  servername: 3t1yvbyla-rj740g.28m7r63dttya6gazmhoo.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: 3t1yvbyla-rj740g.28m7r63dttya6gazmhoo.workers.dev
-- name: 🇯🇵 日本 (Japan) 11 - hotick
-  server: 57.129.130.57
-  port: 52014
-  udp: true
-  type: vless
-  uuid: 82fc8761-470b-4022-89da-ce5412e8bb0a
-  tls: true
-  servername: wjwkhoaftdgrt8qus.mp8pmwdgwf3sdapasouszjobjr57nrxxgtx9n.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: wjwkhoaftdgrt8qus.mp8pmwdgwf3sdapasouszjobjr57nrxxgtx9n.workers.dev
-- name: 🇯🇵 日本 (Japan) 12 - hotick
-  server: 128.241.25.3
-  port: 30021
-  udp: true
-  type: vless
-  uuid: 6badcd2f-26e5-4eb4-9169-86052115058a
-  tls: true
-  servername: 5iv93opy8jus9z.bjo5si35c9i9ud4242fado49188obkoiermjuxj7zgxu.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: 5iv93opy8jus9z.bjo5si35c9i9ud4242fado49188obkoiermjuxj7zgxu.workers.dev
-- name: 🇯🇵 日本 (Japan) 13 - hotick
-  server: 57.129.130.57
-  port: 52014
-  udp: true
-  type: vless
-  uuid: 04d2aebd-246f-4348-805f-a8e6840365fc
-  tls: true
-  servername: 2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: '/@Marisa_kristi '
-    headers:
-      Host: 2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev
-- name: 🇯🇵 日本 (Japan) 14 - hotick
-  server: 192.241.229.131
-  port: 74
-  udp: true
-  type: vless
-  uuid: 8fd85405-c28b-42ce-87a8-646cbe38ced4
-  tls: true
-  servername: bapj1qapjk4.0sds0li1bwcz0i76it0gjxv1.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: bapj1qapjk4.0sds0li1bwcz0i76it0gjxv1.workers.dev
-- name: 🇯🇵 日本 (Japan) 15 - hotick
-  server: 57.129.130.200
-  port: 52014
-  udp: true
-  type: vless
-  uuid: 93c53b59-1523-4621-9528-77b016a28304
-  tls: true
-  servername: c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev
-- name: 🇯🇵 日本 (Japan) 16 - hotick
-  server: 57.129.130.57
-  port: 52014
-  udp: true
-  type: vless
-  uuid: cc30c4b8-c043-437b-ab83-a0530ce1b718
-  tls: true
-  servername: 3t1yvbyla-rj740g.28m7r63dttya6gazmhoo.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: 3t1yvbyla-rj740g.28m7r63dttya6gazmhoo.workers.dev
-- name: 🇯🇵 日本 (Japan) 17 - hotick
-  server: 57.129.130.57
-  port: 52014
-  udp: true
-  type: vless
-  uuid: 201e0019-2e79-4147-8a09-e510d630abeb
-  tls: true
-  servername: wkytah9k8oggj60.qzfi0skkopy875xhtc0l9pwds.workers.dev
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristifp=chrome
-    headers:
-      Host: wkytah9k8oggj60.qzfi0skkopy875xhtc0l9pwds.workers.dev
-- name: 🇯🇵 日本 (Japan) 18 - hotick
-  server: 128.241.25.72
-  port: 30021
-  udp: true
-  type: vless
-  uuid: 65f26a08-9a5e-4b28-9004-f98676cc1e49
-  tls: true
-  servername: 2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi+
-    headers:
-      Host: 2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev
-- name: 🇯🇵 日本 (Japan) 19 - hotick
-  server: 156.229.163.237
-  port: 10238
-  udp: true
-  type: vless
-  uuid: 05cfac59-b08a-4d35-9e6d-7924f6439f28
-  tls: true
-  servername: woc0zvrf11w2endu.dphdlc1u77bs3y4kvussbuap4p576f1ws7igthq8zbf3.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: woc0zvrf11w2endu.dphdlc1u77bs3y4kvussbuap4p576f1ws7igthq8zbf3.workers.dev
-- name: 🇯🇵 日本 (Japan) 20 - hotick
-  server: 57.129.130.57
-  port: 52014
-  udp: true
-  type: vless
-  uuid: 5ce4c0b0-0fed-406c-b0f9-c71e76bebc2a
-  tls: true
-  servername: bapj1qapjk4.0sds0li1bwcz0i76it0gjxv1.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: bapj1qapjk4.0sds0li1bwcz0i76it0gjxv1.workers.dev
-- name: 🇯🇵 日本 (Japan) 21 - hotick
-  server: 57.129.130.200
-  port: 52014
-  udp: true
-  type: vless
-  uuid: c8b0617e-010f-43a8-b3d0-d5358febf0c9
-  tls: true
-  servername: ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev
-- name: 🇯🇵 日本 (Japan) 22 - hotick
   server: 149.22.87.241
   port: 443
   udp: true
   type: ss
   cipher: aes-128-gcm
   password: shadowsocks
-- name: 🇯🇵 日本 (Japan) 23 - hotick
-  server: 156.229.163.237
-  port: 10238
-  udp: true
-  type: vless
-  uuid: 193d502e-ecef-4d9d-a01c-aedccccf2b9f
-  tls: true
-  servername: d-l28t5-65-b.pbe40wmcujaw726h7cpqernzmawz4stwtrnqve0n1s5reht.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: d-l28t5-65-b.pbe40wmcujaw726h7cpqernzmawz4stwtrnqve0n1s5reht.workers.dev
-- name: 🇯🇵 日本 (Japan) 24 - hotick
-  server: 149.22.87.240
-  port: 443
-  udp: true
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: 🇯🇵 日本 (Japan) 25 - hotick
-  server: 128.241.25.11
-  port: 30021
-  udp: true
-  type: vless
-  uuid: a6b7c8ec-3822-4ada-90b2-d69cbe8d3067
-  tls: true
-  servername: d-l28t5-65-b.pbe40wmcujaw726h7cpqernzmawz4stwtrnqve0n1s5reht.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: d-l28t5-65-b.pbe40wmcujaw726h7cpqernzmawz4stwtrnqve0n1s5reht.workers.dev
-- name: 🇯🇵 日本 (Japan) 26 - hotick
-  server: 80.240.18.227
-  port: 10051
-  udp: true
-  type: vless
-  uuid: d161dcf1-fde2-44cc-b08d-d8944895e842
-  tls: true
-  servername: c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev
-- name: 🇯🇵 日本 (Japan) 27 - hotick
-  server: 129.151.64.169
-  port: 31867
-  udp: true
-  type: vless
-  uuid: fa7a8e12-590d-4101-99f1-e2d762a2946d
-  tls: true
-  servername: kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev
-- name: 🇯🇵 日本 (Japan) 28 - hotick
-  server: 185.125.103.62
-  port: 8082
-  udp: true
-  type: vless
-  uuid: a56a5bae-45e5-4f0d-9e31-40af97733fd9
-  tls: true
-  servername: wkytah9k8oggj60.qzfi0skkopy875xhtc0l9pwds.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: wkytah9k8oggj60.qzfi0skkopy875xhtc0l9pwds.workers.dev
-- name: 🇯🇵 日本 (Japan) 29 - hotick
-  server: 185.125.103.62
-  port: 8082
-  udp: true
-  type: vless
-  uuid: c42b156f-3afe-4405-8b28-00a8278f5230
-  tls: true
-  servername: 2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: 2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev
-- name: 🇯🇵 日本 (Japan) 30 - hotick
-  server: 185.125.103.62
-  port: 8082
-  udp: true
-  type: vless
-  uuid: fa61fd81-dd3d-466d-ad4a-0d316c3e4003
-  tls: true
-  servername: 9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: 9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev
-- name: 🇯🇵 日本 (Japan) 31 - hotick
-  server: 185.125.103.62
-  port: 8082
-  udp: true
-  type: vless
-  uuid: 041e1ba9-5d17-4e7c-baac-c5aa877da29b
-  tls: true
-  servername: ruu2rx-oycdrnsrzc.9uokolpk04vmg2ecqb8oys7.workers.dev
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristifp=chrome
-    headers:
-      Host: ruu2rx-oycdrnsrzc.9uokolpk04vmg2ecqb8oys7.workers.dev
-- name: 🇯🇵 日本 (Japan) 32 - hotick
-  server: 57.129.130.34
-  port: 52014
-  udp: true
-  type: vless
-  uuid: 33c621aa-f24c-406a-9e96-f60f528704a4
-  tls: true
-  servername: wjwkhoaftdgrt8qus.mp8pmwdgwf3sdapasouszjobjr57nrxxgtx9n.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: wjwkhoaftdgrt8qus.mp8pmwdgwf3sdapasouszjobjr57nrxxgtx9n.workers.dev
-- name: 🇯🇵 日本 (Japan) 33 - hotick
-  server: 156.229.163.237
-  port: 10238
-  udp: true
-  type: vless
-  uuid: 0ef17f4c-c627-47f9-8baa-6ce8b8e690ab
-  tls: true
-  servername: kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev
-- name: 🇯🇵 日本 (Japan) 34 - hotick
-  server: 129.151.64.169
-  port: 31867
-  udp: true
-  type: vless
-  uuid: bc01a49f-78dd-4bf0-994f-b86897e39a68
-  tls: true
-  servername: ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristifp=chrome
-    headers:
-      Host: ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev
-- name: 🇯🇵 日本 (Japan) 35 - hotick
-  server: 185.125.103.62
-  port: 8082
-  udp: true
-  type: vless
-  uuid: 72af1965-ec91-4376-82b1-75be51885506
-  tls: true
-  servername: mw5qisav.wjwqvie0wb1eqhb8e83clqdoq3m5p9a4on.workers.dev
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristifp=chrome
-    headers:
-      Host: mw5qisav.wjwqvie0wb1eqhb8e83clqdoq3m5p9a4on.workers.dev
-- name: 🇯🇵 日本 (Japan) 36 - hotick
-  server: 185.125.103.62
-  port: 8082
-  udp: true
-  type: vless
-  uuid: 13e954cf-8948-4f02-947a-eb4fe97f290d
-  tls: true
-  servername: c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev
-- name: 🇯🇵 日本 (Japan) 37 - hotick
-  server: 46.101.46.169
-  port: 486
-  udp: true
-  type: vless
-  uuid: 16bf3359-e7d8-4de6-86a0-6d65cf793b56
-  tls: true
-  servername: 9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: 9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev
-- name: 🇯🇵 日本 (Japan) 38 - hotick
-  server: 57.129.52.47
-  port: 52014
-  udp: true
-  type: vless
-  uuid: b135a1e0-ebdb-4d46-b3fa-bd1e78580244
-  tls: true
-  servername: wjwkhoaftdgrt8qus.mp8pmwdgwf3sdapasouszjobjr57nrxxgtx9n.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: wjwkhoaftdgrt8qus.mp8pmwdgwf3sdapasouszjobjr57nrxxgtx9n.workers.dev
-- name: 🇯🇵 日本 (Japan) 39 - hotick
-  server: 45.76.87.125
-  port: 14750
-  udp: true
-  type: vless
-  uuid: 9c090291-dd8d-454c-98df-3ca2178fcf01
-  tls: true
-  servername: ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev
-- name: 🇯🇵 日本 (Japan) 40 - hotick
-  server: 57.129.130.34
-  port: 52014
-  udp: true
-  type: vless
-  uuid: 95c305fa-6ede-4eb5-b391-0869ddeb27f7
-  tls: true
-  servername: d-l28t5-65-b.pbe40wmcujaw726h7cpqernzmawz4stwtrnqve0n1s5reht.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: d-l28t5-65-b.pbe40wmcujaw726h7cpqernzmawz4stwtrnqve0n1s5reht.workers.dev
-- name: 🇯🇵 日本 (Japan) 41 - hotick
-  server: 57.129.130.63
-  port: 52014
-  udp: true
-  type: vless
-  uuid: d731cf09-79a6-4647-aabe-8e0fda4fe3be
-  tls: true
-  servername: 9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: 9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev
-- name: 🇯🇵 日本 (Japan) 42 - hotick
-  server: 23.27.20.142
-  port: 48537
-  udp: true
-  type: vless
-  uuid: 0b583bdc-401c-4715-bfec-500a25584133
-  tls: true
-  servername: 8n9qi6t-owl.gevc9s4n60cc3wzcmwhjyezydpmbchocxp.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: 8n9qi6t-owl.gevc9s4n60cc3wzcmwhjyezydpmbchocxp.workers.dev
-- name: 🇯🇵 日本 (Japan) 43 - hotick
-  server: 129.151.64.169
-  port: 31867
-  udp: true
-  type: vless
-  uuid: 5d85c2e3-cb03-4ec4-b068-bd6ad778c02f
-  tls: true
-  servername: woc0zvrf11w2endu.dphdlc1u77bs3y4kvussbuap4p576f1ws7igthq8zbf3.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: woc0zvrf11w2endu.dphdlc1u77bs3y4kvussbuap4p576f1ws7igthq8zbf3.workers.dev
-- name: 🇯🇵 日本 (Japan) 44 - hotick
+- name: 🇯🇵 日本 (Japan) 02 - hotick
   server: 149.22.87.204
   port: 443
   udp: true
   type: ss
   cipher: aes-128-gcm
   password: shadowsocks
-- name: 🇯🇵 日本 (Japan) 45 - hotick
-  server: 116.204.164.30
-  port: 7443
+- name: 🇯🇵 日本 (Japan) 03 - hotick
+  server: 52.199.33.104
+  port: 443
   udp: true
   type: vless
-  uuid: 329aa1be-ee6d-4d92-a8ef-c2ddac7583b1
-  tls: true
-  servername: ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev
-- name: 🇯🇵 日本 (Japan) 46 - hotick
-  server: 80.240.18.227
-  port: 10051
-  udp: true
-  type: vless
-  uuid: f4d859eb-abc6-4c57-9eee-8fe9e2ef0f94
-  tls: true
-  servername: d-l28t5-65-b.pbe40wmcujaw726h7cpqernzmawz4stwtrnqve0n1s5reht.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: d-l28t5-65-b.pbe40wmcujaw726h7cpqernzmawz4stwtrnqve0n1s5reht.workers.dev
-- name: 🇯🇵 日本 (Japan) 47 - hotick
-  server: 144.31.135.38
-  port: 9444
-  udp: true
-  type: vless
-  uuid: 6357f45d-9785-4949-9fea-217955607f1f
-  tls: true
-  servername: woc0zvrf11w2endu.dphdlc1u77bs3y4kvussbuap4p576f1ws7igthq8zbf3.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: woc0zvrf11w2endu.dphdlc1u77bs3y4kvussbuap4p576f1ws7igthq8zbf3.workers.dev
-- name: 🇯🇵 日本 (Japan) 48 - hotick
-  server: 116.204.164.5
-  port: 7443
-  udp: true
-  type: vless
-  uuid: d430d61d-5404-4f5b-9eaf-3266b059969b
-  tls: true
-  servername: bapj1qapjk4.0sds0li1bwcz0i76it0gjxv1.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: bapj1qapjk4.0sds0li1bwcz0i76it0gjxv1.workers.dev
-- name: 🇯🇵 日本 (Japan) 49 - hotick
-  server: 144.31.135.38
-  port: 9444
-  udp: true
-  type: vless
-  uuid: dcc8873b-db15-4941-8dba-d328d29dabab
-  tls: true
-  servername: 3t1yvbyla-rj740g.28m7r63dttya6gazmhoo.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: 3t1yvbyla-rj740g.28m7r63dttya6gazmhoo.workers.dev
-- name: 🇯🇵 日本 (Japan) 50 - hotick
-  server: 116.204.164.27
-  port: 7443
-  udp: true
-  type: vless
-  uuid: 67ad6de6-ac67-4af7-8209-98ba3bd88834
-  tls: true
-  servername: bapj1qapjk4.0sds0li1bwcz0i76it0gjxv1.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: bapj1qapjk4.0sds0li1bwcz0i76it0gjxv1.workers.dev
-- name: 🇯🇵 日本 (Japan) 51 - hotick
-  server: 188.34.142.174
-  port: 444
-  udp: true
-  type: vless
-  uuid: da46ec1f-84ad-4470-866f-010b58357b19
-  tls: true
-  servername: 9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: 9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev
-- name: 🇯🇵 日本 (Japan) 52 - hotick
-  server: 144.31.135.38
-  port: 9444
-  udp: true
-  type: vless
-  uuid: 37920394-38f8-4312-9ef3-75494c62231c
-  tls: true
-  servername: ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev
-- name: 🇯🇵 日本 (Japan) 53 - hotick
-  server: 129.151.64.169
-  port: 31867
-  udp: true
-  type: vless
-  uuid: 031581a4-401e-4562-92a0-d22c2fddc7b1
-  tls: true
-  servername: bapj1qapjk4.0sds0li1bwcz0i76it0gjxv1.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: bapj1qapjk4.0sds0li1bwcz0i76it0gjxv1.workers.dev
-- name: 🇯🇵 日本 (Japan) 54 - hotick
-  server: 147.45.42.73
-  port: 20443
-  udp: true
-  type: vless
-  uuid: fcbb9617-7b3c-4b21-8a91-a57350a75222
-  tls: true
-  servername: bapj1qapjk4.0sds0li1bwcz0i76it0gjxv1.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: bapj1qapjk4.0sds0li1bwcz0i76it0gjxv1.workers.dev
-- name: 🇯🇵 日本 (Japan) 55 - hotick
-  server: 129.151.64.169
-  port: 31867
-  udp: true
-  type: vless
-  uuid: 49d9c1ac-1b36-4c9b-a5bc-654a97843449
-  tls: true
-  servername: 3t1yvbyla-rj740g.28m7r63dttya6gazmhoo.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: 3t1yvbyla-rj740g.28m7r63dttya6gazmhoo.workers.dev
-- name: 🇯🇵 日本 (Japan) 56 - hotick
-  server: 185.125.103.62
-  port: 8082
-  udp: true
-  type: vless
-  uuid: 974310c9-0800-4be0-8585-b32939876af4
-  tls: true
-  servername: wjwkhoaftdgrt8qus.mp8pmwdgwf3sdapasouszjobjr57nrxxgtx9n.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: wjwkhoaftdgrt8qus.mp8pmwdgwf3sdapasouszjobjr57nrxxgtx9n.workers.dev
-- name: 🇯🇵 日本 (Japan) 57 - hotick
-  server: 178.105.133.160
-  port: 4443
-  udp: true
-  type: vless
-  uuid: bd3ebd5f-a315-4e27-9271-3c80f49821c9
-  tls: true
-  servername: 3tmj2egtm-fno.49bnithzk8vphybv36d1z1xkzfvogt2m6.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: firefox
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: 3tmj2egtm-fno.49bnithzk8vphybv36d1z1xkzfvogt2m6.workers.dev
-- name: 🇯🇵 日本 (Japan) 58 - hotick
-  server: 179.61.251.244
-  port: 7443
-  udp: true
-  type: vless
-  uuid: fc22278e-520b-4239-821b-06312e7faa51
-  tls: true
-  servername: d-l28t5-65-b.pbe40wmcujaw726h7cpqernzmawz4stwtrnqve0n1s5reht.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: d-l28t5-65-b.pbe40wmcujaw726h7cpqernzmawz4stwtrnqve0n1s5reht.workers.dev
-- name: 🇯🇵 日本 (Japan) 59 - hotick
-  server: 129.151.64.169
-  port: 31867
-  udp: true
-  type: vless
-  uuid: bd01efed-f999-41a5-bbb1-3d2357647f11
-  tls: true
-  servername: c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev
-- name: 🇯🇵 日本 (Japan) 60 - hotick
-  server: 116.204.164.17
-  port: 7443
-  udp: true
-  type: vless
-  uuid: 4e2efa26-2969-486b-ae60-390ba54af31b
-  tls: true
-  servername: o-85ley6knn8ut.6nvkygqh144t7xtdyvh0y3o4gzo3ujhnk8n.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: o-85ley6knn8ut.6nvkygqh144t7xtdyvh0y3o4gzo3ujhnk8n.workers.dev
-- name: 🇯🇵 日本 (Japan) 61 - hotick
-  server: 116.204.164.30
-  port: 7443
-  udp: true
-  type: vless
-  uuid: d5f29a64-da5d-4f99-b3c4-ae92cc39ad5f
-  tls: true
-  servername: ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev
-- name: 🇯🇵 日本 (Japan) 62 - hotick
-  server: 116.204.164.27
-  port: 7443
-  udp: true
-  type: vless
-  uuid: 4e243073-f25c-4aab-b3ff-63b6e8ef7f4b
-  tls: true
-  servername: kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev
-- name: 🇯🇵 日本 (Japan) 63 - hotick
-  server: 79.137.197.212
-  port: 2105
-  udp: true
-  type: vless
-  uuid: 3282ff09-7f9d-4293-a223-2e0211b36de6
-  tls: true
-  servername: ruu2rx-oycdrnsrzc.9uokolpk04vmg2ecqb8oys7.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: ruu2rx-oycdrnsrzc.9uokolpk04vmg2ecqb8oys7.workers.dev
-- name: 🇯🇵 日本 (Japan) 64 - hotick
-  server: 45.76.87.125
-  port: 14750
-  udp: true
-  type: vless
-  uuid: 30f6c75f-8fcd-4555-854f-439f09d3e2e3
-  tls: true
-  servername: c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev
-- name: 🇯🇵 日本 (Japan) 65 - hotick
-  server: 116.204.164.60
-  port: 7443
-  udp: true
-  type: vless
-  uuid: cd099367-1052-42f4-8961-4d1e09144cf9
-  tls: true
-  servername: c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev
-- name: 🇯🇵 日本 (Japan) 66 - hotick
-  server: 116.204.164.17
-  port: 7443
-  udp: true
-  type: vless
-  uuid: 0baed386-770e-4e17-a6ca-24349e60903f
-  tls: true
-  servername: 8n9qi6t-owl.gevc9s4n60cc3wzcmwhjyezydpmbchocxp.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: 8n9qi6t-owl.gevc9s4n60cc3wzcmwhjyezydpmbchocxp.workers.dev
-- name: 🇯🇵 日本 (Japan) 67 - hotick
-  server: 178.105.133.160
-  port: 4443
-  udp: true
-  type: vless
-  uuid: ef017ca9-87c7-4fdc-943c-5312103d3a74
-  tls: true
-  servername: kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev
-- name: 🇯🇵 日本 (Japan) 68 - hotick
-  server: 185.125.103.62
-  port: 8082
-  udp: true
-  type: vless
-  uuid: 3dbf58d7-53fc-4fad-8779-1c867e024fd0
-  tls: true
-  servername: wkytah9k8oggj60.qzfi0skkopy875xhtc0l9pwds.workers.dev
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: wkytah9k8oggj60.qzfi0skkopy875xhtc0l9pwds.workers.dev
-- name: 🇯🇵 日本 (Japan) 69 - hotick
-  server: 116.204.164.5
-  port: 7443
-  udp: true
-  type: vless
-  uuid: 32404bf4-fdba-4c77-b6be-e29b8ed54808
-  tls: true
-  servername: 8n9qi6t-owl.gevc9s4n60cc3wzcmwhjyezydpmbchocxp.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: 8n9qi6t-owl.gevc9s4n60cc3wzcmwhjyezydpmbchocxp.workers.dev
-- name: 🇯🇵 日本 (Japan) 70 - hotick
-  server: 116.204.164.5
-  port: 7443
-  udp: true
-  type: vless
-  uuid: d25fa7ff-f71e-4cc2-88e6-a340b86fdebf
-  tls: true
-  servername: ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev
-- name: 🇯🇵 日本 (Japan) 71 - hotick
-  server: 178.105.133.160
-  port: 4443
-  udp: true
-  type: vless
-  uuid: a365fd78-80d4-4a2e-83e2-66019eab0eed
-  tls: true
-  servername: ruu2rx-oycdrnsrzc.9uokolpk04vmg2ecqb8oys7.workers.dev
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: ruu2rx-oycdrnsrzc.9uokolpk04vmg2ecqb8oys7.workers.dev
-- name: 🇯🇵 日本 (Japan) 72 - hotick
-  server: 156.229.163.237
-  port: 10238
-  udp: true
-  type: vless
-  uuid: c82c21f8-d0e5-4705-a206-4e9e027a920e
-  tls: true
-  servername: 3t1yvbyla-rj740g.28m7r63dttya6gazmhoo.workers.dev
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristifp=chrome
-    headers:
-      Host: 3t1yvbyla-rj740g.28m7r63dttya6gazmhoo.workers.dev
-- name: 🇯🇵 日本 (Japan) 73 - hotick
-  server: 179.61.251.244
-  port: 7443
-  udp: true
-  type: vless
-  uuid: f95b160e-d716-4ac1-89d2-b16a5f3257e1
-  tls: true
-  servername: ruu2rx-oycdrnsrzc.9uokolpk04vmg2ecqb8oys7.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: ruu2rx-oycdrnsrzc.9uokolpk04vmg2ecqb8oys7.workers.dev
-- name: 🇯🇵 日本 (Japan) 74 - hotick
-  server: 80.240.18.227
-  port: 10051
-  udp: true
-  type: vless
-  uuid: 73996ef7-544c-45e7-abc0-973218c727e2
-  tls: true
-  servername: ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev
-- name: 🇯🇵 日本 (Japan) 75 - hotick
-  server: 57.129.130.57
-  port: 52014
-  udp: true
-  type: vless
-  uuid: 091ea5fd-4e8d-4459-90af-e4d10179efff
-  tls: true
-  servername: 5iv93opy8jus9z.bjo5si35c9i9ud4242fado49188obkoiermjuxj7zgxu.workers.dev
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: 5iv93opy8jus9z.bjo5si35c9i9ud4242fado49188obkoiermjuxj7zgxu.workers.dev
-- name: 🇯🇵 日本 (Japan) 76 - hotick
-  server: 144.31.135.38
-  port: 9444
-  udp: true
-  type: vless
-  uuid: 20aaaa18-9f2e-436e-b082-2ddab1b79ba0
-  tls: true
-  servername: wjwkhoaftdgrt8qus.mp8pmwdgwf3sdapasouszjobjr57nrxxgtx9n.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: wjwkhoaftdgrt8qus.mp8pmwdgwf3sdapasouszjobjr57nrxxgtx9n.workers.dev
-- name: 🇯🇵 日本 (Japan) 77 - hotick
-  server: 5.75.195.83
-  port: 56879
-  udp: true
-  type: vless
-  uuid: f8847ac2-e586-400f-841b-00081ea4592e
-  tls: true
-  servername: 9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: 9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev
-- name: 🇯🇵 日本 (Japan) 78 - hotick
-  server: 129.151.64.169
-  port: 31867
-  udp: true
-  type: vless
-  uuid: 112c9db0-af6f-48b0-a59f-7677bed8e2d7
-  tls: true
-  servername: 5iv93opy8jus9z.bjo5si35c9i9ud4242fado49188obkoiermjuxj7zgxu.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: 5iv93opy8jus9z.bjo5si35c9i9ud4242fado49188obkoiermjuxj7zgxu.workers.dev
-- name: 🇯🇵 日本 (Japan) 79 - hotick
-  server: 57.129.130.57
-  port: 52014
-  udp: true
-  type: vless
-  uuid: d27917cf-f769-4002-82c3-c9c115644df0
-  tls: true
-  servername: kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev
-- name: 🇯🇵 日本 (Japan) 80 - hotick
-  server: 79.137.199.52
-  port: 21
-  udp: true
-  type: vless
-  uuid: f346f223-ebf6-4da3-955e-425de7e9c372
-  tls: true
-  servername: 8n9qi6t-owl.gevc9s4n60cc3wzcmwhjyezydpmbchocxp.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: 8n9qi6t-owl.gevc9s4n60cc3wzcmwhjyezydpmbchocxp.workers.dev
-- name: 🇯🇵 日本 (Japan) 81 - hotick
-  server: 45.76.87.125
-  port: 14750
-  udp: true
-  type: vless
-  uuid: 432289de-8dec-46ef-9a3f-001a3af178a7
-  tls: true
-  servername: d-l28t5-65-b.pbe40wmcujaw726h7cpqernzmawz4stwtrnqve0n1s5reht.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: d-l28t5-65-b.pbe40wmcujaw726h7cpqernzmawz4stwtrnqve0n1s5reht.workers.dev
-- name: 🇯🇵 日本 (Japan) 82 - hotick
-  server: 116.204.164.5
-  port: 7443
-  udp: true
-  type: vless
-  uuid: 2416ff70-cb17-4cdc-834d-a89c00261e01
-  tls: true
-  servername: o-85ley6knn8ut.6nvkygqh144t7xtdyvh0y3o4gzo3ujhnk8n.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: o-85ley6knn8ut.6nvkygqh144t7xtdyvh0y3o4gzo3ujhnk8n.workers.dev
-- name: 🇯🇵 日本 (Japan) 83 - hotick
-  server: 138.124.90.249
-  port: 7445
-  udp: true
-  type: vless
-  uuid: 76ad3e79-fb8c-4ee2-a8f1-491573daa663
-  tls: true
-  servername: kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev
-- name: 🇯🇵 日本 (Japan) 84 - hotick
-  server: 57.129.130.10
-  port: 52014
-  udp: true
-  type: vless
-  uuid: bca740c6-6704-48ba-99da-7d7a31768d73
-  tls: true
-  servername: sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev
-- name: 🇯🇵 日本 (Japan) 85 - hotick
-  server: 116.204.164.60
-  port: 7443
-  udp: true
-  type: vless
-  uuid: 33509502-dd58-46bf-b574-985ca9a53964
-  tls: true
-  servername: 8n9qi6t-owl.gevc9s4n60cc3wzcmwhjyezydpmbchocxp.workers.dev
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: 8n9qi6t-owl.gevc9s4n60cc3wzcmwhjyezydpmbchocxp.workers.dev
-- name: 🇯🇵 日本 (Japan) 86 - hotick
-  server: 79.137.197.212
-  port: 2105
-  udp: true
-  type: vless
-  uuid: ccd6fae1-7e3f-414d-a5db-887bfaeb04b2
-  tls: true
-  servername: kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev
-- name: 🇯🇵 日本 (Japan) 87 - hotick
-  server: 8.211.175.236
-  port: 8443
-  udp: true
-  type: hysteria2
-  password: u63SxILNwtrQZ7Y1ZrFaZfsA
-  sni: 8.211.175.236
-  skip-cert-verify: true
-- name: 🇯🇵 日本 (Japan) 88 - hotick
-  server: 144.31.135.38
-  port: 9444
-  udp: true
-  type: vless
-  uuid: ed88e91c-52da-449a-8ab8-fb8e5c43344a
-  tls: true
-  servername: ruu2rx-oycdrnsrzc.9uokolpk04vmg2ecqb8oys7.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: ruu2rx-oycdrnsrzc.9uokolpk04vmg2ecqb8oys7.workers.dev
-- name: 🇯🇵 日本 (Japan) 89 - hotick
-  server: 191.223.221.53
-  port: 8388
+  uuid: 7060231d-b9ba-495f-a218-bf427940cf3e
+  network: h2
+  h2-opts:
+    host: []
+    path: /
+- name: 🇯🇵 日本 (Japan) 04 - hotick
+  server: 149.22.87.240
+  port: 443
   udp: true
   type: ss
-  cipher: aes-256-gcm
-  password: JuD6MNgtX3nVpCzFzXYVYjDTZ7nsmaTv
-- name: 🇯🇵 日本 (Japan) 90 - hotick
-  server: 79.137.197.212
-  port: 2105
-  udp: true
-  type: vless
-  uuid: 37bc475c-f29c-4833-adf5-d5624252ff43
-  tls: true
-  servername: ruu2rx-oycdrnsrzc.9uokolpk04vmg2ecqb8oys7.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: ruu2rx-oycdrnsrzc.9uokolpk04vmg2ecqb8oys7.workers.dev
-- name: 🇯🇵 日本 (Japan) 91 - hotick
-  server: 172.111.146.64
-  port: 80
-  udp: true
-  type: vmess
-  uuid: 05b8c783-7f59-47f9-9923-06a465679f6a
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-opts:
-    path: /vmess/
-    headers:
-      Host: 172.111.146.64
-- name: 🇯🇵 日本 (Japan) 92 - hotick
-  server: vp3.yysyy.online
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: 🇯🇵 日本 (Japan) 05 - hotick
+  server: 45.32.10.7
   port: 443
   udp: true
   type: hysteria2
   password: 96ab5cd282733fd4c312a61f972f330a
   sni: vp3.yysyy.online
   skip-cert-verify: true
-- name: 🇯🇵 日本 (Japan) 93 - hotick
-  server: 57.129.130.57
-  port: 52014
+- name: 🇯🇵 日本 (Japan) 06 - hotick
+  server: 140.235.37.236
+  port: 2053
   udp: true
   type: vless
-  uuid: eb9ee088-57d8-4d68-ad00-da4ce09daca3
+  uuid: 014ad46d-84de-4e95-84af-74fdb56117d3
+  flow: xtls-rprx-vision
   tls: true
-  servername: 5iv93opy8jus9z.bjo5si35c9i9ud4242fado49188obkoiermjuxj7zgxu.workers.dev
-  skip-cert-verify: false
+  reality-opts:
+    public-key: hmnmZCtOsaaPlldQCu1IrzE0X2V_7XUI6-e9ryHkh20
+    short-id: b0b5b9b8
+  servername: www.amazon.com
   client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: 5iv93opy8jus9z.bjo5si35c9i9ud4242fado49188obkoiermjuxj7zgxu.workers.dev
-- name: 🇯🇵 日本 (Japan) 94 - hotick
-  server: 79.137.199.52
-  port: 21
-  udp: true
-  type: vless
-  uuid: e7b1256f-aba7-460e-8246-8d6a5156972a
-  tls: true
-  servername: 2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: 2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev
-- name: 🇯🇵 日本 (Japan) 95 - hotick
-  server: 129.151.64.169
-  port: 31867
-  udp: true
-  type: vless
-  uuid: 6329b7f9-4774-425d-be6b-592213917c65
-  tls: true
-  servername: 5iv93opy8jus9z.bjo5si35c9i9ud4242fado49188obkoiermjuxj7zgxu.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: 5iv93opy8jus9z.bjo5si35c9i9ud4242fado49188obkoiermjuxj7zgxu.workers.dev
-- name: 🇯🇵 日本 (Japan) 96 - hotick
-  server: 116.204.164.17
-  port: 7443
-  udp: true
-  type: vless
-  uuid: 57c830ca-19a2-441c-811d-db5d81b86b47
-  tls: true
-  servername: o-85ley6knn8ut.6nvkygqh144t7xtdyvh0y3o4gzo3ujhnk8n.workers.dev
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristifp=chrome
-    headers:
-      Host: o-85ley6knn8ut.6nvkygqh144t7xtdyvh0y3o4gzo3ujhnk8n.workers.dev
-- name: 🇯🇵 日本 (Japan) 97 - hotick
-  server: 185.125.103.62
-  port: 8082
-  udp: true
-  type: vless
-  uuid: 13d2a3d9-2148-4946-be61-b7550a5d0b1d
-  tls: true
-  servername: kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev
-- name: 🇯🇵 日本 (Japan) 98 - hotick
+- name: 🇯🇵 日本 (Japan) 07 - hotick
   server: 103.75.118.228
   port: 12683
   udp: true
@@ -1412,65 +69,33 @@ proxies:
     short-id: 48050fab
   servername: www.apple.com
   client-fingerprint: firefox
-- name: 🇯🇵 日本 (Japan) 99 - hotick
-  server: 84.247.155.196
-  port: 443
+- name: 🇯🇵 日本 (Japan) 08 - hotick
+  server: 168.138.43.75
+  port: 80
   udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: 3eOFeNssde7PYYMv
-- name: 🇯🇵 日本 (Japan) 100 - hotick
-  server: 79.137.197.212
-  port: 2105
-  udp: true
-  type: vless
-  uuid: 4af07c53-a386-49d7-9f84-6c439e53b701
-  tls: true
-  servername: woc0zvrf11w2endu.dphdlc1u77bs3y4kvussbuap4p576f1ws7igthq8zbf3.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
+  type: vmess
+  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
+  alterId: 0
+  cipher: auto
   network: ws
   ws-opts:
-    path: /@Marisa_kristi
+    path: /cctv13.m3u8
     headers:
-      Host: woc0zvrf11w2endu.dphdlc1u77bs3y4kvussbuap4p576f1ws7igthq8zbf3.workers.dev
-- name: 🇯🇵 日本 (Japan) 101 - hotick
-  server: 142.91.108.25
-  port: 443
+      Host: jp01.a0a.xyz
+- name: 🇯🇵 日本 (Japan) 09 - hotick
+  server: 103.75.118.228
+  port: 11452
   udp: true
   type: vless
-  uuid: ee18d188-14cc-417e-beb1-70e4add6d023
+  uuid: 814bd064-544d-4255-a070-5705c03f6da9
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: 9ZCYjybxMQ7JpE39B8u_Bo-alI1LIbt5ER0E-4yMjiM
-    short-id: ea36c03d86f91287
-  servername: jp3.nztvpn.com
-  client-fingerprint: chrome
-- name: 🇯🇵 日本 (Japan) 102 - hotick
-  server: iijjp.mggl.wang
-  port: 35791
-  udp: true
-  type: anytls
-  password: 9e98496a-0036-4cc6-8302-3929c29ba772
-  sni: www.apple.com
-  skip-cert-verify: true
-- name: 🇯🇵 日本 (Japan) 103 - hotick
-  server: 5.75.195.83
-  port: 56879
-  udp: true
-  type: vless
-  uuid: cac39aa3-18fa-4ee4-ba13-040a97d24b20
-  tls: true
-  servername: kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev
-- name: 🇯🇵 日本 (Japan) 104 - hotick
+    public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
+    short-id: 48050fab
+  servername: www.apple.com
+  client-fingerprint: random
+- name: 🇯🇵 日本 (Japan) 10 - hotick
   server: 45.202.254.20
   port: 9443
   udp: true
@@ -1483,156 +108,7 @@ proxies:
     short-id: b390142456517acc
   servername: www.amazon.com
   client-fingerprint: chrome
-- name: 🇯🇵 日本 (Japan) 105 - hotick
-  server: 154.31.114.248
-  port: 50159
-  udp: true
-  type: vless
-  uuid: d56624b2-35bb-468c-9b2a-e0b0df7230c1
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: j4QXngGuJkUGwRj4XIrfHRohYYuEfnJlX4cvCE-WklA
-    short-id: 091e1c5db8451757
-  servername: www.cloudflare.com
-  client-fingerprint: random
-- name: 🇯🇵 日本 (Japan) 106 - hotick
-  server: 79.137.199.52
-  port: 21
-  udp: true
-  type: vless
-  uuid: 763e2ddd-c830-4f4f-801c-f6f2c3418d4f
-  tls: true
-  servername: bapj1qapjk4.0sds0li1bwcz0i76it0gjxv1.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: bapj1qapjk4.0sds0li1bwcz0i76it0gjxv1.workers.dev
-- name: 🇯🇵 日本 (Japan) 107 - hotick
-  server: 116.204.164.5
-  port: 7443
-  udp: true
-  type: vless
-  uuid: 0f2765c2-1845-4545-987e-337c7cfb4e52
-  tls: true
-  servername: c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev
-- name: 🇯🇵 日本 (Japan) 108 - hotick
-  server: 89.22.224.146
-  port: 43788
-  udp: true
-  type: vless
-  uuid: 6fbd9bd1-ccd4-4e2f-a918-a0f871965763
-  tls: true
-  servername: ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev
-- name: 🇯🇵 日本 (Japan) 109 - hotick
-  server: 83.147.216.223
-  port: 4433
-  udp: true
-  type: vless
-  uuid: 660174a2-d32d-4521-840d-d1853bfc80b8
-  tls: true
-  servername: 3t1yvbyla-rj740g.28m7r63dttya6gazmhoo.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: 3t1yvbyla-rj740g.28m7r63dttya6gazmhoo.workers.dev
-- name: 🇯🇵 日本 (Japan) 110 - hotick
-  server: 116.204.164.27
-  port: 7443
-  udp: true
-  type: vless
-  uuid: 3e438472-0f1e-4bbf-be5a-67d034afd8c0
-  tls: true
-  servername: ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev
-- name: 🇯🇵 日本 (Japan) 111 - hotick
-  server: 147.45.42.73
-  port: 20443
-  udp: true
-  type: vless
-  uuid: f293db4d-7ab1-4faf-bb15-89540d8709cb
-  tls: true
-  servername: 8n9qi6t-owl.gevc9s4n60cc3wzcmwhjyezydpmbchocxp.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: 8n9qi6t-owl.gevc9s4n60cc3wzcmwhjyezydpmbchocxp.workers.dev
-- name: 🇯🇵 日本 (Japan) 112 - hotick
-  server: 103.75.118.228
-  port: 11452
-  udp: true
-  type: vless
-  uuid: 814bd064-544d-4255-a070-5705c03f6da9
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
-    short-id: 48050fab
-  servername: www.apple.com
-  client-fingerprint: chrome
-- name: 🇯🇵 日本 (Japan) 113 - hotick
-  server: 172.111.146.64
-  port: 80
-  udp: true
-  type: vless
-  uuid: 904f8ffa-4652-4076-8f2f-e586807840ec
-  network: ws
-  ws-opts:
-    path: /vless/
-- name: 🇯🇵 日本 (Japan) 114 - hotick
-  server: 172.111.146.64
-  port: 80
-  udp: true
-  type: vless
-  uuid: 904f8ffa-4652-4076-8f2f-e586807840ec
-  network: ws
-  ws-opts:
-    path: /vless/
-- name: 🇯🇵 日本 (Japan) 115 - hotick
-  server: 109.120.155.155
-  port: 444
-  udp: true
-  type: vless
-  uuid: 99ab6748-3d57-4562-9451-843c15960b9b
-  tls: true
-  servername: ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev
-- name: 🇯🇵 日本 (Japan) 116 - hotick
+- name: 🇯🇵 日本 (Japan) 11 - hotick
   server: 45.76.98.127
   port: 443
   udp: true
@@ -1647,39 +123,44 @@ proxies:
   network: ws
   ws-opts:
     path: /ws
-    headers:
-      Host: itunes.apple.com
-- name: 🇯🇵 日本 (Japan) 117 - hotick
-  server: 84.22.150.39
-  port: 7443
+- name: 🇯🇵 日本 (Japan) 12 - hotick
+  server: 84.247.155.196
+  port: 80
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: 3eOFeNssde7PYYMv
+- name: 🇯🇵 日本 (Japan) 13 - hotick
+  server: 3.114.220.22
+  port: 18007
   udp: true
   type: vless
-  uuid: 9d5cbb90-876b-448d-9874-27ab35bae6e7
+  uuid: 814bd064-544d-4255-a070-5705c03f6da9
+  flow: xtls-rprx-vision
   tls: true
-  servername: woc0zvrf11w2endu.dphdlc1u77bs3y4kvussbuap4p576f1ws7igthq8zbf3.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: woc0zvrf11w2endu.dphdlc1u77bs3y4kvussbuap4p576f1ws7igthq8zbf3.workers.dev
-- name: 🇯🇵 日本 (Japan) 118 - hotick
-  server: 107.191.53.86
-  port: 4798
+  reality-opts:
+    public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
+    short-id: 48050fab
+  servername: www.apple.com
+  client-fingerprint: random
+- name: 🇯🇵 日本 (Japan) 14 - hotick
+  server: 138.3.208.26
+  port: 50160
   udp: true
-  type: vless
-  uuid: f4053878-7905-4a41-9efa-3c55b954e569
-  tls: true
-  servername: ruu2rx-oycdrnsrzc.9uokolpk04vmg2ecqb8oys7.workers.dev
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: ruu2rx-oycdrnsrzc.9uokolpk04vmg2ecqb8oys7.workers.dev
-- name: 🇯🇵 日本 (Japan) 119 - hotick
-  server: jp.yi-yi.xyz
+  type: hysteria2
+  password: 184cdec28da5a09450803c8debcd2cc9
+  sni: www.bing.com
+  skip-cert-verify: true
+- name: 🇯🇵 日本 (Japan) 15 - hotick
+  server: 45.32.52.173
+  port: 8886
+  udp: true
+  type: trojan
+  password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
+  sni: 45.32.52.173
+  skip-cert-verify: true
+- name: 🇯🇵 日本 (Japan) 16 - hotick
+  server: 154.36.155.142
   port: 8443
   udp: true
   type: vless
@@ -1690,202 +171,8 @@ proxies:
     public-key: g3T4dVyrbNixv7HvSMlh91cYBa5kEsZCEInB7Xc_AEY
     short-id: 956d8072a694ff37
   servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇯🇵 日本 (Japan) 120 - hotick
-  server: 172.67.217.240
-  port: 443
-  udp: true
-  type: vless
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  tls: true
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  client-fingerprint: ios
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🇯🇵 日本 (Japan) 121 - hotick
-  server: 109.120.155.155
-  port: 444
-  udp: true
-  type: vless
-  uuid: c325206e-0f0c-4472-9d76-43e9b9b2ef63
-  tls: true
-  servername: bapj1qapjk4.0sds0li1bwcz0i76it0gjxv1.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: bapj1qapjk4.0sds0li1bwcz0i76it0gjxv1.workers.dev
-- name: 🇯🇵 日本 (Japan) 122 - hotick
-  server: 57.129.130.57
-  port: 52014
-  udp: true
-  type: vless
-  uuid: d6b5c6ad-481f-40fd-a068-8ab14a8d8c65
-  tls: true
-  servername: 2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: 2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev
-- name: 🇯🇵 日本 (Japan) 123 - hotick
-  server: 84.22.150.39
-  port: 7443
-  udp: true
-  type: vless
-  uuid: 5cc814de-2bbb-4409-ad8c-ee841ca7bad1
-  tls: true
-  servername: sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev
-- name: 🇯🇵 日本 (Japan) 124 - hotick
-  server: 38.47.96.220
-  port: 11424
-  udp: true
-  type: vless
-  uuid: 1d16c6e0-1bbe-435b-b661-90043fee999c
-  tls: true
-  servername: notls.lukongtou.eu.org
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: Telegram-WangCai2🇨🇳
-    headers:
-      Host: notls.lukongtou.eu.org
-- name: 🇯🇵 日本 (Japan) 125 - hotick
-  server: 83.147.216.223
-  port: 4433
-  udp: true
-  type: vless
-  uuid: b491331e-3be5-4097-8bc1-fa86de978c29
-  tls: true
-  servername: bapj1qapjk4.0sds0li1bwcz0i76it0gjxv1.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: bapj1qapjk4.0sds0li1bwcz0i76it0gjxv1.workers.dev
-- name: 🇯🇵 日本 (Japan) 126 - hotick
-  server: 203.137.165.164
-  port: 57554
-  udp: true
-  type: vless
-  uuid: 9c7501fb-4e23-44d8-9a9e-973807ae4f35
-  tls: true
-  servername: wkytah9k8oggj60.qzfi0skkopy875xhtc0l9pwds.workers.dev
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: wkytah9k8oggj60.qzfi0skkopy875xhtc0l9pwds.workers.dev
-- name: 🇯🇵 日本 (Japan) 127 - hotick
-  server: 203.137.165.164
-  port: 57554
-  udp: true
-  type: vless
-  uuid: 79c351da-fdeb-4761-b514-46e1f4914d00
-  tls: true
-  servername: 3t1yvbyla-rj740g.28m7r63dttya6gazmhoo.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: 3t1yvbyla-rj740g.28m7r63dttya6gazmhoo.workers.dev
-- name: 🇯🇵 日本 (Japan) 128 - hotick
-  server: 107.191.53.86
-  port: 4798
-  udp: true
-  type: vless
-  uuid: 882b73fd-53fd-4956-a28b-2cb3ece9dc7c
-  tls: true
-  servername: d-l28t5-65-b.pbe40wmcujaw726h7cpqernzmawz4stwtrnqve0n1s5reht.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: d-l28t5-65-b.pbe40wmcujaw726h7cpqernzmawz4stwtrnqve0n1s5reht.workers.dev
-- name: 🇯🇵 日本 (Japan) 129 - hotick
-  server: 203.137.165.164
-  port: 57554
-  udp: true
-  type: vless
-  uuid: 37d1f5ab-e83b-4a84-90bf-712a0b114a87
-  tls: true
-  servername: kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev
-- name: 🇯🇵 日本 (Japan) 130 - hotick
-  server: 162.159.130.234
-  port: 2083
-  udp: true
-  type: vmess
-  uuid: ac251237-576f-40c8-a543-554960c958b1
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: cdn.sfacg.uk
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /or3
-    headers:
-      Host: or3.sfacg.uk
-- name: 🇯🇵 日本 (Japan) 131 - hotick
-  server: 54.178.110.17
-  port: 4443
-  udp: true
-  type: vless
-  uuid: ed4c72b0-51b6-4334-a977-f433d7fe8f88
-  tls: true
-  servername: 8n9qi6t-owl.gevc9s4n60cc3wzcmwhjyezydpmbchocxp.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: 8n9qi6t-owl.gevc9s4n60cc3wzcmwhjyezydpmbchocxp.workers.dev
-- name: 🇯🇵 日本 (Japan) 132 - hotick
-  server: 203.137.165.164
-  port: 57554
-  udp: true
-  type: vless
-  uuid: 26545758-8050-4ca4-be26-54b38338983c
-  tls: true
-  servername: ruu2rx-oycdrnsrzc.9uokolpk04vmg2ecqb8oys7.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: ruu2rx-oycdrnsrzc.9uokolpk04vmg2ecqb8oys7.workers.dev
-- name: 🇯🇵 日本 (Japan) 133 - hotick
+  client-fingerprint: firefox
+- name: 🇯🇵 日本 (Japan) 17 - hotick
   server: 38.175.202.26
   port: 443
   udp: true
@@ -1893,171 +180,60 @@ proxies:
   password: wvA0PtDIuFbSqooIC2goKzFr
   sni: bing.com
   skip-cert-verify: true
-- name: 🇯🇵 日本 (Japan) 134 - hotick
-  server: 107.191.53.86
-  port: 4798
+- name: 🇯🇵 日本 (Japan) 18 - hotick
+  server: 104.16.10.234
+  port: 443
   udp: true
   type: vless
-  uuid: 1fa79462-3a93-43f6-86b5-82c1536203df
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   tls: true
-  servername: 3t1yvbyla-rj740g.28m7r63dttya6gazmhoo.workers.dev
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: 3t1yvbyla-rj740g.28m7r63dttya6gazmhoo.workers.dev
-- name: 🇯🇵 日本 (Japan) 135 - hotick
-  server: 54.178.110.17
-  port: 4443
-  udp: true
-  type: vless
-  uuid: d5fbd83b-7346-4ad9-94c0-76293724824d
-  tls: true
-  servername: sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev
+  servername: jp3.yohototo.top
   skip-cert-verify: false
   client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /@Marisa_kristi
+    path: /tyxyws
     headers:
-      Host: sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev
-- name: 🇯🇵 日本 (Japan) 136 - hotick
-  server: 154.31.112.237
-  port: 26418
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 19 - hotick
+  server: jp004.421421.xyz
+  port: 20230
   udp: true
   type: vless
-  uuid: 1e61d1c5-383d-406f-9230-1edd3e9449c5
+  uuid: 0400697c-b581-4575-9d2f-0bbd4659312d
   tls: true
-  servername: d-l28t5-65-b.pbe40wmcujaw726h7cpqernzmawz4stwtrnqve0n1s5reht.workers.dev
-  skip-cert-verify: false
+  reality-opts:
+    public-key: lbOfuIKCBPcQH4AEnwnPw1LNxWrl-Bul6KU99H240Fc
+    short-id: abae4722
+  servername: www.nvidia.com
   client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: d-l28t5-65-b.pbe40wmcujaw726h7cpqernzmawz4stwtrnqve0n1s5reht.workers.dev
-- name: 🇯🇵 日本 (Japan) 137 - hotick
-  server: 154.31.112.237
-  port: 26418
+  network: grpc
+  grpc-opts:
+    grpc-service-name: tj
+- name: 🇯🇵 日本 (Japan) 20 - hotick
+  server: 84.247.155.196
+  port: 443
   udp: true
-  type: vless
-  uuid: 4217be59-425f-472c-9948-cff6ecf7be0b
-  tls: true
-  servername: 3t1yvbyla-rj740g.28m7r63dttya6gazmhoo.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: firefox
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: 3t1yvbyla-rj740g.28m7r63dttya6gazmhoo.workers.dev
-- name: 🇯🇵 日本 (Japan) 138 - hotick
-  server: 57.129.130.57
-  port: 52014
+  type: ss
+  cipher: aes-256-gcm
+  password: 3eOFeNssde7PYYMv
+- name: 🇯🇵 日本 (Japan) 21 - hotick
+  server: cdn.sfacg.uk
+  port: 2083
   udp: true
-  type: vless
-  uuid: db353feb-c115-4f29-9562-64c2e479bbfa
+  type: vmess
+  uuid: ac251237-576f-40c8-a543-554960c958b1
+  alterId: 0
+  cipher: auto
   tls: true
-  servername: sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev
+  servername: or3.sfacg.uk
   skip-cert-verify: false
-  client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /@Marisa_kristi
+    path: /or3
     headers:
-      Host: sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev
-- name: 🇯🇵 日本 (Japan) 139 - hotick
-  server: 203.137.165.164
-  port: 57554
-  udp: true
-  type: vless
-  uuid: 09de62f5-662a-4906-a66d-b1713b198bff
-  tls: true
-  servername: o-85ley6knn8ut.6nvkygqh144t7xtdyvh0y3o4gzo3ujhnk8n.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: o-85ley6knn8ut.6nvkygqh144t7xtdyvh0y3o4gzo3ujhnk8n.workers.dev
-- name: 🇯🇵 日本 (Japan) 140 - hotick
-  server: 203.137.165.164
-  port: 57554
-  udp: true
-  type: vless
-  uuid: b80ea549-156d-4cc1-8683-3f53d5b335cb
-  tls: true
-  servername: 2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: 2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev
-- name: 🇯🇵 日本 (Japan) 141 - hotick
-  server: 83.147.216.223
-  port: 4433
-  udp: true
-  type: vless
-  uuid: 55889b09-e315-4640-9404-e10834e7728e
-  tls: true
-  servername: kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev
-- name: 🇯🇵 日本 (Japan) 142 - hotick
-  server: 107.191.53.86
-  port: 4798
-  udp: true
-  type: vless
-  uuid: 7567e082-6a72-4840-8610-1383b0022b39
-  tls: true
-  servername: kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev
-- name: 🇯🇵 日本 (Japan) 143 - hotick
-  server: 203.137.165.164
-  port: 57554
-  udp: true
-  type: vless
-  uuid: e113a561-c9bc-43c6-92da-fd9513f06a00
-  tls: true
-  servername: 2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: 2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev
-- name: 🇯🇵 日本 (Japan) 144 - hotick
-  server: 203.137.165.164
-  port: 57554
-  udp: true
-  type: vless
-  uuid: 281be80c-6034-4db1-b456-5a5307c6edee
-  tls: true
-  servername: 5iv93opy8jus9z.bjo5si35c9i9ud4242fado49188obkoiermjuxj7zgxu.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: 5iv93opy8jus9z.bjo5si35c9i9ud4242fado49188obkoiermjuxj7zgxu.workers.dev
-- name: 🇯🇵 日本 (Japan) 145 - hotick
+      Host: or3.sfacg.uk
+- name: 🇯🇵 日本 (Japan) 22 - hotick
   server: 3.114.220.22
   port: 10583
   udp: true
@@ -2069,67 +245,8 @@ proxies:
     public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
     short-id: 48050fab
   servername: www.apple.com
-  client-fingerprint: firefox
-- name: 🇯🇵 日本 (Japan) 146 - hotick
-  server: 77.221.154.152
-  port: 8444
-  udp: true
-  type: vless
-  uuid: 4af580b5-d3be-4bba-bc4f-9176c12925d6
-  tls: true
-  servername: d-l28t5-65-b.pbe40wmcujaw726h7cpqernzmawz4stwtrnqve0n1s5reht.workers.dev
-  skip-cert-verify: false
   client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: d-l28t5-65-b.pbe40wmcujaw726h7cpqernzmawz4stwtrnqve0n1s5reht.workers.dev
-- name: 🇯🇵 日本 (Japan) 147 - hotick
-  server: 45.77.241.190
-  port: 8441
-  udp: true
-  type: vless
-  uuid: 208250f3-2dd1-4421-87d4-5e8691fd7b15
-  tls: true
-  servername: ruu2rx-oycdrnsrzc.9uokolpk04vmg2ecqb8oys7.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: ruu2rx-oycdrnsrzc.9uokolpk04vmg2ecqb8oys7.workers.dev
-- name: 🇯🇵 日本 (Japan) 148 - hotick
-  server: 45.77.241.190
-  port: 8441
-  udp: true
-  type: vless
-  uuid: 45deab47-28e0-4048-b7a2-1ab672f684f8
-  tls: true
-  servername: 5iv93opy8jus9z.bjo5si35c9i9ud4242fado49188obkoiermjuxj7zgxu.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: 5iv93opy8jus9z.bjo5si35c9i9ud4242fado49188obkoiermjuxj7zgxu.workers.dev
-- name: 🇯🇵 日本 (Japan) 149 - hotick
-  server: 45.77.241.190
-  port: 8441
-  udp: true
-  type: vless
-  uuid: 7e622534-4a90-40ba-bb30-5cb5403be121
-  tls: true
-  servername: d-l28t5-65-b.pbe40wmcujaw726h7cpqernzmawz4stwtrnqve0n1s5reht.workers.dev
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: d-l28t5-65-b.pbe40wmcujaw726h7cpqernzmawz4stwtrnqve0n1s5reht.workers.dev
-- name: 🇯🇵 日本 (Japan) 150 - hotick
+- name: 🇯🇵 日本 (Japan) 23 - hotick
   server: 142.91.101.39
   port: 627
   udp: true
@@ -2143,30 +260,80 @@ proxies:
     path: /@Marisa_kristi
     headers:
       Host: 7nnoiou0z.3xn99hzq2sh7iekktpkeq7rofs3qc8iohrqs4pb9p.workers.dev
-- name: 🇯🇵 日本 (Japan) 151 - hotick
-  server: 138.3.208.26
-  port: 50160
+- name: 🇯🇵 日本 (Japan) 24 - hotick
+  server: jp5.998998.best
+  port: 443
   udp: true
-  type: hysteria2
-  password: 184cdec28da5a09450803c8debcd2cc9
-  sni: www.bing.com
-  skip-cert-verify: true
-- name: 🇯🇵 日本 (Japan) 152 - hotick
-  server: 54.179.79.12
-  port: 53646
+  type: vmess
+  uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: server11.9966338.xyz
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /ieusrdgfhteuirgfiuws
+    headers:
+      Host: server11.9966338.xyz
+- name: 🇯🇵 日本 (Japan) 25 - hotick
+  server: 142.91.101.39
+  port: 627
   udp: true
   type: vless
-  uuid: 8bcbf86d-1f93-4dc7-a9e8-b954928f2347
+  uuid: a32f3ec6-d776-450e-9d97-9e2deb6c8421
   tls: true
-  servername: kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev
+  servername: jr61rsc8fog5f.l6yr5b4ialxnf2ll2zcsgmlqf3u.workers.dev
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: jr61rsc8fog5f.l6yr5b4ialxnf2ll2zcsgmlqf3u.workers.dev
+- name: 🇯🇵 日本 (Japan) 26 - hotick
+  server: 142.91.101.39
+  port: 627
+  udp: true
+  type: vless
+  uuid: aff1ffd0-594c-44c9-9f79-4096fde005ea
+  tls: true
+  servername: 9qohadlkywguh.hlf9x1796lkopyju2kplt9c9smz1vyuv0u8azzk.workers.dev
   skip-cert-verify: false
   client-fingerprint: chrome
   network: ws
   ws-opts:
     path: /@Marisa_kristi
     headers:
-      Host: kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev
-- name: 🇯🇵 日本 (Japan) 153 - hotick
+      Host: 9qohadlkywguh.hlf9x1796lkopyju2kplt9c9smz1vyuv0u8azzk.workers.dev
+- name: 🇯🇵 日本 (Japan) 27 - hotick
+  server: 142.91.101.39
+  port: 627
+  udp: true
+  type: vless
+  uuid: 2949e720-4588-4edc-8642-ff2b7b368c78
+  tls: true
+  servername: jr61rsc8fog5f.l6yr5b4ialxnf2ll2zcsgmlqf3u.workers.dev
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: jr61rsc8fog5f.l6yr5b4ialxnf2ll2zcsgmlqf3u.workers.dev
+- name: 🇯🇵 日本 (Japan) 28 - hotick
+  server: 142.91.101.39
+  port: 627
+  udp: true
+  type: vless
+  uuid: 23b385cf-02c3-4df8-8402-11f1916418cd
+  tls: true
+  servername: jr61rsc8fog5f.l6yr5b4ialxnf2ll2zcsgmlqf3u.workers.dev
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: jr61rsc8fog5f.l6yr5b4ialxnf2ll2zcsgmlqf3u.workers.dev
+- name: 🇯🇵 日本 (Japan) 29 - hotick
   server: 3.114.220.22
   port: 19645
   udp: true
@@ -2179,176 +346,36 @@ proxies:
     short-id: 48050fab
   servername: www.apple.com
   client-fingerprint: chrome
-- name: 🇯🇵 日本 (Japan) 154 - hotick
-  server: 175.41.179.37
-  port: 51262
+- name: 🇯🇵 日本 (Japan) 30 - hotick
+  server: 142.91.101.39
+  port: 627
   udp: true
   type: vless
-  uuid: 903fed13-8e78-4fa2-a83e-b392b289741f
+  uuid: 30b40928-f431-4c83-bfed-44f1243d16ff
   tls: true
-  servername: 3tmj2egtm-fno.49bnithzk8vphybv36d1z1xkzfvogt2m6.workers.dev
+  servername: jr61rsc8fog5f.l6yr5b4ialxnf2ll2zcsgmlqf3u.workers.dev
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: jr61rsc8fog5f.l6yr5b4ialxnf2ll2zcsgmlqf3u.workers.dev
+- name: 🇯🇵 日本 (Japan) 31 - hotick
+  server: 142.91.101.39
+  port: 627
+  udp: true
+  type: vless
+  uuid: 8199228b-e84b-42a2-9268-e400391e483a
+  tls: true
+  servername: 9qohadlkywguh.hlf9x1796lkopyju2kplt9c9smz1vyuv0u8azzk.workers.dev
   skip-cert-verify: false
   client-fingerprint: chrome
   network: ws
   ws-opts:
     path: /@Marisa_kristi
     headers:
-      Host: 3tmj2egtm-fno.49bnithzk8vphybv36d1z1xkzfvogt2m6.workers.dev
-- name: 🇯🇵 日本 (Japan) 155 - hotick
-  server: 45.77.241.190
-  port: 8441
-  udp: true
-  type: vless
-  uuid: 6163155f-2a79-4c87-8b7f-874a89b577ec
-  tls: true
-  servername: 3t1yvbyla-rj740g.28m7r63dttya6gazmhoo.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: 3t1yvbyla-rj740g.28m7r63dttya6gazmhoo.workers.dev
-- name: 🇯🇵 日本 (Japan) 156 - hotick
-  server: 45.77.241.190
-  port: 8441
-  udp: true
-  type: vless
-  uuid: 095e81b0-8e36-441d-974e-2230cfd16c5a
-  tls: true
-  servername: ruu2rx-oycdrnsrzc.9uokolpk04vmg2ecqb8oys7.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: ruu2rx-oycdrnsrzc.9uokolpk04vmg2ecqb8oys7.workers.dev
-- name: 🇯🇵 日本 (Japan) 157 - hotick
-  server: 203.137.165.164
-  port: 57554
-  udp: true
-  type: vless
-  uuid: fb4c1c39-2204-43bb-853c-f8579a77feb4
-  tls: true
-  servername: mw5qisav.wjwqvie0wb1eqhb8e83clqdoq3m5p9a4on.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: mw5qisav.wjwqvie0wb1eqhb8e83clqdoq3m5p9a4on.workers.dev
-- name: 🇯🇵 日本 (Japan) 158 - hotick
-  server: 84.247.155.196
-  port: 80
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: 3eOFeNssde7PYYMv
-- name: 🇯🇵 日本 (Japan) 159 - hotick
-  server: 54.179.79.12
-  port: 53646
-  udp: true
-  type: vless
-  uuid: d57b9436-a238-4066-8b11-d23ae57c5982
-  tls: true
-  servername: 9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: 9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev
-- name: 🇯🇵 日本 (Japan) 160 - hotick
-  server: 45.77.241.190
-  port: 8441
-  udp: true
-  type: vless
-  uuid: b9024b95-9128-4e39-a4ec-1025088ed9f7
-  tls: true
-  servername: kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev
-- name: 🇯🇵 日本 (Japan) 161 - hotick
-  server: 45.77.241.190
-  port: 8441
-  udp: true
-  type: vless
-  uuid: b3ddac6f-b2b7-43a6-bd69-413013f30040
-  tls: true
-  servername: wjwkhoaftdgrt8qus.mp8pmwdgwf3sdapasouszjobjr57nrxxgtx9n.workers.dev
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristifp=chrome
-    headers:
-      Host: wjwkhoaftdgrt8qus.mp8pmwdgwf3sdapasouszjobjr57nrxxgtx9n.workers.dev
-- name: 🇯🇵 日本 (Japan) 162 - hotick
-  server: 54.179.79.12
-  port: 53646
-  udp: true
-  type: vless
-  uuid: 578427ba-ab06-4219-ac9d-c99e2b71c9a3
-  tls: true
-  servername: ruu2rx-oycdrnsrzc.9uokolpk04vmg2ecqb8oys7.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: ruu2rx-oycdrnsrzc.9uokolpk04vmg2ecqb8oys7.workers.dev
-- name: 🇯🇵 日本 (Japan) 163 - hotick
-  server: 172.105.241.119
-  port: 1916
-  udp: true
-  type: vless
-  uuid: e121912d-2931-4326-a7f8-2c1db8376b18
-  tls: true
-  servername: kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev
-- name: 🇯🇵 日本 (Japan) 164 - hotick
-  server: 45.77.241.190
-  port: 8441
-  udp: true
-  type: vless
-  uuid: f11eaecc-8e8e-4840-8d5a-cbc67cab4cef
-  tls: true
-  servername: 2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: 2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev
-- name: 🇯🇵 日本 (Japan) 165 - hotick
-  server: 172.105.241.119
-  port: 1916
-  udp: true
-  type: vless
-  uuid: 8008ceea-be4e-47e1-88c0-6a99cb1b5825
-  tls: true
-  servername: 3t1yvbyla-rj740g.28m7r63dttya6gazmhoo.workers.dev
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: 3t1yvbyla-rj740g.28m7r63dttya6gazmhoo.workers.dev
-- name: 🇯🇵 日本 (Japan) 166 - hotick
+      Host: 9qohadlkywguh.hlf9x1796lkopyju2kplt9c9smz1vyuv0u8azzk.workers.dev
+- name: 🇯🇵 日本 (Japan) 32 - hotick
   server: 142.91.101.39
   port: 627
   udp: true
@@ -2363,193 +390,33 @@ proxies:
     path: /@Marisa_kristi
     headers:
       Host: 7nnoiou0z.3xn99hzq2sh7iekktpkeq7rofs3qc8iohrqs4pb9p.workers.dev
-- name: 🇯🇵 日本 (Japan) 167 - hotick
-  server: 45.77.241.190
-  port: 8441
+- name: 🇯🇵 日本 (Japan) 33 - hotick
+  server: 152.69.195.67
+  port: 47878
   udp: true
   type: vless
-  uuid: c6e09f95-bf02-4854-bcba-7a977a0f8ecd
-  tls: true
-  servername: mw5qisav.wjwqvie0wb1eqhb8e83clqdoq3m5p9a4on.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: mw5qisav.wjwqvie0wb1eqhb8e83clqdoq3m5p9a4on.workers.dev
-- name: 🇯🇵 日本 (Japan) 168 - hotick
-  server: 54.179.79.12
-  port: 53646
+  uuid: eb8613e3-8393-4cff-a3ad-6501fd4adc63
+- name: 🇯🇵 日本 (Japan) 34 - hotick
+  server: 142.91.108.25
+  port: 443
   udp: true
   type: vless
-  uuid: a5809b91-4c73-4361-92e4-dee4fd42dd4a
-  tls: true
-  servername: ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev
-- name: 🇯🇵 日本 (Japan) 169 - hotick
-  server: 142.91.101.39
-  port: 627
-  udp: true
-  type: vless
-  uuid: 30b40928-f431-4c83-bfed-44f1243d16ff
-  tls: true
-  servername: jr61rsc8fog5f.l6yr5b4ialxnf2ll2zcsgmlqf3u.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: jr61rsc8fog5f.l6yr5b4ialxnf2ll2zcsgmlqf3u.workers.dev
-- name: 🇯🇵 日本 (Japan) 170 - hotick
-  server: 142.91.101.39
-  port: 627
-  udp: true
-  type: vless
-  uuid: 2949e720-4588-4edc-8642-ff2b7b368c78
-  tls: true
-  servername: jr61rsc8fog5f.l6yr5b4ialxnf2ll2zcsgmlqf3u.workers.dev
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: jr61rsc8fog5f.l6yr5b4ialxnf2ll2zcsgmlqf3u.workers.dev
-- name: 🇯🇵 日本 (Japan) 171 - hotick
-  server: 45.77.241.190
-  port: 8441
-  udp: true
-  type: vless
-  uuid: d94fe65a-bdfb-46af-9d90-d54096aa9f4f
-  tls: true
-  servername: o-85ley6knn8ut.6nvkygqh144t7xtdyvh0y3o4gzo3ujhnk8n.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: o-85ley6knn8ut.6nvkygqh144t7xtdyvh0y3o4gzo3ujhnk8n.workers.dev
-- name: 🇯🇵 日本 (Japan) 172 - hotick
-  server: 203.137.165.164
-  port: 57554
-  udp: true
-  type: vless
-  uuid: a2e2d050-ca0c-44a1-8e55-8946c5b04961
-  tls: true
-  servername: 8n9qi6t-owl.gevc9s4n60cc3wzcmwhjyezydpmbchocxp.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: 8n9qi6t-owl.gevc9s4n60cc3wzcmwhjyezydpmbchocxp.workers.dev
-- name: 🇯🇵 日本 (Japan) 173 - hotick
-  server: 168.138.43.75
-  port: 80
-  udp: true
-  type: vmess
-  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-opts:
-    path: /cctv13.m3u8
-- name: 🇯🇵 日本 (Japan) 174 - hotick
-  server: 203.137.165.164
-  port: 57554
-  udp: true
-  type: vless
-  uuid: 7fdb95f9-c758-486c-865a-7c1219823670
-  tls: true
-  servername: 3tmj2egtm-fno.49bnithzk8vphybv36d1z1xkzfvogt2m6.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: 3tmj2egtm-fno.49bnithzk8vphybv36d1z1xkzfvogt2m6.workers.dev
-- name: 🇯🇵 日本 (Japan) 175 - hotick
-  server: 203.137.165.164
-  port: 57554
-  udp: true
-  type: vless
-  uuid: a3f199fc-0251-4c05-9e0e-0c1976945a3a
-  tls: true
-  servername: ruu2rx-oycdrnsrzc.9uokolpk04vmg2ecqb8oys7.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: ruu2rx-oycdrnsrzc.9uokolpk04vmg2ecqb8oys7.workers.dev
-- name: 🇯🇵 日本 (Japan) 176 - hotick
-  server: 3.114.220.22
-  port: 18007
-  udp: true
-  type: vless
-  uuid: 814bd064-544d-4255-a070-5705c03f6da9
+  uuid: ee18d188-14cc-417e-beb1-70e4add6d023
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
-    short-id: 48050fab
-  servername: www.apple.com
-  client-fingerprint: ios
-- name: 🇯🇵 日本 (Japan) 177 - hotick
-  server: 142.91.101.39
-  port: 627
+    public-key: 9ZCYjybxMQ7JpE39B8u_Bo-alI1LIbt5ER0E-4yMjiM
+    short-id: ea36c03d86f91287
+  servername: jp3.nztvpn.com
+  client-fingerprint: firefox
+- name: 🇯🇵 日本 (Japan) 35 - hotick
+  server: 8.211.175.236
+  port: 8443
   udp: true
-  type: vless
-  uuid: 23b385cf-02c3-4df8-8402-11f1916418cd
-  tls: true
-  servername: jr61rsc8fog5f.l6yr5b4ialxnf2ll2zcsgmlqf3u.workers.dev
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: jr61rsc8fog5f.l6yr5b4ialxnf2ll2zcsgmlqf3u.workers.dev
-- name: 🇯🇵 日本 (Japan) 178 - hotick
-  server: 129.153.71.28
-  port: 28863
-  udp: true
-  type: vless
-  uuid: 7ec90e95-2de2-4e30-a647-e4a29c64f08f
-  tls: true
-  servername: woc0zvrf11w2endu.dphdlc1u77bs3y4kvussbuap4p576f1ws7igthq8zbf3.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: woc0zvrf11w2endu.dphdlc1u77bs3y4kvussbuap4p576f1ws7igthq8zbf3.workers.dev
-- name: 🇯🇵 日本 (Japan) 179 - hotick
-  server: 129.153.71.28
-  port: 28863
-  udp: true
-  type: vless
-  uuid: d3d09526-18f4-45db-ae99-89407c29c94a
-  tls: true
-  servername: 2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: 2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev
+  type: hysteria2
+  password: u63SxILNwtrQZ7Y1ZrFaZfsA
+  sni: bing.com
+  skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -2590,150 +457,6 @@ proxy-groups:
   - 🇯🇵 日本 (Japan) 33 - hotick
   - 🇯🇵 日本 (Japan) 34 - hotick
   - 🇯🇵 日本 (Japan) 35 - hotick
-  - 🇯🇵 日本 (Japan) 36 - hotick
-  - 🇯🇵 日本 (Japan) 37 - hotick
-  - 🇯🇵 日本 (Japan) 38 - hotick
-  - 🇯🇵 日本 (Japan) 39 - hotick
-  - 🇯🇵 日本 (Japan) 40 - hotick
-  - 🇯🇵 日本 (Japan) 41 - hotick
-  - 🇯🇵 日本 (Japan) 42 - hotick
-  - 🇯🇵 日本 (Japan) 43 - hotick
-  - 🇯🇵 日本 (Japan) 44 - hotick
-  - 🇯🇵 日本 (Japan) 45 - hotick
-  - 🇯🇵 日本 (Japan) 46 - hotick
-  - 🇯🇵 日本 (Japan) 47 - hotick
-  - 🇯🇵 日本 (Japan) 48 - hotick
-  - 🇯🇵 日本 (Japan) 49 - hotick
-  - 🇯🇵 日本 (Japan) 50 - hotick
-  - 🇯🇵 日本 (Japan) 51 - hotick
-  - 🇯🇵 日本 (Japan) 52 - hotick
-  - 🇯🇵 日本 (Japan) 53 - hotick
-  - 🇯🇵 日本 (Japan) 54 - hotick
-  - 🇯🇵 日本 (Japan) 55 - hotick
-  - 🇯🇵 日本 (Japan) 56 - hotick
-  - 🇯🇵 日本 (Japan) 57 - hotick
-  - 🇯🇵 日本 (Japan) 58 - hotick
-  - 🇯🇵 日本 (Japan) 59 - hotick
-  - 🇯🇵 日本 (Japan) 60 - hotick
-  - 🇯🇵 日本 (Japan) 61 - hotick
-  - 🇯🇵 日本 (Japan) 62 - hotick
-  - 🇯🇵 日本 (Japan) 63 - hotick
-  - 🇯🇵 日本 (Japan) 64 - hotick
-  - 🇯🇵 日本 (Japan) 65 - hotick
-  - 🇯🇵 日本 (Japan) 66 - hotick
-  - 🇯🇵 日本 (Japan) 67 - hotick
-  - 🇯🇵 日本 (Japan) 68 - hotick
-  - 🇯🇵 日本 (Japan) 69 - hotick
-  - 🇯🇵 日本 (Japan) 70 - hotick
-  - 🇯🇵 日本 (Japan) 71 - hotick
-  - 🇯🇵 日本 (Japan) 72 - hotick
-  - 🇯🇵 日本 (Japan) 73 - hotick
-  - 🇯🇵 日本 (Japan) 74 - hotick
-  - 🇯🇵 日本 (Japan) 75 - hotick
-  - 🇯🇵 日本 (Japan) 76 - hotick
-  - 🇯🇵 日本 (Japan) 77 - hotick
-  - 🇯🇵 日本 (Japan) 78 - hotick
-  - 🇯🇵 日本 (Japan) 79 - hotick
-  - 🇯🇵 日本 (Japan) 80 - hotick
-  - 🇯🇵 日本 (Japan) 81 - hotick
-  - 🇯🇵 日本 (Japan) 82 - hotick
-  - 🇯🇵 日本 (Japan) 83 - hotick
-  - 🇯🇵 日本 (Japan) 84 - hotick
-  - 🇯🇵 日本 (Japan) 85 - hotick
-  - 🇯🇵 日本 (Japan) 86 - hotick
-  - 🇯🇵 日本 (Japan) 87 - hotick
-  - 🇯🇵 日本 (Japan) 88 - hotick
-  - 🇯🇵 日本 (Japan) 89 - hotick
-  - 🇯🇵 日本 (Japan) 90 - hotick
-  - 🇯🇵 日本 (Japan) 91 - hotick
-  - 🇯🇵 日本 (Japan) 92 - hotick
-  - 🇯🇵 日本 (Japan) 93 - hotick
-  - 🇯🇵 日本 (Japan) 94 - hotick
-  - 🇯🇵 日本 (Japan) 95 - hotick
-  - 🇯🇵 日本 (Japan) 96 - hotick
-  - 🇯🇵 日本 (Japan) 97 - hotick
-  - 🇯🇵 日本 (Japan) 98 - hotick
-  - 🇯🇵 日本 (Japan) 99 - hotick
-  - 🇯🇵 日本 (Japan) 100 - hotick
-  - 🇯🇵 日本 (Japan) 101 - hotick
-  - 🇯🇵 日本 (Japan) 102 - hotick
-  - 🇯🇵 日本 (Japan) 103 - hotick
-  - 🇯🇵 日本 (Japan) 104 - hotick
-  - 🇯🇵 日本 (Japan) 105 - hotick
-  - 🇯🇵 日本 (Japan) 106 - hotick
-  - 🇯🇵 日本 (Japan) 107 - hotick
-  - 🇯🇵 日本 (Japan) 108 - hotick
-  - 🇯🇵 日本 (Japan) 109 - hotick
-  - 🇯🇵 日本 (Japan) 110 - hotick
-  - 🇯🇵 日本 (Japan) 111 - hotick
-  - 🇯🇵 日本 (Japan) 112 - hotick
-  - 🇯🇵 日本 (Japan) 113 - hotick
-  - 🇯🇵 日本 (Japan) 114 - hotick
-  - 🇯🇵 日本 (Japan) 115 - hotick
-  - 🇯🇵 日本 (Japan) 116 - hotick
-  - 🇯🇵 日本 (Japan) 117 - hotick
-  - 🇯🇵 日本 (Japan) 118 - hotick
-  - 🇯🇵 日本 (Japan) 119 - hotick
-  - 🇯🇵 日本 (Japan) 120 - hotick
-  - 🇯🇵 日本 (Japan) 121 - hotick
-  - 🇯🇵 日本 (Japan) 122 - hotick
-  - 🇯🇵 日本 (Japan) 123 - hotick
-  - 🇯🇵 日本 (Japan) 124 - hotick
-  - 🇯🇵 日本 (Japan) 125 - hotick
-  - 🇯🇵 日本 (Japan) 126 - hotick
-  - 🇯🇵 日本 (Japan) 127 - hotick
-  - 🇯🇵 日本 (Japan) 128 - hotick
-  - 🇯🇵 日本 (Japan) 129 - hotick
-  - 🇯🇵 日本 (Japan) 130 - hotick
-  - 🇯🇵 日本 (Japan) 131 - hotick
-  - 🇯🇵 日本 (Japan) 132 - hotick
-  - 🇯🇵 日本 (Japan) 133 - hotick
-  - 🇯🇵 日本 (Japan) 134 - hotick
-  - 🇯🇵 日本 (Japan) 135 - hotick
-  - 🇯🇵 日本 (Japan) 136 - hotick
-  - 🇯🇵 日本 (Japan) 137 - hotick
-  - 🇯🇵 日本 (Japan) 138 - hotick
-  - 🇯🇵 日本 (Japan) 139 - hotick
-  - 🇯🇵 日本 (Japan) 140 - hotick
-  - 🇯🇵 日本 (Japan) 141 - hotick
-  - 🇯🇵 日本 (Japan) 142 - hotick
-  - 🇯🇵 日本 (Japan) 143 - hotick
-  - 🇯🇵 日本 (Japan) 144 - hotick
-  - 🇯🇵 日本 (Japan) 145 - hotick
-  - 🇯🇵 日本 (Japan) 146 - hotick
-  - 🇯🇵 日本 (Japan) 147 - hotick
-  - 🇯🇵 日本 (Japan) 148 - hotick
-  - 🇯🇵 日本 (Japan) 149 - hotick
-  - 🇯🇵 日本 (Japan) 150 - hotick
-  - 🇯🇵 日本 (Japan) 151 - hotick
-  - 🇯🇵 日本 (Japan) 152 - hotick
-  - 🇯🇵 日本 (Japan) 153 - hotick
-  - 🇯🇵 日本 (Japan) 154 - hotick
-  - 🇯🇵 日本 (Japan) 155 - hotick
-  - 🇯🇵 日本 (Japan) 156 - hotick
-  - 🇯🇵 日本 (Japan) 157 - hotick
-  - 🇯🇵 日本 (Japan) 158 - hotick
-  - 🇯🇵 日本 (Japan) 159 - hotick
-  - 🇯🇵 日本 (Japan) 160 - hotick
-  - 🇯🇵 日本 (Japan) 161 - hotick
-  - 🇯🇵 日本 (Japan) 162 - hotick
-  - 🇯🇵 日本 (Japan) 163 - hotick
-  - 🇯🇵 日本 (Japan) 164 - hotick
-  - 🇯🇵 日本 (Japan) 165 - hotick
-  - 🇯🇵 日本 (Japan) 166 - hotick
-  - 🇯🇵 日本 (Japan) 167 - hotick
-  - 🇯🇵 日本 (Japan) 168 - hotick
-  - 🇯🇵 日本 (Japan) 169 - hotick
-  - 🇯🇵 日本 (Japan) 170 - hotick
-  - 🇯🇵 日本 (Japan) 171 - hotick
-  - 🇯🇵 日本 (Japan) 172 - hotick
-  - 🇯🇵 日本 (Japan) 173 - hotick
-  - 🇯🇵 日本 (Japan) 174 - hotick
-  - 🇯🇵 日本 (Japan) 175 - hotick
-  - 🇯🇵 日本 (Japan) 176 - hotick
-  - 🇯🇵 日本 (Japan) 177 - hotick
-  - 🇯🇵 日本 (Japan) 178 - hotick
-  - 🇯🇵 日本 (Japan) 179 - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -2774,149 +497,5 @@ proxy-groups:
   - 🇯🇵 日本 (Japan) 33 - hotick
   - 🇯🇵 日本 (Japan) 34 - hotick
   - 🇯🇵 日本 (Japan) 35 - hotick
-  - 🇯🇵 日本 (Japan) 36 - hotick
-  - 🇯🇵 日本 (Japan) 37 - hotick
-  - 🇯🇵 日本 (Japan) 38 - hotick
-  - 🇯🇵 日本 (Japan) 39 - hotick
-  - 🇯🇵 日本 (Japan) 40 - hotick
-  - 🇯🇵 日本 (Japan) 41 - hotick
-  - 🇯🇵 日本 (Japan) 42 - hotick
-  - 🇯🇵 日本 (Japan) 43 - hotick
-  - 🇯🇵 日本 (Japan) 44 - hotick
-  - 🇯🇵 日本 (Japan) 45 - hotick
-  - 🇯🇵 日本 (Japan) 46 - hotick
-  - 🇯🇵 日本 (Japan) 47 - hotick
-  - 🇯🇵 日本 (Japan) 48 - hotick
-  - 🇯🇵 日本 (Japan) 49 - hotick
-  - 🇯🇵 日本 (Japan) 50 - hotick
-  - 🇯🇵 日本 (Japan) 51 - hotick
-  - 🇯🇵 日本 (Japan) 52 - hotick
-  - 🇯🇵 日本 (Japan) 53 - hotick
-  - 🇯🇵 日本 (Japan) 54 - hotick
-  - 🇯🇵 日本 (Japan) 55 - hotick
-  - 🇯🇵 日本 (Japan) 56 - hotick
-  - 🇯🇵 日本 (Japan) 57 - hotick
-  - 🇯🇵 日本 (Japan) 58 - hotick
-  - 🇯🇵 日本 (Japan) 59 - hotick
-  - 🇯🇵 日本 (Japan) 60 - hotick
-  - 🇯🇵 日本 (Japan) 61 - hotick
-  - 🇯🇵 日本 (Japan) 62 - hotick
-  - 🇯🇵 日本 (Japan) 63 - hotick
-  - 🇯🇵 日本 (Japan) 64 - hotick
-  - 🇯🇵 日本 (Japan) 65 - hotick
-  - 🇯🇵 日本 (Japan) 66 - hotick
-  - 🇯🇵 日本 (Japan) 67 - hotick
-  - 🇯🇵 日本 (Japan) 68 - hotick
-  - 🇯🇵 日本 (Japan) 69 - hotick
-  - 🇯🇵 日本 (Japan) 70 - hotick
-  - 🇯🇵 日本 (Japan) 71 - hotick
-  - 🇯🇵 日本 (Japan) 72 - hotick
-  - 🇯🇵 日本 (Japan) 73 - hotick
-  - 🇯🇵 日本 (Japan) 74 - hotick
-  - 🇯🇵 日本 (Japan) 75 - hotick
-  - 🇯🇵 日本 (Japan) 76 - hotick
-  - 🇯🇵 日本 (Japan) 77 - hotick
-  - 🇯🇵 日本 (Japan) 78 - hotick
-  - 🇯🇵 日本 (Japan) 79 - hotick
-  - 🇯🇵 日本 (Japan) 80 - hotick
-  - 🇯🇵 日本 (Japan) 81 - hotick
-  - 🇯🇵 日本 (Japan) 82 - hotick
-  - 🇯🇵 日本 (Japan) 83 - hotick
-  - 🇯🇵 日本 (Japan) 84 - hotick
-  - 🇯🇵 日本 (Japan) 85 - hotick
-  - 🇯🇵 日本 (Japan) 86 - hotick
-  - 🇯🇵 日本 (Japan) 87 - hotick
-  - 🇯🇵 日本 (Japan) 88 - hotick
-  - 🇯🇵 日本 (Japan) 89 - hotick
-  - 🇯🇵 日本 (Japan) 90 - hotick
-  - 🇯🇵 日本 (Japan) 91 - hotick
-  - 🇯🇵 日本 (Japan) 92 - hotick
-  - 🇯🇵 日本 (Japan) 93 - hotick
-  - 🇯🇵 日本 (Japan) 94 - hotick
-  - 🇯🇵 日本 (Japan) 95 - hotick
-  - 🇯🇵 日本 (Japan) 96 - hotick
-  - 🇯🇵 日本 (Japan) 97 - hotick
-  - 🇯🇵 日本 (Japan) 98 - hotick
-  - 🇯🇵 日本 (Japan) 99 - hotick
-  - 🇯🇵 日本 (Japan) 100 - hotick
-  - 🇯🇵 日本 (Japan) 101 - hotick
-  - 🇯🇵 日本 (Japan) 102 - hotick
-  - 🇯🇵 日本 (Japan) 103 - hotick
-  - 🇯🇵 日本 (Japan) 104 - hotick
-  - 🇯🇵 日本 (Japan) 105 - hotick
-  - 🇯🇵 日本 (Japan) 106 - hotick
-  - 🇯🇵 日本 (Japan) 107 - hotick
-  - 🇯🇵 日本 (Japan) 108 - hotick
-  - 🇯🇵 日本 (Japan) 109 - hotick
-  - 🇯🇵 日本 (Japan) 110 - hotick
-  - 🇯🇵 日本 (Japan) 111 - hotick
-  - 🇯🇵 日本 (Japan) 112 - hotick
-  - 🇯🇵 日本 (Japan) 113 - hotick
-  - 🇯🇵 日本 (Japan) 114 - hotick
-  - 🇯🇵 日本 (Japan) 115 - hotick
-  - 🇯🇵 日本 (Japan) 116 - hotick
-  - 🇯🇵 日本 (Japan) 117 - hotick
-  - 🇯🇵 日本 (Japan) 118 - hotick
-  - 🇯🇵 日本 (Japan) 119 - hotick
-  - 🇯🇵 日本 (Japan) 120 - hotick
-  - 🇯🇵 日本 (Japan) 121 - hotick
-  - 🇯🇵 日本 (Japan) 122 - hotick
-  - 🇯🇵 日本 (Japan) 123 - hotick
-  - 🇯🇵 日本 (Japan) 124 - hotick
-  - 🇯🇵 日本 (Japan) 125 - hotick
-  - 🇯🇵 日本 (Japan) 126 - hotick
-  - 🇯🇵 日本 (Japan) 127 - hotick
-  - 🇯🇵 日本 (Japan) 128 - hotick
-  - 🇯🇵 日本 (Japan) 129 - hotick
-  - 🇯🇵 日本 (Japan) 130 - hotick
-  - 🇯🇵 日本 (Japan) 131 - hotick
-  - 🇯🇵 日本 (Japan) 132 - hotick
-  - 🇯🇵 日本 (Japan) 133 - hotick
-  - 🇯🇵 日本 (Japan) 134 - hotick
-  - 🇯🇵 日本 (Japan) 135 - hotick
-  - 🇯🇵 日本 (Japan) 136 - hotick
-  - 🇯🇵 日本 (Japan) 137 - hotick
-  - 🇯🇵 日本 (Japan) 138 - hotick
-  - 🇯🇵 日本 (Japan) 139 - hotick
-  - 🇯🇵 日本 (Japan) 140 - hotick
-  - 🇯🇵 日本 (Japan) 141 - hotick
-  - 🇯🇵 日本 (Japan) 142 - hotick
-  - 🇯🇵 日本 (Japan) 143 - hotick
-  - 🇯🇵 日本 (Japan) 144 - hotick
-  - 🇯🇵 日本 (Japan) 145 - hotick
-  - 🇯🇵 日本 (Japan) 146 - hotick
-  - 🇯🇵 日本 (Japan) 147 - hotick
-  - 🇯🇵 日本 (Japan) 148 - hotick
-  - 🇯🇵 日本 (Japan) 149 - hotick
-  - 🇯🇵 日本 (Japan) 150 - hotick
-  - 🇯🇵 日本 (Japan) 151 - hotick
-  - 🇯🇵 日本 (Japan) 152 - hotick
-  - 🇯🇵 日本 (Japan) 153 - hotick
-  - 🇯🇵 日本 (Japan) 154 - hotick
-  - 🇯🇵 日本 (Japan) 155 - hotick
-  - 🇯🇵 日本 (Japan) 156 - hotick
-  - 🇯🇵 日本 (Japan) 157 - hotick
-  - 🇯🇵 日本 (Japan) 158 - hotick
-  - 🇯🇵 日本 (Japan) 159 - hotick
-  - 🇯🇵 日本 (Japan) 160 - hotick
-  - 🇯🇵 日本 (Japan) 161 - hotick
-  - 🇯🇵 日本 (Japan) 162 - hotick
-  - 🇯🇵 日本 (Japan) 163 - hotick
-  - 🇯🇵 日本 (Japan) 164 - hotick
-  - 🇯🇵 日本 (Japan) 165 - hotick
-  - 🇯🇵 日本 (Japan) 166 - hotick
-  - 🇯🇵 日本 (Japan) 167 - hotick
-  - 🇯🇵 日本 (Japan) 168 - hotick
-  - 🇯🇵 日本 (Japan) 169 - hotick
-  - 🇯🇵 日本 (Japan) 170 - hotick
-  - 🇯🇵 日本 (Japan) 171 - hotick
-  - 🇯🇵 日本 (Japan) 172 - hotick
-  - 🇯🇵 日本 (Japan) 173 - hotick
-  - 🇯🇵 日本 (Japan) 174 - hotick
-  - 🇯🇵 日本 (Japan) 175 - hotick
-  - 🇯🇵 日本 (Japan) 176 - hotick
-  - 🇯🇵 日本 (Japan) 177 - hotick
-  - 🇯🇵 日本 (Japan) 178 - hotick
-  - 🇯🇵 日本 (Japan) 179 - hotick
 rules:
 - MATCH,PROXIES

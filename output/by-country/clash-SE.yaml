@@ -5,21 +5,39 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇸🇪 瑞典 (Sweden) 01 - hotick
-  server: cloudinary.com
+  server: svip.skycon808.com
+  port: 60005
+  udp: true
+  type: anytls
+  password: 13f0acfa-38c1-4e82-a758-583aa31740df
+  sni: xjp18.2uuzhe.com
+  skip-cert-verify: true
+- name: 🇸🇪 瑞典 (Sweden) 02 - hotick
+  server: media.vik.lalibobi.online
   port: 443
   udp: true
   type: vless
-  uuid: e818a20d-9bcd-4744-9061-ca51b9c8aeea
+  uuid: 21ffcccd-8fbe-43fb-9dd1-24452fdfa8ad
   tls: true
-  servername: wallweb-4ez.pages.dev
+  servername: media.vik.lalibobi.online
   skip-cert-verify: false
-  client-fingerprint: chrome
+  client-fingerprint: firefox
   network: ws
   ws-opts:
-    path: /
+    path: /live/showroom
     headers:
-      Host: wallweb-4ez.pages.dev
-- name: 🇸🇪 瑞典 (Sweden) 02 - hotick
+      Host: media.vik.lalibobi.online
+- name: 🇸🇪 瑞典 (Sweden) 03 - hotick
+  server: 77.110.96.201
+  port: 36264
+  udp: true
+  type: hysteria2
+  password: Telegram-vpnjey
+  sni: se.vpnjey2.dpdns.org
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: Telegram@vpnjey
+- name: 🇸🇪 瑞典 (Sweden) 04 - hotick
   server: 5.178.109.174
   port: 14430
   udp: true
@@ -30,7 +48,7 @@ proxies:
     path: /vless
     headers:
       Host: 5.178.109.174
-- name: 🇸🇪 瑞典 (Sweden) 03 - hotick
+- name: 🇸🇪 瑞典 (Sweden) 05 - hotick
   server: 185.58.115.62
   port: 443
   udp: true
@@ -42,40 +60,7 @@ proxies:
     public-key: 13nLTYkdBEFR-A4CfK2beOx-5LKEsXh1QHPq8Kt52BQ
     short-id: 7271129440ade8fa
   servername: se2.gderevievsvideos.fyi
-  client-fingerprint: chrome
-- name: 🇸🇪 瑞典 (Sweden) 04 - hotick
-  server: 77.110.96.201
-  port: 36264
-  udp: true
-  type: hysteria2
-  password: Telegram-vpnjey
-  sni: se.vpnjey2.dpdns.org
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: Telegram@vpnjey
-- name: 🇸🇪 瑞典 (Sweden) 05 - hotick
-  server: 94.143.231.146
-  port: 443
-  udp: true
-  type: vless
-  uuid: 6e05822a-e9da-4135-a9db-71aa07a944af
-  tls: true
-  servername: sub.merky.top
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /merky-connect/de6/
-    headers:
-      Host: sub.merky.top
-- name: 🇸🇪 瑞典 (Sweden) 06 - hotick
-  server: svip.skycon808.com
-  port: 60005
-  udp: true
-  type: anytls
-  password: 13f0acfa-38c1-4e82-a758-583aa31740df
-  sni: xjp18.2uuzhe.com
-  skip-cert-verify: true
+  client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
   type: select
@@ -86,7 +71,6 @@ proxy-groups:
   - 🇸🇪 瑞典 (Sweden) 03 - hotick
   - 🇸🇪 瑞典 (Sweden) 04 - hotick
   - 🇸🇪 瑞典 (Sweden) 05 - hotick
-  - 🇸🇪 瑞典 (Sweden) 06 - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -97,6 +81,5 @@ proxy-groups:
   - 🇸🇪 瑞典 (Sweden) 03 - hotick
   - 🇸🇪 瑞典 (Sweden) 04 - hotick
   - 🇸🇪 瑞典 (Sweden) 05 - hotick
-  - 🇸🇪 瑞典 (Sweden) 06 - hotick
 rules:
 - MATCH,PROXIES
