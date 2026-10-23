@@ -22,7 +22,15 @@ proxies:
   uuid: 9464ca40-dd75-3742-a628-d931a9f413b2
   alterId: 0
   cipher: auto
-- name: 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - hotick
+- name: 🇭🇰 中国香港 (Hong Kong) 03 (移动家宽) - hotick
+  server: dog-hk.kunlun01dns.com
+  port: 21021
+  udp: true
+  type: vmess
+  uuid: 9464ca40-dd75-3742-a628-d931a9f413b2
+  alterId: 0
+  cipher: auto
+- name: 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - hotick
   server: 61.230.160.34
   port: 24215
   udp: true
@@ -33,21 +41,23 @@ proxies:
     public-key: mdWKUPMVTtTbDqK10BPb89OcqBC2-Lx-4NOYtqc1GWE
   servername: addons.mozilla.org
   client-fingerprint: firefox
-- name: 🇮🇳 印度 (India) 04 (家宽) - hotick
-  server: 122.176.216.52
-  port: 443
+- name: 🇹🇷 土耳其 (Turkey) 05 (移动家宽) - hotick
+  server: 206.1.99.36
+  port: 58202
   udp: true
-  type: vless
-  uuid: 16ae3ea5-cf3e-6973-7bf3-2b4b28d0ea88
-  tls: true
-  servername: app-6ada5023.deploy.meerasolution.com
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /ws/16ae3ea5-cf3e-6973-7bf3-2b4b28d0ea88
-    headers:
-      Host: app-6ada5023.deploy.meerasolution.com
-- name: 🇭🇰 中国香港 (Hong Kong) 05 (家宽) - hotick
+  type: vmess
+  uuid: 482e7f58-e8e8-418d-accd-0a94bdf090ae
+  alterId: 0
+  cipher: auto
+- name: 🇭🇰 中国香港 (Hong Kong) 06 (移动家宽) - hotick
+  server: dog-hk.kunlun01dns.com
+  port: 21019
+  udp: true
+  type: vmess
+  uuid: 9464ca40-dd75-3742-a628-d931a9f413b2
+  alterId: 0
+  cipher: auto
+- name: 🇭🇰 中国香港 (Hong Kong) 07 (家宽) - hotick
   server: 56481.df6h451rh.xin
   port: 443
   udp: true
@@ -62,9 +72,11 @@ proxy-groups:
   - AUTO
   - 🇺🇸 美国 (United States) 01 (家宽) - hotick
   - 🇭🇰 中国香港 (Hong Kong) 02 (移动家宽) - hotick
-  - 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - hotick
-  - 🇮🇳 印度 (India) 04 (家宽) - hotick
-  - 🇭🇰 中国香港 (Hong Kong) 05 (家宽) - hotick
+  - 🇭🇰 中国香港 (Hong Kong) 03 (移动家宽) - hotick
+  - 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - hotick
+  - 🇹🇷 土耳其 (Turkey) 05 (移动家宽) - hotick
+  - 🇭🇰 中国香港 (Hong Kong) 06 (移动家宽) - hotick
+  - 🇭🇰 中国香港 (Hong Kong) 07 (家宽) - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -72,8 +84,10 @@ proxy-groups:
   proxies:
   - 🇺🇸 美国 (United States) 01 (家宽) - hotick
   - 🇭🇰 中国香港 (Hong Kong) 02 (移动家宽) - hotick
-  - 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - hotick
-  - 🇮🇳 印度 (India) 04 (家宽) - hotick
-  - 🇭🇰 中国香港 (Hong Kong) 05 (家宽) - hotick
+  - 🇭🇰 中国香港 (Hong Kong) 03 (移动家宽) - hotick
+  - 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - hotick
+  - 🇹🇷 土耳其 (Turkey) 05 (移动家宽) - hotick
+  - 🇭🇰 中国香港 (Hong Kong) 06 (移动家宽) - hotick
+  - 🇭🇰 中国香港 (Hong Kong) 07 (家宽) - hotick
 rules:
 - MATCH,PROXIES

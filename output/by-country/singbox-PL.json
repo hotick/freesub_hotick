@@ -4,24 +4,20 @@
   },
   "outbounds": [
     {
-      "type": "shadowsocks",
+      "type": "hysteria2",
       "tag": "🇵🇱 波兰 (Poland) 01 - hotick",
-      "server": "217.30.10.44",
-      "server_port": 9042,
-      "method": "aes-256-cfb",
-      "password": "S7KwUu7yBy58S3Ga"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 02 - hotick",
-      "server": "217.30.10.44",
-      "server_port": 9062,
-      "method": "aes-256-cfb",
-      "password": "tkhHVxxfM2QErBWe"
+      "server": "scrap.halyvanedorogo.ru",
+      "server_port": 35076,
+      "password": "b4c8ee9caa74b7ba0a61",
+      "tls": {
+        "enabled": true,
+        "server_name": "scrap.halyvanedorogo.ru",
+        "insecure": true
+      }
     },
     {
       "type": "vless",
-      "tag": "🇵🇱 波兰 (Poland) 03 - hotick",
+      "tag": "🇵🇱 波兰 (Poland) 02 - hotick",
       "server": "82.118.22.161",
       "server_port": 443,
       "uuid": "05488656-d4bf-4634-8b2e-e4ff5a56c7e2",
@@ -42,7 +38,7 @@
     },
     {
       "type": "vmess",
-      "tag": "🇵🇱 波兰 (Poland) 04 - hotick",
+      "tag": "🇵🇱 波兰 (Poland) 03 - hotick",
       "server": "54.37.131.126",
       "server_port": 80,
       "uuid": "6deef9ad-1357-443d-f95c-cb18952c20b3",
@@ -57,30 +53,14 @@
     },
     {
       "type": "trojan",
-      "tag": "🇵🇱 波兰 (Poland) 05 - hotick",
+      "tag": "🇵🇱 波兰 (Poland) 04 - hotick",
       "server": "92.118.150.146",
       "server_port": 443,
       "password": "Trojan@82164024",
       "tls": {
         "enabled": true,
         "server_name": "pl.tronsg.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇵🇱 波兰 (Poland) 06 - hotick",
-      "server": "scrap.halyvanedorogo.ru",
-      "server_port": 35076,
-      "password": "b4c8ee9caa74b7ba0a61",
-      "tls": {
-        "enabled": true,
-        "server_name": "scrap.halyvanedorogo.ru",
-        "insecure": true
+        "insecure": false
       }
     },
     {
@@ -91,9 +71,7 @@
         "🇵🇱 波兰 (Poland) 01 - hotick",
         "🇵🇱 波兰 (Poland) 02 - hotick",
         "🇵🇱 波兰 (Poland) 03 - hotick",
-        "🇵🇱 波兰 (Poland) 04 - hotick",
-        "🇵🇱 波兰 (Poland) 05 - hotick",
-        "🇵🇱 波兰 (Poland) 06 - hotick"
+        "🇵🇱 波兰 (Poland) 04 - hotick"
       ]
     },
     {
@@ -103,9 +81,7 @@
         "🇵🇱 波兰 (Poland) 01 - hotick",
         "🇵🇱 波兰 (Poland) 02 - hotick",
         "🇵🇱 波兰 (Poland) 03 - hotick",
-        "🇵🇱 波兰 (Poland) 04 - hotick",
-        "🇵🇱 波兰 (Poland) 05 - hotick",
-        "🇵🇱 波兰 (Poland) 06 - hotick"
+        "🇵🇱 波兰 (Poland) 04 - hotick"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
