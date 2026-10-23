@@ -23,19 +23,19 @@ proxies:
     public-key: hlY5ce1UsVIgE46y5PlEZhUsSaXUnCtoDLLaGrhInjw
     short-id: 23d0950d60bc0d5b
   servername: gateway.icloud.com
-  client-fingerprint: chrome
+  client-fingerprint: firefox
 - name: 🇨🇿 捷克 (Czech) 03 - hotick
   server: 193.124.17.190
   port: 443
   udp: true
   type: vless
-  uuid: d84c13b2-c2b9-4a7c-838f-05ac09ee422e
+  uuid: 68cf8d29-5aa0-44b3-88a9-f1a576b6e84c
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
     public-key: J-dv-HrWfQ_IOoyutv0Kg-rO8QwoRwc02dS1dS_tblk
-    short-id: 2a2ce9e42980
-  servername: www.mozilla.org
+    short-id: 73a9e631a09b
+  servername: www.microsoft.com
   client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES

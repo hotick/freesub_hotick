@@ -28,7 +28,7 @@ proxies:
     public-key: sZAJkAu23wp1WKY-qeaeiwR38izP5OyfhumoE9xhbB8
     short-id: f46cd3ea3d1eb72d
   servername: www.datadoghq.com
-  client-fingerprint: random
+  client-fingerprint: chrome
 - name: 🇹🇷 土耳其 (Turkey) 03 - hotick
   server: 153.56.210.134
   port: 34121
@@ -55,18 +55,18 @@ proxies:
   grpc-opts:
     grpc-service-name: GunService
 - name: 🇹🇷 土耳其 (Turkey) 05 - hotick
-  server: 194.116.236.113
+  server: trend.eidoslab.link
   port: 443
   udp: true
   type: vless
-  uuid: 9c794bb7-54fe-4acd-844a-a26209af36c3
+  uuid: 7072eeba-94fd-4fb3-92f2-a4506dd84cd8
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: 13nLTYkdBEFR-A4CfK2beOx-5LKEsXh1QHPq8Kt52BQ
-    short-id: 7271129440ade8fa
-  servername: api.mskvibe.fyi
-  client-fingerprint: firefox
+    public-key: p7X0vRL9R-23Ey-MZZZj7FY0g87nQq0Jzc01DwuryRk
+    short-id: 7597c5df264bcc10
+  servername: trend.eidoslab.link
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
