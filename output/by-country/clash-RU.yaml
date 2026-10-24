@@ -5,44 +5,31 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 - hotick
-  server: 104.17.100.185
-  port: 443
+  server: 45.9.118.177
+  port: 8443
   udp: true
   type: vless
-  uuid: 1e922b22-d169-4461-89c1-07e09ff2617c
+  uuid: 88c4ce99-31f1-4329-912d-2a3564b3d58b
+  flow: xtls-rprx-vision
   tls: true
-  servername: vlesss.xttd.eu.org
-  skip-cert-verify: false
-  client-fingerprint: safari
-  network: ws
-  ws-opts:
-    path: /proxyip=proxyip.fxxk.dedyn.io
-    headers:
-      Host: vlesss.xttd.eu.org
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  servername: apple.com
+  client-fingerprint: firefox
 - name: 🇷🇺 俄罗斯 (Russia) 02 - hotick
-  server: 104.25.5.52
+  server: 113.30.154.237
   port: 443
   udp: true
   type: vless
-  uuid: 93fa8bdb-9cca-4a3e-8355-b7c12e4f595e
+  uuid: 8a1f8853-9a71-4ef2-a64c-4f0a94c2e14b
+  flow: xtls-rprx-vision
   tls: true
-  servername: FORnEwIRAn.ADE-1000.worKeRS.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /vl/yLWNcuUuw1jlJpkDhGy?ed=2560
-    headers:
-      Host: fornewiran.ade-1000.workers.dev
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  servername: ozon.ru
+  client-fingerprint: firefox
 - name: 🇷🇺 俄罗斯 (Russia) 03 - hotick
-  server: 195.58.49.34
-  port: 18443
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: Lpq5UPVHtQYiuB9jEUNc2WkeIYCUH9DE
-- name: 🇷🇺 俄罗斯 (Russia) 04 - hotick
-  server: 185.88.173.186
+  server: 103.91.147.215
   port: 443
   udp: true
   type: vless
@@ -53,7 +40,7 @@ proxies:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
   servername: abuse.ozon.ru
   client-fingerprint: firefox
-- name: 🇷🇺 俄罗斯 (Russia) 05 - hotick
+- name: 🇷🇺 俄罗斯 (Russia) 04 - hotick
   server: 193.160.141.2
   port: 8443
   udp: true
@@ -65,55 +52,129 @@ proxies:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
   servername: apple.com
   client-fingerprint: chrome
+- name: 🇷🇺 俄罗斯 (Russia) 05 - hotick
+  server: 147.45.47.76
+  port: 443
+  udp: true
+  type: vless
+  uuid: 8a1f8853-9a71-4ef2-a64c-4f0a94c2e14b
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  servername: abuse.ozon.ru
+  client-fingerprint: qq
 - name: 🇷🇺 俄罗斯 (Russia) 06 - hotick
-  server: 130.49.189.158
-  port: 43558
+  server: 103.91.147.247
+  port: 443
   udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: rWIg16plgZ82V7MTNcw1UTgiYK4ooPUB95qVhKIwIDc=
+  type: vless
+  uuid: 8a1f8853-9a71-4ef2-a64c-4f0a94c2e14b
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  servername: ozon.ru
+  client-fingerprint: firefox
 - name: 🇷🇺 俄罗斯 (Russia) 07 - hotick
-  server: 195.133.5.194
-  port: 18443
+  server: 45.151.71.152
+  port: 443
   udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: NTiHBg64fsY8u8DbGrtypD9gPGSL386p
+  type: vless
+  uuid: 8a1f8853-9a71-4ef2-a64c-4f0a94c2e14b
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  servername: abuse.ozon.ru
+  client-fingerprint: firefox
 - name: 🇷🇺 俄罗斯 (Russia) 08 - hotick
+  server: 45.151.71.164
+  port: 443
+  udp: true
+  type: vless
+  uuid: 8a1f8853-9a71-4ef2-a64c-4f0a94c2e14b
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  servername: abuse.ozon.ru
+  client-fingerprint: firefox
+- name: 🇷🇺 俄罗斯 (Russia) 09 - hotick
+  server: 147.45.47.83
+  port: 443
+  udp: true
+  type: vless
+  uuid: 8a1f8853-9a71-4ef2-a64c-4f0a94c2e14b
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  servername: ozon.ru
+  client-fingerprint: firefox
+- name: 🇷🇺 俄罗斯 (Russia) 10 - hotick
   server: 176.32.33.153
   port: 18443
   udp: true
   type: ss
   cipher: aes-256-gcm
   password: cCMJgJTA3BA489YUYrFq7XHXSiSpWlLa
-- name: 🇷🇺 俄罗斯 (Russia) 09 - hotick
+- name: 🇷🇺 俄罗斯 (Russia) 11 - hotick
+  server: 130.49.189.158
+  port: 43558
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: rWIg16plgZ82V7MTNcw1UTgiYK4ooPUB95qVhKIwIDc=
+- name: 🇷🇺 俄罗斯 (Russia) 12 - hotick
   server: 193.233.253.180
   port: 8444
   udp: true
   type: vless
-  uuid: a346c521-7a7f-452b-9356-a4893feb5982
+  uuid: f55e9aba-7b14-4f6f-b59a-d5b3d45c9309
   tls: true
   reality-opts:
     public-key: FWitre1jinQR7qz5HQ0q2Q4Gg9xA9B0SyizCziN7Ch0
+    short-id: 457fab2ac885dbe0
   servername: github.com
-  client-fingerprint: firefox
+  client-fingerprint: chrome
   network: grpc
   grpc-opts:
     grpc-service-name: GunService
-- name: 🇷🇺 俄罗斯 (Russia) 10 - hotick
-  server: 157.22.240.50
-  port: 443
+- name: 🇷🇺 俄罗斯 (Russia) 13 - hotick
+  server: 195.58.49.34
+  port: 18443
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: Lpq5UPVHtQYiuB9jEUNc2WkeIYCUH9DE
+- name: 🇷🇺 俄罗斯 (Russia) 14 - hotick
+  server: du-rov.secureservice.top
+  port: 8443
   udp: true
   type: vless
-  uuid: iCaYLyqSFgn5Nt
+  uuid: c53ea5e9-ed8b-4990-805d-7f1d6451426c
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: XMvZvBbY8rIlWFNGB6IDzDOf-xBPm4737KN9weKltBc
-    short-id: f5bce2ac
-  servername: www.ovhcloud.com
+    public-key: fSVfR9NB-6J6smrZlavi0GWd8JfDh0aXuEkKbtuFzUI
+    short-id: 3cbc3d737fb9c4af
+  servername: du-rov.secureservice.top
   client-fingerprint: chrome
-- name: 🇷🇺 俄罗斯 (Russia) 11 - hotick
+- name: 🇷🇺 俄罗斯 (Russia) 15 - hotick
+  server: 194.87.143.165
+  port: 8443
+  udp: true
+  type: vless
+  uuid: f9613819-d2fe-4b3a-a2e6-40c184c6854c
+  tls: true
+  servername: wsru1.wba-pn.ru
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+- name: 🇷🇺 俄罗斯 (Russia) 16 - hotick
   server: 46.243.142.104
   port: 443
   udp: true
@@ -128,22 +189,46 @@ proxies:
     path: /media/stream/qUWu2oaFgxAw
     headers:
       Host: santehdv.site
-- name: 🇷🇺 俄罗斯 (Russia) 12 - hotick
-  server: 194.87.143.165
-  port: 8443
+- name: 🇷🇺 俄罗斯 (Russia) 17 - hotick
+  server: 45.12.75.242
+  port: 26424
   udp: true
   type: vless
-  uuid: f9613819-d2fe-4b3a-a2e6-40c184c6854c
+  uuid: 633f424e-2b11-48da-a6b3-a849dd71456f
   tls: true
-  servername: wsru1.wba-pn.ru
-  skip-cert-verify: false
+  reality-opts:
+    public-key: l8AubqcxQO-HRFJy4pZL1vbLOo-eXit69s-XulSELE0
+    short-id: 23103e1e
+  servername: ya.ru
   client-fingerprint: chrome
+- name: 🇷🇺 俄罗斯 (Russia) 18 - hotick
+  server: xsru2.freeddns.org
+  port: 443
+  udp: true
+  type: vless
+  uuid: c90395e6-2140-47ad-a54d-9b166729d3ef
+  tls: true
+  servername: xsru2.freeddns.org
+  skip-cert-verify: false
+  client-fingerprint: random
   network: ws
   ws-opts:
-    path: /
+    path: /wsru
     headers:
-      Host: 194.87.143.165
-- name: 🇷🇺 俄罗斯 (Russia) 13 - hotick
+      Host: xsru2.freeddns.org
+- name: 🇷🇺 俄罗斯 (Russia) 19 - hotick
+  server: 113.30.154.221
+  port: 443
+  udp: true
+  type: vless
+  uuid: 8a1f8853-9a71-4ef2-a64c-4f0a94c2e14b
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  servername: abuse.ozon.ru
+  client-fingerprint: firefox
+- name: 🇷🇺 俄罗斯 (Russia) 20 - hotick
   server: 5.42.99.64
   port: 8443
   udp: true
@@ -156,7 +241,20 @@ proxies:
     short-id: 3cbc3d737fb9c4af
   servername: du-rov.secureservice.top
   client-fingerprint: random
-- name: 🇷🇺 俄罗斯 (Russia) 14 - hotick
+- name: 🇷🇺 俄罗斯 (Russia) 21 - hotick
+  server: xsru1.ddnsfree.com
+  port: 443
+  udp: true
+  type: vless
+  uuid: c90395e6-2140-47ad-a54d-9b166729d3ef
+  tls: true
+  servername: xsru1.ddnsfree.com
+  skip-cert-verify: false
+  client-fingerprint: random
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-ru
+- name: 🇷🇺 俄罗斯 (Russia) 22 - hotick
   server: 147.45.175.81
   port: 443
   udp: true
@@ -169,30 +267,6 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: grpc-ru
-- name: 🇷🇺 俄罗斯 (Russia) 15 - hotick
-  server: 45.12.75.242
-  port: 26424
-  udp: true
-  type: vless
-  uuid: 633f424e-2b11-48da-a6b3-a849dd71456f
-  tls: true
-  reality-opts:
-    public-key: l8AubqcxQO-HRFJy4pZL1vbLOo-eXit69s-XulSELE0
-    short-id: 23103e1e
-  servername: ya.ru
-  client-fingerprint: chrome
-- name: 🇷🇺 俄罗斯 (Russia) 16 - hotick
-  server: 77.90.61.135
-  port: 443
-  udp: true
-  type: vless
-  uuid: 8815925b-c7b8-4f94-9c24-9dc864f63a29
-  tls: true
-  reality-opts:
-    public-key: XlEzAhUOUC-hZA2Uk2sctG5WR9lPeAUAHGNQVu9oAVg
-    short-id: ce1dc482
-  servername: www.cloudflare.com
-  client-fingerprint: random
 proxy-groups:
 - name: PROXIES
   type: select
@@ -214,6 +288,12 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 14 - hotick
   - 🇷🇺 俄罗斯 (Russia) 15 - hotick
   - 🇷🇺 俄罗斯 (Russia) 16 - hotick
+  - 🇷🇺 俄罗斯 (Russia) 17 - hotick
+  - 🇷🇺 俄罗斯 (Russia) 18 - hotick
+  - 🇷🇺 俄罗斯 (Russia) 19 - hotick
+  - 🇷🇺 俄罗斯 (Russia) 20 - hotick
+  - 🇷🇺 俄罗斯 (Russia) 21 - hotick
+  - 🇷🇺 俄罗斯 (Russia) 22 - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -235,5 +315,11 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 14 - hotick
   - 🇷🇺 俄罗斯 (Russia) 15 - hotick
   - 🇷🇺 俄罗斯 (Russia) 16 - hotick
+  - 🇷🇺 俄罗斯 (Russia) 17 - hotick
+  - 🇷🇺 俄罗斯 (Russia) 18 - hotick
+  - 🇷🇺 俄罗斯 (Russia) 19 - hotick
+  - 🇷🇺 俄罗斯 (Russia) 20 - hotick
+  - 🇷🇺 俄罗斯 (Russia) 21 - hotick
+  - 🇷🇺 俄罗斯 (Russia) 22 - hotick
 rules:
 - MATCH,PROXIES

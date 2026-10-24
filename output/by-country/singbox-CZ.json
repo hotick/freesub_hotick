@@ -14,34 +14,13 @@
     {
       "type": "vless",
       "tag": "🇨🇿 捷克 (Czech) 02 - hotick",
-      "server": "195.123.245.241",
-      "server_port": 443,
-      "uuid": "7c053ca8-38cc-45e2-930c-eda1fd66f903",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "gateway.icloud.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "hlY5ce1UsVIgE46y5PlEZhUsSaXUnCtoDLLaGrhInjw",
-          "short_id": "23d0950d60bc0d5b"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇿 捷克 (Czech) 03 - hotick",
       "server": "193.124.17.190",
       "server_port": 443,
-      "uuid": "1896c6c9-a941-4688-a865-29027bf7f8e6",
+      "uuid": "6dfc9149-1ff9-41c3-8563-0ef284381731",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.microsoft.com",
+        "server_name": "www.tradingview.com",
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
@@ -49,28 +28,7 @@
         "reality": {
           "enabled": true,
           "public_key": "J-dv-HrWfQ_IOoyutv0Kg-rO8QwoRwc02dS1dS_tblk",
-          "short_id": "6c825bc79850"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇿 捷克 (Czech) 04 - hotick",
-      "server": "edge.jagavps.ru",
-      "server_port": 443,
-      "uuid": "736d08e1-27b0-4ec2-a5e0-4575e24da6b5",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "edge.jagavps.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "NiUsL7f8tuEUltpr9UC98fnZQs510PlQDCCi32WbgAA",
-          "short_id": ""
+          "short_id": "1374bddeb25d"
         }
       }
     },
@@ -80,9 +38,7 @@
       "outbounds": [
         "auto",
         "🇨🇿 捷克 (Czech) 01 - hotick",
-        "🇨🇿 捷克 (Czech) 02 - hotick",
-        "🇨🇿 捷克 (Czech) 03 - hotick",
-        "🇨🇿 捷克 (Czech) 04 - hotick"
+        "🇨🇿 捷克 (Czech) 02 - hotick"
       ]
     },
     {
@@ -90,9 +46,7 @@
       "tag": "auto",
       "outbounds": [
         "🇨🇿 捷克 (Czech) 01 - hotick",
-        "🇨🇿 捷克 (Czech) 02 - hotick",
-        "🇨🇿 捷克 (Czech) 03 - hotick",
-        "🇨🇿 捷克 (Czech) 04 - hotick"
+        "🇨🇿 捷克 (Czech) 02 - hotick"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

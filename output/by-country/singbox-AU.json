@@ -4,64 +4,8 @@
   },
   "outbounds": [
     {
-      "type": "vless",
-      "tag": "🇦🇺 澳大利亚 (Australia) 01 - hotick",
-      "server": "188.114.97.6",
-      "server_port": 80,
-      "uuid": "6faeb6a0-5055-4e4b-8fb1-ffd77e57aefa",
-      "transport": {
-        "type": "ws",
-        "path": "/au-do",
-        "headers": {
-          "Host": "somersby.pt.r3xxe.eu.cc"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇦🇺 澳大利亚 (Australia) 02 - hotick",
-      "server": "104.18.155.229",
-      "server_port": 443,
-      "uuid": "42026ed0-7d74-4585-8e46-0fe6aa4d665a",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.genflix.co.id.r3xxe.eu.cc",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/au-do",
-        "headers": {
-          "Host": "www.genflix.co.id.r3xxe.eu.cc"
-        }
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇦🇺 澳大利亚 (Australia) 03 - hotick",
-      "server": "185.18.250.252",
-      "server_port": 443,
-      "password": "74480619-b6a8-4ab8-94e1-1132fc18b2fa",
-      "tls": {
-        "enabled": true,
-        "server_name": "unnes.ac.id.r3xxe.eu.cc",
-        "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/au-mt",
-        "headers": {
-          "Host": "unnes.ac.id.r3xxe.eu.cc"
-        }
-      }
-    },
-    {
       "type": "hysteria2",
-      "tag": "🇦🇺 澳大利亚 (Australia) 04 - hotick",
+      "tag": "🇦🇺 澳大利亚 (Australia) 01 - hotick",
       "server": "152.67.115.203",
       "server_port": 443,
       "password": "633bc3be486b646190661ac2387c150a",
@@ -74,6 +18,63 @@
         "type": "salamander",
         "password": "850a3fb1cd33a28f12d837578ae1a2e7"
       }
+    },
+    {
+      "type": "vless",
+      "tag": "🇦🇺 澳大利亚 (Australia) 02 - hotick",
+      "server": "51.161.204.242",
+      "server_port": 443,
+      "uuid": "a14b736b-a92a-48d6-a596-5d31f7378ded",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "a2qGjvUPq6Nz5FTbn_MSHp-055q2h8YXqIL5VIJ5zwE",
+          "short_id": "d15c17cef9b2e456"
+        }
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇦🇺 澳大利亚 (Australia) 03 - hotick",
+      "server": "158.178.137.129",
+      "password": "b42d90fa667942aebc734d60",
+      "tls": {
+        "enabled": true,
+        "server_name": "rmgyvpn.rest",
+        "insecure": false
+      },
+      "obfs": {
+        "type": "salamander",
+        "password": "b42d90fa667942aebc734d60"
+      },
+      "server_ports": [
+        "20000:30000"
+      ]
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇦🇺 澳大利亚 (Australia) 04 - hotick",
+      "server": "137.23.3.91",
+      "password": "a34f3990b69f44bfa0d32385",
+      "tls": {
+        "enabled": true,
+        "server_name": "rmgyvpn.rest",
+        "insecure": false
+      },
+      "obfs": {
+        "type": "salamander",
+        "password": "a34f3990b69f44bfa0d32385"
+      },
+      "server_ports": [
+        "20000:30000"
+      ]
     },
     {
       "type": "vless",
@@ -97,46 +98,6 @@
       }
     },
     {
-      "type": "hysteria2",
-      "tag": "🇦🇺 澳大利亚 (Australia) 06 - hotick",
-      "server": "158.178.137.129",
-      "password": "b42d90fa667942aebc734d60",
-      "tls": {
-        "enabled": true,
-        "server_name": "rmgyvpn.rest",
-        "insecure": true
-      },
-      "obfs": {
-        "type": "salamander",
-        "password": "b42d90fa667942aebc734d60"
-      },
-      "server_ports": [
-        "20000:30000",
-        "20000:20000"
-      ]
-    },
-    {
-      "type": "vless",
-      "tag": "🇦🇺 澳大利亚 (Australia) 07 - hotick",
-      "server": "funagfrdfs.alixxplay.com",
-      "server_port": 54528,
-      "uuid": "57beeeb0-03fc-4fc9-94da-7604488a7134",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.apple.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "7GvJVbR6BRhtrc8-rcZvB8qTFUF1LPeM_MmoZ04mBxo",
-          "short_id": "54cca3c1c1c7"
-        }
-      }
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
@@ -145,9 +106,7 @@
         "🇦🇺 澳大利亚 (Australia) 02 - hotick",
         "🇦🇺 澳大利亚 (Australia) 03 - hotick",
         "🇦🇺 澳大利亚 (Australia) 04 - hotick",
-        "🇦🇺 澳大利亚 (Australia) 05 - hotick",
-        "🇦🇺 澳大利亚 (Australia) 06 - hotick",
-        "🇦🇺 澳大利亚 (Australia) 07 - hotick"
+        "🇦🇺 澳大利亚 (Australia) 05 - hotick"
       ]
     },
     {
@@ -158,9 +117,7 @@
         "🇦🇺 澳大利亚 (Australia) 02 - hotick",
         "🇦🇺 澳大利亚 (Australia) 03 - hotick",
         "🇦🇺 澳大利亚 (Australia) 04 - hotick",
-        "🇦🇺 澳大利亚 (Australia) 05 - hotick",
-        "🇦🇺 澳大利亚 (Australia) 06 - hotick",
-        "🇦🇺 澳大利亚 (Australia) 07 - hotick"
+        "🇦🇺 澳大利亚 (Australia) 05 - hotick"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
