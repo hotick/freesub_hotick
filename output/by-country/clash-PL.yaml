@@ -5,14 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇵🇱 波兰 (Poland) 01 - hotick
-  server: scrap.halyvanedorogo.ru
-  port: 35076
-  udp: true
-  type: hysteria2
-  password: b4c8ee9caa74b7ba0a61
-  sni: scrap.halyvanedorogo.ru
-  skip-cert-verify: true
-- name: 🇵🇱 波兰 (Poland) 02 - hotick
   server: 82.118.22.161
   port: 443
   udp: true
@@ -25,7 +17,21 @@ proxies:
     short-id: fa3ea655619a3e78
   servername: www.cloudflare.com
   client-fingerprint: chrome
+- name: 🇵🇱 波兰 (Poland) 02 - hotick
+  server: pl.tronsg.com
+  port: 443
+  udp: true
+  type: trojan
+  password: Trojan@82164024
+  sni: pl.tronsg.com
+  skip-cert-verify: false
 - name: 🇵🇱 波兰 (Poland) 03 - hotick
+  server: site.teslamotor.site
+  port: 20001
+  udp: true
+  type: vless
+  uuid: 8e8210b7-71a4-4799-8b9b-2e69698b1eaf
+- name: 🇵🇱 波兰 (Poland) 04 - hotick
   server: 54.37.131.126
   port: 80
   udp: true
@@ -38,14 +44,27 @@ proxies:
     path: /
     headers:
       Host: google.whatsapp.snapp.torob.basalam.hesanid8.ir.
-- name: 🇵🇱 波兰 (Poland) 04 - hotick
-  server: 92.118.150.146
+- name: 🇵🇱 波兰 (Poland) 05 - hotick
+  server: scrap.halyvanedorogo.ru
+  port: 35076
+  udp: true
+  type: hysteria2
+  password: b4c8ee9caa74b7ba0a61
+  sni: scrap.halyvanedorogo.ru
+  skip-cert-verify: true
+- name: 🇵🇱 波兰 (Poland) 06 - hotick
+  server: 150.251.113.34
   port: 443
   udp: true
-  type: trojan
-  password: Trojan@82164024
-  sni: pl.tronsg.com
-  skip-cert-verify: false
+  type: vless
+  uuid: d7d724b5-17ce-4f3c-877d-dfbf0f07afa1
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: 8yMLSTbkpJFfbgTjNzotzz7U8OT6AERrclgKdKrXXW8
+    short-id: 150a627d15154cf2
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
@@ -55,6 +74,8 @@ proxy-groups:
   - 🇵🇱 波兰 (Poland) 02 - hotick
   - 🇵🇱 波兰 (Poland) 03 - hotick
   - 🇵🇱 波兰 (Poland) 04 - hotick
+  - 🇵🇱 波兰 (Poland) 05 - hotick
+  - 🇵🇱 波兰 (Poland) 06 - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -64,5 +85,7 @@ proxy-groups:
   - 🇵🇱 波兰 (Poland) 02 - hotick
   - 🇵🇱 波兰 (Poland) 03 - hotick
   - 🇵🇱 波兰 (Poland) 04 - hotick
+  - 🇵🇱 波兰 (Poland) 05 - hotick
+  - 🇵🇱 波兰 (Poland) 06 - hotick
 rules:
 - MATCH,PROXIES
