@@ -5,30 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 01 - hotick
-  server: 38.107.234.57
-  port: 80
-  udp: true
-  type: vmess
-  uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-opts:
-    path: /vmess/
-    headers:
-      Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
-- name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 02 - hotick
-  server: 46.8.43.125
-  port: 443
-  udp: true
-  type: vless
-  uuid: 846cedee-2a52-4a62-a0b9-11850ead6a8b
-  tls: true
-  reality-opts:
-    public-key: ER-T5En54-sn6IXy7jU8vQVcBbOiWvznnezf3qZ273w
-  servername: kz-central.v8x2b.lol
-  client-fingerprint: firefox
-- name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 03 - hotick
   server: 178.236.16.98
   port: 35728
   udp: true
@@ -39,20 +15,8 @@ proxies:
     public-key: vhUFNoFcvtZAVMo8y5K5eU2V43m5q6yjmWIhp5RkFng
     short-id: 69a2
   servername: yahoo.com
-  client-fingerprint: random
-- name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 04 - hotick
-  server: 83.222.23.81
-  port: 38065
-  udp: true
-  type: vless
-  uuid: 4b9063e0-3288-44e9-9aac-80fbfce323a0
-  tls: true
-  reality-opts:
-    public-key: dSSDPTK6AHfAdRAXD9i4rzqcNIY65RxlF25UyCKdiyo
-    short-id: fa
-  servername: yahoo.com
-  client-fingerprint: firefox
-- name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 05 - hotick
+  client-fingerprint: chrome
+- name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 02 - hotick
   server: 109.248.170.119
   port: 13447
   udp: true
@@ -63,7 +27,19 @@ proxies:
     public-key: _0wM2ep44eAcrgf5PflKaBivknCWT6kMvQBQUoScCkE
     short-id: '83'
   servername: yahoo.com
-  client-fingerprint: chrome
+  client-fingerprint: firefox
+- name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 03 - hotick
+  server: 83.222.23.81
+  port: 38065
+  udp: true
+  type: vless
+  uuid: 4b9063e0-3288-44e9-9aac-80fbfce323a0
+  tls: true
+  reality-opts:
+    public-key: dSSDPTK6AHfAdRAXD9i4rzqcNIY65RxlF25UyCKdiyo
+    short-id: fa
+  servername: yahoo.com
+  client-fingerprint: random
 proxy-groups:
 - name: PROXIES
   type: select
@@ -72,8 +48,6 @@ proxy-groups:
   - 🇰🇿 哈萨克斯坦 (Kazakhstan) 01 - hotick
   - 🇰🇿 哈萨克斯坦 (Kazakhstan) 02 - hotick
   - 🇰🇿 哈萨克斯坦 (Kazakhstan) 03 - hotick
-  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 04 - hotick
-  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 05 - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -82,7 +56,5 @@ proxy-groups:
   - 🇰🇿 哈萨克斯坦 (Kazakhstan) 01 - hotick
   - 🇰🇿 哈萨克斯坦 (Kazakhstan) 02 - hotick
   - 🇰🇿 哈萨克斯坦 (Kazakhstan) 03 - hotick
-  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 04 - hotick
-  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 05 - hotick
 rules:
 - MATCH,PROXIES

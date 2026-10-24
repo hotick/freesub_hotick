@@ -5,25 +5,24 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇵🇱 波兰 (Poland) 01 - hotick
-  server: 217.30.10.44
-  port: 9063
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: aQqJbtwFGcCCaeL3
-- name: 🇵🇱 波兰 (Poland) 02 - hotick
-  server: edge10.cyrionflare.com
-  port: 2052
+  server: 5.22.221.127
+  port: 443
   udp: true
   type: vless
-  uuid: 1a8ecc41-6e62-431b-8eca-87c2fa4dc286
-- name: 🇵🇱 波兰 (Poland) 03 - hotick
+  uuid: 44dfa3a7-f648-4587-819b-e653c0823f28
+- name: 🇵🇱 波兰 (Poland) 02 - hotick
   server: 49.12.249.167
   port: 147
   udp: true
   type: ss
   cipher: chacha20-ietf-poly1305
   password: 5uDrCF_iLoxCiRkKku6f7A
+- name: 🇵🇱 波兰 (Poland) 03 - hotick
+  server: edge10.cyrionflare.com
+  port: 2052
+  udp: true
+  type: vless
+  uuid: 1a8ecc41-6e62-431b-8eca-87c2fa4dc286
 - name: 🇵🇱 波兰 (Poland) 04 - hotick
   server: site.teslamotor.site
   port: 20001
@@ -31,24 +30,49 @@ proxies:
   type: vless
   uuid: 8e8210b7-71a4-4799-8b9b-2e69698b1eaf
 - name: 🇵🇱 波兰 (Poland) 05 - hotick
+  server: ru1.radiolumens.uk
+  port: 8445
+  udp: true
+  type: vless
+  uuid: 36cf792c-f07d-4500-97ea-a395e5178deb
+  tls: true
+  servername: ru1.radiolumens.uk
+  skip-cert-verify: false
+  network: grpc
+  grpc-opts:
+    grpc-service-name: beru-pl
+- name: 🇵🇱 波兰 (Poland) 06 - hotick
   server: 92.118.150.146
   port: 443
   udp: true
   type: trojan
   password: Trojan@82164024
   sni: pl.tronsg.com
-  skip-cert-verify: true
-- name: 🇵🇱 波兰 (Poland) 06 - hotick
-  server: 150.251.113.34
+  skip-cert-verify: false
+- name: 🇵🇱 波兰 (Poland) 07 - hotick
+  server: 54.37.131.126
+  port: 80
+  udp: true
+  type: vmess
+  uuid: 6deef9ad-1357-443d-f95c-cb18952c20b3
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: google.whatsapp.snapp.torob.basalam.hesanid8.ir.
+- name: 🇵🇱 波兰 (Poland) 08 - hotick
+  server: 82.118.22.161
   port: 443
   udp: true
   type: vless
-  uuid: d7d724b5-17ce-4f3c-877d-dfbf0f07afa1
+  uuid: 05488656-d4bf-4634-8b2e-e4ff5a56c7e2
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: 8yMLSTbkpJFfbgTjNzotzz7U8OT6AERrclgKdKrXXW8
-    short-id: 150a627d15154cf2
+    public-key: xY1KpNxaIGmi6jfeudYQ_aaLGQqWK_uHStnwUFd2_2E
+    short-id: fa3ea655619a3e78
   servername: www.cloudflare.com
   client-fingerprint: chrome
 proxy-groups:
@@ -62,6 +86,8 @@ proxy-groups:
   - 🇵🇱 波兰 (Poland) 04 - hotick
   - 🇵🇱 波兰 (Poland) 05 - hotick
   - 🇵🇱 波兰 (Poland) 06 - hotick
+  - 🇵🇱 波兰 (Poland) 07 - hotick
+  - 🇵🇱 波兰 (Poland) 08 - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -73,5 +99,7 @@ proxy-groups:
   - 🇵🇱 波兰 (Poland) 04 - hotick
   - 🇵🇱 波兰 (Poland) 05 - hotick
   - 🇵🇱 波兰 (Poland) 06 - hotick
+  - 🇵🇱 波兰 (Poland) 07 - hotick
+  - 🇵🇱 波兰 (Poland) 08 - hotick
 rules:
 - MATCH,PROXIES

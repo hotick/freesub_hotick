@@ -6,6 +6,40 @@
     {
       "type": "hysteria2",
       "tag": "🇦🇺 澳大利亚 (Australia) 01 - hotick",
+      "server": "158.178.137.129",
+      "server_port": 20000,
+      "password": "b42d90fa667942aebc734d60",
+      "tls": {
+        "enabled": true,
+        "server_name": "rmgyvpn.rest",
+        "insecure": false
+      },
+      "obfs": {
+        "type": "salamander",
+        "password": "b42d90fa667942aebc734d60"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇦🇺 澳大利亚 (Australia) 02 - hotick",
+      "server": "158.178.137.129",
+      "password": "b42d90fa667942aebc734d60",
+      "tls": {
+        "enabled": true,
+        "server_name": "rmgyvpn.rest",
+        "insecure": false
+      },
+      "obfs": {
+        "type": "salamander",
+        "password": "b42d90fa667942aebc734d60"
+      },
+      "server_ports": [
+        "20000:30000"
+      ]
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇦🇺 澳大利亚 (Australia) 03 - hotick",
       "server": "152.67.115.203",
       "server_port": 443,
       "password": "633bc3be486b646190661ac2387c150a",
@@ -21,7 +55,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇦🇺 澳大利亚 (Australia) 02 - hotick",
+      "tag": "🇦🇺 澳大利亚 (Australia) 04 - hotick",
       "server": "51.161.204.242",
       "server_port": 443,
       "uuid": "a14b736b-a92a-48d6-a596-5d31f7378ded",
@@ -42,26 +76,9 @@
     },
     {
       "type": "hysteria2",
-      "tag": "🇦🇺 澳大利亚 (Australia) 03 - hotick",
-      "server": "158.178.137.129",
-      "password": "b42d90fa667942aebc734d60",
-      "tls": {
-        "enabled": true,
-        "server_name": "rmgyvpn.rest",
-        "insecure": false
-      },
-      "obfs": {
-        "type": "salamander",
-        "password": "b42d90fa667942aebc734d60"
-      },
-      "server_ports": [
-        "20000:30000"
-      ]
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇦🇺 澳大利亚 (Australia) 04 - hotick",
+      "tag": "🇦🇺 澳大利亚 (Australia) 05 - hotick",
       "server": "137.23.3.91",
+      "server_port": 20000,
       "password": "a34f3990b69f44bfa0d32385",
       "tls": {
         "enabled": true,
@@ -71,14 +88,11 @@
       "obfs": {
         "type": "salamander",
         "password": "a34f3990b69f44bfa0d32385"
-      },
-      "server_ports": [
-        "20000:30000"
-      ]
+      }
     },
     {
       "type": "vless",
-      "tag": "🇦🇺 澳大利亚 (Australia) 05 - hotick",
+      "tag": "🇦🇺 澳大利亚 (Australia) 06 - hotick",
       "server": "51.161.204.244",
       "server_port": 443,
       "uuid": "36e89875-9c53-482b-bc41-d3890e9da176",
@@ -98,6 +112,27 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "🇦🇺 澳大利亚 (Australia) 07 - hotick",
+      "server": "forwarded.frnhk.xyz",
+      "server_port": 2083,
+      "uuid": "f5f0babe-aea2-4f07-a1fc-3c9820253f49",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.uni-frankfurt.de",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "zDMINFaRxcXKIpCvVD7UW7PJ5ZSYb_DQ3hkGobU07Ro",
+          "short_id": "43ec82"
+        }
+      }
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
@@ -106,7 +141,9 @@
         "🇦🇺 澳大利亚 (Australia) 02 - hotick",
         "🇦🇺 澳大利亚 (Australia) 03 - hotick",
         "🇦🇺 澳大利亚 (Australia) 04 - hotick",
-        "🇦🇺 澳大利亚 (Australia) 05 - hotick"
+        "🇦🇺 澳大利亚 (Australia) 05 - hotick",
+        "🇦🇺 澳大利亚 (Australia) 06 - hotick",
+        "🇦🇺 澳大利亚 (Australia) 07 - hotick"
       ]
     },
     {
@@ -117,7 +154,9 @@
         "🇦🇺 澳大利亚 (Australia) 02 - hotick",
         "🇦🇺 澳大利亚 (Australia) 03 - hotick",
         "🇦🇺 澳大利亚 (Australia) 04 - hotick",
-        "🇦🇺 澳大利亚 (Australia) 05 - hotick"
+        "🇦🇺 澳大利亚 (Australia) 05 - hotick",
+        "🇦🇺 澳大利亚 (Australia) 06 - hotick",
+        "🇦🇺 澳大利亚 (Australia) 07 - hotick"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
