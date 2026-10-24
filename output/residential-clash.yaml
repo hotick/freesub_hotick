@@ -4,47 +4,14 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇺🇸 美国 (United States) 01 (家宽) - hotick
-  server: 155.117.19.17
-  port: 443
+- name: 🇰🇷 韩国 (South Korea) 01 (家宽) - hotick
+  server: 218.237.185.234
+  port: 4652
   udp: true
-  type: hysteria2
-  password: 5fa748137b6d822308eea4611f474ad5
-  sni: www.bing.com
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: a39ca173b57ac7021b08bf3e3de9f1f6
-- name: 🇺🇸 美国 (United States) 02 (家宽) R50 - hotick
-  server: 23.160.56.99
-  port: 2087
-  udp: true
-  type: vless
-  uuid: f1e7eafa-0d6f-441e-8565-29f34171aef2
-- name: 🇭🇰 中国香港 (Hong Kong) 03 (移动家宽) - hotick
-  server: zfd-hkv1.kunlun01dns.com
-  port: 16115
-  udp: true
-  type: vmess
-  uuid: 0802ac03-7973-39ef-a019-ba02de6c01e1
-  alterId: 0
-  cipher: auto
-- name: 🇭🇰 中国香港 (Hong Kong) 04 (移动家宽) - hotick
-  server: dog-hk.kunlun01dns.com
-  port: 21041
-  udp: true
-  type: vmess
-  uuid: 9464ca40-dd75-3742-a628-d931a9f413b2
-  alterId: 0
-  cipher: auto
-- name: 🇭🇰 中国香港 (Hong Kong) 05 (移动家宽) - hotick
-  server: zfd-hkv2.kunlun01dns.com
-  port: 16116
-  udp: true
-  type: vmess
-  uuid: 0802ac03-7973-39ef-a019-ba02de6c01e1
-  alterId: 0
-  cipher: auto
-- name: 🇹🇼 中国台湾 (Taiwan) 06 (家宽) - hotick
+  type: ss
+  cipher: aes-256-cfb
+  password: qwerREWQ@@
+- name: 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - hotick
   server: 61.230.160.34
   port: 24215
   udp: true
@@ -54,8 +21,8 @@ proxies:
   reality-opts:
     public-key: mdWKUPMVTtTbDqK10BPb89OcqBC2-Lx-4NOYtqc1GWE
   servername: addons.mozilla.org
-  client-fingerprint: chrome
-- name: 🇭🇰 中国香港 (Hong Kong) 07 (家宽) - hotick
+  client-fingerprint: ios
+- name: 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - hotick
   server: 56481.df6h451rh.xin
   port: 443
   udp: true
@@ -63,15 +30,7 @@ proxies:
   password: 0324fbc29561
   sni: images.ctfassets.net
   skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 08 (家宽) - hotick
-  server: 654968169.df6h451rh.xin
-  port: 443
-  udp: true
-  type: anytls
-  password: 0324fbc29561
-  sni: images.ctfassets.net
-  skip-cert-verify: true
-- name: 🇹🇼 中国台湾 (Taiwan) 09 (家宽) - hotick
+- name: 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - hotick
   server: er8u54dh.df6h451rh.xin
   port: 443
   udp: true
@@ -79,33 +38,45 @@ proxies:
   password: 0324fbc29561
   sni: px.ads.linkedin.com
   skip-cert-verify: true
+- name: 🇭🇰 中国香港 (Hong Kong) 05 (家宽) - hotick
+  server: 654968169.df6h451rh.xin
+  port: 443
+  udp: true
+  type: anytls
+  password: 0324fbc29561
+  sni: 654968169.df6h451rh.xin
+  skip-cert-verify: true
+- name: 🇺🇸 美国 (United States) 06 (家宽) - hotick
+  server: 155.117.19.17
+  port: 443
+  udp: true
+  type: hysteria2
+  password: 5fa748137b6d822308eea4611f474ad5
+  sni: www.bing.com
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: a39ca173b57ac7021b08bf3e3de9f1f6
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇺🇸 美国 (United States) 01 (家宽) - hotick
-  - 🇺🇸 美国 (United States) 02 (家宽) R50 - hotick
-  - 🇭🇰 中国香港 (Hong Kong) 03 (移动家宽) - hotick
-  - 🇭🇰 中国香港 (Hong Kong) 04 (移动家宽) - hotick
-  - 🇭🇰 中国香港 (Hong Kong) 05 (移动家宽) - hotick
-  - 🇹🇼 中国台湾 (Taiwan) 06 (家宽) - hotick
-  - 🇭🇰 中国香港 (Hong Kong) 07 (家宽) - hotick
-  - 🇭🇰 中国香港 (Hong Kong) 08 (家宽) - hotick
-  - 🇹🇼 中国台湾 (Taiwan) 09 (家宽) - hotick
+  - 🇰🇷 韩国 (South Korea) 01 (家宽) - hotick
+  - 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - hotick
+  - 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - hotick
+  - 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - hotick
+  - 🇭🇰 中国香港 (Hong Kong) 05 (家宽) - hotick
+  - 🇺🇸 美国 (United States) 06 (家宽) - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇺🇸 美国 (United States) 01 (家宽) - hotick
-  - 🇺🇸 美国 (United States) 02 (家宽) R50 - hotick
-  - 🇭🇰 中国香港 (Hong Kong) 03 (移动家宽) - hotick
-  - 🇭🇰 中国香港 (Hong Kong) 04 (移动家宽) - hotick
-  - 🇭🇰 中国香港 (Hong Kong) 05 (移动家宽) - hotick
-  - 🇹🇼 中国台湾 (Taiwan) 06 (家宽) - hotick
-  - 🇭🇰 中国香港 (Hong Kong) 07 (家宽) - hotick
-  - 🇭🇰 中国香港 (Hong Kong) 08 (家宽) - hotick
-  - 🇹🇼 中国台湾 (Taiwan) 09 (家宽) - hotick
+  - 🇰🇷 韩国 (South Korea) 01 (家宽) - hotick
+  - 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - hotick
+  - 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - hotick
+  - 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - hotick
+  - 🇭🇰 中国香港 (Hong Kong) 05 (家宽) - hotick
+  - 🇺🇸 美国 (United States) 06 (家宽) - hotick
 rules:
 - MATCH,PROXIES
