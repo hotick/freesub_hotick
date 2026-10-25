@@ -13,6 +13,51 @@ proxies:
   sni: promo.betust.net
   skip-cert-verify: false
 - name: 🇸🇪 瑞典 (Sweden) 02 - hotick
+  server: 84.21.191.180
+  port: 1081
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: iWhDZY1CQ-7AQYQtmc8Ki4r3H4UYP0SF
+- name: 🇸🇪 瑞典 (Sweden) 03 - hotick
+  server: 5.178.109.174
+  port: 14430
+  udp: true
+  type: vless
+  uuid: 80de563a-cac8-40ea-8cb0-4cb082dd92f9
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: 5.178.109.174
+- name: 🇸🇪 瑞典 (Sweden) 04 - hotick
+  server: se1.mycloud1.org
+  port: 443
+  udp: true
+  type: vless
+  uuid: 605dea9b-b485-45c9-af9b-cc2b0195023c
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: Su5ULcRQKF-0DJIHZeTNEnXHBpyQtizmUrcNIYhZI0E
+    short-id: afee962d
+  servername: se1.mycloud1.org
+  client-fingerprint: chrome
+- name: 🇸🇪 瑞典 (Sweden) 05 - hotick
+  server: se13-node.rumedia-cdn.com
+  port: 2096
+  udp: true
+  type: vless
+  uuid: d1641bc6-3757-43db-815a-9b3f4d9b0d7e
+  tls: true
+  servername: st5ff8a.rumedia-cdn.com
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /cdn/v3/live
+    headers:
+      Host: st5ff8a.rumedia-cdn.com
+- name: 🇸🇪 瑞典 (Sweden) 06 - hotick
   server: svip.skycon808.com
   port: 60005
   udp: true
@@ -20,18 +65,6 @@ proxies:
   password: 13f0acfa-38c1-4e82-a758-583aa31740df
   sni: xjp18.2uuzhe.com
   skip-cert-verify: true
-- name: 🇸🇪 瑞典 (Sweden) 03 - hotick
-  server: 45.12.63.81
-  port: 443
-  udp: true
-  type: vless
-  uuid: 32daf25d-9ffa-4f43-b6a3-2ebc21014681
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: MN2XIVlIusdWaGwyyrGZ7Ti3jzqjDlpMmc12WcrV1nU
-  servername: www.vk.ru
-  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
@@ -40,6 +73,9 @@ proxy-groups:
   - 🇸🇪 瑞典 (Sweden) 01 - hotick
   - 🇸🇪 瑞典 (Sweden) 02 - hotick
   - 🇸🇪 瑞典 (Sweden) 03 - hotick
+  - 🇸🇪 瑞典 (Sweden) 04 - hotick
+  - 🇸🇪 瑞典 (Sweden) 05 - hotick
+  - 🇸🇪 瑞典 (Sweden) 06 - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -48,5 +84,8 @@ proxy-groups:
   - 🇸🇪 瑞典 (Sweden) 01 - hotick
   - 🇸🇪 瑞典 (Sweden) 02 - hotick
   - 🇸🇪 瑞典 (Sweden) 03 - hotick
+  - 🇸🇪 瑞典 (Sweden) 04 - hotick
+  - 🇸🇪 瑞典 (Sweden) 05 - hotick
+  - 🇸🇪 瑞典 (Sweden) 06 - hotick
 rules:
 - MATCH,PROXIES

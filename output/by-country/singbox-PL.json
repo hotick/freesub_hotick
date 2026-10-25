@@ -4,22 +4,31 @@
   },
   "outbounds": [
     {
-      "type": "vless",
+      "type": "shadowsocks",
       "tag": "🇵🇱 波兰 (Poland) 01 - hotick",
+      "server": "217.30.10.44",
+      "server_port": 9006,
+      "method": "aes-256-cfb",
+      "password": "FAdUvMJUq5vDgKEq"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇵🇱 波兰 (Poland) 02 - hotick",
+      "server": "217.30.10.44",
+      "server_port": 9095,
+      "method": "aes-256-cfb",
+      "password": "N7j3pdTYkKmsy8CR"
+    },
+    {
+      "type": "vless",
+      "tag": "🇵🇱 波兰 (Poland) 03 - hotick",
       "server": "5.22.221.127",
       "server_port": 443,
       "uuid": "44dfa3a7-f648-4587-819b-e653c0823f28"
     },
     {
       "type": "vless",
-      "tag": "🇵🇱 波兰 (Poland) 02 - hotick",
-      "server": "edge10.cyrionflare.com",
-      "server_port": 2052,
-      "uuid": "1a8ecc41-6e62-431b-8eca-87c2fa4dc286"
-    },
-    {
-      "type": "vless",
-      "tag": "🇵🇱 波兰 (Poland) 03 - hotick",
+      "tag": "🇵🇱 波兰 (Poland) 04 - hotick",
       "server": "82.118.22.161",
       "server_port": 443,
       "uuid": "05488656-d4bf-4634-8b2e-e4ff5a56c7e2",
@@ -29,7 +38,7 @@
         "server_name": "www.cloudflare.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "safari"
+          "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
@@ -39,15 +48,48 @@
       }
     },
     {
+      "type": "hysteria2",
+      "tag": "🇵🇱 波兰 (Poland) 05 - hotick",
+      "server": "78.17.128.153",
+      "server_port": 35076,
+      "password": "b4c8ee9caa74b7ba0a61",
+      "tls": {
+        "enabled": true,
+        "server_name": "scrap.halyvanedorogo.ru",
+        "insecure": true
+      }
+    },
+    {
       "type": "vless",
-      "tag": "🇵🇱 波兰 (Poland) 04 - hotick",
+      "tag": "🇵🇱 波兰 (Poland) 06 - hotick",
       "server": "site.teslamotor.site",
       "server_port": 20001,
       "uuid": "8e8210b7-71a4-4799-8b9b-2e69698b1eaf"
     },
     {
       "type": "vless",
-      "tag": "🇵🇱 波兰 (Poland) 05 - hotick",
+      "tag": "🇵🇱 波兰 (Poland) 07 - hotick",
+      "server": "150.251.113.34",
+      "server_port": 443,
+      "uuid": "d7d724b5-17ce-4f3c-877d-dfbf0f07afa1",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "8yMLSTbkpJFfbgTjNzotzz7U8OT6AERrclgKdKrXXW8",
+          "short_id": "150a627d15154cf2"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇵🇱 波兰 (Poland) 08 - hotick",
       "server": "ru1.radiolumens.uk",
       "server_port": 8445,
       "uuid": "36cf792c-f07d-4500-97ea-a395e5178deb",
@@ -66,20 +108,28 @@
       }
     },
     {
-      "type": "hysteria2",
-      "tag": "🇵🇱 波兰 (Poland) 06 - hotick",
-      "server": "scrap.halyvanedorogo.ru",
-      "server_port": 35076,
-      "password": "b4c8ee9caa74b7ba0a61",
+      "type": "vless",
+      "tag": "🇵🇱 波兰 (Poland) 09 - hotick",
+      "server": "pl1.h1cloud.net",
+      "server_port": 27591,
+      "uuid": "056405e8-de9f-4d0d-8145-956f13cc34da",
       "tls": {
         "enabled": true,
-        "server_name": "scrap.halyvanedorogo.ru",
-        "insecure": true
+        "server_name": "www.samsung.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "LY0H47MWx87_L_JBzxFAuTzKZB53U7MrZQK8-dNnMxM",
+          "short_id": "6c5c7900406a1ae7"
+        }
       }
     },
     {
       "type": "vmess",
-      "tag": "🇵🇱 波兰 (Poland) 07 - hotick",
+      "tag": "🇵🇱 波兰 (Poland) 10 - hotick",
       "server": "54.37.131.126",
       "server_port": 80,
       "uuid": "6deef9ad-1357-443d-f95c-cb18952c20b3",
@@ -93,19 +143,34 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "🇵🇱 波兰 (Poland) 11 - hotick",
+      "server": "185.86.145.142",
+      "server_port": 443,
+      "uuid": "c8b3c1d7-4294-4f30-9e5b-e4693b64d518",
+      "tls": {
+        "enabled": true,
+        "server_name": "deliverya.online",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/adrws",
+        "headers": {
+          "Host": "deliverya.online"
+        }
+      }
+    },
+    {
       "type": "trojan",
-      "tag": "🇵🇱 波兰 (Poland) 08 - hotick",
-      "server": "92.118.150.146",
+      "tag": "🇵🇱 波兰 (Poland) 12 - hotick",
+      "server": "pl.tronsg.com",
       "server_port": 443,
       "password": "Trojan@82164024",
       "tls": {
         "enabled": true,
         "server_name": "pl.tronsg.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        "insecure": true
       }
     },
     {
@@ -120,7 +185,11 @@
         "🇵🇱 波兰 (Poland) 05 - hotick",
         "🇵🇱 波兰 (Poland) 06 - hotick",
         "🇵🇱 波兰 (Poland) 07 - hotick",
-        "🇵🇱 波兰 (Poland) 08 - hotick"
+        "🇵🇱 波兰 (Poland) 08 - hotick",
+        "🇵🇱 波兰 (Poland) 09 - hotick",
+        "🇵🇱 波兰 (Poland) 10 - hotick",
+        "🇵🇱 波兰 (Poland) 11 - hotick",
+        "🇵🇱 波兰 (Poland) 12 - hotick"
       ]
     },
     {
@@ -134,7 +203,11 @@
         "🇵🇱 波兰 (Poland) 05 - hotick",
         "🇵🇱 波兰 (Poland) 06 - hotick",
         "🇵🇱 波兰 (Poland) 07 - hotick",
-        "🇵🇱 波兰 (Poland) 08 - hotick"
+        "🇵🇱 波兰 (Poland) 08 - hotick",
+        "🇵🇱 波兰 (Poland) 09 - hotick",
+        "🇵🇱 波兰 (Poland) 10 - hotick",
+        "🇵🇱 波兰 (Poland) 11 - hotick",
+        "🇵🇱 波兰 (Poland) 12 - hotick"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

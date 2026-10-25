@@ -16,8 +16,70 @@
       }
     },
     {
-      "type": "anytls",
+      "type": "shadowsocks",
       "tag": "🇸🇪 瑞典 (Sweden) 02 - hotick",
+      "server": "84.21.191.180",
+      "server_port": 1081,
+      "method": "chacha20-ietf-poly1305",
+      "password": "iWhDZY1CQ-7AQYQtmc8Ki4r3H4UYP0SF"
+    },
+    {
+      "type": "vless",
+      "tag": "🇸🇪 瑞典 (Sweden) 03 - hotick",
+      "server": "5.178.109.174",
+      "server_port": 14430,
+      "uuid": "80de563a-cac8-40ea-8cb0-4cb082dd92f9",
+      "transport": {
+        "type": "ws",
+        "path": "/vless",
+        "headers": {
+          "Host": "5.178.109.174"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇸🇪 瑞典 (Sweden) 04 - hotick",
+      "server": "se1.mycloud1.org",
+      "server_port": 443,
+      "uuid": "605dea9b-b485-45c9-af9b-cc2b0195023c",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "se1.mycloud1.org",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "Su5ULcRQKF-0DJIHZeTNEnXHBpyQtizmUrcNIYhZI0E",
+          "short_id": "afee962d"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇸🇪 瑞典 (Sweden) 05 - hotick",
+      "server": "se13-node.rumedia-cdn.com",
+      "server_port": 2096,
+      "uuid": "d1641bc6-3757-43db-815a-9b3f4d9b0d7e",
+      "tls": {
+        "enabled": true,
+        "server_name": "st5ff8a.rumedia-cdn.com",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/cdn/v3/live",
+        "headers": {
+          "Host": "st5ff8a.rumedia-cdn.com"
+        }
+      }
+    },
+    {
+      "type": "anytls",
+      "tag": "🇸🇪 瑞典 (Sweden) 06 - hotick",
       "server": "svip.skycon808.com",
       "server_port": 60005,
       "password": "13f0acfa-38c1-4e82-a758-583aa31740df",
@@ -28,34 +90,16 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇸🇪 瑞典 (Sweden) 03 - hotick",
-      "server": "45.12.63.81",
-      "server_port": 443,
-      "uuid": "32daf25d-9ffa-4f43-b6a3-2ebc21014681",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.vk.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "MN2XIVlIusdWaGwyyrGZ7Ti3jzqjDlpMmc12WcrV1nU",
-          "short_id": ""
-        }
-      }
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
         "🇸🇪 瑞典 (Sweden) 01 - hotick",
         "🇸🇪 瑞典 (Sweden) 02 - hotick",
-        "🇸🇪 瑞典 (Sweden) 03 - hotick"
+        "🇸🇪 瑞典 (Sweden) 03 - hotick",
+        "🇸🇪 瑞典 (Sweden) 04 - hotick",
+        "🇸🇪 瑞典 (Sweden) 05 - hotick",
+        "🇸🇪 瑞典 (Sweden) 06 - hotick"
       ]
     },
     {
@@ -64,7 +108,10 @@
       "outbounds": [
         "🇸🇪 瑞典 (Sweden) 01 - hotick",
         "🇸🇪 瑞典 (Sweden) 02 - hotick",
-        "🇸🇪 瑞典 (Sweden) 03 - hotick"
+        "🇸🇪 瑞典 (Sweden) 03 - hotick",
+        "🇸🇪 瑞典 (Sweden) 04 - hotick",
+        "🇸🇪 瑞典 (Sweden) 05 - hotick",
+        "🇸🇪 瑞典 (Sweden) 06 - hotick"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

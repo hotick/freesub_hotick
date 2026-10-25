@@ -4,14 +4,77 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇰🇷 韩国 (South Korea) 01 (家宽) - hotick
-  server: 218.237.185.234
+- name: 🇺🇸 美国 (United States) 01 (家宽) R50 - hotick
+  server: 23.160.56.99
+  port: 2087
+  udp: true
+  type: vless
+  uuid: f1e7eafa-0d6f-441e-8565-29f34171aef2
+- name: 🇰🇷 韩国 (South Korea) 02 (家宽) - hotick
+  server: 183.109.131.75
+  port: 20086
+  udp: true
+  type: vmess
+  uuid: b26c4803-0bca-467c-a245-c9a80bdd72ec
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-opts:
+    path: /
+- name: 🇹🇼 中国台湾 (Taiwan) 03 (移动家宽) - hotick
+  server: gu232.izzzzzi.com
+  port: 20052
+  udp: true
+  type: trojan
+  password: e56e752c86a640cd
+  sni: gu232.izzzzzi.com
+  skip-cert-verify: false
+- name: 🇫🇷 法国 (France) 04 (家宽) - hotick
+  server: 178.104.70.11
+  port: 443
+  udp: true
+  type: vless
+  uuid: 64726966-0000-4000-8000-740000000000
+  tls: true
+  servername: parsa-panel-dy55x.railway1385-2a46.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: firefox
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: parsa-panel-dy55x.railway1385-2a46.workers.dev
+- name: 🇰🇷 韩国 (South Korea) 05 (家宽) - hotick
+  server: p141.panda001.net
   port: 4652
   udp: true
   type: ss
   cipher: aes-256-cfb
   password: qwerREWQ@@
-- name: 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - hotick
+- name: 🇺🇸 美国 (United States) 06 (家宽) - hotick
+  server: 69.63.221.116
+  port: 25517
+  udp: true
+  type: vless
+  uuid: d18c6897-2849-456a-8c46-d7ecece47c20
+  tls: true
+  servername: wzs.echo.net.eu.org
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /video/HxNMGkZdGw0PRk1GVw8YF14OXkwNVVtIRg1HBRETS1lYDldeEEFRGxhbVloPHhpEVl9AFwxSGQ9bSQ==
+    headers:
+      Host: wzs.echo.net.eu.org
+- name: 🇹🇼 中国台湾 (Taiwan) 07 (家宽) - hotick
+  server: er8u54dh.df6h451rh.xin
+  port: 443
+  udp: true
+  type: anytls
+  password: 0324fbc29561
+  sni: px.ads.linkedin.com
+  skip-cert-verify: true
+- name: 🇹🇼 中国台湾 (Taiwan) 08 (家宽) - hotick
   server: 61.230.160.34
   port: 24215
   udp: true
@@ -22,23 +85,7 @@ proxies:
     public-key: mdWKUPMVTtTbDqK10BPb89OcqBC2-Lx-4NOYtqc1GWE
   servername: addons.mozilla.org
   client-fingerprint: ios
-- name: 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - hotick
-  server: 56481.df6h451rh.xin
-  port: 443
-  udp: true
-  type: anytls
-  password: 0324fbc29561
-  sni: images.ctfassets.net
-  skip-cert-verify: true
-- name: 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - hotick
-  server: er8u54dh.df6h451rh.xin
-  port: 443
-  udp: true
-  type: anytls
-  password: 0324fbc29561
-  sni: px.ads.linkedin.com
-  skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 05 (家宽) - hotick
+- name: 🇭🇰 中国香港 (Hong Kong) 09 (家宽) - hotick
   server: 654968169.df6h451rh.xin
   port: 443
   udp: true
@@ -46,37 +93,43 @@ proxies:
   password: 0324fbc29561
   sni: 654968169.df6h451rh.xin
   skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 06 (家宽) - hotick
-  server: 155.117.19.17
+- name: 🇭🇰 中国香港 (Hong Kong) 10 (家宽) - hotick
+  server: 56481.df6h451rh.xin
   port: 443
   udp: true
-  type: hysteria2
-  password: 5fa748137b6d822308eea4611f474ad5
-  sni: www.bing.com
+  type: anytls
+  password: 0324fbc29561
+  sni: images.ctfassets.net
   skip-cert-verify: true
-  obfs: salamander
-  obfs-password: a39ca173b57ac7021b08bf3e3de9f1f6
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇰🇷 韩国 (South Korea) 01 (家宽) - hotick
-  - 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - hotick
-  - 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - hotick
-  - 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - hotick
-  - 🇭🇰 中国香港 (Hong Kong) 05 (家宽) - hotick
+  - 🇺🇸 美国 (United States) 01 (家宽) R50 - hotick
+  - 🇰🇷 韩国 (South Korea) 02 (家宽) - hotick
+  - 🇹🇼 中国台湾 (Taiwan) 03 (移动家宽) - hotick
+  - 🇫🇷 法国 (France) 04 (家宽) - hotick
+  - 🇰🇷 韩国 (South Korea) 05 (家宽) - hotick
   - 🇺🇸 美国 (United States) 06 (家宽) - hotick
+  - 🇹🇼 中国台湾 (Taiwan) 07 (家宽) - hotick
+  - 🇹🇼 中国台湾 (Taiwan) 08 (家宽) - hotick
+  - 🇭🇰 中国香港 (Hong Kong) 09 (家宽) - hotick
+  - 🇭🇰 中国香港 (Hong Kong) 10 (家宽) - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇰🇷 韩国 (South Korea) 01 (家宽) - hotick
-  - 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - hotick
-  - 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - hotick
-  - 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - hotick
-  - 🇭🇰 中国香港 (Hong Kong) 05 (家宽) - hotick
+  - 🇺🇸 美国 (United States) 01 (家宽) R50 - hotick
+  - 🇰🇷 韩国 (South Korea) 02 (家宽) - hotick
+  - 🇹🇼 中国台湾 (Taiwan) 03 (移动家宽) - hotick
+  - 🇫🇷 法国 (France) 04 (家宽) - hotick
+  - 🇰🇷 韩国 (South Korea) 05 (家宽) - hotick
   - 🇺🇸 美国 (United States) 06 (家宽) - hotick
+  - 🇹🇼 中国台湾 (Taiwan) 07 (家宽) - hotick
+  - 🇹🇼 中国台湾 (Taiwan) 08 (家宽) - hotick
+  - 🇭🇰 中国香港 (Hong Kong) 09 (家宽) - hotick
+  - 🇭🇰 中国香港 (Hong Kong) 10 (家宽) - hotick
 rules:
 - MATCH,PROXIES
