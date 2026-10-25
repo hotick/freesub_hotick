@@ -4,30 +4,31 @@
   },
   "outbounds": [
     {
-      "type": "anytls",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - hotick",
-      "server": "654968169.df6h451rh.xin",
-      "server_port": 443,
-      "password": "0324fbc29561",
-      "tls": {
-        "enabled": true,
-        "server_name": "654968169.df6h451rh.xin",
-        "insecure": true
-      }
+      "type": "vmess",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 01 (移动家宽) - hotick",
+      "server": "dog-hk.kunlun01dns.com",
+      "server_port": 21018,
+      "uuid": "9464ca40-dd75-3742-a628-d931a9f413b2",
+      "security": "auto"
     },
     {
-      "type": "anytls",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 02 (家宽) - hotick",
-      "server": "56481.df6h451rh.xin",
+      "type": "vmess",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 02 (移动家宽) - hotick",
+      "server": "zfd-hkv2.kunlun01dns.com",
+      "server_port": 16113,
+      "uuid": "0802ac03-7973-39ef-a019-ba02de6c01e1",
+      "security": "auto"
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 03 (家宽) - hotick",
+      "server": "b503b615-tm96o0-tne5x4-1rfon.hk3.hyhuawei.com",
       "server_port": 443,
-      "password": "0324fbc29561",
+      "password": "aed1cc24-351d-11ef-ba52-f23c9164ca5d",
       "tls": {
         "enabled": true,
-        "server_name": "images.ctfassets.net",
-        "insecure": true,
-        "alpn": [
-          "http/1.1"
-        ]
+        "server_name": "b503b615-tm96o0-tne5x4-1rfon.hk3.hyhuawei.com",
+        "insecure": true
       }
     },
     {
@@ -35,16 +36,18 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - hotick",
-        "🇭🇰 中国香港 (Hong Kong) 02 (家宽) - hotick"
+        "🇭🇰 中国香港 (Hong Kong) 01 (移动家宽) - hotick",
+        "🇭🇰 中国香港 (Hong Kong) 02 (移动家宽) - hotick",
+        "🇭🇰 中国香港 (Hong Kong) 03 (家宽) - hotick"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - hotick",
-        "🇭🇰 中国香港 (Hong Kong) 02 (家宽) - hotick"
+        "🇭🇰 中国香港 (Hong Kong) 01 (移动家宽) - hotick",
+        "🇭🇰 中国香港 (Hong Kong) 02 (移动家宽) - hotick",
+        "🇭🇰 中国香港 (Hong Kong) 03 (家宽) - hotick"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

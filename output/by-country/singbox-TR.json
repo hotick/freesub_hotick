@@ -25,29 +25,8 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇹🇷 土耳其 (Turkey) 02 - hotick",
-      "server": "78.135.73.47",
-      "server_port": 443,
-      "uuid": "25e16692-d097-4e69-9e2d-8415609c1968",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.datadoghq.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "sZAJkAu23wp1WKY-qeaeiwR38izP5OyfhumoE9xhbB8",
-          "short_id": "f46cd3ea3d1eb72d"
-        }
-      }
-    },
-    {
       "type": "hysteria2",
-      "tag": "🇹🇷 土耳其 (Turkey) 03 - hotick",
+      "tag": "🇹🇷 土耳其 (Turkey) 02 - hotick",
       "server": "153.56.210.134",
       "server_port": 34121,
       "password": "c8ed6cd1-6566-4f7a-819e-1c55b2b360c9",
@@ -63,7 +42,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇹🇷 土耳其 (Turkey) 04 - hotick",
+      "tag": "🇹🇷 土耳其 (Turkey) 03 - hotick",
       "server": "62.133.63.45",
       "server_port": 8444,
       "uuid": "a346c521-7a7f-452b-9356-a4893feb5982",
@@ -87,7 +66,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇹🇷 土耳其 (Turkey) 05 - hotick",
+      "tag": "🇹🇷 土耳其 (Turkey) 04 - hotick",
       "server": "151.241.226.201",
       "server_port": 2053,
       "uuid": "0eed6293-8cf1-4e77-ac10-9c3d50d0b2f8",
@@ -96,7 +75,7 @@
         "server_name": "www.apple.com",
         "utls": {
           "enabled": true,
-          "fingerprint": ""
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
@@ -107,8 +86,29 @@
     },
     {
       "type": "vless",
+      "tag": "🇹🇷 土耳其 (Turkey) 05 - hotick",
+      "server": "78.135.73.47",
+      "server_port": 443,
+      "uuid": "25e16692-d097-4e69-9e2d-8415609c1968",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.datadoghq.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "sZAJkAu23wp1WKY-qeaeiwR38izP5OyfhumoE9xhbB8",
+          "short_id": "f46cd3ea3d1eb72d"
+        }
+      }
+    },
+    {
+      "type": "vless",
       "tag": "🇹🇷 土耳其 (Turkey) 06 - hotick",
-      "server": "trend.eidoslab.link",
+      "server": "45.74.159.238",
       "server_port": 443,
       "uuid": "7072eeba-94fd-4fb3-92f2-a4506dd84cd8",
       "flow": "xtls-rprx-vision",
@@ -127,6 +127,27 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "🇹🇷 土耳其 (Turkey) 07 - hotick",
+      "server": "45.151.71.152",
+      "server_port": 443,
+      "uuid": "8a1f8853-9a71-4ef2-a64c-4f0a94c2e14b",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "abuse.ozon.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+          "short_id": ""
+        }
+      }
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
@@ -136,7 +157,8 @@
         "🇹🇷 土耳其 (Turkey) 03 - hotick",
         "🇹🇷 土耳其 (Turkey) 04 - hotick",
         "🇹🇷 土耳其 (Turkey) 05 - hotick",
-        "🇹🇷 土耳其 (Turkey) 06 - hotick"
+        "🇹🇷 土耳其 (Turkey) 06 - hotick",
+        "🇹🇷 土耳其 (Turkey) 07 - hotick"
       ]
     },
     {
@@ -148,7 +170,8 @@
         "🇹🇷 土耳其 (Turkey) 03 - hotick",
         "🇹🇷 土耳其 (Turkey) 04 - hotick",
         "🇹🇷 土耳其 (Turkey) 05 - hotick",
-        "🇹🇷 土耳其 (Turkey) 06 - hotick"
+        "🇹🇷 土耳其 (Turkey) 06 - hotick",
+        "🇹🇷 土耳其 (Turkey) 07 - hotick"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
