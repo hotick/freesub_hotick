@@ -4,26 +4,29 @@
   },
   "outbounds": [
     {
-      "type": "shadowsocks",
-      "tag": "🇳🇴 挪威 (Norway) 01 - hotick",
-      "server": "185.213.23.63",
-      "server_port": 990,
-      "method": "chacha20-ietf-poly1305",
-      "password": "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
+      "type": "vless",
+      "tag": "🇸🇰 斯洛伐克 (Slovakia) 01 - hotick",
+      "server": "80.243.228.84",
+      "server_port": 2085,
+      "uuid": "a7c66f66-76b7-42ea-8d2b-890a37239368",
+      "transport": {
+        "type": "grpc",
+        "service_name": "vless"
+      }
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇳🇴 挪威 (Norway) 01 - hotick"
+        "🇸🇰 斯洛伐克 (Slovakia) 01 - hotick"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇳🇴 挪威 (Norway) 01 - hotick"
+        "🇸🇰 斯洛伐克 (Slovakia) 01 - hotick"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

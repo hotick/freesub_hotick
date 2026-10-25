@@ -6,13 +6,13 @@
     {
       "type": "vless",
       "tag": "🇹🇷 土耳其 (Turkey) 01 - hotick",
-      "server": "45.151.71.152",
-      "server_port": 443,
-      "uuid": "8a1f8853-9a71-4ef2-a64c-4f0a94c2e14b",
+      "server": "185.98.63.6",
+      "server_port": 8443,
+      "uuid": "6845a59f-970b-4e1e-8e26-06a34ee663d6",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "abuse.ozon.ru",
+        "server_name": "apple.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -27,25 +27,22 @@
     {
       "type": "vless",
       "tag": "🇹🇷 土耳其 (Turkey) 02 - hotick",
-      "server": "62.133.63.45",
-      "server_port": 8444,
-      "uuid": "a346c521-7a7f-452b-9356-a4893feb5982",
+      "server": "45.151.71.167",
+      "server_port": 443,
+      "uuid": "680e92ac-1688-49e0-af96-7327fbc30ce8",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "github.com",
+        "server_name": "abuse.ozon.ru",
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "FWitre1jinQR7qz5HQ0q2Q4Gg9xA9B0SyizCziN7Ch0",
-          "short_id": "457fab2ac885dbe0"
+          "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+          "short_id": ""
         }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "GunService"
       }
     },
     {
@@ -67,21 +64,25 @@
     {
       "type": "vless",
       "tag": "🇹🇷 土耳其 (Turkey) 04 - hotick",
-      "server": "151.241.226.201",
-      "server_port": 2053,
-      "uuid": "0eed6293-8cf1-4e77-ac10-9c3d50d0b2f8",
+      "server": "62.133.63.45",
+      "server_port": 8444,
+      "uuid": "a346c521-7a7f-452b-9356-a4893feb5982",
       "tls": {
         "enabled": true,
-        "server_name": "www.apple.com",
+        "server_name": "github.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "safari"
         },
         "reality": {
           "enabled": true,
-          "public_key": "bYW_MmB_CUHrsyoCAUKviI2LZdHf63yY2yOPXbih104",
-          "short_id": "9e419c0759b54d6f"
+          "public_key": "FWitre1jinQR7qz5HQ0q2Q4Gg9xA9B0SyizCziN7Ch0",
+          "short_id": "457fab2ac885dbe0"
         }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "GunService"
       }
     },
     {
@@ -96,7 +97,7 @@
         "server_name": "www.datadoghq.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
@@ -108,21 +109,20 @@
     {
       "type": "vless",
       "tag": "🇹🇷 土耳其 (Turkey) 06 - hotick",
-      "server": "trn15.mobileemdad.top",
-      "server_port": 443,
-      "uuid": "bdb68a1c-7983-4a00-84af-011e3d0d25d1",
-      "flow": "xtls-rprx-vision",
+      "server": "151.241.226.201",
+      "server_port": 2053,
+      "uuid": "0eed6293-8cf1-4e77-ac10-9c3d50d0b2f8",
       "tls": {
         "enabled": true,
-        "server_name": "delivery.mp.microsoft.com",
+        "server_name": "www.apple.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "PjR-SM4fOm2fY4mTqWoqZDRyxontvpailM0gBqUxlUQ",
-          "short_id": "377d"
+          "public_key": "bYW_MmB_CUHrsyoCAUKviI2LZdHf63yY2yOPXbih104",
+          "short_id": "9e419c0759b54d6f"
         }
       }
     },
@@ -135,27 +135,6 @@
       "password": "uvKNudV-N8AUCrykPiyznA"
     },
     {
-      "type": "vless",
-      "tag": "🇹🇷 土耳其 (Turkey) 08 - hotick",
-      "server": "trend.eidoslab.link",
-      "server_port": 443,
-      "uuid": "7072eeba-94fd-4fb3-92f2-a4506dd84cd8",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "trend.eidoslab.link",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "p7X0vRL9R-23Ey-MZZZj7FY0g87nQq0Jzc01DwuryRk",
-          "short_id": "7597c5df264bcc10"
-        }
-      }
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
@@ -166,8 +145,7 @@
         "🇹🇷 土耳其 (Turkey) 04 - hotick",
         "🇹🇷 土耳其 (Turkey) 05 - hotick",
         "🇹🇷 土耳其 (Turkey) 06 - hotick",
-        "🇹🇷 土耳其 (Turkey) 07 - hotick",
-        "🇹🇷 土耳其 (Turkey) 08 - hotick"
+        "🇹🇷 土耳其 (Turkey) 07 - hotick"
       ]
     },
     {
@@ -180,8 +158,7 @@
         "🇹🇷 土耳其 (Turkey) 04 - hotick",
         "🇹🇷 土耳其 (Turkey) 05 - hotick",
         "🇹🇷 土耳其 (Turkey) 06 - hotick",
-        "🇹🇷 土耳其 (Turkey) 07 - hotick",
-        "🇹🇷 土耳其 (Turkey) 08 - hotick"
+        "🇹🇷 土耳其 (Turkey) 07 - hotick"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
