@@ -4,24 +4,15 @@
   },
   "outbounds": [
     {
-      "type": "vless",
+      "type": "anytls",
       "tag": "🇻🇳 越南 (Vietnam) 01 - hotick",
-      "server": "154.21.203.106",
-      "server_port": 51279,
-      "uuid": "57beeeb0-03fc-4fc9-94da-7604488a7134",
-      "flow": "xtls-rprx-vision",
+      "server": "user01.godvpn.lol",
+      "server_port": 12686,
+      "password": "db62309c-486a-4fd5-abc4-4e91ac495d38",
       "tls": {
         "enabled": true,
-        "server_name": "www.tesla.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "f6Tj8-uvWsLv3V-lGLuPciArp5oKqUImBg-U7-WJ-0A",
-          "short_id": "bb82c8"
-        }
+        "server_name": "user01.godvpn.lol",
+        "insecure": true
       }
     },
     {
@@ -32,12 +23,56 @@
       "uuid": "b83faafc-cbb7-4655-99d4-2c4c39a49d1b"
     },
     {
+      "type": "vless",
+      "tag": "🇻🇳 越南 (Vietnam) 03 - hotick",
+      "server": "funagfrdfs.alixxplay.com",
+      "server_port": 55688,
+      "uuid": "57beeeb0-03fc-4fc9-94da-7604488a7134",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "bilibili-vn.biliimg.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "KeV1nArisy7FO5DjqTSmn0hBnlNd38rzhbIMMpe-MBw",
+          "short_id": "a46bb5972cf50671"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇻🇳 越南 (Vietnam) 04 - hotick",
+      "server": "154.21.203.106",
+      "server_port": 51279,
+      "uuid": "57beeeb0-03fc-4fc9-94da-7604488a7134",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.tesla.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "f6Tj8-uvWsLv3V-lGLuPciArp5oKqUImBg-U7-WJ-0A",
+          "short_id": "bb82c8"
+        }
+      }
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
         "🇻🇳 越南 (Vietnam) 01 - hotick",
-        "🇻🇳 越南 (Vietnam) 02 - hotick"
+        "🇻🇳 越南 (Vietnam) 02 - hotick",
+        "🇻🇳 越南 (Vietnam) 03 - hotick",
+        "🇻🇳 越南 (Vietnam) 04 - hotick"
       ]
     },
     {
@@ -45,7 +80,9 @@
       "tag": "auto",
       "outbounds": [
         "🇻🇳 越南 (Vietnam) 01 - hotick",
-        "🇻🇳 越南 (Vietnam) 02 - hotick"
+        "🇻🇳 越南 (Vietnam) 02 - hotick",
+        "🇻🇳 越南 (Vietnam) 03 - hotick",
+        "🇻🇳 越南 (Vietnam) 04 - hotick"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

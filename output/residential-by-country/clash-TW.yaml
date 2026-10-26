@@ -5,7 +5,15 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇹🇼 中国台湾 (Taiwan) 01 (家宽) - hotick
-  server: 61.230.160.34
+  server: kw119.zxmm.eu.org
+  port: 20031
+  udp: true
+  type: trojan
+  password: 00a72bf349e6479b
+  sni: kw119.zxmm.eu.org
+  skip-cert-verify: true
+- name: 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - hotick
+  server: 118.167.211.77
   port: 24215
   udp: true
   type: vless
@@ -15,14 +23,6 @@ proxies:
     public-key: mdWKUPMVTtTbDqK10BPb89OcqBC2-Lx-4NOYtqc1GWE
   servername: addons.mozilla.org
   client-fingerprint: firefox
-- name: 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - hotick
-  server: svip.skycon808.com
-  port: 47531
-  udp: true
-  type: anytls
-  password: 87c6ad7b-e450-44a8-8088-bc2234d43de1
-  sni: tw15.swiftrelay.cc
-  skip-cert-verify: true
 - name: 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - hotick
   server: er8u54dh.df6h451rh.xin
   port: 443
@@ -30,6 +30,14 @@ proxies:
   type: anytls
   password: 0324fbc29561
   sni: px.ads.linkedin.com
+  skip-cert-verify: true
+- name: 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - hotick
+  server: svip.skycon808.com
+  port: 47531
+  udp: true
+  type: anytls
+  password: 87c6ad7b-e450-44a8-8088-bc2234d43de1
+  sni: tw15.swiftrelay.cc
   skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
@@ -39,6 +47,7 @@ proxy-groups:
   - 🇹🇼 中国台湾 (Taiwan) 01 (家宽) - hotick
   - 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - hotick
   - 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - hotick
+  - 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -47,5 +56,6 @@ proxy-groups:
   - 🇹🇼 中国台湾 (Taiwan) 01 (家宽) - hotick
   - 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - hotick
   - 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - hotick
+  - 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - hotick
 rules:
 - MATCH,PROXIES
