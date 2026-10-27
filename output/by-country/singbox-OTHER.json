@@ -4,15 +4,14 @@
   },
   "outbounds": [
     {
-      "type": "vmess",
-      "tag": "🇸🇨 塞舌尔 (Seychelles) 01 - hotick",
-      "server": "156.239.224.107",
-      "server_port": 57278,
-      "uuid": "1270bed5-f908-4ecc-f1c8-de246033b186",
-      "security": "auto",
+      "type": "vless",
+      "tag": "🌐 其他地区 (Other) 01 - hotick",
+      "server": "uwu.blueknightnet.qzz.io",
+      "server_port": 2052,
+      "uuid": "aa5d861a-7799-41a7-bdf4-7a6414cf98fd",
       "transport": {
         "type": "ws",
-        "path": "/"
+        "path": "/@BlueKnight_net--@BlueKnight_net"
       }
     },
     {
@@ -20,14 +19,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇸🇨 塞舌尔 (Seychelles) 01 - hotick"
+        "🌐 其他地区 (Other) 01 - hotick"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇸🇨 塞舌尔 (Seychelles) 01 - hotick"
+        "🌐 其他地区 (Other) 01 - hotick"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
