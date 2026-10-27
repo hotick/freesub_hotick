@@ -4,52 +4,58 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇰🇷 韩国 (South Korea) 01 (家宽) - hotick
-  server: 218.237.185.234
-  port: 4652
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: qwerREWQ@@
-- name: 🇰🇷 韩国 (South Korea) 02 (家宽) - hotick
-  server: 49.254.204.133
-  port: 1774
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: 1234!@#$
-- name: 🇭🇰 中国香港 (Hong Kong) 03 (移动家宽) - hotick
+- name: 🇭🇰 中国香港 (Hong Kong) 01 (移动家宽) - hotick
   server: dog-hk.kunlun01dns.com
-  port: 21020
+  port: 21018
   udp: true
   type: vmess
   uuid: 9464ca40-dd75-3742-a628-d931a9f413b2
   alterId: 0
   cipher: auto
-- name: 🇸🇬 新加坡 (Singapore) 04 (家宽) - hotick
-  server: 152.70.253.44
+- name: 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - hotick
+  server: 125.227.86.45
   port: 443
   udp: true
-  type: vless
-  uuid: d18c6897-2849-456a-8c46-d7ecece47c20
-  tls: true
-  servername: wzs.echo.net.eu.org
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /video/HxNMGkZdGw0PRk1GVw8YF14OXkwNVVtIRg1HV1ZNVwcHTQsJSgAJVBQUG0dCQEwWAx4AAg4c
-    headers:
-      Host: wzs.echo.net.eu.org
-- name: 🇭🇰 中国香港 (Hong Kong) 05 (家宽) - hotick
+  type: trojan
+  password: 0a9f1f5a397bd427
+  sni: TG.freecodes
+  skip-cert-verify: true
+  network: grpc
+  grpc-opts:
+    grpc-service-name: db
+- name: 🇭🇰 中国香港 (Hong Kong) 03 (移动家宽) - hotick
+  server: zfd-hkv2.kunlun01dns.com
+  port: 16115
+  udp: true
+  type: vmess
+  uuid: 0802ac03-7973-39ef-a019-ba02de6c01e1
+  alterId: 0
+  cipher: auto
+- name: 🇭🇰 中国香港 (Hong Kong) 04 (家宽) - hotick
   server: 654968169.df6h451rh.xin
+  port: 443
+  udp: true
+  type: anytls
+  password: 0324fbc29561
+  sni: 654968169.df6h451rh.xin
+  skip-cert-verify: true
+- name: 🇭🇰 中国香港 (Hong Kong) 05 (家宽) - hotick
+  server: 56481.df6h451rh.xin
   port: 443
   udp: true
   type: anytls
   password: 0324fbc29561
   sni: images.ctfassets.net
   skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 06 (家宽) - hotick
+- name: 🇹🇼 中国台湾 (Taiwan) 06 (家宽) - hotick
+  server: er8u54dh.df6h451rh.xin
+  port: 443
+  udp: true
+  type: anytls
+  password: 0324fbc29561
+  sni: px.ads.linkedin.com
+  skip-cert-verify: true
+- name: 🇺🇸 美国 (United States) 07 (家宽) - hotick
   server: 155.117.19.17
   port: 443
   udp: true
@@ -59,47 +65,29 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: a39ca173b57ac7021b08bf3e3de9f1f6
-- name: 🇭🇰 中国香港 (Hong Kong) 07 (家宽) - hotick
-  server: 56481.df6h451rh.xin
-  port: 443
-  udp: true
-  type: anytls
-  password: 0324fbc29561
-  sni: images.ctfassets.net
-  skip-cert-verify: true
-- name: 🇹🇼 中国台湾 (Taiwan) 08 (家宽) - hotick
-  server: er8u54dh.df6h451rh.xin
-  port: 443
-  udp: true
-  type: anytls
-  password: 0324fbc29561
-  sni: px.ads.linkedin.com
-  skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇰🇷 韩国 (South Korea) 01 (家宽) - hotick
-  - 🇰🇷 韩国 (South Korea) 02 (家宽) - hotick
+  - 🇭🇰 中国香港 (Hong Kong) 01 (移动家宽) - hotick
+  - 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - hotick
   - 🇭🇰 中国香港 (Hong Kong) 03 (移动家宽) - hotick
-  - 🇸🇬 新加坡 (Singapore) 04 (家宽) - hotick
+  - 🇭🇰 中国香港 (Hong Kong) 04 (家宽) - hotick
   - 🇭🇰 中国香港 (Hong Kong) 05 (家宽) - hotick
-  - 🇺🇸 美国 (United States) 06 (家宽) - hotick
-  - 🇭🇰 中国香港 (Hong Kong) 07 (家宽) - hotick
-  - 🇹🇼 中国台湾 (Taiwan) 08 (家宽) - hotick
+  - 🇹🇼 中国台湾 (Taiwan) 06 (家宽) - hotick
+  - 🇺🇸 美国 (United States) 07 (家宽) - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇰🇷 韩国 (South Korea) 01 (家宽) - hotick
-  - 🇰🇷 韩国 (South Korea) 02 (家宽) - hotick
+  - 🇭🇰 中国香港 (Hong Kong) 01 (移动家宽) - hotick
+  - 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - hotick
   - 🇭🇰 中国香港 (Hong Kong) 03 (移动家宽) - hotick
-  - 🇸🇬 新加坡 (Singapore) 04 (家宽) - hotick
+  - 🇭🇰 中国香港 (Hong Kong) 04 (家宽) - hotick
   - 🇭🇰 中国香港 (Hong Kong) 05 (家宽) - hotick
-  - 🇺🇸 美国 (United States) 06 (家宽) - hotick
-  - 🇭🇰 中国香港 (Hong Kong) 07 (家宽) - hotick
-  - 🇹🇼 中国台湾 (Taiwan) 08 (家宽) - hotick
+  - 🇹🇼 中国台湾 (Taiwan) 06 (家宽) - hotick
+  - 🇺🇸 美国 (United States) 07 (家宽) - hotick
 rules:
 - MATCH,PROXIES
