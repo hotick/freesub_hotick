@@ -5,34 +5,95 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇮🇹 意大利 (Italy) 01 - hotick
-  server: 57.131.48.45
-  port: 8388
+  server: 202.50.253.99
+  port: 19999
   udp: true
   type: ss
   cipher: aes-256-gcm
-  password: itzvpn@321
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
 - name: 🇮🇹 意大利 (Italy) 02 - hotick
-  server: 185.164.175.81
+  server: 202.50.253.72
   port: 19999
   udp: true
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
 - name: 🇮🇹 意大利 (Italy) 03 - hotick
-  server: 202.50.253.81
+  server: 185.164.175.81
   port: 19999
   udp: true
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
 - name: 🇮🇹 意大利 (Italy) 04 - hotick
-  server: 202.50.253.36
+  server: 202.50.253.81
   port: 19999
   udp: true
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
 - name: 🇮🇹 意大利 (Italy) 05 - hotick
+  server: 202.50.253.18
+  port: 19999
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇮🇹 意大利 (Italy) 06 - hotick
+  server: 202.50.253.36
+  port: 19999
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇮🇹 意大利 (Italy) 07 - hotick
+  server: 202.50.253.27
+  port: 19999
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇮🇹 意大利 (Italy) 08 - hotick
+  server: 57.131.48.45
+  port: 8388
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: itzvpn@321
+- name: 🇮🇹 意大利 (Italy) 09 - hotick
+  server: 202.50.253.54
+  port: 19999
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇮🇹 意大利 (Italy) 10 - hotick
+  server: 202.50.253.45
+  port: 19999
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇮🇹 意大利 (Italy) 11 - hotick
+  server: 91.201.65.122
+  port: 9002
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: b8KkNDjEd5QqFyRm
+- name: 🇮🇹 意大利 (Italy) 12 - hotick
+  server: 57.131.38.163
+  port: 2053
+  udp: true
+  type: vless
+  uuid: d4b08cd6-0903-411a-9dac-45dbdf5c9712
+  tls: true
+  reality-opts:
+    public-key: Ej2H5ucT7qKegYcT8wODdlxa-cLHr7F4hDVUHzAhcnc
+    short-id: 5b8a942318178e7b
+  servername: www.apple.com
+  client-fingerprint: chrome
+- name: 🇮🇹 意大利 (Italy) 13 - hotick
   server: 147.45.51.171
   port: 8443
   udp: true
@@ -45,47 +106,7 @@ proxies:
     short-id: e723d26df67888b9
   servername: twitch.tv
   client-fingerprint: firefox
-- name: 🇮🇹 意大利 (Italy) 06 - hotick
-  server: 202.50.253.54
-  port: 19999
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇮🇹 意大利 (Italy) 07 - hotick
-  server: 202.50.253.18
-  port: 19999
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇮🇹 意大利 (Italy) 08 - hotick
-  server: 202.50.253.27
-  port: 19999
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇮🇹 意大利 (Italy) 09 - hotick
-  server: 57.131.38.163
-  port: 2053
-  udp: true
-  type: vless
-  uuid: d4b08cd6-0903-411a-9dac-45dbdf5c9712
-  tls: true
-  reality-opts:
-    public-key: Ej2H5ucT7qKegYcT8wODdlxa-cLHr7F4hDVUHzAhcnc
-    short-id: 5b8a942318178e7b
-  servername: www.apple.com
-  client-fingerprint: chrome
-- name: 🇮🇹 意大利 (Italy) 10 - hotick
-  server: 91.201.65.122
-  port: 9002
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: b8KkNDjEd5QqFyRm
-- name: 🇮🇹 意大利 (Italy) 11 - hotick
+- name: 🇮🇹 意大利 (Italy) 14 - hotick
   server: 82.118.16.189
   port: 443
   udp: true
@@ -98,21 +119,21 @@ proxies:
     short-id: 37fbf155c7a9f3ff
   servername: www.cloudflare.com
   client-fingerprint: firefox
-- name: 🇮🇹 意大利 (Italy) 12 - hotick
+- name: 🇮🇹 意大利 (Italy) 15 - hotick
   server: 91.201.65.122
-  port: 9097
+  port: 9039
   udp: true
   type: ss
   cipher: aes-256-cfb
-  password: Sn5B7jTqr76aCJT8
-- name: 🇮🇹 意大利 (Italy) 13 - hotick
-  server: 202.50.253.72
-  port: 19999
+  password: qYEN5HX4JKeVCdEC
+- name: 🇮🇹 意大利 (Italy) 16 - hotick
+  server: dns22.m3hrzd.ir
+  port: 1349
   udp: true
   type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇮🇹 意大利 (Italy) 14 - hotick
+  cipher: chacha20-ietf-poly1305
+  password: LzEeLj2OP0DQmpPDtVTazdGC0cHcT0Kn
+- name: 🇮🇹 意大利 (Italy) 17 - hotick
   server: 82.118.16.187
   port: 443
   udp: true
@@ -124,30 +145,16 @@ proxies:
     public-key: R5ycsjJ-v024902dMSqTsSdqxUwCFEXMebdBEWFt9VU
     short-id: cd6065902eea7a02
   servername: www.cloudflare.com
-  client-fingerprint: firefox
-- name: 🇮🇹 意大利 (Italy) 15 - hotick
-  server: 202.50.253.63
-  port: 19999
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇮🇹 意大利 (Italy) 16 - hotick
+  client-fingerprint: chrome
+- name: 🇮🇹 意大利 (Italy) 18 - hotick
   server: 202.50.253.90
   port: 19999
   udp: true
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇮🇹 意大利 (Italy) 17 - hotick
-  server: 202.50.253.99
-  port: 19999
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇮🇹 意大利 (Italy) 18 - hotick
-  server: 202.50.253.45
+- name: 🇮🇹 意大利 (Italy) 19 - hotick
+  server: 202.50.253.63
   port: 19999
   udp: true
   type: ss
@@ -176,6 +183,7 @@ proxy-groups:
   - 🇮🇹 意大利 (Italy) 16 - hotick
   - 🇮🇹 意大利 (Italy) 17 - hotick
   - 🇮🇹 意大利 (Italy) 18 - hotick
+  - 🇮🇹 意大利 (Italy) 19 - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -199,5 +207,6 @@ proxy-groups:
   - 🇮🇹 意大利 (Italy) 16 - hotick
   - 🇮🇹 意大利 (Italy) 17 - hotick
   - 🇮🇹 意大利 (Italy) 18 - hotick
+  - 🇮🇹 意大利 (Italy) 19 - hotick
 rules:
 - MATCH,PROXIES
