@@ -4,28 +4,27 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇮🇪 爱尔兰 (Ireland) 01 - hotick
-  server: ir-new-ded.failspace.top
-  port: 443
+- name: 🇵🇭 菲律宾 (Philippines) 01 - hotick
+  server: ph001.zestapp778.com
+  port: 15656
   udp: true
   type: vless
-  uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
-  flow: xtls-rprx-vision
+  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
   tls: true
-  servername: ir-new-ded.failspace.top
+  servername: ph001.zestapp778.com
   skip-cert-verify: false
-  client-fingerprint: firefox
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇮🇪 爱尔兰 (Ireland) 01 - hotick
+  - 🇵🇭 菲律宾 (Philippines) 01 - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇮🇪 爱尔兰 (Ireland) 01 - hotick
+  - 🇵🇭 菲律宾 (Philippines) 01 - hotick
 rules:
 - MATCH,PROXIES

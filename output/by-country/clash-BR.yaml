@@ -5,16 +5,27 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇧🇷 巴西 (Brazil) 01 - hotick
-  server: 216.128.169.78
-  port: 15040
+  server: 216.238.104.154
+  port: 443
+  udp: true
+  type: trojan
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: findtemporaryworkandfreelancerprojectsonlineplatform.com
+  skip-cert-verify: false
+- name: 🇧🇷 巴西 (Brazil) 02 - hotick
+  server: 109.104.155.121
+  port: 443
   udp: true
   type: vless
-  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
+  uuid: caf3d607-95c9-4ea0-98b5-864027056ba0
+  flow: xtls-rprx-vision
   tls: true
-  servername: br.zestapp778.com
-  skip-cert-verify: false
+  reality-opts:
+    public-key: 1TtWNQhTJr_3H7-ypMw4EiLzVxy22AzUtMiE5JmQMl4
+    short-id: 1c5869a95671bcb0
+  servername: br1.accessboy.com
   client-fingerprint: firefox
-- name: 🇧🇷 巴西 (Brazil) 02 - hotick
+- name: 🇧🇷 巴西 (Brazil) 03 - hotick
   server: 147.15.108.14
   port: 20000
   udp: true
@@ -24,14 +35,17 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: CyG0RFxMjzs41uQD4OLuHQ==
-- name: 🇧🇷 巴西 (Brazil) 03 - hotick
-  server: 216.238.104.154
-  port: 443
+  ports: 20000-30000,20000-20000
+- name: 🇧🇷 巴西 (Brazil) 04 - hotick
+  server: br001.zestapp778.com
+  port: 15040
   udp: true
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: findtemporaryworkandfreelancerprojectsonlineplatform.com
+  type: vless
+  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
+  tls: true
+  servername: br.zestapp778.com
   skip-cert-verify: false
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
@@ -40,6 +54,7 @@ proxy-groups:
   - 🇧🇷 巴西 (Brazil) 01 - hotick
   - 🇧🇷 巴西 (Brazil) 02 - hotick
   - 🇧🇷 巴西 (Brazil) 03 - hotick
+  - 🇧🇷 巴西 (Brazil) 04 - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -48,5 +63,6 @@ proxy-groups:
   - 🇧🇷 巴西 (Brazil) 01 - hotick
   - 🇧🇷 巴西 (Brazil) 02 - hotick
   - 🇧🇷 巴西 (Brazil) 03 - hotick
+  - 🇧🇷 巴西 (Brazil) 04 - hotick
 rules:
 - MATCH,PROXIES
