@@ -27,30 +27,9 @@
     {
       "type": "vless",
       "tag": "🇨🇿 捷克 (Czech) 02 - hotick",
-      "server": "cz-prg.dontblockmepls.com",
-      "server_port": 2063,
-      "uuid": "b18d5990-96eb-4587-a386-7f8ef7591e6a",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "rusbid.de",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "MMpt_jWc4J3oySBdf5sPDVRkiWlZmOObth6A1scM9BM",
-          "short_id": ""
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇿 捷克 (Czech) 03 - hotick",
       "server": "193.124.17.190",
       "server_port": 443,
-      "uuid": "6dfc9149-1ff9-41c3-8563-0ef284381731",
+      "uuid": "4d017db2-7655-4276-9557-e2ec25b04ee7",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
@@ -62,7 +41,7 @@
         "reality": {
           "enabled": true,
           "public_key": "J-dv-HrWfQ_IOoyutv0Kg-rO8QwoRwc02dS1dS_tblk",
-          "short_id": "1374bddeb25d"
+          "short_id": "ee1716767f9b"
         }
       }
     },
@@ -72,8 +51,7 @@
       "outbounds": [
         "auto",
         "🇨🇿 捷克 (Czech) 01 - hotick",
-        "🇨🇿 捷克 (Czech) 02 - hotick",
-        "🇨🇿 捷克 (Czech) 03 - hotick"
+        "🇨🇿 捷克 (Czech) 02 - hotick"
       ]
     },
     {
@@ -81,8 +59,7 @@
       "tag": "auto",
       "outbounds": [
         "🇨🇿 捷克 (Czech) 01 - hotick",
-        "🇨🇿 捷克 (Czech) 02 - hotick",
-        "🇨🇿 捷克 (Czech) 03 - hotick"
+        "🇨🇿 捷克 (Czech) 02 - hotick"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

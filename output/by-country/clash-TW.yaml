@@ -10,17 +10,9 @@ proxies:
   udp: true
   type: hysteria2
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: t.me
+  sni: speedtest.tinkoff.ru
   skip-cert-verify: true
 - name: 🇹🇼 中国台湾 (Taiwan) 02 - hotick
-  server: 103.115.109.49
-  port: 443
-  udp: true
-  type: hysteria2
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: 'https:'
-  skip-cert-verify: true
-- name: 🇹🇼 中国台湾 (Taiwan) 03 - hotick
   server: 83.147.14.168
   port: 9443
   udp: true
@@ -33,7 +25,7 @@ proxies:
     short-id: b390142456517acc
   servername: www.amazon.com
   client-fingerprint: chrome
-- name: 🇹🇼 中国台湾 (Taiwan) 04 - hotick
+- name: 🇹🇼 中国台湾 (Taiwan) 03 - hotick
   server: 152.32.167.33
   port: 443
   udp: true
@@ -46,21 +38,16 @@ proxies:
     short-id: cff998a4
   servername: www.amazon.com
   client-fingerprint: chrome
-- name: 🇹🇼 中国台湾 (Taiwan) 05 - hotick
-  server: 6aa21c4d-11d4-45bf-ba55-59512593692c.7b63595a-1119-4080-80e1-3f638120be58.smartprivatelink.com
+- name: 🇹🇼 中国台湾 (Taiwan) 04 - hotick
+  server: 103.115.109.49
   port: 443
   udp: true
-  type: vless
-  uuid: 2a778078-9f4f-4203-a204-6fb94547b707
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: 3nFa_3MSnFQDm9XfVfFHOnMb3FOptREpe1ehXjAbk1c
-    short-id: d369dbc2
-  servername: www.douyin.com
-  client-fingerprint: ios
-- name: 🇹🇼 中国台湾 (Taiwan) 06 - hotick
-  server: 59.125.69.23
+  type: hysteria2
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: https://t.me/wangcai2🇨🇳
+  skip-cert-verify: true
+- name: 🇹🇼 中国台湾 (Taiwan) 05 - hotick
+  server: 60.248.219.78
   port: 443
   udp: true
   type: vless
@@ -68,7 +55,6 @@ proxies:
   tls: true
   servername: ty986gfazs.cainiaohub.xyz
   skip-cert-verify: true
-  client-fingerprint: chrome
   network: ws
   ws-opts:
     path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
@@ -84,7 +70,6 @@ proxy-groups:
   - 🇹🇼 中国台湾 (Taiwan) 03 - hotick
   - 🇹🇼 中国台湾 (Taiwan) 04 - hotick
   - 🇹🇼 中国台湾 (Taiwan) 05 - hotick
-  - 🇹🇼 中国台湾 (Taiwan) 06 - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -95,6 +80,5 @@ proxy-groups:
   - 🇹🇼 中国台湾 (Taiwan) 03 - hotick
   - 🇹🇼 中国台湾 (Taiwan) 04 - hotick
   - 🇹🇼 中国台湾 (Taiwan) 05 - hotick
-  - 🇹🇼 中国台湾 (Taiwan) 06 - hotick
 rules:
 - MATCH,PROXIES

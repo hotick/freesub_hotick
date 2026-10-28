@@ -37,58 +37,19 @@
       "tag": "🇺🇦 乌克兰 (Ukraine) 03 - hotick",
       "server": "staging.lastilhame.monster",
       "server_port": 443,
-      "uuid": "317bc783-340f-453c-afb5-b6bf637c0b23",
+      "uuid": "de38389f-5651-4f2f-8276-5aabf3b861c9",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.tradingview.com",
+        "server_name": "www.hollywoodreporter.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
           "public_key": "FjcEZNQ8t5E4R04_11T6ghsOutdqwKKrelkuadakoQg",
-          "short_id": "fc994ae7eb10"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇦 乌克兰 (Ukraine) 04 - hotick",
-      "server": "216.24.57.225",
-      "server_port": 2083,
-      "uuid": "3bcbd7ef-e05b-4745-a1de-5ecf98dd2fb6",
-      "tls": {
-        "enabled": true,
-        "server_name": "pol.netvia.ir",
-        "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/wss",
-        "headers": {
-          "Host": "pol.netvia.ir"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇦 乌克兰 (Ukraine) 05 - hotick",
-      "server": "31.222.235.81",
-      "server_port": 443,
-      "uuid": "d8b58872-cc25-4bb2-badb-b86399c075fa",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "L9IllZt5vcjYVY_6rmCJ_9ypmJsBK8dSWkNVCStrZjk",
-          "short_id": "d8b58872"
+          "short_id": "225e930cfd4d"
         }
       }
     },
@@ -99,9 +60,7 @@
         "auto",
         "🇺🇦 乌克兰 (Ukraine) 01 - hotick",
         "🇺🇦 乌克兰 (Ukraine) 02 - hotick",
-        "🇺🇦 乌克兰 (Ukraine) 03 - hotick",
-        "🇺🇦 乌克兰 (Ukraine) 04 - hotick",
-        "🇺🇦 乌克兰 (Ukraine) 05 - hotick"
+        "🇺🇦 乌克兰 (Ukraine) 03 - hotick"
       ]
     },
     {
@@ -110,9 +69,7 @@
       "outbounds": [
         "🇺🇦 乌克兰 (Ukraine) 01 - hotick",
         "🇺🇦 乌克兰 (Ukraine) 02 - hotick",
-        "🇺🇦 乌克兰 (Ukraine) 03 - hotick",
-        "🇺🇦 乌克兰 (Ukraine) 04 - hotick",
-        "🇺🇦 乌克兰 (Ukraine) 05 - hotick"
+        "🇺🇦 乌克兰 (Ukraine) 03 - hotick"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

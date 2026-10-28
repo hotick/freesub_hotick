@@ -18,28 +18,16 @@ proxies:
   servername: gateway.icloud.com
   client-fingerprint: chrome
 - name: 🇨🇿 捷克 (Czech) 02 - hotick
-  server: cz-prg.dontblockmepls.com
-  port: 2063
-  udp: true
-  type: vless
-  uuid: b18d5990-96eb-4587-a386-7f8ef7591e6a
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: MMpt_jWc4J3oySBdf5sPDVRkiWlZmOObth6A1scM9BM
-  servername: rusbid.de
-  client-fingerprint: firefox
-- name: 🇨🇿 捷克 (Czech) 03 - hotick
   server: 193.124.17.190
   port: 443
   udp: true
   type: vless
-  uuid: 6dfc9149-1ff9-41c3-8563-0ef284381731
+  uuid: 4d017db2-7655-4276-9557-e2ec25b04ee7
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
     public-key: J-dv-HrWfQ_IOoyutv0Kg-rO8QwoRwc02dS1dS_tblk
-    short-id: 1374bddeb25d
+    short-id: ee1716767f9b
   servername: www.tradingview.com
   client-fingerprint: firefox
 proxy-groups:
@@ -49,7 +37,6 @@ proxy-groups:
   - AUTO
   - 🇨🇿 捷克 (Czech) 01 - hotick
   - 🇨🇿 捷克 (Czech) 02 - hotick
-  - 🇨🇿 捷克 (Czech) 03 - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -57,6 +44,5 @@ proxy-groups:
   proxies:
   - 🇨🇿 捷克 (Czech) 01 - hotick
   - 🇨🇿 捷克 (Czech) 02 - hotick
-  - 🇨🇿 捷克 (Czech) 03 - hotick
 rules:
 - MATCH,PROXIES
