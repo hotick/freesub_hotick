@@ -6,6 +6,26 @@
     {
       "type": "vless",
       "tag": "🇰🇿 哈萨克斯坦 (Kazakhstan) 01 - hotick",
+      "server": "46.8.43.125",
+      "server_port": 443,
+      "uuid": "846cedee-2a52-4a62-a0b9-11850ead6a8b",
+      "tls": {
+        "enabled": true,
+        "server_name": "kz-central.v8x2b.lol",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "ER-T5En54-sn6IXy7jU8vQVcBbOiWvznnezf3qZ273w",
+          "short_id": ""
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇰🇿 哈萨克斯坦 (Kazakhstan) 02 - hotick",
       "server": "45.136.59.28",
       "server_port": 43000,
       "uuid": "a8b8b21e-1f31-4e4d-a639-efb2de0d577e",
@@ -25,60 +45,8 @@
       }
     },
     {
-      "type": "vmess",
-      "tag": "🇰🇿 哈萨克斯坦 (Kazakhstan) 02 - hotick",
-      "server": "3h-kazakhstan1.09vpn.com",
-      "server_port": 80,
-      "uuid": "567f4be5-12ab-42e1-b8d9-db6fd1fdd31c",
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/vmess/"
-      }
-    },
-    {
       "type": "vless",
       "tag": "🇰🇿 哈萨克斯坦 (Kazakhstan) 03 - hotick",
-      "server": "kz-central.v8x2b.lol",
-      "server_port": 443,
-      "uuid": "846cedee-2a52-4a62-a0b9-11850ead6a8b",
-      "tls": {
-        "enabled": true,
-        "server_name": "kz-central.v8x2b.lol",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "ER-T5En54-sn6IXy7jU8vQVcBbOiWvznnezf3qZ273w",
-          "short_id": ""
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇰🇿 哈萨克斯坦 (Kazakhstan) 04 - hotick",
-      "server": "109.248.170.119",
-      "server_port": 13447,
-      "uuid": "b573cefb-7bc7-4a42-b407-b8b534e66773",
-      "tls": {
-        "enabled": true,
-        "server_name": "yahoo.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "_0wM2ep44eAcrgf5PflKaBivknCWT6kMvQBQUoScCkE",
-          "short_id": "83"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇰🇿 哈萨克斯坦 (Kazakhstan) 05 - hotick",
       "server": "83.222.23.81",
       "server_port": 38065,
       "uuid": "4b9063e0-3288-44e9-9aac-80fbfce323a0",
@@ -97,6 +65,26 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "🇰🇿 哈萨克斯坦 (Kazakhstan) 04 - hotick",
+      "server": "109.248.170.119",
+      "server_port": 13447,
+      "uuid": "b573cefb-7bc7-4a42-b407-b8b534e66773",
+      "tls": {
+        "enabled": true,
+        "server_name": "yahoo.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "_0wM2ep44eAcrgf5PflKaBivknCWT6kMvQBQUoScCkE",
+          "short_id": "83"
+        }
+      }
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
@@ -104,8 +92,7 @@
         "🇰🇿 哈萨克斯坦 (Kazakhstan) 01 - hotick",
         "🇰🇿 哈萨克斯坦 (Kazakhstan) 02 - hotick",
         "🇰🇿 哈萨克斯坦 (Kazakhstan) 03 - hotick",
-        "🇰🇿 哈萨克斯坦 (Kazakhstan) 04 - hotick",
-        "🇰🇿 哈萨克斯坦 (Kazakhstan) 05 - hotick"
+        "🇰🇿 哈萨克斯坦 (Kazakhstan) 04 - hotick"
       ]
     },
     {
@@ -115,8 +102,7 @@
         "🇰🇿 哈萨克斯坦 (Kazakhstan) 01 - hotick",
         "🇰🇿 哈萨克斯坦 (Kazakhstan) 02 - hotick",
         "🇰🇿 哈萨克斯坦 (Kazakhstan) 03 - hotick",
-        "🇰🇿 哈萨克斯坦 (Kazakhstan) 04 - hotick",
-        "🇰🇿 哈萨克斯坦 (Kazakhstan) 05 - hotick"
+        "🇰🇿 哈萨克斯坦 (Kazakhstan) 04 - hotick"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

@@ -4,9 +4,17 @@
   },
   "outbounds": [
     {
+      "type": "vmess",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 01 (移动家宽) - hotick",
+      "server": "dog-hk.kunlun01dns.com",
+      "server_port": 21022,
+      "uuid": "9464ca40-dd75-3742-a628-d931a9f413b2",
+      "security": "auto"
+    },
+    {
       "type": "anytls",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - hotick",
-      "server": "56481.df6h451rh.xin",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 02 (家宽) - hotick",
+      "server": "654968169.df6h451rh.xin",
       "server_port": 443,
       "password": "0324fbc29561",
       "tls": {
@@ -17,8 +25,8 @@
     },
     {
       "type": "anytls",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 02 (家宽) - hotick",
-      "server": "654968169.df6h451rh.xin",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 03 (家宽) - hotick",
+      "server": "56481.df6h451rh.xin",
       "server_port": 443,
       "password": "0324fbc29561",
       "tls": {
@@ -35,16 +43,18 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - hotick",
-        "🇭🇰 中国香港 (Hong Kong) 02 (家宽) - hotick"
+        "🇭🇰 中国香港 (Hong Kong) 01 (移动家宽) - hotick",
+        "🇭🇰 中国香港 (Hong Kong) 02 (家宽) - hotick",
+        "🇭🇰 中国香港 (Hong Kong) 03 (家宽) - hotick"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - hotick",
-        "🇭🇰 中国香港 (Hong Kong) 02 (家宽) - hotick"
+        "🇭🇰 中国香港 (Hong Kong) 01 (移动家宽) - hotick",
+        "🇭🇰 中国香港 (Hong Kong) 02 (家宽) - hotick",
+        "🇭🇰 中国香港 (Hong Kong) 03 (家宽) - hotick"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
