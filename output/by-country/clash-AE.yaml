@@ -5,157 +5,48 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇦🇪 阿联酋 (UAE) 01 - hotick
-  server: ams1.rvpn.app
+  server: 178.253.16.185
   port: 8388
   udp: true
   type: ss
   cipher: chacha20-ietf-poly1305
   password: x2A6AsyZ-rAllz0wbKHzWA
 - name: 🇦🇪 阿联酋 (UAE) 02 - hotick
+  server: 203.137.165.164
+  port: 57554
+  udp: true
+  type: vless
+  uuid: 91cf01c5-62c1-44cd-80e0-df6310025dab
+  tls: true
+  servername: c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev
+- name: 🇦🇪 阿联酋 (UAE) 03 - hotick
   server: 130.49.161.70
   port: 443
   udp: true
   type: hysteria2
   password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
   sni: hy2.aspidnet.xyz
-  skip-cert-verify: true
+  skip-cert-verify: false
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
-- name: 🇦🇪 阿联酋 (UAE) 03 - hotick
-  server: 217.60.72.225
-  port: 443
-  udp: true
-  type: hysteria2
-  password: 329e13e4-ee7c-4802-ac72-5fcab79c2402
-  sni: forshynewh.duckdns.org
-  skip-cert-verify: false
 - name: 🇦🇪 阿联酋 (UAE) 04 - hotick
-  server: 188.34.142.174
-  port: 444
+  server: ae.privatevip.ir
+  port: 450
   udp: true
   type: vless
-  uuid: da46ec1f-84ad-4470-866f-010b58357b19
-  tls: true
-  servername: 9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: 9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev
-- name: 🇦🇪 阿联酋 (UAE) 05 - hotick
-  server: 129.151.64.169
-  port: 31867
-  udp: true
-  type: vless
-  uuid: bd01efed-f999-41a5-bbb1-3d2357647f11
-  tls: true
-  servername: c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev
-- name: 🇦🇪 阿联酋 (UAE) 06 - hotick
-  server: 179.61.251.244
-  port: 7443
-  udp: true
-  type: vless
-  uuid: 29686381-3e8f-4907-ac34-58c4ce4a6216
-  tls: true
-  servername: 3tmj2egtm-fno.49bnithzk8vphybv36d1z1xkzfvogt2m6.workers.dev
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: 3tmj2egtm-fno.49bnithzk8vphybv36d1z1xkzfvogt2m6.workers.dev
-- name: 🇦🇪 阿联酋 (UAE) 07 - hotick
-  server: 178.105.133.160
-  port: 4443
-  udp: true
-  type: vless
-  uuid: bd3ebd5f-a315-4e27-9271-3c80f49821c9
-  tls: true
-  servername: 3tmj2egtm-fno.49bnithzk8vphybv36d1z1xkzfvogt2m6.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: 3tmj2egtm-fno.49bnithzk8vphybv36d1z1xkzfvogt2m6.workers.dev
-- name: 🇦🇪 阿联酋 (UAE) 08 - hotick
-  server: 185.125.103.62
-  port: 8082
-  udp: true
-  type: vless
-  uuid: 20d44edd-fccd-4b52-926b-956b693c6aa3
-  tls: true
-  servername: 3tmj2egtm-fno.49bnithzk8vphybv36d1z1xkzfvogt2m6.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: 3tmj2egtm-fno.49bnithzk8vphybv36d1z1xkzfvogt2m6.workers.dev
-- name: 🇦🇪 阿联酋 (UAE) 09 - hotick
-  server: 144.31.135.38
-  port: 9444
-  udp: true
-  type: vless
-  uuid: d623f979-df61-4b00-9f88-00a8b1ad861c
-  tls: true
-  servername: 9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: 9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev
-- name: 🇦🇪 阿联酋 (UAE) 10 - hotick
-  server: 95.174.68.188
-  port: 14430
-  udp: true
-  type: vless
-  uuid: 965ffbbe-c6b6-4d5f-8dea-6d8abc55d9c0
-  network: ws
-  ws-opts:
-    path: /vless
-    headers:
-      Host: 95.174.68.188
-- name: 🇦🇪 阿联酋 (UAE) 11 - hotick
-  server: uae.unixzone.us
-  port: 22573
-  udp: true
-  type: vless
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+  uuid: 7c730089-1791-4828-89b2-86e7e1663063
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: uae.unixzone.us
-- name: 🇦🇪 阿联酋 (UAE) 12 - hotick
-  server: 142.91.101.39
-  port: 627
-  udp: true
-  type: vless
-  uuid: 09e3998f-aba1-401a-8bcd-fd5bb5a6483c
-  tls: true
-  servername: wjwkhoaftdgrt8qus.mp8pmwdgwf3sdapasouszjobjr57nrxxgtx9n.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: firefox
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: wjwkhoaftdgrt8qus.mp8pmwdgwf3sdapasouszjobjr57nrxxgtx9n.workers.dev
-- name: 🇦🇪 阿联酋 (UAE) 13 - hotick
+      Host: ae.privatevip.ir
+- name: 🇦🇪 阿联酋 (UAE) 05 - hotick
   server: 185.253.116.33
   port: 14430
   udp: true
@@ -166,6 +57,41 @@ proxies:
     path: /vless
     headers:
       Host: 185.253.116.33
+- name: 🇦🇪 阿联酋 (UAE) 06 - hotick
+  server: 83.147.216.223
+  port: 4433
+  udp: true
+  type: vless
+  uuid: b491331e-3be5-4097-8bc1-fa86de978c29
+  tls: true
+  servername: bapj1qapjk4.0sds0li1bwcz0i76it0gjxv1.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: bapj1qapjk4.0sds0li1bwcz0i76it0gjxv1.workers.dev
+- name: 🇦🇪 阿联酋 (UAE) 07 - hotick
+  server: 95.174.68.188
+  port: 14430
+  udp: true
+  type: vless
+  uuid: 965ffbbe-c6b6-4d5f-8dea-6d8abc55d9c0
+  network: ws
+  ws-opts:
+    path: /vless
+- name: 🇦🇪 阿联酋 (UAE) 08 - hotick
+  server: 84.235.244.108
+  port: 22573
+  udp: true
+  type: vless
+  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: uae.unixzone.us
 proxy-groups:
 - name: PROXIES
   type: select
@@ -179,11 +105,6 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 06 - hotick
   - 🇦🇪 阿联酋 (UAE) 07 - hotick
   - 🇦🇪 阿联酋 (UAE) 08 - hotick
-  - 🇦🇪 阿联酋 (UAE) 09 - hotick
-  - 🇦🇪 阿联酋 (UAE) 10 - hotick
-  - 🇦🇪 阿联酋 (UAE) 11 - hotick
-  - 🇦🇪 阿联酋 (UAE) 12 - hotick
-  - 🇦🇪 阿联酋 (UAE) 13 - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -197,10 +118,5 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 06 - hotick
   - 🇦🇪 阿联酋 (UAE) 07 - hotick
   - 🇦🇪 阿联酋 (UAE) 08 - hotick
-  - 🇦🇪 阿联酋 (UAE) 09 - hotick
-  - 🇦🇪 阿联酋 (UAE) 10 - hotick
-  - 🇦🇪 阿联酋 (UAE) 11 - hotick
-  - 🇦🇪 阿联酋 (UAE) 12 - hotick
-  - 🇦🇪 阿联酋 (UAE) 13 - hotick
 rules:
 - MATCH,PROXIES

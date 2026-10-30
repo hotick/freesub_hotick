@@ -5,7 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇵🇹 葡萄牙 (Portugal) 01 - hotick
-  server: 31.192.237.186
+  server: 89.125.27.97
   port: 2053
   udp: true
   type: vless

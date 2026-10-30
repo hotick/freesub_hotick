@@ -5,23 +5,20 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 01 (家宽) - hotick",
-      "server": "chatgpt.com",
+      "tag": "🇺🇸 美国 (United States) 01 (移动家宽) - hotick",
+      "server": "172.67.128.201",
       "server_port": 443,
-      "uuid": "64726966-0000-4000-8000-740000000000",
+      "uuid": "65d3f9b3-d289-4a8e-9c87-90bba156de30",
       "tls": {
         "enabled": true,
-        "server_name": "parsa-panel-dy55x.railway1385-2a46.workers.dev",
-        "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ]
+        "server_name": "ld.235231.xyz",
+        "insecure": false
       },
       "transport": {
         "type": "ws",
-        "path": "/drift",
+        "path": "/",
         "headers": {
-          "Host": "parsa-panel-dy55x.railway1385-2a46.workers.dev"
+          "Host": "ld.235231.xyz"
         }
       }
     },
@@ -46,7 +43,7 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇺🇸 美国 (United States) 01 (家宽) - hotick",
+        "🇺🇸 美国 (United States) 01 (移动家宽) - hotick",
         "🇺🇸 美国 (United States) 02 (家宽) - hotick"
       ]
     },
@@ -54,7 +51,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇺🇸 美国 (United States) 01 (家宽) - hotick",
+        "🇺🇸 美国 (United States) 01 (移动家宽) - hotick",
         "🇺🇸 美国 (United States) 02 (家宽) - hotick"
       ],
       "url": "https://www.gstatic.com/generate_204"

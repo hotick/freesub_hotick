@@ -5,12 +5,12 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇧🇷 巴西 (Brazil) 01 - hotick
-  server: 216.238.104.154
-  port: 443
+  server: br001.zestapp778.com
+  port: 39533
   udp: true
   type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: findtemporaryworkandfreelancerprojectsonlineplatform.com
+  password: 5t6i121em5lkmsmk
+  sni: br001.zestapp778.com
   skip-cert-verify: false
 - name: 🇧🇷 巴西 (Brazil) 02 - hotick
   server: 147.15.108.14
@@ -23,15 +23,6 @@ proxies:
   obfs: salamander
   obfs-password: CyG0RFxMjzs41uQD4OLuHQ==
   ports: 20000-30000,20000-20000
-- name: 🇧🇷 巴西 (Brazil) 03 - hotick
-  server: br001.zestapp778.com
-  port: 15040
-  udp: true
-  type: vless
-  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
-  tls: true
-  servername: br001.zestapp778.com
-  skip-cert-verify: false
 proxy-groups:
 - name: PROXIES
   type: select
@@ -39,7 +30,6 @@ proxy-groups:
   - AUTO
   - 🇧🇷 巴西 (Brazil) 01 - hotick
   - 🇧🇷 巴西 (Brazil) 02 - hotick
-  - 🇧🇷 巴西 (Brazil) 03 - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -47,6 +37,5 @@ proxy-groups:
   proxies:
   - 🇧🇷 巴西 (Brazil) 01 - hotick
   - 🇧🇷 巴西 (Brazil) 02 - hotick
-  - 🇧🇷 巴西 (Brazil) 03 - hotick
 rules:
 - MATCH,PROXIES

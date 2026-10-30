@@ -4,23 +4,7 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇭🇰 中国香港 (Hong Kong) 01 (移动家宽) - hotick
-  server: dog-hk.kunlun01dns.com
-  port: 21022
-  udp: true
-  type: vmess
-  uuid: 9464ca40-dd75-3742-a628-d931a9f413b2
-  alterId: 0
-  cipher: auto
-- name: 🇭🇰 中国香港 (Hong Kong) 02 (家宽) - hotick
-  server: 654968169.df6h451rh.xin
-  port: 443
-  udp: true
-  type: anytls
-  password: 0324fbc29561
-  sni: images.ctfassets.net
-  skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - hotick
+- name: 🇭🇰 中国香港 (Hong Kong) 01 (家宽) - hotick
   server: 56481.df6h451rh.xin
   port: 443
   udp: true
@@ -28,21 +12,27 @@ proxies:
   password: 0324fbc29561
   sni: images.ctfassets.net
   skip-cert-verify: true
+- name: 🇭🇰 中国香港 (Hong Kong) 02 (家宽) - hotick
+  server: 654968169.df6h451rh.xin
+  port: 443
+  udp: true
+  type: anytls
+  password: 0324fbc29561
+  sni: 127.0.0.1
+  skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇭🇰 中国香港 (Hong Kong) 01 (移动家宽) - hotick
+  - 🇭🇰 中国香港 (Hong Kong) 01 (家宽) - hotick
   - 🇭🇰 中国香港 (Hong Kong) 02 (家宽) - hotick
-  - 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇭🇰 中国香港 (Hong Kong) 01 (移动家宽) - hotick
+  - 🇭🇰 中国香港 (Hong Kong) 01 (家宽) - hotick
   - 🇭🇰 中国香港 (Hong Kong) 02 (家宽) - hotick
-  - 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - hotick
 rules:
 - MATCH,PROXIES

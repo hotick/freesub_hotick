@@ -4,54 +4,46 @@
   },
   "outbounds": [
     {
-      "type": "shadowsocks",
-      "tag": "🇰🇷 韩国 (South Korea) 01 (家宽) - hotick",
-      "server": "218.237.185.234",
-      "server_port": 4652,
-      "method": "aes-256-cfb",
-      "password": "qwerREWQ@@"
-    },
-    {
       "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 02 (家宽) - hotick",
-      "server": "chatgpt.com",
+      "tag": "🇺🇸 美国 (United States) 01 (移动家宽) - hotick",
+      "server": "172.67.128.201",
       "server_port": 443,
-      "uuid": "64726966-0000-4000-8000-740000000000",
+      "uuid": "65d3f9b3-d289-4a8e-9c87-90bba156de30",
       "tls": {
         "enabled": true,
-        "server_name": "parsa-panel-dy55x.railway1385-2a46.workers.dev",
-        "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ]
+        "server_name": "ld.235231.xyz",
+        "insecure": false
       },
       "transport": {
         "type": "ws",
-        "path": "/drift",
+        "path": "/",
         "headers": {
-          "Host": "parsa-panel-dy55x.railway1385-2a46.workers.dev"
+          "Host": "ld.235231.xyz"
         }
       }
     },
     {
-      "type": "vmess",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 03 (移动家宽) - hotick",
-      "server": "dog-hk.kunlun01dns.com",
-      "server_port": 21022,
-      "uuid": "9464ca40-dd75-3742-a628-d931a9f413b2",
-      "security": "auto"
+      "type": "vless",
+      "tag": "🇰🇷 韩国 (South Korea) 02 (家宽) - hotick",
+      "server": "112.169.175.199",
+      "server_port": 31157,
+      "uuid": "bd2fb303-b4c7-49af-a8e3-5c6f11b005dd"
     },
     {
-      "type": "anytls",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 04 (家宽) - hotick",
-      "server": "654968169.df6h451rh.xin",
-      "server_port": 443,
-      "password": "0324fbc29561",
-      "tls": {
-        "enabled": true,
-        "server_name": "images.ctfassets.net",
-        "insecure": true
-      }
+      "type": "shadowsocks",
+      "tag": "🇰🇷 韩国 (South Korea) 03 (家宽) - hotick",
+      "server": "49.254.204.133",
+      "server_port": 1774,
+      "method": "aes-256-cfb",
+      "password": "1234!@#$"
+    },
+    {
+      "type": "vmess",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 04 (家宽) - hotick",
+      "server": "dog-tw.kunlun01dns.com",
+      "server_port": 21036,
+      "uuid": "9464ca40-dd75-3742-a628-d931a9f413b2",
+      "security": "auto"
     },
     {
       "type": "hysteria2",
@@ -70,8 +62,16 @@
       }
     },
     {
+      "type": "shadowsocks",
+      "tag": "🇰🇷 韩国 (South Korea) 06 (家宽) - hotick",
+      "server": "p141.panda001.net",
+      "server_port": 4652,
+      "method": "aes-256-cfb",
+      "password": "qwerREWQ@@"
+    },
+    {
       "type": "anytls",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 06 (家宽) - hotick",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 07 (家宽) - hotick",
       "server": "56481.df6h451rh.xin",
       "server_port": 443,
       "password": "0324fbc29561",
@@ -85,26 +85,15 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇮🇳 印度 (India) 07 (家宽) - hotick",
-      "server": "122.176.216.52",
+      "type": "anytls",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 08 (家宽) - hotick",
+      "server": "654968169.df6h451rh.xin",
       "server_port": 443,
-      "uuid": "16ae3ea5-cf3e-6973-7bf3-2b4b28d0ea88",
+      "password": "0324fbc29561",
       "tls": {
         "enabled": true,
-        "server_name": "app-6ada5023.deploy.meerasolution.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "android"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/ws/16ae3ea5-cf3e-6973-7bf3-2b4b28d0ea88",
-        "headers": {
-          "Host": "app-6ada5023.deploy.meerasolution.com"
-        }
+        "server_name": "127.0.0.1",
+        "insecure": true
       }
     },
     {
@@ -112,26 +101,28 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇰🇷 韩国 (South Korea) 01 (家宽) - hotick",
-        "🇺🇸 美国 (United States) 02 (家宽) - hotick",
-        "🇭🇰 中国香港 (Hong Kong) 03 (移动家宽) - hotick",
-        "🇭🇰 中国香港 (Hong Kong) 04 (家宽) - hotick",
+        "🇺🇸 美国 (United States) 01 (移动家宽) - hotick",
+        "🇰🇷 韩国 (South Korea) 02 (家宽) - hotick",
+        "🇰🇷 韩国 (South Korea) 03 (家宽) - hotick",
+        "🇹🇼 中国台湾 (Taiwan) 04 (家宽) - hotick",
         "🇺🇸 美国 (United States) 05 (家宽) - hotick",
-        "🇭🇰 中国香港 (Hong Kong) 06 (家宽) - hotick",
-        "🇮🇳 印度 (India) 07 (家宽) - hotick"
+        "🇰🇷 韩国 (South Korea) 06 (家宽) - hotick",
+        "🇭🇰 中国香港 (Hong Kong) 07 (家宽) - hotick",
+        "🇭🇰 中国香港 (Hong Kong) 08 (家宽) - hotick"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇰🇷 韩国 (South Korea) 01 (家宽) - hotick",
-        "🇺🇸 美国 (United States) 02 (家宽) - hotick",
-        "🇭🇰 中国香港 (Hong Kong) 03 (移动家宽) - hotick",
-        "🇭🇰 中国香港 (Hong Kong) 04 (家宽) - hotick",
+        "🇺🇸 美国 (United States) 01 (移动家宽) - hotick",
+        "🇰🇷 韩国 (South Korea) 02 (家宽) - hotick",
+        "🇰🇷 韩国 (South Korea) 03 (家宽) - hotick",
+        "🇹🇼 中国台湾 (Taiwan) 04 (家宽) - hotick",
         "🇺🇸 美国 (United States) 05 (家宽) - hotick",
-        "🇭🇰 中国香港 (Hong Kong) 06 (家宽) - hotick",
-        "🇮🇳 印度 (India) 07 (家宽) - hotick"
+        "🇰🇷 韩国 (South Korea) 06 (家宽) - hotick",
+        "🇭🇰 中国香港 (Hong Kong) 07 (家宽) - hotick",
+        "🇭🇰 中国香港 (Hong Kong) 08 (家宽) - hotick"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

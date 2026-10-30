@@ -12,33 +12,26 @@
       "password": "e8KgS8fD0yDqYFpgN4G5piCOt9aFyqA3"
     },
     {
-      "type": "vless",
+      "type": "hysteria2",
       "tag": "🇨🇭 瑞士 (Switzerland) 02 - hotick",
-      "server": "154.31.112.237",
-      "server_port": 26418,
-      "uuid": "1e61d1c5-383d-406f-9230-1edd3e9449c5",
+      "server": "208.69.78.217",
+      "server_port": 21046,
+      "password": "capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw",
       "tls": {
         "enabled": true,
-        "server_name": "d-l28t5-65-b.pbe40wmcujaw726h7cpqernzmawz4stwtrnqve0n1s5reht.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        "server_name": "vpn.local",
+        "insecure": true
       },
-      "transport": {
-        "type": "ws",
-        "path": "/@Marisa_kristi",
-        "headers": {
-          "Host": "d-l28t5-65-b.pbe40wmcujaw726h7cpqernzmawz4stwtrnqve0n1s5reht.workers.dev"
-        }
+      "obfs": {
+        "type": "salamander",
+        "password": "mbQXP2ASuHbF6ZPq"
       }
     },
     {
       "type": "hysteria2",
       "tag": "🇨🇭 瑞士 (Switzerland) 03 - hotick",
       "server": "208.69.78.217",
-      "server_port": 21154,
+      "server_port": 21016,
       "password": "capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw",
       "tls": {
         "enabled": true,
@@ -54,7 +47,7 @@
       "type": "hysteria2",
       "tag": "🇨🇭 瑞士 (Switzerland) 04 - hotick",
       "server": "208.69.78.217",
-      "server_port": 33042,
+      "server_port": 33187,
       "password": "capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw",
       "tls": {
         "enabled": true,
@@ -70,7 +63,7 @@
       "type": "hysteria2",
       "tag": "🇨🇭 瑞士 (Switzerland) 05 - hotick",
       "server": "208.69.78.217",
-      "server_port": 21113,
+      "server_port": 33042,
       "password": "capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw",
       "tls": {
         "enabled": true,
@@ -85,24 +78,24 @@
     {
       "type": "hysteria2",
       "tag": "🇨🇭 瑞士 (Switzerland) 06 - hotick",
-      "server": "208.69.78.217",
-      "server_port": 33130,
-      "password": "capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw",
+      "server": "152.67.75.161",
+      "server_port": 443,
+      "password": "3a702d4d1de4949005d8431220e040fb",
       "tls": {
         "enabled": true,
-        "server_name": "vpn.local",
+        "server_name": "www.bing.com",
         "insecure": true
       },
       "obfs": {
         "type": "salamander",
-        "password": "mbQXP2ASuHbF6ZPq"
+        "password": "c13f29db6a638ad2b211b9ce2669ef27"
       }
     },
     {
       "type": "hysteria2",
       "tag": "🇨🇭 瑞士 (Switzerland) 07 - hotick",
       "server": "208.69.78.217",
-      "server_port": 33013,
+      "server_port": 33025,
       "password": "capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw",
       "tls": {
         "enabled": true,
@@ -118,7 +111,7 @@
       "type": "hysteria2",
       "tag": "🇨🇭 瑞士 (Switzerland) 08 - hotick",
       "server": "208.69.78.217",
-      "server_port": 33152,
+      "server_port": 21054,
       "password": "capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw",
       "tls": {
         "enabled": true,
@@ -134,7 +127,7 @@
       "type": "hysteria2",
       "tag": "🇨🇭 瑞士 (Switzerland) 09 - hotick",
       "server": "208.69.78.217",
-      "server_port": 33171,
+      "server_port": 21161,
       "password": "capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw",
       "tls": {
         "enabled": true,
@@ -150,6 +143,70 @@
       "type": "hysteria2",
       "tag": "🇨🇭 瑞士 (Switzerland) 10 - hotick",
       "server": "208.69.78.217",
+      "server_port": 21158,
+      "password": "capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw",
+      "tls": {
+        "enabled": true,
+        "server_name": "vpn.local",
+        "insecure": true
+      },
+      "obfs": {
+        "type": "salamander",
+        "password": "mbQXP2ASuHbF6ZPq"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇨🇭 瑞士 (Switzerland) 11 - hotick",
+      "server": "208.69.78.217",
+      "server_port": 33117,
+      "password": "capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw",
+      "tls": {
+        "enabled": true,
+        "server_name": "vpn.local",
+        "insecure": true
+      },
+      "obfs": {
+        "type": "salamander",
+        "password": "mbQXP2ASuHbF6ZPq"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇨🇭 瑞士 (Switzerland) 12 - hotick",
+      "server": "208.69.78.217",
+      "server_port": 33174,
+      "password": "capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw",
+      "tls": {
+        "enabled": true,
+        "server_name": "vpn.local",
+        "insecure": true
+      },
+      "obfs": {
+        "type": "salamander",
+        "password": "mbQXP2ASuHbF6ZPq"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇨🇭 瑞士 (Switzerland) 13 - hotick",
+      "server": "208.69.78.217",
+      "server_port": 21147,
+      "password": "capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw",
+      "tls": {
+        "enabled": true,
+        "server_name": "vpn.local",
+        "insecure": true
+      },
+      "obfs": {
+        "type": "salamander",
+        "password": "mbQXP2ASuHbF6ZPq"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇨🇭 瑞士 (Switzerland) 14 - hotick",
+      "server": "208.69.78.217",
       "server_port": 21021,
       "password": "capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw",
       "tls": {
@@ -163,8 +220,24 @@
       }
     },
     {
+      "type": "hysteria2",
+      "tag": "🇨🇭 瑞士 (Switzerland) 15 - hotick",
+      "server": "208.69.78.217",
+      "server_port": 21084,
+      "password": "capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw",
+      "tls": {
+        "enabled": true,
+        "server_name": "vpn.local",
+        "insecure": true
+      },
+      "obfs": {
+        "type": "salamander",
+        "password": "mbQXP2ASuHbF6ZPq"
+      }
+    },
+    {
       "type": "vless",
-      "tag": "🇨🇭 瑞士 (Switzerland) 11 - hotick",
+      "tag": "🇨🇭 瑞士 (Switzerland) 16 - hotick",
       "server": "45.90.59.15",
       "server_port": 443,
       "uuid": "3950b45e-740d-4dca-ac95-505ec8534592",
@@ -184,109 +257,22 @@
       }
     },
     {
-      "type": "hysteria2",
-      "tag": "🇨🇭 瑞士 (Switzerland) 12 - hotick",
-      "server": "208.69.78.217",
-      "server_port": 21047,
-      "password": "capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw",
-      "tls": {
-        "enabled": true,
-        "server_name": "vpn.local",
-        "insecure": true
-      },
-      "obfs": {
-        "type": "salamander",
-        "password": "mbQXP2ASuHbF6ZPq"
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇨🇭 瑞士 (Switzerland) 13 - hotick",
-      "server": "208.69.78.217",
-      "server_port": 33141,
-      "password": "capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw",
-      "tls": {
-        "enabled": true,
-        "server_name": "vpn.local",
-        "insecure": true
-      },
-      "obfs": {
-        "type": "salamander",
-        "password": "mbQXP2ASuHbF6ZPq"
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇨🇭 瑞士 (Switzerland) 14 - hotick",
-      "server": "208.69.78.217",
-      "server_port": 33187,
-      "password": "capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw",
-      "tls": {
-        "enabled": true,
-        "server_name": "vpn.local",
-        "insecure": true
-      },
-      "obfs": {
-        "type": "salamander",
-        "password": "mbQXP2ASuHbF6ZPq"
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇨🇭 瑞士 (Switzerland) 15 - hotick",
-      "server": "208.69.78.217",
-      "server_port": 21086,
-      "password": "capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw",
-      "tls": {
-        "enabled": true,
-        "server_name": "vpn.local",
-        "insecure": true
-      },
-      "obfs": {
-        "type": "salamander",
-        "password": "mbQXP2ASuHbF6ZPq"
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇨🇭 瑞士 (Switzerland) 16 - hotick",
-      "server": "208.69.78.217",
-      "password": "capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw",
-      "tls": {
-        "enabled": true,
-        "server_name": "vpn.local",
-        "insecure": true
-      },
-      "obfs": {
-        "type": "salamander",
-        "password": "mbQXP2ASuHbF6ZPq"
-      },
-      "server_ports": [
-        "21000:21199",
-        "33000:33199"
-      ]
-    },
-    {
-      "type": "hysteria2",
+      "type": "trojan",
       "tag": "🇨🇭 瑞士 (Switzerland) 17 - hotick",
-      "server": "208.69.78.217",
-      "server_port": 33195,
-      "password": "capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw",
+      "server": "208.69.78.60",
+      "server_port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
       "tls": {
         "enabled": true,
-        "server_name": "vpn.local",
-        "insecure": true
-      },
-      "obfs": {
-        "type": "salamander",
-        "password": "mbQXP2ASuHbF6ZPq"
+        "server_name": "cdn.yourultimateprofessionalcareerhub.com",
+        "insecure": false
       }
     },
     {
       "type": "hysteria2",
       "tag": "🇨🇭 瑞士 (Switzerland) 18 - hotick",
       "server": "208.69.78.217",
-      "server_port": 21147,
+      "server_port": 33171,
       "password": "capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw",
       "tls": {
         "enabled": true,
@@ -302,7 +288,7 @@
       "type": "hysteria2",
       "tag": "🇨🇭 瑞士 (Switzerland) 19 - hotick",
       "server": "208.69.78.217",
-      "server_port": 33174,
+      "server_port": 33092,
       "password": "capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw",
       "tls": {
         "enabled": true,
@@ -318,7 +304,7 @@
       "type": "hysteria2",
       "tag": "🇨🇭 瑞士 (Switzerland) 20 - hotick",
       "server": "208.69.78.217",
-      "server_port": 21084,
+      "server_port": 21086,
       "password": "capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw",
       "tls": {
         "enabled": true,
@@ -334,7 +320,7 @@
       "type": "hysteria2",
       "tag": "🇨🇭 瑞士 (Switzerland) 21 - hotick",
       "server": "208.69.78.217",
-      "server_port": 21016,
+      "server_port": 33044,
       "password": "capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw",
       "tls": {
         "enabled": true,
@@ -350,7 +336,7 @@
       "type": "hysteria2",
       "tag": "🇨🇭 瑞士 (Switzerland) 22 - hotick",
       "server": "208.69.78.217",
-      "server_port": 21161,
+      "server_port": 21047,
       "password": "capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw",
       "tls": {
         "enabled": true,
@@ -363,26 +349,31 @@
       }
     },
     {
-      "type": "hysteria2",
+      "type": "vless",
       "tag": "🇨🇭 瑞士 (Switzerland) 23 - hotick",
-      "server": "208.69.78.217",
-      "server_port": 8444,
-      "password": "capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw",
+      "server": "45.90.57.119",
+      "server_port": 8443,
+      "uuid": "f5e70ce3-cfb4-4df1-b25c-d19bfae627c0",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "vpn.local",
-        "insecure": true
-      },
-      "obfs": {
-        "type": "salamander",
-        "password": "mbQXP2ASuHbF6ZPq"
+        "server_name": "twitch.tv",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "L6DeK_a25_ZjPKFOrQLoCPWuXi5KCIH_EcRpARmCwkI",
+          "short_id": "16036bbef04d0509"
+        }
       }
     },
     {
       "type": "hysteria2",
       "tag": "🇨🇭 瑞士 (Switzerland) 24 - hotick",
       "server": "208.69.78.217",
-      "server_port": 33117,
+      "server_port": 33133,
       "password": "capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw",
       "tls": {
         "enabled": true,
@@ -398,7 +389,7 @@
       "type": "hysteria2",
       "tag": "🇨🇭 瑞士 (Switzerland) 25 - hotick",
       "server": "208.69.78.217",
-      "server_port": 21158,
+      "server_port": 21154,
       "password": "capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw",
       "tls": {
         "enabled": true,
@@ -414,7 +405,7 @@
       "type": "hysteria2",
       "tag": "🇨🇭 瑞士 (Switzerland) 26 - hotick",
       "server": "208.69.78.217",
-      "server_port": 21080,
+      "server_port": 8444,
       "password": "capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw",
       "tls": {
         "enabled": true,
@@ -429,77 +420,24 @@
     {
       "type": "hysteria2",
       "tag": "🇨🇭 瑞士 (Switzerland) 27 - hotick",
-      "server": "152.67.75.161",
-      "server_port": 443,
-      "password": "3a702d4d1de4949005d8431220e040fb",
+      "server": "208.69.78.217",
+      "server_port": 21080,
+      "password": "capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw",
       "tls": {
         "enabled": true,
-        "server_name": "www.bing.com",
+        "server_name": "vpn.local",
         "insecure": true
       },
       "obfs": {
         "type": "salamander",
-        "password": "c13f29db6a638ad2b211b9ce2669ef27"
+        "password": "mbQXP2ASuHbF6ZPq"
       }
     },
     {
-      "type": "vless",
+      "type": "hysteria2",
       "tag": "🇨🇭 瑞士 (Switzerland) 28 - hotick",
-      "server": "45.90.57.119",
-      "server_port": 8443,
-      "uuid": "f5e70ce3-cfb4-4df1-b25c-d19bfae627c0",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "twitch.tv",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "L6DeK_a25_ZjPKFOrQLoCPWuXi5KCIH_EcRpARmCwkI",
-          "short_id": "16036bbef04d0509"
-        }
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇨🇭 瑞士 (Switzerland) 29 - hotick",
       "server": "208.69.78.217",
-      "server_port": 33025,
-      "password": "capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw",
-      "tls": {
-        "enabled": true,
-        "server_name": "vpn.local",
-        "insecure": true
-      },
-      "obfs": {
-        "type": "salamander",
-        "password": "mbQXP2ASuHbF6ZPq"
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇨🇭 瑞士 (Switzerland) 30 - hotick",
-      "server": "208.69.78.217",
-      "server_port": 33044,
-      "password": "capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw",
-      "tls": {
-        "enabled": true,
-        "server_name": "vpn.local",
-        "insecure": true
-      },
-      "obfs": {
-        "type": "salamander",
-        "password": "mbQXP2ASuHbF6ZPq"
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇨🇭 瑞士 (Switzerland) 31 - hotick",
-      "server": "208.69.78.217",
-      "server_port": 21067,
+      "server_port": 33130,
       "password": "capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw",
       "tls": {
         "enabled": true,
@@ -513,7 +451,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇭 瑞士 (Switzerland) 32 - hotick",
+      "tag": "🇨🇭 瑞士 (Switzerland) 29 - hotick",
       "server": "208.69.78.217",
       "server_port": 2053,
       "uuid": "c0dd6d59-1573-43af-8b70-1470b2632a6d",
@@ -532,10 +470,54 @@
       }
     },
     {
+      "type": "trojan",
+      "tag": "🇨🇭 瑞士 (Switzerland) 30 - hotick",
+      "server": "208.69.78.29",
+      "server_port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "learn.yourultimateprofessionalcareerhub.com",
+        "insecure": false
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇨🇭 瑞士 (Switzerland) 31 - hotick",
+      "server": "208.69.78.217",
+      "server_port": 33013,
+      "password": "capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw",
+      "tls": {
+        "enabled": true,
+        "server_name": "vpn.local",
+        "insecure": true
+      },
+      "obfs": {
+        "type": "salamander",
+        "password": "mbQXP2ASuHbF6ZPq"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇨🇭 瑞士 (Switzerland) 32 - hotick",
+      "server": "208.69.78.217",
+      "server_port": 33141,
+      "password": "capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw",
+      "tls": {
+        "enabled": true,
+        "server_name": "vpn.local",
+        "insecure": true
+      },
+      "obfs": {
+        "type": "salamander",
+        "password": "mbQXP2ASuHbF6ZPq"
+      }
+    },
+    {
       "type": "hysteria2",
       "tag": "🇨🇭 瑞士 (Switzerland) 33 - hotick",
       "server": "208.69.78.217",
-      "server_port": 21054,
+      "server_port": 21113,
       "password": "capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw",
       "tls": {
         "enabled": true,
@@ -551,7 +533,7 @@
       "type": "hysteria2",
       "tag": "🇨🇭 瑞士 (Switzerland) 34 - hotick",
       "server": "208.69.78.217",
-      "server_port": 21090,
+      "server_port": 33195,
       "password": "capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw",
       "tls": {
         "enabled": true,
@@ -567,7 +549,7 @@
       "type": "hysteria2",
       "tag": "🇨🇭 瑞士 (Switzerland) 35 - hotick",
       "server": "208.69.78.217",
-      "server_port": 21046,
+      "server_port": 21067,
       "password": "capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw",
       "tls": {
         "enabled": true,
@@ -577,61 +559,6 @@
       "obfs": {
         "type": "salamander",
         "password": "mbQXP2ASuHbF6ZPq"
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇨🇭 瑞士 (Switzerland) 36 - hotick",
-      "server": "208.69.78.217",
-      "server_port": 33092,
-      "password": "capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw",
-      "tls": {
-        "enabled": true,
-        "server_name": "vpn.local",
-        "insecure": true
-      },
-      "obfs": {
-        "type": "salamander",
-        "password": "mbQXP2ASuHbF6ZPq"
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇨🇭 瑞士 (Switzerland) 37 - hotick",
-      "server": "208.69.78.217",
-      "server_port": 33133,
-      "password": "capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw",
-      "tls": {
-        "enabled": true,
-        "server_name": "vpn.local",
-        "insecure": true
-      },
-      "obfs": {
-        "type": "salamander",
-        "password": "mbQXP2ASuHbF6ZPq"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇭 瑞士 (Switzerland) 38 - hotick",
-      "server": "107.191.53.86",
-      "server_port": 4798,
-      "uuid": "882b73fd-53fd-4956-a28b-2cb3ece9dc7c",
-      "tls": {
-        "enabled": true,
-        "server_name": "d-l28t5-65-b.pbe40wmcujaw726h7cpqernzmawz4stwtrnqve0n1s5reht.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/@Marisa_kristi",
-        "headers": {
-          "Host": "d-l28t5-65-b.pbe40wmcujaw726h7cpqernzmawz4stwtrnqve0n1s5reht.workers.dev"
-        }
       }
     },
     {
@@ -673,10 +600,7 @@
         "🇨🇭 瑞士 (Switzerland) 32 - hotick",
         "🇨🇭 瑞士 (Switzerland) 33 - hotick",
         "🇨🇭 瑞士 (Switzerland) 34 - hotick",
-        "🇨🇭 瑞士 (Switzerland) 35 - hotick",
-        "🇨🇭 瑞士 (Switzerland) 36 - hotick",
-        "🇨🇭 瑞士 (Switzerland) 37 - hotick",
-        "🇨🇭 瑞士 (Switzerland) 38 - hotick"
+        "🇨🇭 瑞士 (Switzerland) 35 - hotick"
       ]
     },
     {
@@ -717,10 +641,7 @@
         "🇨🇭 瑞士 (Switzerland) 32 - hotick",
         "🇨🇭 瑞士 (Switzerland) 33 - hotick",
         "🇨🇭 瑞士 (Switzerland) 34 - hotick",
-        "🇨🇭 瑞士 (Switzerland) 35 - hotick",
-        "🇨🇭 瑞士 (Switzerland) 36 - hotick",
-        "🇨🇭 瑞士 (Switzerland) 37 - hotick",
-        "🇨🇭 瑞士 (Switzerland) 38 - hotick"
+        "🇨🇭 瑞士 (Switzerland) 35 - hotick"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

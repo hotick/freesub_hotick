@@ -5,21 +5,16 @@ mode: rule
 log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - hotick
-  server: 104.21.15.251
-  port: 443
+  server: 172.64.229.129
+  port: 2052
   udp: true
-  type: vmess
-  uuid: ba1116e2-8c2f-4e3d-8e50-c954360cf970
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: www.windowssearchtools.com
-  skip-cert-verify: false
+  type: vless
+  uuid: 5744e593-1cc8-48fa-b8ca-57cd494fe35b
   network: ws
   ws-opts:
-    path: /truth
+    path: /rain1226
     headers:
-      Host: www.windowssearchtools.com
+      Host: eu02.123450908.xyz
 proxy-groups:
 - name: PROXIES
   type: select
