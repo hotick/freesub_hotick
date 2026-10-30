@@ -6,6 +6,27 @@
     {
       "type": "vless",
       "tag": "🇹🇷 土耳其 (Turkey) 01 - hotick",
+      "server": "78.135.73.47",
+      "server_port": 443,
+      "uuid": "25e16692-d097-4e69-9e2d-8415609c1968",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.datadoghq.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "sZAJkAu23wp1WKY-qeaeiwR38izP5OyfhumoE9xhbB8",
+          "short_id": "f46cd3ea3d1eb72d"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇹🇷 土耳其 (Turkey) 02 - hotick",
       "server": "62.133.63.45",
       "server_port": 8444,
       "uuid": "a346c521-7a7f-452b-9356-a4893feb5982",
@@ -14,7 +35,7 @@
         "server_name": "github.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "safari"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -26,14 +47,6 @@
         "type": "grpc",
         "service_name": "GunService"
       }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇹🇷 土耳其 (Turkey) 02 - hotick",
-      "server": "free.ertebatgoostar.ir",
-      "server_port": 443,
-      "uuid": "118b0abc-c8f6-476a-9777-bc73f6e2548b",
-      "security": "auto"
     },
     {
       "type": "vless",
@@ -56,89 +69,13 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇹🇷 土耳其 (Turkey) 04 - hotick",
-      "server": "tr.privatevip.ir",
-      "server_port": 448,
-      "uuid": "7c730089-1791-4828-89b2-86e7e1663063",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "tr.privatevip.ir"
-        }
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇹🇷 土耳其 (Turkey) 05 - hotick",
-      "server": "206.1.96.108",
-      "server_port": 7443,
-      "password": "M8LP9DztTr3znqCkmf-r08CQLBLLFK1r",
-      "tls": {
-        "enabled": true,
-        "server_name": "me17.msjia8844.site",
-        "insecure": false
-      },
-      "obfs": {
-        "type": "salamander",
-        "password": "u3Soh9_Ui0UmcuY6vk0ug8Lq"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇹🇷 土耳其 (Turkey) 06 - hotick",
-      "server": "78.135.73.47",
-      "server_port": 443,
-      "uuid": "25e16692-d097-4e69-9e2d-8415609c1968",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.datadoghq.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "sZAJkAu23wp1WKY-qeaeiwR38izP5OyfhumoE9xhbB8",
-          "short_id": "f46cd3ea3d1eb72d"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇹🇷 土耳其 (Turkey) 07 - hotick",
-      "server": "tr2.h1cloud.net",
-      "server_port": 25021,
-      "uuid": "2446e2e2-1ce3-4502-9050-1dd32bacc68c",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.samsung.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "od79bUkYtqQtsGrrTdhmkDflx5c9al4vqxwWApvc-Dg",
-          "short_id": "17fa3af0924c88b3"
-        }
-      }
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
         "🇹🇷 土耳其 (Turkey) 01 - hotick",
         "🇹🇷 土耳其 (Turkey) 02 - hotick",
-        "🇹🇷 土耳其 (Turkey) 03 - hotick",
-        "🇹🇷 土耳其 (Turkey) 04 - hotick",
-        "🇹🇷 土耳其 (Turkey) 05 - hotick",
-        "🇹🇷 土耳其 (Turkey) 06 - hotick",
-        "🇹🇷 土耳其 (Turkey) 07 - hotick"
+        "🇹🇷 土耳其 (Turkey) 03 - hotick"
       ]
     },
     {
@@ -147,11 +84,7 @@
       "outbounds": [
         "🇹🇷 土耳其 (Turkey) 01 - hotick",
         "🇹🇷 土耳其 (Turkey) 02 - hotick",
-        "🇹🇷 土耳其 (Turkey) 03 - hotick",
-        "🇹🇷 土耳其 (Turkey) 04 - hotick",
-        "🇹🇷 土耳其 (Turkey) 05 - hotick",
-        "🇹🇷 土耳其 (Turkey) 06 - hotick",
-        "🇹🇷 土耳其 (Turkey) 07 - hotick"
+        "🇹🇷 土耳其 (Turkey) 03 - hotick"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
