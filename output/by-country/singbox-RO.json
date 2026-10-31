@@ -71,7 +71,7 @@
     {
       "type": "vless",
       "tag": "🇷🇴 罗马尼亚 (Romania) 05 - hotick",
-      "server": "app-ms-90.next-gen-shopping.com",
+      "server": "2.26.89.192",
       "server_port": 443,
       "uuid": "07680ffb-0666-4836-b6ad-ec0de62bc38f",
       "flow": "xtls-rprx-vision",
@@ -80,7 +80,7 @@
         "server_name": "assets-ms-90.next-gen-shopping.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
@@ -102,6 +102,22 @@
       }
     },
     {
+      "type": "shadowsocks",
+      "tag": "🇷🇴 罗马尼亚 (Romania) 07 - hotick",
+      "server": "154.46.31.106",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "QFWzCw2uX9B9i6qAYeFBIE"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇷🇴 罗马尼亚 (Romania) 08 - hotick",
+      "server": "bogging-eyeteeth-fly.freesocks.work",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "QFWzCw2uX9B9i6qAYeFBIE"
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
@@ -111,7 +127,9 @@
         "🇷🇴 罗马尼亚 (Romania) 03 - hotick",
         "🇷🇴 罗马尼亚 (Romania) 04 - hotick",
         "🇷🇴 罗马尼亚 (Romania) 05 - hotick",
-        "🇷🇴 罗马尼亚 (Romania) 06 - hotick"
+        "🇷🇴 罗马尼亚 (Romania) 06 - hotick",
+        "🇷🇴 罗马尼亚 (Romania) 07 - hotick",
+        "🇷🇴 罗马尼亚 (Romania) 08 - hotick"
       ]
     },
     {
@@ -123,7 +141,9 @@
         "🇷🇴 罗马尼亚 (Romania) 03 - hotick",
         "🇷🇴 罗马尼亚 (Romania) 04 - hotick",
         "🇷🇴 罗马尼亚 (Romania) 05 - hotick",
-        "🇷🇴 罗马尼亚 (Romania) 06 - hotick"
+        "🇷🇴 罗马尼亚 (Romania) 06 - hotick",
+        "🇷🇴 罗马尼亚 (Romania) 07 - hotick",
+        "🇷🇴 罗马尼亚 (Romania) 08 - hotick"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
