@@ -19,45 +19,45 @@ proxies:
   grpc-opts:
     grpc-service-name: GunService
 - name: 🇷🇺 俄罗斯 (Russia) 02 - hotick
-  server: de-2.ffpn.pro
-  port: 443
-  udp: true
-  type: vless
-  uuid: 727a9178-d7f0-4142-8205-b0d19959ded0
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: DCpi9-1rSXxBnEIAQ9U3mTqHivk7vHJRV_T2pWw5vCc
-    short-id: 681fc2dd643bc2f3
-  servername: de-2.ffpn.pro
-  client-fingerprint: firefox
-- name: 🇷🇺 俄罗斯 (Russia) 03 - hotick
   server: 185.22.155.121
   port: 18443
   udp: true
   type: ss
   cipher: aes-256-gcm
   password: NTiHBg64fsY8u8DbGrtypD9gPGSL386p
-- name: 🇷🇺 俄罗斯 (Russia) 04 - hotick
-  server: 130.49.189.158
-  port: 43558
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: lsu1v/3iNERwDDVwxCu5033KCUqQOoElYQul63kmqJ8=
-- name: 🇷🇺 俄罗斯 (Russia) 05 - hotick
-  server: 201.24.121.243
+- name: 🇷🇺 俄罗斯 (Russia) 03 - hotick
+  server: 5.129.249.65
   port: 443
   udp: true
   type: vless
-  uuid: 32b5ca9b-3f81-4031-965d-e8b074216e8d
+  uuid: a5212bcb-ab85-459a-bec6-9f259eeeebfa
   tls: true
-  servername: kk-ru24a1.testkknegr.online
+  reality-opts:
+    public-key: iT-HgkPRUHl7Tm-LUWAGD-zoNoZSkVc-M9sscIIomHY
+    short-id: a62228a1c8b3378f
+  servername: rue.tems.bet
+  client-fingerprint: firefox
+- name: 🇷🇺 俄罗斯 (Russia) 04 - hotick
+  server: 5.129.249.65
+  port: 443
+  udp: true
+  type: vless
+  uuid: a5212bcb-ab85-459a-bec6-9f259eeeebfa
+  tls: true
+  servername: rue.tems.bet
   skip-cert-verify: false
-  client-fingerprint: edge
-  network: grpc
-  grpc-opts:
-    grpc-service-name: vlgrpc
+  client-fingerprint: firefox
+- name: 🇷🇺 俄罗斯 (Russia) 05 - hotick
+  server: 212.113.117.172
+  port: 443
+  udp: true
+  type: vless
+  uuid: 2f7aeef7-6b91-48e6-a44c-304b65a0442b
+  flow: xtls-rprx-vision
+  tls: true
+  servername: de1.duck-proxy.com
+  skip-cert-verify: false
+  client-fingerprint: chrome
 - name: 🇷🇺 俄罗斯 (Russia) 06 - hotick
   server: 103.88.243.142
   port: 11592
@@ -67,20 +67,20 @@ proxies:
   sni: srv-17e124.21freedom.net
   skip-cert-verify: true
 - name: 🇷🇺 俄罗斯 (Russia) 07 - hotick
-  server: 5.42.99.64
-  port: 8443
+  server: 201.24.121.243
+  port: 443
   udp: true
   type: vless
-  uuid: c53ea5e9-ed8b-4990-805d-7f1d6451426c
-  flow: xtls-rprx-vision
+  uuid: 32b5ca9b-3f81-4031-965d-e8b074216e8d
   tls: true
-  reality-opts:
-    public-key: fSVfR9NB-6J6smrZlavi0GWd8JfDh0aXuEkKbtuFzUI
-    short-id: 3cbc3d737fb9c4af
-  servername: du-rov.secureservice.top
-  client-fingerprint: random
+  servername: kk-ru24a1.testkknegr.online
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vlgrpc
 - name: 🇷🇺 俄罗斯 (Russia) 08 - hotick
-  server: 5.42.99.64
+  server: du-rov.secureservice.top
   port: 8443
   udp: true
   type: vless
@@ -105,10 +105,15 @@ proxies:
   network: ws
   ws-opts:
     path: /
-    headers:
-      Host: wsru1.wba-pn.ru
 - name: 🇷🇺 俄罗斯 (Russia) 10 - hotick
-  server: du-rov.secureservice.top
+  server: alb.rvpn.app
+  port: 8388
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: hTTg7lwQMzpaF7KXpY3A8w
+- name: 🇷🇺 俄罗斯 (Russia) 11 - hotick
+  server: 5.42.99.64
   port: 8443
   udp: true
   type: vless
@@ -120,26 +125,19 @@ proxies:
     short-id: 3cbc3d737fb9c4af
   servername: du-rov.secureservice.top
   client-fingerprint: chrome
-- name: 🇷🇺 俄罗斯 (Russia) 11 - hotick
-  server: 130.49.189.54
-  port: 8388
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: hTTg7lwQMzpaF7KXpY3A8w
 - name: 🇷🇺 俄罗斯 (Russia) 12 - hotick
-  server: wsru1.wba-pn.ru
+  server: 5.42.99.64
   port: 8443
   udp: true
   type: vless
-  uuid: f9613819-d2fe-4b3a-a2e6-40c184c6854c
+  uuid: c53ea5e9-ed8b-4990-805d-7f1d6451426c
+  flow: xtls-rprx-vision
   tls: true
-  servername: wsru1.wba-pn.ru
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
+  reality-opts:
+    public-key: fSVfR9NB-6J6smrZlavi0GWd8JfDh0aXuEkKbtuFzUI
+    short-id: 3cbc3d737fb9c4af
+  servername: du-rov.secureservice.top
+  client-fingerprint: random
 - name: 🇷🇺 俄罗斯 (Russia) 13 - hotick
   server: xssite.webredirect.org
   port: 443
@@ -154,14 +152,20 @@ proxies:
   grpc-opts:
     grpc-service-name: grpc-ru
 - name: 🇷🇺 俄罗斯 (Russia) 14 - hotick
-  server: msk2.rvpn.app
-  port: 8388
+  server: 130.49.177.193
+  port: 443
   udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: MODziWLa9qMuW-4yPa0rfw
+  type: vless
+  uuid: 727a9178-d7f0-4142-8205-b0d19959ded0
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: DCpi9-1rSXxBnEIAQ9U3mTqHivk7vHJRV_T2pWw5vCc
+    short-id: 681fc2dd643bc2f3
+  servername: de-2.ffpn.pro
+  client-fingerprint: chrome
 - name: 🇷🇺 俄罗斯 (Russia) 15 - hotick
-  server: app-tw-113.statsmarket-wb.com
+  server: 185.84.162.254
   port: 443
   udp: true
   type: vless
@@ -172,22 +176,84 @@ proxies:
     public-key: D_-aOnqEEAyi1i95e9mBjGpbT3kbTuQsWYBGW2s-iTg
     short-id: 8998b032d5c33de9
   servername: assets-tw-113.statsmarket-wb.com
-  client-fingerprint: chrome
+  client-fingerprint: firefox
 - name: 🇷🇺 俄罗斯 (Russia) 16 - hotick
-  server: business.lesotorg-kirov.ru
+  server: 147.45.175.81
   port: 443
   udp: true
   type: vless
-  uuid: 8f763a7f-4cda-4db1-90e3-9aeae0860dc0
+  uuid: c90395e6-2140-47ad-a54d-9b166729d3ef
   tls: true
-  servername: business.lesotorg-kirov.ru
+  servername: xsru2.freeddns.org
   skip-cert-verify: false
-  client-fingerprint: android
+  client-fingerprint: ios
   network: ws
   ws-opts:
-    path: /chws
+    path: /wsru
     headers:
-      Host: business.lesotorg-kirov.ru
+      Host: xsru2.freeddns.org
+- name: 🇷🇺 俄罗斯 (Russia) 17 - hotick
+  server: 147.45.175.81
+  port: 443
+  udp: true
+  type: vless
+  uuid: c90395e6-2140-47ad-a54d-9b166729d3ef
+  tls: true
+  servername: xssite.webredirect.org
+  skip-cert-verify: false
+  client-fingerprint: random
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-ru
+- name: 🇷🇺 俄罗斯 (Russia) 18 - hotick
+  server: 46.254.19.164
+  port: 443
+  udp: true
+  type: vless
+  uuid: a5212bcb-ab85-459a-bec6-9f259eeeebfa
+  tls: true
+  reality-opts:
+    public-key: 3qgZ9UlB-y1i9jx_zQQBgiNgFHz6fPQdP9gMMl4zXiM
+    short-id: 8937c9ed2d470352
+  servername: wtb.tems.bet
+  client-fingerprint: firefox
+- name: 🇷🇺 俄罗斯 (Russia) 19 - hotick
+  server: 46.254.19.164
+  port: 443
+  udp: true
+  type: vless
+  uuid: a5212bcb-ab85-459a-bec6-9f259eeeebfa
+  tls: true
+  reality-opts:
+    public-key: 3qgZ9UlB-y1i9jx_zQQBgiNgFHz6fPQdP9gMMl4zXiM
+    short-id: 8937c9ed2d470352
+  servername: wtb.tems.bet
+  client-fingerprint: chrome
+- name: 🇷🇺 俄罗斯 (Russia) 20 - hotick
+  server: 46.254.19.164
+  port: 443
+  udp: true
+  type: vless
+  uuid: a5212bcb-ab85-459a-bec6-9f259eeeebfa
+  tls: true
+  reality-opts:
+    public-key: 3qgZ9UlB-y1i9jx_zQQBgiNgFHz6fPQdP9gMMl4zXiM
+    short-id: 8937c9ed2d470352
+  servername: wtb.tems.bet
+  client-fingerprint: chrome
+- name: 🇷🇺 俄罗斯 (Russia) 21 - hotick
+  server: 88.218.170.236
+  port: 443
+  udp: true
+  type: vless
+  uuid: b872771d-e9d1-42d7-ad29-a9acff49ea2d
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: qC4VE5jv0q0ALYAfCNtAHU-kN32OdA-cqJmXpL4Y2VY
+    short-id: 3199b70105c62ce0
+  servername: www.sun6-21.userapi.com
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
@@ -209,6 +275,11 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 14 - hotick
   - 🇷🇺 俄罗斯 (Russia) 15 - hotick
   - 🇷🇺 俄罗斯 (Russia) 16 - hotick
+  - 🇷🇺 俄罗斯 (Russia) 17 - hotick
+  - 🇷🇺 俄罗斯 (Russia) 18 - hotick
+  - 🇷🇺 俄罗斯 (Russia) 19 - hotick
+  - 🇷🇺 俄罗斯 (Russia) 20 - hotick
+  - 🇷🇺 俄罗斯 (Russia) 21 - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -230,5 +301,10 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 14 - hotick
   - 🇷🇺 俄罗斯 (Russia) 15 - hotick
   - 🇷🇺 俄罗斯 (Russia) 16 - hotick
+  - 🇷🇺 俄罗斯 (Russia) 17 - hotick
+  - 🇷🇺 俄罗斯 (Russia) 18 - hotick
+  - 🇷🇺 俄罗斯 (Russia) 19 - hotick
+  - 🇷🇺 俄罗斯 (Russia) 20 - hotick
+  - 🇷🇺 俄罗斯 (Russia) 21 - hotick
 rules:
 - MATCH,PROXIES
