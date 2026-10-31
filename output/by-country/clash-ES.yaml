@@ -6,26 +6,62 @@ log-level: info
 proxies:
 - name: 🇪🇸 西班牙 (Spain) 01 - hotick
   server: 5.188.181.201
-  port: 9027
+  port: 9019
   udp: true
   type: ss
   cipher: aes-256-cfb
-  password: EXN3S3eQpjE7EJu8
+  password: GA9KzeEgvfxNrgmM
 - name: 🇪🇸 西班牙 (Spain) 02 - hotick
-  server: 5.188.181.201
-  port: 9005
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: ZET59LF6DvCC8KVt
-- name: 🇪🇸 西班牙 (Spain) 03 - hotick
   server: 5.188.181.201
   port: 9054
   udp: true
   type: ss
   cipher: aes-256-cfb
   password: VcFuyXvND2yQWSFY
+- name: 🇪🇸 西班牙 (Spain) 03 - hotick
+  server: 5.188.181.201
+  port: 9005
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: ZET59LF6DvCC8KVt
 - name: 🇪🇸 西班牙 (Spain) 04 - hotick
+  server: 212.227.235.66
+  port: 2053
+  udp: true
+  type: vless
+  uuid: ead0dd61-d398-40ad-80d6-a0e1e516d7d3
+  tls: true
+  reality-opts:
+    public-key: 7Y6Xb5Ql_03K25x8yKUSOKI2JTOMyv2nyCcFza90uxk
+    short-id: 29e8dcd2b37aaa7f
+  servername: www.apple.com
+  client-fingerprint: random
+- name: 🇪🇸 西班牙 (Spain) 05 - hotick
+  server: 66.163.118.244
+  port: 443
+  udp: true
+  type: trojan
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: 66.163.118.244
+  skip-cert-verify: true
+- name: 🇪🇸 西班牙 (Spain) 06 - hotick
+  server: 66.163.118.62
+  port: 443
+  udp: true
+  type: trojan
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: courses.discovergreatjobsandadvanceyourcareer.com
+  skip-cert-verify: false
+- name: 🇪🇸 西班牙 (Spain) 07 - hotick
+  server: 66.163.118.251
+  port: 443
+  udp: true
+  type: trojan
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: resources.discovergreatjobsandadvanceyourcareer.com
+  skip-cert-verify: false
+- name: 🇪🇸 西班牙 (Spain) 08 - hotick
   server: 83.147.18.3
   port: 443
   udp: true
@@ -38,14 +74,7 @@ proxies:
     short-id: fd8cf7e1173f0edb
   servername: www.cloudflare.com
   client-fingerprint: chrome
-- name: 🇪🇸 西班牙 (Spain) 05 - hotick
-  server: 5.188.181.201
-  port: 9019
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: GA9KzeEgvfxNrgmM
-- name: 🇪🇸 西班牙 (Spain) 06 - hotick
+- name: 🇪🇸 西班牙 (Spain) 09 - hotick
   server: 66.163.118.131
   port: 443
   udp: true
@@ -53,48 +82,7 @@ proxies:
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   sni: www.discovergreatjobsandadvanceyourcareer.com
   skip-cert-verify: false
-- name: 🇪🇸 西班牙 (Spain) 07 - hotick
-  server: 212.227.235.66
-  port: 2053
-  udp: true
-  type: vless
-  uuid: ead0dd61-d398-40ad-80d6-a0e1e516d7d3
-  tls: true
-  reality-opts:
-    public-key: 7Y6Xb5Ql_03K25x8yKUSOKI2JTOMyv2nyCcFza90uxk
-    short-id: 29e8dcd2b37aaa7f
-  servername: www.apple.com
-  client-fingerprint: firefox
-- name: 🇪🇸 西班牙 (Spain) 08 - hotick
-  server: 66.163.118.166
-  port: 443
-  udp: true
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: learn.discovergreatjobsandadvanceyourcareer.com
-  skip-cert-verify: false
-- name: 🇪🇸 西班牙 (Spain) 09 - hotick
-  server: es.srv.dvzh.net
-  port: 443
-  udp: true
-  type: vless
-  uuid: 9ab3a362-1518-496d-b08d-eced45cec936
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: 9GEc6lOjnGQyyE1951OZSBMWt4uCXsOjKyj9fysxHH0
-    short-id: e0ccc8c2f487d913
-  servername: es.srv.dvzh.net
-  client-fingerprint: firefox
 - name: 🇪🇸 西班牙 (Spain) 10 - hotick
-  server: 66.163.118.62
-  port: 443
-  udp: true
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: courses.discovergreatjobsandadvanceyourcareer.com
-  skip-cert-verify: false
-- name: 🇪🇸 西班牙 (Spain) 11 - hotick
   server: 46.28.71.247
   port: 443
   udp: true
@@ -106,9 +94,22 @@ proxies:
     public-key: v4MuZIvFrTPT5GHMSaPryUAbIZlLstmsUTzmC1E-JTE
     short-id: 0dfc23fe80778c00
   servername: www.cloudflare.com
-  client-fingerprint: random
+  client-fingerprint: firefox
+- name: 🇪🇸 西班牙 (Spain) 11 - hotick
+  server: 45.147.251.111
+  port: 443
+  udp: true
+  type: vless
+  uuid: 9ab3a362-1518-496d-b08d-eced45cec936
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: 9GEc6lOjnGQyyE1951OZSBMWt4uCXsOjKyj9fysxHH0
+    short-id: e0ccc8c2f487d913
+  servername: es.srv.dvzh.net
+  client-fingerprint: firefox
 - name: 🇪🇸 西班牙 (Spain) 12 - hotick
-  server: 156.252.229.136
+  server: 156.252.229.11
   port: 8443
   udp: true
   type: vless
@@ -120,42 +121,6 @@ proxies:
   servername: play.googleapis.com
   client-fingerprint: chrome
 - name: 🇪🇸 西班牙 (Spain) 13 - hotick
-  server: 156.252.229.159
-  port: 8443
-  udp: true
-  type: vless
-  uuid: 3e21e3d3-6d26-4155-b851-764dd8e8c6b5
-  tls: true
-  reality-opts:
-    public-key: 7jPluypHwPilf_Mq7JOY96SwKkbK35WuIlN1HwGQ_0A
-    short-id: 974f7f8f
-  servername: play.googleapis.com
-  client-fingerprint: chrome
-- name: 🇪🇸 西班牙 (Spain) 14 - hotick
-  server: 156.252.229.30
-  port: 8443
-  udp: true
-  type: vless
-  uuid: 3e21e3d3-6d26-4155-b851-764dd8e8c6b5
-  tls: true
-  reality-opts:
-    public-key: 7jPluypHwPilf_Mq7JOY96SwKkbK35WuIlN1HwGQ_0A
-    short-id: 974f7f8f
-  servername: play.googleapis.com
-  client-fingerprint: firefox
-- name: 🇪🇸 西班牙 (Spain) 15 - hotick
-  server: 156.252.229.11
-  port: 8443
-  udp: true
-  type: vless
-  uuid: 3e21e3d3-6d26-4155-b851-764dd8e8c6b5
-  tls: true
-  reality-opts:
-    public-key: 7jPluypHwPilf_Mq7JOY96SwKkbK35WuIlN1HwGQ_0A
-    short-id: 974f7f8f
-  servername: play.googleapis.com
-  client-fingerprint: firefox
-- name: 🇪🇸 西班牙 (Spain) 16 - hotick
   server: 193.238.154.78
   port: 443
   udp: true
@@ -186,9 +151,6 @@ proxy-groups:
   - 🇪🇸 西班牙 (Spain) 11 - hotick
   - 🇪🇸 西班牙 (Spain) 12 - hotick
   - 🇪🇸 西班牙 (Spain) 13 - hotick
-  - 🇪🇸 西班牙 (Spain) 14 - hotick
-  - 🇪🇸 西班牙 (Spain) 15 - hotick
-  - 🇪🇸 西班牙 (Spain) 16 - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -207,8 +169,5 @@ proxy-groups:
   - 🇪🇸 西班牙 (Spain) 11 - hotick
   - 🇪🇸 西班牙 (Spain) 12 - hotick
   - 🇪🇸 西班牙 (Spain) 13 - hotick
-  - 🇪🇸 西班牙 (Spain) 14 - hotick
-  - 🇪🇸 西班牙 (Spain) 15 - hotick
-  - 🇪🇸 西班牙 (Spain) 16 - hotick
 rules:
 - MATCH,PROXIES

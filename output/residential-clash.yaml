@@ -4,28 +4,7 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇰🇷 韩国 (South Korea) 01 (家宽) - hotick
-  server: 112.169.175.199
-  port: 31157
-  udp: true
-  type: vless
-  uuid: bd2fb303-b4c7-49af-a8e3-5c6f11b005dd
-- name: 🇭🇰 中国香港 (Hong Kong) 02 (移动家宽) - hotick
-  server: dog-hk.kunlun01dns.com
-  port: 21021
-  udp: true
-  type: vmess
-  uuid: 9464ca40-dd75-3742-a628-d931a9f413b2
-  alterId: 0
-  cipher: auto
-- name: 🇰🇷 韩国 (South Korea) 03 (家宽) - hotick
-  server: 49.254.204.133
-  port: 1774
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: 1234!@#$
-- name: 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - hotick
+- name: 🇹🇼 中国台湾 (Taiwan) 01 (家宽) - hotick
   server: 125.227.86.45
   port: 443
   udp: true
@@ -36,14 +15,29 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: db
-- name: 🇰🇷 韩国 (South Korea) 05 (家宽) - hotick
-  server: 218.237.185.234
-  port: 4652
+- name: 🇰🇷 韩国 (South Korea) 02 (家宽) - hotick
+  server: 112.169.175.199
+  port: 31157
   udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: qwerREWQ@@
-- name: 🇭🇰 中国香港 (Hong Kong) 06 (移动家宽) - hotick
+  type: vless
+  uuid: bd2fb303-b4c7-49af-a8e3-5c6f11b005dd
+- name: 🇭🇰 中国香港 (Hong Kong) 03 (移动家宽) - hotick
+  server: zfd-hkv2.kunlun01dns.com
+  port: 16115
+  udp: true
+  type: vmess
+  uuid: 0802ac03-7973-39ef-a019-ba02de6c01e1
+  alterId: 0
+  cipher: auto
+- name: 🇭🇰 中国香港 (Hong Kong) 04 (移动家宽) - hotick
+  server: zfd-hkv2.kunlun01dns.com
+  port: 16116
+  udp: true
+  type: vmess
+  uuid: 0802ac03-7973-39ef-a019-ba02de6c01e1
+  alterId: 0
+  cipher: auto
+- name: 🇭🇰 中国香港 (Hong Kong) 05 (移动家宽) - hotick
   server: dog-hk.kunlun01dns.com
   port: 21041
   udp: true
@@ -51,39 +45,7 @@ proxies:
   uuid: 9464ca40-dd75-3742-a628-d931a9f413b2
   alterId: 0
   cipher: auto
-- name: 🇭🇰 中国香港 (Hong Kong) 07 (移动家宽) - hotick
-  server: dog-hk.kunlun01dns.com
-  port: 21020
-  udp: true
-  type: vmess
-  uuid: 9464ca40-dd75-3742-a628-d931a9f413b2
-  alterId: 0
-  cipher: auto
-- name: 🇭🇰 中国香港 (Hong Kong) 08 (移动家宽) - hotick
-  server: zfd-hkv1.kunlun01dns.com
-  port: 16114
-  udp: true
-  type: vmess
-  uuid: 0802ac03-7973-39ef-a019-ba02de6c01e1
-  alterId: 0
-  cipher: auto
-- name: 🇭🇰 中国香港 (Hong Kong) 09 (移动家宽) - hotick
-  server: zfd-hkv1.kunlun01dns.com
-  port: 16115
-  udp: true
-  type: vmess
-  uuid: 0802ac03-7973-39ef-a019-ba02de6c01e1
-  alterId: 0
-  cipher: auto
-- name: 🇭🇰 中国香港 (Hong Kong) 10 (家宽) - hotick
-  server: 654968169.df6h451rh.xin
-  port: 443
-  udp: true
-  type: anytls
-  password: 0324fbc29561
-  sni: 654968169.df6h451rh.xin
-  skip-cert-verify: true
-- name: 🇹🇼 中国台湾 (Taiwan) 11 (家宽) - hotick
+- name: 🇹🇼 中国台湾 (Taiwan) 06 (家宽) - hotick
   server: 684616s4.df6h451rh.xin
   port: 443
   udp: true
@@ -91,7 +53,7 @@ proxies:
   password: 0324fbc29561
   sni: px.ads.linkedin.com
   skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 12 (家宽) - hotick
+- name: 🇭🇰 中国香港 (Hong Kong) 07 (家宽) - hotick
   server: 56481.df6h451rh.xin
   port: 443
   udp: true
@@ -99,7 +61,15 @@ proxies:
   password: 0324fbc29561
   sni: images.ctfassets.net
   skip-cert-verify: true
-- name: 🇹🇼 中国台湾 (Taiwan) 13 (家宽) - hotick
+- name: 🇭🇰 中国香港 (Hong Kong) 08 (家宽) - hotick
+  server: 654968169.df6h451rh.xin
+  port: 443
+  udp: true
+  type: anytls
+  password: 0324fbc29561
+  sni: 654968169.df6h451rh.xin
+  skip-cert-verify: true
+- name: 🇹🇼 中国台湾 (Taiwan) 09 (家宽) - hotick
   server: er8u54dh.df6h451rh.xin
   port: 443
   udp: true
@@ -112,36 +82,28 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇰🇷 韩国 (South Korea) 01 (家宽) - hotick
-  - 🇭🇰 中国香港 (Hong Kong) 02 (移动家宽) - hotick
-  - 🇰🇷 韩国 (South Korea) 03 (家宽) - hotick
-  - 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - hotick
-  - 🇰🇷 韩国 (South Korea) 05 (家宽) - hotick
-  - 🇭🇰 中国香港 (Hong Kong) 06 (移动家宽) - hotick
-  - 🇭🇰 中国香港 (Hong Kong) 07 (移动家宽) - hotick
-  - 🇭🇰 中国香港 (Hong Kong) 08 (移动家宽) - hotick
-  - 🇭🇰 中国香港 (Hong Kong) 09 (移动家宽) - hotick
-  - 🇭🇰 中国香港 (Hong Kong) 10 (家宽) - hotick
-  - 🇹🇼 中国台湾 (Taiwan) 11 (家宽) - hotick
-  - 🇭🇰 中国香港 (Hong Kong) 12 (家宽) - hotick
-  - 🇹🇼 中国台湾 (Taiwan) 13 (家宽) - hotick
+  - 🇹🇼 中国台湾 (Taiwan) 01 (家宽) - hotick
+  - 🇰🇷 韩国 (South Korea) 02 (家宽) - hotick
+  - 🇭🇰 中国香港 (Hong Kong) 03 (移动家宽) - hotick
+  - 🇭🇰 中国香港 (Hong Kong) 04 (移动家宽) - hotick
+  - 🇭🇰 中国香港 (Hong Kong) 05 (移动家宽) - hotick
+  - 🇹🇼 中国台湾 (Taiwan) 06 (家宽) - hotick
+  - 🇭🇰 中国香港 (Hong Kong) 07 (家宽) - hotick
+  - 🇭🇰 中国香港 (Hong Kong) 08 (家宽) - hotick
+  - 🇹🇼 中国台湾 (Taiwan) 09 (家宽) - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇰🇷 韩国 (South Korea) 01 (家宽) - hotick
-  - 🇭🇰 中国香港 (Hong Kong) 02 (移动家宽) - hotick
-  - 🇰🇷 韩国 (South Korea) 03 (家宽) - hotick
-  - 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - hotick
-  - 🇰🇷 韩国 (South Korea) 05 (家宽) - hotick
-  - 🇭🇰 中国香港 (Hong Kong) 06 (移动家宽) - hotick
-  - 🇭🇰 中国香港 (Hong Kong) 07 (移动家宽) - hotick
-  - 🇭🇰 中国香港 (Hong Kong) 08 (移动家宽) - hotick
-  - 🇭🇰 中国香港 (Hong Kong) 09 (移动家宽) - hotick
-  - 🇭🇰 中国香港 (Hong Kong) 10 (家宽) - hotick
-  - 🇹🇼 中国台湾 (Taiwan) 11 (家宽) - hotick
-  - 🇭🇰 中国香港 (Hong Kong) 12 (家宽) - hotick
-  - 🇹🇼 中国台湾 (Taiwan) 13 (家宽) - hotick
+  - 🇹🇼 中国台湾 (Taiwan) 01 (家宽) - hotick
+  - 🇰🇷 韩国 (South Korea) 02 (家宽) - hotick
+  - 🇭🇰 中国香港 (Hong Kong) 03 (移动家宽) - hotick
+  - 🇭🇰 中国香港 (Hong Kong) 04 (移动家宽) - hotick
+  - 🇭🇰 中国香港 (Hong Kong) 05 (移动家宽) - hotick
+  - 🇹🇼 中国台湾 (Taiwan) 06 (家宽) - hotick
+  - 🇭🇰 中国香港 (Hong Kong) 07 (家宽) - hotick
+  - 🇭🇰 中国香港 (Hong Kong) 08 (家宽) - hotick
+  - 🇹🇼 中国台湾 (Taiwan) 09 (家宽) - hotick
 rules:
 - MATCH,PROXIES

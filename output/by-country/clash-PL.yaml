@@ -6,11 +6,11 @@ log-level: info
 proxies:
 - name: 🇵🇱 波兰 (Poland) 01 - hotick
   server: 217.30.10.44
-  port: 9099
+  port: 9052
   udp: true
   type: ss
   cipher: aes-256-cfb
-  password: 7heRqkPG3hg4UnRm
+  password: jt2ekBNc9HuVtm2a
 - name: 🇵🇱 波兰 (Poland) 02 - hotick
   server: 217.30.10.44
   port: 9042
@@ -20,32 +20,36 @@ proxies:
   password: S7KwUu7yBy58S3Ga
 - name: 🇵🇱 波兰 (Poland) 03 - hotick
   server: 217.30.10.44
-  port: 9076
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: S2zDyyPcmZN2h8EC
-- name: 🇵🇱 波兰 (Poland) 04 - hotick
-  server: 217.30.10.44
   port: 9095
   udp: true
   type: ss
   cipher: aes-256-cfb
   password: N7j3pdTYkKmsy8CR
+- name: 🇵🇱 波兰 (Poland) 04 - hotick
+  server: 168.222.43.53
+  port: 2052
+  udp: true
+  type: vless
+  uuid: 1a8ecc41-6e62-431b-8eca-87c2fa4dc286
 - name: 🇵🇱 波兰 (Poland) 05 - hotick
-  server: 217.30.10.44
-  port: 9006
+  server: 155.117.5.208
+  port: 20001
   udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: FAdUvMJUq5vDgKEq
+  type: vless
+  uuid: 8e8210b7-71a4-4799-8b9b-2e69698b1eaf
 - name: 🇵🇱 波兰 (Poland) 06 - hotick
-  server: 217.30.10.44
-  port: 9062
+  server: 31.59.143.147
+  port: 443
   udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: tkhHVxxfM2QErBWe
+  type: vless
+  uuid: 1fe01c8a-ab37-4e95-bbfc-95d4a608931e
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: Liu35gmIQJtbul5AeCrceJTjsmln4RaqxX6joKlaBjk
+    short-id: ae97223a8f799889
+  servername: pl2.waspnest.space
+  client-fingerprint: firefox
 - name: 🇵🇱 波兰 (Poland) 07 - hotick
   server: 177.1.192.38
   port: 8443
@@ -60,39 +64,6 @@ proxies:
   servername: upnl.giftsbattle.vip
   client-fingerprint: ''
 - name: 🇵🇱 波兰 (Poland) 08 - hotick
-  server: 155.117.5.208
-  port: 20001
-  udp: true
-  type: vless
-  uuid: 8e8210b7-71a4-4799-8b9b-2e69698b1eaf
-- name: 🇵🇱 波兰 (Poland) 09 - hotick
-  server: 168.222.43.53
-  port: 2052
-  udp: true
-  type: vless
-  uuid: 1a8ecc41-6e62-431b-8eca-87c2fa4dc286
-- name: 🇵🇱 波兰 (Poland) 10 - hotick
-  server: 177.1.192.117
-  port: 443
-  udp: true
-  type: vless
-  uuid: 706bce83-91db-4260-b175-cba29145cd56
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: Lt3gSdGmfQMx50yH-OOJaNBSg80vzIveaNVwUUWJwzQ
-    short-id: 3952a220c86628a8
-  servername: up7.uni-plan.com
-  client-fingerprint: ''
-- name: 🇵🇱 波兰 (Poland) 11 - hotick
-  server: 70.34.252.255
-  port: 443
-  udp: true
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: browseexecutivejobopeningsandenhanceleadershipcareer.com
-  skip-cert-verify: false
-- name: 🇵🇱 波兰 (Poland) 12 - hotick
   server: 177.1.192.67
   port: 443
   udp: true
@@ -105,21 +76,75 @@ proxies:
     short-id: 830e615a39f4c811
   servername: up4.uni-plan.com
   client-fingerprint: ''
-- name: 🇵🇱 波兰 (Poland) 13 - hotick
-  server: 150.251.113.34
+- name: 🇵🇱 波兰 (Poland) 09 - hotick
+  server: 177.1.192.83
   port: 443
   udp: true
   type: vless
-  uuid: d7d724b5-17ce-4f3c-877d-dfbf0f07afa1
+  uuid: 7a0348d6-55d3-4c23-b22f-6277fcb2264c
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: 8yMLSTbkpJFfbgTjNzotzz7U8OT6AERrclgKdKrXXW8
-    short-id: 150a627d15154cf2
-  servername: www.cloudflare.com
+    public-key: qpTl87QSiZJ6JTLo-qtZbz5tw4bhm2BlKSb3rWXj3U8
+    short-id: aea0b3b9
+  servername: addons.mozilla.org
   client-fingerprint: chrome
+- name: 🇵🇱 波兰 (Poland) 10 - hotick
+  server: 177.1.192.76
+  port: 443
+  udp: true
+  type: vless
+  uuid: 7a0348d6-55d3-4c23-b22f-6277fcb2264c
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: utnaPfWs-8DrJIP5p0gaQ9ix9VfRvUvoR1ZSE25uTWY
+    short-id: 10aff1a6
+  servername: addons.mozilla.org
+  client-fingerprint: chrome
+- name: 🇵🇱 波兰 (Poland) 11 - hotick
+  server: 177.1.192.172
+  port: 443
+  udp: true
+  type: vless
+  uuid: 7a0348d6-55d3-4c23-b22f-6277fcb2264c
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: O-prl81hoCx8QH-WAtyhOWsz7O6Klc5KbZRUDfg0WVo
+    short-id: 91db3119
+  servername: addons.mozilla.org
+  client-fingerprint: chrome
+- name: 🇵🇱 波兰 (Poland) 12 - hotick
+  server: 177.1.192.84
+  port: 443
+  udp: true
+  type: vless
+  uuid: 7a0348d6-55d3-4c23-b22f-6277fcb2264c
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: zW8sqVtk0BD03BKJj2UihUm_IgFfbJ-oPgR8xCTkgyU
+    short-id: 3ea64ca4
+  servername: addons.mozilla.org
+  client-fingerprint: chrome
+- name: 🇵🇱 波兰 (Poland) 13 - hotick
+  server: pol.rvpn.app
+  port: 8388
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 8z2OB_gvFvpKgjFi8s9Cvw
 - name: 🇵🇱 波兰 (Poland) 14 - hotick
-  server: 177.1.192.90
+  server: 70.34.252.255
+  port: 443
+  udp: true
+  type: trojan
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: browseexecutivejobopeningsandenhanceleadershipcareer.com
+  skip-cert-verify: false
+- name: 🇵🇱 波兰 (Poland) 15 - hotick
+  server: 177.1.192.117
   port: 443
   udp: true
   type: vless
@@ -127,11 +152,11 @@ proxies:
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: PA7rbht6SKwvUgysJka_ffHvVEzl4s4RPDO3uPeuLxc
-    short-id: e12ed4adc5aee929
-  servername: up6.uni-plan.com
-  client-fingerprint: firefox
-- name: 🇵🇱 波兰 (Poland) 15 - hotick
+    public-key: Lt3gSdGmfQMx50yH-OOJaNBSg80vzIveaNVwUUWJwzQ
+    short-id: 3952a220c86628a8
+  servername: up7.uni-plan.com
+  client-fingerprint: ''
+- name: 🇵🇱 波兰 (Poland) 16 - hotick
   server: 82.118.22.161
   port: 443
   udp: true
@@ -144,19 +169,6 @@ proxies:
     short-id: fa3ea655619a3e78
   servername: www.cloudflare.com
   client-fingerprint: chrome
-- name: 🇵🇱 波兰 (Poland) 16 - hotick
-  server: 31.59.143.147
-  port: 443
-  udp: true
-  type: vless
-  uuid: 1fe01c8a-ab37-4e95-bbfc-95d4a608931e
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: Liu35gmIQJtbul5AeCrceJTjsmln4RaqxX6joKlaBjk
-    short-id: ae97223a8f799889
-  servername: pl2.waspnest.space
-  client-fingerprint: firefox
 - name: 🇵🇱 波兰 (Poland) 17 - hotick
   server: 31.77.13.19
   port: 2063
@@ -170,16 +182,31 @@ proxies:
   servername: rusbid.de
   client-fingerprint: chrome
 - name: 🇵🇱 波兰 (Poland) 18 - hotick
-  server: 2.26.6.1
-  port: 2087
+  server: 177.1.192.90
+  port: 443
   udp: true
   type: vless
-  uuid: b9fdc03f-389b-4cda-9be4-155b623bee15
+  uuid: 706bce83-91db-4260-b175-cba29145cd56
+  flow: xtls-rprx-vision
   tls: true
-  servername: 2.26.6.1
-  skip-cert-verify: false
-  client-fingerprint: chrome
+  reality-opts:
+    public-key: PA7rbht6SKwvUgysJka_ffHvVEzl4s4RPDO3uPeuLxc
+    short-id: e12ed4adc5aee929
+  servername: up6.uni-plan.com
+  client-fingerprint: firefox
 - name: 🇵🇱 波兰 (Poland) 19 - hotick
+  server: ru1.radiolumens.uk
+  port: 8445
+  udp: true
+  type: vless
+  uuid: 36cf792c-f07d-4500-97ea-a395e5178deb
+  tls: true
+  servername: ru1.radiolumens.uk
+  skip-cert-verify: false
+  network: grpc
+  grpc-opts:
+    grpc-service-name: beru-pl
+- name: 🇵🇱 波兰 (Poland) 20 - hotick
   server: 54.37.131.126
   port: 80
   udp: true
@@ -192,8 +219,47 @@ proxies:
     path: /
     headers:
       Host: google.whatsapp.snapp.torob.basalam.hesanid8.ir.
-- name: 🇵🇱 波兰 (Poland) 20 - hotick
-  server: pl1.h1cloud.net
+- name: 🇵🇱 波兰 (Poland) 21 - hotick
+  server: 201.58.181.231
+  port: 4443
+  udp: true
+  type: vless
+  uuid: fafc7c16-f890-45ee-a856-02df225172dd
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: kn7Lh0yi6CYrHW5KpiQrfrs9FED-mbbEEKgOoiDkx2M
+    short-id: 858affa9443ebac6
+  servername: www.kinopoisk.ru
+  client-fingerprint: firefox
+- name: 🇵🇱 波兰 (Poland) 22 - hotick
+  server: 201.58.181.231
+  port: 2083
+  udp: true
+  type: vless
+  uuid: fafc7c16-f890-45ee-a856-02df225172dd
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: uKk4cvAJii_YbhzUm9IeMKLHR851E_1sfiMP-ncyeyM
+    short-id: e69c662141e37e7b
+  servername: ya.ru
+  client-fingerprint: firefox
+- name: 🇵🇱 波兰 (Poland) 23 - hotick
+  server: 150.251.113.34
+  port: 443
+  udp: true
+  type: vless
+  uuid: d7d724b5-17ce-4f3c-877d-dfbf0f07afa1
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: 8yMLSTbkpJFfbgTjNzotzz7U8OT6AERrclgKdKrXXW8
+    short-id: 150a627d15154cf2
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇵🇱 波兰 (Poland) 24 - hotick
+  server: 79.182.39.37
   port: 27591
   udp: true
   type: vless
@@ -203,14 +269,17 @@ proxies:
     public-key: LY0H47MWx87_L_JBzxFAuTzKZB53U7MrZQK8-dNnMxM
     short-id: 6c5c7900406a1ae7
   servername: www.samsung.com
-  client-fingerprint: edge
-- name: 🇵🇱 波兰 (Poland) 21 - hotick
-  server: pol.rvpn.app
-  port: 8388
+  client-fingerprint: chrome
+- name: 🇵🇱 波兰 (Poland) 25 - hotick
+  server: 2.26.6.1
+  port: 2087
   udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 8z2OB_gvFvpKgjFi8s9Cvw
+  type: vless
+  uuid: b9fdc03f-389b-4cda-9be4-155b623bee15
+  tls: true
+  servername: 2.26.6.1
+  skip-cert-verify: false
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
@@ -237,6 +306,10 @@ proxy-groups:
   - 🇵🇱 波兰 (Poland) 19 - hotick
   - 🇵🇱 波兰 (Poland) 20 - hotick
   - 🇵🇱 波兰 (Poland) 21 - hotick
+  - 🇵🇱 波兰 (Poland) 22 - hotick
+  - 🇵🇱 波兰 (Poland) 23 - hotick
+  - 🇵🇱 波兰 (Poland) 24 - hotick
+  - 🇵🇱 波兰 (Poland) 25 - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -263,5 +336,9 @@ proxy-groups:
   - 🇵🇱 波兰 (Poland) 19 - hotick
   - 🇵🇱 波兰 (Poland) 20 - hotick
   - 🇵🇱 波兰 (Poland) 21 - hotick
+  - 🇵🇱 波兰 (Poland) 22 - hotick
+  - 🇵🇱 波兰 (Poland) 23 - hotick
+  - 🇵🇱 波兰 (Poland) 24 - hotick
+  - 🇵🇱 波兰 (Poland) 25 - hotick
 rules:
 - MATCH,PROXIES
