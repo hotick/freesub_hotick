@@ -4,17 +4,15 @@
   },
   "outbounds": [
     {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 01 (家宽) - hotick",
-      "server": "188.114.97.6",
-      "server_port": 8080,
-      "uuid": "a8b1d666-d3ba-4b17-90c4-ba7514c74f78",
-      "transport": {
-        "type": "ws",
-        "path": "/xiron",
-        "headers": {
-          "Host": "xstack.mahanfixe.workers.dev"
-        }
+      "type": "trojan",
+      "tag": "🇺🇸 美国 (United States) 01 (移动家宽) - hotick",
+      "server": "us001.zestapp778.com",
+      "server_port": 57277,
+      "password": "5t6i121em5lkmsmk",
+      "tls": {
+        "enabled": true,
+        "server_name": "us001.zestapp778.com",
+        "insecure": false
       }
     },
     {
@@ -22,14 +20,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇺🇸 美国 (United States) 01 (家宽) - hotick"
+        "🇺🇸 美国 (United States) 01 (移动家宽) - hotick"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇺🇸 美国 (United States) 01 (家宽) - hotick"
+        "🇺🇸 美国 (United States) 01 (移动家宽) - hotick"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

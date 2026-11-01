@@ -4,32 +4,29 @@
   },
   "outbounds": [
     {
-      "type": "hysteria2",
+      "type": "vless",
       "tag": "🇭🇰 中国香港 (Hong Kong) 01 - hotick",
-      "server": "31.57.248.176",
-      "server_port": 50160,
-      "password": "b0917015b656b3dd2286b5633af0c5c1",
+      "server": "165.154.63.139",
+      "server_port": 443,
+      "uuid": "91ad30e9-ab06-4b4c-9fb9-1c2aa97d8b3a",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.bing.com%23%e9%a6%83%e5%9a%9f%e9%a6%83%e5%9a%a2%7chk%7c%40wxgqlfx%7c147",
-        "insecure": true
+        "server_name": "www.amazon.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "AE81BrwMc8-kwGEIA1LhzaL03er0Qwt2V-fFy76F5jQ",
+          "short_id": "ca4aedd4"
+        }
       }
     },
     {
       "type": "hysteria2",
       "tag": "🇭🇰 中国香港 (Hong Kong) 02 - hotick",
-      "server": "b503b615-tm96o0-tne5x4-1rfon.hk3.hyhuawei.com",
-      "server_port": 443,
-      "password": "aed1cc24-351d-11ef-ba52-f23c9164ca5d",
-      "tls": {
-        "enabled": true,
-        "server_name": "b503b615-tm96o0-tne5x4-1rfon.hk3.hyhuawei.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 03 - hotick",
       "server": "152.32.254.68",
       "server_port": 5010,
       "password": "eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ",
@@ -45,70 +42,67 @@
     },
     {
       "type": "hysteria2",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 04 - hotick",
-      "server": "202.146.222.29",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 03 - hotick",
+      "server": "202.146.222.89",
       "server_port": 443,
       "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
       "tls": {
         "enabled": true,
-        "server_name": "https://t.me/wangcai2ð\\x9f\\x87¨ð\\x9f\\x87³",
+        "server_name": "vk.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 04 - hotick",
+      "server": "202.146.222.174",
+      "server_port": 443,
+      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
+      "tls": {
+        "enabled": true,
+        "server_name": "https://t.me/oneclickvpnkeys",
         "insecure": true
       }
     },
     {
       "type": "hysteria2",
       "tag": "🇭🇰 中国香港 (Hong Kong) 05 - hotick",
-      "server": "202.146.222.89",
+      "server": "202.146.222.29",
       "server_port": 443,
       "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
       "tls": {
         "enabled": true,
-        "server_name": "202.146.222.89",
+        "server_name": "https://t.me/wangcai2🇨🇳",
         "insecure": true
       }
     },
     {
       "type": "hysteria2",
       "tag": "🇭🇰 中国香港 (Hong Kong) 06 - hotick",
-      "server": "2219f493-tmm5c0-tpftcp-13x18.nw4.hyhuawei.com",
+      "server": "0fd83b77-tmm5c0-tuklme-ueq.nw4.hyhuawei.com",
       "server_port": 443,
-      "password": "e4499a62-0cfe-11eb-ad8c-f23c9164ca5d",
+      "password": "91df5a86-fcdd-11ef-94aa-f23c913c8d2b",
       "tls": {
         "enabled": true,
-        "server_name": "2219f493-tmm5c0-tpftcp-13x18.nw4.hyhuawei.com",
-        "insecure": false
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 07 - hotick",
-      "server": "202.146.222.174",
-      "server_port": 443,
-      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
-      "tls": {
-        "enabled": true,
-        "server_name": "off",
+        "server_name": "0fd83b77-tmm5c0-tuklme-ueq.nw4.hyhuawei.com",
         "insecure": true
       }
     },
     {
-      "type": "vmess",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 08 - hotick",
-      "server": "az-1.linkaa.xyz",
-      "server_port": 53617,
-      "uuid": "6E571484-4166-4699-8F58-B34A1823691F",
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/game/resources",
-        "headers": {
-          "Host": "az-1.linkaa.xyz"
-        }
+      "type": "trojan",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 07 - hotick",
+      "server": "hik160.pacemakere.com",
+      "server_port": 20014,
+      "password": "778f5385b4254495",
+      "tls": {
+        "enabled": true,
+        "server_name": "hik160.pacemakere.com",
+        "insecure": true
       }
     },
     {
       "type": "vless",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 09 - hotick",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 08 - hotick",
       "server": "195.58.144.56",
       "server_port": 11907,
       "uuid": "07cb07b9-0c4d-46c1-a15a-b147511b6b07",
@@ -127,24 +121,49 @@
       }
     },
     {
-      "type": "trojan",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 10 - hotick",
-      "server": "hik160.pacemakere.com",
-      "server_port": 20014,
-      "password": "778f5385b4254495",
+      "type": "hysteria2",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 09 - hotick",
+      "server": "e0064cf5-tmm5c0-to0mym-z93q.hk3.hyhuawei.com",
+      "server_port": 443,
+      "password": "40639730-e027-11ea-87ad-f23c913c8d2b",
       "tls": {
         "enabled": true,
-        "server_name": "hik160.pacemakere.com",
+        "server_name": "e0064cf5-tmm5c0-to0mym-z93q.hk3.hyhuawei.com",
         "insecure": true
       }
     },
     {
-      "type": "vmess",
+      "type": "vless",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 10 - hotick",
+      "server": "dubai-cdn-keno.keno.su",
+      "server_port": 443,
+      "uuid": "dc413f44-7dce-4cc4-b2c7-878ef70ce464",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "dubai-cdn-keno.keno.su",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "9MgNwdrftjPf18DG8qYo6iHJw7IG7uSnULScDQ0WDy4",
+          "short_id": "0123456789abcdef"
+        }
+      }
+    },
+    {
+      "type": "hysteria2",
       "tag": "🇭🇰 中国香港 (Hong Kong) 11 - hotick",
-      "server": "101.32.8.251",
-      "server_port": 50001,
-      "uuid": "5706beb5-479b-475d-b557-00309327e9cc",
-      "security": "auto"
+      "server": "31.57.248.176",
+      "server_port": 50160,
+      "password": "b0917015b656b3dd2286b5633af0c5c1",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.bing.com",
+        "insecure": true
+      }
     },
     {
       "type": "selector",

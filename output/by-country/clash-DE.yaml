@@ -5,43 +5,13 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇩🇪 德国 (Germany) 01 - hotick
-  server: 188.114.97.6
-  port: 8080
+  server: 185.176.204.18
+  port: 19999
   udp: true
-  type: vless
-  uuid: b9ede7a5-5b4b-4aee-ac37-2c307e587e47
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoidVkzQm1ROUg4dyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
-    headers:
-      Host: courses.mftplus.qzz.io
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
 - name: 🇩🇪 德国 (Germany) 02 - hotick
-  server: 162.159.153.4
-  port: 443
-  udp: true
-  type: vless
-  uuid: f2a73750-3087-48ff-a763-1348c15dce68
-  tls: true
-  servername: rayan-007.maxima.dpdns.org
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: rayan-007.maxima.dpdns.org
-- name: 🇩🇪 德国 (Germany) 03 - hotick
-  server: 188.114.97.6
-  port: 8080
-  udp: true
-  type: vless
-  uuid: 93fa8bdb-9cca-4a3e-8355-b7c12e4f595e
-  network: ws
-  ws-opts:
-    path: /vl/yLWNcuUuw1jlJpkDhGy?ed=2560
-    headers:
-      Host: fornewiran.ade-1000.workers.dev
-- name: 🇩🇪 德国 (Germany) 04 - hotick
   server: vless.herogoing.top
   port: 443
   udp: true
@@ -52,69 +22,8 @@ proxies:
   network: ws
   ws-opts:
     path: /tr?ed=2560
-- name: 🇩🇪 德国 (Germany) 05 - hotick
-  server: stf839dvvyog9d2qa4-b8z6ahgn7b7qi.pages.dev
-  port: 443
-  udp: true
-  type: vless
-  uuid: b2f2f9f2-1864-48ea-839b-22815faff1f1
-  tls: true
-  servername: stf839dvvyog9d2qa4-b8z6ahgn7b7qi.pages.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-- name: 🇩🇪 德国 (Germany) 06 - hotick
-  server: 172.67.208.235
-  port: 2096
-  udp: true
-  type: vless
-  uuid: b9ede7a5-5b4b-4aee-ac37-2c307e587e47
-  tls: true
-  servername: courses.mftplus.qzz.io
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoidVkzQm1ROUg4dyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
-    headers:
-      Host: courses.mftplus.qzz.io
-- name: 🇩🇪 德国 (Germany) 07 - hotick
-  server: idb8onmvbntuyt5t7t6cejfw8vlrb.pages.dev
-  port: 443
-  udp: true
-  type: trojan
-  password: TsX0XJKMa2h$CbKr0k
-  sni: iDB8onmvBnTuyt5T7T6CejfW8vlRb.PagES.DeV
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /tr/60XnEWrAQkStT4oTTwmkao9a4sc
-- name: 🇩🇪 德国 (Germany) 08 - hotick
-  server: courses.mftplus.qzz.io
-  port: 2096
-  udp: true
-  type: vless
-  uuid: b9ede7a5-5b4b-4aee-ac37-2c307e587e47
-  tls: true
-  servername: courses.mftplus.qzz.io
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoidVkzQm1ROUg4dyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
-    headers:
-      Host: courses.mftplus.qzz.io
-- name: 🇩🇪 德国 (Germany) 09 - hotick
-  server: 185.176.204.18
-  port: 19999
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇩🇪 德国 (Germany) 10 - hotick
-  server: 163.245.42.132
+- name: 🇩🇪 德国 (Germany) 03 - hotick
+  server: 9.247.23.209
   port: 443
   udp: true
   type: vless
@@ -125,14 +34,19 @@ proxies:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
   servername: mother-earth.fyi
   client-fingerprint: chrome
-- name: 🇩🇪 德国 (Germany) 11 - hotick
-  server: 213.202.208.199
-  port: 7001
+- name: 🇩🇪 德国 (Germany) 04 - hotick
+  server: 9.247.23.209
+  port: 443
   udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: RexnBgU7EV5ADxG
-- name: 🇩🇪 德国 (Germany) 12 - hotick
+  type: vless
+  uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  servername: mother-earth.fyi
+  client-fingerprint: chrome
+- name: 🇩🇪 德国 (Germany) 05 - hotick
   server: 163.245.42.120
   port: 443
   udp: true
@@ -144,14 +58,7 @@ proxies:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
   servername: mother-earth.fyi
   client-fingerprint: firefox
-- name: 🇩🇪 德国 (Germany) 13 - hotick
-  server: 185.226.172.8
-  port: 8008
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: XKFKl2rULjIp74
-- name: 🇩🇪 德国 (Germany) 14 - hotick
+- name: 🇩🇪 德国 (Germany) 06 - hotick
   server: 163.245.42.157
   port: 443
   udp: true
@@ -163,29 +70,26 @@ proxies:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
   servername: mother-earth.fyi
   client-fingerprint: chrome
-- name: 🇩🇪 德国 (Germany) 15 - hotick
-  server: 116.203.8.98
-  port: 8044
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: hNfeLCN3XzYgLFSAWo_fxOl4HC1gNw0V
-- name: 🇩🇪 德国 (Germany) 16 - hotick
+- name: 🇩🇪 德国 (Germany) 07 - hotick
   server: 169.150.210.233
   port: 8080
   udp: true
   type: ss
   cipher: rc4-md5
   password: 14fFPrbezE3HDZzsMOr6
-- name: 🇩🇪 德国 (Germany) 17 - hotick
-  server: 193.108.119.193
+- name: 🇩🇪 德国 (Germany) 08 - hotick
+  server: 163.245.42.132
   port: 443
   udp: true
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: resources.iloverussia2026.com
-  skip-cert-verify: false
-- name: 🇩🇪 德国 (Germany) 18 - hotick
+  type: vless
+  uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  servername: mother-earth.fyi
+  client-fingerprint: chrome
+- name: 🇩🇪 德国 (Germany) 09 - hotick
   server: 193.108.119.29
   port: 443
   udp: true
@@ -193,32 +97,14 @@ proxies:
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   sni: blog.iloverussia2026.com
   skip-cert-verify: false
-- name: 🇩🇪 德国 (Germany) 19 - hotick
-  server: 45.129.242.56
-  port: 443
+- name: 🇩🇪 德国 (Germany) 10 - hotick
+  server: 146.70.20.147
+  port: 8080
   udp: true
-  type: vless
-  uuid: ebdfaf99-41d8-4e48-8196-d54510ffb556
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: YURKlEQ3rap4KOXXGsVFZyYev2oDU2gCEbNTXPdKWRY
-    short-id: abcdef
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇩🇪 德国 (Germany) 20 - hotick
-  server: 193.148.253.194
-  port: 25362
-  udp: true
-  type: vless
-  uuid: 36fb6650-8a50-42b5-9f66-06538806f32c
-  tls: true
-  reality-opts:
-    public-key: hFee7zTreqlv_wccK_8zxN5v23hj9u-DshByvGf-KAA
-    short-id: 23732d14a527990d
-  servername: www.chip.de
-  client-fingerprint: chrome
-- name: 🇩🇪 德国 (Germany) 21 - hotick
+  type: ss
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+- name: 🇩🇪 德国 (Germany) 11 - hotick
   server: 144.31.125.60
   port: 443
   udp: true
@@ -231,59 +117,7 @@ proxies:
     short-id: 85c86a9863
   servername: www.intel.com
   client-fingerprint: chrome
-- name: 🇩🇪 德国 (Germany) 22 - hotick
-  server: 57.129.41.216
-  port: 80
-  udp: true
-  type: vless
-  uuid: 18535741-e8b3-4b43-9348-785b55936751
-  network: ws
-  ws-opts:
-    path: /vless/
-    headers:
-      Host: ov-germany1.09vpn.com
-- name: 🇩🇪 德国 (Germany) 23 - hotick
-  server: 46.28.69.123
-  port: 443
-  udp: true
-  type: vless
-  uuid: b945f9aa-1b45-4912-aa7e-248509472bad
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: 7KnJYp2-sE3o35mnbSZzX3fNg-ns9n8xyNfkRSHCD3E
-    short-id: 238e23c5150f02e4
-  servername: gateway.icloud.com
-  client-fingerprint: chrome
-- name: 🇩🇪 德国 (Germany) 24 - hotick
-  server: edge.bookmai.com
-  port: 443
-  udp: true
-  type: vless
-  uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  servername: mother-earth.fyi
-  client-fingerprint: chrome
-- name: 🇩🇪 德国 (Germany) 25 - hotick
-  server: 5.45.100.100
-  port: 51511
-  udp: true
-  type: hysteria2
-  password: miaoge110
-  sni: www.bing.com
-  skip-cert-verify: true
-- name: 🇩🇪 德国 (Germany) 26 - hotick
-  server: 193.108.119.96
-  port: 443
-  udp: true
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: learn.iloverussia2026.com
-  skip-cert-verify: false
-- name: 🇩🇪 德国 (Germany) 27 - hotick
+- name: 🇩🇪 德国 (Germany) 12 - hotick
   server: 91.107.169.224
   port: 80
   udp: true
@@ -292,36 +126,28 @@ proxies:
   alterId: 0
   cipher: auto
   network: httpupgrade
-- name: 🇩🇪 德国 (Germany) 28 - hotick
-  server: de-bots4.h1cloud.net
-  port: 25267
+- name: 🇩🇪 德国 (Germany) 13 - hotick
+  server: 150.241.79.124
+  port: 443
   udp: true
-  type: trojan
-  password: happybirthdaydaniel
-  sni: t.me/fuckthewall
-  skip-cert-verify: true
-- name: 🇩🇪 德国 (Germany) 29 - hotick
+  type: vless
+  uuid: 1fe01c8a-ab37-4e95-bbfc-95d4a608931e
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: dlhvkjq7Sj-TT__FLwUJzFLMDCk8bgi85Uz4qDU-5FM
+    short-id: 5212dad2aa9723d7
+  servername: de1.waspnest.space
+  client-fingerprint: firefox
+- name: 🇩🇪 德国 (Germany) 14 - hotick
   server: 88.99.213.222
   port: 14444
   udp: true
   type: hysteria2
   password: mhsl
-  sni: 88.99.213.222
+  sni: bing.com
   skip-cert-verify: true
-- name: 🇩🇪 德国 (Germany) 30 - hotick
-  server: 91.107.179.0
-  port: 10105
-  udp: true
-  type: vless
-  uuid: ad3f4a0a-a89f-498e-9869-a93c8fa185b1
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: PFC3JN1er1JE2vAemwRhNjewz8I4NUWP4XHf2Dza4Es
-    short-id: 12e321badd07906e
-  servername: play.google.com
-  client-fingerprint: firefox
-- name: 🇩🇪 德国 (Germany) 31 - hotick
+- name: 🇩🇪 德国 (Germany) 15 - hotick
   server: 144.31.140.125
   port: 8443
   udp: true
@@ -333,16 +159,9 @@ proxies:
     public-key: wgyw3OxZw4HEzedNdY_eHdcVkrtT7GEeZSHfzcZ8iDo
     short-id: 168c15efac9df5fd
   servername: twitch.tv
-  client-fingerprint: ''
-- name: 🇩🇪 德国 (Germany) 32 - hotick
-  server: 146.70.20.147
-  port: 8080
-  udp: true
-  type: ss
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-- name: 🇩🇪 德国 (Germany) 33 - hotick
-  server: 9.247.23.209
+  client-fingerprint: chrome
+- name: 🇩🇪 德国 (Germany) 16 - hotick
+  server: edge.bookmai.com
   port: 443
   udp: true
   type: vless
@@ -353,32 +172,136 @@ proxies:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
   servername: mother-earth.fyi
   client-fingerprint: chrome
-- name: 🇩🇪 德国 (Germany) 34 - hotick
-  server: 9.247.23.209
+- name: 🇩🇪 德国 (Germany) 17 - hotick
+  server: 163.245.41.48
+  port: 443
+  udp: true
+  type: hysteria2
+  password: 6da2c981-8c77-4340-bda3-93399b7aea26
+  sni: blogs.blog-forme.ru
+  skip-cert-verify: false
+- name: 🇩🇪 德国 (Germany) 18 - hotick
+  server: 45.88.12.26
+  port: 443
+  udp: true
+  type: hysteria2
+  password: e5ec2586-59b3-40fa-91b7-bb37a2f7744e
+  sni: crt.onecloudstream.com
+  skip-cert-verify: false
+- name: 🇩🇪 德国 (Germany) 19 - hotick
+  server: de001.zestapp778.com
+  port: 51520
+  udp: true
+  type: trojan
+  password: 5t6i121em5lkmsmk
+  sni: de001.zestapp778.com
+  skip-cert-verify: false
+- name: 🇩🇪 德国 (Germany) 20 - hotick
+  server: 151.243.169.164
+  port: 12824
+  udp: true
+  type: hysteria2
+  password: d62s7ghfehm742us
+  sni: derfderf.ru
+  skip-cert-verify: false
+- name: 🇩🇪 德国 (Germany) 21 - hotick
+  server: 57.129.41.216
+  port: 80
+  udp: true
+  type: vless
+  uuid: 18535741-e8b3-4b43-9348-785b55936751
+  network: ws
+  ws-opts:
+    path: /vless/
+    headers:
+      Host: ov-germany1.09vpn.com
+- name: 🇩🇪 德国 (Germany) 22 - hotick
+  server: 91.107.179.0
+  port: 10105
+  udp: true
+  type: vless
+  uuid: ad3f4a0a-a89f-498e-9869-a93c8fa185b1
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: PFC3JN1er1JE2vAemwRhNjewz8I4NUWP4XHf2Dza4Es
+    short-id: 12e321badd07906e
+  servername: play.google.com
+  client-fingerprint: chrome
+- name: 🇩🇪 德国 (Germany) 23 - hotick
+  server: 193.23.218.107
   port: 443
   udp: true
   type: vless
-  uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f
+  uuid: 6f433cf6-4221-48b2-ad29-01121952ef8a
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  servername: mother-earth.fyi
+    public-key: cBTZdCBwrYTTarw6B_lu2TN1M6_Lku68FfWCQT9svhc
+    short-id: cb620aa2f04bce33
+  servername: yandex.ru
   client-fingerprint: chrome
-- name: 🇩🇪 德国 (Germany) 35 - hotick
-  server: 213.108.198.158
-  port: 8442
+- name: 🇩🇪 德国 (Germany) 24 - hotick
+  server: 45.32.157.84
+  port: 443
+  udp: true
+  type: trojan
+  password: Tg3RnK7Xp8B1
+  sni: ash.d50f6225-23b4-3a7b-9f15-a0fb2fc16803.kailib.com
+  skip-cert-verify: true
+- name: 🇩🇪 德国 (Germany) 25 - hotick
+  server: nl-modx-prime.storagedirectguide.com
+  port: 443
   udp: true
   type: vless
-  uuid: 35352039-3820-4532-a031-303120313030
+  uuid: 5254c281-3bc1-40ee-ba89-1aaf8c251402
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: pFRfJJDY6TYJq-OVgAqFXhdaeur7gJWJM-RZT8g8yAA
-    short-id: 59b75803
-  servername: creativecommons.org
+    public-key: node0aB_7yyVADkeieiBBpxqIlxNLQcvgotRClh0QXQ
+  servername: nl-modx-prime.storagedirectguide.com
   client-fingerprint: chrome
-- name: 🇩🇪 德国 (Germany) 36 - hotick
+- name: 🇩🇪 德国 (Germany) 26 - hotick
+  server: steel7.hadsvpn.com
+  port: 443
+  udp: true
+  type: hysteria2
+  password: 23c82941-70f4-4381-90db-bd28e9a902e9
+  sni: steel7.hadsvpn.com
+  skip-cert-verify: false
+- name: 🇩🇪 德国 (Germany) 27 - hotick
+  server: 45.129.242.56
+  port: 443
+  udp: true
+  type: vless
+  uuid: ebdfaf99-41d8-4e48-8196-d54510ffb556
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: YURKlEQ3rap4KOXXGsVFZyYev2oDU2gCEbNTXPdKWRY
+    short-id: abcdef
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇩🇪 德国 (Germany) 28 - hotick
+  server: 104.18.0.181
+  port: 2052
+  udp: true
+  type: vless
+  uuid: 5744e593-1cc8-48fa-b8ca-57cd494fe35b
+  network: ws
+  ws-opts:
+    path: /rain1226
+    headers:
+      Host: eu02.123450908.xyz
+- name: 🇩🇪 德国 (Germany) 29 - hotick
+  server: 3.76.203.180
+  port: 443
+  udp: true
+  type: hysteria2
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: vpn-de-002.fastervpn.world
+  skip-cert-verify: true
+- name: 🇩🇪 德国 (Germany) 30 - hotick
   server: 92.243.74.224
   port: 8443
   udp: true
@@ -390,102 +313,8 @@ proxies:
     public-key: 1H1DiBCBB7fpALV71pH1q66ePybBFlVOcxftdlQimQ8
     short-id: 385cb18df0892069
   servername: de8.vpngold.ru
-  client-fingerprint: firefox
-- name: 🇩🇪 德国 (Germany) 37 - hotick
-  server: 157.90.175.178
-  port: 1222
-  udp: true
-  type: vless
-  uuid: 36c3dcc2-17b6-4478-b8a7-3978e6d5afe9
-  tls: true
-  reality-opts:
-    public-key: zpLKK8HuwXJDH9D0O3t5Z_tO3ajkj7VRtXdr6UGy1zE
-    short-id: a25d0f
-  servername: play.google.com
-  client-fingerprint: firefox
-- name: 🇩🇪 德国 (Germany) 38 - hotick
-  server: 188.114.96.198
-  port: 443
-  udp: true
-  type: vless
-  uuid: b15f187e-9b34-437c-8243-8651a8ada76c
-  tls: true
-  servername: tepar-k4j9.jounet.workers.dev
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /stream/DEVCOP/8651a8ada76c/loc-1
-    headers:
-      Host: tepar-k4j9.jounet.workers.dev
-- name: 🇩🇪 德国 (Germany) 39 - hotick
-  server: steel7.hadsvpn.com
-  port: 443
-  udp: true
-  type: hysteria2
-  password: 23c82941-70f4-4381-90db-bd28e9a902e9
-  sni: steel7.hadsvpn.com
-  skip-cert-verify: false
-- name: 🇩🇪 德国 (Germany) 40 - hotick
-  server: 13.140.94.191
-  port: 443
-  udp: true
-  type: vless
-  uuid: 1d1eda2e-0bd7-4478-877b-1c5425c6c4dd
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: yr_opKG6DGTppNDXkk-DhGSYJZXbb9o-caexk2FZO38
-    short-id: 8f3c6e2a1b5d4f09
-  servername: tradingview.com
-  client-fingerprint: firefox
-- name: 🇩🇪 德国 (Germany) 41 - hotick
-  server: 91.107.180.176
-  port: 465
-  udp: true
-  type: vless
-  uuid: d0d3d49c-56e8-40e1-9e83-793d03f83d93
-  tls: true
-  servername: hw7.divarkhaghazi.com
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: hw7.divarkhaghazi.com.
-- name: 🇩🇪 德国 (Germany) 42 - hotick
-  server: 157.90.175.178
-  port: 2112
-  udp: true
-  type: vless
-  uuid: 36c3dcc2-17b6-4478-b8a7-3978e6d5afe9
-  tls: true
-  reality-opts:
-    public-key: p8pUe3hwND5rhAti-yRQ5qMaIkNdhxOV1K1jpbtJlEQ
-    short-id: 125ba3
-  servername: play.google.com
   client-fingerprint: chrome
-- name: 🇩🇪 德国 (Germany) 43 - hotick
-  server: 138.124.53.224
-  port: 30447
-  udp: true
-  type: vless
-  uuid: 2d2f710b-574c-43e7-bc8c-8d69c3e7806a
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: 516PSdm_rjV1YdoGT8npOHTH3u8SfiD-2gV-Tkax02g
-    short-id: 850a8440dff47fe2
-  servername: ok.ru
-  client-fingerprint: firefox
-- name: 🇩🇪 德国 (Germany) 44 - hotick
-  server: 18.153.65.67
-  port: 443
-  udp: true
-  type: hysteria2
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: 127.0.0.1
-  skip-cert-verify: true
-- name: 🇩🇪 德国 (Germany) 45 - hotick
+- name: 🇩🇪 德国 (Germany) 31 - hotick
   server: www.gptcloudai.com
   port: 443
   udp: true
@@ -501,214 +330,15 @@ proxies:
     path: /truth
     headers:
       Host: www.gptcloudai.com
-- name: 🇩🇪 德国 (Germany) 46 - hotick
-  server: derfderf.ru
-  port: 12824
+- name: 🇩🇪 德国 (Germany) 32 - hotick
+  server: 5.45.100.100
+  port: 51511
   udp: true
   type: hysteria2
-  password: d62s7ghfehm742us
-  sni: derfderf.ru
-  skip-cert-verify: false
-- name: 🇩🇪 德国 (Germany) 47 - hotick
-  server: 18.193.79.104
-  port: 443
-  udp: true
-  type: hysteria2
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: 18.193.79.104
+  password: miaoge110
+  sni: www.bing.com
   skip-cert-verify: true
-- name: 🇩🇪 德国 (Germany) 48 - hotick
-  server: 82.39.171.12
-  port: 443
-  udp: true
-  type: vless
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: c39cc7310a
-  servername: yahoo.com
-  client-fingerprint: ios
-- name: 🇩🇪 德国 (Germany) 49 - hotick
-  server: 79.137.199.52
-  port: 21
-  udp: true
-  type: vless
-  uuid: e7b1256f-aba7-460e-8246-8d6a5156972a
-  tls: true
-  servername: 2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: 2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev
-- name: 🇩🇪 德国 (Germany) 50 - hotick
-  server: news.zoom.us
-  port: 2083
-  udp: true
-  type: vless
-  uuid: 36592d47-b9f5-4e8f-949e-45ac05472aab
-  tls: true
-  servername: site.check-looks.space
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: site.check-looks.space
-- name: 🇩🇪 德国 (Germany) 51 - hotick
-  server: 45.132.178.130
-  port: 443
-  udp: true
-  type: vless
-  uuid: 902e7be9-d0a8-000b-994f-8320916a9d9e
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: fERXyd24DZcsFqE84AHjugHha0U5H6Wdb2wCIo5kPV8
-    short-id: 0cabf7c24918fe72
-  servername: media.usicloid.my
-  client-fingerprint: qq
-- name: 🇩🇪 德国 (Germany) 52 - hotick
-  server: 3.69.232.199
-  port: 443
-  udp: true
-  type: hysteria2
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: 127.0.0.1
-  skip-cert-verify: true
-- name: 🇩🇪 德国 (Germany) 53 - hotick
-  server: 179.253.179.109
-  port: 63053
-  udp: true
-  type: vless
-  uuid: e3aa3d22-a95e-407b-aacc-d855b90a5d70
-  tls: true
-  servername: de2.derevohom.xyz
-  skip-cert-verify: false
-  client-fingerprint: chrome
-- name: 🇩🇪 德国 (Germany) 54 - hotick
-  server: sino.bestsellers1.site
-  port: 2083
-  udp: true
-  type: vless
-  uuid: 7858128a-6b5e-4f86-9bff-52c1f1e6439d
-  tls: true
-  servername: sino.bestsellers1.site
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-- name: 🇩🇪 德国 (Germany) 55 - hotick
-  server: 104.17.70.206
-  port: 8443
-  udp: true
-  type: vless
-  uuid: 5f704d93-7e7f-45b5-81f5-08db4a946220
-  tls: true
-  servername: free.sahanwickramasinghe.com
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: free.sahanwickramasinghe.com
-- name: 🇩🇪 德国 (Germany) 56 - hotick
-  server: vpn-de-002.fastervpn.world
-  port: 443
-  udp: true
-  type: hysteria2
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: vpn-de-002.fastervpn.world
-  skip-cert-verify: true
-- name: 🇩🇪 德国 (Germany) 57 - hotick
-  server: 179.61.138.145
-  port: 36264
-  udp: true
-  type: hysteria2
-  password: VPNJEY
-  sni: de2.jey.cc.cd
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: Telegram@vpnjey
-- name: 🇩🇪 德国 (Germany) 58 - hotick
-  server: 148.253.210.191
-  port: 443
-  udp: true
-  type: vless
-  uuid: 53f03acd-fec1-6685-fc8f-03baf9550cb8
-  tls: true
-  servername: 148-253-210-191.sslip.io
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /test-ws
-    headers:
-      Host: 148-253-210-191.sslip.io
-- name: 🇩🇪 德国 (Germany) 59 - hotick
-  server: vodiwalker-panel-development-hp599.lucity.app
-  port: 443
-  udp: true
-  type: vless
-  uuid: 2c8af5ed-bf4c-d7cc-e398-8a2193c884dc
-  tls: true
-  servername: vodiwalker-panel-development-hp599.lucity.app
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /ws/2c8af5ed-bf4c-d7cc-e398-8a2193c884dc
-    headers:
-      Host: vodiwalker-panel-development-hp599.lucity.app
-- name: 🇩🇪 德国 (Germany) 60 - hotick
-  server: 64.188.83.188
-  port: 2083
-  udp: true
-  type: vless
-  uuid: 75b517db-1f97-4bda-a479-863d988c31a0
-  tls: true
-  servername: speedtestmark.com
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /vless-ws
-- name: 🇩🇪 德国 (Germany) 61 - hotick
-  server: 3.76.221.4
-  port: 443
-  udp: true
-  type: hysteria2
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: 3.76.221.4
-  skip-cert-verify: true
-- name: 🇩🇪 德国 (Germany) 62 - hotick
-  server: bigshagy.zqpm.ir
-  port: 5780
-  udp: true
-  type: vless
-  uuid: 996f6fed-a94e-4e9d-b876-82bc4ad02847
-  tls: true
-  reality-opts:
-    public-key: PF8LdirtBEOQ_w9-1-i3mhgeFYbIQ1iOu1FPCfxUHQo
-    short-id: 2efbb0033df59520
-  servername: yahoo.com
-  client-fingerprint: chrome
-- name: 🇩🇪 德国 (Germany) 63 - hotick
-  server: 104.18.0.181
-  port: 2052
-  udp: true
-  type: vless
-  uuid: 5744e593-1cc8-48fa-b8ca-57cd494fe35b
-  network: ws
-  ws-opts:
-    path: /rain1226
-    headers:
-      Host: eu02.123450908.xyz
-- name: 🇩🇪 德国 (Germany) 64 - hotick
+- name: 🇩🇪 德国 (Germany) 33 - hotick
   server: 82.118.19.153
   port: 443
   udp: true
@@ -721,42 +351,281 @@ proxies:
     short-id: 670ed9f350bd8ee0
   servername: www.cloudflare.com
   client-fingerprint: chrome
-- name: 🇩🇪 德国 (Germany) 65 - hotick
+- name: 🇩🇪 德国 (Germany) 34 - hotick
+  server: 13.140.94.191
+  port: 443
+  udp: true
+  type: vless
+  uuid: 1d1eda2e-0bd7-4478-877b-1c5425c6c4dd
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: yr_opKG6DGTppNDXkk-DhGSYJZXbb9o-caexk2FZO38
+    short-id: 8f3c6e2a1b5d4f09
+  servername: tradingview.com
+  client-fingerprint: firefox
+- name: 🇩🇪 德国 (Germany) 35 - hotick
+  server: 91.107.247.173
+  port: 2083
+  udp: true
+  type: vless
+  uuid: 7858128a-6b5e-4f86-9bff-52c1f1e6439d
+  tls: true
+  servername: sino.bestsellers1.site
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: sino.bestsellers1.site
+- name: 🇩🇪 德国 (Germany) 36 - hotick
+  server: 179.61.138.145
+  port: 36264
+  udp: true
+  type: hysteria2
+  password: VPNJEY
+  sni: de2.jey.cc.cd
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: Telegram@vpnjey
+- name: 🇩🇪 德国 (Germany) 37 - hotick
+  server: vpn-de-002.fastervpn.world
+  port: 443
+  udp: true
+  type: hysteria2
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: 127.0.0.1
+  skip-cert-verify: true
+- name: 🇩🇪 德国 (Germany) 38 - hotick
+  server: 3.69.232.199
+  port: 443
+  udp: true
+  type: hysteria2
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: 127.0.0.1
+  skip-cert-verify: true
+- name: 🇩🇪 德国 (Germany) 39 - hotick
+  server: 82.39.171.12
+  port: 443
+  udp: true
+  type: vless
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  servername: yahoo.com
+  client-fingerprint: chrome
+- name: 🇩🇪 德国 (Germany) 40 - hotick
+  server: free.sahanwickramasinghe.com
+  port: 2096
+  udp: true
+  type: vless
+  uuid: 20d04f6e-797b-4814-b60a-3882be3b101b
+  tls: true
+  servername: microsoft.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: microsoft.com
+- name: 🇩🇪 德国 (Germany) 41 - hotick
+  server: 185.226.172.8
+  port: 8008
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: XKFKl2rULjIp74
+- name: 🇩🇪 德国 (Germany) 42 - hotick
+  server: hw5.roghanmo.com
+  port: 465
+  udp: true
+  type: vless
+  uuid: a356fa77-7199-417a-80dd-0c0925789161
+  tls: true
+  servername: hw5.roghanmo.com.
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: hw5.roghanmo.com
+- name: 🇩🇪 德国 (Germany) 43 - hotick
+  server: 151.91.39.191
+  port: 443
+  udp: true
+  type: vless
+  uuid: 53f03acd-fec1-6685-fc8f-03baf9550cb8
+  tls: true
+  servername: 148-253-210-191.sslip.io
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /test-ws
+    headers:
+      Host: 148-253-210-191.sslip.io
+- name: 🇩🇪 德国 (Germany) 44 - hotick
+  server: 3.64.194.247
+  port: 443
+  udp: true
+  type: hysteria2
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: vpn-de-002.fastervpn.world
+  skip-cert-verify: true
+- name: 🇩🇪 德国 (Germany) 45 - hotick
+  server: 18.193.79.104
+  port: 443
+  udp: true
+  type: hysteria2
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: vpn-de-002.fastervpn.world
+  skip-cert-verify: true
+- name: 🇩🇪 德国 (Germany) 46 - hotick
+  server: 18.153.65.67
+  port: 443
+  udp: true
+  type: hysteria2
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: vpn-de-002.fastervpn.world
+  skip-cert-verify: true
+- name: 🇩🇪 德国 (Germany) 47 - hotick
+  server: pMH11GC5OUVBikGm.v.3dns.vip
+  port: 443
+  udp: true
+  type: vmess
+  uuid: ba7f523686914da1b35c62ae7927a8dd
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: pMH11GC5OUVBikGm.v.3dns.vip
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: pMH11GC5OUVBikGm.v.3dns.vip
+- name: 🇩🇪 德国 (Germany) 48 - hotick
+  server: 179.253.179.109
+  port: 63053
+  udp: true
+  type: vless
+  uuid: e3aa3d22-a95e-407b-aacc-d855b90a5d70
+  tls: true
+  servername: de2.derevohom.xyz
+  skip-cert-verify: false
+  client-fingerprint: chrome
+- name: 🇩🇪 德国 (Germany) 49 - hotick
   server: 213.202.208.199
   port: 5000
   udp: true
   type: ss
   cipher: aes-256-gcm
   password: Y6R9pAtvxxzmGC
-- name: 🇩🇪 德国 (Germany) 66 - hotick
-  server: 45.32.157.84
-  port: 443
-  udp: true
-  type: trojan
-  password: Tg3RnK7Xp8B1
-  sni: ash.d50f6225-23b4-3a7b-9f15-a0fb2fc16803.kailib.com
-  skip-cert-verify: true
-- name: 🇩🇪 德国 (Germany) 67 - hotick
-  server: de001.zestapp778.com
-  port: 51520
-  udp: true
-  type: trojan
-  password: 5t6i121em5lkmsmk
-  sni: de001.zestapp778.com
-  skip-cert-verify: true
-- name: 🇩🇪 德国 (Germany) 68 - hotick
-  server: swself2.yandex-api.com
-  port: 443
+- name: 🇩🇪 德国 (Germany) 50 - hotick
+  server: 157.90.175.178
+  port: 2112
   udp: true
   type: vless
-  uuid: 1b7ee703-fa08-4305-8469-ae3e30e61e44
-  flow: xtls-rprx-vision
+  uuid: 36c3dcc2-17b6-4478-b8a7-3978e6d5afe9
   tls: true
   reality-opts:
-    public-key: HXFe_cPryw01zqXchAFjZciDAS4UJg1-xScx6vjgjjY
-    short-id: 7f2e9c4b1a8d6e25
-  servername: swself2.yandex-api.com
+    public-key: p8pUe3hwND5rhAti-yRQ5qMaIkNdhxOV1K1jpbtJlEQ
+    short-id: 125ba3
+  servername: play.google.com
   client-fingerprint: chrome
+- name: 🇩🇪 德国 (Germany) 51 - hotick
+  server: 57.129.113.16
+  port: 8388
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: NcAXc0UZI6yQJE1p8QmOv8
+- name: 🇩🇪 德国 (Germany) 52 - hotick
+  server: WE8gwIzdpz5gX6eh.v.3dns.vip
+  port: 443
+  udp: true
+  type: vmess
+  uuid: ba7f523686914da1b35c62ae7927a8dd
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: WE8gwIzdpz5gX6eh.v.3dns.vip
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: WE8gwIzdpz5gX6eh.v.3dns.vip
+- name: 🇩🇪 德国 (Germany) 53 - hotick
+  server: mci1.amir12.ir
+  port: 1222
+  udp: true
+  type: vless
+  uuid: 36c3dcc2-17b6-4478-b8a7-3978e6d5afe9
+  tls: true
+  reality-opts:
+    public-key: zpLKK8HuwXJDH9D0O3t5Z_tO3ajkj7VRtXdr6UGy1zE
+    short-id: a25d0f
+  servername: play.google.com
+  client-fingerprint: chrome
+- name: 🇩🇪 德国 (Germany) 54 - hotick
+  server: 3.76.221.4
+  port: 443
+  udp: true
+  type: hysteria2
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: 3.76.221.4
+  skip-cert-verify: true
+- name: 🇩🇪 德国 (Germany) 55 - hotick
+  server: 193.108.119.96
+  port: 443
+  udp: true
+  type: trojan
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: learn.iloverussia2026.com
+  skip-cert-verify: false
+- name: 🇩🇪 德国 (Germany) 56 - hotick
+  server: 91.107.188.129
+  port: 2083
+  udp: true
+  type: vless
+  uuid: 36592d47-b9f5-4e8f-949e-45ac05472aab
+  tls: true
+  servername: site.check-looks.space
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+- name: 🇩🇪 德国 (Germany) 57 - hotick
+  server: de15.h1cloud.net
+  port: 25362
+  udp: true
+  type: vless
+  uuid: 36fb6650-8a50-42b5-9f66-06538806f32c
+  tls: true
+  reality-opts:
+    public-key: hFee7zTreqlv_wccK_8zxN5v23hj9u-DshByvGf-KAA
+    short-id: 23732d14a527990d
+  servername: www.chip.de
+  client-fingerprint: chrome
+- name: 🇩🇪 德国 (Germany) 58 - hotick
+  server: 193.108.119.15
+  port: 443
+  udp: true
+  type: trojan
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: courses.iloverussia2026.com
+  skip-cert-verify: true
+- name: 🇩🇪 德国 (Germany) 59 - hotick
+  server: 193.108.119.193
+  port: 443
+  udp: true
+  type: trojan
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: resources.iloverussia2026.com
+  skip-cert-verify: false
 proxy-groups:
 - name: PROXIES
   type: select
@@ -821,15 +690,6 @@ proxy-groups:
   - 🇩🇪 德国 (Germany) 57 - hotick
   - 🇩🇪 德国 (Germany) 58 - hotick
   - 🇩🇪 德国 (Germany) 59 - hotick
-  - 🇩🇪 德国 (Germany) 60 - hotick
-  - 🇩🇪 德国 (Germany) 61 - hotick
-  - 🇩🇪 德国 (Germany) 62 - hotick
-  - 🇩🇪 德国 (Germany) 63 - hotick
-  - 🇩🇪 德国 (Germany) 64 - hotick
-  - 🇩🇪 德国 (Germany) 65 - hotick
-  - 🇩🇪 德国 (Germany) 66 - hotick
-  - 🇩🇪 德国 (Germany) 67 - hotick
-  - 🇩🇪 德国 (Germany) 68 - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -894,14 +754,5 @@ proxy-groups:
   - 🇩🇪 德国 (Germany) 57 - hotick
   - 🇩🇪 德国 (Germany) 58 - hotick
   - 🇩🇪 德国 (Germany) 59 - hotick
-  - 🇩🇪 德国 (Germany) 60 - hotick
-  - 🇩🇪 德国 (Germany) 61 - hotick
-  - 🇩🇪 德国 (Germany) 62 - hotick
-  - 🇩🇪 德国 (Germany) 63 - hotick
-  - 🇩🇪 德国 (Germany) 64 - hotick
-  - 🇩🇪 德国 (Germany) 65 - hotick
-  - 🇩🇪 德国 (Germany) 66 - hotick
-  - 🇩🇪 德国 (Germany) 67 - hotick
-  - 🇩🇪 德国 (Germany) 68 - hotick
 rules:
 - MATCH,PROXIES

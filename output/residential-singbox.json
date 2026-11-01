@@ -4,24 +4,22 @@
   },
   "outbounds": [
     {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 01 (家宽) - hotick",
-      "server": "188.114.97.6",
-      "server_port": 8080,
-      "uuid": "a8b1d666-d3ba-4b17-90c4-ba7514c74f78",
-      "transport": {
-        "type": "ws",
-        "path": "/xiron",
-        "headers": {
-          "Host": "xstack.mahanfixe.workers.dev"
-        }
+      "type": "trojan",
+      "tag": "🇺🇸 美国 (United States) 01 (移动家宽) - hotick",
+      "server": "us001.zestapp778.com",
+      "server_port": 57277,
+      "password": "5t6i121em5lkmsmk",
+      "tls": {
+        "enabled": true,
+        "server_name": "us001.zestapp778.com",
+        "insecure": false
       }
     },
     {
       "type": "vmess",
       "tag": "🇭🇰 中国香港 (Hong Kong) 02 (移动家宽) - hotick",
       "server": "dog-hk.kunlun01dns.com",
-      "server_port": 21020,
+      "server_port": 21041,
       "uuid": "9464ca40-dd75-3742-a628-d931a9f413b2",
       "security": "auto"
     },
@@ -29,41 +27,30 @@
       "type": "vmess",
       "tag": "🇭🇰 中国香港 (Hong Kong) 03 (移动家宽) - hotick",
       "server": "dog-hk.kunlun01dns.com",
-      "server_port": 21041,
+      "server_port": 21021,
       "uuid": "9464ca40-dd75-3742-a628-d931a9f413b2",
       "security": "auto"
     },
     {
-      "type": "trojan",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 04 (家宽) - hotick",
-      "server": "125.227.86.45",
-      "server_port": 443,
-      "password": "0a9f1f5a397bd427",
-      "tls": {
-        "enabled": true,
-        "server_name": "TG.freecodes",
-        "insecure": true,
-        "alpn": [
-          "h2"
-        ]
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "db"
-      }
+      "type": "vmess",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 04 (移动家宽) - hotick",
+      "server": "zfd-hkv2.kunlun01dns.com",
+      "server_port": 16112,
+      "uuid": "0802ac03-7973-39ef-a019-ba02de6c01e1",
+      "security": "auto"
     },
     {
       "type": "vless",
       "tag": "🇭🇰 中国香港 (Hong Kong) 05 (家宽) - hotick",
-      "server": "a736eb68-tmb1c0-tpkh0c-1r7od.hk2.hyhuawei.com",
+      "server": "0e05f970-tki800-traezq-1t5n1.hk2.hyhuawei.com",
       "server_port": 443,
-      "uuid": "6d56436c-150d-11f0-b0c8-f23c913c8d2b",
+      "uuid": "ea800f9e-ca6c-11ef-8e74-f23c913c8d2b",
       "tls": {
         "enabled": true,
         "server_name": "download.windowsupdate.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -73,40 +60,54 @@
       }
     },
     {
-      "type": "vmess",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 06 (移动家宽) - hotick",
-      "server": "zfd-hkv1.kunlun01dns.com",
-      "server_port": 16113,
-      "uuid": "0802ac03-7973-39ef-a019-ba02de6c01e1",
-      "security": "auto"
-    },
-    {
       "type": "vless",
-      "tag": "🇮🇳 印度 (India) 07 (家宽) - hotick",
-      "server": "122.176.216.52",
-      "server_port": 443,
-      "uuid": "16ae3ea5-cf3e-6973-7bf3-2b4b28d0ea88",
+      "tag": "🇹🇷 土耳其 (Turkey) 06 (移动家宽) - hotick",
+      "server": "tr2.h1cloud.net",
+      "server_port": 25021,
+      "uuid": "2446e2e2-1ce3-4502-9050-1dd32bacc68c",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "app-6ada5023.deploy.meerasolution.com",
-        "insecure": false,
+        "server_name": "www.samsung.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/ws/16ae3ea5-cf3e-6973-7bf3-2b4b28d0ea88",
-        "headers": {
-          "Host": "app-6ada5023.deploy.meerasolution.com"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "od79bUkYtqQtsGrrTdhmkDflx5c9al4vqxwWApvc-Dg",
+          "short_id": "17fa3af0924c88b3"
         }
       }
     },
     {
+      "type": "trojan",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 07 (家宽) - hotick",
+      "server": "ench-snet-app.w-ctrip.cn",
+      "server_port": 45502,
+      "password": "b17e9b52db9623bd6c16eea3d7adb5b3",
+      "tls": {
+        "enabled": true,
+        "server_name": "cm.g.doubleclick.net",
+        "insecure": true
+      }
+    },
+    {
       "type": "anytls",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 08 (家宽) - hotick",
-      "server": "684616s4.df6h451rh.xin",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 08 (家宽) - hotick",
+      "server": "56481.df6h451rh.xin",
+      "server_port": 443,
+      "password": "0324fbc29561",
+      "tls": {
+        "enabled": true,
+        "server_name": "images.ctfassets.net",
+        "insecure": true
+      }
+    },
+    {
+      "type": "anytls",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 09 (家宽) - hotick",
+      "server": "er8u54dh.df6h451rh.xin",
       "server_port": 443,
       "password": "0324fbc29561",
       "tls": {
@@ -120,23 +121,8 @@
     },
     {
       "type": "anytls",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 09 (家宽) - hotick",
-      "server": "56481.df6h451rh.xin",
-      "server_port": 443,
-      "password": "0324fbc29561",
-      "tls": {
-        "enabled": true,
-        "server_name": "images.ctfassets.net",
-        "insecure": true,
-        "alpn": [
-          "http/1.1"
-        ]
-      }
-    },
-    {
-      "type": "anytls",
       "tag": "🇹🇼 中国台湾 (Taiwan) 10 (家宽) - hotick",
-      "server": "er8u54dh.df6h451rh.xin",
+      "server": "684616s4.df6h451rh.xin",
       "server_port": 443,
       "password": "0324fbc29561",
       "tls": {
@@ -150,15 +136,15 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇺🇸 美国 (United States) 01 (家宽) - hotick",
+        "🇺🇸 美国 (United States) 01 (移动家宽) - hotick",
         "🇭🇰 中国香港 (Hong Kong) 02 (移动家宽) - hotick",
         "🇭🇰 中国香港 (Hong Kong) 03 (移动家宽) - hotick",
-        "🇹🇼 中国台湾 (Taiwan) 04 (家宽) - hotick",
+        "🇭🇰 中国香港 (Hong Kong) 04 (移动家宽) - hotick",
         "🇭🇰 中国香港 (Hong Kong) 05 (家宽) - hotick",
-        "🇭🇰 中国香港 (Hong Kong) 06 (移动家宽) - hotick",
-        "🇮🇳 印度 (India) 07 (家宽) - hotick",
-        "🇹🇼 中国台湾 (Taiwan) 08 (家宽) - hotick",
-        "🇭🇰 中国香港 (Hong Kong) 09 (家宽) - hotick",
+        "🇹🇷 土耳其 (Turkey) 06 (移动家宽) - hotick",
+        "🇹🇼 中国台湾 (Taiwan) 07 (家宽) - hotick",
+        "🇭🇰 中国香港 (Hong Kong) 08 (家宽) - hotick",
+        "🇹🇼 中国台湾 (Taiwan) 09 (家宽) - hotick",
         "🇹🇼 中国台湾 (Taiwan) 10 (家宽) - hotick"
       ]
     },
@@ -166,15 +152,15 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇺🇸 美国 (United States) 01 (家宽) - hotick",
+        "🇺🇸 美国 (United States) 01 (移动家宽) - hotick",
         "🇭🇰 中国香港 (Hong Kong) 02 (移动家宽) - hotick",
         "🇭🇰 中国香港 (Hong Kong) 03 (移动家宽) - hotick",
-        "🇹🇼 中国台湾 (Taiwan) 04 (家宽) - hotick",
+        "🇭🇰 中国香港 (Hong Kong) 04 (移动家宽) - hotick",
         "🇭🇰 中国香港 (Hong Kong) 05 (家宽) - hotick",
-        "🇭🇰 中国香港 (Hong Kong) 06 (移动家宽) - hotick",
-        "🇮🇳 印度 (India) 07 (家宽) - hotick",
-        "🇹🇼 中国台湾 (Taiwan) 08 (家宽) - hotick",
-        "🇭🇰 中国香港 (Hong Kong) 09 (家宽) - hotick",
+        "🇹🇷 土耳其 (Turkey) 06 (移动家宽) - hotick",
+        "🇹🇼 中国台湾 (Taiwan) 07 (家宽) - hotick",
+        "🇭🇰 中国香港 (Hong Kong) 08 (家宽) - hotick",
+        "🇹🇼 中国台湾 (Taiwan) 09 (家宽) - hotick",
         "🇹🇼 中国台湾 (Taiwan) 10 (家宽) - hotick"
       ],
       "url": "https://www.gstatic.com/generate_204"

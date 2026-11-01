@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇭🇰 中国香港 (Hong Kong) 01 (移动家宽) - hotick
   server: dog-hk.kunlun01dns.com
-  port: 21020
+  port: 21041
   udp: true
   type: vmess
   uuid: 9464ca40-dd75-3742-a628-d931a9f413b2
@@ -14,31 +14,31 @@ proxies:
   cipher: auto
 - name: 🇭🇰 中国香港 (Hong Kong) 02 (移动家宽) - hotick
   server: dog-hk.kunlun01dns.com
-  port: 21041
+  port: 21021
   udp: true
   type: vmess
   uuid: 9464ca40-dd75-3742-a628-d931a9f413b2
   alterId: 0
   cipher: auto
-- name: 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - hotick
-  server: a736eb68-tmb1c0-tpkh0c-1r7od.hk2.hyhuawei.com
-  port: 443
-  udp: true
-  type: vless
-  uuid: 6d56436c-150d-11f0-b0c8-f23c913c8d2b
-  tls: true
-  reality-opts:
-    public-key: c9DdggKaJGSH7FN3JgGbi9ZvsUqOGGpIr7BhzTWeTCo
-  servername: download.windowsupdate.com
-  client-fingerprint: firefox
-- name: 🇭🇰 中国香港 (Hong Kong) 04 (移动家宽) - hotick
-  server: zfd-hkv1.kunlun01dns.com
-  port: 16113
+- name: 🇭🇰 中国香港 (Hong Kong) 03 (移动家宽) - hotick
+  server: zfd-hkv2.kunlun01dns.com
+  port: 16112
   udp: true
   type: vmess
   uuid: 0802ac03-7973-39ef-a019-ba02de6c01e1
   alterId: 0
   cipher: auto
+- name: 🇭🇰 中国香港 (Hong Kong) 04 (家宽) - hotick
+  server: 0e05f970-tki800-traezq-1t5n1.hk2.hyhuawei.com
+  port: 443
+  udp: true
+  type: vless
+  uuid: ea800f9e-ca6c-11ef-8e74-f23c913c8d2b
+  tls: true
+  reality-opts:
+    public-key: c9DdggKaJGSH7FN3JgGbi9ZvsUqOGGpIr7BhzTWeTCo
+  servername: download.windowsupdate.com
+  client-fingerprint: chrome
 - name: 🇭🇰 中国香港 (Hong Kong) 05 (家宽) - hotick
   server: 56481.df6h451rh.xin
   port: 443
@@ -54,8 +54,8 @@ proxy-groups:
   - AUTO
   - 🇭🇰 中国香港 (Hong Kong) 01 (移动家宽) - hotick
   - 🇭🇰 中国香港 (Hong Kong) 02 (移动家宽) - hotick
-  - 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - hotick
-  - 🇭🇰 中国香港 (Hong Kong) 04 (移动家宽) - hotick
+  - 🇭🇰 中国香港 (Hong Kong) 03 (移动家宽) - hotick
+  - 🇭🇰 中国香港 (Hong Kong) 04 (家宽) - hotick
   - 🇭🇰 中国香港 (Hong Kong) 05 (家宽) - hotick
 - name: AUTO
   type: url-test
@@ -64,8 +64,8 @@ proxy-groups:
   proxies:
   - 🇭🇰 中国香港 (Hong Kong) 01 (移动家宽) - hotick
   - 🇭🇰 中国香港 (Hong Kong) 02 (移动家宽) - hotick
-  - 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - hotick
-  - 🇭🇰 中国香港 (Hong Kong) 04 (移动家宽) - hotick
+  - 🇭🇰 中国香港 (Hong Kong) 03 (移动家宽) - hotick
+  - 🇭🇰 中国香港 (Hong Kong) 04 (家宽) - hotick
   - 🇭🇰 中国香港 (Hong Kong) 05 (家宽) - hotick
 rules:
 - MATCH,PROXIES

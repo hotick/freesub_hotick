@@ -4,26 +4,15 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇺🇸 美国 (United States) 01 (家宽) - hotick
-  server: 188.114.97.6
-  port: 8080
+- name: 🇺🇸 美国 (United States) 01 (移动家宽) - hotick
+  server: us001.zestapp778.com
+  port: 57277
   udp: true
-  type: vless
-  uuid: a8b1d666-d3ba-4b17-90c4-ba7514c74f78
-  network: ws
-  ws-opts:
-    path: /xiron
-    headers:
-      Host: xstack.mahanfixe.workers.dev
+  type: trojan
+  password: 5t6i121em5lkmsmk
+  sni: us001.zestapp778.com
+  skip-cert-verify: false
 - name: 🇭🇰 中国香港 (Hong Kong) 02 (移动家宽) - hotick
-  server: dog-hk.kunlun01dns.com
-  port: 21020
-  udp: true
-  type: vmess
-  uuid: 9464ca40-dd75-3742-a628-d931a9f413b2
-  alterId: 0
-  cipher: auto
-- name: 🇭🇰 中国香港 (Hong Kong) 03 (移动家宽) - hotick
   server: dog-hk.kunlun01dns.com
   port: 21041
   udp: true
@@ -31,60 +20,55 @@ proxies:
   uuid: 9464ca40-dd75-3742-a628-d931a9f413b2
   alterId: 0
   cipher: auto
-- name: 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - hotick
-  server: 125.227.86.45
-  port: 443
+- name: 🇭🇰 中国香港 (Hong Kong) 03 (移动家宽) - hotick
+  server: dog-hk.kunlun01dns.com
+  port: 21021
   udp: true
-  type: trojan
-  password: 0a9f1f5a397bd427
-  sni: TG.freecodes
-  skip-cert-verify: true
-  network: grpc
-  grpc-opts:
-    grpc-service-name: db
-- name: 🇭🇰 中国香港 (Hong Kong) 05 (家宽) - hotick
-  server: a736eb68-tmb1c0-tpkh0c-1r7od.hk2.hyhuawei.com
-  port: 443
-  udp: true
-  type: vless
-  uuid: 6d56436c-150d-11f0-b0c8-f23c913c8d2b
-  tls: true
-  reality-opts:
-    public-key: c9DdggKaJGSH7FN3JgGbi9ZvsUqOGGpIr7BhzTWeTCo
-  servername: download.windowsupdate.com
-  client-fingerprint: firefox
-- name: 🇭🇰 中国香港 (Hong Kong) 06 (移动家宽) - hotick
-  server: zfd-hkv1.kunlun01dns.com
-  port: 16113
+  type: vmess
+  uuid: 9464ca40-dd75-3742-a628-d931a9f413b2
+  alterId: 0
+  cipher: auto
+- name: 🇭🇰 中国香港 (Hong Kong) 04 (移动家宽) - hotick
+  server: zfd-hkv2.kunlun01dns.com
+  port: 16112
   udp: true
   type: vmess
   uuid: 0802ac03-7973-39ef-a019-ba02de6c01e1
   alterId: 0
   cipher: auto
-- name: 🇮🇳 印度 (India) 07 (家宽) - hotick
-  server: 122.176.216.52
+- name: 🇭🇰 中国香港 (Hong Kong) 05 (家宽) - hotick
+  server: 0e05f970-tki800-traezq-1t5n1.hk2.hyhuawei.com
   port: 443
   udp: true
   type: vless
-  uuid: 16ae3ea5-cf3e-6973-7bf3-2b4b28d0ea88
+  uuid: ea800f9e-ca6c-11ef-8e74-f23c913c8d2b
   tls: true
-  servername: app-6ada5023.deploy.meerasolution.com
-  skip-cert-verify: false
+  reality-opts:
+    public-key: c9DdggKaJGSH7FN3JgGbi9ZvsUqOGGpIr7BhzTWeTCo
+  servername: download.windowsupdate.com
   client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /ws/16ae3ea5-cf3e-6973-7bf3-2b4b28d0ea88
-    headers:
-      Host: app-6ada5023.deploy.meerasolution.com
-- name: 🇹🇼 中国台湾 (Taiwan) 08 (家宽) - hotick
-  server: 684616s4.df6h451rh.xin
-  port: 443
+- name: 🇹🇷 土耳其 (Turkey) 06 (移动家宽) - hotick
+  server: tr2.h1cloud.net
+  port: 25021
   udp: true
-  type: anytls
-  password: 0324fbc29561
-  sni: px.ads.linkedin.com
+  type: vless
+  uuid: 2446e2e2-1ce3-4502-9050-1dd32bacc68c
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: od79bUkYtqQtsGrrTdhmkDflx5c9al4vqxwWApvc-Dg
+    short-id: 17fa3af0924c88b3
+  servername: www.samsung.com
+  client-fingerprint: chrome
+- name: 🇹🇼 中国台湾 (Taiwan) 07 (家宽) - hotick
+  server: ench-snet-app.w-ctrip.cn
+  port: 45502
+  udp: true
+  type: trojan
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  sni: cm.g.doubleclick.net
   skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 09 (家宽) - hotick
+- name: 🇭🇰 中国香港 (Hong Kong) 08 (家宽) - hotick
   server: 56481.df6h451rh.xin
   port: 443
   udp: true
@@ -92,8 +76,16 @@ proxies:
   password: 0324fbc29561
   sni: images.ctfassets.net
   skip-cert-verify: true
-- name: 🇹🇼 中国台湾 (Taiwan) 10 (家宽) - hotick
+- name: 🇹🇼 中国台湾 (Taiwan) 09 (家宽) - hotick
   server: er8u54dh.df6h451rh.xin
+  port: 443
+  udp: true
+  type: anytls
+  password: 0324fbc29561
+  sni: px.ads.linkedin.com
+  skip-cert-verify: true
+- name: 🇹🇼 中国台湾 (Taiwan) 10 (家宽) - hotick
+  server: 684616s4.df6h451rh.xin
   port: 443
   udp: true
   type: anytls
@@ -105,30 +97,30 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇺🇸 美国 (United States) 01 (家宽) - hotick
+  - 🇺🇸 美国 (United States) 01 (移动家宽) - hotick
   - 🇭🇰 中国香港 (Hong Kong) 02 (移动家宽) - hotick
   - 🇭🇰 中国香港 (Hong Kong) 03 (移动家宽) - hotick
-  - 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - hotick
+  - 🇭🇰 中国香港 (Hong Kong) 04 (移动家宽) - hotick
   - 🇭🇰 中国香港 (Hong Kong) 05 (家宽) - hotick
-  - 🇭🇰 中国香港 (Hong Kong) 06 (移动家宽) - hotick
-  - 🇮🇳 印度 (India) 07 (家宽) - hotick
-  - 🇹🇼 中国台湾 (Taiwan) 08 (家宽) - hotick
-  - 🇭🇰 中国香港 (Hong Kong) 09 (家宽) - hotick
+  - 🇹🇷 土耳其 (Turkey) 06 (移动家宽) - hotick
+  - 🇹🇼 中国台湾 (Taiwan) 07 (家宽) - hotick
+  - 🇭🇰 中国香港 (Hong Kong) 08 (家宽) - hotick
+  - 🇹🇼 中国台湾 (Taiwan) 09 (家宽) - hotick
   - 🇹🇼 中国台湾 (Taiwan) 10 (家宽) - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇺🇸 美国 (United States) 01 (家宽) - hotick
+  - 🇺🇸 美国 (United States) 01 (移动家宽) - hotick
   - 🇭🇰 中国香港 (Hong Kong) 02 (移动家宽) - hotick
   - 🇭🇰 中国香港 (Hong Kong) 03 (移动家宽) - hotick
-  - 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - hotick
+  - 🇭🇰 中国香港 (Hong Kong) 04 (移动家宽) - hotick
   - 🇭🇰 中国香港 (Hong Kong) 05 (家宽) - hotick
-  - 🇭🇰 中国香港 (Hong Kong) 06 (移动家宽) - hotick
-  - 🇮🇳 印度 (India) 07 (家宽) - hotick
-  - 🇹🇼 中国台湾 (Taiwan) 08 (家宽) - hotick
-  - 🇭🇰 中国香港 (Hong Kong) 09 (家宽) - hotick
+  - 🇹🇷 土耳其 (Turkey) 06 (移动家宽) - hotick
+  - 🇹🇼 中国台湾 (Taiwan) 07 (家宽) - hotick
+  - 🇭🇰 中国香港 (Hong Kong) 08 (家宽) - hotick
+  - 🇹🇼 中国台湾 (Taiwan) 09 (家宽) - hotick
   - 🇹🇼 中国台湾 (Taiwan) 10 (家宽) - hotick
 rules:
 - MATCH,PROXIES

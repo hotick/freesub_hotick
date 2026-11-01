@@ -5,35 +5,29 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇦🇪 阿联酋 (UAE) 01 - hotick
-  server: 217.60.73.56
-  port: 443
-  udp: true
-  type: hysteria2
-  password: 69e41e64-a832-471a-b740-94577ca85520
-  sni: forshynewh.duckdns.org
-  skip-cert-verify: true
-- name: 🇦🇪 阿联酋 (UAE) 02 - hotick
-  server: hy2.aspidnet.xyz
+  server: 130.49.161.70
   port: 443
   udp: true
   type: hysteria2
   password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
   sni: hy2.aspidnet.xyz
-  skip-cert-verify: false
+  skip-cert-verify: true
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
-- name: 🇦🇪 阿联酋 (UAE) 03 - hotick
-  server: 185.253.116.33
-  port: 14430
+- name: 🇦🇪 阿联酋 (UAE) 02 - hotick
+  server: 91.132.48.199
+  port: 443
   udp: true
   type: vless
-  uuid: aee7ae19-672f-49d8-8a92-aa7cdfc89f89
-  network: ws
-  ws-opts:
-    path: /vless
-    headers:
-      Host: 185.253.116.33
-- name: 🇦🇪 阿联酋 (UAE) 04 - hotick
+  uuid: 0d607d84-0ae0-4b9c-a4f3-1766ab456e02
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: _0hmzeEAGEx6boacV3d-FrFGaFBYfdvJno39FxveJwM
+    short-id: e7c5f2a9
+  servername: bunny.net
+  client-fingerprint: firefox
+- name: 🇦🇪 阿联酋 (UAE) 03 - hotick
   server: 95.174.68.188
   port: 14430
   udp: true
@@ -44,21 +38,38 @@ proxies:
     path: /vless
     headers:
       Host: 95.174.68.188
+- name: 🇦🇪 阿联酋 (UAE) 04 - hotick
+  server: 217.60.73.56
+  port: 443
+  udp: true
+  type: hysteria2
+  password: 69e41e64-a832-471a-b740-94577ca85520
+  sni: forshynewh.duckdns.org
+  skip-cert-verify: true
 - name: 🇦🇪 阿联酋 (UAE) 05 - hotick
-  server: 142.91.101.39
-  port: 627
+  server: 31.76.227.57
+  port: 443
   udp: true
   type: vless
-  uuid: a32f3ec6-d776-450e-9d97-9e2deb6c8421
+  uuid: 07680ffb-0666-4836-b6ad-ec0de62bc38f
+  flow: xtls-rprx-vision
   tls: true
-  servername: jr61rsc8fog5f.l6yr5b4ialxnf2ll2zcsgmlqf3u.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
+  reality-opts:
+    public-key: cYtAkO6yUCuRTxHvF8EH76bybk1yfS005KLls-at2yc
+    short-id: a7856800c2deb7b2
+  servername: assets-mi-26.spbstudentlife.com
+  client-fingerprint: firefox
+- name: 🇦🇪 阿联酋 (UAE) 06 - hotick
+  server: uae.unixzone.us
+  port: 22573
+  udp: true
+  type: vless
+  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
   network: ws
   ws-opts:
-    path: /@Marisa_kristi
+    path: /
     headers:
-      Host: jr61rsc8fog5f.l6yr5b4ialxnf2ll2zcsgmlqf3u.workers.dev
+      Host: uae.unixzone.us
 proxy-groups:
 - name: PROXIES
   type: select
@@ -69,6 +80,7 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 03 - hotick
   - 🇦🇪 阿联酋 (UAE) 04 - hotick
   - 🇦🇪 阿联酋 (UAE) 05 - hotick
+  - 🇦🇪 阿联酋 (UAE) 06 - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -79,5 +91,6 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 03 - hotick
   - 🇦🇪 阿联酋 (UAE) 04 - hotick
   - 🇦🇪 阿联酋 (UAE) 05 - hotick
+  - 🇦🇪 阿联酋 (UAE) 06 - hotick
 rules:
 - MATCH,PROXIES
