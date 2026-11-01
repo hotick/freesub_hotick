@@ -7,7 +7,7 @@
       "type": "trojan",
       "tag": "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - hotick",
       "server": "ench-snet-app.w-ctrip.cn",
-      "server_port": 45502,
+      "server_port": 45503,
       "password": "b17e9b52db9623bd6c16eea3d7adb5b3",
       "tls": {
         "enabled": true,
@@ -24,10 +24,7 @@
       "tls": {
         "enabled": true,
         "server_name": "px.ads.linkedin.com",
-        "insecure": true,
-        "alpn": [
-          "http/1.1"
-        ]
+        "insecure": true
       }
     },
     {

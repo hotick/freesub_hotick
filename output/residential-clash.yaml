@@ -11,24 +11,8 @@ proxies:
   type: trojan
   password: 5t6i121em5lkmsmk
   sni: us001.zestapp778.com
-  skip-cert-verify: false
+  skip-cert-verify: true
 - name: 🇭🇰 中国香港 (Hong Kong) 02 (移动家宽) - hotick
-  server: dog-hk.kunlun01dns.com
-  port: 21041
-  udp: true
-  type: vmess
-  uuid: 9464ca40-dd75-3742-a628-d931a9f413b2
-  alterId: 0
-  cipher: auto
-- name: 🇭🇰 中国香港 (Hong Kong) 03 (移动家宽) - hotick
-  server: dog-hk.kunlun01dns.com
-  port: 21021
-  udp: true
-  type: vmess
-  uuid: 9464ca40-dd75-3742-a628-d931a9f413b2
-  alterId: 0
-  cipher: auto
-- name: 🇭🇰 中国香港 (Hong Kong) 04 (移动家宽) - hotick
   server: zfd-hkv2.kunlun01dns.com
   port: 16112
   udp: true
@@ -36,7 +20,39 @@ proxies:
   uuid: 0802ac03-7973-39ef-a019-ba02de6c01e1
   alterId: 0
   cipher: auto
-- name: 🇭🇰 中国香港 (Hong Kong) 05 (家宽) - hotick
+- name: 🇭🇰 中国香港 (Hong Kong) 03 (移动家宽) - hotick
+  server: zfd-hkv2.kunlun01dns.com
+  port: 16116
+  udp: true
+  type: vmess
+  uuid: 0802ac03-7973-39ef-a019-ba02de6c01e1
+  alterId: 0
+  cipher: auto
+- name: 🇭🇰 中国香港 (Hong Kong) 04 (移动家宽) - hotick
+  server: dog-hk.kunlun01dns.com
+  port: 21041
+  udp: true
+  type: vmess
+  uuid: 9464ca40-dd75-3742-a628-d931a9f413b2
+  alterId: 0
+  cipher: auto
+- name: 🇹🇼 中国台湾 (Taiwan) 05 (家宽) - hotick
+  server: ench-snet-app.w-ctrip.cn
+  port: 45503
+  udp: true
+  type: trojan
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  sni: cm.g.doubleclick.net
+  skip-cert-verify: true
+- name: 🇭🇰 中国香港 (Hong Kong) 06 (家宽) - hotick
+  server: ench-snet-app.w-ctrip.cn
+  port: 53004
+  udp: true
+  type: trojan
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  sni: cm.g.doubleclick.net
+  skip-cert-verify: true
+- name: 🇭🇰 中国香港 (Hong Kong) 07 (家宽) - hotick
   server: 0e05f970-tki800-traezq-1t5n1.hk2.hyhuawei.com
   port: 443
   udp: true
@@ -47,7 +63,15 @@ proxies:
     public-key: c9DdggKaJGSH7FN3JgGbi9ZvsUqOGGpIr7BhzTWeTCo
   servername: download.windowsupdate.com
   client-fingerprint: chrome
-- name: 🇹🇷 土耳其 (Turkey) 06 (移动家宽) - hotick
+- name: 🇹🇼 中国台湾 (Taiwan) 08 (家宽) - hotick
+  server: er8u54dh.df6h451rh.xin
+  port: 443
+  udp: true
+  type: anytls
+  password: 0324fbc29561
+  sni: px.ads.linkedin.com
+  skip-cert-verify: true
+- name: 🇹🇷 土耳其 (Turkey) 09 (移动家宽) - hotick
   server: tr2.h1cloud.net
   port: 25021
   udp: true
@@ -60,15 +84,7 @@ proxies:
     short-id: 17fa3af0924c88b3
   servername: www.samsung.com
   client-fingerprint: chrome
-- name: 🇹🇼 中国台湾 (Taiwan) 07 (家宽) - hotick
-  server: ench-snet-app.w-ctrip.cn
-  port: 45502
-  udp: true
-  type: trojan
-  password: b17e9b52db9623bd6c16eea3d7adb5b3
-  sni: cm.g.doubleclick.net
-  skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 08 (家宽) - hotick
+- name: 🇭🇰 中国香港 (Hong Kong) 10 (家宽) - hotick
   server: 56481.df6h451rh.xin
   port: 443
   udp: true
@@ -76,15 +92,7 @@ proxies:
   password: 0324fbc29561
   sni: images.ctfassets.net
   skip-cert-verify: true
-- name: 🇹🇼 中国台湾 (Taiwan) 09 (家宽) - hotick
-  server: er8u54dh.df6h451rh.xin
-  port: 443
-  udp: true
-  type: anytls
-  password: 0324fbc29561
-  sni: px.ads.linkedin.com
-  skip-cert-verify: true
-- name: 🇹🇼 中国台湾 (Taiwan) 10 (家宽) - hotick
+- name: 🇹🇼 中国台湾 (Taiwan) 11 (家宽) - hotick
   server: 684616s4.df6h451rh.xin
   port: 443
   udp: true
@@ -101,12 +109,13 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 02 (移动家宽) - hotick
   - 🇭🇰 中国香港 (Hong Kong) 03 (移动家宽) - hotick
   - 🇭🇰 中国香港 (Hong Kong) 04 (移动家宽) - hotick
-  - 🇭🇰 中国香港 (Hong Kong) 05 (家宽) - hotick
-  - 🇹🇷 土耳其 (Turkey) 06 (移动家宽) - hotick
-  - 🇹🇼 中国台湾 (Taiwan) 07 (家宽) - hotick
-  - 🇭🇰 中国香港 (Hong Kong) 08 (家宽) - hotick
-  - 🇹🇼 中国台湾 (Taiwan) 09 (家宽) - hotick
-  - 🇹🇼 中国台湾 (Taiwan) 10 (家宽) - hotick
+  - 🇹🇼 中国台湾 (Taiwan) 05 (家宽) - hotick
+  - 🇭🇰 中国香港 (Hong Kong) 06 (家宽) - hotick
+  - 🇭🇰 中国香港 (Hong Kong) 07 (家宽) - hotick
+  - 🇹🇼 中国台湾 (Taiwan) 08 (家宽) - hotick
+  - 🇹🇷 土耳其 (Turkey) 09 (移动家宽) - hotick
+  - 🇭🇰 中国香港 (Hong Kong) 10 (家宽) - hotick
+  - 🇹🇼 中国台湾 (Taiwan) 11 (家宽) - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -116,11 +125,12 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 02 (移动家宽) - hotick
   - 🇭🇰 中国香港 (Hong Kong) 03 (移动家宽) - hotick
   - 🇭🇰 中国香港 (Hong Kong) 04 (移动家宽) - hotick
-  - 🇭🇰 中国香港 (Hong Kong) 05 (家宽) - hotick
-  - 🇹🇷 土耳其 (Turkey) 06 (移动家宽) - hotick
-  - 🇹🇼 中国台湾 (Taiwan) 07 (家宽) - hotick
-  - 🇭🇰 中国香港 (Hong Kong) 08 (家宽) - hotick
-  - 🇹🇼 中国台湾 (Taiwan) 09 (家宽) - hotick
-  - 🇹🇼 中国台湾 (Taiwan) 10 (家宽) - hotick
+  - 🇹🇼 中国台湾 (Taiwan) 05 (家宽) - hotick
+  - 🇭🇰 中国香港 (Hong Kong) 06 (家宽) - hotick
+  - 🇭🇰 中国香港 (Hong Kong) 07 (家宽) - hotick
+  - 🇹🇼 中国台湾 (Taiwan) 08 (家宽) - hotick
+  - 🇹🇷 土耳其 (Turkey) 09 (移动家宽) - hotick
+  - 🇭🇰 中国香港 (Hong Kong) 10 (家宽) - hotick
+  - 🇹🇼 中国台湾 (Taiwan) 11 (家宽) - hotick
 rules:
 - MATCH,PROXIES
