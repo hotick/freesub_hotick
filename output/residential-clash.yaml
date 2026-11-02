@@ -12,71 +12,40 @@ proxies:
   password: 5t6i121em5lkmsmk
   sni: us001.zestapp778.com
   skip-cert-verify: false
-- name: 🇺🇸 美国 (United States) 02 (移动家宽) - hotick
+- name: 🇰🇷 韩国 (South Korea) 02 (家宽) - hotick
+  server: 49.254.204.133
+  port: 1774
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: 1234!@#$
+- name: 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - hotick
+  server: bd452e87-tmm5c0-tv7dx2-py5w.hk3.hyhuawei.com
+  port: 443
+  udp: true
+  type: hysteria2
+  password: ae5338ae-9a70-58c9-3d47-7d54a5675715
+  sni: bd452e87-tmm5c0-tv7dx2-py5w.hk3.hyhuawei.com
+  skip-cert-verify: false
+- name: 🇺🇸 美国 (United States) 04 (移动家宽) - hotick
   server: us001.zestapp778.com
   port: 57277
   udp: true
   type: trojan
   password: 5t6i121em5lkmsmk
   sni: us001.zestapp778.com
-  skip-cert-verify: true
-- name: 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - hotick
-  server: 125.227.86.45
-  port: 443
+  skip-cert-verify: false
+- name: 🇹🇷 土耳其 (Turkey) 05 (移动家宽) - hotick
+  server: me17.msjia8844.site
+  port: 7443
   udp: true
-  type: trojan
-  password: 0a9f1f5a397bd427
-  sni: TG.freecodes
-  skip-cert-verify: true
-  network: grpc
-  grpc-opts:
-    grpc-service-name: db
-- name: 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - hotick
-  server: ench-snet-app.w-ctrip.cn
-  port: 45502
-  udp: true
-  type: trojan
-  password: b17e9b52db9623bd6c16eea3d7adb5b3
-  sni: ench-snet-app.w-ctrip.cn
-  skip-cert-verify: true
-- name: 🇹🇼 中国台湾 (Taiwan) 05 (家宽) - hotick
-  server: ench-snet-app.w-ctrip.cn
-  port: 45503
-  udp: true
-  type: trojan
-  password: b17e9b52db9623bd6c16eea3d7adb5b3
-  sni: cm.g.doubleclick.net
-  skip-cert-verify: true
+  type: hysteria2
+  password: M8LP9DztTr3znqCkmf-r08CQLBLLFK1r
+  sni: me17.msjia8844.site
+  skip-cert-verify: false
+  obfs: salamander
+  obfs-password: u3Soh9_Ui0UmcuY6vk0ug8Lq
 - name: 🇹🇼 中国台湾 (Taiwan) 06 (家宽) - hotick
-  server: er8u54dh.df6h451rh.xin
-  port: 443
-  udp: true
-  type: anytls
-  password: 0324fbc29561
-  sni: px.ads.linkedin.com
-  skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 07 (家宽) - hotick
-  server: 56481.df6h451rh.xin
-  port: 443
-  udp: true
-  type: anytls
-  password: 0324fbc29561
-  sni: images.ctfassets.net
-  skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 08 (家宽) - hotick
-  server: 178.236.242.254
-  port: 8443
-  udp: true
-  type: vless
-  uuid: c05ec3c7-2784-da2b-aa98-a3c132860fcb
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: ZRTNgwFRP8viY4SQOgPTfWlLWJCwY3dr0aawA7vHwhU
-    short-id: a1b2c3d4e5f6a7b8
-  servername: xnod13x.artemida.live
-  client-fingerprint: chrome
-- name: 🇹🇼 中国台湾 (Taiwan) 09 (家宽) - hotick
   server: 684616s4.df6h451rh.xin
   port: 443
   udp: true
@@ -84,46 +53,62 @@ proxies:
   password: 0324fbc29561
   sni: px.ads.linkedin.com
   skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 10 (家宽) - hotick
-  server: ufcaxsoooxez3p6h.5273ef7a.e.yuetong.online
-  port: 19310
+- name: 🇹🇼 中国台湾 (Taiwan) 07 (家宽) - hotick
+  server: er8u54dh.df6h451rh.xin
+  port: 443
   udp: true
-  type: hysteria2
-  password: 171a4d7a-a1f0-499c-9fc5-3915c8b1f47b
-  sni: srv-l7o.yuetong.online
+  type: anytls
+  password: 0324fbc29561
+  sni: px.ads.linkedin.com
   skip-cert-verify: true
-  obfs: salamander
-  obfs-password: 4mcqiPwfROfrKkIKx1WO32Va
-  ports: 19310-19821,19310-19310
+- name: 🇭🇰 中国香港 (Hong Kong) 08 (家宽) - hotick
+  server: 56481.df6h451rh.xin
+  port: 443
+  udp: true
+  type: anytls
+  password: 0324fbc29561
+  sni: images.ctfassets.net
+  skip-cert-verify: true
+- name: 🇹🇷 土耳其 (Turkey) 09 (移动家宽) - hotick
+  server: tr2.h1cloud.net
+  port: 25021
+  udp: true
+  type: vless
+  uuid: 2446e2e2-1ce3-4502-9050-1dd32bacc68c
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: od79bUkYtqQtsGrrTdhmkDflx5c9al4vqxwWApvc-Dg
+    short-id: 17fa3af0924c88b3
+  servername: www.samsung.com
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇺🇸 美国 (United States) 01 (移动家宽) - hotick
-  - 🇺🇸 美国 (United States) 02 (移动家宽) - hotick
-  - 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - hotick
-  - 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - hotick
-  - 🇹🇼 中国台湾 (Taiwan) 05 (家宽) - hotick
+  - 🇰🇷 韩国 (South Korea) 02 (家宽) - hotick
+  - 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - hotick
+  - 🇺🇸 美国 (United States) 04 (移动家宽) - hotick
+  - 🇹🇷 土耳其 (Turkey) 05 (移动家宽) - hotick
   - 🇹🇼 中国台湾 (Taiwan) 06 (家宽) - hotick
-  - 🇭🇰 中国香港 (Hong Kong) 07 (家宽) - hotick
-  - 🇺🇸 美国 (United States) 08 (家宽) - hotick
-  - 🇹🇼 中国台湾 (Taiwan) 09 (家宽) - hotick
-  - 🇭🇰 中国香港 (Hong Kong) 10 (家宽) - hotick
+  - 🇹🇼 中国台湾 (Taiwan) 07 (家宽) - hotick
+  - 🇭🇰 中国香港 (Hong Kong) 08 (家宽) - hotick
+  - 🇹🇷 土耳其 (Turkey) 09 (移动家宽) - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇺🇸 美国 (United States) 01 (移动家宽) - hotick
-  - 🇺🇸 美国 (United States) 02 (移动家宽) - hotick
-  - 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - hotick
-  - 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - hotick
-  - 🇹🇼 中国台湾 (Taiwan) 05 (家宽) - hotick
+  - 🇰🇷 韩国 (South Korea) 02 (家宽) - hotick
+  - 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - hotick
+  - 🇺🇸 美国 (United States) 04 (移动家宽) - hotick
+  - 🇹🇷 土耳其 (Turkey) 05 (移动家宽) - hotick
   - 🇹🇼 中国台湾 (Taiwan) 06 (家宽) - hotick
-  - 🇭🇰 中国香港 (Hong Kong) 07 (家宽) - hotick
-  - 🇺🇸 美国 (United States) 08 (家宽) - hotick
-  - 🇹🇼 中国台湾 (Taiwan) 09 (家宽) - hotick
-  - 🇭🇰 中国香港 (Hong Kong) 10 (家宽) - hotick
+  - 🇹🇼 中国台湾 (Taiwan) 07 (家宽) - hotick
+  - 🇭🇰 中国香港 (Hong Kong) 08 (家宽) - hotick
+  - 🇹🇷 土耳其 (Turkey) 09 (移动家宽) - hotick
 rules:
 - MATCH,PROXIES

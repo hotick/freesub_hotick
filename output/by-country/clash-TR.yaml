@@ -5,16 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇹🇷 土耳其 (Turkey) 01 - hotick
-  server: 153.56.210.134
-  port: 57251
-  udp: true
-  type: hysteria2
-  password: ff0343ad-1c9f-4986-8c62-c01935b508ca
-  sni: www.bing.com
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: 0ee2089e-70df-4c30-bfea-1fb9be61d93e
-- name: 🇹🇷 土耳其 (Turkey) 02 - hotick
   server: 62.133.63.45
   port: 8444
   udp: true
@@ -29,7 +19,7 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: GunService
-- name: 🇹🇷 土耳其 (Turkey) 03 - hotick
+- name: 🇹🇷 土耳其 (Turkey) 02 - hotick
   server: 153.56.210.134
   port: 34121
   udp: true
@@ -39,6 +29,16 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: 9a33460c-b037-47aa-a606-d04211f4e0ec
+- name: 🇹🇷 土耳其 (Turkey) 03 - hotick
+  server: 153.56.210.134
+  port: 57251
+  udp: true
+  type: hysteria2
+  password: ff0343ad-1c9f-4986-8c62-c01935b508ca
+  sni: www.bing.com
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: 0ee2089e-70df-4c30-bfea-1fb9be61d93e
 - name: 🇹🇷 土耳其 (Turkey) 04 - hotick
   server: 153.56.210.134
   port: 38045
@@ -63,16 +63,6 @@ proxies:
   servername: www.datadoghq.com
   client-fingerprint: firefox
 - name: 🇹🇷 土耳其 (Turkey) 06 - hotick
-  server: 206.1.96.108
-  port: 7443
-  udp: true
-  type: hysteria2
-  password: M8LP9DztTr3znqCkmf-r08CQLBLLFK1r
-  sni: me17.msjia8844.site
-  skip-cert-verify: false
-  obfs: salamander
-  obfs-password: u3Soh9_Ui0UmcuY6vk0ug8Lq
-- name: 🇹🇷 土耳其 (Turkey) 07 - hotick
   server: 153.56.210.61
   port: 443
   udp: true
@@ -85,6 +75,18 @@ proxies:
     short-id: a696de84963656de
   servername: amd.com
   client-fingerprint: firefox
+- name: 🇹🇷 土耳其 (Turkey) 07 - hotick
+  server: 151.241.226.201
+  port: 2053
+  udp: true
+  type: vless
+  uuid: 0eed6293-8cf1-4e77-ac10-9c3d50d0b2f8
+  tls: true
+  reality-opts:
+    public-key: bYW_MmB_CUHrsyoCAUKviI2LZdHf63yY2yOPXbih104
+    short-id: 9e419c0759b54d6f
+  servername: www.apple.com
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select

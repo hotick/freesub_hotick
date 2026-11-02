@@ -4,67 +4,24 @@
   },
   "outbounds": [
     {
-      "type": "vless",
-      "tag": "🇦🇪 阿联酋 (UAE) 01 - hotick",
-      "server": "162.159.153.4",
-      "server_port": 443,
-      "uuid": "f2a73750-3087-48ff-a763-1348c15dce68",
-      "tls": {
-        "enabled": true,
-        "server_name": "rAyAn-007.mAxImA.DpDnS.OrG",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "rAyAn-007.mAxImA.DpDnS.OrG"
-        }
-      }
-    },
-    {
       "type": "hysteria2",
+      "tag": "🇦🇪 阿联酋 (UAE) 01 - hotick",
+      "server": "130.49.161.70",
+      "server_port": 443,
+      "password": "p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR",
+      "tls": {
+        "enabled": true,
+        "server_name": "hy2.aspidnet.xyz",
+        "insecure": false
+      },
+      "obfs": {
+        "type": "salamander",
+        "password": "rG07s3COMIEvdnQipRyWzx_H_2xygNC3"
+      }
+    },
+    {
+      "type": "vless",
       "tag": "🇦🇪 阿联酋 (UAE) 02 - hotick",
-      "server": "217.60.73.56",
-      "server_port": 443,
-      "password": "69e41e64-a832-471a-b740-94577ca85520",
-      "tls": {
-        "enabled": true,
-        "server_name": "forshynewh.duckdns.org",
-        "insecure": true,
-        "alpn": [
-          "h3"
-        ]
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇦🇪 阿联酋 (UAE) 03 - hotick",
-      "server": "91.132.48.199",
-      "server_port": 443,
-      "uuid": "0d607d84-0ae0-4b9c-a4f3-1766ab456e02",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "bunny.net",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "_0hmzeEAGEx6boacV3d-FrFGaFBYfdvJno39FxveJwM",
-          "short_id": "e7c5f2a9"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇦🇪 阿联酋 (UAE) 04 - hotick",
       "server": "95.174.68.188",
       "server_port": 14430,
       "uuid": "965ffbbe-c6b6-4d5f-8dea-6d8abc55d9c0",
@@ -77,30 +34,21 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇦🇪 阿联酋 (UAE) 05 - hotick",
-      "server": "31.76.227.57",
+      "type": "hysteria2",
+      "tag": "🇦🇪 阿联酋 (UAE) 03 - hotick",
+      "server": "forshynewh.duckdns.org",
       "server_port": 443,
-      "uuid": "07680ffb-0666-4836-b6ad-ec0de62bc38f",
-      "flow": "xtls-rprx-vision",
+      "password": "69e41e64-a832-471a-b740-94577ca85520",
       "tls": {
         "enabled": true,
-        "server_name": "assets-mi-26.spbstudentlife.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "cYtAkO6yUCuRTxHvF8EH76bybk1yfS005KLls-at2yc",
-          "short_id": "a7856800c2deb7b2"
-        }
+        "server_name": "forshynewh.duckdns.org",
+        "insecure": true
       }
     },
     {
       "type": "vless",
-      "tag": "🇦🇪 阿联酋 (UAE) 06 - hotick",
-      "server": "uae.unixzone.us",
+      "tag": "🇦🇪 阿联酋 (UAE) 04 - hotick",
+      "server": "84.235.244.108",
       "server_port": 22573,
       "uuid": "39947382-3212-41c9-bc3a-589574ac8b23",
       "transport": {
@@ -119,9 +67,7 @@
         "🇦🇪 阿联酋 (UAE) 01 - hotick",
         "🇦🇪 阿联酋 (UAE) 02 - hotick",
         "🇦🇪 阿联酋 (UAE) 03 - hotick",
-        "🇦🇪 阿联酋 (UAE) 04 - hotick",
-        "🇦🇪 阿联酋 (UAE) 05 - hotick",
-        "🇦🇪 阿联酋 (UAE) 06 - hotick"
+        "🇦🇪 阿联酋 (UAE) 04 - hotick"
       ]
     },
     {
@@ -131,9 +77,7 @@
         "🇦🇪 阿联酋 (UAE) 01 - hotick",
         "🇦🇪 阿联酋 (UAE) 02 - hotick",
         "🇦🇪 阿联酋 (UAE) 03 - hotick",
-        "🇦🇪 阿联酋 (UAE) 04 - hotick",
-        "🇦🇪 阿联酋 (UAE) 05 - hotick",
-        "🇦🇪 阿联酋 (UAE) 06 - hotick"
+        "🇦🇪 阿联酋 (UAE) 04 - hotick"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

@@ -28,28 +28,7 @@
       "tls": {
         "enabled": true,
         "server_name": "us001.zestapp778.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 03 (家宽) - hotick",
-      "server": "178.236.242.254",
-      "server_port": 8443,
-      "uuid": "c05ec3c7-2784-da2b-aa98-a3c132860fcb",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "xnod13x.artemida.live",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "ZRTNgwFRP8viY4SQOgPTfWlLWJCwY3dr0aawA7vHwhU",
-          "short_id": "a1b2c3d4e5f6a7b8"
-        }
+        "insecure": false
       }
     },
     {
@@ -58,8 +37,7 @@
       "outbounds": [
         "auto",
         "🇺🇸 美国 (United States) 01 (移动家宽) - hotick",
-        "🇺🇸 美国 (United States) 02 (移动家宽) - hotick",
-        "🇺🇸 美国 (United States) 03 (家宽) - hotick"
+        "🇺🇸 美国 (United States) 02 (移动家宽) - hotick"
       ]
     },
     {
@@ -67,8 +45,7 @@
       "tag": "auto",
       "outbounds": [
         "🇺🇸 美国 (United States) 01 (移动家宽) - hotick",
-        "🇺🇸 美国 (United States) 02 (移动家宽) - hotick",
-        "🇺🇸 美国 (United States) 03 (家宽) - hotick"
+        "🇺🇸 美国 (United States) 02 (移动家宽) - hotick"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

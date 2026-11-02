@@ -5,6 +5,14 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇭🇰 中国香港 (Hong Kong) 01 (家宽) - hotick
+  server: bd452e87-tmm5c0-tv7dx2-py5w.hk3.hyhuawei.com
+  port: 443
+  udp: true
+  type: hysteria2
+  password: ae5338ae-9a70-58c9-3d47-7d54a5675715
+  sni: bd452e87-tmm5c0-tv7dx2-py5w.hk3.hyhuawei.com
+  skip-cert-verify: false
+- name: 🇭🇰 中国香港 (Hong Kong) 02 (家宽) - hotick
   server: 56481.df6h451rh.xin
   port: 443
   udp: true
@@ -12,17 +20,6 @@ proxies:
   password: 0324fbc29561
   sni: images.ctfassets.net
   skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 02 (家宽) - hotick
-  server: ufcaxsoooxez3p6h.5273ef7a.e.yuetong.online
-  port: 19310
-  udp: true
-  type: hysteria2
-  password: 171a4d7a-a1f0-499c-9fc5-3915c8b1f47b
-  sni: srv-l7o.yuetong.online
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: 4mcqiPwfROfrKkIKx1WO32Va
-  ports: 19310-19821,19310-19310
 proxy-groups:
 - name: PROXIES
   type: select

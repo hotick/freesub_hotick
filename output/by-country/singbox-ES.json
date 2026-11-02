@@ -7,17 +7,21 @@
       "type": "shadowsocks",
       "tag": "🇪🇸 西班牙 (Spain) 01 - hotick",
       "server": "5.188.181.201",
-      "server_port": 9014,
+      "server_port": 9005,
       "method": "aes-256-cfb",
-      "password": "KnJGad3FqTvjqbaX"
+      "password": "ZET59LF6DvCC8KVt"
     },
     {
-      "type": "shadowsocks",
+      "type": "trojan",
       "tag": "🇪🇸 西班牙 (Spain) 02 - hotick",
-      "server": "5.188.181.201",
-      "server_port": 9027,
-      "method": "aes-256-cfb",
-      "password": "EXN3S3eQpjE7EJu8"
+      "server": "66.163.118.166",
+      "server_port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "learn.discovergreatjobsandadvanceyourcareer.com",
+        "insecure": false
+      }
     },
     {
       "type": "vless",
@@ -40,60 +44,8 @@
       }
     },
     {
-      "type": "trojan",
-      "tag": "🇪🇸 西班牙 (Spain) 04 - hotick",
-      "server": "66.163.118.62",
-      "server_port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "tls": {
-        "enabled": true,
-        "server_name": "66.163.118.62",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇪🇸 西班牙 (Spain) 05 - hotick",
-      "server": "66.163.118.244",
-      "server_port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "tls": {
-        "enabled": true,
-        "server_name": "66.163.118.244",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇪🇸 西班牙 (Spain) 06 - hotick",
-      "server": "66.163.118.131",
-      "server_port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.discovergreatjobsandadvanceyourcareer.com",
-        "insecure": false
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇪🇸 西班牙 (Spain) 07 - hotick",
-      "server": "dns27.m3hrzd.ir",
-      "server_port": 1354,
-      "method": "chacha20-ietf-poly1305",
-      "password": "v1c-i5SSFXP8n4g1Wbc0L9gX82x5O2Qa"
-    },
-    {
       "type": "vless",
-      "tag": "🇪🇸 西班牙 (Spain) 08 - hotick",
+      "tag": "🇪🇸 西班牙 (Spain) 04 - hotick",
       "server": "46.28.71.247",
       "server_port": 443,
       "uuid": "12c53e32-e589-47d6-b857-e4132294f767",
@@ -113,20 +65,28 @@
       }
     },
     {
-      "type": "trojan",
-      "tag": "🇪🇸 西班牙 (Spain) 09 - hotick",
-      "server": "66.163.118.251",
-      "server_port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "type": "vless",
+      "tag": "🇪🇸 西班牙 (Spain) 05 - hotick",
+      "server": "156.252.229.30",
+      "server_port": 8443,
+      "uuid": "3e21e3d3-6d26-4155-b851-764dd8e8c6b5",
       "tls": {
         "enabled": true,
-        "server_name": "resources.discovergreatjobsandadvanceyourcareer.com",
-        "insecure": false
+        "server_name": "play.googleapis.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "7jPluypHwPilf_Mq7JOY96SwKkbK35WuIlN1HwGQ_0A",
+          "short_id": "974f7f8f"
+        }
       }
     },
     {
       "type": "vless",
-      "tag": "🇪🇸 西班牙 (Spain) 10 - hotick",
+      "tag": "🇪🇸 西班牙 (Spain) 06 - hotick",
       "server": "156.252.229.159",
       "server_port": 8443,
       "uuid": "3e21e3d3-6d26-4155-b851-764dd8e8c6b5",
@@ -146,7 +106,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇪🇸 西班牙 (Spain) 11 - hotick",
+      "tag": "🇪🇸 西班牙 (Spain) 07 - hotick",
       "server": "156.252.229.11",
       "server_port": 8443,
       "uuid": "3e21e3d3-6d26-4155-b851-764dd8e8c6b5",
@@ -166,8 +126,8 @@
     },
     {
       "type": "vless",
-      "tag": "🇪🇸 西班牙 (Spain) 12 - hotick",
-      "server": "156.252.229.30",
+      "tag": "🇪🇸 西班牙 (Spain) 08 - hotick",
+      "server": "156.252.229.136",
       "server_port": 8443,
       "uuid": "3e21e3d3-6d26-4155-b851-764dd8e8c6b5",
       "tls": {
@@ -175,13 +135,25 @@
         "server_name": "play.googleapis.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
           "public_key": "7jPluypHwPilf_Mq7JOY96SwKkbK35WuIlN1HwGQ_0A",
           "short_id": "974f7f8f"
         }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇪🇸 西班牙 (Spain) 09 - hotick",
+      "server": "66.163.118.251",
+      "server_port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "resources.discovergreatjobsandadvanceyourcareer.com",
+        "insecure": false
       }
     },
     {
@@ -197,10 +169,7 @@
         "🇪🇸 西班牙 (Spain) 06 - hotick",
         "🇪🇸 西班牙 (Spain) 07 - hotick",
         "🇪🇸 西班牙 (Spain) 08 - hotick",
-        "🇪🇸 西班牙 (Spain) 09 - hotick",
-        "🇪🇸 西班牙 (Spain) 10 - hotick",
-        "🇪🇸 西班牙 (Spain) 11 - hotick",
-        "🇪🇸 西班牙 (Spain) 12 - hotick"
+        "🇪🇸 西班牙 (Spain) 09 - hotick"
       ]
     },
     {
@@ -215,10 +184,7 @@
         "🇪🇸 西班牙 (Spain) 06 - hotick",
         "🇪🇸 西班牙 (Spain) 07 - hotick",
         "🇪🇸 西班牙 (Spain) 08 - hotick",
-        "🇪🇸 西班牙 (Spain) 09 - hotick",
-        "🇪🇸 西班牙 (Spain) 10 - hotick",
-        "🇪🇸 西班牙 (Spain) 11 - hotick",
-        "🇪🇸 西班牙 (Spain) 12 - hotick"
+        "🇪🇸 西班牙 (Spain) 09 - hotick"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
