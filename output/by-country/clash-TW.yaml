@@ -5,6 +5,22 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇹🇼 中国台湾 (Taiwan) 01 - hotick
+  server: 160.187.100.109
+  port: 443
+  udp: true
+  type: hysteria2
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: 127.0.0.1
+  skip-cert-verify: true
+- name: 🇹🇼 中国台湾 (Taiwan) 02 - hotick
+  server: 103.115.109.49
+  port: 443
+  udp: true
+  type: hysteria2
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: 103.115.109.49
+  skip-cert-verify: true
+- name: 🇹🇼 中国台湾 (Taiwan) 03 - hotick
   server: ench-snet-app.w-ctrip.cn
   port: 47786
   udp: true
@@ -12,15 +28,7 @@ proxies:
   password: b17e9b52db9623bd6c16eea3d7adb5b3
   sni: cm.g.doubleclick.net
   skip-cert-verify: true
-- name: 🇹🇼 中国台湾 (Taiwan) 02 - hotick
-  server: 160.187.100.109
-  port: 443
-  udp: true
-  type: hysteria2
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: vpn-tw-002.fastervpn.world
-  skip-cert-verify: true
-- name: 🇹🇼 中国台湾 (Taiwan) 03 - hotick
+- name: 🇹🇼 中国台湾 (Taiwan) 04 - hotick
   server: 152.32.167.33
   port: 443
   udp: true
@@ -33,9 +41,9 @@ proxies:
     short-id: cff998a4
   servername: www.amazon.com
   client-fingerprint: firefox
-- name: 🇹🇼 中国台湾 (Taiwan) 04 - hotick
+- name: 🇹🇼 中国台湾 (Taiwan) 05 - hotick
   server: ench-snet-app.w-ctrip.cn
-  port: 22003
+  port: 54815
   udp: true
   type: trojan
   password: b17e9b52db9623bd6c16eea3d7adb5b3
@@ -50,6 +58,7 @@ proxy-groups:
   - 🇹🇼 中国台湾 (Taiwan) 02 - hotick
   - 🇹🇼 中国台湾 (Taiwan) 03 - hotick
   - 🇹🇼 中国台湾 (Taiwan) 04 - hotick
+  - 🇹🇼 中国台湾 (Taiwan) 05 - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -59,5 +68,6 @@ proxy-groups:
   - 🇹🇼 中国台湾 (Taiwan) 02 - hotick
   - 🇹🇼 中国台湾 (Taiwan) 03 - hotick
   - 🇹🇼 中国台湾 (Taiwan) 04 - hotick
+  - 🇹🇼 中国台湾 (Taiwan) 05 - hotick
 rules:
 - MATCH,PROXIES

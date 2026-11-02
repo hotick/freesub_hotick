@@ -12,12 +12,57 @@
       "tls": {
         "enabled": true,
         "server_name": "searchhealthcarejobsandbuildmedicalcareerpathway.com",
-        "insecure": false
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       }
     },
     {
       "type": "vless",
       "tag": "🇸🇪 瑞典 (Sweden) 02 - hotick",
+      "server": "89.125.37.1",
+      "server_port": 443,
+      "uuid": "518079db-d88d-4035-bbf4-ddd1f9cf1e5f",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "se.frgcdn.xyz",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "nF_kEdHan2dgl2tlQ_dtNaKZ4oORhuiFrXHbtEDcT2Q",
+          "short_id": "2d6d073dc88f22a8"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇸🇪 瑞典 (Sweden) 03 - hotick",
+      "server": "194.104.94.141",
+      "server_port": 443,
+      "uuid": "6ba4ed2e-b42b-4880-8b3b-c7e2df2d02f6",
+      "tls": {
+        "enabled": true,
+        "server_name": "se3.shtil.io",
+        "insecure": false,
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇸🇪 瑞典 (Sweden) 04 - hotick",
       "server": "5.178.109.174",
       "server_port": 14430,
       "uuid": "80de563a-cac8-40ea-8cb0-4cb082dd92f9",
@@ -31,7 +76,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "🇸🇪 瑞典 (Sweden) 03 - hotick",
+      "tag": "🇸🇪 瑞典 (Sweden) 05 - hotick",
       "server": "192.142.23.46",
       "server_port": 443,
       "password": "a0052f4f-4c63-0002-a16f-ab2d5d718cd3",
@@ -39,38 +84,6 @@
         "enabled": true,
         "server_name": "diffoscope.com",
         "insecure": false
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇸🇪 瑞典 (Sweden) 04 - hotick",
-      "server": "179.253.179.109",
-      "server_port": 54083,
-      "uuid": "0ef03752-c8bf-4482-8710-e563ca4808f9",
-      "tls": {
-        "enabled": true,
-        "server_name": "177.3.215.54",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇸🇪 瑞典 (Sweden) 05 - hotick",
-      "server": "179.253.179.109",
-      "server_port": 54443,
-      "uuid": "0ef03752-c8bf-4482-8710-e563ca4808f9",
-      "tls": {
-        "enabled": true,
-        "server_name": "177.3.215.54",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
       }
     },
     {

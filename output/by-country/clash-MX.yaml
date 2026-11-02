@@ -13,14 +13,6 @@ proxies:
   sni: connectwithtopemployersandfindidealjobs.com
   skip-cert-verify: false
 - name: 🇲🇽 墨西哥 (Mexico) 02 - hotick
-  server: mx001.zestapp778.com
-  port: 15083
-  udp: true
-  type: trojan
-  password: 5t6i121em5lkmsmk
-  sni: mx001.zestapp778.com
-  skip-cert-verify: false
-- name: 🇲🇽 墨西哥 (Mexico) 03 - hotick
   server: 147.78.1.253
   port: 443
   udp: true
@@ -32,6 +24,22 @@ proxies:
     public-key: TefL2KtNcNLPmUY8TKlu5pA7ffipqgmbBN6gpyzyklk
   servername: www.apple.com
   client-fingerprint: chrome
+- name: 🇲🇽 墨西哥 (Mexico) 03 - hotick
+  server: mx001.zestapp778.com
+  port: 15083
+  udp: true
+  type: trojan
+  password: 5t6i121em5lkmsmk
+  sni: mx001.zestapp778.com
+  skip-cert-verify: true
+- name: 🇲🇽 墨西哥 (Mexico) 04 - hotick
+  server: 149.104.87.33
+  port: 15083
+  udp: true
+  type: trojan
+  password: 5t6i121em5lkmsmk
+  sni: mx001.zestapp778.com
+  skip-cert-verify: false
 proxy-groups:
 - name: PROXIES
   type: select
@@ -40,6 +48,7 @@ proxy-groups:
   - 🇲🇽 墨西哥 (Mexico) 01 - hotick
   - 🇲🇽 墨西哥 (Mexico) 02 - hotick
   - 🇲🇽 墨西哥 (Mexico) 03 - hotick
+  - 🇲🇽 墨西哥 (Mexico) 04 - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -48,5 +57,6 @@ proxy-groups:
   - 🇲🇽 墨西哥 (Mexico) 01 - hotick
   - 🇲🇽 墨西哥 (Mexico) 02 - hotick
   - 🇲🇽 墨西哥 (Mexico) 03 - hotick
+  - 🇲🇽 墨西哥 (Mexico) 04 - hotick
 rules:
 - MATCH,PROXIES
