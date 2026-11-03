@@ -13,22 +13,6 @@ proxies:
   sni: connectwithtopemployersandfindidealjobs.com
   skip-cert-verify: false
 - name: 🇲🇽 墨西哥 (Mexico) 02 - hotick
-  server: 149.104.87.33
-  port: 15083
-  udp: true
-  type: trojan
-  password: 5t6i121em5lkmsmk
-  sni: mx001.zestapp778.com
-  skip-cert-verify: false
-- name: 🇲🇽 墨西哥 (Mexico) 03 - hotick
-  server: 38.60.224.241
-  port: 15083
-  udp: true
-  type: trojan
-  password: 5t6i121em5lkmsmk
-  sni: mx001.zestapp778.com
-  skip-cert-verify: false
-- name: 🇲🇽 墨西哥 (Mexico) 04 - hotick
   server: 147.78.1.253
   port: 443
   udp: true
@@ -47,8 +31,6 @@ proxy-groups:
   - AUTO
   - 🇲🇽 墨西哥 (Mexico) 01 - hotick
   - 🇲🇽 墨西哥 (Mexico) 02 - hotick
-  - 🇲🇽 墨西哥 (Mexico) 03 - hotick
-  - 🇲🇽 墨西哥 (Mexico) 04 - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -56,7 +38,5 @@ proxy-groups:
   proxies:
   - 🇲🇽 墨西哥 (Mexico) 01 - hotick
   - 🇲🇽 墨西哥 (Mexico) 02 - hotick
-  - 🇲🇽 墨西哥 (Mexico) 03 - hotick
-  - 🇲🇽 墨西哥 (Mexico) 04 - hotick
 rules:
 - MATCH,PROXIES

@@ -4,20 +4,8 @@
   },
   "outbounds": [
     {
-      "type": "hysteria2",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - hotick",
-      "server": "bd452e87-tmm5c0-tv7dx2-py5w.hk3.hyhuawei.com",
-      "server_port": 443,
-      "password": "ae5338ae-9a70-58c9-3d47-7d54a5675715",
-      "tls": {
-        "enabled": true,
-        "server_name": "bd452e87-tmm5c0-tv7dx2-py5w.hk3.hyhuawei.com",
-        "insecure": false
-      }
-    },
-    {
       "type": "anytls",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 02 (家宽) - hotick",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - hotick",
       "server": "56481.df6h451rh.xin",
       "server_port": 443,
       "password": "0324fbc29561",
@@ -32,16 +20,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - hotick",
-        "🇭🇰 中国香港 (Hong Kong) 02 (家宽) - hotick"
+        "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - hotick"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - hotick",
-        "🇭🇰 中国香港 (Hong Kong) 02 (家宽) - hotick"
+        "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - hotick"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

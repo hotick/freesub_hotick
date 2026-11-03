@@ -4,24 +4,34 @@
   },
   "outbounds": [
     {
-      "type": "trojan",
+      "type": "vless",
       "tag": "🇦🇺 澳大利亚 (Australia) 01 - hotick",
+      "server": "188.114.97.6",
+      "server_port": 80,
+      "uuid": "e51453d3-7972-44d7-a657-ed89520f48b6",
+      "transport": {
+        "type": "ws",
+        "path": "/au-do",
+        "headers": {
+          "Host": "web.whatsapp.com.r3xxe.eu.cc"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇦🇺 澳大利亚 (Australia) 02 - hotick",
       "server": "45.63.30.142",
       "server_port": 443,
       "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
       "tls": {
         "enabled": true,
-        "server_name": "45.63.30.142",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        "server_name": "connectwithemployerstohireyouridealteam.com",
+        "insecure": false
       }
     },
     {
       "type": "hysteria2",
-      "tag": "🇦🇺 澳大利亚 (Australia) 02 - hotick",
+      "tag": "🇦🇺 澳大利亚 (Australia) 03 - hotick",
       "server": "152.67.115.203",
       "server_port": 443,
       "password": "633bc3be486b646190661ac2387c150a",
@@ -33,18 +43,6 @@
       "obfs": {
         "type": "salamander",
         "password": "850a3fb1cd33a28f12d837578ae1a2e7"
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇦🇺 澳大利亚 (Australia) 03 - hotick",
-      "server": "zz.xgb.fogvip-zz.uk",
-      "server_port": 40024,
-      "password": "8dc86561-24f9-4bf7-99de-1373640859eb",
-      "tls": {
-        "enabled": true,
-        "server_name": "ld.xghk03.yuiuingkig.icu",
-        "insecure": true
       }
     },
     {
