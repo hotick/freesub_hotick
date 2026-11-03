@@ -4,23 +4,12 @@
   },
   "outbounds": [
     {
-      "type": "trojan",
+      "type": "vmess",
       "tag": "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - hotick",
-      "server": "125.227.86.45",
-      "server_port": 443,
-      "password": "0a9f1f5a397bd427",
-      "tls": {
-        "enabled": true,
-        "server_name": "TG.freecodes",
-        "insecure": true,
-        "alpn": [
-          "h2"
-        ]
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "db"
-      }
+      "server": "dog-tw.kunlun01dns.com",
+      "server_port": 21035,
+      "uuid": "9464ca40-dd75-3742-a628-d931a9f413b2",
+      "security": "auto"
     },
     {
       "type": "anytls",
@@ -35,25 +24,12 @@
       }
     },
     {
-      "type": "anytls",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - hotick",
-      "server": "er8u54dh.df6h451rh.xin",
-      "server_port": 443,
-      "password": "0324fbc29561",
-      "tls": {
-        "enabled": true,
-        "server_name": "px.ads.linkedin.com",
-        "insecure": true
-      }
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
         "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - hotick",
-        "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - hotick",
-        "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - hotick"
+        "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - hotick"
       ]
     },
     {
@@ -61,8 +37,7 @@
       "tag": "auto",
       "outbounds": [
         "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - hotick",
-        "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - hotick",
-        "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - hotick"
+        "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - hotick"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

@@ -5,7 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇳 CN 01 - hotick
-  server: 104.21.91.49
+  server: 104.17.108.213
   port: 443
   udp: true
   type: vless
@@ -13,26 +13,23 @@ proxies:
   tls: true
   servername: vpn.cintaku.qzz.io
   skip-cert-verify: false
+  client-fingerprint: chrome
   network: ws
   ws-opts:
     path: /vlessws
     headers:
       Host: vpn.cintaku.qzz.io
 - name: 🇨🇳 CN 02 - hotick
-  server: 172.67.166.188
-  port: 443
+  server: 39.108.113.127
+  port: 10086
   udp: true
-  type: vless
-  uuid: fc7d2cfe-f5ef-40c8-a848-a0bdc11f6349
-  tls: true
-  servername: vpn.cintaku.qzz.io
-  skip-cert-verify: false
-  client-fingerprint: firefox
+  type: vmess
+  uuid: 4fc543d5-23ce-4556-ae2b-01685edd4397
+  alterId: 0
+  cipher: auto
   network: ws
   ws-opts:
-    path: /vlessws
-    headers:
-      Host: vpn.cintaku.qzz.io
+    path: /
 proxy-groups:
 - name: PROXIES
   type: select
