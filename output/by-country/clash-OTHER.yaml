@@ -5,31 +5,248 @@ mode: rule
 log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - hotick
-  server: 104.17.108.213
+  server: www.gptcloudai.com
   port: 443
   udp: true
-  type: vless
-  uuid: fc7d2cfe-f5ef-40c8-a848-a0bdc11f6349
+  type: vmess
+  uuid: e70a5b70-f63c-4450-af8b-94990cdf80c0
+  alterId: 0
+  cipher: auto
   tls: true
-  servername: vpn.cintaku.qzz.io
+  servername: www.gptcloudai.com
   skip-cert-verify: false
-  client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /vlessws
+    path: /truth
     headers:
-      Host: vpn.cintaku.qzz.io
+      Host: www.gptcloudai.com
+- name: 🌐 其他地区 (Other) 02 - hotick
+  server: www.gptcloudai.com
+  port: 443
+  udp: true
+  type: vmess
+  uuid: e70a5b70-f63c-4450-af8b-94990cdf80c0
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: www.gptcloudai.com
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /truth
+    headers:
+      Host: www.gptcloudai.com
+- name: 🌐 其他地区 (Other) 03 - hotick
+  server: www.gptcloudai.com
+  port: 443
+  udp: true
+  type: vmess
+  uuid: e70a5b70-f63c-4450-af8b-94990cdf80c0
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: www.gptcloudai.com
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /truth
+    headers:
+      Host: www.gptcloudai.com
+- name: 🌐 其他地区 (Other) 04 - hotick
+  server: www.gptcloudai.com
+  port: 443
+  udp: true
+  type: vmess
+  uuid: e70a5b70-f63c-4450-af8b-94990cdf80c0
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: www.gptcloudai.com
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /truth
+    headers:
+      Host: www.gptcloudai.com
+- name: 🌐 其他地区 (Other) 05 - hotick
+  server: www.gptcloudai.com
+  port: 443
+  udp: true
+  type: vmess
+  uuid: e70a5b70-f63c-4450-af8b-94990cdf80c0
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: www.gptcloudai.com
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /truth
+    headers:
+      Host: www.gptcloudai.com
+- name: 🌐 其他地区 (Other) 06 - hotick
+  server: www.gptcloudai.com
+  port: 443
+  udp: true
+  type: vmess
+  uuid: e70a5b70-f63c-4450-af8b-94990cdf80c0
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: www.gptcloudai.com
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /truth
+    headers:
+      Host: www.gptcloudai.com
+- name: 🌐 其他地区 (Other) 07 - hotick
+  server: cf.0sm.com
+  port: 443
+  udp: true
+  type: vmess
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: vmess.lbw666.dpdns.org
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: vmess.lbw666.dpdns.org
+- name: 🌐 其他地区 (Other) 08 - hotick
+  server: cf.0sm.com
+  port: 443
+  udp: true
+  type: vmess
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: vmess.lbw666.dpdns.org
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /ws?ed=2048
+    headers:
+      Host: vmess.lbw666.dpdns.org
+- name: 🌐 其他地区 (Other) 09 - hotick
+  server: cf.0sm.com
+  port: 443
+  udp: true
+  type: vmess
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: vmess.lbw666.dpdns.org
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /ws?ed=2048
+    headers:
+      Host: vmess.lbw666.dpdns.org
+- name: 🌐 其他地区 (Other) 10 - hotick
+  server: cf.0sm.com
+  port: 443
+  udp: true
+  type: vmess
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: vmess.lbw666.dpdns.org
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /ws?ed=2048
+    headers:
+      Host: vmess.lbw666.dpdns.org
+- name: 🌐 其他地区 (Other) 11 - hotick
+  server: cf.0sm.com
+  port: 443
+  udp: true
+  type: vmess
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: vmess.lbw666.dpdns.org
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: vmess.lbw666.dpdns.org
+- name: 🌐 其他地区 (Other) 12 - hotick
+  server: cf.0sm.com
+  port: 443
+  udp: true
+  type: vmess
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: vmess.lbw666.dpdns.org
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /ws?ed=2048
+    headers:
+      Host: vmess.lbw666.dpdns.org
+- name: 🌐 其他地区 (Other) 13 - hotick
+  server: cf.0sm.com
+  port: 443
+  udp: true
+  type: vmess
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: vmess.lbw666.dpdns.org
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /ws?ed=2048
+    headers:
+      Host: vmess.lbw666.dpdns.org
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🌐 其他地区 (Other) 01 - hotick
+  - 🌐 其他地区 (Other) 02 - hotick
+  - 🌐 其他地区 (Other) 03 - hotick
+  - 🌐 其他地区 (Other) 04 - hotick
+  - 🌐 其他地区 (Other) 05 - hotick
+  - 🌐 其他地区 (Other) 06 - hotick
+  - 🌐 其他地区 (Other) 07 - hotick
+  - 🌐 其他地区 (Other) 08 - hotick
+  - 🌐 其他地区 (Other) 09 - hotick
+  - 🌐 其他地区 (Other) 10 - hotick
+  - 🌐 其他地区 (Other) 11 - hotick
+  - 🌐 其他地区 (Other) 12 - hotick
+  - 🌐 其他地区 (Other) 13 - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🌐 其他地区 (Other) 01 - hotick
+  - 🌐 其他地区 (Other) 02 - hotick
+  - 🌐 其他地区 (Other) 03 - hotick
+  - 🌐 其他地区 (Other) 04 - hotick
+  - 🌐 其他地区 (Other) 05 - hotick
+  - 🌐 其他地区 (Other) 06 - hotick
+  - 🌐 其他地区 (Other) 07 - hotick
+  - 🌐 其他地区 (Other) 08 - hotick
+  - 🌐 其他地区 (Other) 09 - hotick
+  - 🌐 其他地区 (Other) 10 - hotick
+  - 🌐 其他地区 (Other) 11 - hotick
+  - 🌐 其他地区 (Other) 12 - hotick
+  - 🌐 其他地区 (Other) 13 - hotick
 rules:
 - MATCH,PROXIES
