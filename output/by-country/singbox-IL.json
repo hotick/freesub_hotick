@@ -15,7 +15,7 @@
         "server_name": "www.apple.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
@@ -25,12 +25,29 @@
       }
     },
     {
-      "type": "shadowsocks",
+      "type": "trojan",
       "tag": "🇮🇱 以色列 (Israel) 02 - hotick",
-      "server": "31.57.185.203",
-      "server_port": 33073,
-      "method": "2022-blake3-aes-256-gcm",
-      "password": "kCFEUBHNDbrKWxE+1Zh1t2mpdCYWG0RZp2t7OPg9Y9c=:p4zq48b1DzhBaQJopROic94+UA757/A0LGKMI97HzTw="
+      "server": "31.57.185.134",
+      "server_port": 8443,
+      "password": "YektaCloud",
+      "tls": {
+        "enabled": true,
+        "server_name": "31.57.185.134",
+        "insecure": true,
+        "alpn": [
+          "http/1.1",
+          "h3",
+          "h2"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/TELEGRAM----@YektaCloud----@YektaCloud----@YektaCloud----@YektaCloud----@YektaCloud----@YektaCloud----@YektaCloud----@YektaCloud----@YektaCloud----@YektaCloud----@YektaCloud----@YektaCloud----@YektaCloud----@YektaCloud----@YektaCloud----@YektaCloud"
+      }
     },
     {
       "type": "trojan",
@@ -41,7 +58,7 @@
       "tls": {
         "enabled": true,
         "server_name": "exploreeducationsectoropportunitiestodayandadvancecareers.com",
-        "insecure": false
+        "insecure": true
       }
     },
     {

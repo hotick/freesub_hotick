@@ -20,6 +20,25 @@ proxies:
   sni: searchhealthcarejobsandbuildmedicalcareerpathway.com
   skip-cert-verify: false
 - name: 🇸🇪 瑞典 (Sweden) 03 - hotick
+  server: 185.153.55.28
+  port: 443
+  udp: true
+  type: hysteria2
+  password: 769f34f0-1500-488f-b414-03bc90666502
+  sni: se.mimowhat.online
+  skip-cert-verify: false
+- name: 🇸🇪 瑞典 (Sweden) 04 - hotick
+  server: 5.178.109.174
+  port: 14430
+  udp: true
+  type: vless
+  uuid: 80de563a-cac8-40ea-8cb0-4cb082dd92f9
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: 5.178.109.174
+- name: 🇸🇪 瑞典 (Sweden) 05 - hotick
   server: 138.199.55.230
   port: 1270
   udp: true
@@ -30,29 +49,6 @@ proxies:
   tls: true
   servername: xmfhlpy.com
   skip-cert-verify: false
-- name: 🇸🇪 瑞典 (Sweden) 04 - hotick
-  server: 138.124.86.230
-  port: 48115
-  udp: true
-  type: vless
-  uuid: b2fe1fa4-6a79-4938-a3f4-63b54ae7f16b
-  tls: true
-  servername: 138-124-86-230.sslip.io
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: grpc
-  grpc-opts:
-    grpc-service-name: 138-124-86-230-sslip-io
-- name: 🇸🇪 瑞典 (Sweden) 05 - hotick
-  server: 194.104.94.141
-  port: 443
-  udp: true
-  type: vless
-  uuid: 6ba4ed2e-b42b-4880-8b3b-c7e2df2d02f6
-  tls: true
-  servername: se3.shtil.io
-  skip-cert-verify: false
-  client-fingerprint: chrome
 - name: 🇸🇪 瑞典 (Sweden) 06 - hotick
   server: 31.77.13.20
   port: 2063
@@ -66,31 +62,17 @@ proxies:
   servername: rusbid.de
   client-fingerprint: firefox
 - name: 🇸🇪 瑞典 (Sweden) 07 - hotick
-  server: 5.178.109.174
-  port: 14430
+  server: 138.124.86.230
+  port: 48115
   udp: true
   type: vless
-  uuid: 80de563a-cac8-40ea-8cb0-4cb082dd92f9
-  network: ws
-  ws-opts:
-    path: /vless
-    headers:
-      Host: 5.178.109.174
-- name: 🇸🇪 瑞典 (Sweden) 08 - hotick
-  server: se.mimowhat.online
-  port: 443
-  udp: true
-  type: hysteria2
-  password: 769f34f0-1500-488f-b414-03bc90666502
-  sni: se.mimowhat.online
+  uuid: b2fe1fa4-6a79-4938-a3f4-63b54ae7f16b
+  tls: true
+  servername: 138-124-86-230.sslip.io
   skip-cert-verify: false
-- name: 🇸🇪 瑞典 (Sweden) 09 - hotick
-  server: 70.34.212.124
-  port: 8388
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: AxIYWtskJWIIaefW
+  network: grpc
+  grpc-opts:
+    grpc-service-name: 138-124-86-230-sslip-io
 proxy-groups:
 - name: PROXIES
   type: select
@@ -103,8 +85,6 @@ proxy-groups:
   - 🇸🇪 瑞典 (Sweden) 05 - hotick
   - 🇸🇪 瑞典 (Sweden) 06 - hotick
   - 🇸🇪 瑞典 (Sweden) 07 - hotick
-  - 🇸🇪 瑞典 (Sweden) 08 - hotick
-  - 🇸🇪 瑞典 (Sweden) 09 - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -117,7 +97,5 @@ proxy-groups:
   - 🇸🇪 瑞典 (Sweden) 05 - hotick
   - 🇸🇪 瑞典 (Sweden) 06 - hotick
   - 🇸🇪 瑞典 (Sweden) 07 - hotick
-  - 🇸🇪 瑞典 (Sweden) 08 - hotick
-  - 🇸🇪 瑞典 (Sweden) 09 - hotick
 rules:
 - MATCH,PROXIES
