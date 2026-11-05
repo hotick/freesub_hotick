@@ -5,69 +5,17 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇭🇰 中国香港 (Hong Kong) 01 - hotick
-  server: 103.204.174.80
+  server: 210.0.244.227
   port: 443
   udp: true
   type: vless
-  uuid: 91a538f2-e8d6-4fd1-b00a-d39522f20c35
-  flow: xtls-rprx-vision
+  uuid: ebc368f4-c13c-4bd2-849b-4d245615728f
   tls: true
   reality-opts:
-    public-key: c8xReeCgCTOZ2snvR7I4sPtSYAJquSC-_pAIuZG3rVQ
-    short-id: 9b1813e63f474741
-  servername: gateway.icloud.com
-  client-fingerprint: firefox
-- name: 🇭🇰 中国香港 (Hong Kong) 02 - hotick
-  server: 210.0.244.157
-  port: 443
-  udp: true
-  type: vless
-  uuid: f3ff9bac-2904-4f38-bae1-54ab1a72891b
-  tls: true
-  reality-opts:
-    public-key: T239VP3HbJ2KJCur7hDHJtrs6eKmKQfU_X1Xg6NmPgI
+    public-key: HhYjpNgNw0X_Qrjv9R5aHfV92hHbZmlY1u12DMTPrVw
   servername: cloudflare.com
   client-fingerprint: firefox
-- name: 🇭🇰 中国香港 (Hong Kong) 03 - hotick
-  server: 103.36.91.32
-  port: 8388
-  udp: true
-  type: ss
-  cipher: chacha20-ietf
-  password: asd123456
-- name: 🇭🇰 中国香港 (Hong Kong) 04 - hotick
-  server: 202.146.222.174
-  port: 443
-  udp: true
-  type: hysteria2
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: https://t.me/WangCai2🇨🇳
-  skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 05 - hotick
-  server: 62a43558-tmm5c0-trdynx-1rk9y.nw4.hyhuawei.com
-  port: 443
-  udp: true
-  type: hysteria2
-  password: 88f6e3c4-1d01-11ef-812c-f23c91cfbbc9
-  sni: 62a43558-tmm5c0-trdynx-1rk9y.nw4.hyhuawei.com
-  skip-cert-verify: false
-- name: 🇭🇰 中国香港 (Hong Kong) 06 - hotick
-  server: 202.146.222.29
-  port: 443
-  udp: true
-  type: hysteria2
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: https://t.me/WangCai2🇨🇳
-  skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 07 - hotick
-  server: 202.146.222.89
-  port: 443
-  udp: true
-  type: hysteria2
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: t.me
-  skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 08 - hotick
+- name: 🇭🇰 中国香港 (Hong Kong) 02 - hotick
   server: 165.154.63.139
   port: 443
   udp: true
@@ -80,7 +28,44 @@ proxies:
     short-id: ca4aedd4
   servername: www.amazon.com
   client-fingerprint: chrome
-- name: 🇭🇰 中国香港 (Hong Kong) 09 - hotick
+- name: 🇭🇰 中国香港 (Hong Kong) 03 - hotick
+  server: 202.146.222.174
+  port: 443
+  udp: true
+  type: hysteria2
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: https://t.me/oneclickvpnkeys
+  skip-cert-verify: true
+- name: 🇭🇰 中国香港 (Hong Kong) 04 - hotick
+  server: 202.146.222.89
+  port: 443
+  udp: true
+  type: hysteria2
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: https://t.me/clashv8🇨🇳
+  skip-cert-verify: true
+- name: 🇭🇰 中国香港 (Hong Kong) 05 - hotick
+  server: aecfea9b-tmm5c0-tpw4i4-1pckg.nw4.hyhuawei.com
+  port: 443
+  udp: true
+  type: hysteria2
+  password: 526a1128-7487-11ee-9bca-f23c913c8d2b
+  sni: aecfea9b-tmm5c0-tpw4i4-1pckg.nw4.hyhuawei.com
+  skip-cert-verify: false
+- name: 🇭🇰 中国香港 (Hong Kong) 06 - hotick
+  server: 85.155.149.190
+  port: 443
+  udp: true
+  type: vless
+  uuid: db80088c-32a1-4cb8-a907-0f3cb7844152
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: pGCqNljaUIUVC7xpHa9nFnu6vsQ0OX3QyfvYMhLZuWY
+    short-id: bee10b047804c637
+  servername: hk1.japancase.site
+  client-fingerprint: chrome
+- name: 🇭🇰 中国香港 (Hong Kong) 07 - hotick
   server: 152.32.254.68
   port: 5010
   udp: true
@@ -90,22 +75,25 @@ proxies:
   skip-cert-verify: false
   obfs: salamander
   obfs-password: 7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9
-- name: 🇭🇰 中国香港 (Hong Kong) 10 - hotick
-  server: hk.wawojk.dpdns.org
-  port: 50007
+- name: 🇭🇰 中国香港 (Hong Kong) 08 - hotick
+  server: 202.146.222.29
+  port: 443
   udp: true
-  type: vmess
-  uuid: 0d824a74-1207-48c4-a7a0-d283d5f10b4e
-  alterId: 0
-  cipher: auto
+  type: hysteria2
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: https%3a%2f%2ft.me%2fwangcai2%d1%80%d2%b9%d2%af%d1%91%d1%80%d2%b9%d2%af%d1%96
+  skip-cert-verify: true
+- name: 🇭🇰 中国香港 (Hong Kong) 09 - hotick
+  server: 210.0.244.157
+  port: 443
+  udp: true
+  type: vless
+  uuid: f3ff9bac-2904-4f38-bae1-54ab1a72891b
   tls: true
-  servername: hk.wawojk.dpdns.org
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /hk-vmess-ws-c9f3a2
-    headers:
-      Host: hk.wawojk.dpdns.org
+  reality-opts:
+    public-key: T239VP3HbJ2KJCur7hDHJtrs6eKmKQfU_X1Xg6NmPgI
+  servername: cloudflare.com
+  client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
   type: select
@@ -120,7 +108,6 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 07 - hotick
   - 🇭🇰 中国香港 (Hong Kong) 08 - hotick
   - 🇭🇰 中国香港 (Hong Kong) 09 - hotick
-  - 🇭🇰 中国香港 (Hong Kong) 10 - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -135,6 +122,5 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 07 - hotick
   - 🇭🇰 中国香港 (Hong Kong) 08 - hotick
   - 🇭🇰 中国香港 (Hong Kong) 09 - hotick
-  - 🇭🇰 中国香港 (Hong Kong) 10 - hotick
 rules:
 - MATCH,PROXIES

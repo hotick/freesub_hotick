@@ -12,18 +12,27 @@
       "password": "6Gzfdmd2cvye1qyKoub9E7eWijMDR2lK"
     },
     {
+      "type": "vless",
+      "tag": "🇦🇱 AL 02 - hotick",
+      "server": "bot.vudfaro.ir",
+      "server_port": 5051,
+      "uuid": "7df4f23f-b361-412a-883a-54dfdb5b8c8f"
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇦🇱 AL 01 - hotick"
+        "🇦🇱 AL 01 - hotick",
+        "🇦🇱 AL 02 - hotick"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇦🇱 AL 01 - hotick"
+        "🇦🇱 AL 01 - hotick",
+        "🇦🇱 AL 02 - hotick"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

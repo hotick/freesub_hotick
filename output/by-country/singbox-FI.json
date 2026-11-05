@@ -4,8 +4,24 @@
   },
   "outbounds": [
     {
-      "type": "vless",
+      "type": "vmess",
       "tag": "🇫🇮 芬兰 (Finland) 01 - hotick",
+      "server": "65.108.240.210",
+      "server_port": 39018,
+      "uuid": "fa15684a-81e6-4ba7-bc4b-f601c0d998e9",
+      "security": "auto"
+    },
+    {
+      "type": "vmess",
+      "tag": "🇫🇮 芬兰 (Finland) 02 - hotick",
+      "server": "65.108.240.210",
+      "server_port": 39018,
+      "uuid": "8ca123a8-720b-47c5-bd0c-637431418b09",
+      "security": "auto"
+    },
+    {
+      "type": "vless",
+      "tag": "🇫🇮 芬兰 (Finland) 03 - hotick",
       "server": "95.216.27.15",
       "server_port": 2053,
       "uuid": "b79d736d-0f10-4169-b626-362059d18204",
@@ -20,41 +36,6 @@
           "enabled": true,
           "public_key": "aiHdxKOzcFZDILKj3MIPrMsyT0XxMy_O6xoxnz6MIWs",
           "short_id": "10351b07c712d2a2"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇫🇮 芬兰 (Finland) 02 - hotick",
-      "server": "45.144.234.157",
-      "server_port": 14430,
-      "uuid": "59b0d30e-9b29-4fda-a35c-b2901ec32db7",
-      "transport": {
-        "type": "ws",
-        "path": "/vless",
-        "headers": {
-          "Host": "45.144.234.157"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇫🇮 芬兰 (Finland) 03 - hotick",
-      "server": "89.144.53.4",
-      "server_port": 8445,
-      "uuid": "5c32201a-6c0e-451b-8f0a-24b4bd40df59",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "videos.porsche.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": ""
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "kBTMVLCNE0jjwuJF6H5-65l5Pe0QToS0Hg-9Tmaa7Sk",
-          "short_id": "1a2b3c4d"
         }
       }
     },
@@ -80,9 +61,49 @@
       }
     },
     {
-      "type": "trojan",
+      "type": "vless",
       "tag": "🇫🇮 芬兰 (Finland) 05 - hotick",
-      "server": "188.114.96.3",
+      "server": "146.103.118.189",
+      "server_port": 443,
+      "uuid": "ce698f0c-a8ec-474a-b5d8-3be8032deeb8",
+      "tls": {
+        "enabled": true,
+        "server_name": "nl2.574ck.xyz",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/574ck-finland",
+        "headers": {
+          "Host": "nl2.574ck.xyz"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇫🇮 芬兰 (Finland) 06 - hotick",
+      "server": "6.bmi.ir.asopardaz.ir",
+      "server_port": 8443,
+      "uuid": "b64d1d2c-4186-4265-a7a6-367ccdfffd74",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "hostgator.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "JtA0d5K6Jnmg35oWP9SDOsc1ceuqaxOsNg33fiPHJQs",
+          "short_id": "e915"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇫🇮 芬兰 (Finland) 07 - hotick",
+      "server": "104.24.0.1",
       "server_port": 2053,
       "password": "gHQP0D7D15",
       "tls": {
@@ -106,39 +127,12 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇫🇮 芬兰 (Finland) 06 - hotick",
-      "server": "latvia.zovip2.ir",
-      "server_port": 443,
-      "uuid": "2a6ac8b1-a485-49d2-97be-20d2759312e2",
-      "tls": {
-        "enabled": true,
-        "server_name": "tr7.zovip2.ir",
-        "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/api/v3/pulse",
-        "headers": {
-          "Host": "tr7.zovip2.ir"
-        }
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇫🇮 芬兰 (Finland) 07 - hotick",
-      "server": "mein-1.octavia.dpdns.org",
-      "server_port": 60000,
-      "password": "xo43w4tc13ou2h3x",
-      "tls": {
-        "enabled": true,
-        "server_name": "main-1.octavia.dpdns.org",
-        "insecure": false
-      },
-      "obfs": {
-        "type": "salamander",
-        "password": "ckwudzzsfoltmbmi"
-      }
+      "type": "shadowsocks",
+      "tag": "🇫🇮 芬兰 (Finland) 08 - hotick",
+      "server": "fn1s.sublinkplas.ir",
+      "server_port": 53731,
+      "method": "chacha20-ietf-poly1305",
+      "password": "9RF5sK0eSRFL621xGEDwr0y9bioEjbPs"
     },
     {
       "type": "selector",
@@ -151,7 +145,8 @@
         "🇫🇮 芬兰 (Finland) 04 - hotick",
         "🇫🇮 芬兰 (Finland) 05 - hotick",
         "🇫🇮 芬兰 (Finland) 06 - hotick",
-        "🇫🇮 芬兰 (Finland) 07 - hotick"
+        "🇫🇮 芬兰 (Finland) 07 - hotick",
+        "🇫🇮 芬兰 (Finland) 08 - hotick"
       ]
     },
     {
@@ -164,7 +159,8 @@
         "🇫🇮 芬兰 (Finland) 04 - hotick",
         "🇫🇮 芬兰 (Finland) 05 - hotick",
         "🇫🇮 芬兰 (Finland) 06 - hotick",
-        "🇫🇮 芬兰 (Finland) 07 - hotick"
+        "🇫🇮 芬兰 (Finland) 07 - hotick",
+        "🇫🇮 芬兰 (Finland) 08 - hotick"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
