@@ -5,96 +5,35 @@ mode: rule
 log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - hotick
-  server: 104.21.7.133
-  port: 80
+  server: 172.67.199.126
+  port: 2053
   udp: true
-  type: vmess
-  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
-  alterId: 0
-  cipher: auto
+  type: vless
+  uuid: e3149c82-00f6-4227-b2c0-b78f1dd81279
+  tls: true
+  servername: fast.145779.xyz
+  skip-cert-verify: false
+  client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /ws
+    path: /ws-tesla
     headers:
-      Host: vmess.lbw666.dpdns.org
+      Host: fast.145779.xyz
 - name: 🌐 其他地区 (Other) 02 - hotick
-  server: 104.21.7.133
-  port: 80
+  server: 172.67.199.126
+  port: 2053
   udp: true
-  type: vmess
-  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
-  alterId: 0
-  cipher: auto
+  type: vless
+  uuid: c83f15bf-1817-4ec8-a19f-6393d226434c
+  tls: true
+  servername: fast.145779.xyz
+  skip-cert-verify: false
+  client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /ws
+    path: /ws-tesla
     headers:
-      Host: vmess.lbw666.dpdns.org
-- name: 🌐 其他地区 (Other) 03 - hotick
-  server: 104.21.7.133
-  port: 80
-  udp: true
-  type: vmess
-  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-opts:
-    path: /ws
-    headers:
-      Host: vmess.lbw666.dpdns.org
-- name: 🌐 其他地区 (Other) 04 - hotick
-  server: 104.21.7.133
-  port: 80
-  udp: true
-  type: vmess
-  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-opts:
-    path: /ws?ed=2048
-    headers:
-      Host: vmess.lbw666.dpdns.org
-- name: 🌐 其他地区 (Other) 05 - hotick
-  server: 104.21.7.133
-  port: 80
-  udp: true
-  type: vmess
-  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-opts:
-    path: /ws?ed=2048
-    headers:
-      Host: vmess.lbw666.dpdns.org
-- name: 🌐 其他地区 (Other) 06 - hotick
-  server: 104.21.7.133
-  port: 80
-  udp: true
-  type: vmess
-  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-opts:
-    path: /ws?ed=2048
-    headers:
-      Host: vmess.lbw666.dpdns.org
-- name: 🌐 其他地区 (Other) 07 - hotick
-  server: 104.21.7.133
-  port: 80
-  udp: true
-  type: vmess
-  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-opts:
-    path: /ws?ed=2048
-    headers:
-      Host: vmess.lbw666.dpdns.org
+      Host: fast.145779.xyz
 proxy-groups:
 - name: PROXIES
   type: select
@@ -102,11 +41,6 @@ proxy-groups:
   - AUTO
   - 🌐 其他地区 (Other) 01 - hotick
   - 🌐 其他地区 (Other) 02 - hotick
-  - 🌐 其他地区 (Other) 03 - hotick
-  - 🌐 其他地区 (Other) 04 - hotick
-  - 🌐 其他地区 (Other) 05 - hotick
-  - 🌐 其他地区 (Other) 06 - hotick
-  - 🌐 其他地区 (Other) 07 - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -114,10 +48,5 @@ proxy-groups:
   proxies:
   - 🌐 其他地区 (Other) 01 - hotick
   - 🌐 其他地区 (Other) 02 - hotick
-  - 🌐 其他地区 (Other) 03 - hotick
-  - 🌐 其他地区 (Other) 04 - hotick
-  - 🌐 其他地区 (Other) 05 - hotick
-  - 🌐 其他地区 (Other) 06 - hotick
-  - 🌐 其他地区 (Other) 07 - hotick
 rules:
 - MATCH,PROXIES
