@@ -6,52 +6,24 @@
     {
       "type": "vmess",
       "tag": "🇭🇰 中国香港 (Hong Kong) 01 (移动家宽) - hotick",
-      "server": "dog-hk.kunlun01dns.com",
-      "server_port": 21041,
-      "uuid": "9464ca40-dd75-3742-a628-d931a9f413b2",
+      "server": "zfd-hkv2.kunlun01dns.com",
+      "server_port": 16115,
+      "uuid": "0802ac03-7973-39ef-a019-ba02de6c01e1",
       "security": "auto"
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 02 (家宽) - hotick",
-      "server": "9969bb96-tmm5c0-twuk0i-1hzyr.hk3.hyhuawei.com",
-      "server_port": 443,
-      "password": "3be8cba8-b721-11ec-8b04-f23c91cfbbc9",
-      "tls": {
-        "enabled": true,
-        "server_name": "9969bb96-tmm5c0-twuk0i-1hzyr.hk3.hyhuawei.com",
-        "insecure": false
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 03 (家宽) - hotick",
-      "server": "112.120.123.140",
-      "server_port": 443,
-      "password": "40fb1315-191a-11ed-b0ca-f23c91cfbbc9",
-      "tls": {
-        "enabled": true,
-        "server_name": "fa86aac8-tmeqo0-0-1imi4.nw4.hyhuawei.com",
-        "insecure": false
-      }
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇭🇰 中国香港 (Hong Kong) 01 (移动家宽) - hotick",
-        "🇭🇰 中国香港 (Hong Kong) 02 (家宽) - hotick",
-        "🇭🇰 中国香港 (Hong Kong) 03 (家宽) - hotick"
+        "🇭🇰 中国香港 (Hong Kong) 01 (移动家宽) - hotick"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇭🇰 中国香港 (Hong Kong) 01 (移动家宽) - hotick",
-        "🇭🇰 中国香港 (Hong Kong) 02 (家宽) - hotick",
-        "🇭🇰 中国香港 (Hong Kong) 03 (家宽) - hotick"
+        "🇭🇰 中国香港 (Hong Kong) 01 (移动家宽) - hotick"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

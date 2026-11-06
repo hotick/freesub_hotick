@@ -12,41 +12,18 @@
       "password": "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
     },
     {
-      "type": "vless",
-      "tag": "🇳🇴 挪威 (Norway) 02 - hotick",
-      "server": "connect2.accessgate.link",
-      "server_port": 2086,
-      "uuid": "2f6c70f3-206a-4bc1-ac1f-6b70153f9c73",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "unpkg.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "CQBmePak1QN5SsSmK_KTOSLjsCTaiaM4Jtxt7jLheko",
-          "short_id": "b0d8c9a285c70f6f"
-        }
-      }
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇳🇴 挪威 (Norway) 01 - hotick",
-        "🇳🇴 挪威 (Norway) 02 - hotick"
+        "🇳🇴 挪威 (Norway) 01 - hotick"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇳🇴 挪威 (Norway) 01 - hotick",
-        "🇳🇴 挪威 (Norway) 02 - hotick"
+        "🇳🇴 挪威 (Norway) 01 - hotick"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

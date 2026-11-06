@@ -12,23 +12,15 @@
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
-      "type": "shadowsocks",
-      "tag": "🇦🇪 阿联酋 (UAE) 02 - hotick",
-      "server": "151.241.19.36",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
       "type": "hysteria2",
-      "tag": "🇦🇪 阿联酋 (UAE) 03 - hotick",
+      "tag": "🇦🇪 阿联酋 (UAE) 02 - hotick",
       "server": "130.49.161.70",
       "server_port": 443,
       "password": "p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR",
       "tls": {
         "enabled": true,
         "server_name": "hy2.aspidnet.xyz",
-        "insecure": true
+        "insecure": false
       },
       "obfs": {
         "type": "salamander",
@@ -36,54 +28,16 @@
       }
     },
     {
+      "type": "shadowsocks",
+      "tag": "🇦🇪 阿联酋 (UAE) 03 - hotick",
+      "server": "151.241.19.36",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
       "type": "vless",
       "tag": "🇦🇪 阿联酋 (UAE) 04 - hotick",
-      "server": "5.75.195.83",
-      "server_port": 56879,
-      "uuid": "dc156965-e152-4df6-9743-9c1f38d82cf3",
-      "tls": {
-        "enabled": true,
-        "server_name": "d-l28t5-65-b.pbe40wmcujaw726h7cpqernzmawz4stwtrnqve0n1s5reht.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/@Marisa_kristi",
-        "headers": {
-          "Host": "d-l28t5-65-b.pbe40wmcujaw726h7cpqernzmawz4stwtrnqve0n1s5reht.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇦🇪 阿联酋 (UAE) 05 - hotick",
-      "server": "185.125.103.62",
-      "server_port": 8082,
-      "uuid": "20d44edd-fccd-4b52-926b-956b693c6aa3",
-      "tls": {
-        "enabled": true,
-        "server_name": "3tmj2egtm-fno.49bnithzk8vphybv36d1z1xkzfvogt2m6.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/@Marisa_kristi",
-        "headers": {
-          "Host": "3tmj2egtm-fno.49bnithzk8vphybv36d1z1xkzfvogt2m6.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇦🇪 阿联酋 (UAE) 06 - hotick",
       "server": "95.174.68.188",
       "server_port": 14430,
       "uuid": "965ffbbe-c6b6-4d5f-8dea-6d8abc55d9c0",
@@ -97,66 +51,16 @@
     },
     {
       "type": "vless",
-      "tag": "🇦🇪 阿联酋 (UAE) 07 - hotick",
-      "server": "84.22.150.39",
-      "server_port": 7443,
-      "uuid": "5cc814de-2bbb-4409-ad8c-ee841ca7bad1",
-      "tls": {
-        "enabled": true,
-        "server_name": "sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/@Marisa_kristi",
-        "headers": {
-          "Host": "sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇦🇪 阿联酋 (UAE) 08 - hotick",
-      "server": "38.180.11.182",
-      "server_port": 12146,
-      "method": "aes-128-gcm",
-      "password": "37a7c5fb6a3109207a0860d30bedb37c"
-    },
-    {
-      "type": "vless",
-      "tag": "🇦🇪 阿联酋 (UAE) 09 - hotick",
-      "server": "203.137.165.164",
-      "server_port": 57554,
-      "uuid": "7fdb95f9-c758-486c-865a-7c1219823670",
-      "tls": {
-        "enabled": true,
-        "server_name": "3tmj2egtm-fno.49bnithzk8vphybv36d1z1xkzfvogt2m6.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/@Marisa_kristi",
-        "headers": {
-          "Host": "3tmj2egtm-fno.49bnithzk8vphybv36d1z1xkzfvogt2m6.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇦🇪 阿联酋 (UAE) 10 - hotick",
+      "tag": "🇦🇪 阿联酋 (UAE) 05 - hotick",
       "server": "uae.unixzone.us",
       "server_port": 22573,
       "uuid": "39947382-3212-41c9-bc3a-589574ac8b23",
       "transport": {
-        "type": "ws"
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "uae.unixzone.us"
+        }
       }
     },
     {
@@ -168,12 +72,7 @@
         "🇦🇪 阿联酋 (UAE) 02 - hotick",
         "🇦🇪 阿联酋 (UAE) 03 - hotick",
         "🇦🇪 阿联酋 (UAE) 04 - hotick",
-        "🇦🇪 阿联酋 (UAE) 05 - hotick",
-        "🇦🇪 阿联酋 (UAE) 06 - hotick",
-        "🇦🇪 阿联酋 (UAE) 07 - hotick",
-        "🇦🇪 阿联酋 (UAE) 08 - hotick",
-        "🇦🇪 阿联酋 (UAE) 09 - hotick",
-        "🇦🇪 阿联酋 (UAE) 10 - hotick"
+        "🇦🇪 阿联酋 (UAE) 05 - hotick"
       ]
     },
     {
@@ -184,12 +83,7 @@
         "🇦🇪 阿联酋 (UAE) 02 - hotick",
         "🇦🇪 阿联酋 (UAE) 03 - hotick",
         "🇦🇪 阿联酋 (UAE) 04 - hotick",
-        "🇦🇪 阿联酋 (UAE) 05 - hotick",
-        "🇦🇪 阿联酋 (UAE) 06 - hotick",
-        "🇦🇪 阿联酋 (UAE) 07 - hotick",
-        "🇦🇪 阿联酋 (UAE) 08 - hotick",
-        "🇦🇪 阿联酋 (UAE) 09 - hotick",
-        "🇦🇪 阿联酋 (UAE) 10 - hotick"
+        "🇦🇪 阿联酋 (UAE) 05 - hotick"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
