@@ -5,6 +5,37 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇫🇮 芬兰 (Finland) 01 - hotick
+  server: 65.108.240.210
+  port: 39018
+  udp: true
+  type: vmess
+  uuid: 18f60a4c-ad76-4157-8ecb-661974f02f30
+  alterId: 0
+  cipher: auto
+- name: 🇫🇮 芬兰 (Finland) 02 - hotick
+  server: 95.216.27.15
+  port: 2053
+  udp: true
+  type: vless
+  uuid: b79d736d-0f10-4169-b626-362059d18204
+  tls: true
+  reality-opts:
+    public-key: aiHdxKOzcFZDILKj3MIPrMsyT0XxMy_O6xoxnz6MIWs
+    short-id: 10351b07c712d2a2
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇫🇮 芬兰 (Finland) 03 - hotick
+  server: 45.144.234.157
+  port: 14430
+  udp: true
+  type: vless
+  uuid: 59b0d30e-9b29-4fda-a35c-b2901ec32db7
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: 45.144.234.157
+- name: 🇫🇮 芬兰 (Finland) 04 - hotick
   server: 217.144.188.185
   port: 443
   udp: true
@@ -16,27 +47,8 @@ proxies:
     public-key: _ZRqqX7UVPTq--m8Lk8YHhrfElad2dIIpTh3D59f8zk
   servername: www.nordea.fi
   client-fingerprint: chrome
-- name: 🇫🇮 芬兰 (Finland) 02 - hotick
-  server: 45.144.234.157
-  port: 14430
-  udp: true
-  type: vless
-  uuid: 59b0d30e-9b29-4fda-a35c-b2901ec32db7
-  network: ws
-  ws-opts:
-    path: /vless
-    headers:
-      Host: 45.144.234.157
-- name: 🇫🇮 芬兰 (Finland) 03 - hotick
-  server: 179.253.82.47
-  port: 4444
-  udp: true
-  type: hysteria2
-  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
-  sni: fl3.nexfile.net
-  skip-cert-verify: false
-- name: 🇫🇮 芬兰 (Finland) 04 - hotick
-  server: 104.24.0.1
+- name: 🇫🇮 芬兰 (Finland) 05 - hotick
+  server: 188.114.96.3
   port: 2053
   udp: true
   type: trojan
@@ -46,14 +58,6 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: 🇫🇮 芬兰 (Finland) 05 - hotick
-  server: 65.108.240.210
-  port: 39018
-  udp: true
-  type: vmess
-  uuid: fa15684a-81e6-4ba7-bc4b-f601c0d998e9
-  alterId: 0
-  cipher: auto
 - name: 🇫🇮 芬兰 (Finland) 06 - hotick
   server: fn1s.sublinkplas.ir
   port: 53731
@@ -61,14 +65,6 @@ proxies:
   type: ss
   cipher: chacha20-ietf-poly1305
   password: tztS0JGqX91pDVi5g8QyffaUPJlPUnWm
-- name: 🇫🇮 芬兰 (Finland) 07 - hotick
-  server: 65.108.240.210
-  port: 39018
-  udp: true
-  type: vmess
-  uuid: 8ca123a8-720b-47c5-bd0c-637431418b09
-  alterId: 0
-  cipher: auto
 proxy-groups:
 - name: PROXIES
   type: select
@@ -80,7 +76,6 @@ proxy-groups:
   - 🇫🇮 芬兰 (Finland) 04 - hotick
   - 🇫🇮 芬兰 (Finland) 05 - hotick
   - 🇫🇮 芬兰 (Finland) 06 - hotick
-  - 🇫🇮 芬兰 (Finland) 07 - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -92,6 +87,5 @@ proxy-groups:
   - 🇫🇮 芬兰 (Finland) 04 - hotick
   - 🇫🇮 芬兰 (Finland) 05 - hotick
   - 🇫🇮 芬兰 (Finland) 06 - hotick
-  - 🇫🇮 芬兰 (Finland) 07 - hotick
 rules:
 - MATCH,PROXIES

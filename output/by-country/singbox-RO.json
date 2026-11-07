@@ -4,32 +4,29 @@
   },
   "outbounds": [
     {
-      "type": "shadowsocks",
+      "type": "vless",
       "tag": "🇷🇴 罗马尼亚 (Romania) 01 - hotick",
-      "server": "82.152.132.211",
-      "server_port": 8044,
-      "method": "chacha20-ietf-poly1305",
-      "password": "dCamglzrORaopqbpBlptzbt9QdiH4CSN"
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇷🇴 罗马尼亚 (Romania) 02 - hotick",
-      "server": "162.249.125.133",
+      "server": "46.28.67.55",
       "server_port": 443,
-      "password": "QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s",
+      "uuid": "d1a6a033-fdbd-46a6-a177-3370ba042b9f",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "hy2-new.aspidnet.xyz",
-        "insecure": false
-      },
-      "obfs": {
-        "type": "salamander",
-        "password": "c1b4086fea89914496c7e10967a419216566"
+        "server_name": "www.cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "i2dJ1_XGDpp50qpEclh6SWSWkxt4B0t2hi2qOVQbeSU",
+          "short_id": "d06d78e974491b6e"
+        }
       }
     },
     {
       "type": "hysteria2",
-      "tag": "🇷🇴 罗马尼亚 (Romania) 03 - hotick",
+      "tag": "🇷🇴 罗马尼亚 (Romania) 02 - hotick",
       "server": "hy2-new.aspidnet.xyz",
       "server_port": 443,
       "password": "QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s",
@@ -45,28 +42,16 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇷🇴 罗马尼亚 (Romania) 04 - hotick",
+      "tag": "🇷🇴 罗马尼亚 (Romania) 03 - hotick",
       "server": "194.68.44.42",
       "server_port": 64546,
       "method": "chacha20-ietf-poly1305",
       "password": "U83u9OGpvSatIUW7LsWffr"
     },
     {
-      "type": "hysteria2",
-      "tag": "🇷🇴 罗马尼亚 (Romania) 05 - hotick",
-      "server": "185.156.44.99",
-      "server_port": 443,
-      "password": "gf1:gfhysteria2024",
-      "tls": {
-        "enabled": true,
-        "server_name": "css.rbxcdn.com",
-        "insecure": true
-      }
-    },
-    {
       "type": "shadowsocks",
-      "tag": "🇷🇴 罗马尼亚 (Romania) 06 - hotick",
-      "server": "bogging-eyeteeth-fly.freesocks.work",
+      "tag": "🇷🇴 罗马尼亚 (Romania) 04 - hotick",
+      "server": "154.46.31.106",
       "server_port": 443,
       "method": "chacha20-ietf-poly1305",
       "password": "QFWzCw2uX9B9i6qAYeFBIE"
@@ -79,9 +64,7 @@
         "🇷🇴 罗马尼亚 (Romania) 01 - hotick",
         "🇷🇴 罗马尼亚 (Romania) 02 - hotick",
         "🇷🇴 罗马尼亚 (Romania) 03 - hotick",
-        "🇷🇴 罗马尼亚 (Romania) 04 - hotick",
-        "🇷🇴 罗马尼亚 (Romania) 05 - hotick",
-        "🇷🇴 罗马尼亚 (Romania) 06 - hotick"
+        "🇷🇴 罗马尼亚 (Romania) 04 - hotick"
       ]
     },
     {
@@ -91,9 +74,7 @@
         "🇷🇴 罗马尼亚 (Romania) 01 - hotick",
         "🇷🇴 罗马尼亚 (Romania) 02 - hotick",
         "🇷🇴 罗马尼亚 (Romania) 03 - hotick",
-        "🇷🇴 罗马尼亚 (Romania) 04 - hotick",
-        "🇷🇴 罗马尼亚 (Romania) 05 - hotick",
-        "🇷🇴 罗马尼亚 (Romania) 06 - hotick"
+        "🇷🇴 罗马尼亚 (Romania) 04 - hotick"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
