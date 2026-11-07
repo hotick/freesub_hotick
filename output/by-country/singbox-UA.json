@@ -6,47 +6,6 @@
     {
       "type": "vless",
       "tag": "🇺🇦 乌克兰 (Ukraine) 01 - hotick",
-      "server": "netx.smrtai.top",
-      "server_port": 443,
-      "uuid": "d8b58872-cc25-4bb2-badb-b86399c075fa",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "L9IllZt5vcjYVY_6rmCJ_9ypmJsBK8dSWkNVCStrZjk",
-          "short_id": "d8b58872"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇦 乌克兰 (Ukraine) 02 - hotick",
-      "server": "104.253.216.227",
-      "server_port": 443,
-      "uuid": "317bc783-340f-453c-afb5-b6bf637c0b23",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.tradingview.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "FjcEZNQ8t5E4R04_11T6ghsOutdqwKKrelkuadakoQg",
-          "short_id": "fc994ae7eb10"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇦 乌克兰 (Ukraine) 03 - hotick",
       "server": "83.147.18.75",
       "server_port": 443,
       "uuid": "5de0c218-0138-45d8-94d2-c2c3f37a1a6d",
@@ -67,14 +26,34 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇦 乌克兰 (Ukraine) 04 - hotick",
+      "tag": "🇺🇦 乌克兰 (Ukraine) 02 - hotick",
+      "server": "netx.smrtai.top",
+      "server_port": 443,
+      "uuid": "d8b58872-cc25-4bb2-badb-b86399c075fa",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "L9IllZt5vcjYVY_6rmCJ_9ypmJsBK8dSWkNVCStrZjk",
+          "short_id": "d8b58872"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇦 乌克兰 (Ukraine) 03 - hotick",
       "server": "104.253.216.227",
       "server_port": 443,
-      "uuid": "2ba7f500-017b-4891-87a0-e4e62a4ad52d",
+      "uuid": "aded66f1-de12-4c3c-af9e-a21d6e7d9c96",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.microsoft.com",
+        "server_name": "www.foxsports.com",
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
@@ -82,7 +61,7 @@
         "reality": {
           "enabled": true,
           "public_key": "FjcEZNQ8t5E4R04_11T6ghsOutdqwKKrelkuadakoQg",
-          "short_id": "9409f73c2fd7"
+          "short_id": "2a80364e93d9"
         }
       }
     },
@@ -93,8 +72,7 @@
         "auto",
         "🇺🇦 乌克兰 (Ukraine) 01 - hotick",
         "🇺🇦 乌克兰 (Ukraine) 02 - hotick",
-        "🇺🇦 乌克兰 (Ukraine) 03 - hotick",
-        "🇺🇦 乌克兰 (Ukraine) 04 - hotick"
+        "🇺🇦 乌克兰 (Ukraine) 03 - hotick"
       ]
     },
     {
@@ -103,8 +81,7 @@
       "outbounds": [
         "🇺🇦 乌克兰 (Ukraine) 01 - hotick",
         "🇺🇦 乌克兰 (Ukraine) 02 - hotick",
-        "🇺🇦 乌克兰 (Ukraine) 03 - hotick",
-        "🇺🇦 乌克兰 (Ukraine) 04 - hotick"
+        "🇺🇦 乌克兰 (Ukraine) 03 - hotick"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

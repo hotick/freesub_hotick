@@ -5,34 +5,22 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇭🇰 中国香港 (Hong Kong) 01 - hotick
-  server: vpn-hk-004.fastervpn.world
+  server: 71db9f3f-tmm5c0-tyn7s3-1q3dm.nw4.hyhuawei.com
   port: 443
   udp: true
   type: hysteria2
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: vpn-hk-004.fastervpn.world
+  password: c1785de0-212f-11ef-92aa-f23c9164ca5d
+  sni: 71db9f3f-tmm5c0-tyn7s3-1q3dm.nw4.hyhuawei.com
   skip-cert-verify: true
 - name: 🇭🇰 中国香港 (Hong Kong) 02 - hotick
-  server: 202.146.222.29
-  port: 443
+  server: zfd-hkv2.kunlun01dns.com
+  port: 16113
   udp: true
-  type: hysteria2
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: t.me
-  skip-cert-verify: true
+  type: vmess
+  uuid: 0802ac03-7973-39ef-a019-ba02de6c01e1
+  alterId: 0
+  cipher: auto
 - name: 🇭🇰 中国香港 (Hong Kong) 03 - hotick
-  server: 209.33.160.122
-  port: 39098
-  udp: true
-  type: vless
-  uuid: 7852e4df-db54-4f75-a35e-3b8fbe89e56d
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: DtOZ39u6MyQMG96tl13-M7-HeaqQzW2RLBVPk9py-Vg
-  servername: dash.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇭🇰 中国香港 (Hong Kong) 04 - hotick
   server: 152.32.254.68
   port: 5010
   udp: true
@@ -42,24 +30,8 @@ proxies:
   skip-cert-verify: false
   obfs: salamander
   obfs-password: 7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9
-- name: 🇭🇰 中国香港 (Hong Kong) 05 - hotick
-  server: 202.146.222.174
-  port: 443
-  udp: true
-  type: hysteria2
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: https://t.me/wangcai2🇨🇳
-  skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 06 - hotick
-  server: 202.146.222.89
-  port: 443
-  udp: true
-  type: hysteria2
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: https://t.me/clashv8🇨🇳
-  skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 07 - hotick
-  server: hk1.japancase.site
+- name: 🇭🇰 中国香港 (Hong Kong) 04 - hotick
+  server: 85.155.149.190
   port: 443
   udp: true
   type: vless
@@ -70,8 +42,42 @@ proxies:
     public-key: pGCqNljaUIUVC7xpHa9nFnu6vsQ0OX3QyfvYMhLZuWY
     short-id: bee10b047804c637
   servername: hk1.japancase.site
-  client-fingerprint: chrome
+  client-fingerprint: firefox
+- name: 🇭🇰 中国香港 (Hong Kong) 05 - hotick
+  server: vpn-hk-004.fastervpn.world
+  port: 443
+  udp: true
+  type: hysteria2
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: vpn-hk-004.fastervpn.world
+  skip-cert-verify: true
+- name: 🇭🇰 中国香港 (Hong Kong) 06 - hotick
+  server: 202.146.222.89
+  port: 443
+  udp: true
+  type: hysteria2
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: https://t.me/clashv8
+  skip-cert-verify: true
+- name: 🇭🇰 中国香港 (Hong Kong) 07 - hotick
+  server: 202.146.222.29
+  port: 443
+  udp: true
+  type: hysteria2
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: https3a2f2ft.me2fwangcai2efa3bfc3bcc3a1
+  skip-cert-verify: true
 - name: 🇭🇰 中国香港 (Hong Kong) 08 - hotick
+  server: 152.175.6.229
+  port: 31884
+  udp: true
+  type: vless
+  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
+  tls: true
+  servername: hk010.zestapp778.com
+  skip-cert-verify: false
+  client-fingerprint: chrome
+- name: 🇭🇰 中国香港 (Hong Kong) 09 - hotick
   server: 165.154.63.139
   port: 443
   udp: true
@@ -83,7 +89,7 @@ proxies:
     public-key: AE81BrwMc8-kwGEIA1LhzaL03er0Qwt2V-fFy76F5jQ
     short-id: ca4aedd4
   servername: www.amazon.com
-  client-fingerprint: firefox
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
@@ -97,6 +103,7 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 06 - hotick
   - 🇭🇰 中国香港 (Hong Kong) 07 - hotick
   - 🇭🇰 中国香港 (Hong Kong) 08 - hotick
+  - 🇭🇰 中国香港 (Hong Kong) 09 - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -110,5 +117,6 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 06 - hotick
   - 🇭🇰 中国香港 (Hong Kong) 07 - hotick
   - 🇭🇰 中国香港 (Hong Kong) 08 - hotick
+  - 🇭🇰 中国香港 (Hong Kong) 09 - hotick
 rules:
 - MATCH,PROXIES
