@@ -14,21 +14,21 @@
     {
       "type": "vless",
       "tag": "🇲🇽 墨西哥 (Mexico) 02 - hotick",
-      "server": "dddz-1-x.473221.xyz",
-      "server_port": 43116,
-      "uuid": "65ec84f5-0dd4-4582-8b4f-592e50b22116",
+      "server": "147.78.1.253",
+      "server_port": 443,
+      "uuid": "39a390af-1f90-4c0e-89e4-4e2023732e4b",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "v1-dy.ixigua.com",
+        "server_name": "www.apple.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "rLU2xJNZPFvtHy49MygD-nta6OpJEbjarjAZ5vHwpVE",
-          "short_id": "29ad689280e2f0ec"
+          "public_key": "TefL2KtNcNLPmUY8TKlu5pA7ffipqgmbBN6gpyzyklk",
+          "short_id": ""
         }
       }
     },

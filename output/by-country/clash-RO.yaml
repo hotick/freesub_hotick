@@ -5,15 +5,13 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇷🇴 罗马尼亚 (Romania) 01 - hotick
-  server: 162.249.125.133
+  server: 185.156.44.99
   port: 443
   udp: true
   type: hysteria2
-  password: QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s
-  sni: hy2-new.aspidnet.xyz
-  skip-cert-verify: false
-  obfs: salamander
-  obfs-password: c1b4086fea89914496c7e10967a419216566
+  password: gf1:gfhysteria2024
+  sni: www.amazon.com
+  skip-cert-verify: true
 - name: 🇷🇴 罗马尼亚 (Romania) 02 - hotick
   server: 46.28.67.55
   port: 443
@@ -28,13 +26,13 @@ proxies:
   servername: www.cloudflare.com
   client-fingerprint: firefox
 - name: 🇷🇴 罗马尼亚 (Romania) 03 - hotick
-  server: hy2-new.aspidnet.xyz
+  server: 162.249.125.133
   port: 443
   udp: true
   type: hysteria2
   password: QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s
   sni: hy2-new.aspidnet.xyz
-  skip-cert-verify: true
+  skip-cert-verify: false
   obfs: salamander
   obfs-password: c1b4086fea89914496c7e10967a419216566
 - name: 🇷🇴 罗马尼亚 (Romania) 04 - hotick
@@ -45,15 +43,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: U83u9OGpvSatIUW7LsWffr
 - name: 🇷🇴 罗马尼亚 (Romania) 05 - hotick
-  server: 185.156.44.99
-  port: 443
-  udp: true
-  type: hysteria2
-  password: gf1:gfhysteria2024
-  sni: whatsapp.com
-  skip-cert-verify: true
-- name: 🇷🇴 罗马尼亚 (Romania) 06 - hotick
-  server: bogging-eyeteeth-fly.freesocks.work
+  server: 154.46.31.106
   port: 443
   udp: true
   type: ss
@@ -69,7 +59,6 @@ proxy-groups:
   - 🇷🇴 罗马尼亚 (Romania) 03 - hotick
   - 🇷🇴 罗马尼亚 (Romania) 04 - hotick
   - 🇷🇴 罗马尼亚 (Romania) 05 - hotick
-  - 🇷🇴 罗马尼亚 (Romania) 06 - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -80,6 +69,5 @@ proxy-groups:
   - 🇷🇴 罗马尼亚 (Romania) 03 - hotick
   - 🇷🇴 罗马尼亚 (Romania) 04 - hotick
   - 🇷🇴 罗马尼亚 (Romania) 05 - hotick
-  - 🇷🇴 罗马尼亚 (Romania) 06 - hotick
 rules:
 - MATCH,PROXIES

@@ -4,8 +4,16 @@
   },
   "outbounds": [
     {
+      "type": "vmess",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 01 (移动家宽) - hotick",
+      "server": "zfd-hkv2.kunlun01dns.com",
+      "server_port": 16116,
+      "uuid": "0802ac03-7973-39ef-a019-ba02de6c01e1",
+      "security": "auto"
+    },
+    {
       "type": "tuic",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - hotick",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 02 (家宽) - hotick",
       "server": "54fb07dd-tk7400-toh6wi-jx5r.pccw3.hyhuawei.com",
       "server_port": 443,
       "uuid": "73bfcc1c-5814-5f2a-b43a-3ef6af011db8",
@@ -26,14 +34,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - hotick"
+        "🇭🇰 中国香港 (Hong Kong) 01 (移动家宽) - hotick",
+        "🇭🇰 中国香港 (Hong Kong) 02 (家宽) - hotick"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - hotick"
+        "🇭🇰 中国香港 (Hong Kong) 01 (移动家宽) - hotick",
+        "🇭🇰 中国香港 (Hong Kong) 02 (家宽) - hotick"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

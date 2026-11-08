@@ -6,17 +6,13 @@
     {
       "type": "hysteria2",
       "tag": "🇷🇴 罗马尼亚 (Romania) 01 - hotick",
-      "server": "162.249.125.133",
+      "server": "185.156.44.99",
       "server_port": 443,
-      "password": "QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s",
+      "password": "gf1:gfhysteria2024",
       "tls": {
         "enabled": true,
-        "server_name": "hy2-new.aspidnet.xyz",
-        "insecure": false
-      },
-      "obfs": {
-        "type": "salamander",
-        "password": "c1b4086fea89914496c7e10967a419216566"
+        "server_name": "www.amazon.com",
+        "insecure": true
       }
     },
     {
@@ -43,13 +39,13 @@
     {
       "type": "hysteria2",
       "tag": "🇷🇴 罗马尼亚 (Romania) 03 - hotick",
-      "server": "hy2-new.aspidnet.xyz",
+      "server": "162.249.125.133",
       "server_port": 443,
       "password": "QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s",
       "tls": {
         "enabled": true,
         "server_name": "hy2-new.aspidnet.xyz",
-        "insecure": true
+        "insecure": false
       },
       "obfs": {
         "type": "salamander",
@@ -65,21 +61,9 @@
       "password": "U83u9OGpvSatIUW7LsWffr"
     },
     {
-      "type": "hysteria2",
-      "tag": "🇷🇴 罗马尼亚 (Romania) 05 - hotick",
-      "server": "185.156.44.99",
-      "server_port": 443,
-      "password": "gf1:gfhysteria2024",
-      "tls": {
-        "enabled": true,
-        "server_name": "whatsapp.com",
-        "insecure": true
-      }
-    },
-    {
       "type": "shadowsocks",
-      "tag": "🇷🇴 罗马尼亚 (Romania) 06 - hotick",
-      "server": "bogging-eyeteeth-fly.freesocks.work",
+      "tag": "🇷🇴 罗马尼亚 (Romania) 05 - hotick",
+      "server": "154.46.31.106",
       "server_port": 443,
       "method": "chacha20-ietf-poly1305",
       "password": "QFWzCw2uX9B9i6qAYeFBIE"
@@ -93,8 +77,7 @@
         "🇷🇴 罗马尼亚 (Romania) 02 - hotick",
         "🇷🇴 罗马尼亚 (Romania) 03 - hotick",
         "🇷🇴 罗马尼亚 (Romania) 04 - hotick",
-        "🇷🇴 罗马尼亚 (Romania) 05 - hotick",
-        "🇷🇴 罗马尼亚 (Romania) 06 - hotick"
+        "🇷🇴 罗马尼亚 (Romania) 05 - hotick"
       ]
     },
     {
@@ -105,8 +88,7 @@
         "🇷🇴 罗马尼亚 (Romania) 02 - hotick",
         "🇷🇴 罗马尼亚 (Romania) 03 - hotick",
         "🇷🇴 罗马尼亚 (Romania) 04 - hotick",
-        "🇷🇴 罗马尼亚 (Romania) 05 - hotick",
-        "🇷🇴 罗马尼亚 (Romania) 06 - hotick"
+        "🇷🇴 罗马尼亚 (Romania) 05 - hotick"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

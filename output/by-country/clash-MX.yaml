@@ -12,17 +12,16 @@ proxies:
   cipher: aes-256-gcm
   password: BWyPPTusFKhGgzKh
 - name: 🇲🇽 墨西哥 (Mexico) 02 - hotick
-  server: dddz-1-x.473221.xyz
-  port: 43116
+  server: 147.78.1.253
+  port: 443
   udp: true
   type: vless
-  uuid: 65ec84f5-0dd4-4582-8b4f-592e50b22116
+  uuid: 39a390af-1f90-4c0e-89e4-4e2023732e4b
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: rLU2xJNZPFvtHy49MygD-nta6OpJEbjarjAZ5vHwpVE
-    short-id: 29ad689280e2f0ec
-  servername: v1-dy.ixigua.com
+    public-key: TefL2KtNcNLPmUY8TKlu5pA7ffipqgmbBN6gpyzyklk
+  servername: www.apple.com
   client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
