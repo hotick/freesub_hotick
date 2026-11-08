@@ -54,6 +54,14 @@
       }
     },
     {
+      "type": "vmess",
+      "tag": "🇦🇹 奥地利 (Austria) 05 - hotick",
+      "server": "zfd-boardv2.kunlun01dns.com",
+      "server_port": 16308,
+      "uuid": "0802ac03-7973-39ef-a019-ba02de6c01e1",
+      "security": "auto"
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
@@ -61,7 +69,8 @@
         "🇦🇹 奥地利 (Austria) 01 - hotick",
         "🇦🇹 奥地利 (Austria) 02 - hotick",
         "🇦🇹 奥地利 (Austria) 03 - hotick",
-        "🇦🇹 奥地利 (Austria) 04 - hotick"
+        "🇦🇹 奥地利 (Austria) 04 - hotick",
+        "🇦🇹 奥地利 (Austria) 05 - hotick"
       ]
     },
     {
@@ -71,7 +80,8 @@
         "🇦🇹 奥地利 (Austria) 01 - hotick",
         "🇦🇹 奥地利 (Austria) 02 - hotick",
         "🇦🇹 奥地利 (Austria) 03 - hotick",
-        "🇦🇹 奥地利 (Austria) 04 - hotick"
+        "🇦🇹 奥地利 (Austria) 04 - hotick",
+        "🇦🇹 奥地利 (Austria) 05 - hotick"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

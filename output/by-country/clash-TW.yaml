@@ -5,12 +5,12 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇹🇼 中国台湾 (Taiwan) 01 - hotick
-  server: vpn-tw-002.fastervpn.world
+  server: 160.187.100.109
   port: 443
   udp: true
   type: hysteria2
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: www.bing.com
+  sni: 127.0.0.1
   skip-cert-verify: true
 - name: 🇹🇼 中国台湾 (Taiwan) 02 - hotick
   server: 103.115.109.49
@@ -18,7 +18,7 @@ proxies:
   udp: true
   type: hysteria2
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: https
+  sni: t.me
   skip-cert-verify: true
 - name: 🇹🇼 中国台湾 (Taiwan) 03 - hotick
   server: 83.147.13.74
@@ -32,32 +32,6 @@ proxies:
     short-id: 4ad2e4e660550e43
   servername: github.githubassets.com
   client-fingerprint: chrome
-- name: 🇹🇼 中国台湾 (Taiwan) 04 - hotick
-  server: 152.32.167.33
-  port: 443
-  udp: true
-  type: vless
-  uuid: 91ad30e9-ab06-4b4c-9fb9-1c2aa97d8b3a
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: Q8QwBSGN6J-FqgDV1pYNm0VThS_xNRyQ3DPPa9YZ3j4
-    short-id: cff998a4
-  servername: www.amazon.com
-  client-fingerprint: chrome
-- name: 🇹🇼 中国台湾 (Taiwan) 05 - hotick
-  server: dddz-1-x.473221.xyz
-  port: 13239
-  udp: true
-  type: vless
-  uuid: 65ec84f5-0dd4-4582-8b4f-592e50b22116
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: NJgrmuV1CFhj7PeKJoQfDQVagDcFITkfrM-a7sa_mWw
-    short-id: 8591c4d31f59a60d
-  servername: updates.cdn-apple.com
-  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
@@ -66,8 +40,6 @@ proxy-groups:
   - 🇹🇼 中国台湾 (Taiwan) 01 - hotick
   - 🇹🇼 中国台湾 (Taiwan) 02 - hotick
   - 🇹🇼 中国台湾 (Taiwan) 03 - hotick
-  - 🇹🇼 中国台湾 (Taiwan) 04 - hotick
-  - 🇹🇼 中国台湾 (Taiwan) 05 - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -76,7 +48,5 @@ proxy-groups:
   - 🇹🇼 中国台湾 (Taiwan) 01 - hotick
   - 🇹🇼 中国台湾 (Taiwan) 02 - hotick
   - 🇹🇼 中国台湾 (Taiwan) 03 - hotick
-  - 🇹🇼 中国台湾 (Taiwan) 04 - hotick
-  - 🇹🇼 中国台湾 (Taiwan) 05 - hotick
 rules:
 - MATCH,PROXIES
