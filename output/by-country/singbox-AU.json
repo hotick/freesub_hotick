@@ -11,17 +11,25 @@
       "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
       "tls": {
         "enabled": true,
-        "server_name": "45.63.30.142",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        "server_name": "connectwithemployerstohireyouridealteam.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇦🇺 澳大利亚 (Australia) 02 - hotick",
+      "server": "au.tronsg.com",
+      "server_port": 443,
+      "password": "Trojan@82164024",
+      "tls": {
+        "enabled": true,
+        "server_name": "au.tronsg.com",
+        "insecure": true
       }
     },
     {
       "type": "hysteria2",
-      "tag": "🇦🇺 澳大利亚 (Australia) 02 - hotick",
+      "tag": "🇦🇺 澳大利亚 (Australia) 03 - hotick",
       "server": "152.67.115.203",
       "server_port": 443,
       "password": "633bc3be486b646190661ac2387c150a",
@@ -36,12 +44,30 @@
       }
     },
     {
+      "type": "trojan",
+      "tag": "🇦🇺 澳大利亚 (Australia) 04 - hotick",
+      "server": "au001.zestapp778.com",
+      "server_port": 54374,
+      "password": "5t6i121em5lkmsmk",
+      "tls": {
+        "enabled": true,
+        "server_name": "au001.zestapp778.com",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
         "🇦🇺 澳大利亚 (Australia) 01 - hotick",
-        "🇦🇺 澳大利亚 (Australia) 02 - hotick"
+        "🇦🇺 澳大利亚 (Australia) 02 - hotick",
+        "🇦🇺 澳大利亚 (Australia) 03 - hotick",
+        "🇦🇺 澳大利亚 (Australia) 04 - hotick"
       ]
     },
     {
@@ -49,7 +75,9 @@
       "tag": "auto",
       "outbounds": [
         "🇦🇺 澳大利亚 (Australia) 01 - hotick",
-        "🇦🇺 澳大利亚 (Australia) 02 - hotick"
+        "🇦🇺 澳大利亚 (Australia) 02 - hotick",
+        "🇦🇺 澳大利亚 (Australia) 03 - hotick",
+        "🇦🇺 澳大利亚 (Australia) 04 - hotick"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

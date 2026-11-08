@@ -5,7 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 - hotick
-  server: 50.7.227.77
+  server: 89.105.218.143
   port: 443
   udp: true
   type: vless
@@ -15,8 +15,8 @@ proxies:
   reality-opts:
     public-key: 1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs
     short-id: 428ef87fd47a3a32
-  servername: bizorg.su
-  client-fingerprint: chrome
+  servername: golos.mail.ru
+  client-fingerprint: firefox
 - name: 🇷🇺 俄罗斯 (Russia) 02 - hotick
   server: 130.49.189.158
   port: 43558
@@ -25,36 +25,20 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: yZiPrr484OdSYcivDUv+UIygwvyW+HQYytKsIgTw9tU=
 - name: 🇷🇺 俄罗斯 (Russia) 03 - hotick
-  server: 194.113.235.254
-  port: 23661
-  udp: true
-  type: hysteria2
-  password: 40546f3a-0590-4a5a-a104-6eb2e6ba5f0c
-  sni: fr.verymad.net
-  skip-cert-verify: true
-- name: 🇷🇺 俄罗斯 (Russia) 04 - hotick
-  server: 201.8.71.59
-  port: 443
-  udp: true
-  type: hysteria2
-  password: 23c82941-70f4-4381-90db-bd28e9a902e9
-  sni: steel7.hadsvpn.com
-  skip-cert-verify: false
-- name: 🇷🇺 俄罗斯 (Russia) 05 - hotick
-  server: 193.233.252.43
+  server: 89.105.218.133
   port: 443
   udp: true
   type: vless
-  uuid: db80088c-32a1-4cb8-a907-0f3cb7844152
+  uuid: 90157e25-cee1-4217-921e-91f300bc1a24
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: zEntiD6D81wY__YHPvIw78e09CBIgYkyQ5meIo7c_hg
-    short-id: 41ae8e266bc3346f
-  servername: se1.japancase.site
+    public-key: 1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs
+    short-id: 428ef87fd47a3a32
+  servername: golos.mail.ru
   client-fingerprint: firefox
-- name: 🇷🇺 俄罗斯 (Russia) 06 - hotick
-  server: 185.215.184.53
+- name: 🇷🇺 俄罗斯 (Russia) 04 - hotick
+  server: 185.215.184.49
   port: 443
   udp: true
   type: vless
@@ -66,79 +50,40 @@ proxies:
     short-id: 428ef87fd47a3a32
   servername: dvizhok.su
   client-fingerprint: firefox
-- name: 🇷🇺 俄罗斯 (Russia) 07 - hotick
-  server: 179.43.166.190
-  port: 443
-  udp: true
-  type: vless
-  uuid: 90157e25-cee1-4217-921e-91f300bc1a24
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: 1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs
-    short-id: 428ef87fd47a3a32
-  servername: perevodchiki.su
-  client-fingerprint: ''
-- name: 🇷🇺 俄罗斯 (Russia) 08 - hotick
-  server: novonl.subv.ru
-  port: 443
-  udp: true
-  type: vless
-  uuid: 90157e25-cee1-4217-921e-91f300bc1a24
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: 1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs
-    short-id: 428ef87fd47a3a32
-  servername: golos.mail.ru
-  client-fingerprint: chrome
-- name: 🇷🇺 俄罗斯 (Russia) 09 - hotick
-  server: 66.90.106.28
-  port: 443
-  udp: true
-  type: vless
-  uuid: 90157e25-cee1-4217-921e-91f300bc1a24
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: 1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs
-    short-id: 428ef87fd47a3a32
-  servername: banket-restoran.su
-  client-fingerprint: chrome
-- name: 🇷🇺 俄罗斯 (Russia) 10 - hotick
-  server: 193.233.199.84
-  port: 443
-  udp: true
-  type: vless
-  uuid: db80088c-32a1-4cb8-a907-0f3cb7844152
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: 1ONSjyJWD3lAomwIqFmmzb6lAhg077bvMJ7rGJCDk0g
-    short-id: 38559e47f5536913
-  servername: fi3game.japancase.site
-  client-fingerprint: chrome
-- name: 🇷🇺 俄罗斯 (Russia) 11 - hotick
-  server: 46.17.47.58
-  port: 18443
+- name: 🇷🇺 俄罗斯 (Russia) 05 - hotick
+  server: 38.60.223.125
+  port: 13108
   udp: true
   type: ss
-  cipher: aes-256-gcm
-  password: cCMJgJTA3BA489YUYrFq7XHXSiSpWlLa
-- name: 🇷🇺 俄罗斯 (Russia) 12 - hotick
-  server: 147.45.104.86
-  port: 7443
+  cipher: aes-128-gcm
+  password: 8722de56b6c0b3f6a4d01cf91c07e6aa
+- name: 🇷🇺 俄罗斯 (Russia) 06 - hotick
+  server: xsru1.ddnsfree.com
+  port: 443
   udp: true
   type: vless
-  uuid: af185070-7170-46a8-b1e9-d61a035f4691
+  uuid: c90395e6-2140-47ad-a54d-9b166729d3ef
+  tls: true
+  servername: xsru1.ddnsfree.com
+  skip-cert-verify: false
+  client-fingerprint: random
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-ru
+- name: 🇷🇺 俄罗斯 (Russia) 07 - hotick
+  server: 5.42.99.64
+  port: 8443
+  udp: true
+  type: vless
+  uuid: c53ea5e9-ed8b-4990-805d-7f1d6451426c
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: KbjX7IJnVtwq2USeRmLgXzACOtFCiA5lnsXhIFOX3ho
-    short-id: a7eb8a4e
-  servername: max.ru
-  client-fingerprint: chrome
-- name: 🇷🇺 俄罗斯 (Russia) 13 - hotick
+    public-key: fSVfR9NB-6J6smrZlavi0GWd8JfDh0aXuEkKbtuFzUI
+    short-id: 3cbc3d737fb9c4af
+  servername: du-rov.secureservice.top
+  client-fingerprint: random
+- name: 🇷🇺 俄罗斯 (Russia) 08 - hotick
   server: 201.24.121.243
   port: 443
   udp: true
@@ -151,22 +96,15 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: vlgrpc
-- name: 🇷🇺 俄罗斯 (Russia) 14 - hotick
-  server: 147.45.175.81
+- name: 🇷🇺 俄罗斯 (Russia) 09 - hotick
+  server: 201.8.71.59
   port: 443
   udp: true
-  type: vless
-  uuid: c90395e6-2140-47ad-a54d-9b166729d3ef
-  tls: true
-  servername: xsru1.ddnsfree.com
+  type: hysteria2
+  password: 23c82941-70f4-4381-90db-bd28e9a902e9
+  sni: steel7.hadsvpn.com
   skip-cert-verify: false
-  client-fingerprint: edge
-  network: ws
-  ws-opts:
-    path: /wsru
-    headers:
-      Host: xsru1.ddnsfree.com
-- name: 🇷🇺 俄罗斯 (Russia) 15 - hotick
+- name: 🇷🇺 俄罗斯 (Russia) 10 - hotick
   server: du-rov.secureservice.top
   port: 8443
   udp: true
@@ -179,28 +117,19 @@ proxies:
     short-id: 3cbc3d737fb9c4af
   servername: du-rov.secureservice.top
   client-fingerprint: chrome
-- name: 🇷🇺 俄罗斯 (Russia) 16 - hotick
-  server: xsru2.freeddns.org
+- name: 🇷🇺 俄罗斯 (Russia) 11 - hotick
+  server: 92.243.66.79
   port: 443
   udp: true
   type: vless
-  uuid: c90395e6-2140-47ad-a54d-9b166729d3ef
+  uuid: c5f59ef3-9540-49fa-bd1e-c6c2f79df49a
+  flow: xtls-rprx-vision
   tls: true
-  servername: xsru2.freeddns.org
-  skip-cert-verify: false
+  reality-opts:
+    public-key: siD4oj2gdtLLEphV6fUXb8ueIc2WHVn7msOUhNGPf2o
+    short-id: 8d03c10b6a874a9c
+  servername: ru-mow.probe.geomyip.com
   client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /wsru
-    headers:
-      Host: xsru2.freeddns.org
-- name: 🇷🇺 俄罗斯 (Russia) 17 - hotick
-  server: 38.60.223.125
-  port: 13108
-  udp: true
-  type: ss
-  cipher: aes-128-gcm
-  password: 8722de56b6c0b3f6a4d01cf91c07e6aa
 proxy-groups:
 - name: PROXIES
   type: select
@@ -217,12 +146,6 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 09 - hotick
   - 🇷🇺 俄罗斯 (Russia) 10 - hotick
   - 🇷🇺 俄罗斯 (Russia) 11 - hotick
-  - 🇷🇺 俄罗斯 (Russia) 12 - hotick
-  - 🇷🇺 俄罗斯 (Russia) 13 - hotick
-  - 🇷🇺 俄罗斯 (Russia) 14 - hotick
-  - 🇷🇺 俄罗斯 (Russia) 15 - hotick
-  - 🇷🇺 俄罗斯 (Russia) 16 - hotick
-  - 🇷🇺 俄罗斯 (Russia) 17 - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -239,11 +162,5 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 09 - hotick
   - 🇷🇺 俄罗斯 (Russia) 10 - hotick
   - 🇷🇺 俄罗斯 (Russia) 11 - hotick
-  - 🇷🇺 俄罗斯 (Russia) 12 - hotick
-  - 🇷🇺 俄罗斯 (Russia) 13 - hotick
-  - 🇷🇺 俄罗斯 (Russia) 14 - hotick
-  - 🇷🇺 俄罗斯 (Russia) 15 - hotick
-  - 🇷🇺 俄罗斯 (Russia) 16 - hotick
-  - 🇷🇺 俄罗斯 (Russia) 17 - hotick
 rules:
 - MATCH,PROXIES
