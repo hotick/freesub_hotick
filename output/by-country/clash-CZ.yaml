@@ -18,17 +18,56 @@ proxies:
   servername: gateway.icloud.com
   client-fingerprint: chrome
 - name: 🇨🇿 捷克 (Czech) 02 - hotick
+  server: 212.102.38.25
+  port: 443
+  udp: true
+  type: vless
+  uuid: b34a52cb-cd52-49a8-9362-b8e97c151d49
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: 23cb4W9THzBKsrECsLh-A_FcKZfkAtUONoDze8-GnQE
+    short-id: e90360ec7cc61b20
+  servername: udemy.com
+  client-fingerprint: ios
+- name: 🇨🇿 捷克 (Czech) 03 - hotick
+  server: 216.106.191.201
+  port: 10303
+  udp: true
+  type: vless
+  uuid: dbf3f074-3b18-43f3-b82a-debd8c879c69
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: suK-MYTtZhJ9IJgsxPLTHLQadNotDqYslQcd5BNV_EQ
+    short-id: 6aa50b0cc8d23464
+  servername: www.apple.com
+  client-fingerprint: chrome
+- name: 🇨🇿 捷克 (Czech) 04 - hotick
+  server: msk5.gacvpn.site
+  port: 443
+  udp: true
+  type: vless
+  uuid: 3f5e89d5-591f-4ac9-b071-b05680b573c3
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: 8fSwTqCwJ2HWGxcTQsZs8Sx0hRk2Ru7HFdu-iLnesGg
+    short-id: 53d0d0611a
+  servername: de2.gacvpn.site
+  client-fingerprint: firefox
+- name: 🇨🇿 捷克 (Czech) 05 - hotick
   server: 193.124.17.190
   port: 443
   udp: true
   type: vless
-  uuid: 68cf8d29-5aa0-44b3-88a9-f1a576b6e84c
+  uuid: fad0b9a6-187d-4fcc-96fc-498bc5b3135a
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
     public-key: J-dv-HrWfQ_IOoyutv0Kg-rO8QwoRwc02dS1dS_tblk
-    short-id: 73a9e631a09b
-  servername: www.microsoft.com
+    short-id: 8325360e8bd2
+  servername: www.foxsports.com
   client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
@@ -37,6 +76,9 @@ proxy-groups:
   - AUTO
   - 🇨🇿 捷克 (Czech) 01 - hotick
   - 🇨🇿 捷克 (Czech) 02 - hotick
+  - 🇨🇿 捷克 (Czech) 03 - hotick
+  - 🇨🇿 捷克 (Czech) 04 - hotick
+  - 🇨🇿 捷克 (Czech) 05 - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -44,5 +86,8 @@ proxy-groups:
   proxies:
   - 🇨🇿 捷克 (Czech) 01 - hotick
   - 🇨🇿 捷克 (Czech) 02 - hotick
+  - 🇨🇿 捷克 (Czech) 03 - hotick
+  - 🇨🇿 捷克 (Czech) 04 - hotick
+  - 🇨🇿 捷克 (Czech) 05 - hotick
 rules:
 - MATCH,PROXIES

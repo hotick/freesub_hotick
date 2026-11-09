@@ -5,12 +5,12 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇸🇪 瑞典 (Sweden) 01 - hotick
-  server: 70.34.212.124
+  server: 62.182.193.228
   port: 8388
   udp: true
   type: ss
-  cipher: aes-256-gcm
-  password: AxIYWtskJWIIaefW
+  cipher: chacha20-ietf-poly1305
+  password: 2e555e46dbc421452416834962fd014f
 - name: 🇸🇪 瑞典 (Sweden) 02 - hotick
   server: 138.199.55.243
   port: 19999
@@ -19,6 +19,17 @@ proxies:
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
 - name: 🇸🇪 瑞典 (Sweden) 03 - hotick
+  server: 138.199.55.230
+  port: 1270
+  udp: true
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: xmfhlpy.com
+  skip-cert-verify: false
+- name: 🇸🇪 瑞典 (Sweden) 04 - hotick
   server: 70.34.207.14
   port: 443
   udp: true
@@ -26,7 +37,7 @@ proxies:
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   sni: searchhealthcarejobsandbuildmedicalcareerpathway.com
   skip-cert-verify: false
-- name: 🇸🇪 瑞典 (Sweden) 04 - hotick
+- name: 🇸🇪 瑞典 (Sweden) 05 - hotick
   server: 62.93.166.184
   port: 1270
   udp: true
@@ -37,7 +48,7 @@ proxies:
   tls: true
   servername: xmfhlpy.com
   skip-cert-verify: false
-- name: 🇸🇪 瑞典 (Sweden) 05 - hotick
+- name: 🇸🇪 瑞典 (Sweden) 06 - hotick
   server: 138.124.86.230
   port: 48115
   udp: true
@@ -50,17 +61,6 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: 138-124-86-230-sslip-io
-- name: 🇸🇪 瑞典 (Sweden) 06 - hotick
-  server: 138.199.55.230
-  port: 1270
-  udp: true
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: xmfhlpy.com
-  skip-cert-verify: false
 - name: 🇸🇪 瑞典 (Sweden) 07 - hotick
   server: 5.178.109.174
   port: 14430
@@ -73,19 +73,6 @@ proxies:
     headers:
       Host: 5.178.109.174
 - name: 🇸🇪 瑞典 (Sweden) 08 - hotick
-  server: 193.25.216.31
-  port: 443
-  udp: true
-  type: vless
-  uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: Kb8SsVPprs46BJSUNp5JvWLI-TFEiHmlBOXLQd37Glg
-    short-id: a1037b25dcef6aa7
-  servername: sw.golangwikito.cfd
-  client-fingerprint: firefox
-- name: 🇸🇪 瑞典 (Sweden) 09 - hotick
   server: 194.104.94.141
   port: 443
   udp: true
@@ -95,26 +82,36 @@ proxies:
   servername: se3.shtil.io
   skip-cert-verify: false
   client-fingerprint: firefox
+- name: 🇸🇪 瑞典 (Sweden) 09 - hotick
+  server: 95.143.196.97
+  port: 443
+  udp: true
+  type: hysteria2
+  password: 769f34f0-1500-488f-b414-03bc90666502
+  sni: se.mimowhat.online
+  skip-cert-verify: false
 - name: 🇸🇪 瑞典 (Sweden) 10 - hotick
-  server: 3fb2b6t.se1.h1clayd.click
+  server: 362c1eg.se1.h1clayd.click
   port: 443
   udp: true
   type: vless
-  uuid: 632cd343-1e8f-4bf6-a9a2-20ada1f6970f
-  flow: xtls-rprx-vision
+  uuid: c82031be-e90f-4b15-ab4f-7ccef236d3ca
   tls: true
   reality-opts:
-    public-key: XQWaIMBPo0mpWs3MooxxkjWNSgxnkIESd_2PnR8_2HA
-    short-id: 1061f1b1cdaad3ad
-  servername: 3fb2b6t.se1.h1clayd.click
+    public-key: BLhS7fE4Yh6kAADw7yRIn2PzKun-JDagJHJNOePYRSY
+    short-id: bee802ae4ab66496
+  servername: 362c1eg.se1.h1clayd.click
   client-fingerprint: firefox
+  network: grpc
+  grpc-opts:
+    grpc-service-name: ''
 - name: 🇸🇪 瑞典 (Sweden) 11 - hotick
-  server: 62.182.193.228
+  server: 70.34.212.124
   port: 8388
   udp: true
   type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 2e555e46dbc421452416834962fd014f
+  cipher: aes-256-gcm
+  password: AxIYWtskJWIIaefW
 proxy-groups:
 - name: PROXIES
   type: select

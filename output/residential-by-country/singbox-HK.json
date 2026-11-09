@@ -7,26 +7,36 @@
       "type": "vmess",
       "tag": "🇭🇰 中国香港 (Hong Kong) 01 (移动家宽) - hotick",
       "server": "zfd-hkv2.kunlun01dns.com",
-      "server_port": 16116,
+      "server_port": 16112,
       "uuid": "0802ac03-7973-39ef-a019-ba02de6c01e1",
       "security": "auto"
     },
     {
-      "type": "tuic",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 02 (家宽) - hotick",
-      "server": "54fb07dd-tk7400-toh6wi-jx5r.pccw3.hyhuawei.com",
+      "type": "vmess",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 02 (移动家宽) - hotick",
+      "server": "dog-hk.kunlun01dns.com",
+      "server_port": 21021,
+      "uuid": "9464ca40-dd75-3742-a628-d931a9f413b2",
+      "security": "auto"
+    },
+    {
+      "type": "vmess",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 03 (移动家宽) - hotick",
+      "server": "zfd-hkv1.kunlun01dns.com",
+      "server_port": 16115,
+      "uuid": "0802ac03-7973-39ef-a019-ba02de6c01e1",
+      "security": "auto"
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 04 (家宽) - hotick",
+      "server": "78bc7982-tmm5c0-u0aht1-1rz5s.hk3.hyhuawei.com",
       "server_port": 443,
-      "uuid": "73bfcc1c-5814-5f2a-b43a-3ef6af011db8",
-      "password": "73bfcc1c-5814-5f2a-b43a-3ef6af011db8",
-      "congestion_control": "bbr",
-      "udp_relay_mode": "native",
+      "password": "40e084d6-0316-11f0-90e2-f23c913c8d2b",
       "tls": {
         "enabled": true,
-        "server_name": "54fb07dd-tk7400-toh6wi-jx5r.pccw3.hyhuawei.com",
-        "insecure": false,
-        "alpn": [
-          "h3"
-        ]
+        "server_name": "78bc7982-tmm5c0-u0aht1-1rz5s.hk3.hyhuawei.com",
+        "insecure": false
       }
     },
     {
@@ -35,7 +45,9 @@
       "outbounds": [
         "auto",
         "🇭🇰 中国香港 (Hong Kong) 01 (移动家宽) - hotick",
-        "🇭🇰 中国香港 (Hong Kong) 02 (家宽) - hotick"
+        "🇭🇰 中国香港 (Hong Kong) 02 (移动家宽) - hotick",
+        "🇭🇰 中国香港 (Hong Kong) 03 (移动家宽) - hotick",
+        "🇭🇰 中国香港 (Hong Kong) 04 (家宽) - hotick"
       ]
     },
     {
@@ -43,7 +55,9 @@
       "tag": "auto",
       "outbounds": [
         "🇭🇰 中国香港 (Hong Kong) 01 (移动家宽) - hotick",
-        "🇭🇰 中国香港 (Hong Kong) 02 (家宽) - hotick"
+        "🇭🇰 中国香港 (Hong Kong) 02 (移动家宽) - hotick",
+        "🇭🇰 中国香港 (Hong Kong) 03 (移动家宽) - hotick",
+        "🇭🇰 中国香港 (Hong Kong) 04 (家宽) - hotick"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
