@@ -28,28 +28,24 @@
       "tls": {
         "enabled": true,
         "server_name": "us001.zestapp778.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        "insecure": true
       }
     },
     {
+      "type": "vmess",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 03 (移动家宽) - hotick",
+      "server": "zfd-hkv2.kunlun01dns.com",
+      "server_port": 16116,
+      "uuid": "0802ac03-7973-39ef-a019-ba02de6c01e1",
+      "security": "auto"
+    },
+    {
       "type": "shadowsocks",
-      "tag": "🇰🇷 韩国 (South Korea) 03 (家宽) - hotick",
+      "tag": "🇰🇷 韩国 (South Korea) 04 (家宽) - hotick",
       "server": "49.254.204.133",
       "server_port": 1774,
       "method": "aes-256-cfb",
       "password": "1234!@#$"
-    },
-    {
-      "type": "vmess",
-      "tag": "🇸🇬 新加坡 (Singapore) 04 (家宽) - hotick",
-      "server": "116.88.224.217",
-      "server_port": 8080,
-      "uuid": "6f4f0eb5-fe86-41ca-eccb-a6ca68f88d9b",
-      "security": "auto"
     },
     {
       "type": "vmess",
@@ -60,15 +56,57 @@
       "security": "auto"
     },
     {
+      "type": "vless",
+      "tag": "🇰🇷 韩国 (South Korea) 06 (家宽) - hotick",
+      "server": "23.95.72.244",
+      "server_port": 50135,
+      "uuid": "9a5e7b1c-bf39-4b1f-891f-ac87824ee38f",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "api.adidas.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "ugirklnmY9hUeY9BQ9rdeVbu29iGblEM8N2_HHA8Rk4",
+          "short_id": "8cd0eddfb0"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 07 (家宽) - hotick",
+      "server": "60.248.219.78",
+      "server_port": 443,
+      "uuid": "c1c04450-bf71-4049-ad0c-9cf6d94d9f1f",
+      "tls": {
+        "enabled": true,
+        "server_name": "ty986gfazs.cainiaohub.xyz",
+        "insecure": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/81574b6b-c9d7-44a0-b83d-dad56e8cb530",
+        "headers": {
+          "Host": "ty986gfazs.cainiaohub.xyz"
+        }
+      }
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
         "🇺🇸 美国 (United States) 01 (移动家宽) - hotick",
         "🇺🇸 美国 (United States) 02 (移动家宽) - hotick",
-        "🇰🇷 韩国 (South Korea) 03 (家宽) - hotick",
-        "🇸🇬 新加坡 (Singapore) 04 (家宽) - hotick",
-        "🇸🇬 新加坡 (Singapore) 05 (家宽) - hotick"
+        "🇭🇰 中国香港 (Hong Kong) 03 (移动家宽) - hotick",
+        "🇰🇷 韩国 (South Korea) 04 (家宽) - hotick",
+        "🇸🇬 新加坡 (Singapore) 05 (家宽) - hotick",
+        "🇰🇷 韩国 (South Korea) 06 (家宽) - hotick",
+        "🇹🇼 中国台湾 (Taiwan) 07 (家宽) - hotick"
       ]
     },
     {
@@ -77,9 +115,11 @@
       "outbounds": [
         "🇺🇸 美国 (United States) 01 (移动家宽) - hotick",
         "🇺🇸 美国 (United States) 02 (移动家宽) - hotick",
-        "🇰🇷 韩国 (South Korea) 03 (家宽) - hotick",
-        "🇸🇬 新加坡 (Singapore) 04 (家宽) - hotick",
-        "🇸🇬 新加坡 (Singapore) 05 (家宽) - hotick"
+        "🇭🇰 中国香港 (Hong Kong) 03 (移动家宽) - hotick",
+        "🇰🇷 韩国 (South Korea) 04 (家宽) - hotick",
+        "🇸🇬 新加坡 (Singapore) 05 (家宽) - hotick",
+        "🇰🇷 韩国 (South Korea) 06 (家宽) - hotick",
+        "🇹🇼 中国台湾 (Taiwan) 07 (家宽) - hotick"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

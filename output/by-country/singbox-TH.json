@@ -20,18 +20,14 @@
       "tls": {
         "enabled": true,
         "server_name": "th001.zestapp778.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        "insecure": false
       }
     },
     {
       "type": "vless",
       "tag": "🇹🇭 泰国 (Thailand) 03 - hotick",
       "server": "23.95.72.244",
-      "server_port": 5459,
+      "server_port": 5458,
       "uuid": "9a5e7b1c-bf39-4b1f-891f-ac87824ee38f",
       "flow": "xtls-rprx-vision",
       "tls": {
@@ -39,12 +35,12 @@
         "server_name": "api.adidas.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "Von3W6smD_9vmKScjCG9ex6xw4_sG9MFfBk-9zbrbzs",
-          "short_id": "3fdc9f533b3fb068"
+          "public_key": "NfmPfb_XeLj8j8cho5JkVKW3u_KA2G5UrZyOAhZAxn8",
+          "short_id": "ba80520852fb9c25"
         }
       }
     },

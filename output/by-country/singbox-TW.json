@@ -4,48 +4,48 @@
   },
   "outbounds": [
     {
-      "type": "hysteria2",
+      "type": "vless",
       "tag": "🇹🇼 中国台湾 (Taiwan) 01 - hotick",
-      "server": "vpn-tw-002.fastervpn.world",
-      "server_port": 443,
-      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
+      "server": "23.95.72.244",
+      "server_port": 4443,
+      "uuid": "9a5e7b1c-bf39-4b1f-891f-ac87824ee38f",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "vpn-tw-002.fastervpn.world",
-        "insecure": true
+        "server_name": "business.amazon.co.uk",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "edge"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "E6XD__G0KCmX1LibW4qwafvYXID5zci_bcwKueuhEA8",
+          "short_id": "807c3fa325465508"
+        }
       }
     },
     {
       "type": "hysteria2",
       "tag": "🇹🇼 中国台湾 (Taiwan) 02 - hotick",
+      "server": "160.187.100.109",
+      "server_port": 443,
+      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
+      "tls": {
+        "enabled": true,
+        "server_name": "127.0.0.1",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 03 - hotick",
       "server": "103.115.109.49",
       "server_port": 443,
       "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
       "tls": {
         "enabled": true,
-        "server_name": "https://t.me/oneclickvpnkeys",
+        "server_name": "https://t.me/wangcai2🇨🇳",
         "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 03 - hotick",
-      "server": "23.95.72.244",
-      "server_port": 54387,
-      "uuid": "9a5e7b1c-bf39-4b1f-891f-ac87824ee38f",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "api.adidas.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "qq"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "qqb-vrDIPSrFIithw497zM-LmGUEcTo-dqAjhHi6kyY",
-          "short_id": "f810"
-        }
       }
     },
     {
@@ -69,6 +69,18 @@
       }
     },
     {
+      "type": "trojan",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 05 - hotick",
+      "server": "161.114.15.215",
+      "server_port": 30502,
+      "password": "5KdDtpoJI58OTsoG0PwEYunqB0mkAEDm",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "insecure": true
+      }
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
@@ -76,7 +88,8 @@
         "🇹🇼 中国台湾 (Taiwan) 01 - hotick",
         "🇹🇼 中国台湾 (Taiwan) 02 - hotick",
         "🇹🇼 中国台湾 (Taiwan) 03 - hotick",
-        "🇹🇼 中国台湾 (Taiwan) 04 - hotick"
+        "🇹🇼 中国台湾 (Taiwan) 04 - hotick",
+        "🇹🇼 中国台湾 (Taiwan) 05 - hotick"
       ]
     },
     {
@@ -86,7 +99,8 @@
         "🇹🇼 中国台湾 (Taiwan) 01 - hotick",
         "🇹🇼 中国台湾 (Taiwan) 02 - hotick",
         "🇹🇼 中国台湾 (Taiwan) 03 - hotick",
-        "🇹🇼 中国台湾 (Taiwan) 04 - hotick"
+        "🇹🇼 中国台湾 (Taiwan) 04 - hotick",
+        "🇹🇼 中国台湾 (Taiwan) 05 - hotick"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
