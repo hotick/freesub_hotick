@@ -5,22 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇹🇼 中国台湾 (Taiwan) 01 - hotick
-  server: 103.115.109.49
-  port: 443
-  udp: true
-  type: hysteria2
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: https://t.me/wangcai2
-  skip-cert-verify: true
-- name: 🇹🇼 中国台湾 (Taiwan) 02 - hotick
-  server: 160.187.100.109
-  port: 443
-  udp: true
-  type: hysteria2
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: 127.0.0.1
-  skip-cert-verify: true
-- name: 🇹🇼 中国台湾 (Taiwan) 03 - hotick
   server: 83.147.13.74
   port: 8443
   udp: true
@@ -32,6 +16,35 @@ proxies:
     short-id: 4ad2e4e660550e43
   servername: github.githubassets.com
   client-fingerprint: chrome
+- name: 🇹🇼 中国台湾 (Taiwan) 02 - hotick
+  server: 103.115.109.49
+  port: 443
+  udp: true
+  type: hysteria2
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: 103.115.109.49
+  skip-cert-verify: true
+- name: 🇹🇼 中国台湾 (Taiwan) 03 - hotick
+  server: vpn-tw-002.fastervpn.world
+  port: 443
+  udp: true
+  type: hysteria2
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: vpn-tw-002.fastervpn.world
+  skip-cert-verify: true
+- name: 🇹🇼 中国台湾 (Taiwan) 04 - hotick
+  server: dddz-1-x.473221.xyz
+  port: 13239
+  udp: true
+  type: vless
+  uuid: 65ec84f5-0dd4-4582-8b4f-592e50b22116
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: NJgrmuV1CFhj7PeKJoQfDQVagDcFITkfrM-a7sa_mWw
+    short-id: 8591c4d31f59a60d
+  servername: updates.cdn-apple.com
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
@@ -40,6 +53,7 @@ proxy-groups:
   - 🇹🇼 中国台湾 (Taiwan) 01 - hotick
   - 🇹🇼 中国台湾 (Taiwan) 02 - hotick
   - 🇹🇼 中国台湾 (Taiwan) 03 - hotick
+  - 🇹🇼 中国台湾 (Taiwan) 04 - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -48,5 +62,6 @@ proxy-groups:
   - 🇹🇼 中国台湾 (Taiwan) 01 - hotick
   - 🇹🇼 中国台湾 (Taiwan) 02 - hotick
   - 🇹🇼 中国台湾 (Taiwan) 03 - hotick
+  - 🇹🇼 中国台湾 (Taiwan) 04 - hotick
 rules:
 - MATCH,PROXIES

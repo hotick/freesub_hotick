@@ -4,32 +4,8 @@
   },
   "outbounds": [
     {
-      "type": "hysteria2",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 01 - hotick",
-      "server": "103.115.109.49",
-      "server_port": 443,
-      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
-      "tls": {
-        "enabled": true,
-        "server_name": "https://t.me/wangcai2",
-        "insecure": true
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 02 - hotick",
-      "server": "160.187.100.109",
-      "server_port": 443,
-      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
-      "tls": {
-        "enabled": true,
-        "server_name": "127.0.0.1",
-        "insecure": true
-      }
-    },
-    {
       "type": "vless",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 03 - hotick",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 01 - hotick",
       "server": "83.147.13.74",
       "server_port": 8443,
       "uuid": "eb8c97f7-a154-4442-91b0-54c0d055ad0b",
@@ -48,13 +24,59 @@
       }
     },
     {
+      "type": "hysteria2",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 02 - hotick",
+      "server": "103.115.109.49",
+      "server_port": 443,
+      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
+      "tls": {
+        "enabled": true,
+        "server_name": "103.115.109.49",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 03 - hotick",
+      "server": "vpn-tw-002.fastervpn.world",
+      "server_port": 443,
+      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
+      "tls": {
+        "enabled": true,
+        "server_name": "vpn-tw-002.fastervpn.world",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 04 - hotick",
+      "server": "dddz-1-x.473221.xyz",
+      "server_port": 13239,
+      "uuid": "65ec84f5-0dd4-4582-8b4f-592e50b22116",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "updates.cdn-apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "NJgrmuV1CFhj7PeKJoQfDQVagDcFITkfrM-a7sa_mWw",
+          "short_id": "8591c4d31f59a60d"
+        }
+      }
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
         "🇹🇼 中国台湾 (Taiwan) 01 - hotick",
         "🇹🇼 中国台湾 (Taiwan) 02 - hotick",
-        "🇹🇼 中国台湾 (Taiwan) 03 - hotick"
+        "🇹🇼 中国台湾 (Taiwan) 03 - hotick",
+        "🇹🇼 中国台湾 (Taiwan) 04 - hotick"
       ]
     },
     {
@@ -63,7 +85,8 @@
       "outbounds": [
         "🇹🇼 中国台湾 (Taiwan) 01 - hotick",
         "🇹🇼 中国台湾 (Taiwan) 02 - hotick",
-        "🇹🇼 中国台湾 (Taiwan) 03 - hotick"
+        "🇹🇼 中国台湾 (Taiwan) 03 - hotick",
+        "🇹🇼 中国台湾 (Taiwan) 04 - hotick"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

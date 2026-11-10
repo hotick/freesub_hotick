@@ -5,30 +5,54 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇦🇪 阿联酋 (UAE) 01 - hotick
+  server: 162.159.152.4
+  port: 443
+  udp: true
+  type: vless
+  uuid: f2a73750-3087-48ff-a763-1348c15dce68
+  tls: true
+  servername: rAyAn-007.mAxImA.DpDnS.OrG
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: rAyAn-007.mAxImA.DpDnS.OrG
+- name: 🇦🇪 阿联酋 (UAE) 02 - hotick
   server: 151.241.19.36
   port: 19999
   udp: true
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇦🇪 阿联酋 (UAE) 02 - hotick
+- name: 🇦🇪 阿联酋 (UAE) 03 - hotick
   server: 151.241.19.29
   port: 19999
   udp: true
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇦🇪 阿联酋 (UAE) 03 - hotick
+- name: 🇦🇪 阿联酋 (UAE) 04 - hotick
   server: 130.49.161.70
   port: 443
   udp: true
   type: hysteria2
   password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
   sni: hy2.aspidnet.xyz
-  skip-cert-verify: false
+  skip-cert-verify: true
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
-- name: 🇦🇪 阿联酋 (UAE) 04 - hotick
+- name: 🇦🇪 阿联酋 (UAE) 05 - hotick
+  server: uae.unixzone.us
+  port: 22573
+  udp: true
+  type: vless
+  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+  network: ws
+  ws-opts:
+    path: /
+- name: 🇦🇪 阿联酋 (UAE) 06 - hotick
   server: 95.174.68.188
   port: 14430
   udp: true
@@ -39,17 +63,17 @@ proxies:
     path: /vless
     headers:
       Host: 95.174.68.188
-- name: 🇦🇪 阿联酋 (UAE) 05 - hotick
-  server: 84.235.244.108
-  port: 22573
+- name: 🇦🇪 阿联酋 (UAE) 07 - hotick
+  server: 151.241.19.44
+  port: 1270
   udp: true
-  type: vless
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: uae.unixzone.us
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: xmfhlpy.com
+  skip-cert-verify: false
 proxy-groups:
 - name: PROXIES
   type: select
@@ -60,6 +84,8 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 03 - hotick
   - 🇦🇪 阿联酋 (UAE) 04 - hotick
   - 🇦🇪 阿联酋 (UAE) 05 - hotick
+  - 🇦🇪 阿联酋 (UAE) 06 - hotick
+  - 🇦🇪 阿联酋 (UAE) 07 - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -70,5 +96,7 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 03 - hotick
   - 🇦🇪 阿联酋 (UAE) 04 - hotick
   - 🇦🇪 阿联酋 (UAE) 05 - hotick
+  - 🇦🇪 阿联酋 (UAE) 06 - hotick
+  - 🇦🇪 阿联酋 (UAE) 07 - hotick
 rules:
 - MATCH,PROXIES

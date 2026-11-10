@@ -4,32 +4,47 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇭🇰 中国香港 (Hong Kong) 01 (移动家宽) - hotick
-  server: zfd-hkv2.kunlun01dns.com
-  port: 16112
+- name: 🇺🇸 美国 (United States) 01 (移动家宽) - hotick
+  server: 172.67.67.178
+  port: 443
   udp: true
-  type: vmess
-  uuid: 0802ac03-7973-39ef-a019-ba02de6c01e1
-  alterId: 0
-  cipher: auto
-- name: 🇭🇰 中国香港 (Hong Kong) 02 (移动家宽) - hotick
+  type: vless
+  uuid: aebe5a70-0ca3-46ce-8208-8b5bab1346ce
+  tls: true
+  servername: rAyAn-007.nAsTaRaN.DpDnS.OrG
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: rayan-007.nastaran.dpdns.org
+- name: 🇭🇰 中国香港 (Hong Kong) 02 (家宽) - hotick
+  server: 104.18.15.19
+  port: 8443
+  udp: true
+  type: vless
+  uuid: 226279dd-28b2-4b61-96be-a2a0b1afd522
+  tls: true
+  servername: hk.zhaoqing.city
+  skip-cert-verify: false
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
+    headers:
+      Host: hk.zhaoqing.city
+- name: 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - hotick
+  server: fc6ffc71-tmm5c0-ts3rye-mrtr.hk3.hyhuawei.com
+  port: 443
+  udp: true
+  type: hysteria2
+  password: 28a8a4d0-3e02-11eb-a8bf-f23c91cfbbc9
+  sni: fc6ffc71-tmm5c0-ts3rye-mrtr.hk3.hyhuawei.com
+  skip-cert-verify: false
+- name: 🇭🇰 中国香港 (Hong Kong) 04 (移动家宽) - hotick
   server: dog-hk.kunlun01dns.com
   port: 21021
-  udp: true
-  type: vmess
-  uuid: 9464ca40-dd75-3742-a628-d931a9f413b2
-  alterId: 0
-  cipher: auto
-- name: 🇰🇷 韩国 (South Korea) 03 (家宽) - hotick
-  server: 49.254.204.133
-  port: 1774
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: 1234!@#$
-- name: 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - hotick
-  server: dog-tw.kunlun01dns.com
-  port: 21035
   udp: true
   type: vmess
   uuid: 9464ca40-dd75-3742-a628-d931a9f413b2
@@ -43,38 +58,7 @@ proxies:
   uuid: b831381d-6324-4d53-ad4f-8cda48b30811
   alterId: 0
   cipher: auto
-- name: 🇸🇬 新加坡 (Singapore) 06 (家宽) - hotick
-  server: 116.88.224.217
-  port: 8080
-  udp: true
-  type: vmess
-  uuid: 6f4f0eb5-fe86-41ca-eccb-a6ca68f88d9b
-  alterId: 0
-  cipher: auto
-- name: 🇭🇰 中国香港 (Hong Kong) 07 (移动家宽) - hotick
-  server: zfd-hkv1.kunlun01dns.com
-  port: 16115
-  udp: true
-  type: vmess
-  uuid: 0802ac03-7973-39ef-a019-ba02de6c01e1
-  alterId: 0
-  cipher: auto
-- name: 🇭🇰 中国香港 (Hong Kong) 08 (家宽) - hotick
-  server: 78bc7982-tmm5c0-u0aht1-1rz5s.hk3.hyhuawei.com
-  port: 443
-  udp: true
-  type: hysteria2
-  password: 40e084d6-0316-11f0-90e2-f23c913c8d2b
-  sni: 78bc7982-tmm5c0-u0aht1-1rz5s.hk3.hyhuawei.com
-  skip-cert-verify: false
-- name: 🇰🇷 韩国 (South Korea) 09 (家宽) - hotick
-  server: 218.237.185.234
-  port: 4652
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: qwerREWQ@@
-- name: 🇹🇼 中国台湾 (Taiwan) 10 (家宽) - hotick
+- name: 🇹🇼 中国台湾 (Taiwan) 06 (家宽) - hotick
   server: 60.248.219.78
   port: 443
   udp: true
@@ -93,30 +77,22 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇭🇰 中国香港 (Hong Kong) 01 (移动家宽) - hotick
-  - 🇭🇰 中国香港 (Hong Kong) 02 (移动家宽) - hotick
-  - 🇰🇷 韩国 (South Korea) 03 (家宽) - hotick
-  - 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - hotick
+  - 🇺🇸 美国 (United States) 01 (移动家宽) - hotick
+  - 🇭🇰 中国香港 (Hong Kong) 02 (家宽) - hotick
+  - 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - hotick
+  - 🇭🇰 中国香港 (Hong Kong) 04 (移动家宽) - hotick
   - 🇸🇬 新加坡 (Singapore) 05 (家宽) - hotick
-  - 🇸🇬 新加坡 (Singapore) 06 (家宽) - hotick
-  - 🇭🇰 中国香港 (Hong Kong) 07 (移动家宽) - hotick
-  - 🇭🇰 中国香港 (Hong Kong) 08 (家宽) - hotick
-  - 🇰🇷 韩国 (South Korea) 09 (家宽) - hotick
-  - 🇹🇼 中国台湾 (Taiwan) 10 (家宽) - hotick
+  - 🇹🇼 中国台湾 (Taiwan) 06 (家宽) - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇭🇰 中国香港 (Hong Kong) 01 (移动家宽) - hotick
-  - 🇭🇰 中国香港 (Hong Kong) 02 (移动家宽) - hotick
-  - 🇰🇷 韩国 (South Korea) 03 (家宽) - hotick
-  - 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - hotick
+  - 🇺🇸 美国 (United States) 01 (移动家宽) - hotick
+  - 🇭🇰 中国香港 (Hong Kong) 02 (家宽) - hotick
+  - 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - hotick
+  - 🇭🇰 中国香港 (Hong Kong) 04 (移动家宽) - hotick
   - 🇸🇬 新加坡 (Singapore) 05 (家宽) - hotick
-  - 🇸🇬 新加坡 (Singapore) 06 (家宽) - hotick
-  - 🇭🇰 中国香港 (Hong Kong) 07 (移动家宽) - hotick
-  - 🇭🇰 中国香港 (Hong Kong) 08 (家宽) - hotick
-  - 🇰🇷 韩国 (South Korea) 09 (家宽) - hotick
-  - 🇹🇼 中国台湾 (Taiwan) 10 (家宽) - hotick
+  - 🇹🇼 中国台湾 (Taiwan) 06 (家宽) - hotick
 rules:
 - MATCH,PROXIES
