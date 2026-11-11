@@ -5,7 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 - hotick
-  server: 89.105.218.148
+  server: 89.105.218.153
   port: 443
   udp: true
   type: vless
@@ -16,8 +16,34 @@ proxies:
     public-key: 1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs
     short-id: 428ef87fd47a3a32
   servername: golos.mail.ru
-  client-fingerprint: firefox
+  client-fingerprint: chrome
 - name: 🇷🇺 俄罗斯 (Russia) 02 - hotick
+  server: 89.105.218.138
+  port: 443
+  udp: true
+  type: vless
+  uuid: 90157e25-cee1-4217-921e-91f300bc1a24
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: 1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs
+    short-id: 428ef87fd47a3a32
+  servername: golos.mail.ru
+  client-fingerprint: chrome
+- name: 🇷🇺 俄罗斯 (Russia) 03 - hotick
+  server: 89.105.218.143
+  port: 443
+  udp: true
+  type: vless
+  uuid: 90157e25-cee1-4217-921e-91f300bc1a24
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: 1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs
+    short-id: 428ef87fd47a3a32
+  servername: golos.mail.ru
+  client-fingerprint: chrome
+- name: 🇷🇺 俄罗斯 (Russia) 04 - hotick
   server: 50.7.227.77
   port: 443
   udp: true
@@ -28,42 +54,9 @@ proxies:
   reality-opts:
     public-key: 1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs
     short-id: 428ef87fd47a3a32
-  servername: bizorg.su
+  servername: 50.7.227.77
   client-fingerprint: ''
-- name: 🇷🇺 俄罗斯 (Russia) 03 - hotick
-  server: 185.215.184.85
-  port: 443
-  udp: true
-  type: vless
-  uuid: 90157e25-cee1-4217-921e-91f300bc1a24
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: 1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs
-    short-id: 428ef87fd47a3a32
-  servername: dvizhok.su
-  client-fingerprint: firefox
-- name: 🇷🇺 俄罗斯 (Russia) 04 - hotick
-  server: 38.60.223.125
-  port: 13108
-  udp: true
-  type: ss
-  cipher: aes-128-gcm
-  password: 8722de56b6c0b3f6a4d01cf91c07e6aa
 - name: 🇷🇺 俄罗斯 (Russia) 05 - hotick
-  server: fduknew.titun.su
-  port: 443
-  udp: true
-  type: vless
-  uuid: 90157e25-cee1-4217-921e-91f300bc1a24
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: 1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs
-    short-id: 428ef87fd47a3a32
-  servername: bizorg.su
-  client-fingerprint: chrome
-- name: 🇷🇺 俄罗斯 (Russia) 06 - hotick
   server: 193.233.253.180
   port: 8444
   udp: true
@@ -77,6 +70,13 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: GunService
+- name: 🇷🇺 俄罗斯 (Russia) 06 - hotick
+  server: 38.60.223.125
+  port: 13108
+  udp: true
+  type: ss
+  cipher: aes-128-gcm
+  password: 8722de56b6c0b3f6a4d01cf91c07e6aa
 - name: 🇷🇺 俄罗斯 (Russia) 07 - hotick
   server: 185.22.153.117
   port: 18443
@@ -85,19 +85,20 @@ proxies:
   cipher: aes-256-gcm
   password: NTiHBg64fsY8u8DbGrtypD9gPGSL386p
 - name: 🇷🇺 俄罗斯 (Russia) 08 - hotick
-  server: ee.subv.ru
-  port: 443
+  server: 130.49.189.158
+  port: 43558
   udp: true
-  type: vless
-  uuid: 90157e25-cee1-4217-921e-91f300bc1a24
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: 1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs
-    short-id: 428ef87fd47a3a32
-  servername: dvizhok.su
-  client-fingerprint: firefox
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: LNc9h/4NA9Q6ZHNeYHoT5X/fR9aoE9KQR1SWhVDHBog=
 - name: 🇷🇺 俄罗斯 (Russia) 09 - hotick
+  server: 46.17.47.58
+  port: 18443
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: cCMJgJTA3BA489YUYrFq7XHXSiSpWlLa
+- name: 🇷🇺 俄罗斯 (Russia) 10 - hotick
   server: 201.24.121.243
   port: 443
   udp: true
@@ -110,22 +111,19 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: vlgrpc
-- name: 🇷🇺 俄罗斯 (Russia) 10 - hotick
-  server: 176.108.245.237
+- name: 🇷🇺 俄罗斯 (Russia) 11 - hotick
+  server: fdat.titun.su
   port: 443
   udp: true
   type: vless
-  uuid: 87c35d3a-36f1-fade-90b7-af60506efbb8
+  uuid: 90157e25-cee1-4217-921e-91f300bc1a24
+  flow: xtls-rprx-vision
   tls: true
-  servername: tfusq-ru-40sb.fade.mom
-  skip-cert-verify: false
-- name: 🇷🇺 俄罗斯 (Russia) 11 - hotick
-  server: 130.49.189.158
-  port: 43558
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: LNc9h/4NA9Q6ZHNeYHoT5X/fR9aoE9KQR1SWhVDHBog=
+  reality-opts:
+    public-key: 1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs
+    short-id: 428ef87fd47a3a32
+  servername: banket-restoran.su
+  client-fingerprint: firefox
 - name: 🇷🇺 俄罗斯 (Russia) 12 - hotick
   server: vps3.nemnogogo.com
   port: 443
@@ -140,12 +138,39 @@ proxies:
   grpc-opts:
     grpc-service-name: mobile.api.Event
 - name: 🇷🇺 俄罗斯 (Russia) 13 - hotick
-  server: 46.17.47.58
-  port: 18443
+  server: 176.108.245.237
+  port: 443
   udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: cCMJgJTA3BA489YUYrFq7XHXSiSpWlLa
+  type: vless
+  uuid: 87c35d3a-36f1-fade-90b7-af60506efbb8
+  tls: true
+  servername: tfusq-ru-40sb.fade.mom
+  skip-cert-verify: false
+- name: 🇷🇺 俄罗斯 (Russia) 14 - hotick
+  server: 147.45.108.45
+  port: 443
+  udp: true
+  type: vless
+  uuid: 1e2b9c0c-4f9b-56f5-a062-1c4f2d2aa200
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: IuzAWh6UM62Txrnh_No9y5n6wmZecyR1ki8z5xor-0g
+  servername: absolute-disaster.org
+  client-fingerprint: chrome
+- name: 🇷🇺 俄罗斯 (Russia) 15 - hotick
+  server: 92.243.66.79
+  port: 443
+  udp: true
+  type: vless
+  uuid: c5f59ef3-9540-49fa-bd1e-c6c2f79df49a
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: siD4oj2gdtLLEphV6fUXb8ueIc2WHVn7msOUhNGPf2o
+    short-id: 8d03c10b6a874a9c
+  servername: ru-mow.probe.geomyip.com
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
@@ -164,6 +189,8 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 11 - hotick
   - 🇷🇺 俄罗斯 (Russia) 12 - hotick
   - 🇷🇺 俄罗斯 (Russia) 13 - hotick
+  - 🇷🇺 俄罗斯 (Russia) 14 - hotick
+  - 🇷🇺 俄罗斯 (Russia) 15 - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -182,5 +209,7 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 11 - hotick
   - 🇷🇺 俄罗斯 (Russia) 12 - hotick
   - 🇷🇺 俄罗斯 (Russia) 13 - hotick
+  - 🇷🇺 俄罗斯 (Russia) 14 - hotick
+  - 🇷🇺 俄罗斯 (Russia) 15 - hotick
 rules:
 - MATCH,PROXIES

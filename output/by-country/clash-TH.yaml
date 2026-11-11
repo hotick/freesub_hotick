@@ -22,17 +22,17 @@ proxies:
   skip-cert-verify: false
 - name: 🇹🇭 泰国 (Thailand) 03 - hotick
   server: 23.95.72.244
-  port: 5458
+  port: 5459
   udp: true
   type: vless
   uuid: 9a5e7b1c-bf39-4b1f-891f-ac87824ee38f
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: NfmPfb_XeLj8j8cho5JkVKW3u_KA2G5UrZyOAhZAxn8
-    short-id: ba80520852fb9c25
+    public-key: Von3W6smD_9vmKScjCG9ex6xw4_sG9MFfBk-9zbrbzs
+    short-id: 3fdc9f533b3fb068
   servername: api.adidas.com
-  client-fingerprint: chrome
+  client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
   type: select
