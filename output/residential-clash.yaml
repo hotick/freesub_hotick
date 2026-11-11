@@ -19,21 +19,8 @@ proxies:
   type: trojan
   password: 5t6i121em5lkmsmk
   sni: us001.zestapp778.com
-  skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 03 (家宽) - hotick
-  server: 23.95.72.244
-  port: 5461
-  udp: true
-  type: vless
-  uuid: 9a5e7b1c-bf39-4b1f-891f-ac87824ee38f
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: tm0HMw__h6gfIxujioVLds50pGoQAhaIryqJsapBGXU
-    short-id: 9847a4468a
-  servername: api.adidas.com
-  client-fingerprint: chrome
-- name: 🇺🇸 美国 (United States) 04 (移动家宽) - hotick
+  skip-cert-verify: false
+- name: 🇺🇸 美国 (United States) 03 (移动家宽) - hotick
   server: 23.95.72.244
   port: 5466
   udp: true
@@ -45,22 +32,41 @@ proxies:
     public-key: vr-C-6JEfZhnEVO2NDzUIlRhr0LCXFx9BoOBb31AsSg
     short-id: fb16a20a0815
   servername: api.adidas.com
-  client-fingerprint: ios
+  client-fingerprint: chrome
+- name: 🇭🇰 中国香港 (Hong Kong) 04 (家宽) - hotick
+  server: 58.152.81.104
+  port: 443
+  udp: true
+  type: tuic
+  uuid: 73bfcc1c-5814-5f2a-b43a-3ef6af011db8
+  password: 73bfcc1c-5814-5f2a-b43a-3ef6af011db8
+  sni: 54fb07dd-tk7400-toh6wi-jx5r.pccw3.hyhuawei.com
+  skip-cert-verify: false
+  congestion-controller: cubic
+  udp-relay-mode: native
+  alpn:
+  - h3
 - name: 🇭🇰 中国香港 (Hong Kong) 05 (移动家宽) - hotick
-  server: zfd-hkv2.kunlun01dns.com
-  port: 16116
+  server: dog-hk.kunlun01dns.com
+  port: 21019
   udp: true
   type: vmess
-  uuid: 0802ac03-7973-39ef-a019-ba02de6c01e1
+  uuid: 9464ca40-dd75-3742-a628-d931a9f413b2
   alterId: 0
   cipher: auto
-- name: 🇰🇷 韩国 (South Korea) 06 (家宽) - hotick
-  server: 49.254.204.133
-  port: 1774
+- name: 🇺🇸 美国 (United States) 06 (移动家宽) - hotick
+  server: 23.95.72.244
+  port: 5467
   udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: 1234!@#$
+  type: vless
+  uuid: 9a5e7b1c-bf39-4b1f-891f-ac87824ee38f
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: wMLrAweVXsOzwV-Uc_7t7OZBycbjVrgPp0ukPjuXA2U
+    short-id: 6e47891d
+  servername: api.adidas.com
+  client-fingerprint: chrome
 - name: 🇭🇰 中国香港 (Hong Kong) 07 (家宽) - hotick
   server: 23.95.72.244
   port: 10000
@@ -88,19 +94,27 @@ proxies:
   servername: api.adidas.com
   client-fingerprint: firefox
 - name: 🇹🇼 中国台湾 (Taiwan) 09 (家宽) - hotick
+  server: 161.114.15.215
+  port: 30502
+  udp: true
+  type: trojan
+  password: 5KdDtpoJI58OTsoG0PwEYunqB0mkAEDm
+  sni: www.cloudflare.com
+  skip-cert-verify: true
+- name: 🇯🇵 日本 (Japan) 10 (家宽) - hotick
   server: 23.95.72.244
-  port: 5462
+  port: 52541
   udp: true
   type: vless
   uuid: 9a5e7b1c-bf39-4b1f-891f-ac87824ee38f
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: biUjzfAfxrbE_4GNfOCbSG-YW5tDUlqZTeyhJb6OG30
-    short-id: 4b7a508fcd3ef1a1
+    public-key: _DBQoND5nxcCxxCU0tO0b-h0E10ZFtPTwSp8CJ-f-gs
+    short-id: ce5793a7ad9594
   servername: api.adidas.com
-  client-fingerprint: chrome
-- name: 🇰🇷 韩国 (South Korea) 10 (家宽) - hotick
+  client-fingerprint: firefox
+- name: 🇰🇷 韩国 (South Korea) 11 (家宽) - hotick
   server: 23.95.72.244
   port: 5455
   udp: true
@@ -113,7 +127,20 @@ proxies:
     short-id: bb32911d6c
   servername: api.adidas.com
   client-fingerprint: firefox
-- name: 🇰🇷 韩国 (South Korea) 11 (家宽) - hotick
+- name: 🇺🇸 美国 (United States) 12 (移动家宽) - hotick
+  server: 23.95.72.244
+  port: 5465
+  udp: true
+  type: vless
+  uuid: 9a5e7b1c-bf39-4b1f-891f-ac87824ee38f
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: GaZo6ZlyOUxhems08m3fhEc-0j3IYppLUpjNmMqNjlk
+    short-id: 7024258fb07f5eb5
+  servername: api.adidas.com
+  client-fingerprint: edge
+- name: 🇰🇷 韩国 (South Korea) 13 (家宽) - hotick
   server: 23.95.72.244
   port: 50135
   udp: true
@@ -126,17 +153,17 @@ proxies:
     short-id: 8cd0eddfb0
   servername: api.adidas.com
   client-fingerprint: chrome
-- name: 🇺🇸 美国 (United States) 12 (移动家宽) - hotick
+- name: 🇹🇼 中国台湾 (Taiwan) 14 (家宽) - hotick
   server: 23.95.72.244
-  port: 5467
+  port: 5462
   udp: true
   type: vless
   uuid: 9a5e7b1c-bf39-4b1f-891f-ac87824ee38f
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: wMLrAweVXsOzwV-Uc_7t7OZBycbjVrgPp0ukPjuXA2U
-    short-id: 6e47891d
+    public-key: biUjzfAfxrbE_4GNfOCbSG-YW5tDUlqZTeyhJb6OG30
+    short-id: 4b7a508fcd3ef1a1
   servername: api.adidas.com
   client-fingerprint: chrome
 proxy-groups:
@@ -146,16 +173,18 @@ proxy-groups:
   - AUTO
   - 🇺🇸 美国 (United States) 01 (移动家宽) - hotick
   - 🇺🇸 美国 (United States) 02 (移动家宽) - hotick
-  - 🇺🇸 美国 (United States) 03 (家宽) - hotick
-  - 🇺🇸 美国 (United States) 04 (移动家宽) - hotick
+  - 🇺🇸 美国 (United States) 03 (移动家宽) - hotick
+  - 🇭🇰 中国香港 (Hong Kong) 04 (家宽) - hotick
   - 🇭🇰 中国香港 (Hong Kong) 05 (移动家宽) - hotick
-  - 🇰🇷 韩国 (South Korea) 06 (家宽) - hotick
+  - 🇺🇸 美国 (United States) 06 (移动家宽) - hotick
   - 🇭🇰 中国香港 (Hong Kong) 07 (家宽) - hotick
   - 🇹🇼 中国台湾 (Taiwan) 08 (家宽) - hotick
   - 🇹🇼 中国台湾 (Taiwan) 09 (家宽) - hotick
-  - 🇰🇷 韩国 (South Korea) 10 (家宽) - hotick
+  - 🇯🇵 日本 (Japan) 10 (家宽) - hotick
   - 🇰🇷 韩国 (South Korea) 11 (家宽) - hotick
   - 🇺🇸 美国 (United States) 12 (移动家宽) - hotick
+  - 🇰🇷 韩国 (South Korea) 13 (家宽) - hotick
+  - 🇹🇼 中国台湾 (Taiwan) 14 (家宽) - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -163,15 +192,17 @@ proxy-groups:
   proxies:
   - 🇺🇸 美国 (United States) 01 (移动家宽) - hotick
   - 🇺🇸 美国 (United States) 02 (移动家宽) - hotick
-  - 🇺🇸 美国 (United States) 03 (家宽) - hotick
-  - 🇺🇸 美国 (United States) 04 (移动家宽) - hotick
+  - 🇺🇸 美国 (United States) 03 (移动家宽) - hotick
+  - 🇭🇰 中国香港 (Hong Kong) 04 (家宽) - hotick
   - 🇭🇰 中国香港 (Hong Kong) 05 (移动家宽) - hotick
-  - 🇰🇷 韩国 (South Korea) 06 (家宽) - hotick
+  - 🇺🇸 美国 (United States) 06 (移动家宽) - hotick
   - 🇭🇰 中国香港 (Hong Kong) 07 (家宽) - hotick
   - 🇹🇼 中国台湾 (Taiwan) 08 (家宽) - hotick
   - 🇹🇼 中国台湾 (Taiwan) 09 (家宽) - hotick
-  - 🇰🇷 韩国 (South Korea) 10 (家宽) - hotick
+  - 🇯🇵 日本 (Japan) 10 (家宽) - hotick
   - 🇰🇷 韩国 (South Korea) 11 (家宽) - hotick
   - 🇺🇸 美国 (United States) 12 (移动家宽) - hotick
+  - 🇰🇷 韩国 (South Korea) 13 (家宽) - hotick
+  - 🇹🇼 中国台湾 (Taiwan) 14 (家宽) - hotick
 rules:
 - MATCH,PROXIES
