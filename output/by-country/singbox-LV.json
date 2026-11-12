@@ -7,37 +7,21 @@
       "type": "shadowsocks",
       "tag": "🇱🇻 拉脱维亚 (Latvia) 01 - hotick",
       "server": "185.135.86.175",
-      "server_port": 9017,
-      "method": "aes-256-cfb",
-      "password": "HAVAdE3nXhqA5nHp"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇱🇻 拉脱维亚 (Latvia) 02 - hotick",
-      "server": "185.135.86.175",
-      "server_port": 9086,
-      "method": "aes-256-cfb",
-      "password": "37Z4TFCYhfxcpc9Q"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇱🇻 拉脱维亚 (Latvia) 03 - hotick",
-      "server": "185.135.86.175",
-      "server_port": 9036,
-      "method": "aes-256-cfb",
-      "password": "hbtvgUz5uNYyB3Rf"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇱🇻 拉脱维亚 (Latvia) 04 - hotick",
-      "server": "185.135.86.175",
       "server_port": 9007,
       "method": "aes-256-cfb",
       "password": "kSPmvwdFzGMMW5pY"
     },
     {
       "type": "shadowsocks",
-      "tag": "🇱🇻 拉脱维亚 (Latvia) 05 - hotick",
+      "tag": "🇱🇻 拉脱维亚 (Latvia) 02 - hotick",
+      "server": "185.135.86.175",
+      "server_port": 9017,
+      "method": "aes-256-cfb",
+      "password": "HAVAdE3nXhqA5nHp"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇱🇻 拉脱维亚 (Latvia) 03 - hotick",
       "server": "185.135.86.175",
       "server_port": 9094,
       "method": "aes-256-cfb",
@@ -45,7 +29,15 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇱🇻 拉脱维亚 (Latvia) 06 - hotick",
+      "tag": "🇱🇻 拉脱维亚 (Latvia) 04 - hotick",
+      "server": "185.135.86.175",
+      "server_port": 9033,
+      "method": "aes-256-cfb",
+      "password": "UTJA57ypk2XKQpnm"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇱🇻 拉脱维亚 (Latvia) 05 - hotick",
       "server": "185.135.86.175",
       "server_port": 9034,
       "method": "aes-256-cfb",
@@ -53,23 +45,27 @@
     },
     {
       "type": "shadowsocks",
+      "tag": "🇱🇻 拉脱维亚 (Latvia) 06 - hotick",
+      "server": "185.135.86.175",
+      "server_port": 9086,
+      "method": "aes-256-cfb",
+      "password": "37Z4TFCYhfxcpc9Q"
+    },
+    {
+      "type": "shadowsocks",
       "tag": "🇱🇻 拉脱维亚 (Latvia) 07 - hotick",
+      "server": "185.135.86.175",
+      "server_port": 9036,
+      "method": "aes-256-cfb",
+      "password": "hbtvgUz5uNYyB3Rf"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇱🇻 拉脱维亚 (Latvia) 08 - hotick",
       "server": "185.135.86.175",
       "server_port": 9068,
       "method": "aes-256-cfb",
       "password": "mwgRg9hRq3b4Qnwb"
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇱🇻 拉脱维亚 (Latvia) 08 - hotick",
-      "server": "104.165.205.42",
-      "server_port": 8443,
-      "password": "54d2f622-fd71-4f5f-8813-832b68f4ca3b",
-      "tls": {
-        "enabled": true,
-        "server_name": "speedtestmark.com",
-        "insecure": false
-      }
     },
     {
       "type": "vless",
@@ -83,7 +79,7 @@
         "server_name": "www.apple.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
@@ -93,16 +89,8 @@
       }
     },
     {
-      "type": "shadowsocks",
-      "tag": "🇱🇻 拉脱维亚 (Latvia) 10 - hotick",
-      "server": "185.135.86.175",
-      "server_port": 9033,
-      "method": "aes-256-cfb",
-      "password": "UTJA57ypk2XKQpnm"
-    },
-    {
       "type": "vless",
-      "tag": "🇱🇻 拉脱维亚 (Latvia) 11 - hotick",
+      "tag": "🇱🇻 拉脱维亚 (Latvia) 10 - hotick",
       "server": "195.123.213.28",
       "server_port": 443,
       "uuid": "02fcc1a4-ee90-4970-8bbb-4ffaa8109d24",
@@ -122,29 +110,15 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇱🇻 拉脱维亚 (Latvia) 12 - hotick",
-      "server": "n4.topingr.ir",
-      "server_port": 443,
-      "uuid": "961913fb-dc88-446f-8356-3fde5b51d7f7",
+      "type": "hysteria2",
+      "tag": "🇱🇻 拉脱维亚 (Latvia) 11 - hotick",
+      "server": "104.165.205.42",
+      "server_port": 8443,
+      "password": "54d2f622-fd71-4f5f-8813-832b68f4ca3b",
       "tls": {
         "enabled": true,
-        "server_name": "static.zovip2.ir",
-        "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/api/v3/pulse",
-        "headers": {
-          "Host": "static.zovip2.ir"
-        }
+        "server_name": "speedtestmark.com",
+        "insecure": false
       }
     },
     {
@@ -162,8 +136,7 @@
         "🇱🇻 拉脱维亚 (Latvia) 08 - hotick",
         "🇱🇻 拉脱维亚 (Latvia) 09 - hotick",
         "🇱🇻 拉脱维亚 (Latvia) 10 - hotick",
-        "🇱🇻 拉脱维亚 (Latvia) 11 - hotick",
-        "🇱🇻 拉脱维亚 (Latvia) 12 - hotick"
+        "🇱🇻 拉脱维亚 (Latvia) 11 - hotick"
       ]
     },
     {
@@ -180,8 +153,7 @@
         "🇱🇻 拉脱维亚 (Latvia) 08 - hotick",
         "🇱🇻 拉脱维亚 (Latvia) 09 - hotick",
         "🇱🇻 拉脱维亚 (Latvia) 10 - hotick",
-        "🇱🇻 拉脱维亚 (Latvia) 11 - hotick",
-        "🇱🇻 拉脱维亚 (Latvia) 12 - hotick"
+        "🇱🇻 拉脱维亚 (Latvia) 11 - hotick"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

@@ -5,46 +5,14 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇦🇺 澳大利亚 (Australia) 01 - hotick
-  server: 185.18.250.252
+  server: 45.63.30.142
   port: 443
   udp: true
   type: trojan
-  password: 74480619-b6a8-4ab8-94e1-1132fc18b2fa
-  sni: unnes.ac.id.r3xxe.eu.cc
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /au-mt
-- name: 🇦🇺 澳大利亚 (Australia) 02 - hotick
-  server: 188.114.97.6
-  port: 80
-  udp: true
-  type: vless
-  uuid: e51453d3-7972-44d7-a657-ed89520f48b6
-  network: ws
-  ws-opts:
-    path: /au-do
-    headers:
-      Host: web.whatsapp.com.r3xxe.eu.cc
-- name: 🇦🇺 澳大利亚 (Australia) 03 - hotick
-  server: 152.67.115.203
-  port: 443
-  udp: true
-  type: hysteria2
-  password: 633bc3be486b646190661ac2387c150a
-  sni: www.bing.com
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: 45.63.30.142
   skip-cert-verify: true
-  obfs: salamander
-  obfs-password: 850a3fb1cd33a28f12d837578ae1a2e7
-- name: 🇦🇺 澳大利亚 (Australia) 04 - hotick
-  server: au001.zestapp778.com
-  port: 54374
-  udp: true
-  type: trojan
-  password: 5t6i121em5lkmsmk
-  sni: au001.zestapp778.com
-  skip-cert-verify: false
-- name: 🇦🇺 澳大利亚 (Australia) 05 - hotick
+- name: 🇦🇺 澳大利亚 (Australia) 02 - hotick
   server: 50.6.54.163
   port: 443
   udp: true
@@ -57,15 +25,7 @@ proxies:
     short-id: 26b26357bfcd59a1
   servername: www.apple.com
   client-fingerprint: chrome
-- name: 🇦🇺 澳大利亚 (Australia) 06 - hotick
-  server: au.tronsg.com
-  port: 443
-  udp: true
-  type: trojan
-  password: Trojan@82164024
-  sni: au.tronsg.com
-  skip-cert-verify: true
-- name: 🇦🇺 澳大利亚 (Australia) 07 - hotick
+- name: 🇦🇺 澳大利亚 (Australia) 03 - hotick
   server: v1au.mateflora.com
   port: 443
   udp: true
@@ -77,17 +37,19 @@ proxies:
     public-key: 7GvJVbR6BRhtrc8-rcZvB8qTFUF1LPeM_MmoZ04mBxo
     short-id: 54cca3c1c1c7
   servername: www.apple.com
-  client-fingerprint: ios
-- name: 🇦🇺 澳大利亚 (Australia) 08 - hotick
-  server: 45.63.30.142
+  client-fingerprint: chrome
+- name: 🇦🇺 澳大利亚 (Australia) 04 - hotick
+  server: 152.67.115.203
   port: 443
   udp: true
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: connectwithemployerstohireyouridealteam.com
-  skip-cert-verify: false
-- name: 🇦🇺 澳大利亚 (Australia) 09 - hotick
-  server: doghkzf.zalolink.com
+  type: hysteria2
+  password: 633bc3be486b646190661ac2387c150a
+  sni: www.bing.com
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: 850a3fb1cd33a28f12d837578ae1a2e7
+- name: 🇦🇺 澳大利亚 (Australia) 05 - hotick
+  server: 39.109.111.23
   port: 48158
   udp: true
   type: vless
@@ -109,10 +71,6 @@ proxy-groups:
   - 🇦🇺 澳大利亚 (Australia) 03 - hotick
   - 🇦🇺 澳大利亚 (Australia) 04 - hotick
   - 🇦🇺 澳大利亚 (Australia) 05 - hotick
-  - 🇦🇺 澳大利亚 (Australia) 06 - hotick
-  - 🇦🇺 澳大利亚 (Australia) 07 - hotick
-  - 🇦🇺 澳大利亚 (Australia) 08 - hotick
-  - 🇦🇺 澳大利亚 (Australia) 09 - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -123,9 +81,5 @@ proxy-groups:
   - 🇦🇺 澳大利亚 (Australia) 03 - hotick
   - 🇦🇺 澳大利亚 (Australia) 04 - hotick
   - 🇦🇺 澳大利亚 (Australia) 05 - hotick
-  - 🇦🇺 澳大利亚 (Australia) 06 - hotick
-  - 🇦🇺 澳大利亚 (Australia) 07 - hotick
-  - 🇦🇺 澳大利亚 (Australia) 08 - hotick
-  - 🇦🇺 澳大利亚 (Australia) 09 - hotick
 rules:
 - MATCH,PROXIES
