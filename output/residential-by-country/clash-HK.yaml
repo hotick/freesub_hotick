@@ -4,23 +4,15 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇭🇰 中国香港 (Hong Kong) 01 (移动家宽) - hotick
-  server: dog-hk.kunlun01dns.com
-  port: 21022
-  udp: true
-  type: vmess
-  uuid: 9464ca40-dd75-3742-a628-d931a9f413b2
-  alterId: 0
-  cipher: auto
-- name: 🇭🇰 中国香港 (Hong Kong) 02 (家宽) - hotick
-  server: 2193972c-tmkao0-u1vxv2-v3c2.hk3.hyhuawei.com
+- name: 🇭🇰 中国香港 (Hong Kong) 01 (家宽) - hotick
+  server: bd8d18d7-tmm5c0-tny186-4lg6.hk3.hyhuawei.com
   port: 443
   udp: true
   type: hysteria2
-  password: 5f091cbe-fb34-11ea-9777-f23c9164ca5d
-  sni: 2193972c-tmkao0-u1vxv2-v3c2.hk3.hyhuawei.com
-  skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - hotick
+  password: a4c9b7cc-a816-11ed-9f65-f23c9164ca5d
+  sni: bd8d18d7-tmm5c0-tny186-4lg6.hk3.hyhuawei.com
+  skip-cert-verify: false
+- name: 🇭🇰 中国香港 (Hong Kong) 02 (家宽) - hotick
   server: 88f7008b-tmm5c0-tonrqx-1khwf.nw4.hyhuawei.com
   port: 443
   udp: true
@@ -33,16 +25,14 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇭🇰 中国香港 (Hong Kong) 01 (移动家宽) - hotick
+  - 🇭🇰 中国香港 (Hong Kong) 01 (家宽) - hotick
   - 🇭🇰 中国香港 (Hong Kong) 02 (家宽) - hotick
-  - 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇭🇰 中国香港 (Hong Kong) 01 (移动家宽) - hotick
+  - 🇭🇰 中国香港 (Hong Kong) 01 (家宽) - hotick
   - 🇭🇰 中国香港 (Hong Kong) 02 (家宽) - hotick
-  - 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - hotick
 rules:
 - MATCH,PROXIES

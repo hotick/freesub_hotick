@@ -6,11 +6,11 @@ log-level: info
 proxies:
 - name: 🇧🇬 保加利亚 (Bulgaria) 01 - hotick
   server: 213.183.63.60
-  port: 9061
+  port: 9028
   udp: true
   type: ss
   cipher: aes-256-cfb
-  password: 4R3hUfZ2FHhDmNcP
+  password: 9eeJ2fwnZA5Fxgz8
 - name: 🇧🇬 保加利亚 (Bulgaria) 02 - hotick
   server: 213.183.63.60
   port: 9098
@@ -20,26 +20,60 @@ proxies:
   password: aLpQtfEZe445QyHk
 - name: 🇧🇬 保加利亚 (Bulgaria) 03 - hotick
   server: 213.183.63.60
+  port: 9054
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: VcFuyXvND2yQWSFY
+- name: 🇧🇬 保加利亚 (Bulgaria) 04 - hotick
+  server: 213.183.63.60
+  port: 9085
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: 9ej82EKe2gq7gLAM
+- name: 🇧🇬 保加利亚 (Bulgaria) 05 - hotick
+  server: 213.183.63.60
+  port: 9029
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: dU3DSNS8wYPXzEKw
+- name: 🇧🇬 保加利亚 (Bulgaria) 06 - hotick
+  server: 213.183.63.60
   port: 9064
   udp: true
   type: ss
   cipher: aes-256-cfb
   password: cp8pRSUAyLhTfVWH
-- name: 🇧🇬 保加利亚 (Bulgaria) 04 - hotick
+- name: 🇧🇬 保加利亚 (Bulgaria) 07 - hotick
   server: 213.183.63.60
   port: 9066
   udp: true
   type: ss
   cipher: aes-256-cfb
   password: 2KUaE2a8NWTvuCZ3
-- name: 🇧🇬 保加利亚 (Bulgaria) 05 - hotick
+- name: 🇧🇬 保加利亚 (Bulgaria) 08 - hotick
   server: 213.183.63.60
   port: 9049
   udp: true
   type: ss
   cipher: aes-256-cfb
   password: PRBf4BS2HvJqtWxY
-- name: 🇧🇬 保加利亚 (Bulgaria) 06 - hotick
+- name: 🇧🇬 保加利亚 (Bulgaria) 09 - hotick
+  server: 88.80.150.15
+  port: 443
+  udp: true
+  type: vless
+  uuid: 1d46250c-f015-439d-a7fd-c4d9e2a4c63d
+  tls: true
+  servername: bg2.oncloudvpn.com
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc
+- name: 🇧🇬 保加利亚 (Bulgaria) 10 - hotick
   server: 195.123.226.21
   port: 443
   udp: true
@@ -52,51 +86,13 @@ proxies:
     short-id: 77bb0d07bddbc832
   servername: gateway.icloud.com
   client-fingerprint: chrome
-- name: 🇧🇬 保加利亚 (Bulgaria) 07 - hotick
-  server: p1real5.greewebservices.ir
-  port: 1270
-  udp: true
-  type: vless
-  uuid: ade238d6-637e-4f6c-b1fc-268579b262f5
-  tls: true
-  reality-opts:
-    public-key: xQnXh5EfPDhcEBB7rRiLca33GYrMEeUa35domLL_yA8
-    short-id: 9b60d3
-  servername: play.googleapis.com
-  client-fingerprint: chrome
-- name: 🇧🇬 保加利亚 (Bulgaria) 08 - hotick
-  server: 88.80.150.15
-  port: 443
-  udp: true
-  type: vless
-  uuid: 1d46250c-f015-439d-a7fd-c4d9e2a4c63d
-  tls: true
-  servername: bg2.oncloudvpn.com
-  skip-cert-verify: false
-  client-fingerprint: edge
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc
-- name: 🇧🇬 保加利亚 (Bulgaria) 09 - hotick
-  server: 131.123.43.103
-  port: 443
-  udp: true
-  type: vless
-  uuid: 3f5e89d5-591f-4ac9-b071-b05680b573c3
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: SgFQg7srP1xgjWhnSU9lpUMDRlsoLIXlw6nX-mfOdlg
-    short-id: 1f8bab7ad81089f2
-  servername: bg2.gacvpn.site
-  client-fingerprint: firefox
-- name: 🇧🇬 保加利亚 (Bulgaria) 10 - hotick
-  server: 213.183.63.60
-  port: 9085
+- name: 🇧🇬 保加利亚 (Bulgaria) 11 - hotick
+  server: c17b957c5a76ec76.lebufflonfermegroup.us
+  port: 35000
   udp: true
   type: ss
-  cipher: aes-256-cfb
-  password: 9ej82EKe2gq7gLAM
+  cipher: aes-128-gcm
+  password: 3411b0af-589e-40f3-b8d5-d2e04ce19fa9
 proxy-groups:
 - name: PROXIES
   type: select
@@ -112,6 +108,7 @@ proxy-groups:
   - 🇧🇬 保加利亚 (Bulgaria) 08 - hotick
   - 🇧🇬 保加利亚 (Bulgaria) 09 - hotick
   - 🇧🇬 保加利亚 (Bulgaria) 10 - hotick
+  - 🇧🇬 保加利亚 (Bulgaria) 11 - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -127,5 +124,6 @@ proxy-groups:
   - 🇧🇬 保加利亚 (Bulgaria) 08 - hotick
   - 🇧🇬 保加利亚 (Bulgaria) 09 - hotick
   - 🇧🇬 保加利亚 (Bulgaria) 10 - hotick
+  - 🇧🇬 保加利亚 (Bulgaria) 11 - hotick
 rules:
 - MATCH,PROXIES

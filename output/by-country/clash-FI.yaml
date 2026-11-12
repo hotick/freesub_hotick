@@ -5,23 +5,39 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇫🇮 芬兰 (Finland) 01 - hotick
-  server: 65.108.240.210
-  port: 39018
-  udp: true
-  type: vmess
-  uuid: 77fb7a80-4724-4e33-9558-4f20c1634c5a
-  alterId: 0
-  cipher: auto
-- name: 🇫🇮 芬兰 (Finland) 02 - hotick
-  server: fi1.obxodvpn.us
+  server: 178.214.125.1
   port: 443
   udp: true
-  type: hysteria2
-  password: 146d567c-6335-4e63-a8aa-7ec068642440
-  sni: fi1.obxodvpn.us
-  skip-cert-verify: false
+  type: vless
+  uuid: 3f3160a0-747d-4fed-bf3d-4d884bfa964d
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: ZxCwJxbsZWJYYCPzeWj7_fxJMVhwh4XGfpvjmEIQjHY
+    short-id: 6172ba9cffe9c22f
+  servername: conf.emaar.ru
+  client-fingerprint: chrome
+- name: 🇫🇮 芬兰 (Finland) 02 - hotick
+  server: 45.144.234.157
+  port: 14430
+  udp: true
+  type: vless
+  uuid: 59b0d30e-9b29-4fda-a35c-b2901ec32db7
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: 45.144.234.157
 - name: 🇫🇮 芬兰 (Finland) 03 - hotick
-  server: free.for.member.iiproxy.com
+  server: 94.183.164.119
+  port: 24433
+  udp: true
+  type: hysteria2
+  password: 549766c3-fa5f-471e-8031-ffc1f8d5064f
+  sni: 94.183.164.119
+  skip-cert-verify: true
+- name: 🇫🇮 芬兰 (Finland) 04 - hotick
+  server: 65.109.208.183
   port: 443
   udp: true
   type: vless
@@ -29,7 +45,8 @@ proxies:
   tls: true
   servername: free.for.member.iiproxy.com
   skip-cert-verify: false
-- name: 🇫🇮 芬兰 (Finland) 04 - hotick
+  client-fingerprint: firefox
+- name: 🇫🇮 芬兰 (Finland) 05 - hotick
   server: 95.216.27.15
   port: 2053
   udp: true
@@ -41,7 +58,38 @@ proxies:
     short-id: 10351b07c712d2a2
   servername: www.cloudflare.com
   client-fingerprint: chrome
-- name: 🇫🇮 芬兰 (Finland) 05 - hotick
+- name: 🇫🇮 芬兰 (Finland) 06 - hotick
+  server: 146.103.118.189
+  port: 443
+  udp: true
+  type: vless
+  uuid: ce698f0c-a8ec-474a-b5d8-3be8032deeb8
+  tls: true
+  servername: nl2.574ck.xyz
+  skip-cert-verify: false
+  client-fingerprint: firefox
+  network: ws
+  ws-opts:
+    path: /574ck-finland
+    headers:
+      Host: nl2.574ck.xyz
+- name: 🇫🇮 芬兰 (Finland) 07 - hotick
+  server: 65.108.240.210
+  port: 39018
+  udp: true
+  type: vmess
+  uuid: 96c987c9-c2d9-4993-b9bd-c9bc36255ee1
+  alterId: 0
+  cipher: auto
+- name: 🇫🇮 芬兰 (Finland) 08 - hotick
+  server: 65.108.240.210
+  port: 39018
+  udp: true
+  type: vmess
+  uuid: 45dc10c6-04c8-4c70-a06a-d396254a6c0b
+  alterId: 0
+  cipher: auto
+- name: 🇫🇮 芬兰 (Finland) 09 - hotick
   server: 72.35.246.39
   port: 2053
   udp: true
@@ -53,39 +101,7 @@ proxies:
     public-key: TSOm7XIZvGzYoCbh_lFFA9PTQJqI-JU5kKIAffGmUWg
     short-id: 5e39e518bfac6392
   servername: vk.ru
-  client-fingerprint: ''
-- name: 🇫🇮 芬兰 (Finland) 06 - hotick
-  server: 169.40.34.41
-  port: 443
-  udp: true
-  type: vless
-  uuid: 622654a4-b666-000b-9260-fb717e05154f
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: 6VMgXXhZdJCiOG05EyK_zTHh00kpFGrZJeZIEPgqhjY
-    short-id: 1c3e8241a8743df9
-  servername: key-master-saver.com
   client-fingerprint: chrome
-- name: 🇫🇮 芬兰 (Finland) 07 - hotick
-  server: 45.144.234.157
-  port: 14430
-  udp: true
-  type: vless
-  uuid: 59b0d30e-9b29-4fda-a35c-b2901ec32db7
-  network: ws
-  ws-opts:
-    path: /vless
-    headers:
-      Host: 45.144.234.157
-- name: 🇫🇮 芬兰 (Finland) 08 - hotick
-  server: 65.108.240.210
-  port: 39018
-  udp: true
-  type: vmess
-  uuid: fa15684a-81e6-4ba7-bc4b-f601c0d998e9
-  alterId: 0
-  cipher: auto
 proxy-groups:
 - name: PROXIES
   type: select
@@ -99,6 +115,7 @@ proxy-groups:
   - 🇫🇮 芬兰 (Finland) 06 - hotick
   - 🇫🇮 芬兰 (Finland) 07 - hotick
   - 🇫🇮 芬兰 (Finland) 08 - hotick
+  - 🇫🇮 芬兰 (Finland) 09 - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -112,5 +129,6 @@ proxy-groups:
   - 🇫🇮 芬兰 (Finland) 06 - hotick
   - 🇫🇮 芬兰 (Finland) 07 - hotick
   - 🇫🇮 芬兰 (Finland) 08 - hotick
+  - 🇫🇮 芬兰 (Finland) 09 - hotick
 rules:
 - MATCH,PROXIES

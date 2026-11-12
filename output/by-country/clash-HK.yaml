@@ -13,31 +13,48 @@ proxies:
   alterId: 0
   cipher: auto
 - name: 🇭🇰 中国香港 (Hong Kong) 02 - hotick
-  server: dog-hk.kunlun01dns.com
-  port: 21018
+  server: 152.32.254.68
+  port: 5010
   udp: true
-  type: vmess
-  uuid: 9464ca40-dd75-3742-a628-d931a9f413b2
-  alterId: 0
-  cipher: auto
+  type: hysteria2
+  password: eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ
+  sni: nas.aizhzo.com
+  skip-cert-verify: false
+  obfs: salamander
+  obfs-password: 7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9
 - name: 🇭🇰 中国香港 (Hong Kong) 03 - hotick
   server: 202.146.222.89
   port: 443
   udp: true
   type: hysteria2
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: vk.com
+  sni: https://t.me/clashv8
   skip-cert-verify: true
 - name: 🇭🇰 中国香港 (Hong Kong) 04 - hotick
+  server: 202.146.222.174
+  port: 443
+  udp: true
+  type: hysteria2
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: https://t.me/WangCai2🇨🇳
+  skip-cert-verify: true
+- name: 🇭🇰 中国香港 (Hong Kong) 05 - hotick
   server: 202.146.222.29
   port: 443
   udp: true
   type: hysteria2
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: css.rbxcdn.com
+  sni: https://t.me/wangcai2рҹүҹү
   skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 05 - hotick
-  server: 43.255.157.53
+- name: 🇭🇰 中国香港 (Hong Kong) 06 - hotick
+  server: 213.176.92.148
+  port: 40647
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: DgMywXKqojHXeuXY8hOJaYGPFcjweCIJeD5cdg/cUUY=
+- name: 🇭🇰 中国香港 (Hong Kong) 07 - hotick
+  server: doghkzf.zalolink.com
   port: 28675
   udp: true
   type: vless
@@ -49,25 +66,21 @@ proxies:
     short-id: 9a79807253c040
   servername: www.lamer.com.hk
   client-fingerprint: chrome
-- name: 🇭🇰 中国香港 (Hong Kong) 06 - hotick
-  server: 202.146.222.174
-  port: 443
-  udp: true
-  type: hysteria2
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: https://t.me/wangcai2🇨🇳
-  skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 07 - hotick
-  server: 152.32.254.68
-  port: 5010
-  udp: true
-  type: hysteria2
-  password: eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ
-  sni: nas.aizhzo.com
-  skip-cert-verify: false
-  obfs: salamander
-  obfs-password: 7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9
 - name: 🇭🇰 中国香港 (Hong Kong) 08 - hotick
+  server: c17b957c5a76ec76.lebufflonfermegroup.us
+  port: 40010
+  udp: true
+  type: ss
+  cipher: aes-128-gcm
+  password: 3411b0af-589e-40f3-b8d5-d2e04ce19fa9
+- name: 🇭🇰 中国香港 (Hong Kong) 09 - hotick
+  server: c17b957c5a76ec76.lebufflonfermegroup.us
+  port: 40011
+  udp: true
+  type: ss
+  cipher: aes-128-gcm
+  password: 3411b0af-589e-40f3-b8d5-d2e04ce19fa9
+- name: 🇭🇰 中国香港 (Hong Kong) 10 - hotick
   server: 103.172.116.201
   port: 10103
   udp: true
@@ -80,13 +93,6 @@ proxies:
     short-id: f96b3b17a0f5b1fe
   servername: www.apple.com
   client-fingerprint: chrome
-- name: 🇭🇰 中国香港 (Hong Kong) 09 - hotick
-  server: 185.22.153.117
-  port: 18443
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: NTiHBg64fsY8u8DbGrtypD9gPGSL386p
 proxy-groups:
 - name: PROXIES
   type: select
@@ -101,6 +107,7 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 07 - hotick
   - 🇭🇰 中国香港 (Hong Kong) 08 - hotick
   - 🇭🇰 中国香港 (Hong Kong) 09 - hotick
+  - 🇭🇰 中国香港 (Hong Kong) 10 - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -115,5 +122,6 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 07 - hotick
   - 🇭🇰 中国香港 (Hong Kong) 08 - hotick
   - 🇭🇰 中国香港 (Hong Kong) 09 - hotick
+  - 🇭🇰 中国香港 (Hong Kong) 10 - hotick
 rules:
 - MATCH,PROXIES
