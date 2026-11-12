@@ -5,6 +5,32 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 01 - hotick
+  server: 172.67.220.103
+  port: 2087
+  udp: true
+  type: trojan
+  password: 80d4cb87-ac70-e074-bc82-6313d2d1b539
+  sni: ayhanmansur-zedmeli.kdns.fr
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /eyJqdW5rIjoiZXJaQklLRUh1R0UiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W10sInJlbGF5SWR4IjowfQ==
+- name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 02 - hotick
+  server: 212.41.9.190
+  port: 2093
+  udp: true
+  type: vless
+  uuid: db57c865-2318-4fd2-8aea-e8ba58ec696d
+  tls: true
+  reality-opts:
+    public-key: QbKQ1yte4_2YD425jzcAy4Ibvj0BYfqKJ54k9WMSRFs
+    short-id: 5284fea4
+  servername: s3.storage.selcloud.ru
+  client-fingerprint: chrome
+  network: grpc
+  grpc-opts:
+    grpc-service-name: cas-kz
+- name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 03 - hotick
   server: 185.246.155.91
   port: 10403
   udp: true
@@ -17,20 +43,21 @@ proxies:
     short-id: 6859f5b59e55aa30
   servername: www.apple.com
   client-fingerprint: chrome
-- name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 02 - hotick
-  server: 109.248.170.119
-  port: 13447
+- name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 04 - hotick
+  server: 176.120.21.23
+  port: 443
   udp: true
   type: vless
-  uuid: b573cefb-7bc7-4a42-b407-b8b534e66773
+  uuid: 83cc8226-1087-49ae-aac3-1f157ddc57b4
+  flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: _0wM2ep44eAcrgf5PflKaBivknCWT6kMvQBQUoScCkE
-    short-id: '83'
+    public-key: OAU9917HKYqvTO59c9SvAL9BBh8v85tfJhw5PMg-2iU
+    short-id: c4d4cf50489d51
   servername: yahoo.com
   client-fingerprint: chrome
-- name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 03 - hotick
-  server: 3h-kazakhstan1.09vpn.com
+- name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 05 - hotick
+  server: 38.107.234.57
   port: 8443
   udp: true
   type: vless
@@ -38,7 +65,6 @@ proxies:
   tls: true
   servername: 3h-kazakhstan1.09vpn.com
   skip-cert-verify: false
-  client-fingerprint: chrome
   network: ws
   ws-opts:
     path: /vless/
@@ -50,6 +76,8 @@ proxy-groups:
   - 🇰🇿 哈萨克斯坦 (Kazakhstan) 01 - hotick
   - 🇰🇿 哈萨克斯坦 (Kazakhstan) 02 - hotick
   - 🇰🇿 哈萨克斯坦 (Kazakhstan) 03 - hotick
+  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 04 - hotick
+  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 05 - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -58,5 +86,7 @@ proxy-groups:
   - 🇰🇿 哈萨克斯坦 (Kazakhstan) 01 - hotick
   - 🇰🇿 哈萨克斯坦 (Kazakhstan) 02 - hotick
   - 🇰🇿 哈萨克斯坦 (Kazakhstan) 03 - hotick
+  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 04 - hotick
+  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 05 - hotick
 rules:
 - MATCH,PROXIES

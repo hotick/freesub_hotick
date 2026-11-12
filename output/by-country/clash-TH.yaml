@@ -21,13 +21,18 @@ proxies:
   alterId: 0
   cipher: auto
 - name: 🇹🇭 泰国 (Thailand) 03 - hotick
-  server: 38.60.233.126
-  port: 33079
+  server: 23.95.72.244
+  port: 5458
   udp: true
-  type: trojan
-  password: 5t6i121em5lkmsmk
-  sni: th001.zestapp778.com
-  skip-cert-verify: false
+  type: vless
+  uuid: 9a5e7b1c-bf39-4b1f-891f-ac87824ee38f
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: NfmPfb_XeLj8j8cho5JkVKW3u_KA2G5UrZyOAhZAxn8
+    short-id: ba80520852fb9c25
+  servername: api.adidas.com
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select

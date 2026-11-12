@@ -20,15 +20,24 @@
       "security": "auto"
     },
     {
-      "type": "trojan",
+      "type": "vless",
       "tag": "🇹🇭 泰国 (Thailand) 03 - hotick",
-      "server": "38.60.233.126",
-      "server_port": 33079,
-      "password": "5t6i121em5lkmsmk",
+      "server": "23.95.72.244",
+      "server_port": 5458,
+      "uuid": "9a5e7b1c-bf39-4b1f-891f-ac87824ee38f",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "th001.zestapp778.com",
-        "insecure": false
+        "server_name": "api.adidas.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "NfmPfb_XeLj8j8cho5JkVKW3u_KA2G5UrZyOAhZAxn8",
+          "short_id": "ba80520852fb9c25"
+        }
       }
     },
     {

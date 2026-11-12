@@ -6,18 +6,39 @@
     {
       "type": "trojan",
       "tag": "🇦🇺 澳大利亚 (Australia) 01 - hotick",
-      "server": "45.63.30.142",
+      "server": "185.18.250.252",
       "server_port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "password": "74480619-b6a8-4ab8-94e1-1132fc18b2fa",
       "tls": {
         "enabled": true,
-        "server_name": "45.63.30.142",
-        "insecure": true
+        "server_name": "unnes.ac.id.r3xxe.eu.cc",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/au-mt",
+        "headers": {
+          "Host": "unnes.ac.id.r3xxe.eu.cc"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇦🇺 澳大利亚 (Australia) 02 - hotick",
+      "server": "188.114.97.6",
+      "server_port": 80,
+      "uuid": "e51453d3-7972-44d7-a657-ed89520f48b6",
+      "transport": {
+        "type": "ws",
+        "path": "/au-do",
+        "headers": {
+          "Host": "web.whatsapp.com.r3xxe.eu.cc"
+        }
       }
     },
     {
       "type": "hysteria2",
-      "tag": "🇦🇺 澳大利亚 (Australia) 02 - hotick",
+      "tag": "🇦🇺 澳大利亚 (Australia) 03 - hotick",
       "server": "152.67.115.203",
       "server_port": 443,
       "password": "633bc3be486b646190661ac2387c150a",
@@ -33,14 +54,14 @@
     },
     {
       "type": "trojan",
-      "tag": "🇦🇺 澳大利亚 (Australia) 03 - hotick",
-      "server": "au.tronsg.com",
-      "server_port": 443,
-      "password": "Trojan@82164024",
+      "tag": "🇦🇺 澳大利亚 (Australia) 04 - hotick",
+      "server": "au001.zestapp778.com",
+      "server_port": 54374,
+      "password": "5t6i121em5lkmsmk",
       "tls": {
         "enabled": true,
-        "server_name": "au.tronsg.com",
-        "insecure": true,
+        "server_name": "au001.zestapp778.com",
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -49,7 +70,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇦🇺 澳大利亚 (Australia) 04 - hotick",
+      "tag": "🇦🇺 澳大利亚 (Australia) 05 - hotick",
       "server": "50.6.54.163",
       "server_port": 443,
       "uuid": "dbf3f074-3b18-43f3-b82a-debd8c879c69",
@@ -70,14 +91,14 @@
     },
     {
       "type": "trojan",
-      "tag": "🇦🇺 澳大利亚 (Australia) 05 - hotick",
-      "server": "au001.zestapp778.com",
-      "server_port": 54374,
-      "password": "5t6i121em5lkmsmk",
+      "tag": "🇦🇺 澳大利亚 (Australia) 06 - hotick",
+      "server": "au.tronsg.com",
+      "server_port": 443,
+      "password": "Trojan@82164024",
       "tls": {
         "enabled": true,
-        "server_name": "au001.zestapp778.com",
-        "insecure": false,
+        "server_name": "au.tronsg.com",
+        "insecure": true,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -86,7 +107,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇦🇺 澳大利亚 (Australia) 06 - hotick",
+      "tag": "🇦🇺 澳大利亚 (Australia) 07 - hotick",
       "server": "v1au.mateflora.com",
       "server_port": 443,
       "uuid": "57beeeb0-03fc-4fc9-94da-7604488a7134",
@@ -106,9 +127,21 @@
       }
     },
     {
+      "type": "trojan",
+      "tag": "🇦🇺 澳大利亚 (Australia) 08 - hotick",
+      "server": "45.63.30.142",
+      "server_port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "connectwithemployerstohireyouridealteam.com",
+        "insecure": false
+      }
+    },
+    {
       "type": "vless",
-      "tag": "🇦🇺 澳大利亚 (Australia) 07 - hotick",
-      "server": "39.109.111.23",
+      "tag": "🇦🇺 澳大利亚 (Australia) 09 - hotick",
+      "server": "doghkzf.zalolink.com",
       "server_port": 48158,
       "uuid": "57beeeb0-03fc-4fc9-94da-7604488a7134",
       "flow": "xtls-rprx-vision",
@@ -117,7 +150,7 @@
         "server_name": "www.apple.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -137,7 +170,9 @@
         "🇦🇺 澳大利亚 (Australia) 04 - hotick",
         "🇦🇺 澳大利亚 (Australia) 05 - hotick",
         "🇦🇺 澳大利亚 (Australia) 06 - hotick",
-        "🇦🇺 澳大利亚 (Australia) 07 - hotick"
+        "🇦🇺 澳大利亚 (Australia) 07 - hotick",
+        "🇦🇺 澳大利亚 (Australia) 08 - hotick",
+        "🇦🇺 澳大利亚 (Australia) 09 - hotick"
       ]
     },
     {
@@ -150,7 +185,9 @@
         "🇦🇺 澳大利亚 (Australia) 04 - hotick",
         "🇦🇺 澳大利亚 (Australia) 05 - hotick",
         "🇦🇺 澳大利亚 (Australia) 06 - hotick",
-        "🇦🇺 澳大利亚 (Australia) 07 - hotick"
+        "🇦🇺 澳大利亚 (Australia) 07 - hotick",
+        "🇦🇺 澳大利亚 (Australia) 08 - hotick",
+        "🇦🇺 澳大利亚 (Australia) 09 - hotick"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

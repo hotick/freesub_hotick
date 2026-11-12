@@ -6,6 +6,34 @@
     {
       "type": "vless",
       "tag": "🇧🇪 比利时 (Belgium) 01 - hotick",
+      "server": "104.21.64.198",
+      "server_port": 2095,
+      "uuid": "73796e63-0000-4000-8000-000000000008",
+      "transport": {
+        "type": "ws",
+        "path": "/sync",
+        "headers": {
+          "Host": "vqrlof-pwa5a7-onfjlv.zedbazi061.workers.dev"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇧🇪 比利时 (Belgium) 02 - hotick",
+      "server": "104.21.64.198",
+      "server_port": 2086,
+      "uuid": "73796e63-0000-4000-8000-000000000007",
+      "transport": {
+        "type": "ws",
+        "path": "/sync",
+        "headers": {
+          "Host": "vqrlof-pwa5a7-onfjlv.zedbazi061.workers.dev"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇧🇪 比利时 (Belgium) 03 - hotick",
       "server": "167.17.64.67",
       "server_port": 10303,
       "uuid": "dbf3f074-3b18-43f3-b82a-debd8c879c69",
@@ -15,7 +43,7 @@
         "server_name": "www.apple.com",
         "utls": {
           "enabled": true,
-          "fingerprint": ""
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -29,14 +57,18 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇧🇪 比利时 (Belgium) 01 - hotick"
+        "🇧🇪 比利时 (Belgium) 01 - hotick",
+        "🇧🇪 比利时 (Belgium) 02 - hotick",
+        "🇧🇪 比利时 (Belgium) 03 - hotick"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇧🇪 比利时 (Belgium) 01 - hotick"
+        "🇧🇪 比利时 (Belgium) 01 - hotick",
+        "🇧🇪 比利时 (Belgium) 02 - hotick",
+        "🇧🇪 比利时 (Belgium) 03 - hotick"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

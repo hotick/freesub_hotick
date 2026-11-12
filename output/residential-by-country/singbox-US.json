@@ -20,26 +20,10 @@
       }
     },
     {
-      "type": "trojan",
-      "tag": "🇺🇸 美国 (United States) 02 (移动家宽) - hotick",
-      "server": "us001.zestapp778.com",
-      "server_port": 57277,
-      "password": "5t6i121em5lkmsmk",
-      "tls": {
-        "enabled": true,
-        "server_name": "us001.zestapp778.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 03 (移动家宽) - hotick",
+      "tag": "🇺🇸 美国 (United States) 02 (移动家宽) - hotick",
       "server": "23.95.72.244",
-      "server_port": 5466,
+      "server_port": 5465,
       "uuid": "9a5e7b1c-bf39-4b1f-891f-ac87824ee38f",
       "flow": "xtls-rprx-vision",
       "tls": {
@@ -47,18 +31,18 @@
         "server_name": "api.adidas.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "edge"
         },
         "reality": {
           "enabled": true,
-          "public_key": "vr-C-6JEfZhnEVO2NDzUIlRhr0LCXFx9BoOBb31AsSg",
-          "short_id": "fb16a20a0815"
+          "public_key": "GaZo6ZlyOUxhems08m3fhEc-0j3IYppLUpjNmMqNjlk",
+          "short_id": "7024258fb07f5eb5"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 04 (移动家宽) - hotick",
+      "tag": "🇺🇸 美国 (United States) 03 (移动家宽) - hotick",
       "server": "23.95.72.244",
       "server_port": 5467,
       "uuid": "9a5e7b1c-bf39-4b1f-891f-ac87824ee38f",
@@ -79,9 +63,9 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 05 (移动家宽) - hotick",
+      "tag": "🇺🇸 美国 (United States) 04 (移动家宽) - hotick",
       "server": "23.95.72.244",
-      "server_port": 5465,
+      "server_port": 5464,
       "uuid": "9a5e7b1c-bf39-4b1f-891f-ac87824ee38f",
       "flow": "xtls-rprx-vision",
       "tls": {
@@ -89,12 +73,12 @@
         "server_name": "api.adidas.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "edge"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "GaZo6ZlyOUxhems08m3fhEc-0j3IYppLUpjNmMqNjlk",
-          "short_id": "7024258fb07f5eb5"
+          "public_key": "Dv_9FO1focQJCvcUOspkZ5AGoZ4CxbTUp7dVKzt9LVA",
+          "short_id": "d07e9dcda8"
         }
       }
     },
@@ -106,8 +90,7 @@
         "🇺🇸 美国 (United States) 01 (移动家宽) - hotick",
         "🇺🇸 美国 (United States) 02 (移动家宽) - hotick",
         "🇺🇸 美国 (United States) 03 (移动家宽) - hotick",
-        "🇺🇸 美国 (United States) 04 (移动家宽) - hotick",
-        "🇺🇸 美国 (United States) 05 (移动家宽) - hotick"
+        "🇺🇸 美国 (United States) 04 (移动家宽) - hotick"
       ]
     },
     {
@@ -117,8 +100,7 @@
         "🇺🇸 美国 (United States) 01 (移动家宽) - hotick",
         "🇺🇸 美国 (United States) 02 (移动家宽) - hotick",
         "🇺🇸 美国 (United States) 03 (移动家宽) - hotick",
-        "🇺🇸 美国 (United States) 04 (移动家宽) - hotick",
-        "🇺🇸 美国 (United States) 05 (移动家宽) - hotick"
+        "🇺🇸 美国 (United States) 04 (移动家宽) - hotick"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
