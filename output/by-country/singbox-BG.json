@@ -7,29 +7,21 @@
       "type": "shadowsocks",
       "tag": "🇧🇬 保加利亚 (Bulgaria) 01 - hotick",
       "server": "213.183.63.60",
-      "server_port": 9028,
-      "method": "aes-256-cfb",
-      "password": "9eeJ2fwnZA5Fxgz8"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇧🇬 保加利亚 (Bulgaria) 02 - hotick",
-      "server": "213.183.63.60",
       "server_port": 9098,
       "method": "aes-256-cfb",
       "password": "aLpQtfEZe445QyHk"
     },
     {
       "type": "shadowsocks",
-      "tag": "🇧🇬 保加利亚 (Bulgaria) 03 - hotick",
+      "tag": "🇧🇬 保加利亚 (Bulgaria) 02 - hotick",
       "server": "213.183.63.60",
-      "server_port": 9054,
+      "server_port": 9049,
       "method": "aes-256-cfb",
-      "password": "VcFuyXvND2yQWSFY"
+      "password": "PRBf4BS2HvJqtWxY"
     },
     {
       "type": "shadowsocks",
-      "tag": "🇧🇬 保加利亚 (Bulgaria) 04 - hotick",
+      "tag": "🇧🇬 保加利亚 (Bulgaria) 03 - hotick",
       "server": "213.183.63.60",
       "server_port": 9085,
       "method": "aes-256-cfb",
@@ -37,7 +29,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇧🇬 保加利亚 (Bulgaria) 05 - hotick",
+      "tag": "🇧🇬 保加利亚 (Bulgaria) 04 - hotick",
       "server": "213.183.63.60",
       "server_port": 9029,
       "method": "aes-256-cfb",
@@ -45,7 +37,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇧🇬 保加利亚 (Bulgaria) 06 - hotick",
+      "tag": "🇧🇬 保加利亚 (Bulgaria) 05 - hotick",
       "server": "213.183.63.60",
       "server_port": 9064,
       "method": "aes-256-cfb",
@@ -53,23 +45,15 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇧🇬 保加利亚 (Bulgaria) 07 - hotick",
+      "tag": "🇧🇬 保加利亚 (Bulgaria) 06 - hotick",
       "server": "213.183.63.60",
-      "server_port": 9066,
+      "server_port": 9061,
       "method": "aes-256-cfb",
-      "password": "2KUaE2a8NWTvuCZ3"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇧🇬 保加利亚 (Bulgaria) 08 - hotick",
-      "server": "213.183.63.60",
-      "server_port": 9049,
-      "method": "aes-256-cfb",
-      "password": "PRBf4BS2HvJqtWxY"
+      "password": "4R3hUfZ2FHhDmNcP"
     },
     {
       "type": "vless",
-      "tag": "🇧🇬 保加利亚 (Bulgaria) 09 - hotick",
+      "tag": "🇧🇬 保加利亚 (Bulgaria) 07 - hotick",
       "server": "88.80.150.15",
       "server_port": 443,
       "uuid": "1d46250c-f015-439d-a7fd-c4d9e2a4c63d",
@@ -92,7 +76,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇧🇬 保加利亚 (Bulgaria) 10 - hotick",
+      "tag": "🇧🇬 保加利亚 (Bulgaria) 08 - hotick",
       "server": "195.123.226.21",
       "server_port": 443,
       "uuid": "6589c320-db68-43cd-a273-b46299bab355",
@@ -112,14 +96,6 @@
       }
     },
     {
-      "type": "shadowsocks",
-      "tag": "🇧🇬 保加利亚 (Bulgaria) 11 - hotick",
-      "server": "c17b957c5a76ec76.lebufflonfermegroup.us",
-      "server_port": 35000,
-      "method": "aes-128-gcm",
-      "password": "3411b0af-589e-40f3-b8d5-d2e04ce19fa9"
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
@@ -131,10 +107,7 @@
         "🇧🇬 保加利亚 (Bulgaria) 05 - hotick",
         "🇧🇬 保加利亚 (Bulgaria) 06 - hotick",
         "🇧🇬 保加利亚 (Bulgaria) 07 - hotick",
-        "🇧🇬 保加利亚 (Bulgaria) 08 - hotick",
-        "🇧🇬 保加利亚 (Bulgaria) 09 - hotick",
-        "🇧🇬 保加利亚 (Bulgaria) 10 - hotick",
-        "🇧🇬 保加利亚 (Bulgaria) 11 - hotick"
+        "🇧🇬 保加利亚 (Bulgaria) 08 - hotick"
       ]
     },
     {
@@ -148,10 +121,7 @@
         "🇧🇬 保加利亚 (Bulgaria) 05 - hotick",
         "🇧🇬 保加利亚 (Bulgaria) 06 - hotick",
         "🇧🇬 保加利亚 (Bulgaria) 07 - hotick",
-        "🇧🇬 保加利亚 (Bulgaria) 08 - hotick",
-        "🇧🇬 保加利亚 (Bulgaria) 09 - hotick",
-        "🇧🇬 保加利亚 (Bulgaria) 10 - hotick",
-        "🇧🇬 保加利亚 (Bulgaria) 11 - hotick"
+        "🇧🇬 保加利亚 (Bulgaria) 08 - hotick"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
