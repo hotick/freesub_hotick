@@ -30,17 +30,6 @@ proxies:
   servername: xmfhlpy.com
   skip-cert-verify: false
 - name: 🇸🇪 瑞典 (Sweden) 04 - hotick
-  server: 5.178.109.174
-  port: 14430
-  udp: true
-  type: vless
-  uuid: 80de563a-cac8-40ea-8cb0-4cb082dd92f9
-  network: ws
-  ws-opts:
-    path: /vless
-    headers:
-      Host: 5.178.109.174
-- name: 🇸🇪 瑞典 (Sweden) 05 - hotick
   server: 62.93.166.184
   port: 1270
   udp: true
@@ -51,19 +40,7 @@ proxies:
   tls: true
   servername: xmfhlpy.com
   skip-cert-verify: false
-- name: 🇸🇪 瑞典 (Sweden) 06 - hotick
-  server: 84.32.217.164
-  port: 443
-  udp: true
-  type: vless
-  uuid: fa081e9f-7574-4e18-8928-31aa5ac923c7
-  tls: true
-  reality-opts:
-    public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
-    short-id: 868419504747f6de
-  servername: tcpswed1.figurapn.ru
-  client-fingerprint: chrome
-- name: 🇸🇪 瑞典 (Sweden) 07 - hotick
+- name: 🇸🇪 瑞典 (Sweden) 05 - hotick
   server: 138.124.86.230
   port: 48115
   udp: true
@@ -72,17 +49,11 @@ proxies:
   tls: true
   servername: 138-124-86-230.sslip.io
   skip-cert-verify: false
+  client-fingerprint: firefox
   network: grpc
   grpc-opts:
     grpc-service-name: 138-124-86-230-sslip-io
-- name: 🇸🇪 瑞典 (Sweden) 08 - hotick
-  server: 62.182.193.228
-  port: 8388
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 2e555e46dbc421452416834962fd014f
-- name: 🇸🇪 瑞典 (Sweden) 09 - hotick
+- name: 🇸🇪 瑞典 (Sweden) 06 - hotick
   server: 95.143.196.97
   port: 443
   udp: true
@@ -90,7 +61,18 @@ proxies:
   password: 769f34f0-1500-488f-b414-03bc90666502
   sni: se.mimowhat.online
   skip-cert-verify: false
-- name: 🇸🇪 瑞典 (Sweden) 10 - hotick
+- name: 🇸🇪 瑞典 (Sweden) 07 - hotick
+  server: 5.178.109.174
+  port: 14430
+  udp: true
+  type: vless
+  uuid: 80de563a-cac8-40ea-8cb0-4cb082dd92f9
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: 5.178.109.174
+- name: 🇸🇪 瑞典 (Sweden) 08 - hotick
   server: 70.34.212.124
   port: 8388
   udp: true
@@ -110,8 +92,6 @@ proxy-groups:
   - 🇸🇪 瑞典 (Sweden) 06 - hotick
   - 🇸🇪 瑞典 (Sweden) 07 - hotick
   - 🇸🇪 瑞典 (Sweden) 08 - hotick
-  - 🇸🇪 瑞典 (Sweden) 09 - hotick
-  - 🇸🇪 瑞典 (Sweden) 10 - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -125,7 +105,5 @@ proxy-groups:
   - 🇸🇪 瑞典 (Sweden) 06 - hotick
   - 🇸🇪 瑞典 (Sweden) 07 - hotick
   - 🇸🇪 瑞典 (Sweden) 08 - hotick
-  - 🇸🇪 瑞典 (Sweden) 09 - hotick
-  - 🇸🇪 瑞典 (Sweden) 10 - hotick
 rules:
 - MATCH,PROXIES

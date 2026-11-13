@@ -5,13 +5,41 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇷🇴 罗马尼亚 (Romania) 01 - hotick
+  server: bogging-eyeteeth-fly.freesocks.work
+  port: 443
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: QFWzCw2uX9B9i6qAYeFBIE
+- name: 🇷🇴 罗马尼亚 (Romania) 02 - hotick
   server: 82.152.132.211
   port: 8044
   udp: true
   type: ss
   cipher: chacha20-ietf-poly1305
   password: byX4-DV0C42PLFTWQhMTAQ63mZ8qrDRB
-- name: 🇷🇴 罗马尼亚 (Romania) 02 - hotick
+- name: 🇷🇴 罗马尼亚 (Romania) 03 - hotick
+  server: 185.156.44.99
+  port: 443
+  udp: true
+  type: hysteria2
+  password: gf1:gfhysteria2024
+  sni: www.amazon.com
+  skip-cert-verify: true
+- name: 🇷🇴 罗马尼亚 (Romania) 04 - hotick
+  server: 46.28.67.55
+  port: 443
+  udp: true
+  type: vless
+  uuid: d1a6a033-fdbd-46a6-a177-3370ba042b9f
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: i2dJ1_XGDpp50qpEclh6SWSWkxt4B0t2hi2qOVQbeSU
+    short-id: d06d78e974491b6e
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇷🇴 罗马尼亚 (Romania) 05 - hotick
   server: 162.249.125.133
   port: 443
   udp: true
@@ -21,36 +49,6 @@ proxies:
   skip-cert-verify: false
   obfs: salamander
   obfs-password: c1b4086fea89914496c7e10967a419216566
-- name: 🇷🇴 罗马尼亚 (Romania) 03 - hotick
-  server: 185.156.44.99
-  port: 443
-  udp: true
-  type: hysteria2
-  password: gf1:gfhysteria2024
-  sni: css.rbxcdn.com
-  skip-cert-verify: true
-- name: 🇷🇴 罗马尼亚 (Romania) 04 - hotick
-  server: 46.28.67.211
-  port: 443
-  udp: true
-  type: vless
-  uuid: f8cb3c89-32af-4255-bebc-d90aad175069
-  tls: true
-  reality-opts:
-    public-key: pR39Vv5qhk8r6akOicoy6mMs4-ppSWUez8MyAXG7wwQ
-    short-id: 27350908de933e09
-  servername: roa.kosmosapp.net
-  client-fingerprint: chrome
-  network: grpc
-  grpc-opts:
-    grpc-service-name: neurex
-- name: 🇷🇴 罗马尼亚 (Romania) 05 - hotick
-  server: 154.46.31.106
-  port: 443
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: QFWzCw2uX9B9i6qAYeFBIE
 proxy-groups:
 - name: PROXIES
   type: select

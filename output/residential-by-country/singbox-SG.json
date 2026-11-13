@@ -5,10 +5,10 @@
   "outbounds": [
     {
       "type": "vmess",
-      "tag": "🇹🇭 泰国 (Thailand) 01 - hotick",
-      "server": "119.46.51.45",
-      "server_port": 37515,
-      "uuid": "9b76bc31-17a5-4454-934a-8d5fb602cd70",
+      "tag": "🇸🇬 新加坡 (Singapore) 01 (家宽) - hotick",
+      "server": "195.133.135.238",
+      "server_port": 10086,
+      "uuid": "b831381d-6324-4d53-ad4f-8cda48b30811",
       "security": "auto"
     },
     {
@@ -16,14 +16,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇹🇭 泰国 (Thailand) 01 - hotick"
+        "🇸🇬 新加坡 (Singapore) 01 (家宽) - hotick"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇹🇭 泰国 (Thailand) 01 - hotick"
+        "🇸🇬 新加坡 (Singapore) 01 (家宽) - hotick"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

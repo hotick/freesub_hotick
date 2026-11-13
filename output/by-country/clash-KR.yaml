@@ -13,14 +13,18 @@ proxies:
   alterId: 0
   cipher: auto
 - name: 🇰🇷 韩国 (South Korea) 02 - hotick
-  server: 152.69.226.63
-  port: 25555
+  server: 132.145.80.230
+  port: 80
   udp: true
-  type: vless
-  uuid: 27c5483f-17f4-48ae-9a04-def53d88440d
+  type: vmess
+  uuid: 5155860e-d07d-46c3-9128-3afbd84626c7
+  alterId: 0
+  cipher: auto
   network: ws
   ws-opts:
-    path: /
+    path: /cctv13.m3u8
+    headers:
+      Host: 'null'
 - name: 🇰🇷 韩国 (South Korea) 03 - hotick
   server: 132.226.226.189
   port: 50160
@@ -36,50 +40,23 @@ proxies:
   type: trojan
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   sni: connectgraduateswithjobopeningsandgrowprofessionally.com
-  skip-cert-verify: true
+  skip-cert-verify: false
 - name: 🇰🇷 韩国 (South Korea) 05 - hotick
   server: 152.69.231.175
   port: 50160
   udp: true
   type: hysteria2
   password: 1beb216e3f60aea9555dae60d219a5ca
-  sni: 152-69-231-175.liao.kdns.fr
+  sni: 152.69.231.175
   skip-cert-verify: true
 - name: 🇰🇷 韩国 (South Korea) 06 - hotick
-  server: 43.155.182.152
-  port: 443
+  server: 218.237.185.234
+  port: 4652
   udp: true
-  type: vless
-  uuid: 3567660e-d2a7-4a8a-b379-2ff61e7f52ba
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: 1HazPAvhO7sdmIloNjQEDXtjVP8i-Gn59doTSRVuiGY
-    short-id: a905935ed2d659fe
-  servername: live.douyin.com
-  client-fingerprint: firefox
+  type: ss
+  cipher: aes-256-cfb
+  password: qwerREWQ@@
 - name: 🇰🇷 韩国 (South Korea) 07 - hotick
-  server: 132.145.80.230
-  port: 80
-  udp: true
-  type: vmess
-  uuid: 5155860e-d07d-46c3-9128-3afbd84626c7
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-opts:
-    path: /cctv13.m3u8
-    headers:
-      Host: kr02.a0a.xyz
-- name: 🇰🇷 韩国 (South Korea) 08 - hotick
-  server: 152.67.200.82
-  port: 50160
-  udp: true
-  type: hysteria2
-  password: 3d7634af8cb2c6cb4bac1c0efad8b43d
-  sni: 152-67-200-82.liao.kdns.fr
-  skip-cert-verify: true
-- name: 🇰🇷 韩国 (South Korea) 09 - hotick
   server: 152.70.237.123
   port: 2053
   udp: true
@@ -87,6 +64,21 @@ proxies:
   password: maintell
   sni: bing.com
   skip-cert-verify: true
+- name: 🇰🇷 韩国 (South Korea) 08 - hotick
+  server: 152.67.200.82
+  port: 50160
+  udp: true
+  type: hysteria2
+  password: 3d7634af8cb2c6cb4bac1c0efad8b43d
+  sni: css.rbxcdn.com
+  skip-cert-verify: true
+- name: 🇰🇷 韩国 (South Korea) 09 - hotick
+  server: 211.178.105.134
+  port: 6123
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: qwerREWQ@@
 - name: 🇰🇷 韩国 (South Korea) 10 - hotick
   server: 151.245.106.49
   port: 2053
@@ -108,18 +100,14 @@ proxies:
   sni: 154.90.62.70
   skip-cert-verify: true
 - name: 🇰🇷 韩国 (South Korea) 12 - hotick
-  server: 47.80.19.173
-  port: 2053
+  server: 152.69.226.63
+  port: 25555
   udp: true
   type: vless
-  uuid: 319d5ffb-57e8-4bbd-ac0c-5d55d0c253de
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: DfFU5OG93GxB1x25Dl2BTkxKsBTFF4Su4PXYPbYvmms
-    short-id: 3c4041d3
-  servername: gateway.icloud.com
-  client-fingerprint: chrome
+  uuid: 27c5483f-17f4-48ae-9a04-def53d88440d
+  network: ws
+  ws-opts:
+    path: /
 proxy-groups:
 - name: PROXIES
   type: select
