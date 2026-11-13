@@ -4,23 +4,26 @@
   },
   "outbounds": [
     {
-      "type": "vmess",
-      "tag": "🇮🇩 印尼 (Indonesia) 01 - hotick",
-      "server": "13.249.231.85",
+      "type": "vless",
+      "tag": "🇨🇾 塞浦路斯 (Cyprus) 01 - hotick",
+      "server": "91.92.137.165",
       "server_port": 443,
-      "uuid": "a84c132a-3151-40fe-947b-4dd9a7d2122c",
-      "security": "auto",
+      "uuid": "1d46250c-f015-439d-a7fd-c4d9e2a4c63d",
       "tls": {
         "enabled": true,
-        "server_name": "d7pu5mzr9c4b0.cloudfront.net",
-        "insecure": false
+        "server_name": "bg.oncloudvpn.com",
+        "insecure": false,
+        "alpn": [
+          "h2"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       },
       "transport": {
-        "type": "ws",
-        "path": "/vmess",
-        "headers": {
-          "Host": "d7pu5mzr9c4b0.cloudfront.net"
-        }
+        "type": "grpc",
+        "service_name": "grpc"
       }
     },
     {
@@ -28,14 +31,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇮🇩 印尼 (Indonesia) 01 - hotick"
+        "🇨🇾 塞浦路斯 (Cyprus) 01 - hotick"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇩 印尼 (Indonesia) 01 - hotick"
+        "🇨🇾 塞浦路斯 (Cyprus) 01 - hotick"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

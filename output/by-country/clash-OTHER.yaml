@@ -5,101 +5,51 @@ mode: rule
 log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - hotick
-  server: 172.67.137.158
-  port: 443
+  server: 172.64.155.209
+  port: 8443
   udp: true
   type: vmess
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
   alterId: 0
   cipher: auto
   tls: true
-  servername: nomino.11hi8itbaf.workers.dev
+  servername: v2ray1.dozapp.xyz
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /guanwang.awsno.com/hls/cctv5phd.m3u8
+    path: /lMnsZUN4/
     headers:
-      Host: nomino.11hi8itbaf.workers.dev
+      Host: v2ray1.dozapp.xyz
 - name: 🌐 其他地区 (Other) 02 - hotick
-  server: cf.090227.xyz
-  port: 443
+  server: 172.64.155.209
+  port: 8443
   udp: true
   type: vmess
-  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
   alterId: 0
   cipher: auto
   tls: true
-  servername: vmess.lbw666.dpdns.org
+  servername: v2ray1.dozapp.xyz
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /ws
-    headers:
-      Host: vmess.lbw666.dpdns.org
+    path: /lMnsZUN4/
 - name: 🌐 其他地区 (Other) 03 - hotick
-  server: cf.090227.xyz
-  port: 443
+  server: 172.64.155.209
+  port: 8443
   udp: true
   type: vmess
-  uuid: 290cc691-3ac6-4387-98a1-25c8eb8ca2ea
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
   alterId: 0
   cipher: auto
   tls: true
-  servername: sgal.dagrate.eu.org
+  servername: v2ray1.dozapp.xyz
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /
+    path: /lMnsZUN4/
     headers:
-      Host: sgal.dagrate.eu.org
-- name: 🌐 其他地区 (Other) 04 - hotick
-  server: cf.090227.xyz
-  port: 443
-  udp: true
-  type: vmess
-  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: vmess.lbw666.dpdns.org
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /ws?ed=2048
-    headers:
-      Host: vmess.lbw666.dpdns.org
-- name: 🌐 其他地区 (Other) 05 - hotick
-  server: cf.090227.xyz
-  port: 443
-  udp: true
-  type: vmess
-  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: vmess.lbw666.dpdns.org
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /ws?ed=2048
-    headers:
-      Host: vmess.lbw666.dpdns.org
-- name: 🌐 其他地区 (Other) 06 - hotick
-  server: cf.090227.xyz
-  port: 443
-  udp: true
-  type: vmess
-  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: vmess.lbw666.dpdns.org
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /ws?ed=2048
-    headers:
-      Host: vmess.lbw666.dpdns.org
+      Host: v2ray1.dozapp.xyz
 proxy-groups:
 - name: PROXIES
   type: select
@@ -108,9 +58,6 @@ proxy-groups:
   - 🌐 其他地区 (Other) 01 - hotick
   - 🌐 其他地区 (Other) 02 - hotick
   - 🌐 其他地区 (Other) 03 - hotick
-  - 🌐 其他地区 (Other) 04 - hotick
-  - 🌐 其他地区 (Other) 05 - hotick
-  - 🌐 其他地区 (Other) 06 - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -119,8 +66,5 @@ proxy-groups:
   - 🌐 其他地区 (Other) 01 - hotick
   - 🌐 其他地区 (Other) 02 - hotick
   - 🌐 其他地区 (Other) 03 - hotick
-  - 🌐 其他地区 (Other) 04 - hotick
-  - 🌐 其他地区 (Other) 05 - hotick
-  - 🌐 其他地区 (Other) 06 - hotick
 rules:
 - MATCH,PROXIES

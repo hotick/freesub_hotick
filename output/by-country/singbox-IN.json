@@ -4,8 +4,36 @@
   },
   "outbounds": [
     {
-      "type": "vless",
+      "type": "shadowsocks",
       "tag": "🇮🇳 印度 (India) 01 - hotick",
+      "server": "172.105.39.124",
+      "server_port": 7002,
+      "method": "aes-256-gcm",
+      "password": "RexnBgU7EV5ADxG"
+    },
+    {
+      "type": "vless",
+      "tag": "🇮🇳 印度 (India) 02 - hotick",
+      "server": "178.212.35.198",
+      "server_port": 443,
+      "uuid": "6bdc8320-7eae-46fc-be08-f5f54e65dfc8",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "3LbVuwKpQv55GngyRhvGl9KyAHIDAgvJx_VRM5mUD2Q",
+          "short_id": "6bdc8320"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇮🇳 印度 (India) 03 - hotick",
       "server": "13.140.56.100",
       "server_port": 14430,
       "uuid": "68512eac-cd53-4de3-8d1e-08f6e04af1a9",
@@ -14,47 +42,6 @@
         "path": "/vless",
         "headers": {
           "Host": "13.140.56.100"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇮🇳 印度 (India) 02 - hotick",
-      "server": "103.172.116.201",
-      "server_port": 10303,
-      "uuid": "dbf3f074-3b18-43f3-b82a-debd8c879c69",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.apple.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "mjWmmSvs0D3V3130FT7MVbRs94pPuWXR7ffaQ_3A4kU",
-          "short_id": "f96b3b17a0f5b1fe"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇮🇳 印度 (India) 03 - hotick",
-      "server": "in.smrtai.top",
-      "server_port": 443,
-      "uuid": "6bdc8320-7eae-46fc-be08-f5f54e65dfc8",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "3LbVuwKpQv55GngyRhvGl9KyAHIDAgvJx_VRM5mUD2Q",
-          "short_id": "6bdc8320"
         }
       }
     },
@@ -81,35 +68,33 @@
     {
       "type": "vless",
       "tag": "🇮🇳 印度 (India) 05 - hotick",
-      "server": "xray-bprkdwje-clever-comet-4.cloady.io",
-      "server_port": 443,
-      "uuid": "f1a7e2c8-b140-50d1-8acf-e62090f96599",
+      "server": "103.172.116.191",
+      "server_port": 10303,
+      "uuid": "dbf3f074-3b18-43f3-b82a-debd8c879c69",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "xray-bprkdwje-clever-comet-4.cloady.io",
-        "insecure": false,
+        "server_name": "www.apple.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/27dbf143acdd7bca",
-        "headers": {
-          "Host": "xray-bprkdwje-clever-comet-4.cloady.io"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "mjWmmSvs0D3V3130FT7MVbRs94pPuWXR7ffaQ_3A4kU",
+          "short_id": "f96b3b17a0f5b1fe"
         }
       }
     },
     {
       "type": "vless",
       "tag": "🇮🇳 印度 (India) 06 - hotick",
-      "server": "13.140.253.35",
+      "server": "xray-m0642ki4-silver-nebula-10.cloady.io",
       "server_port": 443,
-      "uuid": "f1d3c8af-71c4-ef75-625f-cf446aa2c15b",
+      "uuid": "bcd3798c-a56f-6bfc-b738-a17c43bd4a50",
       "tls": {
         "enabled": true,
-        "server_name": "xray-h0urp9tx-rapid-summit-2.cloady.io",
+        "server_name": "xray-m0642ki4-silver-nebula-10.cloady.io",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -118,10 +103,22 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/050334203cc522a3",
+        "path": "/362b2b2c7197d648",
         "headers": {
-          "Host": "xray-h0urp9tx-rapid-summit-2.cloady.io"
+          "Host": "xray-m0642ki4-silver-nebula-10.cloady.io"
         }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇮🇳 印度 (India) 07 - hotick",
+      "server": "152.67.8.205",
+      "server_port": 80,
+      "uuid": "9db4c708-aef8-4359-821b-38e47990be0d",
+      "security": "auto",
+      "transport": {
+        "type": "ws",
+        "path": "/"
       }
     },
     {
@@ -134,7 +131,8 @@
         "🇮🇳 印度 (India) 03 - hotick",
         "🇮🇳 印度 (India) 04 - hotick",
         "🇮🇳 印度 (India) 05 - hotick",
-        "🇮🇳 印度 (India) 06 - hotick"
+        "🇮🇳 印度 (India) 06 - hotick",
+        "🇮🇳 印度 (India) 07 - hotick"
       ]
     },
     {
@@ -146,7 +144,8 @@
         "🇮🇳 印度 (India) 03 - hotick",
         "🇮🇳 印度 (India) 04 - hotick",
         "🇮🇳 印度 (India) 05 - hotick",
-        "🇮🇳 印度 (India) 06 - hotick"
+        "🇮🇳 印度 (India) 06 - hotick",
+        "🇮🇳 印度 (India) 07 - hotick"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
