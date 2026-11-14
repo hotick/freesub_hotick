@@ -4,25 +4,41 @@
   },
   "outbounds": [
     {
-      "type": "vmess",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 01 (移动家宽) - hotick",
-      "server": "zfd-hkv2.kunlun01dns.com",
-      "server_port": 16116,
-      "uuid": "0802ac03-7973-39ef-a019-ba02de6c01e1",
-      "security": "auto"
+      "type": "shadowsocks",
+      "tag": "🇩🇪 德国 (Germany) 01 (移动家宽) - hotick",
+      "server": "8.211.38.49",
+      "server_port": 443,
+      "method": "2022-blake3-chacha20-poly1305",
+      "password": "8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y="
     },
     {
       "type": "vmess",
       "tag": "🇭🇰 中国香港 (Hong Kong) 02 (移动家宽) - hotick",
-      "server": "zfd-hkv2.kunlun01dns.com",
-      "server_port": 16115,
-      "uuid": "0802ac03-7973-39ef-a019-ba02de6c01e1",
+      "server": "dog-hk.kunlun01dns.com",
+      "server_port": 21041,
+      "uuid": "9464ca40-dd75-3742-a628-d931a9f413b2",
+      "security": "auto"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇰🇷 韩国 (South Korea) 03 (家宽) - hotick",
+      "server": "49.254.204.133",
+      "server_port": 1774,
+      "method": "aes-256-cfb",
+      "password": "1234!@#$"
+    },
+    {
+      "type": "vmess",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 04 (移动家宽) - hotick",
+      "server": "dog-hk.kunlun01dns.com",
+      "server_port": 21019,
+      "uuid": "9464ca40-dd75-3742-a628-d931a9f413b2",
       "security": "auto"
     },
     {
       "type": "vless",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - hotick",
-      "server": "60.248.219.78",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 05 (家宽) - hotick",
+      "server": "59.125.69.23",
       "server_port": 443,
       "uuid": "c1c04450-bf71-4049-ad0c-9cf6d94d9f1f",
       "tls": {
@@ -39,32 +55,36 @@
       }
     },
     {
-      "type": "shadowsocks",
-      "tag": "🇩🇪 德国 (Germany) 04 (移动家宽) - hotick",
-      "server": "8.211.38.49",
-      "server_port": 443,
-      "method": "2022-blake3-chacha20-poly1305",
-      "password": "8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y="
+      "type": "vmess",
+      "tag": "🇲🇾 马来西亚 (Malaysia) 06 (家宽) - hotick",
+      "server": "192.228.145.118",
+      "server_port": 10086,
+      "uuid": "b831381d-6324-4d53-ad4f-8cda48b30811",
+      "security": "auto"
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇭🇰 中国香港 (Hong Kong) 01 (移动家宽) - hotick",
+        "🇩🇪 德国 (Germany) 01 (移动家宽) - hotick",
         "🇭🇰 中国香港 (Hong Kong) 02 (移动家宽) - hotick",
-        "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - hotick",
-        "🇩🇪 德国 (Germany) 04 (移动家宽) - hotick"
+        "🇰🇷 韩国 (South Korea) 03 (家宽) - hotick",
+        "🇭🇰 中国香港 (Hong Kong) 04 (移动家宽) - hotick",
+        "🇹🇼 中国台湾 (Taiwan) 05 (家宽) - hotick",
+        "🇲🇾 马来西亚 (Malaysia) 06 (家宽) - hotick"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇭🇰 中国香港 (Hong Kong) 01 (移动家宽) - hotick",
+        "🇩🇪 德国 (Germany) 01 (移动家宽) - hotick",
         "🇭🇰 中国香港 (Hong Kong) 02 (移动家宽) - hotick",
-        "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - hotick",
-        "🇩🇪 德国 (Germany) 04 (移动家宽) - hotick"
+        "🇰🇷 韩国 (South Korea) 03 (家宽) - hotick",
+        "🇭🇰 中国香港 (Hong Kong) 04 (移动家宽) - hotick",
+        "🇹🇼 中国台湾 (Taiwan) 05 (家宽) - hotick",
+        "🇲🇾 马来西亚 (Malaysia) 06 (家宽) - hotick"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
