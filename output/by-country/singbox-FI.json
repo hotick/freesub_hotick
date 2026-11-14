@@ -6,18 +6,6 @@
     {
       "type": "hysteria2",
       "tag": "🇫🇮 芬兰 (Finland) 01 - hotick",
-      "server": "177.202.75.56",
-      "server_port": 443,
-      "password": "146d567c-6335-4e63-a8aa-7ec068642440",
-      "tls": {
-        "enabled": true,
-        "server_name": "fi1.obxodvpn.us",
-        "insecure": false
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇫🇮 芬兰 (Finland) 02 - hotick",
       "server": "94.183.164.119",
       "server_port": 24433,
       "password": "549766c3-fa5f-471e-8031-ffc1f8d5064f",
@@ -29,7 +17,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇫🇮 芬兰 (Finland) 03 - hotick",
+      "tag": "🇫🇮 芬兰 (Finland) 02 - hotick",
       "server": "45.144.234.157",
       "server_port": 14430,
       "uuid": "59b0d30e-9b29-4fda-a35c-b2901ec32db7",
@@ -42,29 +30,20 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇫🇮 芬兰 (Finland) 04 - hotick",
-      "server": "s19161.h1cloud.net",
-      "server_port": 25749,
-      "uuid": "e460e79d-5dd9-451d-8d1a-a84c8b70c9a7",
-      "flow": "xtls-rprx-vision",
+      "type": "hysteria2",
+      "tag": "🇫🇮 芬兰 (Finland) 03 - hotick",
+      "server": "177.202.75.56",
+      "server_port": 443,
+      "password": "146d567c-6335-4e63-a8aa-7ec068642440",
       "tls": {
         "enabled": true,
-        "server_name": "80aa2br.fi4.h1clayd.click",
-        "utls": {
-          "enabled": true,
-          "fingerprint": ""
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "nmjOhfpVZtk9W-3GZk5JY0B-OvCFkjP2RvTVBNZO7lE",
-          "short_id": "f6b3841eabafff9a"
-        }
+        "server_name": "fi1.obxodvpn.us",
+        "insecure": false
       }
     },
     {
       "type": "vless",
-      "tag": "🇫🇮 芬兰 (Finland) 05 - hotick",
+      "tag": "🇫🇮 芬兰 (Finland) 04 - hotick",
       "server": "94.183.234.245",
       "server_port": 443,
       "uuid": "5de0c218-0138-45d8-94d2-c2c3f37a1a6d",
@@ -85,7 +64,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇫🇮 芬兰 (Finland) 06 - hotick",
+      "tag": "🇫🇮 芬兰 (Finland) 05 - hotick",
       "server": "95.216.27.15",
       "server_port": 2053,
       "uuid": "b79d736d-0f10-4169-b626-362059d18204",
@@ -105,10 +84,42 @@
     },
     {
       "type": "vmess",
+      "tag": "🇫🇮 芬兰 (Finland) 06 - hotick",
+      "server": "65.108.240.210",
+      "server_port": 39018,
+      "uuid": "96c987c9-c2d9-4993-b9bd-c9bc36255ee1",
+      "security": "auto"
+    },
+    {
+      "type": "vmess",
       "tag": "🇫🇮 芬兰 (Finland) 07 - hotick",
       "server": "65.108.240.210",
       "server_port": 39018,
       "uuid": "8ca123a8-720b-47c5-bd0c-637431418b09",
+      "security": "auto"
+    },
+    {
+      "type": "vmess",
+      "tag": "🇫🇮 芬兰 (Finland) 08 - hotick",
+      "server": "65.108.240.210",
+      "server_port": 39018,
+      "uuid": "fa15684a-81e6-4ba7-bc4b-f601c0d998e9",
+      "security": "auto"
+    },
+    {
+      "type": "vmess",
+      "tag": "🇫🇮 芬兰 (Finland) 09 - hotick",
+      "server": "65.108.240.210",
+      "server_port": 39018,
+      "uuid": "77fb7a80-4724-4e33-9558-4f20c1634c5a",
+      "security": "auto"
+    },
+    {
+      "type": "vmess",
+      "tag": "🇫🇮 芬兰 (Finland) 10 - hotick",
+      "server": "65.108.240.210",
+      "server_port": 39018,
+      "uuid": "fa15684a-81e6-4ba7-bc4b-f601c0d998e9",
       "security": "auto"
     },
     {
@@ -122,7 +133,10 @@
         "🇫🇮 芬兰 (Finland) 04 - hotick",
         "🇫🇮 芬兰 (Finland) 05 - hotick",
         "🇫🇮 芬兰 (Finland) 06 - hotick",
-        "🇫🇮 芬兰 (Finland) 07 - hotick"
+        "🇫🇮 芬兰 (Finland) 07 - hotick",
+        "🇫🇮 芬兰 (Finland) 08 - hotick",
+        "🇫🇮 芬兰 (Finland) 09 - hotick",
+        "🇫🇮 芬兰 (Finland) 10 - hotick"
       ]
     },
     {
@@ -135,7 +149,10 @@
         "🇫🇮 芬兰 (Finland) 04 - hotick",
         "🇫🇮 芬兰 (Finland) 05 - hotick",
         "🇫🇮 芬兰 (Finland) 06 - hotick",
-        "🇫🇮 芬兰 (Finland) 07 - hotick"
+        "🇫🇮 芬兰 (Finland) 07 - hotick",
+        "🇫🇮 芬兰 (Finland) 08 - hotick",
+        "🇫🇮 芬兰 (Finland) 09 - hotick",
+        "🇫🇮 芬兰 (Finland) 10 - hotick"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

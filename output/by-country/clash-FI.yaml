@@ -5,14 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇫🇮 芬兰 (Finland) 01 - hotick
-  server: 177.202.75.56
-  port: 443
-  udp: true
-  type: hysteria2
-  password: 146d567c-6335-4e63-a8aa-7ec068642440
-  sni: fi1.obxodvpn.us
-  skip-cert-verify: false
-- name: 🇫🇮 芬兰 (Finland) 02 - hotick
   server: 94.183.164.119
   port: 24433
   udp: true
@@ -20,7 +12,7 @@ proxies:
   password: 549766c3-fa5f-471e-8031-ffc1f8d5064f
   sni: 94.183.164.119
   skip-cert-verify: true
-- name: 🇫🇮 芬兰 (Finland) 03 - hotick
+- name: 🇫🇮 芬兰 (Finland) 02 - hotick
   server: 45.144.234.157
   port: 14430
   udp: true
@@ -31,20 +23,15 @@ proxies:
     path: /vless
     headers:
       Host: 45.144.234.157
-- name: 🇫🇮 芬兰 (Finland) 04 - hotick
-  server: s19161.h1cloud.net
-  port: 25749
+- name: 🇫🇮 芬兰 (Finland) 03 - hotick
+  server: 177.202.75.56
+  port: 443
   udp: true
-  type: vless
-  uuid: e460e79d-5dd9-451d-8d1a-a84c8b70c9a7
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: nmjOhfpVZtk9W-3GZk5JY0B-OvCFkjP2RvTVBNZO7lE
-    short-id: f6b3841eabafff9a
-  servername: 80aa2br.fi4.h1clayd.click
-  client-fingerprint: ''
-- name: 🇫🇮 芬兰 (Finland) 05 - hotick
+  type: hysteria2
+  password: 146d567c-6335-4e63-a8aa-7ec068642440
+  sni: fi1.obxodvpn.us
+  skip-cert-verify: false
+- name: 🇫🇮 芬兰 (Finland) 04 - hotick
   server: 94.183.234.245
   port: 443
   udp: true
@@ -57,7 +44,7 @@ proxies:
     short-id: 7f1e29593aa94ad1
   servername: www.bing.com
   client-fingerprint: qq
-- name: 🇫🇮 芬兰 (Finland) 06 - hotick
+- name: 🇫🇮 芬兰 (Finland) 05 - hotick
   server: 95.216.27.15
   port: 2053
   udp: true
@@ -69,12 +56,44 @@ proxies:
     short-id: 10351b07c712d2a2
   servername: www.cloudflare.com
   client-fingerprint: chrome
+- name: 🇫🇮 芬兰 (Finland) 06 - hotick
+  server: 65.108.240.210
+  port: 39018
+  udp: true
+  type: vmess
+  uuid: 96c987c9-c2d9-4993-b9bd-c9bc36255ee1
+  alterId: 0
+  cipher: auto
 - name: 🇫🇮 芬兰 (Finland) 07 - hotick
   server: 65.108.240.210
   port: 39018
   udp: true
   type: vmess
   uuid: 8ca123a8-720b-47c5-bd0c-637431418b09
+  alterId: 0
+  cipher: auto
+- name: 🇫🇮 芬兰 (Finland) 08 - hotick
+  server: 65.108.240.210
+  port: 39018
+  udp: true
+  type: vmess
+  uuid: fa15684a-81e6-4ba7-bc4b-f601c0d998e9
+  alterId: 0
+  cipher: auto
+- name: 🇫🇮 芬兰 (Finland) 09 - hotick
+  server: 65.108.240.210
+  port: 39018
+  udp: true
+  type: vmess
+  uuid: 77fb7a80-4724-4e33-9558-4f20c1634c5a
+  alterId: 0
+  cipher: auto
+- name: 🇫🇮 芬兰 (Finland) 10 - hotick
+  server: 65.108.240.210
+  port: 39018
+  udp: true
+  type: vmess
+  uuid: fa15684a-81e6-4ba7-bc4b-f601c0d998e9
   alterId: 0
   cipher: auto
 proxy-groups:
@@ -89,6 +108,9 @@ proxy-groups:
   - 🇫🇮 芬兰 (Finland) 05 - hotick
   - 🇫🇮 芬兰 (Finland) 06 - hotick
   - 🇫🇮 芬兰 (Finland) 07 - hotick
+  - 🇫🇮 芬兰 (Finland) 08 - hotick
+  - 🇫🇮 芬兰 (Finland) 09 - hotick
+  - 🇫🇮 芬兰 (Finland) 10 - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -101,5 +123,8 @@ proxy-groups:
   - 🇫🇮 芬兰 (Finland) 05 - hotick
   - 🇫🇮 芬兰 (Finland) 06 - hotick
   - 🇫🇮 芬兰 (Finland) 07 - hotick
+  - 🇫🇮 芬兰 (Finland) 08 - hotick
+  - 🇫🇮 芬兰 (Finland) 09 - hotick
+  - 🇫🇮 芬兰 (Finland) 10 - hotick
 rules:
 - MATCH,PROXIES
