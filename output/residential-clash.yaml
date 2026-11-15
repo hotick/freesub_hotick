@@ -5,11 +5,11 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇭🇰 中国香港 (Hong Kong) 01 (移动家宽) - hotick
-  server: dog-hk.kunlun01dns.com
-  port: 21019
+  server: zfd-hkv2.kunlun01dns.com
+  port: 16112
   udp: true
   type: vmess
-  uuid: 9464ca40-dd75-3742-a628-d931a9f413b2
+  uuid: 0802ac03-7973-39ef-a019-ba02de6c01e1
   alterId: 0
   cipher: auto
 - name: 🇰🇷 韩国 (South Korea) 02 (家宽) - hotick
@@ -19,19 +19,6 @@ proxies:
   type: ss
   cipher: aes-256-cfb
   password: 1234!@#$
-- name: 🇵🇱 波兰 (Poland) 03 (家宽) - hotick
-  server: 185.86.145.55
-  port: 10470
-  udp: true
-  type: vless
-  uuid: 3ecbd833-40d8-4ddb-b80b-a7c4628ec7e5
-  tls: true
-  servername: wn-pl4.static-s3.org
-  skip-cert-verify: false
-  client-fingerprint: firefox
-  network: grpc
-  grpc-opts:
-    grpc-service-name: wn-adaptcloud
 proxy-groups:
 - name: PROXIES
   type: select
@@ -39,7 +26,6 @@ proxy-groups:
   - AUTO
   - 🇭🇰 中国香港 (Hong Kong) 01 (移动家宽) - hotick
   - 🇰🇷 韩国 (South Korea) 02 (家宽) - hotick
-  - 🇵🇱 波兰 (Poland) 03 (家宽) - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -47,6 +33,5 @@ proxy-groups:
   proxies:
   - 🇭🇰 中国香港 (Hong Kong) 01 (移动家宽) - hotick
   - 🇰🇷 韩国 (South Korea) 02 (家宽) - hotick
-  - 🇵🇱 波兰 (Poland) 03 (家宽) - hotick
 rules:
 - MATCH,PROXIES
