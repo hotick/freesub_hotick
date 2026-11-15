@@ -6,24 +6,22 @@
     {
       "type": "vless",
       "tag": "🇷🇺 俄罗斯 (Russia) 01 - hotick",
-      "server": "193.228.128.230",
-      "server_port": 443,
-      "uuid": "de404269-a97c-4f49-9efb-43509c2afa09",
+      "server": "147.45.47.101",
+      "server_port": 8443,
+      "uuid": "27f26dee-9cf1-4cca-93f8-9ac23d311408",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "ch.primarymaster.online",
+        "server_name": "apple.com",
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "rS6r3PZQHZp31tnOmJAuCme4xJgsak_JsZ5hTPwpuiY",
-          "short_id": "8b8dd8a1c0c468d3"
+          "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+          "short_id": "6ba85179e30d4fc2"
         }
-      },
-      "transport": {
-        "type": "grpc"
       }
     },
     {
@@ -37,25 +35,22 @@
     {
       "type": "vless",
       "tag": "🇷🇺 俄罗斯 (Russia) 03 - hotick",
-      "server": "212.41.8.76",
-      "server_port": 13443,
-      "uuid": "a628c583-24a8-4ce5-98ad-c6458abf1cc4",
+      "server": "37.235.247.81",
+      "server_port": 8443,
+      "uuid": "2ae0670d-0bdf-409e-9a55-4e970252d378",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "s3.storage.selcloud.ru",
+        "server_name": "apple.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "safari"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "d2B_vurRVKXLrK0ib-0sTtQuI3VDdaj8ZKTXgEPwAlc",
-          "short_id": "9de815e2"
+          "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+          "short_id": "6ba85179e30d4fc2"
         }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "grpc"
       }
     },
     {
@@ -84,6 +79,68 @@
     {
       "type": "vless",
       "tag": "🇷🇺 俄罗斯 (Russia) 05 - hotick",
+      "server": "45.151.70.116",
+      "server_port": 443,
+      "uuid": "6f2857ee-4d43-417f-8a60-6f29becf061f",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.amd.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "O-B_Lb2sUV9VaUIv0_d6gVMA20oSKEd1wwyZ5vJYvh8",
+          "short_id": "836c3060"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 俄罗斯 (Russia) 06 - hotick",
+      "server": "5.129.202.80",
+      "server_port": 443,
+      "uuid": "7ad63b26-bf70-4872-8fab-ebaf73a1e19d",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "mirror-50.topp-con.xyz",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "NY2bvH4IFKTstWkBWwyU5MmlzuKk0nU08cBoHlti2S8",
+          "short_id": "2ef2b10d5143d798"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 俄罗斯 (Russia) 07 - hotick",
+      "server": "5.129.202.80",
+      "server_port": 443,
+      "uuid": "7ad63b26-bf70-4872-8fab-ebaf73a1e19d",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "mirror-50.topp-con.xyz",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "NY2bvH4IFKTstWkBWwyU5MmlzuKk0nU08cBoHlti2S8",
+          "short_id": "2ef2b10d5143d798"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 俄罗斯 (Russia) 08 - hotick",
       "server": "185.39.204.117",
       "server_port": 10002,
       "uuid": "facb802c-de2e-11f1-9a22-a3404e852f3b",
@@ -98,7 +155,52 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/vpnjantit"
+        "path": "/vpnjantit",
+        "headers": {
+          "Host": "tr2.vpnjantit.com"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 俄罗斯 (Russia) 09 - hotick",
+      "server": "147.45.108.45",
+      "server_port": 443,
+      "uuid": "1e2b9c0c-4f9b-56f5-a062-1c4f2d2aa200",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "absolute-disaster.org",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "IuzAWh6UM62Txrnh_No9y5n6wmZecyR1ki8z5xor-0g",
+          "short_id": ""
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 俄罗斯 (Russia) 10 - hotick",
+      "server": "147.45.108.45",
+      "server_port": 443,
+      "uuid": "1e2b9c0c-4f9b-56f5-a062-1c4f2d2aa200",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "absolute-disaster.org",
+        "utls": {
+          "enabled": true,
+          "fingerprint": ""
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "IuzAWh6UM62Txrnh_No9y5n6wmZecyR1ki8z5xor-0g",
+          "short_id": ""
+        }
       }
     },
     {
@@ -110,7 +212,12 @@
         "🇷🇺 俄罗斯 (Russia) 02 - hotick",
         "🇷🇺 俄罗斯 (Russia) 03 - hotick",
         "🇷🇺 俄罗斯 (Russia) 04 - hotick",
-        "🇷🇺 俄罗斯 (Russia) 05 - hotick"
+        "🇷🇺 俄罗斯 (Russia) 05 - hotick",
+        "🇷🇺 俄罗斯 (Russia) 06 - hotick",
+        "🇷🇺 俄罗斯 (Russia) 07 - hotick",
+        "🇷🇺 俄罗斯 (Russia) 08 - hotick",
+        "🇷🇺 俄罗斯 (Russia) 09 - hotick",
+        "🇷🇺 俄罗斯 (Russia) 10 - hotick"
       ]
     },
     {
@@ -121,7 +228,12 @@
         "🇷🇺 俄罗斯 (Russia) 02 - hotick",
         "🇷🇺 俄罗斯 (Russia) 03 - hotick",
         "🇷🇺 俄罗斯 (Russia) 04 - hotick",
-        "🇷🇺 俄罗斯 (Russia) 05 - hotick"
+        "🇷🇺 俄罗斯 (Russia) 05 - hotick",
+        "🇷🇺 俄罗斯 (Russia) 06 - hotick",
+        "🇷🇺 俄罗斯 (Russia) 07 - hotick",
+        "🇷🇺 俄罗斯 (Russia) 08 - hotick",
+        "🇷🇺 俄罗斯 (Russia) 09 - hotick",
+        "🇷🇺 俄罗斯 (Russia) 10 - hotick"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

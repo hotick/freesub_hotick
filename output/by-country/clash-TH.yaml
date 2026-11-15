@@ -13,6 +13,17 @@ proxies:
   alterId: 0
   cipher: auto
 - name: 🇹🇭 泰国 (Thailand) 02 - hotick
+  server: assets.opensignal.com
+  port: 80
+  udp: true
+  type: vless
+  uuid: 0c85001b-ad48-4f43-bdc9-b2b5c626a26e
+  network: ws
+  ws-opts:
+    path: /logout
+    headers:
+      Host: d36lt9hzl2ug3d.cloudfront.net:assets.opensignal.com
+- name: 🇹🇭 泰国 (Thailand) 03 - hotick
   server: 99.86.77.123
   port: 80
   udp: true
@@ -23,6 +34,19 @@ proxies:
     path: /
     headers:
       Host: dcm4kwis2exkw.cloudfront.net
+- name: 🇹🇭 泰国 (Thailand) 04 - hotick
+  server: zfapi.zalolink.com
+  port: 11802
+  udp: true
+  type: vless
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: FUBjYwXlKIVwF7IuJf5dt_HU2sUnrEt10s4TIlTe8Q4
+    short-id: 6c84fbac2d
+  servername: psstatic.cdn.bcebos.com
+  client-fingerprint: ios
 proxy-groups:
 - name: PROXIES
   type: select
@@ -30,6 +54,8 @@ proxy-groups:
   - AUTO
   - 🇹🇭 泰国 (Thailand) 01 - hotick
   - 🇹🇭 泰国 (Thailand) 02 - hotick
+  - 🇹🇭 泰国 (Thailand) 03 - hotick
+  - 🇹🇭 泰国 (Thailand) 04 - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -37,5 +63,7 @@ proxy-groups:
   proxies:
   - 🇹🇭 泰国 (Thailand) 01 - hotick
   - 🇹🇭 泰国 (Thailand) 02 - hotick
+  - 🇹🇭 泰国 (Thailand) 03 - hotick
+  - 🇹🇭 泰国 (Thailand) 04 - hotick
 rules:
 - MATCH,PROXIES
