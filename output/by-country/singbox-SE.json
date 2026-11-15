@@ -6,10 +6,10 @@
     {
       "type": "shadowsocks",
       "tag": "🇸🇪 瑞典 (Sweden) 01 - hotick",
-      "server": "194.59.250.52",
-      "server_port": 18501,
-      "method": "aes-128-gcm",
-      "password": "517403753b63fd4fac88986bf98b11e0"
+      "server": "62.182.193.228",
+      "server_port": 8388,
+      "method": "chacha20-ietf-poly1305",
+      "password": "2e555e46dbc421452416834962fd014f"
     },
     {
       "type": "shadowsocks",
@@ -22,28 +22,14 @@
     {
       "type": "shadowsocks",
       "tag": "🇸🇪 瑞典 (Sweden) 03 - hotick",
-      "server": "62.182.193.228",
-      "server_port": 8388,
-      "method": "chacha20-ietf-poly1305",
-      "password": "2e555e46dbc421452416834962fd014f"
-    },
-    {
-      "type": "vless",
-      "tag": "🇸🇪 瑞典 (Sweden) 04 - hotick",
-      "server": "5.178.109.174",
-      "server_port": 14430,
-      "uuid": "80de563a-cac8-40ea-8cb0-4cb082dd92f9",
-      "transport": {
-        "type": "ws",
-        "path": "/vless",
-        "headers": {
-          "Host": "5.178.109.174"
-        }
-      }
+      "server": "194.59.250.52",
+      "server_port": 18501,
+      "method": "aes-128-gcm",
+      "password": "517403753b63fd4fac88986bf98b11e0"
     },
     {
       "type": "vmess",
-      "tag": "🇸🇪 瑞典 (Sweden) 05 - hotick",
+      "tag": "🇸🇪 瑞典 (Sweden) 04 - hotick",
       "server": "138.199.55.230",
       "server_port": 1270,
       "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
@@ -56,7 +42,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇸🇪 瑞典 (Sweden) 06 - hotick",
+      "tag": "🇸🇪 瑞典 (Sweden) 05 - hotick",
       "server": "138.124.86.230",
       "server_port": 48115,
       "uuid": "b2fe1fa4-6a79-4938-a3f4-63b54ae7f16b",
@@ -75,21 +61,19 @@
       }
     },
     {
-      "type": "vmess",
-      "tag": "🇸🇪 瑞典 (Sweden) 07 - hotick",
-      "server": "62.93.166.184",
-      "server_port": 1270,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "xmfhlpy.com",
-        "insecure": false
+      "type": "vless",
+      "tag": "🇸🇪 瑞典 (Sweden) 06 - hotick",
+      "server": "5.178.109.174",
+      "server_port": 14430,
+      "uuid": "80de563a-cac8-40ea-8cb0-4cb082dd92f9",
+      "transport": {
+        "type": "ws",
+        "path": "/vless"
       }
     },
     {
       "type": "hysteria2",
-      "tag": "🇸🇪 瑞典 (Sweden) 08 - hotick",
+      "tag": "🇸🇪 瑞典 (Sweden) 07 - hotick",
       "server": "95.143.196.97",
       "server_port": 443,
       "password": "769f34f0-1500-488f-b414-03bc90666502",
@@ -100,12 +84,25 @@
       }
     },
     {
-      "type": "shadowsocks",
-      "tag": "🇸🇪 瑞典 (Sweden) 09 - hotick",
-      "server": "70.34.212.124",
-      "server_port": 8388,
-      "method": "aes-256-gcm",
-      "password": "AxIYWtskJWIIaefW"
+      "type": "vless",
+      "tag": "🇸🇪 瑞典 (Sweden) 08 - hotick",
+      "server": "132.243.163.89",
+      "server_port": 443,
+      "uuid": "632cd343-1e8f-4bf6-a9a2-20ada1f6970f",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "3fb2b6t.se1.h1clayd.click",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "XQWaIMBPo0mpWs3MooxxkjWNSgxnkIESd_2PnR8_2HA",
+          "short_id": "1061f1b1cdaad3ad"
+        }
+      }
     },
     {
       "type": "selector",
@@ -119,8 +116,7 @@
         "🇸🇪 瑞典 (Sweden) 05 - hotick",
         "🇸🇪 瑞典 (Sweden) 06 - hotick",
         "🇸🇪 瑞典 (Sweden) 07 - hotick",
-        "🇸🇪 瑞典 (Sweden) 08 - hotick",
-        "🇸🇪 瑞典 (Sweden) 09 - hotick"
+        "🇸🇪 瑞典 (Sweden) 08 - hotick"
       ]
     },
     {
@@ -134,8 +130,7 @@
         "🇸🇪 瑞典 (Sweden) 05 - hotick",
         "🇸🇪 瑞典 (Sweden) 06 - hotick",
         "🇸🇪 瑞典 (Sweden) 07 - hotick",
-        "🇸🇪 瑞典 (Sweden) 08 - hotick",
-        "🇸🇪 瑞典 (Sweden) 09 - hotick"
+        "🇸🇪 瑞典 (Sweden) 08 - hotick"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

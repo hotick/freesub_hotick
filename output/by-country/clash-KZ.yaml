@@ -29,9 +29,9 @@ proxies:
   ws-opts:
     path: /vmess/
     headers:
-      Host: 38.107.234.57
+      Host: 3h-kazakhstan1.09vpn.com
 - name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 03 - hotick
-  server: 38.107.234.57
+  server: 3h-kazakhstan1.09vpn.com
   port: 8443
   udp: true
   type: vless
@@ -42,6 +42,18 @@ proxies:
   network: ws
   ws-opts:
     path: /vless/
+- name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 04 - hotick
+  server: 109.248.170.119
+  port: 13447
+  udp: true
+  type: vless
+  uuid: b573cefb-7bc7-4a42-b407-b8b534e66773
+  tls: true
+  reality-opts:
+    public-key: _0wM2ep44eAcrgf5PflKaBivknCWT6kMvQBQUoScCkE
+    short-id: '83'
+  servername: yahoo.com
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
@@ -50,6 +62,7 @@ proxy-groups:
   - 🇰🇿 哈萨克斯坦 (Kazakhstan) 01 - hotick
   - 🇰🇿 哈萨克斯坦 (Kazakhstan) 02 - hotick
   - 🇰🇿 哈萨克斯坦 (Kazakhstan) 03 - hotick
+  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 04 - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -58,5 +71,6 @@ proxy-groups:
   - 🇰🇿 哈萨克斯坦 (Kazakhstan) 01 - hotick
   - 🇰🇿 哈萨克斯坦 (Kazakhstan) 02 - hotick
   - 🇰🇿 哈萨克斯坦 (Kazakhstan) 03 - hotick
+  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 04 - hotick
 rules:
 - MATCH,PROXIES
