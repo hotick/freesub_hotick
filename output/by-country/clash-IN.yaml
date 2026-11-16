@@ -5,6 +5,18 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇮🇳 印度 (India) 01 - hotick
+  server: 194.61.31.126
+  port: 2053
+  udp: true
+  type: vless
+  uuid: 1d4e18bd-1f26-4915-b35a-7ace4826e76a
+  tls: true
+  reality-opts:
+    public-key: PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU
+    short-id: 9980e0609b0d3891
+  servername: www.apple.com
+  client-fingerprint: firefox
+- name: 🇮🇳 印度 (India) 02 - hotick
   server: 178.212.35.198
   port: 443
   udp: true
@@ -16,21 +28,6 @@ proxies:
     short-id: 6bdc8320
   servername: www.cloudflare.com
   client-fingerprint: firefox
-- name: 🇮🇳 印度 (India) 02 - hotick
-  server: 85.234.100.32
-  port: 443
-  udp: true
-  type: vless
-  uuid: c1208c5a-2350-0003-affd-fc41b4319286
-  tls: true
-  servername: decdn-28.nome-rkp.net
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /media/ws/
-    headers:
-      Host: decdn-28.nome-rkp.net
 - name: 🇮🇳 印度 (India) 03 - hotick
   server: 13.140.56.100
   port: 14430
@@ -43,18 +40,6 @@ proxies:
     headers:
       Host: 13.140.56.100
 - name: 🇮🇳 印度 (India) 04 - hotick
-  server: 194.61.31.126
-  port: 2053
-  udp: true
-  type: vless
-  uuid: 1d4e18bd-1f26-4915-b35a-7ace4826e76a
-  tls: true
-  reality-opts:
-    public-key: PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU
-    short-id: 9980e0609b0d3891
-  servername: www.apple.com
-  client-fingerprint: chrome
-- name: 🇮🇳 印度 (India) 05 - hotick
   server: 13.140.253.35
   port: 443
   udp: true
@@ -69,7 +54,7 @@ proxies:
     path: /0175469f14317d82
     headers:
       Host: xray-dmr3b3hy-calm-maple-7.cloady.io
-- name: 🇮🇳 印度 (India) 06 - hotick
+- name: 🇮🇳 印度 (India) 05 - hotick
   server: 152.67.8.205
   port: 80
   udp: true
@@ -81,7 +66,7 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: in-152.67.8.205-0242
+      Host: in-152.67.8.205-0184
 proxy-groups:
 - name: PROXIES
   type: select
@@ -92,7 +77,6 @@ proxy-groups:
   - 🇮🇳 印度 (India) 03 - hotick
   - 🇮🇳 印度 (India) 04 - hotick
   - 🇮🇳 印度 (India) 05 - hotick
-  - 🇮🇳 印度 (India) 06 - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -103,6 +87,5 @@ proxy-groups:
   - 🇮🇳 印度 (India) 03 - hotick
   - 🇮🇳 印度 (India) 04 - hotick
   - 🇮🇳 印度 (India) 05 - hotick
-  - 🇮🇳 印度 (India) 06 - hotick
 rules:
 - MATCH,PROXIES

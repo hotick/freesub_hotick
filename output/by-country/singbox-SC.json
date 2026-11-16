@@ -15,7 +15,7 @@
         "server_name": "cloudflare-dns.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
@@ -25,37 +25,18 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇸🇨 塞舌尔 (Seychelles) 02 - hotick",
-      "server": "188.225.24.192",
-      "server_port": 443,
-      "uuid": "c0c949fc-2ed6-4597-b680-a1a3276ebf87",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "portal.bokovskay.app",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      }
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇸🇨 塞舌尔 (Seychelles) 01 - hotick",
-        "🇸🇨 塞舌尔 (Seychelles) 02 - hotick"
+        "🇸🇨 塞舌尔 (Seychelles) 01 - hotick"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇸🇨 塞舌尔 (Seychelles) 01 - hotick",
-        "🇸🇨 塞舌尔 (Seychelles) 02 - hotick"
+        "🇸🇨 塞舌尔 (Seychelles) 01 - hotick"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

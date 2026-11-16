@@ -13,18 +13,18 @@ proxies:
   password: cp8pRSUAyLhTfVWH
 - name: 🇧🇬 保加利亚 (Bulgaria) 02 - hotick
   server: 213.183.63.60
-  port: 9049
+  port: 9066
   udp: true
   type: ss
   cipher: aes-256-cfb
-  password: PRBf4BS2HvJqtWxY
+  password: 2KUaE2a8NWTvuCZ3
 - name: 🇧🇬 保加利亚 (Bulgaria) 03 - hotick
   server: 213.183.63.60
-  port: 9029
+  port: 9061
   udp: true
   type: ss
   cipher: aes-256-cfb
-  password: dU3DSNS8wYPXzEKw
+  password: 4R3hUfZ2FHhDmNcP
 - name: 🇧🇬 保加利亚 (Bulgaria) 04 - hotick
   server: 213.183.63.60
   port: 9098
@@ -34,26 +34,12 @@ proxies:
   password: aLpQtfEZe445QyHk
 - name: 🇧🇬 保加利亚 (Bulgaria) 05 - hotick
   server: 213.183.63.60
-  port: 9054
+  port: 9049
   udp: true
   type: ss
   cipher: aes-256-cfb
-  password: VcFuyXvND2yQWSFY
+  password: PRBf4BS2HvJqtWxY
 - name: 🇧🇬 保加利亚 (Bulgaria) 06 - hotick
-  server: 213.183.63.60
-  port: 9066
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: 2KUaE2a8NWTvuCZ3
-- name: 🇧🇬 保加利亚 (Bulgaria) 07 - hotick
-  server: 213.183.63.60
-  port: 9061
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: 4R3hUfZ2FHhDmNcP
-- name: 🇧🇬 保加利亚 (Bulgaria) 08 - hotick
   server: 195.123.226.21
   port: 443
   udp: true
@@ -66,6 +52,13 @@ proxies:
     short-id: 77bb0d07bddbc832
   servername: gateway.icloud.com
   client-fingerprint: chrome
+- name: 🇧🇬 保加利亚 (Bulgaria) 07 - hotick
+  server: 213.183.63.60
+  port: 9054
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: VcFuyXvND2yQWSFY
 proxy-groups:
 - name: PROXIES
   type: select
@@ -78,7 +71,6 @@ proxy-groups:
   - 🇧🇬 保加利亚 (Bulgaria) 05 - hotick
   - 🇧🇬 保加利亚 (Bulgaria) 06 - hotick
   - 🇧🇬 保加利亚 (Bulgaria) 07 - hotick
-  - 🇧🇬 保加利亚 (Bulgaria) 08 - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -91,6 +83,5 @@ proxy-groups:
   - 🇧🇬 保加利亚 (Bulgaria) 05 - hotick
   - 🇧🇬 保加利亚 (Bulgaria) 06 - hotick
   - 🇧🇬 保加利亚 (Bulgaria) 07 - hotick
-  - 🇧🇬 保加利亚 (Bulgaria) 08 - hotick
 rules:
 - MATCH,PROXIES

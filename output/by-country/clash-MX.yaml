@@ -4,24 +4,24 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇪🇬 埃及 (Egypt) 01 - hotick
-  server: dlc.deltapc.digital
-  port: 11133
+- name: 🇲🇽 墨西哥 (Mexico) 01 - hotick
+  server: 64.177.90.30
+  port: 8388
   udp: true
   type: ss
-  cipher: xchacha20-ietf-poly1305
-  password: mDLpXyVaIwCQ5GjuekgBxYMtVT9Z/nkb3K2SXpwHCLU=
+  cipher: aes-256-gcm
+  password: BWyPPTusFKhGgzKh
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇪🇬 埃及 (Egypt) 01 - hotick
+  - 🇲🇽 墨西哥 (Mexico) 01 - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇪🇬 埃及 (Egypt) 01 - hotick
+  - 🇲🇽 墨西哥 (Mexico) 01 - hotick
 rules:
 - MATCH,PROXIES
