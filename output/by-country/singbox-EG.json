@@ -5,25 +5,25 @@
   "outbounds": [
     {
       "type": "shadowsocks",
-      "tag": "🇰🇷 韩国 (South Korea) 01 (家宽) - hotick",
-      "server": "49.254.204.133",
-      "server_port": 1774,
-      "method": "aes-256-cfb",
-      "password": "1234!@#$"
+      "tag": "🇪🇬 埃及 (Egypt) 01 - hotick",
+      "server": "dlc.deltapc.digital",
+      "server_port": 11133,
+      "method": "xchacha20-ietf-poly1305",
+      "password": "mDLpXyVaIwCQ5GjuekgBxYMtVT9Z/nkb3K2SXpwHCLU="
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇰🇷 韩国 (South Korea) 01 (家宽) - hotick"
+        "🇪🇬 埃及 (Egypt) 01 - hotick"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇰🇷 韩国 (South Korea) 01 (家宽) - hotick"
+        "🇪🇬 埃及 (Egypt) 01 - hotick"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

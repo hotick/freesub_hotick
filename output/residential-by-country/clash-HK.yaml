@@ -5,35 +5,11 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇭🇰 中国香港 (Hong Kong) 01 (移动家宽) - hotick
-  server: dog-hk.kunlun01dns.com
-  port: 21021
-  udp: true
-  type: vmess
-  uuid: 9464ca40-dd75-3742-a628-d931a9f413b2
-  alterId: 0
-  cipher: auto
-- name: 🇭🇰 中国香港 (Hong Kong) 02 (移动家宽) - hotick
   server: zfd-hkv2.kunlun01dns.com
-  port: 16112
+  port: 16116
   udp: true
   type: vmess
   uuid: 0802ac03-7973-39ef-a019-ba02de6c01e1
-  alterId: 0
-  cipher: auto
-- name: 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - hotick
-  server: 112.49.65.212
-  port: 18000
-  udp: true
-  type: trojan
-  password: 3b985d60-e252-4935-8e03-06afeb1144c9
-  sni: www.biliimg.com
-  skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 04 (移动家宽) - hotick
-  server: dog-hk.kunlun01dns.com
-  port: 21020
-  udp: true
-  type: vmess
-  uuid: 9464ca40-dd75-3742-a628-d931a9f413b2
   alterId: 0
   cipher: auto
 proxy-groups:
@@ -42,17 +18,11 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇭🇰 中国香港 (Hong Kong) 01 (移动家宽) - hotick
-  - 🇭🇰 中国香港 (Hong Kong) 02 (移动家宽) - hotick
-  - 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - hotick
-  - 🇭🇰 中国香港 (Hong Kong) 04 (移动家宽) - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇭🇰 中国香港 (Hong Kong) 01 (移动家宽) - hotick
-  - 🇭🇰 中国香港 (Hong Kong) 02 (移动家宽) - hotick
-  - 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - hotick
-  - 🇭🇰 中国香港 (Hong Kong) 04 (移动家宽) - hotick
 rules:
 - MATCH,PROXIES

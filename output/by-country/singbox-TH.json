@@ -4,31 +4,9 @@
   },
   "outbounds": [
     {
-      "type": "vmess",
+      "type": "vless",
       "tag": "🇹🇭 泰国 (Thailand) 01 - hotick",
-      "server": "119.46.51.45",
-      "server_port": 37515,
-      "uuid": "9b76bc31-17a5-4454-934a-8d5fb602cd70",
-      "security": "auto"
-    },
-    {
-      "type": "vless",
-      "tag": "🇹🇭 泰国 (Thailand) 02 - hotick",
-      "server": "assets.opensignal.com",
-      "server_port": 80,
-      "uuid": "0c85001b-ad48-4f43-bdc9-b2b5c626a26e",
-      "transport": {
-        "type": "ws",
-        "path": "/logout",
-        "headers": {
-          "Host": "d36lt9hzl2ug3d.cloudfront.net:assets.opensignal.com"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇹🇭 泰国 (Thailand) 03 - hotick",
-      "server": "99.86.77.123",
+      "server": "99.86.77.43",
       "server_port": 80,
       "uuid": "f4c5605a-8424-441e-b23d-d6384d012c28",
       "transport": {
@@ -40,7 +18,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇹🇭 泰国 (Thailand) 04 - hotick",
+      "tag": "🇹🇭 泰国 (Thailand) 02 - hotick",
       "server": "zfapi.zalolink.com",
       "server_port": 11802,
       "uuid": "57beeeb0-03fc-4fc9-94da-7604488a7134",
@@ -65,9 +43,7 @@
       "outbounds": [
         "auto",
         "🇹🇭 泰国 (Thailand) 01 - hotick",
-        "🇹🇭 泰国 (Thailand) 02 - hotick",
-        "🇹🇭 泰国 (Thailand) 03 - hotick",
-        "🇹🇭 泰国 (Thailand) 04 - hotick"
+        "🇹🇭 泰国 (Thailand) 02 - hotick"
       ]
     },
     {
@@ -75,9 +51,7 @@
       "tag": "auto",
       "outbounds": [
         "🇹🇭 泰国 (Thailand) 01 - hotick",
-        "🇹🇭 泰国 (Thailand) 02 - hotick",
-        "🇹🇭 泰国 (Thailand) 03 - hotick",
-        "🇹🇭 泰国 (Thailand) 04 - hotick"
+        "🇹🇭 泰国 (Thailand) 02 - hotick"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

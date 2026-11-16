@@ -4,32 +4,30 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇱🇰 斯里兰卡 (Sri Lanka) 01 - hotick
-  server: 170.114.46.6
-  port: 2096
+- name: 🇲🇩 摩尔多瓦 (Moldova) 01 - hotick
+  server: 176.123.11.43
+  port: 443
   udp: true
   type: vless
-  uuid: efd11a89-7506-44ce-95b6-6654859f155b
+  uuid: c1208c5a-2350-4506-affd-fc41b4319286
   tls: true
-  servername: pcloud.z-tas.com
+  servername: bundledispatch.ratethatrestaurant.org
   skip-cert-verify: false
   client-fingerprint: firefox
   network: ws
   ws-opts:
-    path: /
-    headers:
-      Host: pcloud.z-tas.com
+    path: /media/ws/
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇱🇰 斯里兰卡 (Sri Lanka) 01 - hotick
+  - 🇲🇩 摩尔多瓦 (Moldova) 01 - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇱🇰 斯里兰卡 (Sri Lanka) 01 - hotick
+  - 🇲🇩 摩尔多瓦 (Moldova) 01 - hotick
 rules:
 - MATCH,PROXIES
