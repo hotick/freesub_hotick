@@ -4,27 +4,11 @@
   },
   "outbounds": [
     {
-      "type": "vmess",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 01 (移动家宽) - hotick",
-      "server": "dog-hk.kunlun01dns.com",
-      "server_port": 21022,
-      "uuid": "9464ca40-dd75-3742-a628-d931a9f413b2",
-      "security": "auto"
-    },
-    {
-      "type": "vmess",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 02 (移动家宽) - hotick",
-      "server": "zfd-hkv2.kunlun01dns.com",
-      "server_port": 16112,
-      "uuid": "0802ac03-7973-39ef-a019-ba02de6c01e1",
-      "security": "auto"
-    },
-    {
       "type": "vless",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 03 (家宽) - hotick",
-      "server": "9e5f5c4b-tomdc0-tpolhi-1rgxu.hk2.hyhuawei.com",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - hotick",
+      "server": "e1043905-tokio0-tpkogt-1ryup.hk2.hyhuawei.com",
       "server_port": 443,
-      "uuid": "ea93064c-176c-11f0-885d-f23c91cfbbc9",
+      "uuid": "3ee091ca-ab9c-11ef-a791-f23c9164ca5d",
       "tls": {
         "enabled": true,
         "server_name": "download.windowsupdate.com",
@@ -40,22 +24,28 @@
       }
     },
     {
+      "type": "vmess",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 02 (移动家宽) - hotick",
+      "server": "zfd-hkv2.kunlun01dns.com",
+      "server_port": 16115,
+      "uuid": "0802ac03-7973-39ef-a019-ba02de6c01e1",
+      "security": "auto"
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇭🇰 中国香港 (Hong Kong) 01 (移动家宽) - hotick",
-        "🇭🇰 中国香港 (Hong Kong) 02 (移动家宽) - hotick",
-        "🇭🇰 中国香港 (Hong Kong) 03 (家宽) - hotick"
+        "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - hotick",
+        "🇭🇰 中国香港 (Hong Kong) 02 (移动家宽) - hotick"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇭🇰 中国香港 (Hong Kong) 01 (移动家宽) - hotick",
-        "🇭🇰 中国香港 (Hong Kong) 02 (移动家宽) - hotick",
-        "🇭🇰 中国香港 (Hong Kong) 03 (家宽) - hotick"
+        "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - hotick",
+        "🇭🇰 中国香港 (Hong Kong) 02 (移动家宽) - hotick"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

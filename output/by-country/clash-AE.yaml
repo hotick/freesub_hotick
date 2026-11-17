@@ -12,47 +12,16 @@ proxies:
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
 - name: 🇦🇪 阿联酋 (UAE) 02 - hotick
-  server: 151.241.19.36
-  port: 19999
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇦🇪 阿联酋 (UAE) 03 - hotick
   server: 130.49.161.70
   port: 443
   udp: true
   type: hysteria2
   password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
   sni: hy2.aspidnet.xyz
-  skip-cert-verify: true
+  skip-cert-verify: false
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
-- name: 🇦🇪 阿联酋 (UAE) 04 - hotick
-  server: 45.86.228.39
-  port: 443
-  udp: true
-  type: vless
-  uuid: 8197b9b9-8945-460f-99c9-325ef8a8a7c3
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: 6_gm-7Bn-4wN79POTNyDJrJvPh1I5SSiO85zMKpKRUI
-    short-id: 29967a52
-  servername: ae1.gofizzin.com
-  client-fingerprint: chrome
-- name: 🇦🇪 阿联酋 (UAE) 05 - hotick
-  server: 95.174.68.188
-  port: 14430
-  udp: true
-  type: vless
-  uuid: 965ffbbe-c6b6-4d5f-8dea-6d8abc55d9c0
-  network: ws
-  ws-opts:
-    path: /vless
-    headers:
-      Host: 95.174.68.188
-- name: 🇦🇪 阿联酋 (UAE) 06 - hotick
+- name: 🇦🇪 阿联酋 (UAE) 03 - hotick
   server: uae.unixzone.us
   port: 22573
   udp: true
@@ -63,6 +32,13 @@ proxies:
     path: /
     headers:
       Host: uae.unixzone.us
+- name: 🇦🇪 阿联酋 (UAE) 04 - hotick
+  server: 151.241.19.36
+  port: 19999
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
 proxy-groups:
 - name: PROXIES
   type: select
@@ -72,8 +48,6 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 02 - hotick
   - 🇦🇪 阿联酋 (UAE) 03 - hotick
   - 🇦🇪 阿联酋 (UAE) 04 - hotick
-  - 🇦🇪 阿联酋 (UAE) 05 - hotick
-  - 🇦🇪 阿联酋 (UAE) 06 - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -83,7 +57,5 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 02 - hotick
   - 🇦🇪 阿联酋 (UAE) 03 - hotick
   - 🇦🇪 阿联酋 (UAE) 04 - hotick
-  - 🇦🇪 阿联酋 (UAE) 05 - hotick
-  - 🇦🇪 阿联酋 (UAE) 06 - hotick
 rules:
 - MATCH,PROXIES
