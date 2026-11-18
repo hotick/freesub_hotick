@@ -7,9 +7,9 @@
       "type": "shadowsocks",
       "tag": "🇱🇻 拉脱维亚 (Latvia) 01 - hotick",
       "server": "185.135.86.175",
-      "server_port": 9017,
+      "server_port": 9068,
       "method": "aes-256-cfb",
-      "password": "HAVAdE3nXhqA5nHp"
+      "password": "mwgRg9hRq3b4Qnwb"
     },
     {
       "type": "shadowsocks",
@@ -23,17 +23,17 @@
       "type": "shadowsocks",
       "tag": "🇱🇻 拉脱维亚 (Latvia) 03 - hotick",
       "server": "185.135.86.175",
-      "server_port": 9082,
+      "server_port": 9007,
       "method": "aes-256-cfb",
-      "password": "45xgMgm386pjWjTx"
+      "password": "kSPmvwdFzGMMW5pY"
     },
     {
       "type": "shadowsocks",
       "tag": "🇱🇻 拉脱维亚 (Latvia) 04 - hotick",
       "server": "185.135.86.175",
-      "server_port": 9033,
+      "server_port": 9036,
       "method": "aes-256-cfb",
-      "password": "UTJA57ypk2XKQpnm"
+      "password": "hbtvgUz5uNYyB3Rf"
     },
     {
       "type": "shadowsocks",
@@ -47,33 +47,33 @@
       "type": "shadowsocks",
       "tag": "🇱🇻 拉脱维亚 (Latvia) 06 - hotick",
       "server": "185.135.86.175",
+      "server_port": 9033,
+      "method": "aes-256-cfb",
+      "password": "UTJA57ypk2XKQpnm"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇱🇻 拉脱维亚 (Latvia) 07 - hotick",
+      "server": "185.135.86.175",
       "server_port": 9034,
       "method": "aes-256-cfb",
       "password": "Yg4MbdXFQ9HFFVY6"
     },
     {
       "type": "shadowsocks",
-      "tag": "🇱🇻 拉脱维亚 (Latvia) 07 - hotick",
-      "server": "185.135.86.175",
-      "server_port": 9036,
-      "method": "aes-256-cfb",
-      "password": "hbtvgUz5uNYyB3Rf"
-    },
-    {
-      "type": "shadowsocks",
       "tag": "🇱🇻 拉脱维亚 (Latvia) 08 - hotick",
       "server": "185.135.86.175",
-      "server_port": 9068,
+      "server_port": 9017,
       "method": "aes-256-cfb",
-      "password": "mwgRg9hRq3b4Qnwb"
+      "password": "HAVAdE3nXhqA5nHp"
     },
     {
       "type": "shadowsocks",
       "tag": "🇱🇻 拉脱维亚 (Latvia) 09 - hotick",
       "server": "185.135.86.175",
-      "server_port": 9007,
+      "server_port": 9082,
       "method": "aes-256-cfb",
-      "password": "kSPmvwdFzGMMW5pY"
+      "password": "45xgMgm386pjWjTx"
     },
     {
       "type": "vless",
@@ -118,6 +118,26 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "🇱🇻 拉脱维亚 (Latvia) 12 - hotick",
+      "server": "45.38.143.210",
+      "server_port": 30584,
+      "uuid": "cebc5f19-18d9-48e6-9029-fb4b04caf393",
+      "tls": {
+        "enabled": true,
+        "server_name": "m.vk.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "2hV4TY2ygvQ7ISa5o4u_FUKXzlIhLgbsScE8M1h0m3Y",
+          "short_id": "67ece882d65d0f1a"
+        }
+      }
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
@@ -132,7 +152,8 @@
         "🇱🇻 拉脱维亚 (Latvia) 08 - hotick",
         "🇱🇻 拉脱维亚 (Latvia) 09 - hotick",
         "🇱🇻 拉脱维亚 (Latvia) 10 - hotick",
-        "🇱🇻 拉脱维亚 (Latvia) 11 - hotick"
+        "🇱🇻 拉脱维亚 (Latvia) 11 - hotick",
+        "🇱🇻 拉脱维亚 (Latvia) 12 - hotick"
       ]
     },
     {
@@ -149,7 +170,8 @@
         "🇱🇻 拉脱维亚 (Latvia) 08 - hotick",
         "🇱🇻 拉脱维亚 (Latvia) 09 - hotick",
         "🇱🇻 拉脱维亚 (Latvia) 10 - hotick",
-        "🇱🇻 拉脱维亚 (Latvia) 11 - hotick"
+        "🇱🇻 拉脱维亚 (Latvia) 11 - hotick",
+        "🇱🇻 拉脱维亚 (Latvia) 12 - hotick"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

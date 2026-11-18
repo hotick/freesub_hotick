@@ -6,46 +6,34 @@
     {
       "type": "shadowsocks",
       "tag": "🇩🇪 德国 (Germany) 01 (移动家宽) - hotick",
-      "server": "8.220.81.25",
+      "server": "8.211.38.49",
       "server_port": 443,
       "method": "2022-blake3-chacha20-poly1305",
       "password": "8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y="
     },
     {
       "type": "shadowsocks",
-      "tag": "🇰🇷 韩国 (South Korea) 02 (家宽) - hotick",
+      "tag": "🇩🇪 德国 (Germany) 02 (移动家宽) - hotick",
+      "server": "8.220.81.25",
+      "server_port": 443,
+      "method": "2022-blake3-chacha20-poly1305",
+      "password": "8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y="
+    },
+    {
+      "type": "vmess",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 03 (移动家宽) - hotick",
+      "server": "dog-hk.kunlun01dns.com",
+      "server_port": 21019,
+      "uuid": "9464ca40-dd75-3742-a628-d931a9f413b2",
+      "security": "auto"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇰🇷 韩国 (South Korea) 04 (家宽) - hotick",
       "server": "49.254.204.133",
       "server_port": 1774,
       "method": "aes-256-cfb",
       "password": "1234!@#$"
-    },
-    {
-      "type": "vless",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 03 (家宽) - hotick",
-      "server": "e1043905-tokio0-tpkogt-1ryup.hk2.hyhuawei.com",
-      "server_port": 443,
-      "uuid": "3ee091ca-ab9c-11ef-a791-f23c9164ca5d",
-      "tls": {
-        "enabled": true,
-        "server_name": "download.windowsupdate.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "c9DdggKaJGSH7FN3JgGbi9ZvsUqOGGpIr7BhzTWeTCo",
-          "short_id": ""
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 04 (移动家宽) - hotick",
-      "server": "zfd-hkv2.kunlun01dns.com",
-      "server_port": 16115,
-      "uuid": "0802ac03-7973-39ef-a019-ba02de6c01e1",
-      "security": "auto"
     },
     {
       "type": "vless",
@@ -72,9 +60,9 @@
       "outbounds": [
         "auto",
         "🇩🇪 德国 (Germany) 01 (移动家宽) - hotick",
-        "🇰🇷 韩国 (South Korea) 02 (家宽) - hotick",
-        "🇭🇰 中国香港 (Hong Kong) 03 (家宽) - hotick",
-        "🇭🇰 中国香港 (Hong Kong) 04 (移动家宽) - hotick",
+        "🇩🇪 德国 (Germany) 02 (移动家宽) - hotick",
+        "🇭🇰 中国香港 (Hong Kong) 03 (移动家宽) - hotick",
+        "🇰🇷 韩国 (South Korea) 04 (家宽) - hotick",
         "🇹🇼 中国台湾 (Taiwan) 05 (家宽) - hotick"
       ]
     },
@@ -83,9 +71,9 @@
       "tag": "auto",
       "outbounds": [
         "🇩🇪 德国 (Germany) 01 (移动家宽) - hotick",
-        "🇰🇷 韩国 (South Korea) 02 (家宽) - hotick",
-        "🇭🇰 中国香港 (Hong Kong) 03 (家宽) - hotick",
-        "🇭🇰 中国香港 (Hong Kong) 04 (移动家宽) - hotick",
+        "🇩🇪 德国 (Germany) 02 (移动家宽) - hotick",
+        "🇭🇰 中国香港 (Hong Kong) 03 (移动家宽) - hotick",
+        "🇰🇷 韩国 (South Korea) 04 (家宽) - hotick",
         "🇹🇼 中国台湾 (Taiwan) 05 (家宽) - hotick"
       ],
       "url": "https://www.gstatic.com/generate_204"

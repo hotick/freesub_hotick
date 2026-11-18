@@ -12,6 +12,13 @@ proxies:
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
 - name: 🇦🇪 阿联酋 (UAE) 02 - hotick
+  server: 151.241.19.36
+  port: 19999
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇦🇪 阿联酋 (UAE) 03 - hotick
   server: 130.49.161.70
   port: 443
   udp: true
@@ -21,7 +28,18 @@ proxies:
   skip-cert-verify: false
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
-- name: 🇦🇪 阿联酋 (UAE) 03 - hotick
+- name: 🇦🇪 阿联酋 (UAE) 04 - hotick
+  server: 31.58.213.201
+  port: 443
+  udp: true
+  type: vless
+  uuid: fd90e601-a56c-42b8-aab7-aa02d26fcb04
+  flow: xtls-rprx-vision
+  tls: true
+  servername: app.streamru1.com
+  skip-cert-verify: false
+  client-fingerprint: firefox
+- name: 🇦🇪 阿联酋 (UAE) 05 - hotick
   server: uae.unixzone.us
   port: 22573
   udp: true
@@ -30,15 +48,30 @@ proxies:
   network: ws
   ws-opts:
     path: /
-    headers:
-      Host: uae.unixzone.us
-- name: 🇦🇪 阿联酋 (UAE) 04 - hotick
-  server: 151.241.19.36
-  port: 19999
+- name: 🇦🇪 阿联酋 (UAE) 06 - hotick
+  server: r0xnfzk9ud.newwl.pro
+  port: 443
   udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  type: vless
+  uuid: 7955bf18-35c4-412d-aabd-c0b36c793063
+  tls: true
+  servername: r0xnfzk9ud.newwl.pro
+  skip-cert-verify: false
+  client-fingerprint: firefox
+  network: ws
+  ws-opts:
+    path: /service/telemetry/045d381f1166/
+    headers:
+      Host: r0xnfzk9ud.newwl.pro
+- name: 🇦🇪 阿联酋 (UAE) 07 - hotick
+  server: 95.174.68.188
+  port: 14430
+  udp: true
+  type: vless
+  uuid: 965ffbbe-c6b6-4d5f-8dea-6d8abc55d9c0
+  network: ws
+  ws-opts:
+    path: /vless
 proxy-groups:
 - name: PROXIES
   type: select
@@ -48,6 +81,9 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 02 - hotick
   - 🇦🇪 阿联酋 (UAE) 03 - hotick
   - 🇦🇪 阿联酋 (UAE) 04 - hotick
+  - 🇦🇪 阿联酋 (UAE) 05 - hotick
+  - 🇦🇪 阿联酋 (UAE) 06 - hotick
+  - 🇦🇪 阿联酋 (UAE) 07 - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -57,5 +93,8 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 02 - hotick
   - 🇦🇪 阿联酋 (UAE) 03 - hotick
   - 🇦🇪 阿联酋 (UAE) 04 - hotick
+  - 🇦🇪 阿联酋 (UAE) 05 - hotick
+  - 🇦🇪 阿联酋 (UAE) 06 - hotick
+  - 🇦🇪 阿联酋 (UAE) 07 - hotick
 rules:
 - MATCH,PROXIES

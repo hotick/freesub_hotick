@@ -4,9 +4,17 @@
   },
   "outbounds": [
     {
-      "type": "vless",
+      "type": "shadowsocks",
       "tag": "🇮🇳 印度 (India) 01 - hotick",
-      "server": "in.smrtai.top",
+      "server": "172.105.39.124",
+      "server_port": 7002,
+      "method": "aes-256-gcm",
+      "password": "RexnBgU7EV5ADxG"
+    },
+    {
+      "type": "vless",
+      "tag": "🇮🇳 印度 (India) 02 - hotick",
+      "server": "178.212.35.198",
       "server_port": 443,
       "uuid": "6bdc8320-7eae-46fc-be08-f5f54e65dfc8",
       "tls": {
@@ -14,7 +22,7 @@
         "server_name": "www.cloudflare.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
@@ -25,7 +33,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇮🇳 印度 (India) 02 - hotick",
+      "tag": "🇮🇳 印度 (India) 03 - hotick",
       "server": "13.140.56.100",
       "server_port": 14430,
       "uuid": "68512eac-cd53-4de3-8d1e-08f6e04af1a9",
@@ -39,7 +47,7 @@
     },
     {
       "type": "vmess",
-      "tag": "🇮🇳 印度 (India) 03 - hotick",
+      "tag": "🇮🇳 印度 (India) 04 - hotick",
       "server": "152.67.8.205",
       "server_port": 80,
       "uuid": "9db4c708-aef8-4359-821b-38e47990be0d",
@@ -48,14 +56,14 @@
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "in-152.67.8.205-0179"
+          "Host": "in-152.67.8.205-0242"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "🇮🇳 印度 (India) 04 - hotick",
-      "server": "xray-dmr3b3hy-calm-maple-7.cloady.io",
+      "tag": "🇮🇳 印度 (India) 05 - hotick",
+      "server": "13.140.253.35",
       "server_port": 443,
       "uuid": "06a5afa1-2bbc-a5d1-1770-becd1089c636",
       "tls": {
@@ -83,7 +91,8 @@
         "🇮🇳 印度 (India) 01 - hotick",
         "🇮🇳 印度 (India) 02 - hotick",
         "🇮🇳 印度 (India) 03 - hotick",
-        "🇮🇳 印度 (India) 04 - hotick"
+        "🇮🇳 印度 (India) 04 - hotick",
+        "🇮🇳 印度 (India) 05 - hotick"
       ]
     },
     {
@@ -93,7 +102,8 @@
         "🇮🇳 印度 (India) 01 - hotick",
         "🇮🇳 印度 (India) 02 - hotick",
         "🇮🇳 印度 (India) 03 - hotick",
-        "🇮🇳 印度 (India) 04 - hotick"
+        "🇮🇳 印度 (India) 04 - hotick",
+        "🇮🇳 印度 (India) 05 - hotick"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

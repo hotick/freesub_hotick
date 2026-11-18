@@ -4,23 +4,12 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇭🇰 中国香港 (Hong Kong) 01 (家宽) - hotick
-  server: e1043905-tokio0-tpkogt-1ryup.hk2.hyhuawei.com
-  port: 443
-  udp: true
-  type: vless
-  uuid: 3ee091ca-ab9c-11ef-a791-f23c9164ca5d
-  tls: true
-  reality-opts:
-    public-key: c9DdggKaJGSH7FN3JgGbi9ZvsUqOGGpIr7BhzTWeTCo
-  servername: download.windowsupdate.com
-  client-fingerprint: chrome
-- name: 🇭🇰 中国香港 (Hong Kong) 02 (移动家宽) - hotick
-  server: zfd-hkv2.kunlun01dns.com
-  port: 16115
+- name: 🇭🇰 中国香港 (Hong Kong) 01 (移动家宽) - hotick
+  server: dog-hk.kunlun01dns.com
+  port: 21019
   udp: true
   type: vmess
-  uuid: 0802ac03-7973-39ef-a019-ba02de6c01e1
+  uuid: 9464ca40-dd75-3742-a628-d931a9f413b2
   alterId: 0
   cipher: auto
 proxy-groups:
@@ -28,14 +17,12 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇭🇰 中国香港 (Hong Kong) 01 (家宽) - hotick
-  - 🇭🇰 中国香港 (Hong Kong) 02 (移动家宽) - hotick
+  - 🇭🇰 中国香港 (Hong Kong) 01 (移动家宽) - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇭🇰 中国香港 (Hong Kong) 01 (家宽) - hotick
-  - 🇭🇰 中国香港 (Hong Kong) 02 (移动家宽) - hotick
+  - 🇭🇰 中国香港 (Hong Kong) 01 (移动家宽) - hotick
 rules:
 - MATCH,PROXIES
