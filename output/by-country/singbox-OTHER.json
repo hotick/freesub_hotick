@@ -1,0 +1,153 @@
+{
+  "log": {
+    "level": "warn"
+  },
+  "outbounds": [
+    {
+      "type": "vmess",
+      "tag": "🌐 其他地区 (Other) 01 - hotick",
+      "server": "US122205.ssgreen.org",
+      "server_port": 443,
+      "uuid": "4e3618c7-e683-49dd-b678-166dcb6eccea",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "US122205.ssgreen.org",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/wes",
+        "headers": {
+          "Host": "US122205.ssgreen.org"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🌐 其他地区 (Other) 02 - hotick",
+      "server": "US122205.ssgreen.org",
+      "server_port": 443,
+      "uuid": "4e3618c7-e683-49dd-b678-166dcb6eccea",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "US122205.ssgreen.org",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/wes",
+        "headers": {
+          "Host": "US122205.ssgreen.org"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🌐 其他地区 (Other) 03 - hotick",
+      "server": "US122205.ssgreen.org",
+      "server_port": 443,
+      "uuid": "4e3618c7-e683-49dd-b678-166dcb6eccea",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "US122205.ssgreen.org",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/wes",
+        "headers": {
+          "Host": "US122205.ssgreen.org"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🌐 其他地区 (Other) 04 - hotick",
+      "server": "US122205.ssgreen.org",
+      "server_port": 443,
+      "uuid": "c5bfb69e-67e0-470a-a17d-8cdd55f7e916",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "US122205.ssgreen.org",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/wes"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🌐 其他地区 (Other) 05 - hotick",
+      "server": "US122201.ssgreen.org",
+      "server_port": 443,
+      "uuid": "b8fbcbc5-fe2b-452c-8c94-e37b2a1baeb9",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "US122201.ssgreen.org",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/wes",
+        "headers": {
+          "Host": "US122201.ssgreen.org"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🌐 其他地区 (Other) 06 - hotick",
+      "server": "104.21.0.1",
+      "server_port": 80,
+      "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
+      "security": "auto",
+      "transport": {
+        "type": "ws",
+        "path": "/ws",
+        "headers": {
+          "Host": "vmess.lbw666.dpdns.org"
+        }
+      }
+    },
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "🌐 其他地区 (Other) 01 - hotick",
+        "🌐 其他地区 (Other) 02 - hotick",
+        "🌐 其他地区 (Other) 03 - hotick",
+        "🌐 其他地区 (Other) 04 - hotick",
+        "🌐 其他地区 (Other) 05 - hotick",
+        "🌐 其他地区 (Other) 06 - hotick"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🌐 其他地区 (Other) 01 - hotick",
+        "🌐 其他地区 (Other) 02 - hotick",
+        "🌐 其他地区 (Other) 03 - hotick",
+        "🌐 其他地区 (Other) 04 - hotick",
+        "🌐 其他地区 (Other) 05 - hotick",
+        "🌐 其他地区 (Other) 06 - hotick"
+      ],
+      "url": "https://www.gstatic.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ]
+}

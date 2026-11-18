@@ -5,23 +5,37 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇻🇳 越南 (Vietnam) 01 - hotick
+  server: zfapi.zalolink.com
+  port: 55688
+  udp: true
+  type: vless
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: 6dqd0hqbC0bht9RtsYamvlYdMpxyUbk7uXw0xtO8DzQ
+    short-id: 865c1b2c
+  servername: bilibili-vn.biliimg.com
+  client-fingerprint: chrome
+- name: 🇻🇳 越南 (Vietnam) 02 - hotick
+  server: mngd.connainho.lol
+  port: 59736
+  udp: true
+  type: vless
+  uuid: 4ff754c4-a405-401b-81ba-6241fbbb9314
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: Zos_i17fmOY1oBrudr6mlL8MJClNuBXvjdOxZ4JK2lI
+    short-id: cab2f4e8
+  servername: www.apple.com
+  client-fingerprint: chrome
+- name: 🇻🇳 越南 (Vietnam) 03 - hotick
   server: 150.95.109.109
   port: 2086
   udp: true
   type: vless
   uuid: b83faafc-cbb7-4655-99d4-2c4c39a49d1b
-- name: 🇻🇳 越南 (Vietnam) 02 - hotick
-  server: kir3.crackerbinam.org
-  port: 56026
-  udp: true
-  type: vless
-  uuid: a1f0cbb8-c74a-4c27-b881-7b14d96aece1
-  tls: true
-  reality-opts:
-    public-key: gjOKbmRb5cGDPbdz3x8xkBFL43pn3xqL-I6sALHO7ls
-    short-id: 99676967e6867063
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
@@ -29,6 +43,7 @@ proxy-groups:
   - AUTO
   - 🇻🇳 越南 (Vietnam) 01 - hotick
   - 🇻🇳 越南 (Vietnam) 02 - hotick
+  - 🇻🇳 越南 (Vietnam) 03 - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -36,5 +51,6 @@ proxy-groups:
   proxies:
   - 🇻🇳 越南 (Vietnam) 01 - hotick
   - 🇻🇳 越南 (Vietnam) 02 - hotick
+  - 🇻🇳 越南 (Vietnam) 03 - hotick
 rules:
 - MATCH,PROXIES

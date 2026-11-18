@@ -1,0 +1,121 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: rule
+log-level: info
+proxies:
+- name: 🌐 其他地区 (Other) 01 - hotick
+  server: US122205.ssgreen.org
+  port: 443
+  udp: true
+  type: vmess
+  uuid: 4e3618c7-e683-49dd-b678-166dcb6eccea
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: US122205.ssgreen.org
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /wes
+    headers:
+      Host: US122205.ssgreen.org
+- name: 🌐 其他地区 (Other) 02 - hotick
+  server: US122205.ssgreen.org
+  port: 443
+  udp: true
+  type: vmess
+  uuid: 4e3618c7-e683-49dd-b678-166dcb6eccea
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: US122205.ssgreen.org
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /wes
+    headers:
+      Host: US122205.ssgreen.org
+- name: 🌐 其他地区 (Other) 03 - hotick
+  server: US122205.ssgreen.org
+  port: 443
+  udp: true
+  type: vmess
+  uuid: 4e3618c7-e683-49dd-b678-166dcb6eccea
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: US122205.ssgreen.org
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /wes
+    headers:
+      Host: US122205.ssgreen.org
+- name: 🌐 其他地区 (Other) 04 - hotick
+  server: US122205.ssgreen.org
+  port: 443
+  udp: true
+  type: vmess
+  uuid: c5bfb69e-67e0-470a-a17d-8cdd55f7e916
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: US122205.ssgreen.org
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /wes
+- name: 🌐 其他地区 (Other) 05 - hotick
+  server: US122201.ssgreen.org
+  port: 443
+  udp: true
+  type: vmess
+  uuid: b8fbcbc5-fe2b-452c-8c94-e37b2a1baeb9
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: US122201.ssgreen.org
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /wes
+    headers:
+      Host: US122201.ssgreen.org
+- name: 🌐 其他地区 (Other) 06 - hotick
+  server: 104.21.0.1
+  port: 80
+  udp: true
+  type: vmess
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: vmess.lbw666.dpdns.org
+proxy-groups:
+- name: PROXIES
+  type: select
+  proxies:
+  - AUTO
+  - 🌐 其他地区 (Other) 01 - hotick
+  - 🌐 其他地区 (Other) 02 - hotick
+  - 🌐 其他地区 (Other) 03 - hotick
+  - 🌐 其他地区 (Other) 04 - hotick
+  - 🌐 其他地区 (Other) 05 - hotick
+  - 🌐 其他地区 (Other) 06 - hotick
+- name: AUTO
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  proxies:
+  - 🌐 其他地区 (Other) 01 - hotick
+  - 🌐 其他地区 (Other) 02 - hotick
+  - 🌐 其他地区 (Other) 03 - hotick
+  - 🌐 其他地区 (Other) 04 - hotick
+  - 🌐 其他地区 (Other) 05 - hotick
+  - 🌐 其他地区 (Other) 06 - hotick
+rules:
+- MATCH,PROXIES
