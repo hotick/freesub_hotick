@@ -5,17 +5,27 @@
   "outbounds": [
     {
       "type": "trojan",
-      "tag": "🇲🇾 马来西亚 (Malaysia) 01 - hotick",
-      "server": "47.250.84.25",
-      "server_port": 443,
-      "password": "5931134d1cde66bf83a54acdfebe7ab2",
+      "tag": "🇱🇺 卢森堡 (Luxembourg) 01 - hotick",
+      "server": "193.57.88.100",
+      "server_port": 16200,
+      "password": "4mq9w5ckqw3ewbdg",
       "tls": {
         "enabled": true,
-        "server_name": "moltbot.doctoroyy.net",
-        "insecure": true,
+        "server_name": "staticxfastline.taymaztest.ir",
+        "insecure": false,
+        "alpn": [
+          "http/1.1"
+        ],
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/biyasd",
+        "headers": {
+          "Host": "staticxfastline.taymaztest.ir"
         }
       }
     },
@@ -24,14 +34,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇲🇾 马来西亚 (Malaysia) 01 - hotick"
+        "🇱🇺 卢森堡 (Luxembourg) 01 - hotick"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇲🇾 马来西亚 (Malaysia) 01 - hotick"
+        "🇱🇺 卢森堡 (Luxembourg) 01 - hotick"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

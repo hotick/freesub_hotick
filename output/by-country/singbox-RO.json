@@ -32,29 +32,8 @@
       "password": "gf1:gfhysteria2024",
       "tls": {
         "enabled": true,
-        "server_name": "whatsapp.com",
+        "server_name": "www.amazon.com",
         "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇷🇴 罗马尼亚 (Romania) 03 - hotick",
-      "server": "cdn4.velmoradigital.store",
-      "server_port": 2443,
-      "uuid": "32ea050a-1981-4ed2-b63f-77e0f53c4b65",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdn4.velmoradigital.store",
-        "insecure": false,
-        "alpn": [
-          "h2",
-          "http/1.1"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
       }
     },
     {
@@ -63,8 +42,7 @@
       "outbounds": [
         "auto",
         "🇷🇴 罗马尼亚 (Romania) 01 - hotick",
-        "🇷🇴 罗马尼亚 (Romania) 02 - hotick",
-        "🇷🇴 罗马尼亚 (Romania) 03 - hotick"
+        "🇷🇴 罗马尼亚 (Romania) 02 - hotick"
       ]
     },
     {
@@ -72,8 +50,7 @@
       "tag": "auto",
       "outbounds": [
         "🇷🇴 罗马尼亚 (Romania) 01 - hotick",
-        "🇷🇴 罗马尼亚 (Romania) 02 - hotick",
-        "🇷🇴 罗马尼亚 (Romania) 03 - hotick"
+        "🇷🇴 罗马尼亚 (Romania) 02 - hotick"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

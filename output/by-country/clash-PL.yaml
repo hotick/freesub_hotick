@@ -13,71 +13,77 @@ proxies:
   password: mENfxTFQpRKKh4As
 - name: 🇵🇱 波兰 (Poland) 02 - hotick
   server: 217.30.10.44
-  port: 9042
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: S7KwUu7yBy58S3Ga
-- name: 🇵🇱 波兰 (Poland) 03 - hotick
-  server: 217.30.10.44
-  port: 9076
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: S2zDyyPcmZN2h8EC
-- name: 🇵🇱 波兰 (Poland) 04 - hotick
-  server: 217.30.10.44
   port: 9063
   udp: true
   type: ss
   cipher: aes-256-cfb
   password: aQqJbtwFGcCCaeL3
-- name: 🇵🇱 波兰 (Poland) 05 - hotick
-  server: 217.30.10.44
-  port: 9099
+- name: 🇵🇱 波兰 (Poland) 03 - hotick
+  server: 217.30.10.70
+  port: 9057
   udp: true
   type: ss
   cipher: aes-256-cfb
-  password: 7heRqkPG3hg4UnRm
-- name: 🇵🇱 波兰 (Poland) 06 - hotick
+  password: wjTugX3ZtHMB9c3Z
+- name: 🇵🇱 波兰 (Poland) 04 - hotick
   server: 217.30.10.44
   port: 9095
   udp: true
   type: ss
   cipher: aes-256-cfb
   password: N7j3pdTYkKmsy8CR
-- name: 🇵🇱 波兰 (Poland) 07 - hotick
+- name: 🇵🇱 波兰 (Poland) 05 - hotick
   server: 217.30.10.44
   port: 9052
   udp: true
   type: ss
   cipher: aes-256-cfb
   password: jt2ekBNc9HuVtm2a
+- name: 🇵🇱 波兰 (Poland) 06 - hotick
+  server: 217.30.10.44
+  port: 9076
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: S2zDyyPcmZN2h8EC
+- name: 🇵🇱 波兰 (Poland) 07 - hotick
+  server: 217.30.10.70
+  port: 9098
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: aLpQtfEZe445QyHk
 - name: 🇵🇱 波兰 (Poland) 08 - hotick
   server: 217.30.10.44
-  port: 9006
+  port: 9042
   udp: true
   type: ss
   cipher: aes-256-cfb
-  password: FAdUvMJUq5vDgKEq
+  password: S7KwUu7yBy58S3Ga
 - name: 🇵🇱 波兰 (Poland) 09 - hotick
-  server: 217.30.10.70
-  port: 9020
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: BNmAXXxAHYpTRdzu
-- name: 🇵🇱 波兰 (Poland) 10 - hotick
-  server: 144.31.0.101
+  server: 80.47.10.106
   port: 443
   udp: true
   type: vless
-  uuid: 955d8dc7-5e3b-40ac-b2bb-bd8aa20fc7e6
+  uuid: a30903dc-1bf0-4be5-8b1b-603a3a56211c
+  tls: true
+  reality-opts:
+    public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
+    short-id: a7c92e4b10d6f835
+  servername: pl8.galioncc.com
+  client-fingerprint: chrome
+- name: 🇵🇱 波兰 (Poland) 10 - hotick
+  server: 31.76.32.122
+  port: 443
+  udp: true
+  type: vless
+  uuid: 71b566cb-78c4-48e4-af5b-720e4f7884f2
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: 1eEtiZY5qDDosntp-9_xFnOIvOBzHy4d3-eA7v11qx0
-  servername: gmtrtb.wey-land.net
+    public-key: O35Np_ugrc3mUDIEO4UnViEwRobM2r9kqQCdcdCHjEI
+    short-id: cb33163cf9c03ab1
+  servername: p1.xvanta.online
   client-fingerprint: chrome
 - name: 🇵🇱 波兰 (Poland) 11 - hotick
   server: 54.37.131.126
@@ -93,29 +99,6 @@ proxies:
     headers:
       Host: google.whatsapp.snapp.torob.basalam.hesanid8.ir.
 - name: 🇵🇱 波兰 (Poland) 12 - hotick
-  server: 45.194.66.177
-  port: 443
-  udp: true
-  type: vless
-  uuid: 352a250d-080b-47b5-b7db-f9f8fa31c551
-  flow: xtls-rprx-vision
-  tls: true
-  servername: 31tawwo0.virtual-network.lol
-  skip-cert-verify: false
-  client-fingerprint: chrome
-- name: 🇵🇱 波兰 (Poland) 13 - hotick
-  server: 80.47.10.106
-  port: 443
-  udp: true
-  type: vless
-  uuid: a30903dc-1bf0-4be5-8b1b-603a3a56211c
-  tls: true
-  reality-opts:
-    public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
-    short-id: a7c92e4b10d6f835
-  servername: pl8.galioncc.com
-  client-fingerprint: firefox
-- name: 🇵🇱 波兰 (Poland) 14 - hotick
   server: 150.251.113.34
   port: 443
   udp: true
@@ -145,8 +128,6 @@ proxy-groups:
   - 🇵🇱 波兰 (Poland) 10 - hotick
   - 🇵🇱 波兰 (Poland) 11 - hotick
   - 🇵🇱 波兰 (Poland) 12 - hotick
-  - 🇵🇱 波兰 (Poland) 13 - hotick
-  - 🇵🇱 波兰 (Poland) 14 - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -164,7 +145,5 @@ proxy-groups:
   - 🇵🇱 波兰 (Poland) 10 - hotick
   - 🇵🇱 波兰 (Poland) 11 - hotick
   - 🇵🇱 波兰 (Poland) 12 - hotick
-  - 🇵🇱 波兰 (Poland) 13 - hotick
-  - 🇵🇱 波兰 (Poland) 14 - hotick
 rules:
 - MATCH,PROXIES

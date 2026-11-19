@@ -12,39 +12,18 @@
       "security": "auto"
     },
     {
-      "type": "vless",
-      "tag": "🇮🇩 印尼 (Indonesia) 02 - hotick",
-      "server": "104.17.3.81",
-      "server_port": 443,
-      "uuid": "12d67d2b-ae5c-4d56-9f14-d71d96f7826f",
-      "tls": {
-        "enabled": true,
-        "server_name": "natan.srpcom.cloud",
-        "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/vlessws",
-        "headers": {
-          "Host": "natan.srpcom.cloud"
-        }
-      }
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇮🇩 印尼 (Indonesia) 01 - hotick",
-        "🇮🇩 印尼 (Indonesia) 02 - hotick"
+        "🇮🇩 印尼 (Indonesia) 01 - hotick"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇩 印尼 (Indonesia) 01 - hotick",
-        "🇮🇩 印尼 (Indonesia) 02 - hotick"
+        "🇮🇩 印尼 (Indonesia) 01 - hotick"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
