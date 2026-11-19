@@ -32,20 +32,36 @@
       "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
       "tls": {
         "enabled": true,
-        "server_name": "t.me",
+        "server_name": "https://t.me/oneclickvpnkeys",
         "insecure": true
       }
     },
     {
       "type": "hysteria2",
       "tag": "🇹🇼 中国台湾 (Taiwan) 03 - hotick",
-      "server": "vpn-tw-002.fastervpn.world",
+      "server": "160.187.100.109",
       "server_port": 443,
       "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
       "tls": {
         "enabled": true,
-        "server_name": "vpn-tw-002.fastervpn.world\\u0026insecure=1\\u0026allowinsecure=1",
+        "server_name": "off",
         "insecure": true
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 04 - hotick",
+      "server": "34.80.15.95",
+      "server_port": 443,
+      "password": "123456",
+      "tls": {
+        "enabled": true,
+        "server_name": "tw.ctt25.uk",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       }
     },
     {
@@ -55,7 +71,8 @@
         "auto",
         "🇹🇼 中国台湾 (Taiwan) 01 - hotick",
         "🇹🇼 中国台湾 (Taiwan) 02 - hotick",
-        "🇹🇼 中国台湾 (Taiwan) 03 - hotick"
+        "🇹🇼 中国台湾 (Taiwan) 03 - hotick",
+        "🇹🇼 中国台湾 (Taiwan) 04 - hotick"
       ]
     },
     {
@@ -64,7 +81,8 @@
       "outbounds": [
         "🇹🇼 中国台湾 (Taiwan) 01 - hotick",
         "🇹🇼 中国台湾 (Taiwan) 02 - hotick",
-        "🇹🇼 中国台湾 (Taiwan) 03 - hotick"
+        "🇹🇼 中国台湾 (Taiwan) 03 - hotick",
+        "🇹🇼 中国台湾 (Taiwan) 04 - hotick"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
