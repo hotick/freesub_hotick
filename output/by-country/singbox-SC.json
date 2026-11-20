@@ -6,32 +6,6 @@
     {
       "type": "vless",
       "tag": "🇸🇨 塞舌尔 (Seychelles) 01 - hotick",
-      "server": "104.25.5.52",
-      "server_port": 443,
-      "uuid": "93fa8bdb-9cca-4a3e-8355-b7c12e4f595e",
-      "tls": {
-        "enabled": true,
-        "server_name": "FORnEwIRAn.ADE-1000.worKeRS.dev",
-        "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/vl/yLWNcuUuw1jlJpkDhGy?ed=2560",
-        "headers": {
-          "Host": "fornewiran.ade-1000.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇸🇨 塞舌尔 (Seychelles) 02 - hotick",
       "server": "46.29.255.123",
       "server_port": 59539,
       "uuid": "30572b57-f5ab-4eb8-82d4-a24d399b99f6",
@@ -41,7 +15,7 @@
         "server_name": "cloudflare-dns.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -55,16 +29,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇸🇨 塞舌尔 (Seychelles) 01 - hotick",
-        "🇸🇨 塞舌尔 (Seychelles) 02 - hotick"
+        "🇸🇨 塞舌尔 (Seychelles) 01 - hotick"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇸🇨 塞舌尔 (Seychelles) 01 - hotick",
-        "🇸🇨 塞舌尔 (Seychelles) 02 - hotick"
+        "🇸🇨 塞舌尔 (Seychelles) 01 - hotick"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

@@ -6,23 +6,21 @@
     {
       "type": "vless",
       "tag": "🇭🇺 匈牙利 (Hungary) 01 - hotick",
-      "server": "172.67.131.125",
-      "server_port": 2083,
-      "uuid": "f418674e-f518-4318-8ff9-e10000000046",
+      "server": "94.183.234.245",
+      "server_port": 443,
+      "uuid": "5de0c218-0138-45d8-94d2-c2c3f37a1a6d",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "smart-edge-424.arti98399-1905.workers.dev",
-        "insecure": false,
+        "server_name": "www.bing.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/sync",
-        "headers": {
-          "Host": "smart-edge-424.arti98399-1905.workers.dev"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "tfFzmbVByvoZxxIEUiHMv22_k0-nQz00L0XjU0bd_Fc",
+          "short_id": "7f1e29593aa94ad1"
         }
       }
     },
