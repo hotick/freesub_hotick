@@ -22,7 +22,7 @@ proxies:
     public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
     short-id: a7c92e4b10d6f835
   servername: api-svc-mgr.galioncc.com
-  client-fingerprint: firefox
+  client-fingerprint: chrome
 - name: 🇸🇪 瑞典 (Sweden) 03 - hotick
   server: 62.93.166.184
   port: 1270
@@ -35,16 +35,14 @@ proxies:
   servername: xmfhlpy.com
   skip-cert-verify: false
 - name: 🇸🇪 瑞典 (Sweden) 04 - hotick
-  server: 138.199.55.230
-  port: 1270
+  server: 5.178.109.174
+  port: 14430
   udp: true
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: xmfhlpy.com
-  skip-cert-verify: false
+  type: vless
+  uuid: 80de563a-cac8-40ea-8cb0-4cb082dd92f9
+  network: ws
+  ws-opts:
+    path: /vless
 - name: 🇸🇪 瑞典 (Sweden) 05 - hotick
   server: 138.124.86.230
   port: 48115
@@ -59,24 +57,39 @@ proxies:
   grpc-opts:
     grpc-service-name: 138-124-86-230-sslip-io
 - name: 🇸🇪 瑞典 (Sweden) 06 - hotick
-  server: 5.178.109.174
-  port: 14430
+  server: 138.199.55.230
+  port: 1270
   udp: true
-  type: vless
-  uuid: 80de563a-cac8-40ea-8cb0-4cb082dd92f9
-  network: ws
-  ws-opts:
-    path: /vless
-    headers:
-      Host: 5.178.109.174
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: xmfhlpy.com
+  skip-cert-verify: false
 - name: 🇸🇪 瑞典 (Sweden) 07 - hotick
   server: 95.143.196.97
   port: 443
   udp: true
-  type: hysteria2
-  password: 769f34f0-1500-488f-b414-03bc90666502
-  sni: se.mimowhat.online
+  type: trojan
+  password: FkQH0Q5EFneySv20Qj3yoArD2GSb2XZF
+  sni: connect-se.mimowhat.online
   skip-cert-verify: false
+- name: 🇸🇪 瑞典 (Sweden) 08 - hotick
+  server: 2.27.14.247
+  port: 2096
+  udp: true
+  type: vless
+  uuid: fbe22815-0718-4eae-816f-e91c67d15b54
+  tls: true
+  servername: st2a695.rumedia-cdn.com
+  skip-cert-verify: false
+  client-fingerprint: firefox
+  network: ws
+  ws-opts:
+    path: /cdn/v3/live
+    headers:
+      Host: st2a695.rumedia-cdn.com
 proxy-groups:
 - name: PROXIES
   type: select
@@ -89,6 +102,7 @@ proxy-groups:
   - 🇸🇪 瑞典 (Sweden) 05 - hotick
   - 🇸🇪 瑞典 (Sweden) 06 - hotick
   - 🇸🇪 瑞典 (Sweden) 07 - hotick
+  - 🇸🇪 瑞典 (Sweden) 08 - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -101,5 +115,6 @@ proxy-groups:
   - 🇸🇪 瑞典 (Sweden) 05 - hotick
   - 🇸🇪 瑞典 (Sweden) 06 - hotick
   - 🇸🇪 瑞典 (Sweden) 07 - hotick
+  - 🇸🇪 瑞典 (Sweden) 08 - hotick
 rules:
 - MATCH,PROXIES

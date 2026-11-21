@@ -6,7 +6,7 @@
     {
       "type": "shadowsocks",
       "tag": "🇮🇹 意大利 (Italy) 01 - hotick",
-      "server": "202.50.253.18",
+      "server": "202.50.253.99",
       "server_port": 19999,
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
@@ -30,14 +30,6 @@
     {
       "type": "shadowsocks",
       "tag": "🇮🇹 意大利 (Italy) 04 - hotick",
-      "server": "202.50.253.63",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇮🇹 意大利 (Italy) 05 - hotick",
       "server": "202.50.253.36",
       "server_port": 19999,
       "method": "aes-256-gcm",
@@ -45,11 +37,19 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇮🇹 意大利 (Italy) 06 - hotick",
-      "server": "57.131.27.21",
-      "server_port": 8388,
+      "tag": "🇮🇹 意大利 (Italy) 05 - hotick",
+      "server": "202.50.253.45",
+      "server_port": 19999,
       "method": "aes-256-gcm",
-      "password": "itzvpn@321"
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇮🇹 意大利 (Italy) 06 - hotick",
+      "server": "202.50.253.90",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
       "type": "shadowsocks",
@@ -62,15 +62,15 @@
     {
       "type": "shadowsocks",
       "tag": "🇮🇹 意大利 (Italy) 08 - hotick",
-      "server": "202.50.253.99",
-      "server_port": 19999,
+      "server": "leviko-it9085.shopingggg.ir",
+      "server_port": 8388,
       "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+      "password": "itzvpn@321"
     },
     {
       "type": "shadowsocks",
       "tag": "🇮🇹 意大利 (Italy) 09 - hotick",
-      "server": "202.50.253.54",
+      "server": "202.50.253.18",
       "server_port": 19999,
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
@@ -78,7 +78,7 @@
     {
       "type": "shadowsocks",
       "tag": "🇮🇹 意大利 (Italy) 10 - hotick",
-      "server": "202.50.253.90",
+      "server": "202.50.253.63",
       "server_port": 19999,
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
@@ -86,7 +86,7 @@
     {
       "type": "shadowsocks",
       "tag": "🇮🇹 意大利 (Italy) 11 - hotick",
-      "server": "202.50.253.45",
+      "server": "202.50.253.54",
       "server_port": 19999,
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
@@ -103,29 +103,21 @@
       "type": "shadowsocks",
       "tag": "🇮🇹 意大利 (Italy) 13 - hotick",
       "server": "91.201.65.122",
-      "server_port": 9097,
-      "method": "aes-256-cfb",
-      "password": "Sn5B7jTqr76aCJT8"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇮🇹 意大利 (Italy) 14 - hotick",
-      "server": "91.201.65.122",
-      "server_port": 9074,
-      "method": "aes-256-cfb",
-      "password": "p5wSkb2uM3pKSS3j"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇮🇹 意大利 (Italy) 15 - hotick",
-      "server": "91.201.65.122",
       "server_port": 9053,
       "method": "aes-256-cfb",
       "password": "SBM7R883jBmnqe6C"
     },
     {
+      "type": "shadowsocks",
+      "tag": "🇮🇹 意大利 (Italy) 14 - hotick",
+      "server": "91.201.65.122",
+      "server_port": 9039,
+      "method": "aes-256-cfb",
+      "password": "qYEN5HX4JKeVCdEC"
+    },
+    {
       "type": "vless",
-      "tag": "🇮🇹 意大利 (Italy) 16 - hotick",
+      "tag": "🇮🇹 意大利 (Italy) 15 - hotick",
       "server": "82.118.16.187",
       "server_port": 443,
       "uuid": "dc2259c4-388e-4285-ba18-df619b6672b6",
@@ -146,15 +138,15 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇮🇹 意大利 (Italy) 17 - hotick",
+      "tag": "🇮🇹 意大利 (Italy) 16 - hotick",
       "server": "91.201.65.122",
-      "server_port": 9065,
+      "server_port": 9097,
       "method": "aes-256-cfb",
-      "password": "PeHSHm5SqEjBuEXE"
+      "password": "Sn5B7jTqr76aCJT8"
     },
     {
       "type": "shadowsocks",
-      "tag": "🇮🇹 意大利 (Italy) 18 - hotick",
+      "tag": "🇮🇹 意大利 (Italy) 17 - hotick",
       "server": "91.201.65.122",
       "server_port": 9059,
       "method": "aes-256-cfb",
@@ -162,7 +154,23 @@
     },
     {
       "type": "shadowsocks",
+      "tag": "🇮🇹 意大利 (Italy) 18 - hotick",
+      "server": "91.201.65.122",
+      "server_port": 9074,
+      "method": "aes-256-cfb",
+      "password": "p5wSkb2uM3pKSS3j"
+    },
+    {
+      "type": "shadowsocks",
       "tag": "🇮🇹 意大利 (Italy) 19 - hotick",
+      "server": "91.201.65.122",
+      "server_port": 9002,
+      "method": "aes-256-cfb",
+      "password": "b8KkNDjEd5QqFyRm"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇮🇹 意大利 (Italy) 20 - hotick",
       "server": "91.201.65.122",
       "server_port": 9092,
       "method": "aes-256-cfb",
@@ -170,7 +178,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇮🇹 意大利 (Italy) 20 - hotick",
+      "tag": "🇮🇹 意大利 (Italy) 21 - hotick",
       "server": "dash.chiex.ir",
       "server_port": 1349,
       "method": "chacha20-ietf-poly1305",
@@ -178,7 +186,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇮🇹 意大利 (Italy) 21 - hotick",
+      "tag": "🇮🇹 意大利 (Italy) 22 - hotick",
       "server": "82.118.16.189",
       "server_port": 443,
       "uuid": "29f178f7-f96f-46ba-8fc0-bbcd690ba788",
@@ -222,7 +230,8 @@
         "🇮🇹 意大利 (Italy) 18 - hotick",
         "🇮🇹 意大利 (Italy) 19 - hotick",
         "🇮🇹 意大利 (Italy) 20 - hotick",
-        "🇮🇹 意大利 (Italy) 21 - hotick"
+        "🇮🇹 意大利 (Italy) 21 - hotick",
+        "🇮🇹 意大利 (Italy) 22 - hotick"
       ]
     },
     {
@@ -249,7 +258,8 @@
         "🇮🇹 意大利 (Italy) 18 - hotick",
         "🇮🇹 意大利 (Italy) 19 - hotick",
         "🇮🇹 意大利 (Italy) 20 - hotick",
-        "🇮🇹 意大利 (Italy) 21 - hotick"
+        "🇮🇹 意大利 (Italy) 21 - hotick",
+        "🇮🇹 意大利 (Italy) 22 - hotick"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
