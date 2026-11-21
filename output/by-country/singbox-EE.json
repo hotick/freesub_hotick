@@ -5,22 +5,22 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇦🇲 亚美尼亚 (Armenia) 01 - hotick",
-      "server": "82.202.142.227",
-      "server_port": 23444,
-      "uuid": "a9ff24d3-f308-4e72-acb9-a76062583837",
+      "tag": "🇪🇪 爱沙尼亚 (Estonia) 01 - hotick",
+      "server": "77.83.198.104",
+      "server_port": 8443,
+      "uuid": "9a597d68-6688-4046-bf24-a5a541e115e0",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "fontanka.ru",
+        "server_name": "www.apple.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "T1BWBw3lq9G1LiQ7eQSPfdNQic7bUMEbdFNJBewAwB8",
-          "short_id": "6ad3c0f1e9b2478a"
+          "public_key": "6FI4VM9WlQEGVjyCvLDQLz1jOkrzzhtfGl9eQTBn6HU",
+          "short_id": "f8d0271b4b5f9efc"
         }
       }
     },
@@ -29,14 +29,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇦🇲 亚美尼亚 (Armenia) 01 - hotick"
+        "🇪🇪 爱沙尼亚 (Estonia) 01 - hotick"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇦🇲 亚美尼亚 (Armenia) 01 - hotick"
+        "🇪🇪 爱沙尼亚 (Estonia) 01 - hotick"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

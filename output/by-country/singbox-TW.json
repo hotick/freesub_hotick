@@ -11,7 +11,7 @@
       "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
       "tls": {
         "enabled": true,
-        "server_name": "vpn-tw-002.fastervpn.world",
+        "server_name": "160.187.100.109",
         "insecure": true
       }
     },
@@ -23,14 +23,14 @@
       "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
       "tls": {
         "enabled": true,
-        "server_name": "https://t.me/oneclickvpnkeys",
+        "server_name": "https://t.me/WangCai2",
         "insecure": true
       }
     },
     {
       "type": "vmess",
       "tag": "🇹🇼 中国台湾 (Taiwan) 03 - hotick",
-      "server": "dp8yk.xiaoyan.io",
+      "server": "afzuv.xiaoyan.io",
       "server_port": 16616,
       "uuid": "904f0569-8695-466f-97cf-0de2face1b46",
       "security": "auto",

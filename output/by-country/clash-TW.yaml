@@ -10,7 +10,7 @@ proxies:
   udp: true
   type: hysteria2
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: vpn-tw-002.fastervpn.world
+  sni: 160.187.100.109
   skip-cert-verify: true
 - name: 🇹🇼 中国台湾 (Taiwan) 02 - hotick
   server: 103.115.109.49
@@ -18,10 +18,10 @@ proxies:
   udp: true
   type: hysteria2
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: https://t.me/oneclickvpnkeys
+  sni: https://t.me/WangCai2
   skip-cert-verify: true
 - name: 🇹🇼 中国台湾 (Taiwan) 03 - hotick
-  server: dp8yk.xiaoyan.io
+  server: afzuv.xiaoyan.io
   port: 16616
   udp: true
   type: vmess
