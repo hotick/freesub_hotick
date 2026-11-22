@@ -5,83 +5,31 @@ mode: rule
 log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - hotick
-  server: 188.114.99.137
+  server: 104.19.12.94
   port: 443
   udp: true
-  type: vmess
-  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
-  alterId: 0
-  cipher: auto
+  type: vless
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   tls: true
-  servername: vmess.lbw666.dpdns.org
+  servername: jp3.yohototo.top
   skip-cert-verify: false
+  client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /ws
+    path: /tyxyws
     headers:
-      Host: vmess.lbw666.dpdns.org
-- name: 🌐 其他地区 (Other) 02 - hotick
-  server: 188.114.99.137
-  port: 443
-  udp: true
-  type: vmess
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: guanwang.awsno.com
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: guanwang.awsno.com
-- name: 🌐 其他地区 (Other) 03 - hotick
-  server: 188.114.99.137
-  port: 443
-  udp: true
-  type: vmess
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: guanwang.awsno.com
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: guanwang.awsno.com
-- name: 🌐 其他地区 (Other) 04 - hotick
-  server: 188.114.99.137
-  port: 80
-  udp: true
-  type: vmess
-  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-opts:
-    path: /ws
-    headers:
-      Host: vmess.lbw666.dpdns.org
+      Host: jp3.yohototo.top
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🌐 其他地区 (Other) 01 - hotick
-  - 🌐 其他地区 (Other) 02 - hotick
-  - 🌐 其他地区 (Other) 03 - hotick
-  - 🌐 其他地区 (Other) 04 - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🌐 其他地区 (Other) 01 - hotick
-  - 🌐 其他地区 (Other) 02 - hotick
-  - 🌐 其他地区 (Other) 03 - hotick
-  - 🌐 其他地区 (Other) 04 - hotick
 rules:
 - MATCH,PROXIES
