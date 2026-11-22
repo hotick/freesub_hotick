@@ -7,9 +7,9 @@
       "type": "shadowsocks",
       "tag": "🇵🇱 波兰 (Poland) 01 - hotick",
       "server": "217.30.10.44",
-      "server_port": 9095,
+      "server_port": 9042,
       "method": "aes-256-cfb",
-      "password": "N7j3pdTYkKmsy8CR"
+      "password": "S7KwUu7yBy58S3Ga"
     },
     {
       "type": "shadowsocks",
@@ -22,14 +22,6 @@
     {
       "type": "shadowsocks",
       "tag": "🇵🇱 波兰 (Poland) 03 - hotick",
-      "server": "217.30.10.70",
-      "server_port": 9057,
-      "method": "aes-256-cfb",
-      "password": "wjTugX3ZtHMB9c3Z"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 04 - hotick",
       "server": "217.30.10.44",
       "server_port": 9071,
       "method": "aes-256-cfb",
@@ -37,23 +29,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 05 - hotick",
-      "server": "217.30.10.70",
-      "server_port": 9098,
-      "method": "aes-256-cfb",
-      "password": "aLpQtfEZe445QyHk"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 06 - hotick",
-      "server": "217.30.10.70",
-      "server_port": 9011,
-      "method": "aes-256-cfb",
-      "password": "M3t2ZEQcMGRWBjRa"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 07 - hotick",
+      "tag": "🇵🇱 波兰 (Poland) 04 - hotick",
       "server": "217.30.10.44",
       "server_port": 9052,
       "method": "aes-256-cfb",
@@ -61,23 +37,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 08 - hotick",
-      "server": "217.30.10.44",
-      "server_port": 9042,
-      "method": "aes-256-cfb",
-      "password": "S7KwUu7yBy58S3Ga"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 09 - hotick",
-      "server": "217.30.10.70",
-      "server_port": 9020,
-      "method": "aes-256-cfb",
-      "password": "BNmAXXxAHYpTRdzu"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 10 - hotick",
+      "tag": "🇵🇱 波兰 (Poland) 05 - hotick",
       "server": "217.30.10.44",
       "server_port": 9006,
       "method": "aes-256-cfb",
@@ -85,55 +45,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 11 - hotick",
-      "server": "217.30.10.70",
-      "server_port": 9084,
-      "method": "aes-256-cfb",
-      "password": "c3NtHJ5ujV2tGDfj"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 12 - hotick",
-      "server": "217.30.10.70",
-      "server_port": 9040,
-      "method": "aes-256-cfb",
-      "password": "p9z5BVADH2YFs3MN"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 13 - hotick",
-      "server": "217.30.10.70",
-      "server_port": 9027,
-      "method": "aes-256-cfb",
-      "password": "EXN3S3eQpjE7EJu8"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 14 - hotick",
-      "server": "217.30.10.44",
-      "server_port": 9076,
-      "method": "aes-256-cfb",
-      "password": "S2zDyyPcmZN2h8EC"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 15 - hotick",
-      "server": "217.30.10.70",
-      "server_port": 9015,
-      "method": "aes-256-cfb",
-      "password": "ZpNDDKRu9MagNvaf"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 16 - hotick",
-      "server": "217.30.10.70",
-      "server_port": 9018,
-      "method": "aes-256-cfb",
-      "password": "fG2artUmHfNT2cX7"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 17 - hotick",
+      "tag": "🇵🇱 波兰 (Poland) 06 - hotick",
       "server": "217.30.10.70",
       "server_port": 9088,
       "method": "aes-256-cfb",
@@ -141,7 +53,15 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 18 - hotick",
+      "tag": "🇵🇱 波兰 (Poland) 07 - hotick",
+      "server": "217.30.10.70",
+      "server_port": 9098,
+      "method": "aes-256-cfb",
+      "password": "aLpQtfEZe445QyHk"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇵🇱 波兰 (Poland) 08 - hotick",
       "server": "217.30.10.70",
       "server_port": 9044,
       "method": "aes-256-cfb",
@@ -149,7 +69,39 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 19 - hotick",
+      "tag": "🇵🇱 波兰 (Poland) 09 - hotick",
+      "server": "217.30.10.44",
+      "server_port": 9062,
+      "method": "aes-256-cfb",
+      "password": "tkhHVxxfM2QErBWe"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇵🇱 波兰 (Poland) 10 - hotick",
+      "server": "217.30.10.70",
+      "server_port": 9059,
+      "method": "aes-256-cfb",
+      "password": "9XwYyZsK8SNzQDtY"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇵🇱 波兰 (Poland) 11 - hotick",
+      "server": "217.30.10.70",
+      "server_port": 9018,
+      "method": "aes-256-cfb",
+      "password": "fG2artUmHfNT2cX7"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇵🇱 波兰 (Poland) 12 - hotick",
+      "server": "217.30.10.44",
+      "server_port": 9076,
+      "method": "aes-256-cfb",
+      "password": "S2zDyyPcmZN2h8EC"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇵🇱 波兰 (Poland) 13 - hotick",
       "server": "217.30.10.44",
       "server_port": 9099,
       "method": "aes-256-cfb",
@@ -157,30 +109,92 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 20 - hotick",
+      "tag": "🇵🇱 波兰 (Poland) 14 - hotick",
       "server": "217.30.10.70",
-      "server_port": 9059,
+      "server_port": 9033,
       "method": "aes-256-cfb",
-      "password": "9XwYyZsK8SNzQDtY"
+      "password": "UTJA57ypk2XKQpnm"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇵🇱 波兰 (Poland) 15 - hotick",
+      "server": "217.30.10.70",
+      "server_port": 9084,
+      "method": "aes-256-cfb",
+      "password": "c3NtHJ5ujV2tGDfj"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇵🇱 波兰 (Poland) 16 - hotick",
+      "server": "217.30.10.70",
+      "server_port": 9040,
+      "method": "aes-256-cfb",
+      "password": "p9z5BVADH2YFs3MN"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇵🇱 波兰 (Poland) 17 - hotick",
+      "server": "217.30.10.70",
+      "server_port": 9057,
+      "method": "aes-256-cfb",
+      "password": "wjTugX3ZtHMB9c3Z"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇵🇱 波兰 (Poland) 18 - hotick",
+      "server": "217.30.10.70",
+      "server_port": 9015,
+      "method": "aes-256-cfb",
+      "password": "ZpNDDKRu9MagNvaf"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇵🇱 波兰 (Poland) 19 - hotick",
+      "server": "217.30.10.70",
+      "server_port": 9020,
+      "method": "aes-256-cfb",
+      "password": "BNmAXXxAHYpTRdzu"
+    },
+    {
+      "type": "vless",
+      "tag": "🇵🇱 波兰 (Poland) 20 - hotick",
+      "server": "144.31.0.153",
+      "server_port": 443,
+      "uuid": "a086c8e2-7a2f-4265-9518-6d7529106b80",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "pool.recrent-sell.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "V5RcrDt9UjqudnN7aRlOfgV-Ue9ZDwW6TprFyntzkCI",
+          "short_id": ""
+        }
+      }
     },
     {
       "type": "vless",
       "tag": "🇵🇱 波兰 (Poland) 21 - hotick",
-      "server": "144.31.3.89",
+      "server": "191.217.253.12",
       "server_port": 443,
-      "uuid": "58e22afd-bf74-4736-984d-63a8ca03d7f0",
+      "uuid": "6dd17e9f-5b7c-466d-a53a-7c30f5dc8338",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "clearingmatch.melodramaonline.net",
-        "insecure": false,
+        "server_name": "191.217.253.12",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "fNfokzklCF4l_c8k8PciOCjm5ecNoF_sNLjEtaO-xzI",
+          "short_id": "db04ce8bdb8900f1"
         }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/media/ws/"
       }
     },
     {

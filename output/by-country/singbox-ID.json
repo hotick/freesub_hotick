@@ -1,0 +1,76 @@
+{
+  "log": {
+    "level": "warn"
+  },
+  "outbounds": [
+    {
+      "type": "vmess",
+      "tag": "🇮🇩 印尼 (Indonesia) 01 - hotick",
+      "server": "zfd-boardv2.kunlun01dns.com",
+      "server_port": 16298,
+      "uuid": "0802ac03-7973-39ef-a019-ba02de6c01e1",
+      "security": "auto"
+    },
+    {
+      "type": "vless",
+      "tag": "🇮🇩 印尼 (Indonesia) 02 - hotick",
+      "server": "147.139.197.200",
+      "server_port": 443,
+      "uuid": "a197af05-7048-478e-8d99-c3151adb4064",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.ebay.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "ulPGCwIg38AVGww0FBfCNROmu_0N1hykbHbhcAFgcl0",
+          "short_id": "6135361d11cc2b31"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇮🇩 印尼 (Indonesia) 03 - hotick",
+      "server": "i1tr.mateflora.com",
+      "server_port": 443,
+      "password": "57beeeb0-03fc-4fc9-94da-7604488a7134",
+      "tls": {
+        "enabled": true,
+        "server_name": "i1tr.mateflora.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "🇮🇩 印尼 (Indonesia) 01 - hotick",
+        "🇮🇩 印尼 (Indonesia) 02 - hotick",
+        "🇮🇩 印尼 (Indonesia) 03 - hotick"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇮🇩 印尼 (Indonesia) 01 - hotick",
+        "🇮🇩 印尼 (Indonesia) 02 - hotick",
+        "🇮🇩 印尼 (Indonesia) 03 - hotick"
+      ],
+      "url": "https://www.gstatic.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ]
+}

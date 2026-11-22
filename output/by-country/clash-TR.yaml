@@ -5,7 +5,33 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇹🇷 土耳其 (Turkey) 01 - hotick
-  server: 37.221.76.116
+  server: 185.246.155.91
+  port: 10103
+  udp: true
+  type: vless
+  uuid: dbf3f074-3b18-43f3-b82a-debd8c879c69
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: obQkp5VlQpnlt1hRLQ3VfHISYiiISZJyJZAMaIdjCko
+    short-id: 6859f5b59e55aa30
+  servername: www.apple.com
+  client-fingerprint: chrome
+- name: 🇹🇷 土耳其 (Turkey) 02 - hotick
+  server: 188.225.78.178
+  port: 443
+  udp: true
+  type: vless
+  uuid: a4740bee-81ad-4a58-99c9-eca576ecb6e6
+  tls: true
+  servername: cadrin.wtf
+  skip-cert-verify: false
+  client-fingerprint: edge
+  network: grpc
+  grpc-opts:
+    grpc-service-name: cache.sync.v1
+- name: 🇹🇷 土耳其 (Turkey) 03 - hotick
+  server: 37.221.76.117
   port: 2090
   udp: true
   type: vless
@@ -23,11 +49,15 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇹🇷 土耳其 (Turkey) 01 - hotick
+  - 🇹🇷 土耳其 (Turkey) 02 - hotick
+  - 🇹🇷 土耳其 (Turkey) 03 - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇹🇷 土耳其 (Turkey) 01 - hotick
+  - 🇹🇷 土耳其 (Turkey) 02 - hotick
+  - 🇹🇷 土耳其 (Turkey) 03 - hotick
 rules:
 - MATCH,PROXIES
