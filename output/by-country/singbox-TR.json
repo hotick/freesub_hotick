@@ -6,6 +6,26 @@
     {
       "type": "vless",
       "tag": "🇹🇷 土耳其 (Turkey) 01 - hotick",
+      "server": "188.225.36.219",
+      "server_port": 443,
+      "uuid": "0b6a7fe0-206b-4071-9f96-cd397d1ec01a",
+      "tls": {
+        "enabled": true,
+        "server_name": "olvento.space",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "olvento.sync.v1"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇹🇷 土耳其 (Turkey) 02 - hotick",
       "server": "185.246.155.91",
       "server_port": 10103,
       "uuid": "dbf3f074-3b18-43f3-b82a-debd8c879c69",
@@ -26,45 +46,27 @@
     },
     {
       "type": "vless",
-      "tag": "🇹🇷 土耳其 (Turkey) 02 - hotick",
-      "server": "188.225.78.178",
+      "tag": "🇹🇷 土耳其 (Turkey) 03 - hotick",
+      "server": "chatgpt.com",
       "server_port": 443,
-      "uuid": "a4740bee-81ad-4a58-99c9-eca576ecb6e6",
+      "uuid": "c2425034-91ef-44bf-9fd4-f2be9c1e989a",
       "tls": {
         "enabled": true,
-        "server_name": "cadrin.wtf",
+        "server_name": "sinavm3.soft10.ir",
         "insecure": false,
         "alpn": [
-          "h2"
+          "http/1.1"
         ],
         "utls": {
           "enabled": true,
-          "fingerprint": "edge"
+          "fingerprint": "chrome"
         }
       },
       "transport": {
-        "type": "grpc",
-        "service_name": "cache.sync.v1"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇹🇷 土耳其 (Turkey) 03 - hotick",
-      "server": "37.221.76.117",
-      "server_port": 2090,
-      "uuid": "f131d292-d3c2-42b3-bcea-f9712c31b303",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.apple.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "qBobe6KSNkFLqTPCffcJo0nXgxy-3JKru9WRqY9rkjk",
-          "short_id": "bb472a184677af64"
+        "type": "ws",
+        "path": "/SiNAVM-SiNAVM-SiNAVM-SiNAVM",
+        "headers": {
+          "Host": "sinavm3.soft10.ir"
         }
       }
     },
