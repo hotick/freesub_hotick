@@ -5,7 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - hotick
-  server: 172.67.139.189
+  server: fr-free.fastestrelay.com
   port: 443
   udp: true
   type: vless
@@ -20,21 +20,55 @@ proxies:
     headers:
       Host: fr-free.fastestrelay.com
 - name: 🌐 其他地区 (Other) 02 - hotick
-  server: 188.114.99.137
+  server: fr-free.fastestrelay.com
   port: 443
   udp: true
-  type: vmess
-  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
-  alterId: 0
-  cipher: auto
+  type: vless
+  uuid: 43BCAE0A-10A6-4003-8615-BD510F4215BA
+- name: 🌐 其他地区 (Other) 03 - hotick
+  server: chatgpt.com
+  port: 443
+  udp: true
+  type: vless
+  uuid: 55b3fd10-3658-40a2-8951-ec90932d1d30
   tls: true
-  servername: vmess.lbw666.dpdns.org
+  servername: sinavm2.soft10.ir
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /SiNAVM-SiNAVM-SiNAVM-SiNAVM
+    headers:
+      Host: sinavm2.soft10.ir
+- name: 🌐 其他地区 (Other) 04 - hotick
+  server: chatgpt.com
+  port: 443
+  udp: true
+  type: vless
+  uuid: d342d11e-d224-4463-b982-532309285094
+  tls: true
+  servername: ccc.010304.xyz
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /ws
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed
     headers:
-      Host: vmess.lbw666.dpdns.org
+      Host: ccc.010304.xyz
+- name: 🌐 其他地区 (Other) 05 - hotick
+  server: chatgpt.com
+  port: 443
+  udp: true
+  type: vless
+  uuid: c2425034-91ef-44bf-9fd4-f2be9c1e989a
+  tls: true
+  servername: sinavm3.soft10.ir
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /SiNAVM-SiNAVM-SiNAVM-SiNAVM
+    headers:
+      Host: sinavm3.soft10.ir
 proxy-groups:
 - name: PROXIES
   type: select
@@ -42,6 +76,9 @@ proxy-groups:
   - AUTO
   - 🌐 其他地区 (Other) 01 - hotick
   - 🌐 其他地区 (Other) 02 - hotick
+  - 🌐 其他地区 (Other) 03 - hotick
+  - 🌐 其他地区 (Other) 04 - hotick
+  - 🌐 其他地区 (Other) 05 - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -49,5 +86,8 @@ proxy-groups:
   proxies:
   - 🌐 其他地区 (Other) 01 - hotick
   - 🌐 其他地区 (Other) 02 - hotick
+  - 🌐 其他地区 (Other) 03 - hotick
+  - 🌐 其他地区 (Other) 04 - hotick
+  - 🌐 其他地区 (Other) 05 - hotick
 rules:
 - MATCH,PROXIES

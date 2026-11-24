@@ -12,17 +12,15 @@ proxies:
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
 - name: 🇸🇪 瑞典 (Sweden) 02 - hotick
-  server: 88.216.60.73
+  server: 201.8.87.187
   port: 443
   udp: true
   type: vless
-  uuid: a30903dc-1bf0-4be5-8b1b-603a3a56211c
+  uuid: d7121b33-e335-4921-bb00-4c0b157e7fc1
+  flow: xtls-rprx-vision
   tls: true
-  reality-opts:
-    public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
-    short-id: a7c92e4b10d6f835
-  servername: ns-api-gw.galioncc.com
-  client-fingerprint: firefox
+  servername: 2gcnbpjzq4go.cloud-kmt.com
+  skip-cert-verify: false
 - name: 🇸🇪 瑞典 (Sweden) 03 - hotick
   server: 138.199.55.230
   port: 1270
@@ -35,7 +33,32 @@ proxies:
   servername: xmfhlpy.com
   skip-cert-verify: false
 - name: 🇸🇪 瑞典 (Sweden) 04 - hotick
-  server: leviko-se4660.shopingggg.ir
+  server: 138.124.86.230
+  port: 48115
+  udp: true
+  type: vless
+  uuid: b2fe1fa4-6a79-4938-a3f4-63b54ae7f16b
+  tls: true
+  servername: 138-124-86-230.sslip.io
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: grpc
+  grpc-opts:
+    grpc-service-name: 138-124-86-230-sslip-io
+- name: 🇸🇪 瑞典 (Sweden) 05 - hotick
+  server: 88.216.60.73
+  port: 443
+  udp: true
+  type: vless
+  uuid: a30903dc-1bf0-4be5-8b1b-603a3a56211c
+  tls: true
+  reality-opts:
+    public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
+    short-id: a7c92e4b10d6f835
+  servername: ns-api-gw.galioncc.com
+  client-fingerprint: ''
+- name: 🇸🇪 瑞典 (Sweden) 06 - hotick
+  server: 62.93.166.184
   port: 1270
   udp: true
   type: vmess
@@ -45,7 +68,16 @@ proxies:
   tls: true
   servername: xmfhlpy.com
   skip-cert-verify: false
-- name: 🇸🇪 瑞典 (Sweden) 05 - hotick
+- name: 🇸🇪 瑞典 (Sweden) 07 - hotick
+  server: sajed.kdns.fr
+  port: 443
+  udp: true
+  type: vless
+  uuid: cffa0e31-7cce-4541-8a2e-4e115873090b
+  network: ws
+  ws-opts:
+    path: /@Ghiinvdikhfe@Ghiinvdikhfe@Ghiinvdikhfe@Ghiinvdikhfe@Ghiinvdikhfe
+- name: 🇸🇪 瑞典 (Sweden) 08 - hotick
   server: 5.178.109.174
   port: 14430
   udp: true
@@ -56,29 +88,6 @@ proxies:
     path: /vless
     headers:
       Host: 5.178.109.174
-- name: 🇸🇪 瑞典 (Sweden) 06 - hotick
-  server: leviko-se6979.shopingggg.ir
-  port: 48115
-  udp: true
-  type: vless
-  uuid: b2fe1fa4-6a79-4938-a3f4-63b54ae7f16b
-  tls: true
-  servername: 138-124-86-230.sslip.io
-  skip-cert-verify: false
-  network: grpc
-  grpc-opts:
-    grpc-service-name: 138-124-86-230-sslip-io
-- name: 🇸🇪 瑞典 (Sweden) 07 - hotick
-  server: sajed.kdns.fr
-  port: 443
-  udp: true
-  type: vless
-  uuid: cffa0e31-7cce-4541-8a2e-4e115873090b
-  network: ws
-  ws-opts:
-    path: /@Ghiinvdikhfe@Ghiinvdikhfe@Ghiinvdikhfe@Ghiinvdikhfe@Ghiinvdikhfe
-    headers:
-      Host: sajed.kdns.fr
 proxy-groups:
 - name: PROXIES
   type: select
@@ -91,6 +100,7 @@ proxy-groups:
   - 🇸🇪 瑞典 (Sweden) 05 - hotick
   - 🇸🇪 瑞典 (Sweden) 06 - hotick
   - 🇸🇪 瑞典 (Sweden) 07 - hotick
+  - 🇸🇪 瑞典 (Sweden) 08 - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -103,5 +113,6 @@ proxy-groups:
   - 🇸🇪 瑞典 (Sweden) 05 - hotick
   - 🇸🇪 瑞典 (Sweden) 06 - hotick
   - 🇸🇪 瑞典 (Sweden) 07 - hotick
+  - 🇸🇪 瑞典 (Sweden) 08 - hotick
 rules:
 - MATCH,PROXIES

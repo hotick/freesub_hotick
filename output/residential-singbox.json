@@ -6,22 +6,38 @@
     {
       "type": "shadowsocks",
       "tag": "🇩🇪 德国 (Germany) 01 (移动家宽) - hotick",
+      "server": "8.209.73.203",
+      "server_port": 443,
+      "method": "2022-blake3-chacha20-poly1305",
+      "password": "8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇩🇪 德国 (Germany) 02 (移动家宽) - hotick",
       "server": "47.254.175.2",
       "server_port": 443,
       "method": "2022-blake3-chacha20-poly1305",
       "password": "8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y="
     },
     {
+      "type": "shadowsocks",
+      "tag": "🇰🇷 韩国 (South Korea) 03 (家宽) - hotick",
+      "server": "49.254.204.133",
+      "server_port": 1774,
+      "method": "aes-256-cfb",
+      "password": "1234!@#$"
+    },
+    {
       "type": "vmess",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 02 (移动家宽) - hotick",
-      "server": "dog-hk.kunlun01dns.com",
-      "server_port": 21021,
-      "uuid": "9464ca40-dd75-3742-a628-d931a9f413b2",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 04 (移动家宽) - hotick",
+      "server": "zfd-hkv2.kunlun01dns.com",
+      "server_port": 16112,
+      "uuid": "0802ac03-7973-39ef-a019-ba02de6c01e1",
       "security": "auto"
     },
     {
       "type": "vless",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - hotick",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 05 (家宽) - hotick",
       "server": "60.248.219.78",
       "server_port": 443,
       "uuid": "c1c04450-bf71-4049-ad0c-9cf6d94d9f1f",
@@ -40,7 +56,7 @@
     },
     {
       "type": "anytls",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 04 (家宽) - hotick",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 06 (家宽) - hotick",
       "server": "er8u54dh.df6h451rh.xin",
       "server_port": 443,
       "password": "2902c46c8493",
@@ -52,37 +68,13 @@
     },
     {
       "type": "anytls",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 05 (家宽) - hotick",
-      "server": "ibsdsf.df6h451rh.xin",
-      "server_port": 443,
-      "password": "2902c46c8493",
-      "tls": {
-        "enabled": true,
-        "server_name": "docs.microsoft.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "anytls",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 06 (家宽) - hotick",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 07 (家宽) - hotick",
       "server": "a54ge.df6h451rh.xin",
       "server_port": 443,
       "password": "0324fbc29561",
       "tls": {
         "enabled": true,
         "server_name": "docs.microsoft.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "anytls",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 07 (家宽) - hotick",
-      "server": "mfjh645drfj1dr6j5.df6h451rh.xin",
-      "server_port": 443,
-      "password": "0324fbc29561",
-      "tls": {
-        "enabled": true,
-        "server_name": "px.ads.linkedin.com",
         "insecure": true
       }
     },
@@ -99,12 +91,16 @@
       }
     },
     {
-      "type": "shadowsocks",
-      "tag": "🇩🇪 德国 (Germany) 09 (移动家宽) - hotick",
-      "server": "47.254.167.157",
+      "type": "anytls",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 09 (家宽) - hotick",
+      "server": "mfjh645drfj1dr6j5.df6h451rh.xin",
       "server_port": 443,
-      "method": "2022-blake3-chacha20-poly1305",
-      "password": "8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y="
+      "password": "0324fbc29561",
+      "tls": {
+        "enabled": true,
+        "server_name": "px.ads.linkedin.com",
+        "insecure": true
+      }
     },
     {
       "type": "selector",
@@ -112,14 +108,14 @@
       "outbounds": [
         "auto",
         "🇩🇪 德国 (Germany) 01 (移动家宽) - hotick",
-        "🇭🇰 中国香港 (Hong Kong) 02 (移动家宽) - hotick",
-        "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - hotick",
-        "🇹🇼 中国台湾 (Taiwan) 04 (家宽) - hotick",
-        "🇭🇰 中国香港 (Hong Kong) 05 (家宽) - hotick",
+        "🇩🇪 德国 (Germany) 02 (移动家宽) - hotick",
+        "🇰🇷 韩国 (South Korea) 03 (家宽) - hotick",
+        "🇭🇰 中国香港 (Hong Kong) 04 (移动家宽) - hotick",
+        "🇹🇼 中国台湾 (Taiwan) 05 (家宽) - hotick",
         "🇹🇼 中国台湾 (Taiwan) 06 (家宽) - hotick",
         "🇹🇼 中国台湾 (Taiwan) 07 (家宽) - hotick",
         "🇹🇼 中国台湾 (Taiwan) 08 (家宽) - hotick",
-        "🇩🇪 德国 (Germany) 09 (移动家宽) - hotick"
+        "🇹🇼 中国台湾 (Taiwan) 09 (家宽) - hotick"
       ]
     },
     {
@@ -127,14 +123,14 @@
       "tag": "auto",
       "outbounds": [
         "🇩🇪 德国 (Germany) 01 (移动家宽) - hotick",
-        "🇭🇰 中国香港 (Hong Kong) 02 (移动家宽) - hotick",
-        "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - hotick",
-        "🇹🇼 中国台湾 (Taiwan) 04 (家宽) - hotick",
-        "🇭🇰 中国香港 (Hong Kong) 05 (家宽) - hotick",
+        "🇩🇪 德国 (Germany) 02 (移动家宽) - hotick",
+        "🇰🇷 韩国 (South Korea) 03 (家宽) - hotick",
+        "🇭🇰 中国香港 (Hong Kong) 04 (移动家宽) - hotick",
+        "🇹🇼 中国台湾 (Taiwan) 05 (家宽) - hotick",
         "🇹🇼 中国台湾 (Taiwan) 06 (家宽) - hotick",
         "🇹🇼 中国台湾 (Taiwan) 07 (家宽) - hotick",
         "🇹🇼 中国台湾 (Taiwan) 08 (家宽) - hotick",
-        "🇩🇪 德国 (Germany) 09 (移动家宽) - hotick"
+        "🇹🇼 中国台湾 (Taiwan) 09 (家宽) - hotick"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
