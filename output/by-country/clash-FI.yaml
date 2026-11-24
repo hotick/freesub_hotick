@@ -13,14 +13,6 @@ proxies:
   alterId: 0
   cipher: auto
 - name: 🇫🇮 芬兰 (Finland) 02 - hotick
-  server: 65.108.240.210
-  port: 39018
-  udp: true
-  type: vmess
-  uuid: 8ca123a8-720b-47c5-bd0c-637431418b09
-  alterId: 0
-  cipher: auto
-- name: 🇫🇮 芬兰 (Finland) 03 - hotick
   server: 157.180.98.124
   port: 49659
   udp: true
@@ -33,7 +25,7 @@ proxies:
     short-id: 81959fce
   servername: apple.com
   client-fingerprint: chrome
-- name: 🇫🇮 芬兰 (Finland) 04 - hotick
+- name: 🇫🇮 芬兰 (Finland) 03 - hotick
   server: 94.183.164.119
   port: 24433
   udp: true
@@ -49,7 +41,6 @@ proxy-groups:
   - 🇫🇮 芬兰 (Finland) 01 - hotick
   - 🇫🇮 芬兰 (Finland) 02 - hotick
   - 🇫🇮 芬兰 (Finland) 03 - hotick
-  - 🇫🇮 芬兰 (Finland) 04 - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -58,6 +49,5 @@ proxy-groups:
   - 🇫🇮 芬兰 (Finland) 01 - hotick
   - 🇫🇮 芬兰 (Finland) 02 - hotick
   - 🇫🇮 芬兰 (Finland) 03 - hotick
-  - 🇫🇮 芬兰 (Finland) 04 - hotick
 rules:
 - MATCH,PROXIES
