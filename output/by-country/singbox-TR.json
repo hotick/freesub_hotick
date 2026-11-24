@@ -6,50 +6,32 @@
     {
       "type": "vless",
       "tag": "🇹🇷 土耳其 (Turkey) 01 - hotick",
-      "server": "188.225.36.219",
+      "server": "188.225.78.178",
       "server_port": 443,
-      "uuid": "0b6a7fe0-206b-4071-9f96-cd397d1ec01a",
+      "uuid": "a4740bee-81ad-4a58-99c9-eca576ecb6e6",
       "tls": {
         "enabled": true,
-        "server_name": "olvento.space",
+        "server_name": "cadrin.wtf",
         "insecure": false,
+        "alpn": [
+          "h2"
+        ],
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "ios"
         }
       },
       "transport": {
         "type": "grpc",
-        "service_name": "olvento.sync.v1"
+        "service_name": "cache.sync.v1"
       }
     },
     {
       "type": "vless",
       "tag": "🇹🇷 土耳其 (Turkey) 02 - hotick",
-      "server": "185.246.155.91",
-      "server_port": 10103,
-      "uuid": "dbf3f074-3b18-43f3-b82a-debd8c879c69",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.apple.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "obQkp5VlQpnlt1hRLQ3VfHISYiiISZJyJZAMaIdjCko",
-          "short_id": "6859f5b59e55aa30"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇹🇷 土耳其 (Turkey) 03 - hotick",
-      "server": "chatgpt.com",
+      "server": "172.64.155.209",
       "server_port": 443,
-      "uuid": "c2425034-91ef-44bf-9fd4-f2be9c1e989a",
+      "uuid": "14eccb4f-ca88-4732-b191-d8daacf63448",
       "tls": {
         "enabled": true,
         "server_name": "sinavm3.soft10.ir",
@@ -76,8 +58,7 @@
       "outbounds": [
         "auto",
         "🇹🇷 土耳其 (Turkey) 01 - hotick",
-        "🇹🇷 土耳其 (Turkey) 02 - hotick",
-        "🇹🇷 土耳其 (Turkey) 03 - hotick"
+        "🇹🇷 土耳其 (Turkey) 02 - hotick"
       ]
     },
     {
@@ -85,8 +66,7 @@
       "tag": "auto",
       "outbounds": [
         "🇹🇷 土耳其 (Turkey) 01 - hotick",
-        "🇹🇷 土耳其 (Turkey) 02 - hotick",
-        "🇹🇷 土耳其 (Turkey) 03 - hotick"
+        "🇹🇷 土耳其 (Turkey) 02 - hotick"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

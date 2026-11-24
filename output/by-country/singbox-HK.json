@@ -12,48 +12,113 @@
       "password": "DgMywXKqojHXeuXY8hOJaYGPFcjweCIJeD5cdg/cUUY="
     },
     {
-      "type": "trojan",
+      "type": "vmess",
       "tag": "🇭🇰 中国香港 (Hong Kong) 02 - hotick",
-      "server": "tjyg.m2k699.com",
-      "server_port": 24999,
-      "password": "29086912-33e4-4e06-ba2b-60f1a195864f",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.itunes.com",
-        "insecure": true
-      }
+      "server": "dog-hk.kunlun01dns.com",
+      "server_port": 21018,
+      "uuid": "9464ca40-dd75-3742-a628-d931a9f413b2",
+      "security": "auto"
     },
     {
-      "type": "hysteria2",
+      "type": "trojan",
       "tag": "🇭🇰 中国香港 (Hong Kong) 03 - hotick",
-      "server": "43.103.2.53",
-      "server_port": 443,
-      "password": "hAUdd15a7YGHUSgiPOUz",
+      "server": "47.242.93.89",
+      "server_port": 12012,
+      "password": "12012",
       "tls": {
         "enabled": true,
-        "server_name": "",
+        "server_name": "ali-hk.b-gfw.cfd",
         "insecure": true
-      },
-      "obfs": {
-        "type": "salamander",
-        "password": "9veAh9pTbrAfDwM1fIYI"
       }
     },
     {
       "type": "hysteria2",
       "tag": "🇭🇰 中国香港 (Hong Kong) 04 - hotick",
-      "server": "202.146.222.174",
+      "server": "202.146.222.89",
       "server_port": 443,
       "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
       "tls": {
         "enabled": true,
-        "server_name": "https%3a%2f%2ft.me%2fwangcai2",
+        "server_name": "https%3a%2f%2ft.me%2fclashv8%f0%9f%87%a8%f0%9f%87%b3",
         "insecure": true
       }
     },
     {
       "type": "vless",
       "tag": "🇭🇰 中国香港 (Hong Kong) 05 - hotick",
+      "server": "116.213.43.43",
+      "server_port": 11106,
+      "uuid": "2e7bd251-52be-4ffa-b79e-108e1fe07185",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "-13uTSuqk44pCU0x6yvldaskzyRIlO2ihmDvM0FsBns",
+          "short_id": "da12e31124830d42"
+        }
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 06 - hotick",
+      "server": "202.146.222.174",
+      "server_port": 443,
+      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
+      "tls": {
+        "enabled": true,
+        "server_name": "https://t.me/oneclickvpnkeys",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 07 - hotick",
+      "server": "152.32.254.68",
+      "server_port": 5010,
+      "password": "eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ",
+      "tls": {
+        "enabled": true,
+        "server_name": "nas.aizhzo.com",
+        "insecure": false
+      },
+      "obfs": {
+        "type": "salamander",
+        "password": "7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 08 - hotick",
+      "server": "nb1hk.hikigo.com",
+      "server_port": 443,
+      "password": "57beeeb0-03fc-4fc9-94da-7604488a7134",
+      "tls": {
+        "enabled": true,
+        "server_name": "nb1hk.hikigo.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 09 - hotick",
+      "server": "202.146.222.29",
+      "server_port": 443,
+      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
+      "tls": {
+        "enabled": true,
+        "server_name": "t.me",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 10 - hotick",
       "server": "2.26.204.46",
       "server_port": 31001,
       "uuid": "12a4f736-2238-49ee-831f-5516f15cc951",
@@ -73,41 +138,16 @@
       }
     },
     {
-      "type": "hysteria2",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 06 - hotick",
-      "server": "202.146.222.89",
-      "server_port": 443,
-      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
-      "tls": {
-        "enabled": true,
-        "server_name": "https://t.me/clashv8",
-        "insecure": true
-      }
+      "type": "shadowsocks",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 11 - hotick",
+      "server": "27.124.5.86",
+      "server_port": 8388,
+      "method": "2022-blake3-aes-256-gcm",
+      "password": "j4DddfVh3zON1s3Wfbmdn2WWhLCWAaOJyKqdeKvxh4A="
     },
     {
       "type": "vless",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 07 - hotick",
-      "server": "8.217.1.203",
-      "server_port": 8443,
-      "uuid": "8b17beac-b143-447d-aa68-14cbb121a602",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.apple.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "74P0QFvaK6B13rHsxR_t0lqRlg4YLuORD4VaHr5Jd38",
-          "short_id": "0bf55f64"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 08 - hotick",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 12 - hotick",
       "server": "62.60.232.226",
       "server_port": 2096,
       "uuid": "3d409814-b663-411e-8f54-a112ecba7ddd",
@@ -123,37 +163,8 @@
       }
     },
     {
-      "type": "hysteria2",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 09 - hotick",
-      "server": "202.146.222.29",
-      "server_port": 443,
-      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
-      "tls": {
-        "enabled": true,
-        "server_name": "https://t.me/wangcai2рҹүрҹү",
-        "insecure": true
-      }
-    },
-    {
       "type": "vless",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 10 - hotick",
-      "server": "156.245.234.97",
-      "server_port": 2096,
-      "uuid": "93c0244e-6eb2-41bc-ad9c-1a7606747e13",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "lyhk.mihoyo.site",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 11 - hotick",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 13 - hotick",
       "server": "45.192.193.54",
       "server_port": 35600,
       "uuid": "8614bde7-34cf-4413-8360-e96f1b960528",
@@ -173,75 +184,8 @@
       }
     },
     {
-      "type": "hysteria2",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 12 - hotick",
-      "server": "nb2hk.hikigo.com",
-      "server_port": 443,
-      "password": "57beeeb0-03fc-4fc9-94da-7604488a7134",
-      "tls": {
-        "enabled": true,
-        "server_name": "nb2hk.hikigo.com",
-        "insecure": true,
-        "alpn": [
-          "h3"
-        ]
-      },
-      "obfs": {
-        "type": "salamander",
-        "password": "o5qgnpl75wayhkn5"
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 13 - hotick",
-      "server": "64.118.130.152",
-      "server_port": 443,
-      "password": "57beeeb0-03fc-4fc9-94da-7604488a7134",
-      "tls": {
-        "enabled": true,
-        "server_name": "nb1hk.hikigo.com",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
+      "type": "vless",
       "tag": "🇭🇰 中国香港 (Hong Kong) 14 - hotick",
-      "server": "pdmv4.xiaoyan.io",
-      "server_port": 16632,
-      "uuid": "904f0569-8695-466f-97cf-0de2face1b46",
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "f9309cc88637c26f552a1a64fb311cae.mobgslb.tbcache.com"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 15 - hotick",
-      "server": "free.fugui.lol",
-      "server_port": 47396,
-      "uuid": "ead3595f-4020-4e76-a3ec-c248e1a2f2f7",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "swdist.apple.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "IjWYbHNrZb3UCQxsTJyekEOA3tHq42L6Jw3O8MmLYVQ",
-          "short_id": "fa514b83"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 16 - hotick",
       "server": "185.71.216.177",
       "server_port": 2091,
       "uuid": "c4d6567e-c46e-410f-95ab-ac3a61e030f3",
@@ -257,6 +201,26 @@
           "enabled": true,
           "public_key": "1N6AW5YuEwBoYcZK5KuugDzBHsa0NKZMT8QI-EmyL0k",
           "short_id": "08a4b1f473932632"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 15 - hotick",
+      "server": "47.86.90.31",
+      "server_port": 443,
+      "uuid": "234a8041-2b4d-44a3-a8d8-523cbfd58dc4",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "bywxdhirqkjj8xaz.v.3dns.vip",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/ws-vmess",
+        "headers": {
+          "Host": "bywxdhirqkjj8xaz.v.3dns.vip"
         }
       }
     },
@@ -279,8 +243,7 @@
         "🇭🇰 中国香港 (Hong Kong) 12 - hotick",
         "🇭🇰 中国香港 (Hong Kong) 13 - hotick",
         "🇭🇰 中国香港 (Hong Kong) 14 - hotick",
-        "🇭🇰 中国香港 (Hong Kong) 15 - hotick",
-        "🇭🇰 中国香港 (Hong Kong) 16 - hotick"
+        "🇭🇰 中国香港 (Hong Kong) 15 - hotick"
       ]
     },
     {
@@ -301,8 +264,7 @@
         "🇭🇰 中国香港 (Hong Kong) 12 - hotick",
         "🇭🇰 中国香港 (Hong Kong) 13 - hotick",
         "🇭🇰 中国香港 (Hong Kong) 14 - hotick",
-        "🇭🇰 中国香港 (Hong Kong) 15 - hotick",
-        "🇭🇰 中国香港 (Hong Kong) 16 - hotick"
+        "🇭🇰 中国香港 (Hong Kong) 15 - hotick"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

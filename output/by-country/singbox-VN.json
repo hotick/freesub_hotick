@@ -4,29 +4,42 @@
   },
   "outbounds": [
     {
-      "type": "vless",
+      "type": "vmess",
       "tag": "🇻🇳 越南 (Vietnam) 01 - hotick",
-      "server": "150.95.109.109",
-      "server_port": 2086,
-      "uuid": "b83faafc-cbb7-4655-99d4-2c4c39a49d1b"
+      "server": "zfd-boardv2.kunlun01dns.com",
+      "server_port": 16256,
+      "uuid": "0802ac03-7973-39ef-a019-ba02de6c01e1",
+      "security": "auto"
+    },
+    {
+      "type": "trojan",
+      "tag": "🇻🇳 越南 (Vietnam) 02 - hotick",
+      "server": "xvxn1hkzf.mateflora.com",
+      "server_port": 443,
+      "password": "57beeeb0-03fc-4fc9-94da-7604488a7134",
+      "tls": {
+        "enabled": true,
+        "server_name": "xvxn1hkzf.mateflora.com",
+        "insecure": true
+      }
     },
     {
       "type": "vless",
-      "tag": "🇻🇳 越南 (Vietnam) 02 - hotick",
-      "server": "38.60.230.151",
-      "server_port": 443,
-      "uuid": "3a1c6827-72a1-4d1c-9413-44109ff815f4",
+      "tag": "🇻🇳 越南 (Vietnam) 03 - hotick",
+      "server": "103.163.24.22",
+      "server_port": 56026,
+      "uuid": "a1f0cbb8-c74a-4c27-b881-7b14d96aece1",
       "tls": {
         "enabled": true,
-        "server_name": "navi.bankrate.com",
+        "server_name": "www.cloudflare.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc",
-          "short_id": "2da72ce6"
+          "public_key": "gjOKbmRb5cGDPbdz3x8xkBFL43pn3xqL-I6sALHO7ls",
+          "short_id": "99676967e6867063"
         }
       }
     },
@@ -36,7 +49,8 @@
       "outbounds": [
         "auto",
         "🇻🇳 越南 (Vietnam) 01 - hotick",
-        "🇻🇳 越南 (Vietnam) 02 - hotick"
+        "🇻🇳 越南 (Vietnam) 02 - hotick",
+        "🇻🇳 越南 (Vietnam) 03 - hotick"
       ]
     },
     {
@@ -44,7 +58,8 @@
       "tag": "auto",
       "outbounds": [
         "🇻🇳 越南 (Vietnam) 01 - hotick",
-        "🇻🇳 越南 (Vietnam) 02 - hotick"
+        "🇻🇳 越南 (Vietnam) 02 - hotick",
+        "🇻🇳 越南 (Vietnam) 03 - hotick"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

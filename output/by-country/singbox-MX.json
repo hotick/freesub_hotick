@@ -5,10 +5,10 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇬🇷 希腊 (Greece) 01 - hotick",
-      "server": "85.90.197.220",
-      "server_port": 443,
-      "uuid": "8f704ed6-9a1a-4d04-94dd-1bff501716de",
+      "tag": "🇲🇽 墨西哥 (Mexico) 01 - hotick",
+      "server": "40.233.1.77",
+      "server_port": 61503,
+      "uuid": "04bcfbb8-06d1-4922-ad5a-54ab28b1afda",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
@@ -19,8 +19,8 @@
         },
         "reality": {
           "enabled": true,
-          "public_key": "biNcdU5mywtNw-KyPpLHindBxdEyAolT1WJ26N0b7y4",
-          "short_id": "94acb54627612d43"
+          "public_key": "U7t4RFE9MSMtC-o1DoJ8pYzKMfgVpTg6ZhTTknBrVkU",
+          "short_id": "1f2519bb96e5589c"
         }
       }
     },
@@ -29,14 +29,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇬🇷 希腊 (Greece) 01 - hotick"
+        "🇲🇽 墨西哥 (Mexico) 01 - hotick"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇬🇷 希腊 (Greece) 01 - hotick"
+        "🇲🇽 墨西哥 (Mexico) 01 - hotick"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
