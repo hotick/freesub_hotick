@@ -18,6 +18,17 @@ proxies:
   servername: apple.com
   client-fingerprint: chrome
 - name: 🇫🇮 芬兰 (Finland) 02 - hotick
+  server: mail2.besttotaldns.com
+  port: 443
+  udp: true
+  type: vless
+  uuid: 08c97940-7646-494c-82f5-7bc19b973281
+  flow: xtls-rprx-vision
+  tls: true
+  servername: mail2.besttotaldns.com
+  skip-cert-verify: false
+  client-fingerprint: chrome
+- name: 🇫🇮 芬兰 (Finland) 03 - hotick
   server: 31.76.77.231
   port: 443
   udp: true
@@ -30,7 +41,7 @@ proxies:
     short-id: cc85fc7134024405
   servername: www.google.com
   client-fingerprint: firefox
-- name: 🇫🇮 芬兰 (Finland) 03 - hotick
+- name: 🇫🇮 芬兰 (Finland) 04 - hotick
   server: 94.183.164.119
   port: 24433
   udp: true
@@ -46,6 +57,7 @@ proxy-groups:
   - 🇫🇮 芬兰 (Finland) 01 - hotick
   - 🇫🇮 芬兰 (Finland) 02 - hotick
   - 🇫🇮 芬兰 (Finland) 03 - hotick
+  - 🇫🇮 芬兰 (Finland) 04 - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -54,5 +66,6 @@ proxy-groups:
   - 🇫🇮 芬兰 (Finland) 01 - hotick
   - 🇫🇮 芬兰 (Finland) 02 - hotick
   - 🇫🇮 芬兰 (Finland) 03 - hotick
+  - 🇫🇮 芬兰 (Finland) 04 - hotick
 rules:
 - MATCH,PROXIES

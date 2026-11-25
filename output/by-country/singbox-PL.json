@@ -15,45 +15,13 @@
       "type": "shadowsocks",
       "tag": "🇵🇱 波兰 (Poland) 02 - hotick",
       "server": "217.30.10.70",
-      "server_port": 9008,
+      "server_port": 9043,
       "method": "aes-256-cfb",
-      "password": "y9VURyNzJWNRYEGQ"
+      "password": "HSZuyJQcWe8dxNdF"
     },
     {
       "type": "shadowsocks",
       "tag": "🇵🇱 波兰 (Poland) 03 - hotick",
-      "server": "217.30.10.70",
-      "server_port": 9059,
-      "method": "aes-256-cfb",
-      "password": "9XwYyZsK8SNzQDtY"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 04 - hotick",
-      "server": "217.30.10.70",
-      "server_port": 9064,
-      "method": "aes-256-cfb",
-      "password": "cp8pRSUAyLhTfVWH"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 05 - hotick",
-      "server": "217.30.10.44",
-      "server_port": 9063,
-      "method": "aes-256-cfb",
-      "password": "aQqJbtwFGcCCaeL3"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 06 - hotick",
-      "server": "217.30.10.70",
-      "server_port": 9070,
-      "method": "aes-256-cfb",
-      "password": "bf7v334KKDV3YDhH"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 07 - hotick",
       "server": "217.30.10.44",
       "server_port": 9052,
       "method": "aes-256-cfb",
@@ -61,159 +29,23 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 08 - hotick",
+      "tag": "🇵🇱 波兰 (Poland) 04 - hotick",
       "server": "217.30.10.70",
-      "server_port": 9040,
+      "server_port": 9060,
       "method": "aes-256-cfb",
-      "password": "p9z5BVADH2YFs3MN"
+      "password": "ueLXVkvh4hckhErQ"
     },
     {
       "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 09 - hotick",
+      "tag": "🇵🇱 波兰 (Poland) 05 - hotick",
       "server": "217.30.10.70",
-      "server_port": 9093,
+      "server_port": 9045,
       "method": "aes-256-cfb",
-      "password": "wfLC2y7rzZyCmuyt"
+      "password": "Lp27rqyJq72bZsqX"
     },
     {
       "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 10 - hotick",
-      "server": "217.30.10.70",
-      "server_port": 9033,
-      "method": "aes-256-cfb",
-      "password": "UTJA57ypk2XKQpnm"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 11 - hotick",
-      "server": "217.30.10.70",
-      "server_port": 9018,
-      "method": "aes-256-cfb",
-      "password": "fG2artUmHfNT2cX7"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 12 - hotick",
-      "server": "217.30.10.70",
-      "server_port": 9088,
-      "method": "aes-256-cfb",
-      "password": "f8npKgNzdkss2ytn"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 13 - hotick",
-      "server": "217.30.10.70",
-      "server_port": 9056,
-      "method": "aes-256-cfb",
-      "password": "rNBfNuuANFCAk7KB"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 14 - hotick",
-      "server": "217.30.10.70",
-      "server_port": 9027,
-      "method": "aes-256-cfb",
-      "password": "EXN3S3eQpjE7EJu8"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 15 - hotick",
-      "server": "217.30.10.70",
-      "server_port": 9006,
-      "method": "aes-256-cfb",
-      "password": "FAdUvMJUq5vDgKEq"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 16 - hotick",
-      "server": "217.30.10.44",
-      "server_port": 9042,
-      "method": "aes-256-cfb",
-      "password": "S7KwUu7yBy58S3Ga"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 17 - hotick",
-      "server": "217.30.10.44",
-      "server_port": 9076,
-      "method": "aes-256-cfb",
-      "password": "S2zDyyPcmZN2h8EC"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 18 - hotick",
-      "server": "217.30.10.70",
-      "server_port": 9041,
-      "method": "aes-256-cfb",
-      "password": "U6qnYRhfyDmn8sgn"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 19 - hotick",
-      "server": "217.30.10.70",
-      "server_port": 9026,
-      "method": "aes-256-cfb",
-      "password": "QWDDvVE9npNurQfA"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 20 - hotick",
-      "server": "217.30.10.70",
-      "server_port": 9042,
-      "method": "aes-256-cfb",
-      "password": "S7KwUu7yBy58S3Ga"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 21 - hotick",
-      "server": "217.30.10.70",
-      "server_port": 9000,
-      "method": "aes-256-cfb",
-      "password": "a3GFYt36Sm82Vys9"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 22 - hotick",
-      "server": "217.30.10.70",
-      "server_port": 9079,
-      "method": "aes-256-cfb",
-      "password": "TPqX8edgbAURcAMb"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 23 - hotick",
-      "server": "217.30.10.70",
-      "server_port": 9005,
-      "method": "aes-256-cfb",
-      "password": "ZET59LF6DvCC8KVt"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 24 - hotick",
-      "server": "217.30.10.70",
-      "server_port": 9014,
-      "method": "aes-256-cfb",
-      "password": "KnJGad3FqTvjqbaX"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 25 - hotick",
-      "server": "217.30.10.70",
-      "server_port": 9024,
-      "method": "aes-256-cfb",
-      "password": "BejrQvtu9sqUeNuZ"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 26 - hotick",
-      "server": "217.30.10.70",
-      "server_port": 9031,
-      "method": "aes-256-cfb",
-      "password": "BwcAUZk8hUFAkDGN"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 27 - hotick",
+      "tag": "🇵🇱 波兰 (Poland) 06 - hotick",
       "server": "217.30.10.70",
       "server_port": 9097,
       "method": "aes-256-cfb",
@@ -221,39 +53,15 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 28 - hotick",
+      "tag": "🇵🇱 波兰 (Poland) 07 - hotick",
       "server": "217.30.10.70",
-      "server_port": 9025,
+      "server_port": 9064,
       "method": "aes-256-cfb",
-      "password": "XPtzA9sCug3SPR4c"
+      "password": "cp8pRSUAyLhTfVWH"
     },
     {
       "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 29 - hotick",
-      "server": "217.30.10.70",
-      "server_port": 9084,
-      "method": "aes-256-cfb",
-      "password": "c3NtHJ5ujV2tGDfj"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 30 - hotick",
-      "server": "217.30.10.70",
-      "server_port": 9003,
-      "method": "aes-256-cfb",
-      "password": "JdmRK9gMEqFgs8nP"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 31 - hotick",
-      "server": "217.30.10.70",
-      "server_port": 9015,
-      "method": "aes-256-cfb",
-      "password": "ZpNDDKRu9MagNvaf"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 32 - hotick",
+      "tag": "🇵🇱 波兰 (Poland) 08 - hotick",
       "server": "217.30.10.70",
       "server_port": 9073,
       "method": "aes-256-cfb",
@@ -261,23 +69,71 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 33 - hotick",
+      "tag": "🇵🇱 波兰 (Poland) 09 - hotick",
       "server": "217.30.10.70",
-      "server_port": 9038,
+      "server_port": 9024,
       "method": "aes-256-cfb",
-      "password": "gYCYXfkUQEs2TaJQ"
+      "password": "BejrQvtu9sqUeNuZ"
     },
     {
       "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 34 - hotick",
+      "tag": "🇵🇱 波兰 (Poland) 10 - hotick",
       "server": "217.30.10.70",
-      "server_port": 9011,
+      "server_port": 9059,
       "method": "aes-256-cfb",
-      "password": "M3t2ZEQcMGRWBjRa"
+      "password": "9XwYyZsK8SNzQDtY"
     },
     {
       "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 35 - hotick",
+      "tag": "🇵🇱 波兰 (Poland) 11 - hotick",
+      "server": "217.30.10.70",
+      "server_port": 9056,
+      "method": "aes-256-cfb",
+      "password": "rNBfNuuANFCAk7KB"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇵🇱 波兰 (Poland) 12 - hotick",
+      "server": "217.30.10.70",
+      "server_port": 9014,
+      "method": "aes-256-cfb",
+      "password": "KnJGad3FqTvjqbaX"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇵🇱 波兰 (Poland) 13 - hotick",
+      "server": "217.30.10.70",
+      "server_port": 9008,
+      "method": "aes-256-cfb",
+      "password": "y9VURyNzJWNRYEGQ"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇵🇱 波兰 (Poland) 14 - hotick",
+      "server": "217.30.10.70",
+      "server_port": 9003,
+      "method": "aes-256-cfb",
+      "password": "JdmRK9gMEqFgs8nP"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇵🇱 波兰 (Poland) 15 - hotick",
+      "server": "217.30.10.70",
+      "server_port": 9000,
+      "method": "aes-256-cfb",
+      "password": "a3GFYt36Sm82Vys9"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇵🇱 波兰 (Poland) 16 - hotick",
+      "server": "217.30.10.70",
+      "server_port": 9020,
+      "method": "aes-256-cfb",
+      "password": "BNmAXXxAHYpTRdzu"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇵🇱 波兰 (Poland) 17 - hotick",
       "server": "217.30.10.70",
       "server_port": 9053,
       "method": "aes-256-cfb",
@@ -285,76 +141,179 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 36 - hotick",
+      "tag": "🇵🇱 波兰 (Poland) 18 - hotick",
       "server": "217.30.10.70",
-      "server_port": 9043,
+      "server_port": 9084,
       "method": "aes-256-cfb",
-      "password": "HSZuyJQcWe8dxNdF"
+      "password": "c3NtHJ5ujV2tGDfj"
     },
     {
       "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 37 - hotick",
+      "tag": "🇵🇱 波兰 (Poland) 19 - hotick",
+      "server": "217.30.10.70",
+      "server_port": 9005,
+      "method": "aes-256-cfb",
+      "password": "ZET59LF6DvCC8KVt"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇵🇱 波兰 (Poland) 20 - hotick",
+      "server": "217.30.10.70",
+      "server_port": 9015,
+      "method": "aes-256-cfb",
+      "password": "ZpNDDKRu9MagNvaf"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇵🇱 波兰 (Poland) 21 - hotick",
+      "server": "217.30.10.44",
+      "server_port": 9042,
+      "method": "aes-256-cfb",
+      "password": "S7KwUu7yBy58S3Ga"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇵🇱 波兰 (Poland) 22 - hotick",
       "server": "217.30.10.70",
       "server_port": 9010,
       "method": "aes-256-cfb",
       "password": "f63gg8EruDnUrmz4"
     },
     {
-      "type": "vmess",
+      "type": "shadowsocks",
+      "tag": "🇵🇱 波兰 (Poland) 23 - hotick",
+      "server": "217.30.10.70",
+      "server_port": 9040,
+      "method": "aes-256-cfb",
+      "password": "p9z5BVADH2YFs3MN"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇵🇱 波兰 (Poland) 24 - hotick",
+      "server": "217.30.10.70",
+      "server_port": 9006,
+      "method": "aes-256-cfb",
+      "password": "FAdUvMJUq5vDgKEq"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇵🇱 波兰 (Poland) 25 - hotick",
+      "server": "217.30.10.70",
+      "server_port": 9088,
+      "method": "aes-256-cfb",
+      "password": "f8npKgNzdkss2ytn"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇵🇱 波兰 (Poland) 26 - hotick",
+      "server": "217.30.10.70",
+      "server_port": 9079,
+      "method": "aes-256-cfb",
+      "password": "TPqX8edgbAURcAMb"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇵🇱 波兰 (Poland) 27 - hotick",
+      "server": "217.30.10.44",
+      "server_port": 9062,
+      "method": "aes-256-cfb",
+      "password": "tkhHVxxfM2QErBWe"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇵🇱 波兰 (Poland) 28 - hotick",
+      "server": "217.30.10.70",
+      "server_port": 9031,
+      "method": "aes-256-cfb",
+      "password": "BwcAUZk8hUFAkDGN"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇵🇱 波兰 (Poland) 29 - hotick",
+      "server": "217.30.10.70",
+      "server_port": 9026,
+      "method": "aes-256-cfb",
+      "password": "QWDDvVE9npNurQfA"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇵🇱 波兰 (Poland) 30 - hotick",
+      "server": "217.30.10.70",
+      "server_port": 9033,
+      "method": "aes-256-cfb",
+      "password": "UTJA57ypk2XKQpnm"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇵🇱 波兰 (Poland) 31 - hotick",
+      "server": "217.30.10.70",
+      "server_port": 9041,
+      "method": "aes-256-cfb",
+      "password": "U6qnYRhfyDmn8sgn"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇵🇱 波兰 (Poland) 32 - hotick",
+      "server": "217.30.10.70",
+      "server_port": 9027,
+      "method": "aes-256-cfb",
+      "password": "EXN3S3eQpjE7EJu8"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇵🇱 波兰 (Poland) 33 - hotick",
+      "server": "217.30.10.70",
+      "server_port": 9093,
+      "method": "aes-256-cfb",
+      "password": "wfLC2y7rzZyCmuyt"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇵🇱 波兰 (Poland) 34 - hotick",
+      "server": "217.30.10.70",
+      "server_port": 9037,
+      "method": "aes-256-cfb",
+      "password": "TN2YqghxeFDKZfLU"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇵🇱 波兰 (Poland) 35 - hotick",
+      "server": "217.30.10.70",
+      "server_port": 9011,
+      "method": "aes-256-cfb",
+      "password": "M3t2ZEQcMGRWBjRa"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇵🇱 波兰 (Poland) 36 - hotick",
+      "server": "217.30.10.70",
+      "server_port": 9070,
+      "method": "aes-256-cfb",
+      "password": "bf7v334KKDV3YDhH"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇵🇱 波兰 (Poland) 37 - hotick",
+      "server": "217.30.10.70",
+      "server_port": 9018,
+      "method": "aes-256-cfb",
+      "password": "fG2artUmHfNT2cX7"
+    },
+    {
+      "type": "shadowsocks",
       "tag": "🇵🇱 波兰 (Poland) 38 - hotick",
-      "server": "54.37.131.126",
-      "server_port": 80,
-      "uuid": "1e55beca-3c69-4fa7-fb1f-15c1b767435f",
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "google.whatsapp.snapp.torob.basalam.hesanid8.ir."
-        }
-      }
+      "server": "217.30.10.70",
+      "server_port": 9038,
+      "method": "aes-256-cfb",
+      "password": "gYCYXfkUQEs2TaJQ"
     },
     {
       "type": "shadowsocks",
       "tag": "🇵🇱 波兰 (Poland) 39 - hotick",
       "server": "217.30.10.70",
-      "server_port": 9020,
+      "server_port": 9042,
       "method": "aes-256-cfb",
-      "password": "BNmAXXxAHYpTRdzu"
-    },
-    {
-      "type": "vless",
-      "tag": "🇵🇱 波兰 (Poland) 40 - hotick",
-      "server": "92.63.189.39",
-      "server_port": 8443,
-      "uuid": "7aa77858-f235-44d6-9434-7ab060848b17",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "avelon.onl",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇵🇱 波兰 (Poland) 41 - hotick",
-      "server": "150.251.113.34",
-      "server_port": 443,
-      "uuid": "d7d724b5-17ce-4f3c-877d-dfbf0f07afa1",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "8yMLSTbkpJFfbgTjNzotzz7U8OT6AERrclgKdKrXXW8",
-          "short_id": "150a627d15154cf2"
-        }
-      }
+      "password": "S7KwUu7yBy58S3Ga"
     },
     {
       "type": "selector",
@@ -399,9 +358,7 @@
         "🇵🇱 波兰 (Poland) 36 - hotick",
         "🇵🇱 波兰 (Poland) 37 - hotick",
         "🇵🇱 波兰 (Poland) 38 - hotick",
-        "🇵🇱 波兰 (Poland) 39 - hotick",
-        "🇵🇱 波兰 (Poland) 40 - hotick",
-        "🇵🇱 波兰 (Poland) 41 - hotick"
+        "🇵🇱 波兰 (Poland) 39 - hotick"
       ]
     },
     {
@@ -446,9 +403,7 @@
         "🇵🇱 波兰 (Poland) 36 - hotick",
         "🇵🇱 波兰 (Poland) 37 - hotick",
         "🇵🇱 波兰 (Poland) 38 - hotick",
-        "🇵🇱 波兰 (Poland) 39 - hotick",
-        "🇵🇱 波兰 (Poland) 40 - hotick",
-        "🇵🇱 波兰 (Poland) 41 - hotick"
+        "🇵🇱 波兰 (Poland) 39 - hotick"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

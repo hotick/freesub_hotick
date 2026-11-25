@@ -5,22 +5,23 @@ mode: rule
 log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - hotick
-  server: 104.17.145.43
+  server: 104.21.7.133
   port: 443
   udp: true
-  type: vless
-  uuid: 0b6a7fe0-206b-4071-9f96-cd397d1ec01a
+  type: vmess
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  alterId: 0
+  cipher: auto
   tls: true
-  servername: parchment.merlano.monster
+  servername: vmess.lbw666.dpdns.org
   skip-cert-verify: false
-  client-fingerprint: firefox
   network: ws
   ws-opts:
-    path: /api/de7/stream
+    path: /ws
     headers:
-      Host: parchment.merlano.monster
+      Host: vmess.lbw666.dpdns.org
 - name: 🌐 其他地区 (Other) 02 - hotick
-  server: cf.0sm.com
+  server: 104.21.7.133
   port: 443
   udp: true
   type: vmess
@@ -36,21 +37,34 @@ proxies:
     headers:
       Host: vmess.lbw666.dpdns.org
 - name: 🌐 其他地区 (Other) 03 - hotick
-  server: cf.0sm.com
+  server: 104.16.10.234
   port: 443
   udp: true
-  type: vmess
-  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
-  alterId: 0
-  cipher: auto
+  type: vless
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   tls: true
-  servername: vmess.lbw666.dpdns.org
+  servername: jp3.yohototo.top
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /ws?ed=2048
+    path: /tyxyws
     headers:
-      Host: vmess.lbw666.dpdns.org
+      Host: jp3.yohototo.top
+- name: 🌐 其他地区 (Other) 04 - hotick
+  server: 104.16.10.234
+  port: 443
+  udp: true
+  type: vless
+  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
+  tls: true
+  servername: u.srilankangrill.online
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: u.srilankangrill.online
 proxy-groups:
 - name: PROXIES
   type: select
@@ -59,6 +73,7 @@ proxy-groups:
   - 🌐 其他地区 (Other) 01 - hotick
   - 🌐 其他地区 (Other) 02 - hotick
   - 🌐 其他地区 (Other) 03 - hotick
+  - 🌐 其他地区 (Other) 04 - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -67,5 +82,6 @@ proxy-groups:
   - 🌐 其他地区 (Other) 01 - hotick
   - 🌐 其他地区 (Other) 02 - hotick
   - 🌐 其他地区 (Other) 03 - hotick
+  - 🌐 其他地区 (Other) 04 - hotick
 rules:
 - MATCH,PROXIES
