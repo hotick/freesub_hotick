@@ -5,70 +5,52 @@ mode: rule
 log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - hotick
-  server: fr-free.fastestrelay.com
+  server: 104.17.145.43
   port: 443
   udp: true
   type: vless
-  uuid: 364D2D52-E61E-4E52-80EC-2BC6BDF15349
+  uuid: 0b6a7fe0-206b-4071-9f96-cd397d1ec01a
   tls: true
-  servername: fr-free.fastestrelay.com
+  servername: parchment.merlano.monster
   skip-cert-verify: false
-  client-fingerprint: chrome
+  client-fingerprint: firefox
   network: ws
   ws-opts:
-    path: /700gvl
+    path: /api/de7/stream
     headers:
-      Host: fr-free.fastestrelay.com
+      Host: parchment.merlano.monster
 - name: 🌐 其他地区 (Other) 02 - hotick
-  server: fr-free.fastestrelay.com
+  server: cf.0sm.com
   port: 443
   udp: true
-  type: vless
-  uuid: 43BCAE0A-10A6-4003-8615-BD510F4215BA
+  type: vmess
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: vmess.lbw666.dpdns.org
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: vmess.lbw666.dpdns.org
 - name: 🌐 其他地区 (Other) 03 - hotick
-  server: chatgpt.com
+  server: cf.0sm.com
   port: 443
   udp: true
-  type: vless
-  uuid: 55b3fd10-3658-40a2-8951-ec90932d1d30
+  type: vmess
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  alterId: 0
+  cipher: auto
   tls: true
-  servername: sinavm2.soft10.ir
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /SiNAVM-SiNAVM-SiNAVM-SiNAVM
-    headers:
-      Host: sinavm2.soft10.ir
-- name: 🌐 其他地区 (Other) 04 - hotick
-  server: chatgpt.com
-  port: 443
-  udp: true
-  type: vless
-  uuid: d342d11e-d224-4463-b982-532309285094
-  tls: true
-  servername: ccc.010304.xyz
+  servername: vmess.lbw666.dpdns.org
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed
+    path: /ws?ed=2048
     headers:
-      Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 05 - hotick
-  server: chatgpt.com
-  port: 443
-  udp: true
-  type: vless
-  uuid: c2425034-91ef-44bf-9fd4-f2be9c1e989a
-  tls: true
-  servername: sinavm3.soft10.ir
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /SiNAVM-SiNAVM-SiNAVM-SiNAVM
-    headers:
-      Host: sinavm3.soft10.ir
+      Host: vmess.lbw666.dpdns.org
 proxy-groups:
 - name: PROXIES
   type: select
@@ -77,8 +59,6 @@ proxy-groups:
   - 🌐 其他地区 (Other) 01 - hotick
   - 🌐 其他地区 (Other) 02 - hotick
   - 🌐 其他地区 (Other) 03 - hotick
-  - 🌐 其他地区 (Other) 04 - hotick
-  - 🌐 其他地区 (Other) 05 - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -87,7 +67,5 @@ proxy-groups:
   - 🌐 其他地区 (Other) 01 - hotick
   - 🌐 其他地区 (Other) 02 - hotick
   - 🌐 其他地区 (Other) 03 - hotick
-  - 🌐 其他地区 (Other) 04 - hotick
-  - 🌐 其他地区 (Other) 05 - hotick
 rules:
 - MATCH,PROXIES

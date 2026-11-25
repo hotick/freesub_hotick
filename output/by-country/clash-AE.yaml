@@ -19,7 +19,17 @@ proxies:
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
 - name: 🇦🇪 阿联酋 (UAE) 03 - hotick
-  server: 212.192.3.237
+  server: 94.183.167.172
+  port: 443
+  udp: true
+  type: vless
+  uuid: d7121b33-e335-4921-bb00-4c0b157e7fc1
+  tls: true
+  servername: s8k4.scan-cdn.com
+  skip-cert-verify: false
+  client-fingerprint: chrome
+- name: 🇦🇪 阿联酋 (UAE) 04 - hotick
+  server: 212.192.3.222
   port: 9543
   udp: true
   type: vless
@@ -31,17 +41,8 @@ proxies:
     short-id: 123abcdf
   servername: storage.yandexcloud.net
   client-fingerprint: chrome
-- name: 🇦🇪 阿联酋 (UAE) 04 - hotick
-  server: 95.174.68.188
-  port: 14430
-  udp: true
-  type: vless
-  uuid: 965ffbbe-c6b6-4d5f-8dea-6d8abc55d9c0
-  network: ws
-  ws-opts:
-    path: /vless
 - name: 🇦🇪 阿联酋 (UAE) 05 - hotick
-  server: 212.192.3.113
+  server: 212.192.3.63
   port: 9543
   udp: true
   type: vless
@@ -54,7 +55,44 @@ proxies:
   servername: storage.yandexcloud.net
   client-fingerprint: chrome
 - name: 🇦🇪 阿联酋 (UAE) 06 - hotick
-  server: 84.235.244.108
+  server: 95.174.68.188
+  port: 14430
+  udp: true
+  type: vless
+  uuid: 965ffbbe-c6b6-4d5f-8dea-6d8abc55d9c0
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: 95.174.68.188
+- name: 🇦🇪 阿联酋 (UAE) 07 - hotick
+  server: dubai-cdn-reverse-prsxv.keno.su
+  port: 443
+  udp: true
+  type: vless
+  uuid: a9d963bc-81a1-42b5-b62d-104af19a0f5c
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: 1h_quEcn8-33TXVqNwePJbl5f4xBQF8-b1jV4WUz73c
+    short-id: ff133c583853246f
+  servername: dubai-cdn-reverse-prsxv.keno.su
+  client-fingerprint: firefox
+- name: 🇦🇪 阿联酋 (UAE) 08 - hotick
+  server: 212.192.3.237
+  port: 9543
+  udp: true
+  type: vless
+  uuid: 920b3cd9-4f82-4669-bbd2-d4a28b9052c6
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: M6Ck7wUfOLhQl4582CBnaXwscPEP6SCpdEkUDzoj4Fc
+    short-id: 123abcdf
+  servername: storage.yandexcloud.net
+  client-fingerprint: chrome
+- name: 🇦🇪 阿联酋 (UAE) 09 - hotick
+  server: uae.unixzone.us
   port: 22573
   udp: true
   type: vless
@@ -75,6 +113,9 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 04 - hotick
   - 🇦🇪 阿联酋 (UAE) 05 - hotick
   - 🇦🇪 阿联酋 (UAE) 06 - hotick
+  - 🇦🇪 阿联酋 (UAE) 07 - hotick
+  - 🇦🇪 阿联酋 (UAE) 08 - hotick
+  - 🇦🇪 阿联酋 (UAE) 09 - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -86,5 +127,8 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 04 - hotick
   - 🇦🇪 阿联酋 (UAE) 05 - hotick
   - 🇦🇪 阿联酋 (UAE) 06 - hotick
+  - 🇦🇪 阿联酋 (UAE) 07 - hotick
+  - 🇦🇪 阿联酋 (UAE) 08 - hotick
+  - 🇦🇪 阿联酋 (UAE) 09 - hotick
 rules:
 - MATCH,PROXIES

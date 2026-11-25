@@ -30,18 +30,41 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "🇹🇷 土耳其 (Turkey) 02 - hotick",
+      "server": "31.58.191.52",
+      "server_port": 3099,
+      "uuid": "cdfc923e-8d34-4b44-ac72-ab41ec560ba8",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "vimeo.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "R6XO56Bp8-HW5dW3oOu5WC-bYVBD9ed8KR_mx6oU6Ew",
+          "short_id": "5701ece7005006b8"
+        }
+      }
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇹🇷 土耳其 (Turkey) 01 - hotick"
+        "🇹🇷 土耳其 (Turkey) 01 - hotick",
+        "🇹🇷 土耳其 (Turkey) 02 - hotick"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇹🇷 土耳其 (Turkey) 01 - hotick"
+        "🇹🇷 土耳其 (Turkey) 01 - hotick",
+        "🇹🇷 土耳其 (Turkey) 02 - hotick"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

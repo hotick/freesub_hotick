@@ -6,98 +6,63 @@
     {
       "type": "vless",
       "tag": "🌐 其他地区 (Other) 01 - hotick",
-      "server": "fr-free.fastestrelay.com",
+      "server": "104.17.145.43",
       "server_port": 443,
-      "uuid": "364D2D52-E61E-4E52-80EC-2BC6BDF15349",
+      "uuid": "0b6a7fe0-206b-4071-9f96-cd397d1ec01a",
       "tls": {
         "enabled": true,
-        "server_name": "fr-free.fastestrelay.com",
+        "server_name": "parchment.merlano.monster",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         }
       },
       "transport": {
         "type": "ws",
-        "path": "/700gvl",
+        "path": "/api/de7/stream",
         "headers": {
-          "Host": "fr-free.fastestrelay.com"
+          "Host": "parchment.merlano.monster"
         }
       }
     },
     {
-      "type": "vless",
+      "type": "vmess",
       "tag": "🌐 其他地区 (Other) 02 - hotick",
-      "server": "fr-free.fastestrelay.com",
+      "server": "cf.0sm.com",
       "server_port": 443,
-      "uuid": "43BCAE0A-10A6-4003-8615-BD510F4215BA"
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 其他地区 (Other) 03 - hotick",
-      "server": "chatgpt.com",
-      "server_port": 443,
-      "uuid": "55b3fd10-3658-40a2-8951-ec90932d1d30",
+      "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
+      "security": "auto",
       "tls": {
         "enabled": true,
-        "server_name": "sinavm2.soft10.ir",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/SiNAVM-SiNAVM-SiNAVM-SiNAVM",
-        "headers": {
-          "Host": "sinavm2.soft10.ir"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 其他地区 (Other) 04 - hotick",
-      "server": "chatgpt.com",
-      "server_port": 443,
-      "uuid": "d342d11e-d224-4463-b982-532309285094",
-      "tls": {
-        "enabled": true,
-        "server_name": "ccc.010304.xyz",
+        "server_name": "vmess.lbw666.dpdns.org",
         "insecure": false
       },
       "transport": {
         "type": "ws",
-        "path": "/?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed",
+        "path": "/ws",
         "headers": {
-          "Host": "ccc.010304.xyz"
+          "Host": "vmess.lbw666.dpdns.org"
         }
       }
     },
     {
-      "type": "vless",
-      "tag": "🌐 其他地区 (Other) 05 - hotick",
-      "server": "chatgpt.com",
+      "type": "vmess",
+      "tag": "🌐 其他地区 (Other) 03 - hotick",
+      "server": "cf.0sm.com",
       "server_port": 443,
-      "uuid": "c2425034-91ef-44bf-9fd4-f2be9c1e989a",
+      "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
+      "security": "auto",
       "tls": {
         "enabled": true,
-        "server_name": "sinavm3.soft10.ir",
-        "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        "server_name": "vmess.lbw666.dpdns.org",
+        "insecure": false
       },
       "transport": {
         "type": "ws",
-        "path": "/SiNAVM-SiNAVM-SiNAVM-SiNAVM",
+        "path": "/ws?ed=2048",
         "headers": {
-          "Host": "sinavm3.soft10.ir"
+          "Host": "vmess.lbw666.dpdns.org"
         }
       }
     },
@@ -108,9 +73,7 @@
         "auto",
         "🌐 其他地区 (Other) 01 - hotick",
         "🌐 其他地区 (Other) 02 - hotick",
-        "🌐 其他地区 (Other) 03 - hotick",
-        "🌐 其他地区 (Other) 04 - hotick",
-        "🌐 其他地区 (Other) 05 - hotick"
+        "🌐 其他地区 (Other) 03 - hotick"
       ]
     },
     {
@@ -119,9 +82,7 @@
       "outbounds": [
         "🌐 其他地区 (Other) 01 - hotick",
         "🌐 其他地区 (Other) 02 - hotick",
-        "🌐 其他地区 (Other) 03 - hotick",
-        "🌐 其他地区 (Other) 04 - hotick",
-        "🌐 其他地区 (Other) 05 - hotick"
+        "🌐 其他地区 (Other) 03 - hotick"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

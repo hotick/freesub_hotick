@@ -19,36 +19,20 @@ proxies:
     headers:
       Host: ty986gfazs.cainiaohub.xyz
 - name: 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - hotick
-  server: er8u54dh.df6h451rh.xin
-  port: 443
-  udp: true
-  type: anytls
-  password: 2902c46c8493
-  sni: px.ads.linkedin.com
-  skip-cert-verify: true
-- name: 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - hotick
-  server: a54ge.df6h451rh.xin
-  port: 443
-  udp: true
-  type: anytls
-  password: 0324fbc29561
-  sni: docs.microsoft.com
-  skip-cert-verify: true
-- name: 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - hotick
-  server: rtifgjdr.df6h451rh.xin
-  port: 443
-  udp: true
-  type: anytls
-  password: 2902c46c8493
-  sni: docs.microsoft.com
-  skip-cert-verify: true
-- name: 🇹🇼 中国台湾 (Taiwan) 05 (家宽) - hotick
   server: mfjh645drfj1dr6j5.df6h451rh.xin
   port: 443
   udp: true
   type: anytls
   password: 0324fbc29561
   sni: px.ads.linkedin.com
+  skip-cert-verify: true
+- name: 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - hotick
+  server: rtifgjdr.df6h451rh.xin
+  port: 443
+  udp: true
+  type: anytls
+  password: 2902c46c8493
+  sni: docs.microsoft.com
   skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
@@ -58,8 +42,6 @@ proxy-groups:
   - 🇹🇼 中国台湾 (Taiwan) 01 (家宽) - hotick
   - 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - hotick
   - 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - hotick
-  - 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - hotick
-  - 🇹🇼 中国台湾 (Taiwan) 05 (家宽) - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -68,7 +50,5 @@ proxy-groups:
   - 🇹🇼 中国台湾 (Taiwan) 01 (家宽) - hotick
   - 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - hotick
   - 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - hotick
-  - 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - hotick
-  - 🇹🇼 中国台湾 (Taiwan) 05 (家宽) - hotick
 rules:
 - MATCH,PROXIES
