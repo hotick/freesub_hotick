@@ -1,0 +1,75 @@
+{
+  "log": {
+    "level": "warn"
+  },
+  "outbounds": [
+    {
+      "type": "trojan",
+      "tag": "🇺🇦 乌克兰 (Ukraine) 01 - hotick",
+      "server": "bitter-math-4364.vpnetwork3567.workers.dev",
+      "server_port": 443,
+      "password": "963A4918-A630-29DA-A873-093CDF8AD784",
+      "tls": {
+        "enabled": true,
+        "server_name": "bitter-math-4364.vpnetwork3567.workers.dev",
+        "insecure": false,
+        "alpn": [
+          "http/1.1"
+        ]
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "bitter-math-4364.vpnetwork3567.workers.dev"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇦 乌克兰 (Ukraine) 02 - hotick",
+      "server": "31.222.235.81",
+      "server_port": 443,
+      "uuid": "d8b58872-cc25-4bb2-badb-b86399c075fa",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "L9IllZt5vcjYVY_6rmCJ_9ypmJsBK8dSWkNVCStrZjk",
+          "short_id": "d8b58872"
+        }
+      }
+    },
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "🇺🇦 乌克兰 (Ukraine) 01 - hotick",
+        "🇺🇦 乌克兰 (Ukraine) 02 - hotick"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇺🇦 乌克兰 (Ukraine) 01 - hotick",
+        "🇺🇦 乌克兰 (Ukraine) 02 - hotick"
+      ],
+      "url": "https://www.gstatic.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ]
+}
