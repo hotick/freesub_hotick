@@ -5,42 +5,22 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇹🇷 土耳其 (Turkey) 01 - hotick
-  server: 38.180.104.37
-  port: 19084
+  server: leviko-tr3795.shopingggg.ir
+  port: 50738
   udp: true
-  type: ss
-  cipher: aes-128-gcm
-  password: ff4d354078394558933d699be149ad69
+  type: vless
+  uuid: 56665684-5ac0-4ba9-9d49-8b258fb57974
+  tls: true
+  servername: turkey-ip1.mmdaqaorg.xyz
+  skip-cert-verify: false
+  client-fingerprint: chrome
 - name: 🇹🇷 土耳其 (Turkey) 02 - hotick
   server: tr.subscriptionservice.ir
   port: 2089
   udp: true
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: gE-xKyJBjelgHz2-vjexshOhTuxG-0h7
-- name: 🇹🇷 土耳其 (Turkey) 03 - hotick
-  server: zfd-boardv2.kunlun01dns.com
-  port: 16272
-  udp: true
-  type: vmess
-  uuid: 0802ac03-7973-39ef-a019-ba02de6c01e1
-  alterId: 0
-  cipher: auto
-- name: 🇹🇷 土耳其 (Turkey) 04 - hotick
-  server: 172.64.155.209
-  port: 443
-  udp: true
-  type: vless
-  uuid: 14eccb4f-ca88-4732-b191-d8daacf63448
-  tls: true
-  servername: sinavm3.soft10.ir
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /SiNAVM-SiNAVM-SiNAVM-SiNAVM
-    headers:
-      Host: sinavm3.soft10.ir
+  password: lZZzfo1mqH7PqnloAogdi2XBhlgiofMy
 proxy-groups:
 - name: PROXIES
   type: select
@@ -48,8 +28,6 @@ proxy-groups:
   - AUTO
   - 🇹🇷 土耳其 (Turkey) 01 - hotick
   - 🇹🇷 土耳其 (Turkey) 02 - hotick
-  - 🇹🇷 土耳其 (Turkey) 03 - hotick
-  - 🇹🇷 土耳其 (Turkey) 04 - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -57,7 +35,5 @@ proxy-groups:
   proxies:
   - 🇹🇷 土耳其 (Turkey) 01 - hotick
   - 🇹🇷 土耳其 (Turkey) 02 - hotick
-  - 🇹🇷 土耳其 (Turkey) 03 - hotick
-  - 🇹🇷 土耳其 (Turkey) 04 - hotick
 rules:
 - MATCH,PROXIES

@@ -6,6 +6,27 @@
     {
       "type": "vless",
       "tag": "🇫🇮 芬兰 (Finland) 01 - hotick",
+      "server": "mail1.besttotaldns.com",
+      "server_port": 443,
+      "uuid": "da14e323-6af7-406f-a5c2-1eb7975ada8b",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "mail1.besttotaldns.com",
+        "insecure": false,
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇫🇮 芬兰 (Finland) 02 - hotick",
       "server": "31.76.77.231",
       "server_port": 443,
       "uuid": "e894c08a-fecc-46f5-bf03-c95d0274c79d",
@@ -15,7 +36,7 @@
         "server_name": "www.google.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -26,7 +47,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "🇫🇮 芬兰 (Finland) 02 - hotick",
+      "tag": "🇫🇮 芬兰 (Finland) 03 - hotick",
       "server": "94.183.164.119",
       "server_port": 24433,
       "password": "549766c3-fa5f-471e-8031-ffc1f8d5064f",
@@ -37,12 +58,26 @@
       }
     },
     {
+      "type": "hysteria2",
+      "tag": "🇫🇮 芬兰 (Finland) 04 - hotick",
+      "server": "4f070970.con.metricdraft.tech",
+      "server_port": 443,
+      "password": "030e421e-9317-4cb8-8fbe-a07a565ad3db",
+      "tls": {
+        "enabled": true,
+        "server_name": "4f070970.con.metricdraft.tech",
+        "insecure": false
+      }
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
         "🇫🇮 芬兰 (Finland) 01 - hotick",
-        "🇫🇮 芬兰 (Finland) 02 - hotick"
+        "🇫🇮 芬兰 (Finland) 02 - hotick",
+        "🇫🇮 芬兰 (Finland) 03 - hotick",
+        "🇫🇮 芬兰 (Finland) 04 - hotick"
       ]
     },
     {
@@ -50,7 +85,9 @@
       "tag": "auto",
       "outbounds": [
         "🇫🇮 芬兰 (Finland) 01 - hotick",
-        "🇫🇮 芬兰 (Finland) 02 - hotick"
+        "🇫🇮 芬兰 (Finland) 02 - hotick",
+        "🇫🇮 芬兰 (Finland) 03 - hotick",
+        "🇫🇮 芬兰 (Finland) 04 - hotick"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

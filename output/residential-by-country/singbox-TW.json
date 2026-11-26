@@ -4,20 +4,16 @@
   },
   "outbounds": [
     {
-      "type": "anytls",
+      "type": "vmess",
       "tag": "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - hotick",
-      "server": "mfjh645drfj1dr6j5.df6h451rh.xin",
-      "server_port": 443,
-      "password": "0324fbc29561",
-      "tls": {
-        "enabled": true,
-        "server_name": "px.ads.linkedin.com",
-        "insecure": true
-      }
+      "server": "dog-tw.kunlun01dns.com",
+      "server_port": 21035,
+      "uuid": "9464ca40-dd75-3742-a628-d931a9f413b2",
+      "security": "auto"
     },
     {
       "type": "anytls",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - hotick",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 02 (移动家宽) - hotick",
       "server": "er8u54dh.df6h451rh.xin",
       "server_port": 443,
       "password": "2902c46c8493",
@@ -30,18 +26,26 @@
     {
       "type": "anytls",
       "tag": "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - hotick",
-      "server": "a54ge.df6h451rh.xin",
+      "server": "mfjh645drfj1dr6j5.df6h451rh.xin",
       "server_port": 443,
       "password": "0324fbc29561",
       "tls": {
         "enabled": true,
-        "server_name": "docs.microsoft.com",
+        "server_name": "px.ads.linkedin.com",
         "insecure": true
       }
     },
     {
-      "type": "anytls",
+      "type": "vmess",
       "tag": "🇹🇼 中国台湾 (Taiwan) 04 (家宽) - hotick",
+      "server": "dog-tw.kunlun01dns.com",
+      "server_port": 21037,
+      "uuid": "9464ca40-dd75-3742-a628-d931a9f413b2",
+      "security": "auto"
+    },
+    {
+      "type": "anytls",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 05 (家宽) - hotick",
       "server": "rtifgjdr.df6h451rh.xin",
       "server_port": 443,
       "password": "2902c46c8493",
@@ -57,9 +61,10 @@
       "outbounds": [
         "auto",
         "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - hotick",
-        "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - hotick",
+        "🇹🇼 中国台湾 (Taiwan) 02 (移动家宽) - hotick",
         "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - hotick",
-        "🇹🇼 中国台湾 (Taiwan) 04 (家宽) - hotick"
+        "🇹🇼 中国台湾 (Taiwan) 04 (家宽) - hotick",
+        "🇹🇼 中国台湾 (Taiwan) 05 (家宽) - hotick"
       ]
     },
     {
@@ -67,9 +72,10 @@
       "tag": "auto",
       "outbounds": [
         "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - hotick",
-        "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - hotick",
+        "🇹🇼 中国台湾 (Taiwan) 02 (移动家宽) - hotick",
         "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - hotick",
-        "🇹🇼 中国台湾 (Taiwan) 04 (家宽) - hotick"
+        "🇹🇼 中国台湾 (Taiwan) 04 (家宽) - hotick",
+        "🇹🇼 中国台湾 (Taiwan) 05 (家宽) - hotick"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
