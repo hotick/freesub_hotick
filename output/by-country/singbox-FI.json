@@ -6,29 +6,48 @@
     {
       "type": "vless",
       "tag": "🇫🇮 芬兰 (Finland) 01 - hotick",
-      "server": "92.38.145.145",
+      "server": "201.58.176.19",
       "server_port": 443,
-      "uuid": "3f734801-dacb-418f-b1e7-340427940c77",
+      "uuid": "e894c08a-fecc-46f5-bf03-c95d0274c79d",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "gcore.com",
-        "insecure": false,
+        "server_name": "lesson9.schoolpizorbz.xyz",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "LkXRut71yrHguNpmKfCrLITrAxk7amJiI2npZ4jRYx8",
+          "short_id": "06df4d3e93672c24"
         }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/dl",
-        "headers": {
-          "Host": "app1.gptban.com"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇫🇮 芬兰 (Finland) 02 - hotick",
+      "server": "2.27.122.255",
+      "server_port": 443,
+      "uuid": "e307f400-d65e-4afd-bfe2-9a54deca5678",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "sun9-37.userapi.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "Uig-31Ux76EreEvx8Ntb0BwS1TkUGbu0LcsQsiAH6wg",
+          "short_id": "d52d3ecf49447c2a"
         }
       }
     },
     {
       "type": "hysteria2",
-      "tag": "🇫🇮 芬兰 (Finland) 02 - hotick",
+      "tag": "🇫🇮 芬兰 (Finland) 03 - hotick",
       "server": "94.183.164.119",
       "server_port": 24433,
       "password": "549766c3-fa5f-471e-8031-ffc1f8d5064f",
@@ -36,18 +55,6 @@
         "enabled": true,
         "server_name": "94.183.164.119",
         "insecure": true
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇫🇮 芬兰 (Finland) 03 - hotick",
-      "server": "4f070970.con.metricdraft.tech",
-      "server_port": 443,
-      "password": "030e421e-9317-4cb8-8fbe-a07a565ad3db",
-      "tls": {
-        "enabled": true,
-        "server_name": "4f070970.con.metricdraft.tech",
-        "insecure": false
       }
     },
     {

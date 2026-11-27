@@ -12,20 +12,6 @@ proxies:
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
 - name: 🇨🇭 瑞士 (Switzerland) 02 - hotick
-  server: 23.166.88.127
-  port: 19999
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇨🇭 瑞士 (Switzerland) 03 - hotick
-  server: 23.166.88.189
-  port: 19999
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇨🇭 瑞士 (Switzerland) 04 - hotick
   server: 186.190.215.4
   port: 1270
   udp: true
@@ -36,22 +22,7 @@ proxies:
   tls: true
   servername: xmfhlpy.com
   skip-cert-verify: false
-- name: 🇨🇭 瑞士 (Switzerland) 05 - hotick
-  server: 79.127.184.104
-  port: 19999
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇨🇭 瑞士 (Switzerland) 06 - hotick
-  server: 208.69.78.222
-  port: 443
-  udp: true
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: yourultimateprofessionalcareerhub.com
-  skip-cert-verify: false
-- name: 🇨🇭 瑞士 (Switzerland) 07 - hotick
+- name: 🇨🇭 瑞士 (Switzerland) 03 - hotick
   server: 152.67.75.161
   port: 443
   udp: true
@@ -61,23 +32,14 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: c13f29db6a638ad2b211b9ce2669ef27
-- name: 🇨🇭 瑞士 (Switzerland) 08 - hotick
-  server: 208.69.78.60
-  port: 443
+- name: 🇨🇭 瑞士 (Switzerland) 04 - hotick
+  server: leviko-ch7340.shopingggg.ir
+  port: 19999
   udp: true
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: cdn.yourultimateprofessionalcareerhub.com
-  skip-cert-verify: false
-- name: 🇨🇭 瑞士 (Switzerland) 09 - hotick
-  server: 208.69.78.208
-  port: 443
-  udp: true
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: resources.yourultimateprofessionalcareerhub.com
-  skip-cert-verify: false
-- name: 🇨🇭 瑞士 (Switzerland) 10 - hotick
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇨🇭 瑞士 (Switzerland) 05 - hotick
   server: 140.238.213.114
   port: 50160
   udp: true
@@ -85,6 +47,20 @@ proxies:
   password: 84a506ca5aca505696a454d828420b3f
   sni: www.bing.com
   skip-cert-verify: true
+- name: 🇨🇭 瑞士 (Switzerland) 06 - hotick
+  server: 79.127.184.104
+  port: 19999
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇨🇭 瑞士 (Switzerland) 07 - hotick
+  server: 23.166.88.127
+  port: 19999
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
 proxy-groups:
 - name: PROXIES
   type: select
@@ -97,9 +73,6 @@ proxy-groups:
   - 🇨🇭 瑞士 (Switzerland) 05 - hotick
   - 🇨🇭 瑞士 (Switzerland) 06 - hotick
   - 🇨🇭 瑞士 (Switzerland) 07 - hotick
-  - 🇨🇭 瑞士 (Switzerland) 08 - hotick
-  - 🇨🇭 瑞士 (Switzerland) 09 - hotick
-  - 🇨🇭 瑞士 (Switzerland) 10 - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -112,8 +85,5 @@ proxy-groups:
   - 🇨🇭 瑞士 (Switzerland) 05 - hotick
   - 🇨🇭 瑞士 (Switzerland) 06 - hotick
   - 🇨🇭 瑞士 (Switzerland) 07 - hotick
-  - 🇨🇭 瑞士 (Switzerland) 08 - hotick
-  - 🇨🇭 瑞士 (Switzerland) 09 - hotick
-  - 🇨🇭 瑞士 (Switzerland) 10 - hotick
 rules:
 - MATCH,PROXIES

@@ -5,14 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 01 - hotick
-  server: 194.87.224.137
-  port: 15443
-  udp: true
-  type: hysteria2
-  password: lvu_3390f238bef4e3058ac47c87473755cf_07cd5acf7265adf5c1210040ca46facf:np2.1.HJjJucZ0-OZZUq5Njkl48v1gYx7ol9rXjxYXZUxrQdM
-  sni: n9.neproxy.net
-  skip-cert-verify: false
-- name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 02 - hotick
   server: 109.248.170.119
   port: 13447
   udp: true
@@ -30,13 +22,11 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇰🇿 哈萨克斯坦 (Kazakhstan) 01 - hotick
-  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 02 - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇰🇿 哈萨克斯坦 (Kazakhstan) 01 - hotick
-  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 02 - hotick
 rules:
 - MATCH,PROXIES

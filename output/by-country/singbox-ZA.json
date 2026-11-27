@@ -12,24 +12,29 @@
       "password": "aduB9HGxQHjA2SBMRjkHX6"
     },
     {
-      "type": "trojan",
-      "tag": "🇿🇦 南非 (South Africa) 02 - hotick",
-      "server": "139.84.231.142",
-      "server_port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "tls": {
-        "enabled": true,
-        "server_name": "explorecareerpathsandunlockprofessionalsuccesstoday.com",
-        "insecure": true
-      }
-    },
-    {
       "type": "shadowsocks",
-      "tag": "🇿🇦 南非 (South Africa) 03 - hotick",
+      "tag": "🇿🇦 南非 (South Africa) 02 - hotick",
       "server": "102.133.165.160",
       "server_port": 16233,
       "method": "chacha20-ietf-poly1305",
       "password": "Xsy8Ox4yOV3xLlpxtjzs3X"
+    },
+    {
+      "type": "vmess",
+      "tag": "🇿🇦 南非 (South Africa) 03 - hotick",
+      "server": "16.28.28.15",
+      "server_port": 443,
+      "uuid": "8ce18eab-fcc0-4757-b552-dbda5047ea11",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "za-a-zzy.glnyhlgc.com",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/7788/about"
+      }
     },
     {
       "type": "selector",

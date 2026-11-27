@@ -6,22 +6,6 @@
     {
       "type": "shadowsocks",
       "tag": "🇯🇵 日本 (Japan) 01 - hotick",
-      "server": "149.22.87.204",
-      "server_port": 443,
-      "method": "aes-128-gcm",
-      "password": "shadowsocks"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇯🇵 日本 (Japan) 02 - hotick",
-      "server": "8.216.18.189",
-      "server_port": 5555,
-      "method": "aes-256-gcm",
-      "password": "123456"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇯🇵 日本 (Japan) 03 - hotick",
       "server": "149.22.87.241",
       "server_port": 443,
       "method": "aes-128-gcm",
@@ -29,23 +13,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇯🇵 日本 (Japan) 04 - hotick",
-      "server": "8.216.18.139",
-      "server_port": 5555,
-      "method": "aes-256-gcm",
-      "password": "123456"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇯🇵 日本 (Japan) 05 - hotick",
-      "server": "47.91.15.111",
-      "server_port": 5555,
-      "method": "aes-256-gcm",
-      "password": "123456"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇯🇵 日本 (Japan) 06 - hotick",
+      "tag": "🇯🇵 日本 (Japan) 02 - hotick",
       "server": "149.22.87.240",
       "server_port": 443,
       "method": "aes-128-gcm",
@@ -53,15 +21,39 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇯🇵 日本 (Japan) 07 - hotick",
-      "server": "8.209.197.190",
+      "tag": "🇯🇵 日本 (Japan) 03 - hotick",
+      "server": "149.22.87.204",
+      "server_port": 443,
+      "method": "aes-128-gcm",
+      "password": "shadowsocks"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇯🇵 日本 (Japan) 04 - hotick",
+      "server": "47.91.15.111",
       "server_port": 5555,
       "method": "aes-256-gcm",
       "password": "123456"
     },
     {
       "type": "shadowsocks",
-      "tag": "🇯🇵 日本 (Japan) 08 - hotick",
+      "tag": "🇯🇵 日本 (Japan) 05 - hotick",
+      "server": "8.216.3.160",
+      "server_port": 5555,
+      "method": "aes-256-gcm",
+      "password": "123456"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇯🇵 日本 (Japan) 06 - hotick",
+      "server": "47.245.42.226",
+      "server_port": 5555,
+      "method": "aes-256-gcm",
+      "password": "123456"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇯🇵 日本 (Japan) 07 - hotick",
       "server": "168.138.205.100",
       "server_port": 53758,
       "method": "aes-128-gcm",
@@ -69,15 +61,31 @@
     },
     {
       "type": "shadowsocks",
+      "tag": "🇯🇵 日本 (Japan) 08 - hotick",
+      "server": "8.216.17.19",
+      "server_port": 5555,
+      "method": "aes-256-gcm",
+      "password": "123456"
+    },
+    {
+      "type": "shadowsocks",
       "tag": "🇯🇵 日本 (Japan) 09 - hotick",
-      "server": "8.211.129.80",
+      "server": "8.216.9.190",
+      "server_port": 5555,
+      "method": "aes-256-gcm",
+      "password": "123456"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇯🇵 日本 (Japan) 10 - hotick",
+      "server": "8.216.6.19",
       "server_port": 5555,
       "method": "aes-256-gcm",
       "password": "123456"
     },
     {
       "type": "vless",
-      "tag": "🇯🇵 日本 (Japan) 10 - hotick",
+      "tag": "🇯🇵 日本 (Japan) 11 - hotick",
       "server": "158.101.151.157",
       "server_port": 443,
       "uuid": "66171cbe-0b4b-4b24-99f6-d5a822f4dc9a",
@@ -98,18 +106,6 @@
     },
     {
       "type": "vmess",
-      "tag": "🇯🇵 日本 (Japan) 11 - hotick",
-      "server": "168.110.63.247",
-      "server_port": 8081,
-      "uuid": "c3bde296-8e44-4b8c-a325-577d5b3cc7c8",
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/vless"
-      }
-    },
-    {
-      "type": "vmess",
       "tag": "🇯🇵 日本 (Japan) 12 - hotick",
       "server": "161.33.20.255",
       "server_port": 8880,
@@ -121,23 +117,17 @@
       }
     },
     {
-      "type": "vless",
+      "type": "vmess",
       "tag": "🇯🇵 日本 (Japan) 13 - hotick",
-      "server": "jpg1radio.jumpernode.site",
-      "server_port": 443,
-      "uuid": "f45ccbaa-521d-4d3a-a4e7-13a3094f2b90",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cdn.amazon.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "dtNeCNIcRgs8_EKIJg_oTJEsiA8KBU-QaE1yVpkoX0I",
-          "short_id": "949ddd6bacbc"
+      "server": "168.138.43.75",
+      "server_port": 80,
+      "uuid": "11c3627f-31e8-4695-dfbd-34076e2f1f5d",
+      "security": "auto",
+      "transport": {
+        "type": "ws",
+        "path": "/cctv13.m3u8",
+        "headers": {
+          "Host": "None"
         }
       }
     },
@@ -215,16 +205,16 @@
       "type": "vmess",
       "tag": "🇯🇵 日本 (Japan) 17 - hotick",
       "server": "dog-jp.kunlun01dns.com",
-      "server_port": 21015,
+      "server_port": 21014,
       "uuid": "9464ca40-dd75-3742-a628-d931a9f413b2",
       "security": "auto"
     },
     {
       "type": "hysteria2",
       "tag": "🇯🇵 日本 (Japan) 18 - hotick",
-      "server": "129.225.181.46",
+      "server": "8.211.175.236",
       "server_port": 8443,
-      "password": "oracle_hy2_pass_2026",
+      "password": "u63SxILNwtrQZ7Y1ZrFaZfsA",
       "tls": {
         "enabled": true,
         "server_name": "bing.com",
@@ -234,7 +224,7 @@
     {
       "type": "vless",
       "tag": "🇯🇵 日本 (Japan) 19 - hotick",
-      "server": "104.16.10.234",
+      "server": "104.16.10.56",
       "server_port": 443,
       "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
       "tls": {
@@ -251,84 +241,27 @@
       }
     },
     {
-      "type": "vless",
+      "type": "hysteria2",
       "tag": "🇯🇵 日本 (Japan) 20 - hotick",
-      "server": "213.183.41.31",
-      "server_port": 8463,
-      "uuid": "eb62cabf-5901-403a-aa0c-b1d9ed1b346d",
-      "tls": {
-        "enabled": true,
-        "server_name": "share.plumstatic.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/ws"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇯🇵 日本 (Japan) 21 - hotick",
-      "server": "dog-jp.kunlun01dns.com",
-      "server_port": 21016,
-      "uuid": "9464ca40-dd75-3742-a628-d931a9f413b2",
-      "security": "auto"
-    },
-    {
-      "type": "vless",
-      "tag": "🇯🇵 日本 (Japan) 22 - hotick",
-      "server": "154.31.114.162",
+      "server": "129.225.181.46",
       "server_port": 8443,
-      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
+      "password": "oracle_hy2_pass_2026",
       "tls": {
         "enabled": true,
-        "server_name": "jp3.yohototo.top",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/tyxyws",
-        "headers": {
-          "Host": "jp3.yohototo.top"
-        }
+        "server_name": "bing.com",
+        "insecure": true
       }
     },
     {
-      "type": "vless",
-      "tag": "🇯🇵 日本 (Japan) 23 - hotick",
-      "server": "155.248.175.201",
-      "server_port": 23169,
-      "uuid": "7318caa1-93d1-4a9d-c481-504599902700",
-      "flow": "xtls-rprx-vision",
+      "type": "trojan",
+      "tag": "🇯🇵 日本 (Japan) 21 - hotick",
+      "server": "193.123.160.109",
+      "server_port": 8443,
+      "password": "F3NzMNuYnG7akU2mSlBY",
       "tls": {
         "enabled": true,
-        "server_name": "djj.zjlo.top",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇯🇵 日本 (Japan) 24 - hotick",
-      "server": "djj.zjlo.top",
-      "server_port": 23169,
-      "uuid": "7318caa1-93d1-4a9d-c481-504599902700",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "djj.zjlo.top",
-        "insecure": false,
+        "server_name": "www.microsoft.com",
+        "insecure": true,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -360,10 +293,7 @@
         "🇯🇵 日本 (Japan) 18 - hotick",
         "🇯🇵 日本 (Japan) 19 - hotick",
         "🇯🇵 日本 (Japan) 20 - hotick",
-        "🇯🇵 日本 (Japan) 21 - hotick",
-        "🇯🇵 日本 (Japan) 22 - hotick",
-        "🇯🇵 日本 (Japan) 23 - hotick",
-        "🇯🇵 日本 (Japan) 24 - hotick"
+        "🇯🇵 日本 (Japan) 21 - hotick"
       ]
     },
     {
@@ -390,10 +320,7 @@
         "🇯🇵 日本 (Japan) 18 - hotick",
         "🇯🇵 日本 (Japan) 19 - hotick",
         "🇯🇵 日本 (Japan) 20 - hotick",
-        "🇯🇵 日本 (Japan) 21 - hotick",
-        "🇯🇵 日本 (Japan) 22 - hotick",
-        "🇯🇵 日本 (Japan) 23 - hotick",
-        "🇯🇵 日本 (Japan) 24 - hotick"
+        "🇯🇵 日本 (Japan) 21 - hotick"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

@@ -5,192 +5,194 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇳🇱 荷兰 (Netherlands) 01 - hotick
-  server: 109.201.152.181
+  server: 140.82.56.38
+  port: 8388
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: iOaIXNsQXVIxwmkY
+- name: 🇳🇱 荷兰 (Netherlands) 02 - hotick
+  server: 108.181.124.226
   port: 443
   udp: true
   type: ss
-  cipher: aes-128-cfb
-  password: shadowsocks
-- name: 🇳🇱 荷兰 (Netherlands) 02 - hotick
-  server: 82.38.31.181
-  port: 8080
-  udp: true
-  type: ss
   cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
+  password: 6daLqV3AjUb3
 - name: 🇳🇱 荷兰 (Netherlands) 03 - hotick
-  server: 193.29.139.198
+  server: 82.38.31.216
   port: 8080
   udp: true
   type: ss
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
 - name: 🇳🇱 荷兰 (Netherlands) 04 - hotick
-  server: 82.38.31.183
+  server: 193.29.139.168
+  port: 8080
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: QCXDxuDlTTMD7jtgHUjIoj
+- name: 🇳🇱 荷兰 (Netherlands) 05 - hotick
+  server: 82.38.31.193
   port: 8080
   udp: true
   type: ss
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
-- name: 🇳🇱 荷兰 (Netherlands) 05 - hotick
-  server: 82.38.31.47
-  port: 8080
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
 - name: 🇳🇱 荷兰 (Netherlands) 06 - hotick
-  server: 82.38.31.215
+  server: 193.29.139.223
   port: 8080
   udp: true
   type: ss
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
 - name: 🇳🇱 荷兰 (Netherlands) 07 - hotick
-  server: 82.38.31.194
-  port: 8080
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-- name: 🇳🇱 荷兰 (Netherlands) 08 - hotick
-  server: 82.38.31.39
-  port: 8080
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 🇳🇱 荷兰 (Netherlands) 09 - hotick
-  server: 82.38.31.66
-  port: 8080
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 🇳🇱 荷兰 (Netherlands) 10 - hotick
-  server: 82.38.31.202
-  port: 8080
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-- name: 🇳🇱 荷兰 (Netherlands) 11 - hotick
-  server: 193.29.139.234
-  port: 8080
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 4a2rfixophdjffa8KVA4Aa
-- name: 🇳🇱 荷兰 (Netherlands) 12 - hotick
-  server: 82.38.31.206
-  port: 8080
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-- name: 🇳🇱 荷兰 (Netherlands) 13 - hotick
-  server: 82.38.31.35
-  port: 8080
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 🇳🇱 荷兰 (Netherlands) 14 - hotick
-  server: 82.38.31.156
-  port: 8080
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 🇳🇱 荷兰 (Netherlands) 15 - hotick
   server: 193.29.139.132
   port: 8080
   udp: true
   type: ss
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
-- name: 🇳🇱 荷兰 (Netherlands) 16 - hotick
-  server: 82.38.31.178
-  port: 8080
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-- name: 🇳🇱 荷兰 (Netherlands) 17 - hotick
-  server: 82.38.31.46
+- name: 🇳🇱 荷兰 (Netherlands) 08 - hotick
+  server: 82.38.31.62
   port: 8080
   udp: true
   type: ss
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 🇳🇱 荷兰 (Netherlands) 18 - hotick
+- name: 🇳🇱 荷兰 (Netherlands) 09 - hotick
+  server: 82.38.31.182
+  port: 8080
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+- name: 🇳🇱 荷兰 (Netherlands) 10 - hotick
+  server: 82.38.31.185
+  port: 8080
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+- name: 🇳🇱 荷兰 (Netherlands) 11 - hotick
+  server: 82.38.31.39
+  port: 8080
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+- name: 🇳🇱 荷兰 (Netherlands) 12 - hotick
+  server: 82.38.31.203
+  port: 8080
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+- name: 🇳🇱 荷兰 (Netherlands) 13 - hotick
+  server: 82.38.31.49
+  port: 8080
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+- name: 🇳🇱 荷兰 (Netherlands) 14 - hotick
   server: 82.38.31.165
   port: 443
   udp: true
   type: ss
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 🇳🇱 荷兰 (Netherlands) 19 - hotick
-  server: 82.38.31.213
+- name: 🇳🇱 荷兰 (Netherlands) 15 - hotick
+  server: 82.38.31.211
   port: 8080
   udp: true
   type: ss
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
+- name: 🇳🇱 荷兰 (Netherlands) 16 - hotick
+  server: 178.83.185.156
+  port: 8080
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+- name: 🇳🇱 荷兰 (Netherlands) 17 - hotick
+  server: 82.38.31.212
+  port: 8080
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+- name: 🇳🇱 荷兰 (Netherlands) 18 - hotick
+  server: 82.38.31.207
+  port: 8080
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+- name: 🇳🇱 荷兰 (Netherlands) 19 - hotick
+  server: 82.38.31.46
+  port: 8080
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
 - name: 🇳🇱 荷兰 (Netherlands) 20 - hotick
-  server: 82.38.31.189
+  server: 82.38.31.180
   port: 8080
   udp: true
   type: ss
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
 - name: 🇳🇱 荷兰 (Netherlands) 21 - hotick
+  server: 82.38.31.200
+  port: 8080
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+- name: 🇳🇱 荷兰 (Netherlands) 22 - hotick
   server: 82.38.31.61
   port: 8080
   udp: true
   type: ss
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 🇳🇱 荷兰 (Netherlands) 22 - hotick
-  server: 82.38.31.204
-  port: 8080
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
 - name: 🇳🇱 荷兰 (Netherlands) 23 - hotick
-  server: 82.38.31.186
-  port: 8080
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-- name: 🇳🇱 荷兰 (Netherlands) 24 - hotick
-  server: 82.38.31.162
-  port: 443
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 🇳🇱 荷兰 (Netherlands) 25 - hotick
   server: 82.38.31.198
   port: 8080
   udp: true
   type: ss
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
+- name: 🇳🇱 荷兰 (Netherlands) 24 - hotick
+  server: 82.38.31.35
+  port: 8080
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+- name: 🇳🇱 荷兰 (Netherlands) 25 - hotick
+  server: 82.38.31.162
+  port: 443
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
 - name: 🇳🇱 荷兰 (Netherlands) 26 - hotick
   server: 51.15.16.68
-  port: 8445
+  port: 2053
   udp: true
-  type: hysteria2
-  password: capadmae6e0190:moJK4Js1rEdUv1eWIqyjX1QB
-  sni: vpn.local
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: HVD1C0uyo38mMz8B
+  type: vless
+  uuid: 2e7c6265-6933-4a91-bd43-b4fd2e9566c8
+  tls: true
+  reality-opts:
+    public-key: nyBUWOwOLHOrVSomGfHaPjt-lgbSGk-XSv89voR6T3o
+    short-id: e9272cf492b43a48
+  servername: www.apple.com
+  client-fingerprint: ''
 - name: 🇳🇱 荷兰 (Netherlands) 27 - hotick
-  server: 51.158.206.26
+  server: 51.158.206.34
   port: 23576
   udp: true
   type: vless
@@ -203,18 +205,20 @@ proxies:
   servername: fuck.rkn
   client-fingerprint: chrome
 - name: 🇳🇱 荷兰 (Netherlands) 28 - hotick
-  server: 163.172.214.188
-  port: 80
+  server: 51.158.206.93
+  port: 23576
   udp: true
   type: vless
-  uuid: 40cc9b52-25b8-4cd5-8b45-715ae26e6baf
-  network: ws
-  ws-opts:
-    path: /vless/
-    headers:
-      Host: sc-thenetherlands1.09vpn.com
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  servername: fuck.rkn
+  client-fingerprint: ''
 - name: 🇳🇱 荷兰 (Netherlands) 29 - hotick
-  server: 51.158.206.96
+  server: 51.158.206.80
   port: 23576
   udp: true
   type: vless
@@ -227,7 +231,7 @@ proxies:
   servername: fuck.rkn
   client-fingerprint: chrome
 - name: 🇳🇱 荷兰 (Netherlands) 30 - hotick
-  server: 51.158.206.93
+  server: 51.158.206.29
   port: 23576
   udp: true
   type: vless
@@ -266,7 +270,7 @@ proxies:
   servername: fuck.rkn
   client-fingerprint: chrome
 - name: 🇳🇱 荷兰 (Netherlands) 33 - hotick
-  server: 51.158.206.8
+  server: 51.158.206.26
   port: 23576
   udp: true
   type: vless
@@ -279,20 +283,15 @@ proxies:
   servername: fuck.rkn
   client-fingerprint: chrome
 - name: 🇳🇱 荷兰 (Netherlands) 34 - hotick
-  server: 51.158.206.25
-  port: 23576
+  server: 62.212.79.76
+  port: 443
   udp: true
-  type: vless
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  servername: fuck.rkn
-  client-fingerprint: chrome
+  type: hysteria2
+  password: d3895603-3164-4003-b85c-70f171ab30b5
+  sni: 62-212-79-76.sslip.io
+  skip-cert-verify: false
 - name: 🇳🇱 荷兰 (Netherlands) 35 - hotick
-  server: 51.158.206.86
+  server: 51.158.206.19
   port: 23576
   udp: true
   type: vless
@@ -305,48 +304,6 @@ proxies:
   servername: fuck.rkn
   client-fingerprint: chrome
 - name: 🇳🇱 荷兰 (Netherlands) 36 - hotick
-  server: 51.15.16.68
-  port: 8444
-  udp: true
-  type: hysteria2
-  password: capadmae6e0190:moJK4Js1rEdUv1eWIqyjX1QB
-  sni: vpn.local
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: HVD1C0uyo38mMz8B
-- name: 🇳🇱 荷兰 (Netherlands) 37 - hotick
-  server: 171.22.183.158
-  port: 42848
-  udp: true
-  type: hysteria2
-  password: 04920673-035c-410d-94e4-5b1469d3fb6f
-  sni: 171.22.183.158
-  skip-cert-verify: false
-- name: 🇳🇱 荷兰 (Netherlands) 38 - hotick
-  server: 51.158.206.98
-  port: 23576
-  udp: true
-  type: vless
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  servername: fuck.rkn
-  client-fingerprint: chrome
-- name: 🇳🇱 荷兰 (Netherlands) 39 - hotick
-  server: 209.38.42.238
-  port: 1270
-  udp: true
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: xmfhlpy.com
-  skip-cert-verify: false
-- name: 🇳🇱 荷兰 (Netherlands) 40 - hotick
   server: 188.166.81.135
   port: 1270
   udp: true
@@ -357,8 +314,8 @@ proxies:
   tls: true
   servername: xmfhlpy.com
   skip-cert-verify: false
-- name: 🇳🇱 荷兰 (Netherlands) 41 - hotick
-  server: 51.158.206.87
+- name: 🇳🇱 荷兰 (Netherlands) 37 - hotick
+  server: 51.158.206.86
   port: 23576
   udp: true
   type: vless
@@ -370,39 +327,25 @@ proxies:
     short-id: '01'
   servername: fuck.rkn
   client-fingerprint: chrome
-- name: 🇳🇱 荷兰 (Netherlands) 42 - hotick
+- name: 🇳🇱 荷兰 (Netherlands) 38 - hotick
+  server: 212.34.137.105
+  port: 443
+  udp: true
+  type: hysteria2
+  password: 549766c3-fa5f-471e-8031-ffc1f8d5064f
+  sni: shorts.blog-forme.ru
+  skip-cert-verify: true
+- name: 🇳🇱 荷兰 (Netherlands) 39 - hotick
   server: 51.15.16.68
-  port: 2053
+  port: 8444
   udp: true
-  type: vless
-  uuid: 2e7c6265-6933-4a91-bd43-b4fd2e9566c8
-  tls: true
-  reality-opts:
-    public-key: nyBUWOwOLHOrVSomGfHaPjt-lgbSGk-XSv89voR6T3o
-    short-id: e9272cf492b43a48
-  servername: www.apple.com
-  client-fingerprint: chrome
-- name: 🇳🇱 荷兰 (Netherlands) 43 - hotick
-  server: 82.38.31.62
-  port: 8080
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 🇳🇱 荷兰 (Netherlands) 44 - hotick
-  server: 51.158.206.20
-  port: 23576
-  udp: true
-  type: vless
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  servername: fuck.rkn
-  client-fingerprint: chrome
-- name: 🇳🇱 荷兰 (Netherlands) 45 - hotick
+  type: hysteria2
+  password: capadmae6e0190:moJK4Js1rEdUv1eWIqyjX1QB
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: HVD1C0uyo38mMz8B
+- name: 🇳🇱 荷兰 (Netherlands) 40 - hotick
   server: 51.158.206.97
   port: 23576
   udp: true
@@ -415,8 +358,8 @@ proxies:
     short-id: '01'
   servername: fuck.rkn
   client-fingerprint: chrome
-- name: 🇳🇱 荷兰 (Netherlands) 46 - hotick
-  server: 51.158.206.34
+- name: 🇳🇱 荷兰 (Netherlands) 41 - hotick
+  server: 51.158.206.20
   port: 23576
   udp: true
   type: vless
@@ -428,30 +371,33 @@ proxies:
     short-id: '01'
   servername: fuck.rkn
   client-fingerprint: chrome
-- name: 🇳🇱 荷兰 (Netherlands) 47 - hotick
-  server: 147.45.149.88
-  port: 8443
-  udp: true
-  type: hysteria2
-  password: NL2026hy
-  sni: nl.nobelchat.ru
-  skip-cert-verify: false
-  obfs: salamander
-  obfs-password: SalamanderNL2026
-- name: 🇳🇱 荷兰 (Netherlands) 48 - hotick
-  server: 147.45.61.144
-  port: 443
+- name: 🇳🇱 荷兰 (Netherlands) 42 - hotick
+  server: 51.158.206.8
+  port: 23576
   udp: true
   type: vless
-  uuid: 04812b68-47ad-48ee-b96d-ab9127679634
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: tmiOsPsVgiWU7usQWetCpVdEp3ZTWl9tPY-r399JdCs
-    short-id: b725584749527b07
-  servername: s2.frenchymyrsep.click
-  client-fingerprint: ''
-- name: 🇳🇱 荷兰 (Netherlands) 49 - hotick
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  servername: fuck.rkn
+  client-fingerprint: chrome
+- name: 🇳🇱 荷兰 (Netherlands) 43 - hotick
+  server: 51.158.206.98
+  port: 23576
+  udp: true
+  type: vless
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  servername: fuck.rkn
+  client-fingerprint: chrome
+- name: 🇳🇱 荷兰 (Netherlands) 44 - hotick
   server: 51.158.206.12
   port: 23576
   udp: true
@@ -464,51 +410,39 @@ proxies:
     short-id: '01'
   servername: fuck.rkn
   client-fingerprint: chrome
-- name: 🇳🇱 荷兰 (Netherlands) 50 - hotick
-  server: 212.34.137.105
-  port: 443
-  udp: true
-  type: hysteria2
-  password: 549766c3-fa5f-471e-8031-ffc1f8d5064f
-  sni: shorts.blog-forme.ru
-  skip-cert-verify: false
-- name: 🇳🇱 荷兰 (Netherlands) 51 - hotick
-  server: 185.200.199.179
-  port: 54706
-  udp: true
-  type: hysteria2
-  password: Cqx5aT9Zux
-  sni: 185.200.199.179
-  skip-cert-verify: false
-- name: 🇳🇱 荷兰 (Netherlands) 52 - hotick
-  server: 130.78.30.147
+- name: 🇳🇱 荷兰 (Netherlands) 45 - hotick
+  server: 144.31.203.145
   port: 443
   udp: true
   type: vless
-  uuid: 352a250d-080b-47b5-b7db-f9f8fa31c551
+  uuid: f4b08bf1-d9bd-4755-aa88-ba922282c608
   flow: xtls-rprx-vision
   tls: true
-  servername: 105ky37.virtual-network.lol
-  skip-cert-verify: false
+  reality-opts:
+    public-key: MAcch2LXcj3xo0ZZQIBvxS4GptpZ9ipzFNNn2BUa6mg
+    short-id: a54ec85c94547b17
+  servername: nemicro543.aidating.am
   client-fingerprint: firefox
-- name: 🇳🇱 荷兰 (Netherlands) 53 - hotick
-  server: 94.183.164.119
-  port: 24403
+- name: 🇳🇱 荷兰 (Netherlands) 46 - hotick
+  server: 51.15.16.68
+  port: 8445
   udp: true
   type: hysteria2
-  password: 549766c3-fa5f-471e-8031-ffc1f8d5064f
-  sni: docs.blog-forme.ru
-  skip-cert-verify: false
-- name: 🇳🇱 荷兰 (Netherlands) 54 - hotick
-  server: 66.163.127.215
-  port: 443
+  password: capadmae6e0190:moJK4Js1rEdUv1eWIqyjX1QB
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: HVD1C0uyo38mMz8B
+- name: 🇳🇱 荷兰 (Netherlands) 47 - hotick
+  server: 171.22.183.158
+  port: 42848
   udp: true
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: courses.indyourperfectremotetechjobfromthecomfortofhome.com
+  type: hysteria2
+  password: 04920673-035c-410d-94e4-5b1469d3fb6f
+  sni: 171.22.183.158
   skip-cert-verify: false
-- name: 🇳🇱 荷兰 (Netherlands) 55 - hotick
-  server: 51.158.206.80
+- name: 🇳🇱 荷兰 (Netherlands) 48 - hotick
+  server: 51.158.206.25
   port: 23576
   udp: true
   type: vless
@@ -520,20 +454,81 @@ proxies:
     short-id: '01'
   servername: fuck.rkn
   client-fingerprint: chrome
-- name: 🇳🇱 荷兰 (Netherlands) 56 - hotick
-  server: free-amsterdam-node-1.cloudwidecdn.com
-  port: 443
+- name: 🇳🇱 荷兰 (Netherlands) 49 - hotick
+  server: 51.158.206.96
+  port: 23576
   udp: true
   type: vless
-  uuid: 44ae52b9-76fc-444d-8e43-186b4384b80a
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: PryGoq51ilG0eLUPl9i0xCvmk1xpwkyFSr_tG4GNLlU
-    short-id: 1d86d17709852910
-  servername: www.apple.com
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  servername: fuck.rkn
   client-fingerprint: chrome
-- name: 🇳🇱 荷兰 (Netherlands) 57 - hotick
+- name: 🇳🇱 荷兰 (Netherlands) 50 - hotick
+  server: 82.38.31.66
+  port: 8080
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+- name: 🇳🇱 荷兰 (Netherlands) 51 - hotick
+  server: 185.200.199.179
+  port: 54706
+  udp: true
+  type: hysteria2
+  password: Cqx5aT9Zux
+  sni: 185.200.199.179
+  skip-cert-verify: false
+- name: 🇳🇱 荷兰 (Netherlands) 52 - hotick
+  server: 98.98.132.110
+  port: 443
+  udp: true
+  type: vless
+  uuid: e2f43a75-e683-4d09-96e8-3ad1f2e57100
+  tls: true
+  servername: a1116.afl7t8f.com
+  skip-cert-verify: true
+  client-fingerprint: chrome
+  network: grpc
+  grpc-opts:
+    grpc-service-name: 2e7d5cf6a7e50c564bfddf62c87e02e1
+- name: 🇳🇱 荷兰 (Netherlands) 53 - hotick
+  server: 51.158.206.87
+  port: 23576
+  udp: true
+  type: vless
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  servername: fuck.rkn
+  client-fingerprint: chrome
+- name: 🇳🇱 荷兰 (Netherlands) 54 - hotick
+  server: free-server.techsonic.dev
+  port: 443
+  udp: true
+  type: vless
+  uuid: 398d124d-ed77-498e-acb6-be4a2c5d182a
+  tls: true
+  servername: android.googleapis.com
+  skip-cert-verify: true
+  client-fingerprint: chrome
+- name: 🇳🇱 荷兰 (Netherlands) 55 - hotick
+  server: 147.45.149.88
+  port: 8443
+  udp: true
+  type: hysteria2
+  password: NL2026hy
+  sni: nl.nobelchat.ru
+  skip-cert-verify: false
+  obfs: salamander
+  obfs-password: SalamanderNL2026
+- name: 🇳🇱 荷兰 (Netherlands) 56 - hotick
   server: 5.129.235.85
   port: 443
   udp: true
@@ -541,65 +536,50 @@ proxies:
   password: gf1:gfhysteria2024
   sni: www.linux.com
   skip-cert-verify: true
+- name: 🇳🇱 荷兰 (Netherlands) 57 - hotick
+  server: 109.201.152.181
+  port: 443
+  udp: true
+  type: ss
+  cipher: aes-128-cfb
+  password: shadowsocks
 - name: 🇳🇱 荷兰 (Netherlands) 58 - hotick
-  server: 130.12.242.106
+  server: 94.183.164.119
+  port: 24403
+  udp: true
+  type: hysteria2
+  password: 549766c3-fa5f-471e-8031-ffc1f8d5064f
+  sni: docs.blog-forme.ru
+  skip-cert-verify: false
+- name: 🇳🇱 荷兰 (Netherlands) 59 - hotick
+  server: 82.38.31.176
+  port: 8080
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+- name: 🇳🇱 荷兰 (Netherlands) 60 - hotick
+  server: 87.199.205.28
   port: 443
   udp: true
   type: vless
-  uuid: bc058e69-0444-4c7b-98da-bd67f0b143da
+  uuid: 501a2da5-cb22-4a3f-915e-e3b821d1d62d
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: vnjp7zIK2H3CGdjSis_79KXqS6IG-opmpbETPUD-EC8
-    short-id: 15affa0af66dfc79
-  servername: deepl.com
-  client-fingerprint: firefox
-- name: 🇳🇱 荷兰 (Netherlands) 59 - hotick
-  server: SC-TheNetherlands2.09vpn.com
-  port: 80
-  udp: true
-  type: vless
-  uuid: e73df646-1f62-41bf-8c50-653497d603d0
-  network: ws
-  ws-opts:
-    path: /vless/
-    headers:
-      Host: SC-TheNetherlands2.09vpn.com
-- name: 🇳🇱 荷兰 (Netherlands) 60 - hotick
-  server: 45.95.232.233
-  port: 8446
-  udp: true
-  type: vless
-  uuid: dac0e736-5c69-4b7c-8b1d-27cbbc3bd948
-  tls: true
-  reality-opts:
-    public-key: XxWn04baea-nyjxLud3mjo15Xz1DNwlDOOken4qHNVA
-    short-id: 555ac69b22424282
-  servername: 1c.hlclub.tech
-  client-fingerprint: firefox
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
+    public-key: W-9zyiOq287RtXVTZlTFbSDJ0Mx8joyBLJoA7ZE7eBw
+    short-id: ef1d3554c652a436
+  servername: vkvd754.okcdn.ru
+  client-fingerprint: chrome
 - name: 🇳🇱 荷兰 (Netherlands) 61 - hotick
-  server: 163.172.213.174
-  port: 80
+  server: 94.183.164.119
+  port: 24414
   udp: true
-  type: vless
-  uuid: e73df646-1f62-41bf-8c50-653497d603d0
-  network: ws
-  ws-opts:
-    path: /vless/
-    headers:
-      Host: SC-TheNetherlands2.09vpn.com
-- name: 🇳🇱 荷兰 (Netherlands) 62 - hotick
-  server: leviko-nl8252.shopingggg.ir
-  port: 443
-  udp: true
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: indyourperfectremotetechjobfromthecomfortofhome.com
+  type: hysteria2
+  password: 549766c3-fa5f-471e-8031-ffc1f8d5064f
+  sni: harbor.blog-forme.ru
   skip-cert-verify: false
-- name: 🇳🇱 荷兰 (Netherlands) 63 - hotick
+- name: 🇳🇱 荷兰 (Netherlands) 62 - hotick
   server: 201.51.11.65
   port: 443
   udp: true
@@ -611,22 +591,44 @@ proxies:
     public-key: GiDgVRVYrTkv1mZJeFVWkr736Iey2kqLM6L0eUbffV8
   servername: absolute-disaster.org
   client-fingerprint: chrome
-- name: 🇳🇱 荷兰 (Netherlands) 64 - hotick
-  server: 66.163.127.225
+- name: 🇳🇱 荷兰 (Netherlands) 63 - hotick
+  server: 171.22.183.167
   port: 443
   udp: true
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: cdn.indyourperfectremotetechjobfromthecomfortofhome.com
+  type: vless
+  uuid: 04920673-035c-410d-94e4-5b1469d3fb6f
+  flow: xtls-rprx-vision
+  tls: true
+  servername: 171.22.183.167
   skip-cert-verify: false
-- name: 🇳🇱 荷兰 (Netherlands) 65 - hotick
-  server: 94.183.164.119
-  port: 24414
+- name: 🇳🇱 荷兰 (Netherlands) 64 - hotick
+  server: 167.17.70.66
+  port: 443
   udp: true
-  type: hysteria2
-  password: 549766c3-fa5f-471e-8031-ffc1f8d5064f
-  sni: harbor.blog-forme.ru
+  type: vless
+  uuid: 364D2D52-E61E-4E52-80EC-2BC6BDF15349
+  tls: true
+  servername: fr-free.fastestrelay.com
   skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /700gvl
+    headers:
+      Host: fr-free.fastestrelay.com
+- name: 🇳🇱 荷兰 (Netherlands) 65 - hotick
+  server: 179.254.115.118
+  port: 443
+  udp: true
+  type: vless
+  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: VZS639V1i-35g7VXb9EoTYL-Srm7858sxcvFAunncmA
+    short-id: 8d0d0679f42ffd98
+  servername: 8a2e72t.nl11.h1clayd.click
+  client-fingerprint: firefox
 - name: 🇳🇱 荷兰 (Netherlands) 66 - hotick
   server: 179.254.115.118
   port: 443
@@ -640,15 +642,20 @@ proxies:
   servername: 15d7fft.nl11.h1clayd.click
   client-fingerprint: firefox
 - name: 🇳🇱 荷兰 (Netherlands) 67 - hotick
-  server: 66.163.127.154
+  server: free-amsterdam-node-1.cloudwidecdn.com
   port: 443
   udp: true
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: www.indyourperfectremotetechjobfromthecomfortofhome.com
-  skip-cert-verify: false
+  type: vless
+  uuid: 44ae52b9-76fc-444d-8e43-186b4384b80a
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: PryGoq51ilG0eLUPl9i0xCvmk1xpwkyFSr_tG4GNLlU
+    short-id: 1d86d17709852910
+  servername: www.apple.com
+  client-fingerprint: edge
 - name: 🇳🇱 荷兰 (Netherlands) 68 - hotick
-  server: 132.243.67.224
+  server: 13.141.37.245
   port: 443
   udp: true
   type: vless
@@ -658,38 +665,51 @@ proxies:
     public-key: PD8Jdlg3xB9QY--jwQjp8PFPzCS8-Oryw6-HWBcHMFU
     short-id: d3bd772514c87d28
   servername: 717252g.nl8.h1clayd.click
-  client-fingerprint: firefox
+  client-fingerprint: chrome
   network: grpc
   grpc-opts:
     grpc-service-name: 204adda7e3da
 - name: 🇳🇱 荷兰 (Netherlands) 69 - hotick
-  server: 66.163.127.9
-  port: 443
-  udp: true
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: resources.indyourperfectremotetechjobfromthecomfortofhome.com
-  skip-cert-verify: false
-- name: 🇳🇱 荷兰 (Netherlands) 70 - hotick
-  server: 195.206.235.119
+  server: 130.12.242.106
   port: 443
   udp: true
   type: vless
-  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
+  uuid: bc058e69-0444-4c7b-98da-bd67f0b143da
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: VZS639V1i-35g7VXb9EoTYL-Srm7858sxcvFAunncmA
-    short-id: 8d0d0679f42ffd98
-  servername: 8a2e72t.nl11.h1clayd.click
+    public-key: vnjp7zIK2H3CGdjSis_79KXqS6IG-opmpbETPUD-EC8
+    short-id: 15affa0af66dfc79
+  servername: deepl.com
   client-fingerprint: chrome
-- name: 🇳🇱 荷兰 (Netherlands) 71 - hotick
+- name: 🇳🇱 荷兰 (Netherlands) 70 - hotick
   server: 51.15.19.206
   port: 8443
   udp: true
   type: hysteria2
   password: HowdyHysteria2023w0W
-  sni: t.me
+  sni: hysteria.udpgw.com
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: HysteriaHowdy
+- name: 🇳🇱 荷兰 (Netherlands) 71 - hotick
+  server: 85.8.201.186
+  port: 443
+  udp: true
+  type: vless
+  uuid: 7aa77858-f235-000c-9434-7ab060848b17
+  flow: xtls-rprx-vision
+  tls: true
+  servername: cdn.mornismp.ru
+  skip-cert-verify: false
+  client-fingerprint: chrome
+- name: 🇳🇱 荷兰 (Netherlands) 72 - hotick
+  server: hysteria.udpgw.com
+  port: 8443
+  udp: true
+  type: hysteria2
+  password: HowdyHysteria2023w0W
+  sni: sni-here.com
   skip-cert-verify: true
   obfs: salamander
   obfs-password: HysteriaHowdy
@@ -769,6 +789,7 @@ proxy-groups:
   - 🇳🇱 荷兰 (Netherlands) 69 - hotick
   - 🇳🇱 荷兰 (Netherlands) 70 - hotick
   - 🇳🇱 荷兰 (Netherlands) 71 - hotick
+  - 🇳🇱 荷兰 (Netherlands) 72 - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -845,5 +866,6 @@ proxy-groups:
   - 🇳🇱 荷兰 (Netherlands) 69 - hotick
   - 🇳🇱 荷兰 (Netherlands) 70 - hotick
   - 🇳🇱 荷兰 (Netherlands) 71 - hotick
+  - 🇳🇱 荷兰 (Netherlands) 72 - hotick
 rules:
 - MATCH,PROXIES
