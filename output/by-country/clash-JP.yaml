@@ -5,36 +5,36 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇯🇵 日本 (Japan) 01 - hotick
-  server: 149.22.87.241
-  port: 443
-  udp: true
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: 🇯🇵 日本 (Japan) 02 - hotick
   server: 149.22.87.204
   port: 443
   udp: true
   type: ss
   cipher: aes-128-gcm
   password: shadowsocks
-- name: 🇯🇵 日本 (Japan) 03 - hotick
-  server: 8.216.4.158
+- name: 🇯🇵 日本 (Japan) 02 - hotick
+  server: 8.216.18.189
   port: 5555
   udp: true
   type: ss
   cipher: aes-256-gcm
   password: '123456'
+- name: 🇯🇵 日本 (Japan) 03 - hotick
+  server: 149.22.87.241
+  port: 443
+  udp: true
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
 - name: 🇯🇵 日本 (Japan) 04 - hotick
-  server: 8.216.9.217
+  server: 8.216.18.139
   port: 5555
   udp: true
   type: ss
   cipher: aes-256-gcm
   password: '123456'
 - name: 🇯🇵 日本 (Japan) 05 - hotick
-  server: 8.216.17.86
-  port: 6666
+  server: 47.91.15.111
+  port: 5555
   udp: true
   type: ss
   cipher: aes-256-gcm
@@ -47,24 +47,27 @@ proxies:
   cipher: aes-128-gcm
   password: shadowsocks
 - name: 🇯🇵 日本 (Japan) 07 - hotick
+  server: 8.209.197.190
+  port: 5555
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: '123456'
+- name: 🇯🇵 日本 (Japan) 08 - hotick
   server: 168.138.205.100
   port: 53758
   udp: true
   type: ss
   cipher: aes-128-gcm
   password: Bwlqh7GcFB
-- name: 🇯🇵 日本 (Japan) 08 - hotick
-  server: 161.33.20.255
-  port: 8880
-  udp: true
-  type: vmess
-  uuid: e0856508-d693-450a-a099-455091dc4f25
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-opts:
-    path: e0856508-d693-450a-a099-455091dc4f25-vm
 - name: 🇯🇵 日本 (Japan) 09 - hotick
+  server: 8.211.129.80
+  port: 5555
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: '123456'
+- name: 🇯🇵 日本 (Japan) 10 - hotick
   server: 158.101.151.157
   port: 443
   udp: true
@@ -77,7 +80,7 @@ proxies:
     short-id: 684c7531e599dec0
   servername: www.microsoft.com
   client-fingerprint: chrome
-- name: 🇯🇵 日本 (Japan) 10 - hotick
+- name: 🇯🇵 日本 (Japan) 11 - hotick
   server: 168.110.63.247
   port: 8081
   udp: true
@@ -88,47 +91,40 @@ proxies:
   network: ws
   ws-opts:
     path: /vless
-- name: 🇯🇵 日本 (Japan) 11 - hotick
-  server: zfd-jpv2.kunlun01dns.com
-  port: 16121
-  udp: true
-  type: vmess
-  uuid: 0802ac03-7973-39ef-a019-ba02de6c01e1
-  alterId: 0
-  cipher: auto
 - name: 🇯🇵 日本 (Japan) 12 - hotick
-  server: 8.211.175.236
-  port: 8443
-  udp: true
-  type: hysteria2
-  password: u63SxILNwtrQZ7Y1ZrFaZfsA
-  sni: bing.com
-  skip-cert-verify: true
-- name: 🇯🇵 日本 (Japan) 13 - hotick
-  server: dog-jp.kunlun01dns.com
-  port: 21016
+  server: 161.33.20.255
+  port: 8880
   udp: true
   type: vmess
-  uuid: 9464ca40-dd75-3742-a628-d931a9f413b2
+  uuid: e0856508-d693-450a-a099-455091dc4f25
   alterId: 0
   cipher: auto
-- name: 🇯🇵 日本 (Japan) 14 - hotick
-  server: 149.28.29.156
+  network: ws
+  ws-opts:
+    path: /e0856508-d693-450a-a099-455091dc4f25-vm
+- name: 🇯🇵 日本 (Japan) 13 - hotick
+  server: jpg1radio.jumpernode.site
   port: 443
   udp: true
   type: vless
-  uuid: aa1a9052-720f-4bb0-92be-21b6baf9f386
+  uuid: f45ccbaa-521d-4d3a-a4e7-13a3094f2b90
+  flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: qgCGmxD1lyAEIGZVEk4buAMGcvGvHLl9wGxPQlHCYX0
-    short-id: e535df57
-  servername: itunes.apple.com
+    public-key: dtNeCNIcRgs8_EKIJg_oTJEsiA8KBU-QaE1yVpkoX0I
+    short-id: 949ddd6bacbc
+  servername: www.cdn.amazon.com
   client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /ws
-    headers:
-      Host: itunes.apple.com
+- name: 🇯🇵 日本 (Japan) 14 - hotick
+  server: 50.7.159.242
+  port: 443
+  udp: true
+  type: vless
+  uuid: 8840fac2-5361-4cb6-b887-cd1b95092394
+  tls: true
+  servername: jp.reddotcorp.org
+  skip-cert-verify: false
+  client-fingerprint: firefox
 - name: 🇯🇵 日本 (Japan) 15 - hotick
   server: 198.13.53.39
   port: 443
@@ -147,14 +143,31 @@ proxies:
     headers:
       Host: itunes.apple.com
 - name: 🇯🇵 日本 (Japan) 16 - hotick
+  server: 149.28.29.156
+  port: 443
+  udp: true
+  type: vless
+  uuid: aa1a9052-720f-4bb0-92be-21b6baf9f386
+  tls: true
+  reality-opts:
+    public-key: qgCGmxD1lyAEIGZVEk4buAMGcvGvHLl9wGxPQlHCYX0
+    short-id: e535df57
+  servername: itunes.apple.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: itunes.apple.com
+- name: 🇯🇵 日本 (Japan) 17 - hotick
   server: dog-jp.kunlun01dns.com
-  port: 21017
+  port: 21015
   udp: true
   type: vmess
   uuid: 9464ca40-dd75-3742-a628-d931a9f413b2
   alterId: 0
   cipher: auto
-- name: 🇯🇵 日本 (Japan) 17 - hotick
+- name: 🇯🇵 日本 (Japan) 18 - hotick
   server: 129.225.181.46
   port: 8443
   udp: true
@@ -162,20 +175,21 @@ proxies:
   password: oracle_hy2_pass_2026
   sni: bing.com
   skip-cert-verify: true
-- name: 🇯🇵 日本 (Japan) 18 - hotick
-  server: 168.138.43.75
-  port: 80
+- name: 🇯🇵 日本 (Japan) 19 - hotick
+  server: 104.16.10.234
+  port: 443
   udp: true
-  type: vmess
-  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
-  alterId: 0
-  cipher: auto
+  type: vless
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  tls: true
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /cctv13.m3u8
+    path: /tyxyws
     headers:
-      Host: jp01.a0a.xyz
-- name: 🇯🇵 日本 (Japan) 19 - hotick
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 20 - hotick
   server: 213.183.41.31
   port: 8463
   udp: true
@@ -188,21 +202,51 @@ proxies:
   network: ws
   ws-opts:
     path: /ws
-- name: 🇯🇵 日本 (Japan) 20 - hotick
-  server: 104.19.48.107
-  port: 443
+- name: 🇯🇵 日本 (Japan) 21 - hotick
+  server: dog-jp.kunlun01dns.com
+  port: 21016
+  udp: true
+  type: vmess
+  uuid: 9464ca40-dd75-3742-a628-d931a9f413b2
+  alterId: 0
+  cipher: auto
+- name: 🇯🇵 日本 (Japan) 22 - hotick
+  server: 154.31.114.162
+  port: 8443
   udp: true
   type: vless
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   tls: true
   servername: jp3.yohototo.top
   skip-cert-verify: false
-  client-fingerprint: chrome
+  client-fingerprint: firefox
   network: ws
   ws-opts:
     path: /tyxyws
     headers:
       Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 23 - hotick
+  server: 155.248.175.201
+  port: 23169
+  udp: true
+  type: vless
+  uuid: 7318caa1-93d1-4a9d-c481-504599902700
+  flow: xtls-rprx-vision
+  tls: true
+  servername: djj.zjlo.top
+  skip-cert-verify: false
+  client-fingerprint: firefox
+- name: 🇯🇵 日本 (Japan) 24 - hotick
+  server: djj.zjlo.top
+  port: 23169
+  udp: true
+  type: vless
+  uuid: 7318caa1-93d1-4a9d-c481-504599902700
+  flow: xtls-rprx-vision
+  tls: true
+  servername: djj.zjlo.top
+  skip-cert-verify: false
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
@@ -228,6 +272,10 @@ proxy-groups:
   - 🇯🇵 日本 (Japan) 18 - hotick
   - 🇯🇵 日本 (Japan) 19 - hotick
   - 🇯🇵 日本 (Japan) 20 - hotick
+  - 🇯🇵 日本 (Japan) 21 - hotick
+  - 🇯🇵 日本 (Japan) 22 - hotick
+  - 🇯🇵 日本 (Japan) 23 - hotick
+  - 🇯🇵 日本 (Japan) 24 - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -253,5 +301,9 @@ proxy-groups:
   - 🇯🇵 日本 (Japan) 18 - hotick
   - 🇯🇵 日本 (Japan) 19 - hotick
   - 🇯🇵 日本 (Japan) 20 - hotick
+  - 🇯🇵 日本 (Japan) 21 - hotick
+  - 🇯🇵 日本 (Japan) 22 - hotick
+  - 🇯🇵 日本 (Japan) 23 - hotick
+  - 🇯🇵 日本 (Japan) 24 - hotick
 rules:
 - MATCH,PROXIES

@@ -4,31 +4,38 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇨🇳 CN 01 (移动家宽) - hotick
-  server: dog-hk.kunlun01dns.com
-  port: 21021
+- name: 🇰🇷 韩国 (South Korea) 01 (家宽) - hotick
+  server: 49.254.204.133
+  port: 1774
   udp: true
-  type: vmess
-  uuid: 9464ca40-dd75-3742-a628-d931a9f413b2
-  alterId: 0
-  cipher: auto
-- name: 🇭🇰 中国香港 (Hong Kong) 02 (移动家宽) - hotick
-  server: dog-hk.kunlun01dns.com
-  port: 21022
+  type: ss
+  cipher: aes-256-cfb
+  password: 1234!@#$
+- name: 🇭🇰 中国香港 (Hong Kong) 02 (家宽) - hotick
+  server: ibsdsf.df6h451rh.xin
+  port: 443
   udp: true
-  type: vmess
-  uuid: 9464ca40-dd75-3742-a628-d931a9f413b2
-  alterId: 0
-  cipher: auto
+  type: anytls
+  password: 2902c46c8493
+  sni: docs.microsoft.com
+  skip-cert-verify: true
 - name: 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - hotick
-  server: dog-tw.kunlun01dns.com
-  port: 21035
+  server: rtifgjdr.df6h451rh.xin
+  port: 443
   udp: true
-  type: vmess
-  uuid: 9464ca40-dd75-3742-a628-d931a9f413b2
-  alterId: 0
-  cipher: auto
-- name: 🇹🇷 土耳其 (Turkey) 04 (移动家宽) - hotick
+  type: anytls
+  password: 2902c46c8493
+  sni: docs.microsoft.com
+  skip-cert-verify: true
+- name: 🇭🇰 中国香港 (Hong Kong) 04 (家宽) - hotick
+  server: 5641sdds.df6h451rh.xin
+  port: 443
+  udp: true
+  type: anytls
+  password: 0324fbc29561
+  sni: images.ctfassets.net
+  skip-cert-verify: true
+- name: 🇹🇷 土耳其 (Turkey) 05 (移动家宽) - hotick
   server: v2new.nimbaha9.ir
   port: 8080
   udp: true
@@ -39,14 +46,6 @@ proxies:
     path: /XDS45
     headers:
       Host: v2new.nimbaha9.ir
-- name: 🇹🇼 中国台湾 (Taiwan) 05 (移动家宽) - hotick
-  server: er8u54dh.df6h451rh.xin
-  port: 443
-  udp: true
-  type: anytls
-  password: 2902c46c8493
-  sni: px.ads.linkedin.com
-  skip-cert-verify: true
 - name: 🇹🇼 中国台湾 (Taiwan) 06 (家宽) - hotick
   server: mfjh645drfj1dr6j5.df6h451rh.xin
   port: 443
@@ -55,77 +54,27 @@ proxies:
   password: 0324fbc29561
   sni: px.ads.linkedin.com
   skip-cert-verify: true
-- name: 🇹🇷 土耳其 (Turkey) 07 (移动家宽) - hotick
-  server: raha.ertebatgoostar.ir
-  port: 80
-  udp: true
-  type: vless
-  uuid: 8c49bed5-dbb2-4c0d-a2f1-2577b12c6c66
-  network: ws
-  ws-opts:
-    path: /
-- name: 🇹🇼 中国台湾 (Taiwan) 08 (家宽) - hotick
-  server: dog-tw.kunlun01dns.com
-  port: 21037
-  udp: true
-  type: vmess
-  uuid: 9464ca40-dd75-3742-a628-d931a9f413b2
-  alterId: 0
-  cipher: auto
-- name: 🇹🇼 中国台湾 (Taiwan) 09 (家宽) - hotick
-  server: rtifgjdr.df6h451rh.xin
-  port: 443
-  udp: true
-  type: anytls
-  password: 2902c46c8493
-  sni: docs.microsoft.com
-  skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 10 (家宽) - hotick
-  server: ibsdsf.df6h451rh.xin
-  port: 443
-  udp: true
-  type: anytls
-  password: 2902c46c8493
-  sni: docs.microsoft.com
-  skip-cert-verify: true
-- name: 🇩🇪 德国 (Germany) 11 (移动家宽) - hotick
-  server: 8.209.117.187
-  port: 443
-  udp: true
-  type: ss
-  cipher: 2022-blake3-chacha20-poly1305
-  password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇨🇳 CN 01 (移动家宽) - hotick
-  - 🇭🇰 中国香港 (Hong Kong) 02 (移动家宽) - hotick
+  - 🇰🇷 韩国 (South Korea) 01 (家宽) - hotick
+  - 🇭🇰 中国香港 (Hong Kong) 02 (家宽) - hotick
   - 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - hotick
-  - 🇹🇷 土耳其 (Turkey) 04 (移动家宽) - hotick
-  - 🇹🇼 中国台湾 (Taiwan) 05 (移动家宽) - hotick
+  - 🇭🇰 中国香港 (Hong Kong) 04 (家宽) - hotick
+  - 🇹🇷 土耳其 (Turkey) 05 (移动家宽) - hotick
   - 🇹🇼 中国台湾 (Taiwan) 06 (家宽) - hotick
-  - 🇹🇷 土耳其 (Turkey) 07 (移动家宽) - hotick
-  - 🇹🇼 中国台湾 (Taiwan) 08 (家宽) - hotick
-  - 🇹🇼 中国台湾 (Taiwan) 09 (家宽) - hotick
-  - 🇭🇰 中国香港 (Hong Kong) 10 (家宽) - hotick
-  - 🇩🇪 德国 (Germany) 11 (移动家宽) - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇨🇳 CN 01 (移动家宽) - hotick
-  - 🇭🇰 中国香港 (Hong Kong) 02 (移动家宽) - hotick
+  - 🇰🇷 韩国 (South Korea) 01 (家宽) - hotick
+  - 🇭🇰 中国香港 (Hong Kong) 02 (家宽) - hotick
   - 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - hotick
-  - 🇹🇷 土耳其 (Turkey) 04 (移动家宽) - hotick
-  - 🇹🇼 中国台湾 (Taiwan) 05 (移动家宽) - hotick
+  - 🇭🇰 中国香港 (Hong Kong) 04 (家宽) - hotick
+  - 🇹🇷 土耳其 (Turkey) 05 (移动家宽) - hotick
   - 🇹🇼 中国台湾 (Taiwan) 06 (家宽) - hotick
-  - 🇹🇷 土耳其 (Turkey) 07 (移动家宽) - hotick
-  - 🇹🇼 中国台湾 (Taiwan) 08 (家宽) - hotick
-  - 🇹🇼 中国台湾 (Taiwan) 09 (家宽) - hotick
-  - 🇭🇰 中国香港 (Hong Kong) 10 (家宽) - hotick
-  - 🇩🇪 德国 (Germany) 11 (移动家宽) - hotick
 rules:
 - MATCH,PROXIES

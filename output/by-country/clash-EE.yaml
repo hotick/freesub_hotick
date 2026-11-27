@@ -5,14 +5,14 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇪🇪 爱沙尼亚 (Estonia) 01 - hotick
-  server: 94.159.98.82
-  port: 2053
+  server: 165.231.157.150
+  port: 8443
   udp: true
   type: vless
-  uuid: fbe22815-0718-4eae-816f-e91c67d15b54
+  uuid: 0173d52e-8e1b-4681-831e-11529677b72f
   flow: xtls-rprx-vision
   tls: true
-  servername: 94.159.98.82
+  servername: api-6b04608f.adhil.uk
   skip-cert-verify: false
   client-fingerprint: chrome
 proxy-groups:

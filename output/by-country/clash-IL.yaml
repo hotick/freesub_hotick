@@ -18,19 +18,15 @@ proxies:
   servername: www.apple.com
   client-fingerprint: chrome
 - name: 🇮🇱 以色列 (Israel) 02 - hotick
-  server: 153.56.229.218
-  port: 443
+  server: 129.159.156.109
+  port: 50160
   udp: true
-  type: vless
-  uuid: 26843758-24de-4f76-b5d0-624038e353c4
-  tls: true
-  reality-opts:
-    public-key: 3wFF83gtIA0sXj-6GGCAa--oQbSr0MVUj0FBc-0QmiE
-    short-id: e572b6579ea525d4
-  servername: 71b840t.de7.h1clayd.click
-  client-fingerprint: firefox
+  type: hysteria2
+  password: f25f19f29ce3fb53a35bf1b35b452a43
+  sni: www.bing.com
+  skip-cert-verify: true
 - name: 🇮🇱 以色列 (Israel) 03 - hotick
-  server: 77.221.157.45
+  server: 164.37.224.245
   port: 443
   udp: true
   type: vless
@@ -40,31 +36,10 @@ proxies:
     public-key: xn7KVKS5MOnsFrYrEeRS04JssBCOxh12rxegaDFyGkA
     short-id: 6d289ff0f47c0aac
   servername: 961ec0g.nl13.h1clayd.click
-  client-fingerprint: firefox
+  client-fingerprint: chrome
   network: grpc
   grpc-opts:
     grpc-service-name: 7d5abcd7d8a1
-- name: 🇮🇱 以色列 (Israel) 04 - hotick
-  server: 129.159.156.109
-  port: 50160
-  udp: true
-  type: hysteria2
-  password: f25f19f29ce3fb53a35bf1b35b452a43
-  sni: www.bing.com
-  skip-cert-verify: true
-- name: 🇮🇱 以色列 (Israel) 05 - hotick
-  server: 132.243.66.153
-  port: 443
-  udp: true
-  type: vless
-  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: MzgB17ZFbKqs8pbC3EscTzHid_ENc-k_Cp6nXl-2knw
-    short-id: 6976d670818644cc
-  servername: 4935e4t.de25.h1clayd.click
-  client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
   type: select
@@ -73,8 +48,6 @@ proxy-groups:
   - 🇮🇱 以色列 (Israel) 01 - hotick
   - 🇮🇱 以色列 (Israel) 02 - hotick
   - 🇮🇱 以色列 (Israel) 03 - hotick
-  - 🇮🇱 以色列 (Israel) 04 - hotick
-  - 🇮🇱 以色列 (Israel) 05 - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -83,7 +56,5 @@ proxy-groups:
   - 🇮🇱 以色列 (Israel) 01 - hotick
   - 🇮🇱 以色列 (Israel) 02 - hotick
   - 🇮🇱 以色列 (Israel) 03 - hotick
-  - 🇮🇱 以色列 (Israel) 04 - hotick
-  - 🇮🇱 以色列 (Israel) 05 - hotick
 rules:
 - MATCH,PROXIES

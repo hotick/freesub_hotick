@@ -16,34 +16,8 @@
       }
     },
     {
-      "type": "vmess",
-      "tag": "🇧🇷 巴西 (Brazil) 02 - hotick",
-      "server": "103.88.232.55",
-      "server_port": 1270,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "xmfhlpy.com",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇧🇷 巴西 (Brazil) 03 - hotick",
-      "server": "103.14.27.207",
-      "server_port": 1270,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "xmfhlpy.com",
-        "insecure": false
-      }
-    },
-    {
       "type": "hysteria2",
-      "tag": "🇧🇷 巴西 (Brazil) 04 - hotick",
+      "tag": "🇧🇷 巴西 (Brazil) 02 - hotick",
       "server": "150.230.229.100",
       "server_port": 20000,
       "password": "CyG0RFxMjzs41uQD4OLuHQ==",
@@ -59,11 +33,29 @@
     },
     {
       "type": "vmess",
-      "tag": "🇧🇷 巴西 (Brazil) 05 - hotick",
-      "server": "zfd-boardv2.kunlun01dns.com",
-      "server_port": 16314,
-      "uuid": "0802ac03-7973-39ef-a019-ba02de6c01e1",
-      "security": "auto"
+      "tag": "🇧🇷 巴西 (Brazil) 03 - hotick",
+      "server": "103.88.232.55",
+      "server_port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "xmfhlpy.com",
+        "insecure": false
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇧🇷 巴西 (Brazil) 04 - hotick",
+      "server": "103.14.27.207",
+      "server_port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "xmfhlpy.com",
+        "insecure": false
+      }
     },
     {
       "type": "selector",
@@ -73,8 +65,7 @@
         "🇧🇷 巴西 (Brazil) 01 - hotick",
         "🇧🇷 巴西 (Brazil) 02 - hotick",
         "🇧🇷 巴西 (Brazil) 03 - hotick",
-        "🇧🇷 巴西 (Brazil) 04 - hotick",
-        "🇧🇷 巴西 (Brazil) 05 - hotick"
+        "🇧🇷 巴西 (Brazil) 04 - hotick"
       ]
     },
     {
@@ -84,8 +75,7 @@
         "🇧🇷 巴西 (Brazil) 01 - hotick",
         "🇧🇷 巴西 (Brazil) 02 - hotick",
         "🇧🇷 巴西 (Brazil) 03 - hotick",
-        "🇧🇷 巴西 (Brazil) 04 - hotick",
-        "🇧🇷 巴西 (Brazil) 05 - hotick"
+        "🇧🇷 巴西 (Brazil) 04 - hotick"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

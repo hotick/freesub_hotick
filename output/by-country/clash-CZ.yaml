@@ -18,6 +18,19 @@ proxies:
   servername: gateway.icloud.com
   client-fingerprint: chrome
 - name: 🇨🇿 捷克 (Czech) 02 - hotick
+  server: 109.248.17.252
+  port: 443
+  udp: true
+  type: vless
+  uuid: 9000a7f3-df2a-49a8-ae56-3e7777bd32f7
+  tls: true
+  servername: v4.clequinix.globalinetforallalwaysandneverbanyoubelieveme.com
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: grpc
+  grpc-opts:
+    grpc-service-name: v4-clequinix-globalinetforallalwaysandneverbanyoubelieveme-com
+- name: 🇨🇿 捷克 (Czech) 03 - hotick
   server: 153.52.69.249
   port: 443
   udp: true
@@ -30,14 +43,6 @@ proxies:
     short-id: d5492c7a39515c65
   servername: cache-78.topp-con.xyz
   client-fingerprint: chrome
-- name: 🇨🇿 捷克 (Czech) 03 - hotick
-  server: zfd-boardv2.kunlun01dns.com
-  port: 16280
-  udp: true
-  type: vmess
-  uuid: 0802ac03-7973-39ef-a019-ba02de6c01e1
-  alterId: 0
-  cipher: auto
 proxy-groups:
 - name: PROXIES
   type: select
