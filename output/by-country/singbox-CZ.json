@@ -5,21 +5,22 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇻🇳 越南 (Vietnam) 01 - hotick",
-      "server": "103.163.24.22",
-      "server_port": 56026,
-      "uuid": "a1f0cbb8-c74a-4c27-b881-7b14d96aece1",
+      "tag": "🇨🇿 捷克 (Czech) 01 - hotick",
+      "server": "195.123.245.241",
+      "server_port": 443,
+      "uuid": "7c053ca8-38cc-45e2-930c-eda1fd66f903",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.cloudflare.com",
+        "server_name": "gateway.icloud.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "gjOKbmRb5cGDPbdz3x8xkBFL43pn3xqL-I6sALHO7ls",
-          "short_id": "99676967e6867063"
+          "public_key": "hlY5ce1UsVIgE46y5PlEZhUsSaXUnCtoDLLaGrhInjw",
+          "short_id": "23d0950d60bc0d5b"
         }
       }
     },
@@ -28,14 +29,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇻🇳 越南 (Vietnam) 01 - hotick"
+        "🇨🇿 捷克 (Czech) 01 - hotick"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇻🇳 越南 (Vietnam) 01 - hotick"
+        "🇨🇿 捷克 (Czech) 01 - hotick"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

@@ -32,6 +32,20 @@ proxies:
   network: ws
   ws-opts:
     path: /7788/about
+- name: 🇿🇦 南非 (South Africa) 04 - hotick
+  server: 16.28.28.15
+  port: 443
+  udp: true
+  type: vmess
+  uuid: 8ce18eab-fcc0-4757-b552-dbda5047ea11
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: za-a-zzy.glnyhlgc.com
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /7788/about
 proxy-groups:
 - name: PROXIES
   type: select
@@ -40,6 +54,7 @@ proxy-groups:
   - 🇿🇦 南非 (South Africa) 01 - hotick
   - 🇿🇦 南非 (South Africa) 02 - hotick
   - 🇿🇦 南非 (South Africa) 03 - hotick
+  - 🇿🇦 南非 (South Africa) 04 - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -48,5 +63,6 @@ proxy-groups:
   - 🇿🇦 南非 (South Africa) 01 - hotick
   - 🇿🇦 南非 (South Africa) 02 - hotick
   - 🇿🇦 南非 (South Africa) 03 - hotick
+  - 🇿🇦 南非 (South Africa) 04 - hotick
 rules:
 - MATCH,PROXIES

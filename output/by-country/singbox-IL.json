@@ -15,7 +15,7 @@
         "server_name": "www.apple.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
@@ -45,8 +45,28 @@
       }
     },
     {
-      "type": "hysteria2",
+      "type": "vless",
       "tag": "🇮🇱 以色列 (Israel) 03 - hotick",
+      "server": "193.148.253.75",
+      "server_port": 443,
+      "uuid": "cda0862a-0f87-4be9-8ed8-1d0c9e382839",
+      "tls": {
+        "enabled": true,
+        "server_name": "f0d7aft.nl13.h1clayd.click",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "kkCGiCQCKnkozJR1KKCRNtmdBECmThCgI9VSv7iDcWI",
+          "short_id": "8956c57cb4c4f8d2"
+        }
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇮🇱 以色列 (Israel) 04 - hotick",
       "server": "129.159.156.109",
       "server_port": 50160,
       "password": "f25f19f29ce3fb53a35bf1b35b452a43",
@@ -54,30 +74,6 @@
         "enabled": true,
         "server_name": "www.bing.com",
         "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇮🇱 以色列 (Israel) 04 - hotick",
-      "server": "196.245.153.156",
-      "server_port": 443,
-      "uuid": "cda0862a-0f87-4be9-8ed8-1d0c9e382839",
-      "tls": {
-        "enabled": true,
-        "server_name": "961ec0g.nl17.h1clayd.click",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "xn7KVKS5MOnsFrYrEeRS04JssBCOxh12rxegaDFyGkA",
-          "short_id": "6d289ff0f47c0aac"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "7d5abcd7d8a1"
       }
     },
     {

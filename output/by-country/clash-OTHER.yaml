@@ -5,20 +5,23 @@ mode: rule
 log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - hotick
-  server: 188.114.99.137
-  port: 80
+  server: cf.877771.xyz
+  port: 443
   udp: true
   type: vmess
   uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
   alterId: 0
   cipher: auto
+  tls: true
+  servername: vmess.lbw666.dpdns.org
+  skip-cert-verify: false
   network: ws
   ws-opts:
     path: /ws
     headers:
       Host: vmess.lbw666.dpdns.org
 - name: 🌐 其他地区 (Other) 02 - hotick
-  server: 104.21.7.133
+  server: cf.877771.xyz
   port: 443
   udp: true
   type: vmess
@@ -31,10 +34,8 @@ proxies:
   network: ws
   ws-opts:
     path: /ws
-    headers:
-      Host: vmess.lbw666.dpdns.org
 - name: 🌐 其他地区 (Other) 03 - hotick
-  server: 104.21.7.133
+  server: cf.877771.xyz
   port: 443
   udp: true
   type: vmess
@@ -46,24 +47,41 @@ proxies:
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /ws
+    path: /ws?ed=2048
     headers:
       Host: vmess.lbw666.dpdns.org
 - name: 🌐 其他地区 (Other) 04 - hotick
-  server: 104.27.97.42
-  port: 8443
+  server: 104.27.0.1
+  port: 443
   udp: true
-  type: vless
-  uuid: 3692de53-42e6-4aed-a522-40ec355dcd2f
+  type: vmess
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  alterId: 0
+  cipher: auto
   tls: true
-  servername: free.sahanwickramasinghe.com
+  servername: vmess.lbw666.dpdns.org
   skip-cert-verify: false
-  client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /
+    path: /ws
     headers:
-      Host: free.sahanwickramasinghe.com
+      Host: vmess.lbw666.dpdns.org
+- name: 🌐 其他地区 (Other) 05 - hotick
+  server: 104.27.0.1
+  port: 443
+  udp: true
+  type: vmess
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: vmess.lbw666.dpdns.org
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: vmess.lbw666.dpdns.org
 proxy-groups:
 - name: PROXIES
   type: select
@@ -73,6 +91,7 @@ proxy-groups:
   - 🌐 其他地区 (Other) 02 - hotick
   - 🌐 其他地区 (Other) 03 - hotick
   - 🌐 其他地区 (Other) 04 - hotick
+  - 🌐 其他地区 (Other) 05 - hotick
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -82,5 +101,6 @@ proxy-groups:
   - 🌐 其他地区 (Other) 02 - hotick
   - 🌐 其他地区 (Other) 03 - hotick
   - 🌐 其他地区 (Other) 04 - hotick
+  - 🌐 其他地区 (Other) 05 - hotick
 rules:
 - MATCH,PROXIES
